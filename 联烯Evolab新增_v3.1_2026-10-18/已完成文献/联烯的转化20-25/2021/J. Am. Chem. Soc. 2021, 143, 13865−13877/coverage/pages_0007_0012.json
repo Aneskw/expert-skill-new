@@ -1,0 +1,220 @@
+{
+  "document_id": "doc_dfedfa74f4eea49f",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 5A",
+          "finding": "One two-step model exo-allene experiment: Conditions B then NaBO3·4H2O, 4la 69% over two steps, 4:5 >95:5.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page7:image",
+            "doc_dfedfa74f4eea49f:page7:text"
+          ]
+        },
+        {
+          "region": "Figure 5B",
+          "finding": "Two separate steroid exo-allene alkylborations recorded: (E)-4ma 90% and (E)-4mb 78%, each E/Z >95:5 and 4:5 >95:5; 4mb has an X-ray model.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page7:image",
+            "doc_dfedfa74f4eea49f:page7:text"
+          ]
+        },
+        {
+          "region": "Figure 5C and adjacent prose",
+          "finding": "One formaldehyde allylboration of (E)-4ma recorded: 9e 84%, dr >95:5, with depicted stereochemistry assigned by X-ray.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page7:image",
+            "doc_dfedfa74f4eea49f:page7:text"
+          ]
+        },
+        {
+          "region": "right column and lower-left mechanism discussion",
+          "finding": "Proposed catalytic cycle discussion begins; recorded with Figure 6A as a proposed mechanism, not as an observed experiment.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page7:image",
+            "doc_dfedfa74f4eea49f:page7:text",
+            "doc_dfedfa74f4eea49f:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_dfedfa74f4eea49f:figure5A_exo_allene_4la",
+        "doc_dfedfa74f4eea49f:figure5B_steroid_4ma",
+        "doc_dfedfa74f4eea49f:figure5B_steroid_4mb",
+        "doc_dfedfa74f4eea49f:figure5C_formaldehyde_9e",
+        "doc_dfedfa74f4eea49f:figure6A_proposed_catalytic_cycle"
+      ],
+      "unresolved": [
+        "Figure 5 yields/selectivities do not print analytical measurement bases.",
+        "Complex steroid structures and full absolute configurations were not safely encoded as SMILES.",
+        "Figure 5A oxidation charge/solvent/temperature/time and all workup/purification details are unavailable without SI."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 6A",
+          "finding": "Author-proposed catalytic cycle Int1–Int5; recorded as proposed_mechanism. Int5 is explicitly uncertain/transient versus concerted transition state.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page8:image",
+            "doc_dfedfa74f4eea49f:page7:text"
+          ]
+        },
+        {
+          "region": "Figure 6B",
+          "finding": "DFT Gibbs-energy profiles for four regio/stereochemical paths; retained as computational source_context, not a synthetic experiment.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page8:image",
+            "doc_dfedfa74f4eea49f:page7:text",
+            "doc_dfedfa74f4eea49f:page8:text"
+          ]
+        },
+        {
+          "region": "Figure 6C",
+          "finding": "Transition-state structures and relative thermochemistry; retained as computational source_context.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page8:image",
+            "doc_dfedfa74f4eea49f:page8:text",
+            "doc_dfedfa74f4eea49f:page9:text"
+          ]
+        },
+        {
+          "region": "bottom continuation prose",
+          "finding": "Interpretation of selectivity-determining steps; no independent wet-lab reaction arrow or control on this page.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page8:image",
+            "doc_dfedfa74f4eea49f:page8:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_dfedfa74f4eea49f:figure6A_proposed_catalytic_cycle"
+      ],
+      "unresolved": [
+        "The paper refers to Xantphos/allene-1b calculations and stoichiometric mechanistic details in SI, but no SI is associated."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 7 panels I–II",
+          "finding": "Current-work SIMes and Xantphos steric maps repeat Table 1 entry 14/18 experiments with granular experimental distributions; merged as duplicate evidence.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page9:image",
+            "doc_dfedfa74f4eea49f:page4:image",
+            "doc_dfedfa74f4eea49f:page9:text"
+          ]
+        },
+        {
+          "region": "Figure 7 panels III–VIII",
+          "finding": "Previously reported ligand/reaction classes from Liu, Gagosz/Riant, Procter, Fujihara/Tsuji, and Hoveyda; retained as literature/mechanistic context, not new experiments.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page9:image",
+            "doc_dfedfa74f4eea49f:page9:text",
+            "doc_dfedfa74f4eea49f:page10:text"
+          ]
+        },
+        {
+          "region": "lower DFT prose",
+          "finding": "Computed relative Gibbs/enthalpy/entropy contributions and theoretical-vs-experimental selectivity comparison; retained as source_context.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page9:image",
+            "doc_dfedfa74f4eea49f:page9:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_dfedfa74f4eea49f:table1_entry_14",
+        "doc_dfedfa74f4eea49f:table1_entry_18"
+      ],
+      "unresolved": [
+        "Figure 7 combines E/Z and regioisomer distributions whose component analytical methods are defined separately in Table 1 footnotes."
+      ]
+    },
+    {
+      "page": 10,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left-column Figure 7 discussion",
+          "finding": "Mechanistic interpretation plus cited prior-work ligand comparisons; no new experiment row or arrow.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page10:image",
+            "doc_dfedfa74f4eea49f:page10:text"
+          ]
+        },
+        {
+          "region": "Conclusions",
+          "finding": "Summary of the reported scope and allylboration utility; no new experiment.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page10:image",
+            "doc_dfedfa74f4eea49f:page10:text"
+          ]
+        },
+        {
+          "region": "Associated Content and Accession Codes",
+          "finding": "SI availability and four CCDC codes are stated, but no SI/CIF file was supplied or associated; retained as source_context only.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page10:image",
+            "doc_dfedfa74f4eea49f:page10:text"
+          ]
+        },
+        {
+          "region": "author information, acknowledgments, references start",
+          "finding": "Bibliographic/nonexperimental matter.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page10:image",
+            "doc_dfedfa74f4eea49f:page10:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "External SI and crystallographic files were not provided; their experimental details are not inferred."
+      ]
+    },
+    {
+      "page": 11,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "References 2–40",
+          "finding": "Reference list only; cited publications are not current-paper experiments and no synthesis record is created.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page11:image",
+            "doc_dfedfa74f4eea49f:page11:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    },
+    {
+      "page": 12,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "References 40–77 and footnote 72",
+          "finding": "Reference list plus mechanistic caveat pointing to unavailable SI; cited work is not recast as current-paper experiments.",
+          "evidence_ids": [
+            "doc_dfedfa74f4eea49f:page12:image",
+            "doc_dfedfa74f4eea49f:page12:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_dfedfa74f4eea49f:figure6A_proposed_catalytic_cycle"
+      ],
+      "unresolved": [
+        "Footnote 72 mentions stoichiometric mechanistic studies in SI, but the SI is not associated and no separate experiment can be extracted."
+      ]
+    }
+  ]
+}

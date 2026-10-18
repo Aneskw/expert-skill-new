@@ -1,0 +1,54 @@
+{
+  "canonical_isomeric_smiles": "C=C/C=C/C(C=C=C(C)C)O[Si](C)(C)C(C)(C)C",
+  "stereo_graph_key": "73ea3f240f1a7774a0215a270f31cb87bb37d6aaa267f220917564f960e2e5d9",
+  "connectivity_smiles": "C=CC=CC(C=C=C(C)C)O[Si](C)(C)C(C)(C)C",
+  "atom_centers": [
+    {
+      "atom_index": 4,
+      "CIP": "?"
+    }
+  ],
+  "double_bonds": [
+    {
+      "bond_index": 0,
+      "stereo": "STEREONONE"
+    },
+    {
+      "bond_index": 2,
+      "stereo": "STEREOE"
+    },
+    {
+      "bond_index": 13,
+      "stereo": "STEREONONE"
+    },
+    {
+      "bond_index": 14,
+      "stereo": "STEREONONE"
+    }
+  ],
+  "potential_stereo": [
+    {
+      "type": "Atom_Tetrahedral",
+      "centered_on": 4,
+      "specified": "Unspecified",
+      "descriptor": "NoValue"
+    },
+    {
+      "type": "Bond_Double",
+      "centered_on": 2,
+      "specified": "Specified",
+      "descriptor": "Bond_Trans"
+    },
+    {
+      "type": "Bond_Double",
+      "centered_on": 13,
+      "specified": "Unspecified",
+      "descriptor": "NoValue"
+    }
+  ],
+  "source_verified": false,
+  "limitations": [
+    "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+    "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+  ]
+}
