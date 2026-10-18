@@ -1,0 +1,178 @@
+{
+  "document_id": "doc_625307424a4aa39e",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1, Previous Work panel",
+          "finding": "Three cited cycloolefin/ethylene polymerization arrows recorded as literature examples, not this paper's experiments.",
+          "evidence_ids": [
+            "doc_625307424a4aa39e:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1, This Work panel",
+          "finding": "Two current-work generic arrows: homopolymerization of 1 and copolymerization of 1 with 7; catalyst structures 3-6 inventoried.",
+          "evidence_ids": [
+            "doc_625307424a4aa39e:page1:image"
+          ]
+        },
+        {
+          "region": "Title, abstract, introduction, and ESI footnote",
+          "finding": "Bibliographic title/DOI captured; ESI is advertised but no associated SI file was provided.",
+          "evidence_ids": [
+            "doc_625307424a4aa39e:page1:text",
+            "doc_625307424a4aa39e:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_625307424a4aa39e:scheme1_prior_norbornene",
+        "doc_625307424a4aa39e:scheme1_prior_cyclooctene",
+        "doc_625307424a4aa39e:scheme1_prior_cyclopentene",
+        "doc_625307424a4aa39e:scheme1_current_homopolymerization",
+        "doc_625307424a4aa39e:scheme1_current_copolymerization"
+      ],
+      "unresolved": [
+        "Compact organometallic catalyst drawings were not converted to source-certified complete SMILES.",
+        "Generic polymer chain lengths/end groups and stereochemistry are unreported."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Main-text model-substrate and initial-result prose",
+          "finding": "Table 1 entry 1 prose merged as evidence for the same 94% experiment; characterization retained as context.",
+          "evidence_ids": [
+            "doc_625307424a4aa39e:page2:text",
+            "doc_625307424a4aa39e:page2:image"
+          ]
+        },
+        {
+          "region": "Fig. 1 and kinetic prose",
+          "finding": "Two independent kinetic polymerizations (1 and 7) recorded with >95% conversion times, kobs values, and 1H NMR basis.",
+          "evidence_ids": [
+            "doc_625307424a4aa39e:page2:text",
+            "doc_625307424a4aa39e:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1, entries 1-8 and footnotes a-g",
+          "finding": "Eight condition-specific optimization records; AgSbF6 added for footnote-f rows; insoluble entry 7 retains table dashes for Mn/Đ.",
+          "evidence_ids": [
+            "doc_625307424a4aa39e:page2:image",
+            "doc_625307424a4aa39e:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_625307424a4aa39e:table1_entry_1",
+        "doc_625307424a4aa39e:table1_entry_2",
+        "doc_625307424a4aa39e:table1_entry_3",
+        "doc_625307424a4aa39e:table1_entry_4",
+        "doc_625307424a4aa39e:table1_entry_5",
+        "doc_625307424a4aa39e:table1_entry_6",
+        "doc_625307424a4aa39e:table1_entry_7",
+        "doc_625307424a4aa39e:table1_entry_8",
+        "doc_625307424a4aa39e:kinetics_monomer_1",
+        "doc_625307424a4aa39e:kinetics_monomer_7"
+      ],
+      "unresolved": [
+        "[1]0 unit is absent from the printed header.",
+        "Yield measurement basis, exact charges, solvent, atmosphere, workup, and purification are unavailable without SI.",
+        "kobs units are not printed."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Living-character prose and Fig. 2",
+          "finding": "Aliquot/conversion study and sequential-addition chain extension recorded as two distinct mechanistic-study experiments.",
+          "evidence_ids": [
+            "doc_625307424a4aa39e:page3:text",
+            "doc_625307424a4aa39e:page3:image"
+          ]
+        },
+        {
+          "region": "Table 2, entries 1-5",
+          "finding": "Five independent homo/copolymerization records with feed ratios, yields, Mn, and Đ; feed ratio not reinterpreted as measured composition.",
+          "evidence_ids": [
+            "doc_625307424a4aa39e:page3:image",
+            "doc_625307424a4aa39e:page3:text"
+          ]
+        },
+        {
+          "region": "Fig. 3 and tensile-testing prose",
+          "finding": "Film casting and tensile results classified as material testing in source_context, not synthetic reactions.",
+          "evidence_ids": [
+            "doc_625307424a4aa39e:page3:text",
+            "doc_625307424a4aa39e:page3:image"
+          ]
+        },
+        {
+          "region": "Lower-right monomer 8 prose",
+          "finding": "One 72 h polymerization of 8 recorded with 67% conversion, high-temperature GPC Mn/Đ, and solubility/NMR notes.",
+          "evidence_ids": [
+            "doc_625307424a4aa39e:page3:text",
+            "doc_625307424a4aa39e:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_625307424a4aa39e:living_conversion_series",
+        "doc_625307424a4aa39e:chain_extension_1",
+        "doc_625307424a4aa39e:table2_entry_1",
+        "doc_625307424a4aa39e:table2_entry_2",
+        "doc_625307424a4aa39e:table2_entry_3",
+        "doc_625307424a4aa39e:table2_entry_4",
+        "doc_625307424a4aa39e:table2_entry_5",
+        "doc_625307424a4aa39e:polymerization_monomer_8"
+      ],
+      "unresolved": [
+        "Table 2 exact catalyst loading, time, temperature, concentration, solvent, and yield basis are not supplied.",
+        "Fig. 2 numeric series and chain-extension charges are only detailed in unavailable ESI.",
+        "Conversion method for monomer 8 is unreported."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Conclusion",
+          "finding": "General current-work interpretation only; no new experiment-specific arrow or table row.",
+          "evidence_ids": [
+            "doc_625307424a4aa39e:page4:text",
+            "doc_625307424a4aa39e:page4:image"
+          ]
+        },
+        {
+          "region": "Footnote/reference 24",
+          "finding": "Mentions an unresolved series of high-Mn impurity mechanism tests in ESI; insufficient detail/count to create experimental records.",
+          "evidence_ids": [
+            "doc_625307424a4aa39e:page4:text",
+            "doc_625307424a4aa39e:page4:image"
+          ]
+        },
+        {
+          "region": "References 1-31",
+          "finding": "Cited literature list only; not imported as experiments newly reported in this paper.",
+          "evidence_ids": [
+            "doc_625307424a4aa39e:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Footnote 24 experiment identities, conditions, and number are unavailable because SI was not provided."
+      ]
+    }
+  ]
+}

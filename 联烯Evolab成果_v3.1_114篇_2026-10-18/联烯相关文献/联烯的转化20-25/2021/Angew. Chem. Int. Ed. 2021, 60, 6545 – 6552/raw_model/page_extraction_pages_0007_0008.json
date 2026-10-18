@@ -1,0 +1,33 @@
+{
+  "document_id": "doc_1ba437add780cf5e",
+  "page_range": [
+    7,
+    8
+  ],
+  "visual_inspection": "Original rendered page 7 and page 8 images opened at original detail; Scheme 6 was additionally inspected in a source-lineage crop.",
+  "page7_arrow_inventory": [
+    "1a + 2h -> (2S,3S)-3ha (60%, dr 6:1, 99% ee; L13-Pd/L1-Cu; 2 mmol scale)",
+    "(2S,3S)-3ha -> 6a (a; 91%)",
+    "6a + 7 -> 8a (b; 65%)",
+    "8a -> mycestericin F·HCl (c-e; 56% overall)",
+    "1a + 2h -> (2S,3R)-4hb (63%, dr 14:1, 96% ee; L3-Pd/L3-Ag; 2 mmol scale)",
+    "(2S,3R)-4hb -> 6b (a; 90%)",
+    "6b + 7 -> 8b (b; 45%)",
+    "8b -> mycestericin G·HCl (c-e; 60% overall)"
+  ],
+  "caption_conditions": {
+    "a": "2,3-dicyano-5,6-dichlorobenzoquinone, CH2Cl2/H2O, rt, 0.5 h",
+    "b": "Hoveyda-Grubbs II catalyst, benzene, 80 °C, 24 h",
+    "c": "Pd/C (10 mol%), H2 (1 atm balloon), EtOAc, rt, 12 h",
+    "d": "concentrated HCl in EtOH (6 M), reflux, 12 h",
+    "e": "NaOH (1 M), MeOH then HCl (1 M) workup"
+  },
+  "deduplication": [
+    "The upper coupling/deprotection/metathesis/final-route arrows enrich the same records introduced by page-6 prose.",
+    "The lower page-6 prose route is split into the three distinct page-7 arrows 4hb->6b, 6b+7->8b, and 8b->mycestericin G·HCl; the broad prose route is not retained as a duplicate experiment."
+  ],
+  "conflicts": [
+    "Page-6 prose: (2S,3R)-3hb; page-7 Scheme 6: (2S,3R)-4hb. Both identify the same syn route context but disagree on compound number."
+  ],
+  "page8": "References and publication metadata only; zero reaction records."
+}

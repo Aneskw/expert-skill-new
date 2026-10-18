@@ -1,0 +1,54 @@
+{
+  "document_id": "doc_923e87cf958fa06a",
+  "page_images_visually_inspected": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "image_evidence_ids": [
+    "doc_923e87cf958fa06a:page1:image",
+    "doc_923e87cf958fa06a:page2:image",
+    "doc_923e87cf958fa06a:page3:image",
+    "doc_923e87cf958fa06a:page4:image"
+  ],
+  "inventory": {
+    "page1": {
+      "reaction_arrows": 0,
+      "table_rows": 0,
+      "notes": [
+        "Figure 1 is biological/natural-product context."
+      ]
+    },
+    "page2": {
+      "cited_scheme_arrows": 2,
+      "generic_current_schemes": 1,
+      "table_rows": 12,
+      "prose_only_controls": 1,
+      "deduplication": [
+        "Table 1 entry 11 equals Scheme 2 product 4a."
+      ]
+    },
+    "page3": {
+      "scheme2_outcomes": 20,
+      "scheme3_outcomes": 25,
+      "executed_mechanistic_experiments": 0,
+      "context": [
+        "5u ORTEP/X-ray assignment",
+        "DFT proposed transition states"
+      ]
+    },
+    "page4": {
+      "scheme4_arrows": 4,
+      "table_rows": 0,
+      "notes": [
+        "Conclusion and references are non-experimental."
+      ]
+    }
+  },
+  "negative_inventory": "No standalone mass-spectrum peak table, molecular-weight table, or fragment-relative-abundance block was found on pages 1-4.",
+  "limitations": [
+    "Visual inspection and schema validation do not establish expert chemical accuracy or coverage outside pages 1-4.",
+    "No supporting-information file was supplied."
+  ]
+}

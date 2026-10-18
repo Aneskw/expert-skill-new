@@ -1,0 +1,141 @@
+{
+  "batch_id": "allene-stereo-v31-200-20261017",
+  "document_id": "doc_ef264899de17791f",
+  "title": "Unexpected Selectivity of Intramolecular [3+2] Cycloaddition of Trimethylenemethane (TMM) Diyl toward Total Synthesis of Conidiogenone B",
+  "pages_attempted": [
+    7,
+    8,
+    9
+  ],
+  "visual_inspection": {
+    "page7": "Viewed full rendered page. Characterization continuation for 18/19; detailed preparations of 20 and 21; beginning and full operational details of 22 preparation.",
+    "page8": "Viewed full rendered page. Completion of 22 characterization; detailed three-stage preparation of 23 and 24; acknowledgments and references.",
+    "page9": "Viewed full rendered page. References 21-25 and received date only; no reaction arrow, table, or experimental procedure."
+  },
+  "new_reaction_ids": [
+    "doc_ef264899de17791f:r23_1_to_s4_epoxide_batch1",
+    "doc_ef264899de17791f:r24_1_to_s4_epoxide_batch2",
+    "doc_ef264899de17791f:r25_parallel_nabh4_reduction"
+  ],
+  "enriched_reaction_ids": [
+    "doc_ef264899de17791f:r10_1_to_20_scheme4",
+    "doc_ef264899de17791f:r11_20_to_21_scheme4",
+    "doc_ef264899de17791f:r12_21_to_22_scheme4",
+    "doc_ef264899de17791f:r13_22_to_23_24_scheme4"
+  ],
+  "deduplicated_existing_context": [
+    "doc_ef264899de17791f:r09_14_to_18_19",
+    "Page 7 characterization continuation for products 18/19 was not treated as a new synthesis."
+  ],
+  "standard_stereo_checks": {
+    "m20": {
+      "canonical_isomeric_smiles": "C#CCCC1(C)C(=O)CCCC1=O",
+      "stereo_graph_key": "27a7b99f60148cf7cdffcf39fe75d68e47417ee12a82d81b4921441323ad9650",
+      "connectivity_smiles": "C#CCCC1(C)C(=O)CCCC1=O",
+      "atom_centers": [],
+      "double_bonds": [
+        {
+          "bond_index": 0,
+          "stereo": "STEREONONE"
+        },
+        {
+          "bond_index": 8,
+          "stereo": "STEREONONE"
+        }
+      ],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    "m21_connectivity": {
+      "canonical_isomeric_smiles": "C#CCCC1(C)C(=O)CCCC1O[Si](C)(C)C(C)(C)C",
+      "stereo_graph_key": "c783752258155098a320d3cfee5baa370a72f37e88e6e754b62923350b4dfa8e",
+      "connectivity_smiles": "C#CCCC1(C)C(=O)CCCC1O[Si](C)(C)C(C)(C)C",
+      "atom_centers": [
+        {
+          "atom_index": 2,
+          "CIP": "?"
+        },
+        {
+          "atom_index": 8,
+          "CIP": "?"
+        }
+      ],
+      "double_bonds": [
+        {
+          "bond_index": 0,
+          "stereo": "STEREONONE"
+        }
+      ],
+      "potential_stereo": [
+        {
+          "type": "Atom_Tetrahedral",
+          "centered_on": 2,
+          "specified": "Unspecified",
+          "descriptor": "NoValue"
+        },
+        {
+          "type": "Atom_Tetrahedral",
+          "centered_on": 8,
+          "specified": "Unspecified",
+          "descriptor": "NoValue"
+        }
+      ],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    "m_21_ketol_connectivity": {
+      "canonical_isomeric_smiles": "C#CCCC1(C)C(=O)CCCC1O",
+      "stereo_graph_key": "9ccf260f114eecf5494399c8d26b8e8fb615e95981e50e7c9d0a1cb522ec60a2",
+      "connectivity_smiles": "C#CCCC1(C)C(=O)CCCC1O",
+      "atom_centers": [
+        {
+          "atom_index": 2,
+          "CIP": "?"
+        },
+        {
+          "atom_index": 8,
+          "CIP": "?"
+        }
+      ],
+      "double_bonds": [
+        {
+          "bond_index": 0,
+          "stereo": "STEREONONE"
+        }
+      ],
+      "potential_stereo": [
+        {
+          "type": "Atom_Tetrahedral",
+          "centered_on": 2,
+          "specified": "Unspecified",
+          "descriptor": "NoValue"
+        },
+        {
+          "type": "Atom_Tetrahedral",
+          "centered_on": 8,
+          "specified": "Unspecified",
+          "descriptor": "NoValue"
+        }
+      ],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    }
+  },
+  "limitations": [
+    "No supporting-information file was supplied or associated.",
+    "Complex structures 22-24 retain source names and relative/allene-axis descriptions without speculative SMILES.",
+    "The repeated 2.9 g epoxidation batch does not report batch-specific reagent charges; no scaled values were calculated.",
+    "The parallel NaBH4 experiment reports only qualitative lower dr and no detailed conditions.",
+    "All machine records remain needs_review; validation is not chemical verification."
+  ]
+}

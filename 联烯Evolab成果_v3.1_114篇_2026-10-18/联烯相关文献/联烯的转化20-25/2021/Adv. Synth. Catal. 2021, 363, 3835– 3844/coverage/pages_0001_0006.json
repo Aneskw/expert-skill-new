@@ -1,0 +1,277 @@
+{
+  "document_id": "doc_8cf88f502ad0d68c",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title/abstract/metadata",
+          "finding": "Bibliographic metadata, abstract, and SI availability notice; no current synthesis arrow or experiment.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page1:text",
+            "doc_8cf88f502ad0d68c:page1:image"
+          ]
+        },
+        {
+          "region": "introduction columns",
+          "finding": "Background discussion only; cited reactions are not depicted as executable records on this page.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page1:text",
+            "doc_8cf88f502ad0d68c:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Online SI is advertised but was not supplied; no SI association was inferred."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1, upper-left",
+          "finding": "Three cited prior-work fullerene cascades retained as literature_example records.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page2:text",
+            "doc_8cf88f502ad0d68c:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 1, This work",
+          "finding": "Current R-group reaction family retained as one generic_scheme, not an experiment-specific yield.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page2:text",
+            "doc_8cf88f502ad0d68c:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1 and footnote",
+          "finding": "Eight optimization rows retained independently; entry 4 is cross-page duplicate evidence for Figure 2 product 3a and the page-6 procedure.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page2:text",
+            "doc_8cf88f502ad0d68c:page2:image"
+          ]
+        },
+        {
+          "region": "results prose below Table 1",
+          "finding": "Entry-1 non-recovery/polyaddition observation and entry-2/3 discussion associated with their table rows.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page2:text",
+            "doc_8cf88f502ad0d68c:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_8cf88f502ad0d68c:literature_itoh",
+        "doc_8cf88f502ad0d68c:literature_maeda",
+        "doc_8cf88f502ad0d68c:literature_wang",
+        "doc_8cf88f502ad0d68c:generic_scheme",
+        "doc_8cf88f502ad0d68c:table1_entry1",
+        "doc_8cf88f502ad0d68c:table1_entry2",
+        "doc_8cf88f502ad0d68c:table1_entry3",
+        "doc_8cf88f502ad0d68c:table1_entry4",
+        "doc_8cf88f502ad0d68c:table1_entry5",
+        "doc_8cf88f502ad0d68c:table1_entry6",
+        "doc_8cf88f502ad0d68c:table1_entry7",
+        "doc_8cf88f502ad0d68c:table1_entry8"
+      ],
+      "unresolved": [
+        "Table 1 does not state a yield measurement basis for rows other than entry 4 as clarified by prose/procedure."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left-column optimization discussion",
+          "finding": "Table 1 rows linked; a separate qualitative 5 mol% catalyst-loading attempt was retained because its numerical yield/complete conditions are absent.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page3:text",
+            "doc_8cf88f502ad0d68c:page3:image"
+          ]
+        },
+        {
+          "region": "left-column 3a characterization",
+          "finding": "NMR/UV-vis/HRMS characterize 3a and remain source_context, not extra synthesis records.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page3:text",
+            "doc_8cf88f502ad0d68c:page3:image"
+          ]
+        },
+        {
+          "region": "left-column light/air exposure",
+          "finding": "Actual 16 h light/air exposure retained as a mechanistic study; product is an undefined complex oxidation mixture.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page3:text",
+            "doc_8cf88f502ad0d68c:page3:image"
+          ]
+        },
+        {
+          "region": "Figure 1/right-column computation",
+          "finding": "DFT Gibbs-energy profile and mechanistic discussion retained as computational context, not an executed experiment.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page3:text",
+            "doc_8cf88f502ad0d68c:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_8cf88f502ad0d68c:table1_entry1",
+        "doc_8cf88f502ad0d68c:table1_entry2",
+        "doc_8cf88f502ad0d68c:table1_entry3",
+        "doc_8cf88f502ad0d68c:table1_entry4",
+        "doc_8cf88f502ad0d68c:table1_entry5",
+        "doc_8cf88f502ad0d68c:table1_entry6",
+        "doc_8cf88f502ad0d68c:table1_entry7",
+        "doc_8cf88f502ad0d68c:table1_entry8",
+        "doc_8cf88f502ad0d68c:optimization_5molpct",
+        "doc_8cf88f502ad0d68c:light_air_exposure_3a"
+      ],
+      "unresolved": [
+        "The 5 mol% catalyst-loading experiment lacks numerical yield and complete conditions; the oxidation product remains undefined."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 2",
+          "finding": "Products 3a-l inventoried; 3a merged with Table 1 entry 4, while 3b-l are independent scope experiments.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page4:text",
+            "doc_8cf88f502ad0d68c:page4:image"
+          ]
+        },
+        {
+          "region": "Figure 3",
+          "finding": "Products 3m-p inventoried as independent scope experiments; 1n-p retain the stated 2 h time.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page4:text",
+            "doc_8cf88f502ad0d68c:page4:image"
+          ]
+        },
+        {
+          "region": "prose below Figure 2",
+          "finding": "O-tethered bisallene attempt retained as a real no-adduct experiment without inventing a product.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page4:text",
+            "doc_8cf88f502ad0d68c:page4:image"
+          ]
+        },
+        {
+          "region": "right-column C70 discussion",
+          "finding": "C70 reaction identified as an inseparable alpha/beta regioisomer mixture and linked forward to Scheme 2.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page4:text",
+            "doc_8cf88f502ad0d68c:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_8cf88f502ad0d68c:table1_entry4",
+        "doc_8cf88f502ad0d68c:scope_3b",
+        "doc_8cf88f502ad0d68c:scope_3c",
+        "doc_8cf88f502ad0d68c:scope_3d",
+        "doc_8cf88f502ad0d68c:scope_3e",
+        "doc_8cf88f502ad0d68c:scope_3f",
+        "doc_8cf88f502ad0d68c:scope_3g",
+        "doc_8cf88f502ad0d68c:scope_3h",
+        "doc_8cf88f502ad0d68c:scope_3i",
+        "doc_8cf88f502ad0d68c:scope_3j",
+        "doc_8cf88f502ad0d68c:scope_3k",
+        "doc_8cf88f502ad0d68c:scope_3l",
+        "doc_8cf88f502ad0d68c:scope_3m",
+        "doc_8cf88f502ad0d68c:scope_3n",
+        "doc_8cf88f502ad0d68c:scope_3o",
+        "doc_8cf88f502ad0d68c:scope_3p",
+        "doc_8cf88f502ad0d68c:scope_oxygen_tethered_no_adduct",
+        "doc_8cf88f502ad0d68c:c70_cycloaddition_4a"
+      ],
+      "unresolved": [
+        "Most compact fullerene-product structures were not converted to complete SMILES; scope-yield measurement bases are not stated."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2",
+          "finding": "One C70 cycloaddition experiment gives alpha-4a/beta-4a in 46% combined yield and 3:1 ratio, with trace other regioisomers.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page5:text",
+            "doc_8cf88f502ad0d68c:page5:image"
+          ]
+        },
+        {
+          "region": "Scheme 3",
+          "finding": "Two distinct reductions retained: 3a to 5a (82%) and the C70 4a mixture to 6a mixture (69%, 3:1).",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page5:text",
+            "doc_8cf88f502ad0d68c:page5:image"
+          ]
+        },
+        {
+          "region": "Figure 4",
+          "finding": "DFT energy/activation-strain plots are computational context, not synthesis experiments.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page5:text",
+            "doc_8cf88f502ad0d68c:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_8cf88f502ad0d68c:c70_cycloaddition_4a",
+        "doc_8cf88f502ad0d68c:reduction_3a_to_5a",
+        "doc_8cf88f502ad0d68c:reduction_4a_to_6a"
+      ],
+      "unresolved": [
+        "Reduction reagent quantities, times, ramp duration, workup/purification, and yield bases are absent on this page; C70 trace regioisomers are unidentified."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "right-column General Procedure for 3a",
+          "finding": "Detailed 3a procedure merged into Table 1 entry 4, including activation, charges, staged operations, chromatography, 34.1 mg and 56% yield.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page6:text",
+            "doc_8cf88f502ad0d68c:page6:image"
+          ]
+        },
+        {
+          "region": "Tables 2-3",
+          "finding": "Electrochemical and optical/electronic property measurements retained as source_context; no synthesis records created.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page6:text",
+            "doc_8cf88f502ad0d68c:page6:image"
+          ]
+        },
+        {
+          "region": "compound 3a-3c characterization",
+          "finding": "Characterization remains context; 3b/3c isolated masses were linked to their existing scope records without creating duplicate reactions.",
+          "evidence_ids": [
+            "doc_8cf88f502ad0d68c:page6:text",
+            "doc_8cf88f502ad0d68c:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_8cf88f502ad0d68c:table1_entry4",
+        "doc_8cf88f502ad0d68c:scope_3b",
+        "doc_8cf88f502ad0d68c:scope_3c"
+      ],
+      "unresolved": [
+        "Table 1 ratio/scale and General Procedure charges differ slightly and are retained as conflicts; pages beyond 6 were not claimed as covered."
+      ]
+    }
+  ]
+}

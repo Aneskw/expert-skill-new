@@ -1,0 +1,124 @@
+{
+  "document_id": "doc_1ba437add780cf5e",
+  "page_range": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "visual_inspection": "original rendered page images opened at original detail",
+  "inventories": {
+    "1": [
+      {
+        "region": "title/abstract and introduction",
+        "finding": "bibliographic context; no concrete current-paper conditions"
+      },
+      {
+        "region": "Scheme 1a",
+        "finding": "one grouped cited prior-work family"
+      },
+      {
+        "region": "Scheme 1b and natural-product illustrations",
+        "finding": "current generic transformation; mycestericins are context"
+      }
+    ],
+    "2": [
+      {
+        "region": "Table 1 header and ligand structures",
+        "finding": "common substrates, catalysts, ligands, and conditions"
+      },
+      {
+        "region": "Table 1 rows 1-22",
+        "finding": "22 independent optimization experiments"
+      },
+      {
+        "region": "Table 1 footnotes",
+        "finding": "crude 1H NMR yields/dr, chiral-HPLC ee, isolated parenthetical yields, entry-20 loading change"
+      }
+    ],
+    "3": [
+      {
+        "region": "optimization discussion",
+        "finding": "entries 10-22 narrative and no-secondary-metal controls"
+      },
+      {
+        "region": "Scheme 2",
+        "finding": "four stereoisomer outcomes; two merge with Table 1 entries 10 and 20"
+      },
+      {
+        "region": "scope discussion",
+        "finding": "prose cross-check including the 3ja 56% versus Table 2 83% conflict and 3ha X-ray assignment"
+      }
+    ],
+    "4": [
+      {
+        "region": "Table 2 alkoxyallene scope",
+        "finding": "15 product arrows 3ab-3ap"
+      },
+      {
+        "region": "Table 2 aldimine-ester scope",
+        "finding": "10 product arrows 3aa-3ja"
+      },
+      {
+        "region": "Table 2 footnote",
+        "finding": "anti conditions, isolated yield, crude-NMR dr, chiral-HPLC ee"
+      },
+      {
+        "region": "Scheme 4 discussion continuation",
+        "finding": "proposed stereochemical rationale only"
+      }
+    ],
+    "5": [
+      {
+        "region": "Table 3 alkoxyallene scope",
+        "finding": "13 product arrows 4ab-4an"
+      },
+      {
+        "region": "Table 3 aldimine-ester scope",
+        "finding": "10 product arrows 4aa-4ja"
+      },
+      {
+        "region": "Table 3 footnote",
+        "finding": "syn conditions, isolated yield, crude-NMR dr, chiral-HPLC ee"
+      },
+      {
+        "region": "Scheme 3",
+        "finding": "eight stereoisomer outcomes; two merge with Table 3 4am/4an"
+      },
+      {
+        "region": "mechanistic prose",
+        "finding": "continuation of proposed Scheme 4 rationale"
+      }
+    ],
+    "6": [
+      {
+        "region": "Scheme 4",
+        "finding": "proposed mechanism/rationalization, not an executed experiment"
+      },
+      {
+        "region": "Scheme 5",
+        "finding": "five concrete derivatization arrows 5a-5e with conditions"
+      },
+      {
+        "region": "mycestericin prose",
+        "finding": "six detail-limited concrete/route records preceding Scheme 6"
+      },
+      {
+        "region": "conclusion/acknowledgments",
+        "finding": "non-experimental context"
+      }
+    ]
+  },
+  "deduplication": [
+    "Scheme 2 standard products merged with Table 1 entries 10 and 20.",
+    "Scheme 3 standard L3-Pd/L3-Ag products 4am/4an merged with Table 3 rows.",
+    "Same label never merged across different conditions merely by product identity."
+  ],
+  "conflicts": [
+    "Table 1 entry 10: 70% isolated in table versus 71% in prose/Scheme 2.",
+    "3ja: 83% isolated in Table 2 versus 56% in page-3 prose."
+  ],
+  "outside_scope_context": "Other PDF pages were not claimed as covered; Scheme 6 on page 7 was not used to fill page-6 missing fields."
+}

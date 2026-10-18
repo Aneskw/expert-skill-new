@@ -1,0 +1,11 @@
+{
+  "source_manifest_sha256": "3217d4abab0492ca5e73c1e3c067016fa24ae34072de052051dbfe486aed97c1",
+  "source_manifest_verified": true,
+  "export_file_hashes_verified": true,
+  "export_files": 99,
+  "transformed_files": [
+    "source_mapping.json"
+  ],
+  "transform": "Remove local source/root paths from source_mapping.json; omit Python cache files. 文件校验.json is the exported-file manifest; 原始文件校验.json describes the unmodified local source.",
+  "chemical_accuracy_verified": false
+}

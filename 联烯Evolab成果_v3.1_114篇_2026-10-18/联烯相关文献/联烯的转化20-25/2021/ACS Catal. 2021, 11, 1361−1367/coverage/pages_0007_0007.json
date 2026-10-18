@@ -1,0 +1,63 @@
+{
+  "document_id": "doc_448eb03f81b6e3bb",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column, references 9(j)-10(e)",
+          "finding": "Reference-list continuation describing cited prior work; no scheme, table, reaction arrow, or current-paper experiment is present.",
+          "evidence_ids": [
+            "doc_448eb03f81b6e3bb:page7:image",
+            "doc_448eb03f81b6e3bb:page7:text"
+          ]
+        },
+        {
+          "region": "left column, footnote 11",
+          "finding": "Current-paper qualitative observation: when allenic ester 1b was used in the Figure 4 feasibility experiment, isoindigo formation was observed and tentatively attributed by the authors to bisoxindole substrate. Merged into the existing experiment rather than duplicated.",
+          "evidence_ids": [
+            "doc_448eb03f81b6e3bb:page7:image",
+            "doc_448eb03f81b6e3bb:page7:text"
+          ]
+        },
+        {
+          "region": "left column, footnote 12",
+          "finding": "Two distinct current-paper base-variation controls were identified: annulation of 4g with K2CO3 and with Cs2CO3; both report [4+2] product 5g with rr 4:1.",
+          "evidence_ids": [
+            "doc_448eb03f81b6e3bb:page7:image",
+            "doc_448eb03f81b6e3bb:page7:text"
+          ]
+        },
+        {
+          "region": "left column, footnote 13",
+          "finding": "Stereochemical attribution for molecule 5g: absolute configuration assigned by X-ray crystallographic analysis; CCDC 1970725. This is molecule-assignment evidence, not a separate synthesis experiment.",
+          "evidence_ids": [
+            "doc_448eb03f81b6e3bb:page7:image",
+            "doc_448eb03f81b6e3bb:page7:text"
+          ]
+        },
+        {
+          "region": "lower left and upper right, references 14-18",
+          "finding": "Bibliographic references only; cited experiments were not converted into experiments of this paper.",
+          "evidence_ids": [
+            "doc_448eb03f81b6e3bb:page7:image",
+            "doc_448eb03f81b6e3bb:page7:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_448eb03f81b6e3bb:fig4_1b",
+        "doc_448eb03f81b6e3bb:fig5_5g",
+        "doc_448eb03f81b6e3bb:footnote12_4g_k2co3",
+        "doc_448eb03f81b6e3bb:footnote12_4g_cs2co3"
+      ],
+      "unresolved": [
+        "Footnote 11 does not give an isoindigo amount/yield, measurement method, structure drawing, or exact geometric form.",
+        "Footnote 12 does not report base amount, reaction time, yield, ee, rr measurement method, or explicitly restate the regioisomer ordering.",
+        "Footnote 13 does not state explicit absolute-configuration descriptors for 5g on this page; the structure remains not encoded as isomeric SMILES."
+      ]
+    }
+  ]
+}

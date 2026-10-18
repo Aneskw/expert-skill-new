@@ -1,0 +1,319 @@
+{
+  "document_id": "doc_68d6021490685b69",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract and bibliographic block",
+          "finding": "Article title/DOI and abstract verified visually; abstract is context rather than a concrete experiment.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page1:image",
+            "doc_68d6021490685b69:page1:text"
+          ]
+        },
+        {
+          "region": "Scheme 1a",
+          "finding": "Two generic prior-literature [2+2] routes; retained as literature_example records, not current-work experiments.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1b",
+          "finding": "Two generic current-work transformations: asymmetric [2+2] product family 3 and sequential product family 4.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_68d6021490685b69:scheme1a_gold_prior",
+        "doc_68d6021490685b69:scheme1a_lewis_prior",
+        "doc_68d6021490685b69:scheme1b_generic_2plus2",
+        "doc_68d6021490685b69:scheme1b_generic_sequential"
+      ],
+      "unresolved": [
+        "Generic R groups and individual conditions are not concrete on this page."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 rows 1–11 and footnotes a–e",
+          "finding": "Eleven independent optimization experiments transcribed, including combined yield, 3aa:4aa ratio, signed −11% ee, entry-3 1:1.5 ligand/Ni ratio, and entry-9 condition changes.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page2:image",
+            "doc_68d6021490685b69:page2:text"
+          ]
+        },
+        {
+          "region": "Table 2 rows 1–6 and footnotes a–e",
+          "finding": "Six independent Lewis-acid/sequential-transformation experiments transcribed; entry 6 is isolated-3aa two-step control rather than a one-pot 1a+2a experiment.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page2:image",
+            "doc_68d6021490685b69:page2:text"
+          ]
+        },
+        {
+          "region": "results prose",
+          "finding": "Prose repetitions of Table 1 outcomes were linked to the table records and not double counted.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_68d6021490685b69:table1_entry01",
+        "doc_68d6021490685b69:table1_entry02",
+        "doc_68d6021490685b69:table1_entry03",
+        "doc_68d6021490685b69:table1_entry04",
+        "doc_68d6021490685b69:table1_entry05",
+        "doc_68d6021490685b69:table1_entry06",
+        "doc_68d6021490685b69:table1_entry07",
+        "doc_68d6021490685b69:table1_entry08",
+        "doc_68d6021490685b69:table1_entry09",
+        "doc_68d6021490685b69:table1_entry10",
+        "doc_68d6021490685b69:table1_entry11",
+        "doc_68d6021490685b69:table2_entry01",
+        "doc_68d6021490685b69:table2_entry02",
+        "doc_68d6021490685b69:table2_entry03",
+        "doc_68d6021490685b69:table2_entry04",
+        "doc_68d6021490685b69:table2_entry05",
+        "doc_68d6021490685b69:table2_entry06"
+      ],
+      "unresolved": [
+        "Optimization workups/purifications and additional ESI trials are unavailable because SI was not provided."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 3 products 3aa–3ag",
+          "finding": "Twenty-three distinct [2+2] scope arrows transcribed with isolated yields and HPLC ee values.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page3:image",
+            "doc_68d6021490685b69:page3:text"
+          ]
+        },
+        {
+          "region": "Table 3 products 4aa–4ag",
+          "finding": "Twenty-three distinct one-pot sequential-product arrows transcribed, including Cu-loading footnotes and 4fa:3fa / 4la:3la ratios.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page3:image",
+            "doc_68d6021490685b69:page3:text"
+          ]
+        },
+        {
+          "region": "Table 3 cond. 1 and footnote a",
+          "finding": "Source conflict retained: scheme prints 35 °C while footnote inherits Table 1 entry 8 at 30 °C; no value chosen.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page3:image",
+            "doc_68d6021490685b69:page3:text"
+          ]
+        },
+        {
+          "region": "left-column control prose",
+          "finding": "Forward 3aa→4aa (37%, tiny unidentified by-product) and reverse no-transformation controls recorded separately.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page3:text"
+          ]
+        },
+        {
+          "region": "bottom-right 5aa prose",
+          "finding": "Repeated evidence for Scheme 2a transformations and 5aa dr/ee linked to the page-4 records, not duplicated.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_68d6021490685b69:table3_3aa",
+        "doc_68d6021490685b69:table3_3ba",
+        "doc_68d6021490685b69:table3_3ca",
+        "doc_68d6021490685b69:table3_3da",
+        "doc_68d6021490685b69:table3_3ea",
+        "doc_68d6021490685b69:table3_3fa",
+        "doc_68d6021490685b69:table3_3ga",
+        "doc_68d6021490685b69:table3_3ha",
+        "doc_68d6021490685b69:table3_3ia",
+        "doc_68d6021490685b69:table3_3ja",
+        "doc_68d6021490685b69:table3_3ka",
+        "doc_68d6021490685b69:table3_3la",
+        "doc_68d6021490685b69:table3_3ma",
+        "doc_68d6021490685b69:table3_3na",
+        "doc_68d6021490685b69:table3_3oa",
+        "doc_68d6021490685b69:table3_3pa",
+        "doc_68d6021490685b69:table3_3qa",
+        "doc_68d6021490685b69:table3_3ab",
+        "doc_68d6021490685b69:table3_3ac",
+        "doc_68d6021490685b69:table3_3ad",
+        "doc_68d6021490685b69:table3_3ae",
+        "doc_68d6021490685b69:table3_3af",
+        "doc_68d6021490685b69:table3_3ag",
+        "doc_68d6021490685b69:table3_4aa",
+        "doc_68d6021490685b69:table3_4ba",
+        "doc_68d6021490685b69:table3_4ca",
+        "doc_68d6021490685b69:table3_4da",
+        "doc_68d6021490685b69:table3_4ea",
+        "doc_68d6021490685b69:table3_4fa",
+        "doc_68d6021490685b69:table3_4ga",
+        "doc_68d6021490685b69:table3_4ha",
+        "doc_68d6021490685b69:table3_4ia",
+        "doc_68d6021490685b69:table3_4ja",
+        "doc_68d6021490685b69:table3_4ka",
+        "doc_68d6021490685b69:table3_4la",
+        "doc_68d6021490685b69:table3_4ma",
+        "doc_68d6021490685b69:table3_4na",
+        "doc_68d6021490685b69:table3_4oa",
+        "doc_68d6021490685b69:table3_4pa",
+        "doc_68d6021490685b69:table3_4qa",
+        "doc_68d6021490685b69:table3_4ab",
+        "doc_68d6021490685b69:table3_4ac",
+        "doc_68d6021490685b69:table3_4ad",
+        "doc_68d6021490685b69:table3_4ae",
+        "doc_68d6021490685b69:table3_4af",
+        "doc_68d6021490685b69:table3_4ag",
+        "doc_68d6021490685b69:control_3aa_to_4aa_Ni",
+        "doc_68d6021490685b69:control_4aa_reverse_Ni",
+        "doc_68d6021490685b69:scheme2a_4aa_TFA_to_5aa",
+        "doc_68d6021490685b69:scheme2b_3aa_to_5aa"
+      ],
+      "unresolved": [
+        "Compact structures are retained by source labels when concrete stereochemical SMILES cannot be defended.",
+        "Individual procedures and measurement methods outside the table footnote require unavailable SI."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2a",
+          "finding": "TFA/H2O 4aa→5aa and Cu(OTf)2/air 3aa→5aa arrows inspected; the latter is the same 3aa→5aa experiment repeated in Scheme 2b and counted once.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page4:image",
+            "doc_68d6021490685b69:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 2b",
+          "finding": "Five substrate-to-gamma-lactone arrows transcribed with yield, dr and paired ee values.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 2c",
+          "finding": "Three alkoxyallene scope arrows to 7aa–7ac transcribed.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page4:image",
+            "doc_68d6021490685b69:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 3a–e",
+          "finding": "Two scale-ups, one gamma-lactone scale conversion, and two hydrogenations transcribed; the 58% value for 4qa remains an overall two-step yield.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page4:image",
+            "doc_68d6021490685b69:page4:text"
+          ]
+        },
+        {
+          "region": "mechanistic discussion",
+          "finding": "Thermal 3aa→E-4aa control at 80 °C for 24 h recorded qualitatively; DFT discussion retained as context.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_68d6021490685b69:scheme2a_4aa_TFA_to_5aa",
+        "doc_68d6021490685b69:scheme2b_3aa_to_5aa",
+        "doc_68d6021490685b69:scheme2b_3ga_to_5ga",
+        "doc_68d6021490685b69:scheme2b_3ia_to_5ia",
+        "doc_68d6021490685b69:scheme2b_3na_to_5na",
+        "doc_68d6021490685b69:scheme2b_3ab_to_5ab",
+        "doc_68d6021490685b69:scheme2c_7aa",
+        "doc_68d6021490685b69:scheme2c_7ab",
+        "doc_68d6021490685b69:scheme2c_7ac",
+        "doc_68d6021490685b69:scheme3a_scale_3aa",
+        "doc_68d6021490685b69:scheme3b_scale_4qa",
+        "doc_68d6021490685b69:scheme3c_scale_5ab",
+        "doc_68d6021490685b69:scheme3d_hydrogenation_8",
+        "doc_68d6021490685b69:scheme3e_hydrogenation_9",
+        "doc_68d6021490685b69:thermal_3aa_to_E4aa"
+      ],
+      "unresolved": [
+        "Many Scheme 2/3 yield and selectivity measurement methods are not printed.",
+        "Reaction times and workups absent from the scheme remain unreported unless explicitly inherited from a named table procedure."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1",
+          "finding": "Computational energy profile for E-/Z-4aa formation retained as non-synthetic source_context.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page5:image",
+            "doc_68d6021490685b69:page5:text"
+          ]
+        },
+        {
+          "region": "Figure 2a",
+          "finding": "Proposed stereochemical working model and transition state; retained within one proposed_mechanism record, not an observed experiment.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page5:image"
+          ]
+        },
+        {
+          "region": "Figure 2b and accompanying prose",
+          "finding": "Proposed cycles A/B for 3aa/4aa→5aa; arrow-pushing intermediates are not registered as isolated compounds.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page5:image",
+            "doc_68d6021490685b69:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_68d6021490685b69:figure2_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Detailed computations and supporting experiments cited to ESI are not available."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "conclusion and data availability",
+          "finding": "No new reaction arrow or experiment; ESI availability is stated but no SI file is associated in this workspace.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page6:image",
+            "doc_68d6021490685b69:page6:text"
+          ]
+        },
+        {
+          "region": "author contributions, conflicts, acknowledgements and references",
+          "finding": "No current-work synthetic experiment or independent characterization table to extract.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "PDF page 7 and the ESI were outside the requested visual coverage and are not claimed as reviewed."
+      ]
+    }
+  ]
+}

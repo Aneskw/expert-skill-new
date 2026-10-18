@@ -1,0 +1,271 @@
+{
+  "document_id": "doc_739c1c0b69cb742a",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "lower-right Scheme 1a",
+          "finding": "grouped cited prior-work reaction modes; retained as literature_example, not current experiments",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page1:image"
+          ]
+        },
+        {
+          "region": "lower-right Scheme 1b",
+          "finding": "representative natural products/bioactive molecules; non-experimental context",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page1:image"
+          ]
+        },
+        {
+          "region": "lower-right Scheme 1c",
+          "finding": "current generic [3+3] transformation with catalyst/additive/DCE/100 °C/4 h; one generic_scheme record",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page1:image"
+          ]
+        },
+        {
+          "region": "footnote/metadata",
+          "finding": "ESI and CCDC are advertised but were not supplied or associated",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page1:image",
+            "doc_739c1c0b69cb742a:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_739c1c0b69cb742a:scheme1a_prior_work",
+        "doc_739c1c0b69cb742a:scheme1c_general"
+      ],
+      "unresolved": [
+        "Prior-work families are not expanded to individual cited experiments.",
+        "No SI/CIF available."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left optimization prose",
+          "finding": "explicit CsOAc/Table S1 entry-1 experiment and ineffective N-phenoxytosylamide test; other missing Table S1 rows retained as context only",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page2:image",
+            "doc_739c1c0b69cb742a:page2:text"
+          ]
+        },
+        {
+          "region": "bottom Scheme 2a",
+          "finding": "18 independent N-phenoxyacetamide scope experiments 3aa-3ra with printed isolated yields",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page2:image",
+            "doc_739c1c0b69cb742a:page2:text"
+          ]
+        },
+        {
+          "region": "bottom Scheme 2b",
+          "finding": "9 independent α-allenol scope experiments 3ab-3aj with printed isolated yields; 3ai X-ray annotation retained as context",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page2:image",
+            "doc_739c1c0b69cb742a:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 2 caption/footnote",
+          "finding": "common charges, catalyst loading, KOPiv, DCE concentration, temperature, time, open-air/moisture statement and isolated-yield basis inherited by each scope row",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page2:image",
+            "doc_739c1c0b69cb742a:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_739c1c0b69cb742a:tableS1_entry1_CsOAc",
+        "doc_739c1c0b69cb742a:N_phenoxytosylamide_ineffective",
+        "doc_739c1c0b69cb742a:scheme2_3aa",
+        "doc_739c1c0b69cb742a:scheme2_3ba",
+        "doc_739c1c0b69cb742a:scheme2_3ca",
+        "doc_739c1c0b69cb742a:scheme2_3da",
+        "doc_739c1c0b69cb742a:scheme2_3ea",
+        "doc_739c1c0b69cb742a:scheme2_3fa",
+        "doc_739c1c0b69cb742a:scheme2_3ga",
+        "doc_739c1c0b69cb742a:scheme2_3ha",
+        "doc_739c1c0b69cb742a:scheme2_3ia",
+        "doc_739c1c0b69cb742a:scheme2_3ja",
+        "doc_739c1c0b69cb742a:scheme2_3ka",
+        "doc_739c1c0b69cb742a:scheme2_3la",
+        "doc_739c1c0b69cb742a:scheme2_3ma",
+        "doc_739c1c0b69cb742a:scheme2_3na",
+        "doc_739c1c0b69cb742a:scheme2_3oa",
+        "doc_739c1c0b69cb742a:scheme2_3pa",
+        "doc_739c1c0b69cb742a:scheme2_3qa",
+        "doc_739c1c0b69cb742a:scheme2_3ra",
+        "doc_739c1c0b69cb742a:scheme2_3ab",
+        "doc_739c1c0b69cb742a:scheme2_3ac",
+        "doc_739c1c0b69cb742a:scheme2_3ad",
+        "doc_739c1c0b69cb742a:scheme2_3ae",
+        "doc_739c1c0b69cb742a:scheme2_3af",
+        "doc_739c1c0b69cb742a:scheme2_3ag",
+        "doc_739c1c0b69cb742a:scheme2_3ah",
+        "doc_739c1c0b69cb742a:scheme2_3ai",
+        "doc_739c1c0b69cb742a:scheme2_3aj"
+      ],
+      "unresolved": [
+        "Individual SI optimization rows and procedures unavailable.",
+        "Compact scope structures are not all encoded as SMILES."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left scope discussion",
+          "finding": "E-only selectivity applies to the Scheme 2 products; dehydration/recovery/incompatible-substrate statements lack product-specific quantities",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page3:image",
+            "doc_739c1c0b69cb742a:page3:text"
+          ]
+        },
+        {
+          "region": "lower-left Scheme 3a",
+          "finding": "three deuterium-labeling/exchange experiments with 76% recovery, 58% yield and positional D incorporation",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page3:image",
+            "doc_739c1c0b69cb742a:page3:text"
+          ]
+        },
+        {
+          "region": "lower-left Scheme 3b",
+          "finding": "competitive KIE 1.6 and paired parallel KIE 1.3 retained as two mechanistic-study records",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page3:image",
+            "doc_739c1c0b69cb742a:page3:text"
+          ]
+        },
+        {
+          "region": "lower-left Scheme 3c/d",
+          "finding": "two product-forming controls (5, 7), one unresolved complex-mixture control, and one NHTs-allene product 10",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page3:image",
+            "doc_739c1c0b69cb742a:page3:text"
+          ]
+        },
+        {
+          "region": "upper-right Scheme 4",
+          "finding": "author-proposed catalytic cycle; one proposed_mechanism record, not executed syntheses",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page3:image",
+            "doc_739c1c0b69cb742a:page3:text"
+          ]
+        },
+        {
+          "region": "lower-right lead-in",
+          "finding": "scale-up and derivatization prose linked to page-4 equations",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page3:image",
+            "doc_739c1c0b69cb742a:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_739c1c0b69cb742a:scheme2_3aa",
+        "doc_739c1c0b69cb742a:scheme2_3ba",
+        "doc_739c1c0b69cb742a:scheme2_3ca",
+        "doc_739c1c0b69cb742a:scheme2_3da",
+        "doc_739c1c0b69cb742a:scheme2_3ea",
+        "doc_739c1c0b69cb742a:scheme2_3fa",
+        "doc_739c1c0b69cb742a:scheme2_3ga",
+        "doc_739c1c0b69cb742a:scheme2_3ha",
+        "doc_739c1c0b69cb742a:scheme2_3ia",
+        "doc_739c1c0b69cb742a:scheme2_3ja",
+        "doc_739c1c0b69cb742a:scheme2_3ka",
+        "doc_739c1c0b69cb742a:scheme2_3la",
+        "doc_739c1c0b69cb742a:scheme2_3ma",
+        "doc_739c1c0b69cb742a:scheme2_3na",
+        "doc_739c1c0b69cb742a:scheme2_3oa",
+        "doc_739c1c0b69cb742a:scheme2_3pa",
+        "doc_739c1c0b69cb742a:scheme2_3qa",
+        "doc_739c1c0b69cb742a:scheme2_3ra",
+        "doc_739c1c0b69cb742a:scheme2_3ab",
+        "doc_739c1c0b69cb742a:scheme2_3ac",
+        "doc_739c1c0b69cb742a:scheme2_3ad",
+        "doc_739c1c0b69cb742a:scheme2_3ae",
+        "doc_739c1c0b69cb742a:scheme2_3af",
+        "doc_739c1c0b69cb742a:scheme2_3ag",
+        "doc_739c1c0b69cb742a:scheme2_3ah",
+        "doc_739c1c0b69cb742a:scheme2_3ai",
+        "doc_739c1c0b69cb742a:scheme2_3aj",
+        "doc_739c1c0b69cb742a:scheme3a_1a_D2O_exchange",
+        "doc_739c1c0b69cb742a:scheme3a_3aa_D2O_annulation",
+        "doc_739c1c0b69cb742a:scheme3a_3ea_CD3OD_exchange",
+        "doc_739c1c0b69cb742a:scheme3b_competitive_KIE",
+        "doc_739c1c0b69cb742a:scheme3b_parallel_KIE",
+        "doc_739c1c0b69cb742a:scheme3c_allenol4_to_5",
+        "doc_739c1c0b69cb742a:scheme3c_allenol6_to_7",
+        "doc_739c1c0b69cb742a:scheme3d_noOH_allene8_mixture",
+        "doc_739c1c0b69cb742a:scheme3d_NHTs_allene9_to_10",
+        "doc_739c1c0b69cb742a:scheme4_proposed_mechanism",
+        "doc_739c1c0b69cb742a:eq1_scaleup_3aa",
+        "doc_739c1c0b69cb742a:eq2_3aa_to_11",
+        "doc_739c1c0b69cb742a:eq2_3aa_to_12",
+        "doc_739c1c0b69cb742a:eq2_3aa_to_13"
+      ],
+      "unresolved": [
+        "Mechanistic-study analytical methods, charges, atmospheres and workups are mostly unreported.",
+        "Mixture composition and exact isotope atom mapping remain unresolved."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left equation (1)",
+          "finding": "10 mmol scale 3aa synthesis, 68%, 1.755 g",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page4:image",
+            "doc_739c1c0b69cb742a:page3:text"
+          ]
+        },
+        {
+          "region": "upper-left equation (2), left arrow",
+          "finding": "3aa to 11 with LiAlH4 3 equiv/MeOH 4 equiv in THF at rt for 3 h, 61%",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page4:image",
+            "doc_739c1c0b69cb742a:page3:text"
+          ]
+        },
+        {
+          "region": "upper-left equation (2), right arrow/table",
+          "finding": "two separate RMgBr ring-opening variants: 12 (R=Me, 51%) and 13 (R=C≡CH, 54%), 2 equiv, THF, rt, 12 h, N2",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page4:image",
+            "doc_739c1c0b69cb742a:page4:text"
+          ]
+        },
+        {
+          "region": "remaining conclusion/references",
+          "finding": "non-experimental summary and bibliography; no additional current reaction arrow",
+          "evidence_ids": [
+            "doc_739c1c0b69cb742a:page4:image",
+            "doc_739c1c0b69cb742a:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_739c1c0b69cb742a:eq1_scaleup_3aa",
+        "doc_739c1c0b69cb742a:eq2_3aa_to_11",
+        "doc_739c1c0b69cb742a:eq2_3aa_to_12",
+        "doc_739c1c0b69cb742a:eq2_3aa_to_13"
+      ],
+      "unresolved": [
+        "Yield methods, substrate charges, solvent volumes, workups, purifications and product stereochemistry are unreported.",
+        "The 10 mmol scale denominator is inferred as 1a and explicitly flagged."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "batch_id": "allene-stereo-v31-200-20261017",
+  "document_id": "doc_439fe3cfd49f9dfc",
+  "inspected_original_pdf_pages": [
+    7,
+    8
+  ],
+  "image_evidence": [
+    "doc_439fe3cfd49f9dfc:page7:image",
+    "doc_439fe3cfd49f9dfc:page8:image"
+  ],
+  "observations": {
+    "page7": "References 6-18 only; no current-paper reaction, table, arrow, footnote condition or characterization block.",
+    "page8": {
+      "content_type": "graphical abstract",
+      "reaction_text": "generic allenoate + generic 2-aminoacrylate; cat. PR3; anhydrous solvent; Ar, r.t.; generic 3-pyrroline",
+      "stereochemistry_text": "An amino quaternary stereogenic center",
+      "aggregate_text": [
+        "up to 94% yield",
+        "30 examples",
+        "Gram-scale synthesis",
+        "Mechanistic studies"
+      ]
+    }
+  },
+  "decisions": [
+    "Merge page-8 evidence into the existing generic this-work scheme rather than create a duplicate concrete experiment.",
+    "Represent source R groups and PR3 as generic templates; leave concrete SMILES empty.",
+    "Use generic PR3 rather than substituting PPh3 into the source's cat. PR3 notation.",
+    "Correct the generic this-work atmosphere to Ar; N2 belongs to the adjacent previous-work schemes on page 3.",
+    "Do not turn 'up to 94% yield; 30 examples' into an outcome because it is an article-level aggregate without a unique target experiment.",
+    "Keep the marked product center unspecified; do not infer an absolute configuration or racemate.",
+    "No SI association is inferred."
+  ],
+  "new_concrete_experiments": 0,
+  "new_reaction_records": 0,
+  "updated_record_ids": [
+    "doc_439fe3cfd49f9dfc:scheme1_this_work_generic"
+  ],
+  "new_molecule_ids": [
+    "mol_generic_tertiary_phosphine_pr3",
+    "mol_generic_anhydrous_solvent"
+  ],
+  "standard_stereo": "No new concrete SMILES occurs on pages 7-8; generic templates cannot be passed to concrete graph stereo inspection.",
+  "semantic_accuracy_verified": false
+}

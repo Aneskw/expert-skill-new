@@ -1,0 +1,297 @@
+{
+  "document_id": "doc_7aafc6041d0daf10",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top and graphical abstract",
+          "finding": "article title/DOI plus two generic current-work pathways; reused the page-2 generic records to avoid duplicate experiments",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page1:image",
+            "doc_7aafc6041d0daf10:page1:text"
+          ]
+        },
+        {
+          "region": "abstract and introduction columns",
+          "finding": "context and cited prior work; no row-wise current-paper experiment",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page1:image",
+            "doc_7aafc6041d0daf10:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_7aafc6041d0daf10:scheme1_current_cross_coupling_generic",
+        "doc_7aafc6041d0daf10:scheme1_current_cycloisomerization_generic"
+      ],
+      "unresolved": [
+        "Graphical abstract uses R/E/Ar variables; no concrete identities or yields are assigned."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1",
+          "finding": "non-reaction examples of cyclopentane-containing drugs/natural products; retained as source_context",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page2:image",
+            "doc_7aafc6041d0daf10:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 1 upper Cazes and Ma rows",
+          "finding": "three cited literature examples, not current-paper experiments",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page2:image",
+            "doc_7aafc6041d0daf10:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 1 lower This work row",
+          "finding": "two generic current-work reaction arrows (cross-coupling/cyclization and cycloisomerization)",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page2:image",
+            "doc_7aafc6041d0daf10:page2:text"
+          ]
+        },
+        {
+          "region": "lower text columns",
+          "finding": "discussion introducing Table 1; no additional distinct row",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page2:image",
+            "doc_7aafc6041d0daf10:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_7aafc6041d0daf10:scheme1_cazes_literature",
+        "doc_7aafc6041d0daf10:scheme1_ma_a_literature",
+        "doc_7aafc6041d0daf10:scheme1_ma_b_literature",
+        "doc_7aafc6041d0daf10:scheme1_current_cross_coupling_generic",
+        "doc_7aafc6041d0daf10:scheme1_current_cycloisomerization_generic"
+      ],
+      "unresolved": [
+        "Generic R/E/Ar variables and literature-example product mixtures prevent complete structures and mapping."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 header and reaction drawings",
+          "finding": "common charges, three possible products, and rt default transcribed",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page3:image",
+            "doc_7aafc6041d0daf10:page3:text"
+          ]
+        },
+        {
+          "region": "Table 1 rows 1-20",
+          "finding": "20 distinct optimization experiments with explicit product/recovery cells retained row-wise",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page3:image",
+            "doc_7aafc6041d0daf10:page3:text"
+          ]
+        },
+        {
+          "region": "Table 1 footnotes and ligand key",
+          "finding": "NMR basis, isolated yield exception, base-loading exception, reflux/66 °C exceptions, and ligand identities transcribed",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page3:image",
+            "doc_7aafc6041d0daf10:page3:text"
+          ]
+        },
+        {
+          "region": "discussion columns",
+          "finding": "corroborates selected row interpretations and identifies competing product 5",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page3:image",
+            "doc_7aafc6041d0daf10:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_7aafc6041d0daf10:table1_entry_01",
+        "doc_7aafc6041d0daf10:table1_entry_02",
+        "doc_7aafc6041d0daf10:table1_entry_03",
+        "doc_7aafc6041d0daf10:table1_entry_04",
+        "doc_7aafc6041d0daf10:table1_entry_05",
+        "doc_7aafc6041d0daf10:table1_entry_06",
+        "doc_7aafc6041d0daf10:table1_entry_07",
+        "doc_7aafc6041d0daf10:table1_entry_08",
+        "doc_7aafc6041d0daf10:table1_entry_09",
+        "doc_7aafc6041d0daf10:table1_entry_10",
+        "doc_7aafc6041d0daf10:table1_entry_11",
+        "doc_7aafc6041d0daf10:table1_entry_12",
+        "doc_7aafc6041d0daf10:table1_entry_13",
+        "doc_7aafc6041d0daf10:table1_entry_14",
+        "doc_7aafc6041d0daf10:table1_entry_15",
+        "doc_7aafc6041d0daf10:table1_entry_16",
+        "doc_7aafc6041d0daf10:table1_entry_17",
+        "doc_7aafc6041d0daf10:table1_entry_18",
+        "doc_7aafc6041d0daf10:table1_entry_19",
+        "doc_7aafc6041d0daf10:table1_entry_20"
+      ],
+      "unresolved": [
+        "Reaction time and detailed procedure are absent; blank cells remain unreported.",
+        "Exact atom mapping and complete product stereochemistry are unresolved."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 header/general conditions",
+          "finding": "common Pd2dba3/dppm/ArI/NaHMDS/DMF conditions and overnight time transcribed",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page4:image",
+            "doc_7aafc6041d0daf10:page4:text"
+          ]
+        },
+        {
+          "region": "Table 2 blue scope box 3a-3m",
+          "finding": "13 distinct aryl/heteroaryl scope experiments",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page4:image",
+            "doc_7aafc6041d0daf10:page4:text"
+          ]
+        },
+        {
+          "region": "Table 2 red scope box 3n-3s and footnotes",
+          "finding": "six substituted-allene/lactone scope experiments; temperature, NMR, mixture and dr annotations retained",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page4:image",
+            "doc_7aafc6041d0daf10:page4:text"
+          ]
+        },
+        {
+          "region": "Scale up and postfunctionalization arrows",
+          "finding": "2 mmol synthesis of 3r and separate dihydroxylation to 6",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page4:image",
+            "doc_7aafc6041d0daf10:page4:text"
+          ]
+        },
+        {
+          "region": "discussion columns",
+          "finding": "reports 6 in 68% yield and 1.4:1 dr; no additional distinct experiment",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page4:image",
+            "doc_7aafc6041d0daf10:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_7aafc6041d0daf10:table2_3a",
+        "doc_7aafc6041d0daf10:table2_3b",
+        "doc_7aafc6041d0daf10:table2_3c",
+        "doc_7aafc6041d0daf10:table2_3d",
+        "doc_7aafc6041d0daf10:table2_3e",
+        "doc_7aafc6041d0daf10:table2_3f",
+        "doc_7aafc6041d0daf10:table2_3g",
+        "doc_7aafc6041d0daf10:table2_3h",
+        "doc_7aafc6041d0daf10:table2_3i",
+        "doc_7aafc6041d0daf10:table2_3j",
+        "doc_7aafc6041d0daf10:table2_3k",
+        "doc_7aafc6041d0daf10:table2_3l",
+        "doc_7aafc6041d0daf10:table2_3m",
+        "doc_7aafc6041d0daf10:table2_3n",
+        "doc_7aafc6041d0daf10:table2_3o",
+        "doc_7aafc6041d0daf10:table2_3p",
+        "doc_7aafc6041d0daf10:table2_3q",
+        "doc_7aafc6041d0daf10:table2_3r",
+        "doc_7aafc6041d0daf10:table2_3s",
+        "doc_7aafc6041d0daf10:scheme_table2_scaleup_3r",
+        "doc_7aafc6041d0daf10:scheme_table2_dihydroxylation_6"
+      ],
+      "unresolved": [
+        "Unmarked scope yield basis and dr methods are not stated on page 4.",
+        "Most scope structures remain unresolved instead of receiving unchecked SMILES."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2",
+          "finding": "author-proposed pathways A-D recorded as one proposed-mechanism record with arrow inventory",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page5:image",
+            "doc_7aafc6041d0daf10:page5:text"
+          ]
+        },
+        {
+          "region": "Scheme 3a-c",
+          "finding": "three distinct transfer-of-chirality experiments with input ee, conditions, product ee and E:Z results",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page5:image",
+            "doc_7aafc6041d0daf10:page5:text"
+          ]
+        },
+        {
+          "region": "mechanistic discussion and computation text",
+          "finding": "author interpretation retained as notes/context; not promoted to separate observed experiments",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page5:image",
+            "doc_7aafc6041d0daf10:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_7aafc6041d0daf10:scheme2_proposed_mechanism",
+        "doc_7aafc6041d0daf10:scheme3a_chirality_transfer_3a",
+        "doc_7aafc6041d0daf10:scheme3b_ma_conditions_4a",
+        "doc_7aafc6041d0daf10:scheme3c_new_conditions_4a"
+      ],
+      "unresolved": [
+        "Product absolute configurations and selectivity measurement methods are not reported on page 5.",
+        "Scheme 2 entities are generic and not encoded as concrete SMILES."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 2",
+          "finding": "DFT energy profile recorded as computational proposed-mechanism context, not a synthetic experiment",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page6:image",
+            "doc_7aafc6041d0daf10:page6:text"
+          ]
+        },
+        {
+          "region": "Scheme 4",
+          "finding": "author-proposed conformational model recorded separately",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page6:image",
+            "doc_7aafc6041d0daf10:page6:text"
+          ]
+        },
+        {
+          "region": "lower discussion columns",
+          "finding": "discussion of barriers, regioselectivity and stereodivergence; no additional standalone experiment",
+          "evidence_ids": [
+            "doc_7aafc6041d0daf10:page6:image",
+            "doc_7aafc6041d0daf10:page6:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_7aafc6041d0daf10:figure2_computed_profile",
+        "doc_7aafc6041d0daf10:scheme4_conformational_model"
+      ],
+      "unresolved": [
+        "Computed metal complexes/conformers are generic or coordination-rich and not encoded as unique SMILES."
+      ]
+    }
+  ]
+}

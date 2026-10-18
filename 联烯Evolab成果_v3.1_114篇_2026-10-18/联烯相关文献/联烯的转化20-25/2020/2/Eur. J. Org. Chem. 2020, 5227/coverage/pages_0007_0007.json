@@ -1,0 +1,41 @@
+{
+  "document_id": "doc_3bed13a021d538c6",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column, references [6]-[12]",
+          "finding": "Bibliographic citations and review/prior-work references only; no reaction arrow, table row, structure figure, or experiment execution on this page.",
+          "evidence_ids": [
+            "doc_3bed13a021d538c6:page7:text",
+            "doc_3bed13a021d538c6:page7:image"
+          ]
+        },
+        {
+          "region": "right column, continuation of reference [12] and references [13]-[17], [19]",
+          "finding": "Prior-literature citations only. They are not recorded as current-paper experiments and do not add records to the page-2 Scheme 1 literature examples.",
+          "evidence_ids": [
+            "doc_3bed13a021d538c6:page7:text",
+            "doc_3bed13a021d538c6:page7:image"
+          ]
+        },
+        {
+          "region": "right column, reference [18] and bottom received line",
+          "finding": "Reference [18] states that CCDC deposition 1981291 contains crystallographic data for 2o; this is nonreaction source context and does not establish a supplied SI file. The bottom line reports Received: June 17, 2020.",
+          "evidence_ids": [
+            "doc_3bed13a021d538c6:page7:text",
+            "doc_3bed13a021d538c6:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No supporting-information file is explicitly supplied or associated in this workspace.",
+        "The bibliography was inventoried as source context; cited papers were not independently opened or converted into experiments for this paper."
+      ]
+    }
+  ]
+}

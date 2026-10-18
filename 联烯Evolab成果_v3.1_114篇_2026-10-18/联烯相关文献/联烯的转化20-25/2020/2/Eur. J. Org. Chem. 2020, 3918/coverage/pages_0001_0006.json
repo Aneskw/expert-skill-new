@@ -1,0 +1,334 @@
+{
+  "document_id": "doc_518d3edb75482abc",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title and abstract",
+          "finding": "Article identity and overall current-work claim; no standalone experiment.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page1:text",
+            "doc_518d3edb75482abc:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1, Previous work arrow",
+          "finding": "Cited hydrogenation literature example 1 to 3; kept as literature_example.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page1:text",
+            "doc_518d3edb75482abc:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1, This work arrow",
+          "finding": "Generic electrochemical route 1 to 2; kept as generic_scheme, not a concrete execution.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page1:text",
+            "doc_518d3edb75482abc:page1:image"
+          ]
+        },
+        {
+          "region": "introduction prose",
+          "finding": "Background and citations; no additional current-paper concrete experiment.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page1:text",
+            "doc_518d3edb75482abc:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_518d3edb75482abc:scheme1_previous_hydrogenation",
+        "doc_518d3edb75482abc:scheme1_current_generic"
+      ],
+      "unresolved": [
+        "Generic R/EWG/R′ identities and all stereochemical assignments remain unresolved."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "supporting-electrolyte and solvent prose",
+          "finding": "nBu4NClO4, LiClO4, and pure-DMF trials retained as partial optimization experiments.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page2:text",
+            "doc_518d3edb75482abc:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1 rows 1-5 and footnote",
+          "finding": "Five rows plus the footnoted mixed-solvent execution represented independently; ND preserved as not determined.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page2:text",
+            "doc_518d3edb75482abc:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 2",
+          "finding": "Author-proposed mechanism 4 to 5, not independent proof.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page2:text",
+            "doc_518d3edb75482abc:page2:image"
+          ]
+        },
+        {
+          "region": "protecting-group prose",
+          "finding": "Products 12/13 and -2.70/-2.90 V 5:13 trials linked to Scheme 3 records.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page2:text",
+            "doc_518d3edb75482abc:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_518d3edb75482abc:optimization_supporting_electrolyte_nbu4nclo4",
+        "doc_518d3edb75482abc:optimization_supporting_electrolyte_liclo4",
+        "doc_518d3edb75482abc:optimization_dmf_no_external_proton",
+        "doc_518d3edb75482abc:table1_entry1",
+        "doc_518d3edb75482abc:table1_entry2",
+        "doc_518d3edb75482abc:table1_entry3",
+        "doc_518d3edb75482abc:table1_entry4",
+        "doc_518d3edb75482abc:table1_entry5",
+        "doc_518d3edb75482abc:table1_entry5_mixed_solvent",
+        "doc_518d3edb75482abc:scheme2_proposed_mechanism",
+        "doc_518d3edb75482abc:scheme3_product12",
+        "doc_518d3edb75482abc:scheme3_product13",
+        "doc_518d3edb75482abc:scheme3_ms_potential_2_7V",
+        "doc_518d3edb75482abc:scheme3_ms_potential_2_9V",
+        "doc_518d3edb75482abc:scheme3_product14_pure_mecn",
+        "doc_518d3edb75482abc:scope16_pure_mecn",
+        "doc_518d3edb75482abc:scope17_pure_mecn",
+        "doc_518d3edb75482abc:scope28_pure_mecn",
+        "doc_518d3edb75482abc:scope33_pure_mecn"
+      ],
+      "unresolved": [
+        "Table yields other than footnoted 68% lack an explicit measurement basis.",
+        "Less-conclusive electrolyte trials lack numeric outcomes."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 arrow/products/footnotes",
+          "finding": "Generic protecting-group scheme plus concrete executions 12-15, including alternate pure-MeCN 14.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page3:text",
+            "doc_518d3edb75482abc:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 4, products 5 and 16-18",
+          "finding": "Main and footnoted pure-MeCN executions separated; 18 dr retained.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page3:text",
+            "doc_518d3edb75482abc:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 4, products 19-27",
+          "finding": "Scope products, decompositions, conversions, and E/Z outcomes each mapped to records.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page3:text",
+            "doc_518d3edb75482abc:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 4 caption",
+          "finding": "Shared electrolyte/solvent/proton-source/charge/potential and crude 31P-NMR ratio basis retained.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page3:text",
+            "doc_518d3edb75482abc:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_518d3edb75482abc:table1_entry1",
+        "doc_518d3edb75482abc:table1_entry5_mixed_solvent",
+        "doc_518d3edb75482abc:scheme3_protecting_group_generic",
+        "doc_518d3edb75482abc:scheme3_product12",
+        "doc_518d3edb75482abc:scheme3_product13",
+        "doc_518d3edb75482abc:scheme3_ms_potential_2_7V",
+        "doc_518d3edb75482abc:scheme3_ms_potential_2_9V",
+        "doc_518d3edb75482abc:scheme3_product14",
+        "doc_518d3edb75482abc:scheme3_product14_pure_mecn",
+        "doc_518d3edb75482abc:scheme3_product15",
+        "doc_518d3edb75482abc:scope16",
+        "doc_518d3edb75482abc:scope16_pure_mecn",
+        "doc_518d3edb75482abc:scope17",
+        "doc_518d3edb75482abc:scope17_pure_mecn",
+        "doc_518d3edb75482abc:scope18",
+        "doc_518d3edb75482abc:scope19",
+        "doc_518d3edb75482abc:scope22",
+        "doc_518d3edb75482abc:scope23",
+        "doc_518d3edb75482abc:scope24",
+        "doc_518d3edb75482abc:scope26",
+        "doc_518d3edb75482abc:scope27",
+        "doc_518d3edb75482abc:scope20_decomposition",
+        "doc_518d3edb75482abc:scope21_decomposition",
+        "doc_518d3edb75482abc:scope25_competing_products"
+      ],
+      "unresolved": [
+        "Most source drawings do not assign alpha-center or allene axial stereochemistry.",
+        "Products 20 and 21 decompose; decomposition identities are not given."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 5",
+          "finding": "One 4a execution with product-specific yields for 25 and 25′; separate -2.30 V execution retained from prose.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page4:text",
+            "doc_518d3edb75482abc:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 6",
+          "finding": "Products 28-34 and footnoted pure-MeCN variants mapped independently with conversions.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page4:text",
+            "doc_518d3edb75482abc:page4:image"
+          ]
+        },
+        {
+          "region": "conclusion",
+          "finding": "Summary only; no new reaction record.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page4:text",
+            "doc_518d3edb75482abc:page4:image"
+          ]
+        },
+        {
+          "region": "Experimental Section apparatus",
+          "finding": "General instrumentation/context retained; cyclic voltammograms are not counted as synthesis records.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page4:text",
+            "doc_518d3edb75482abc:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_518d3edb75482abc:scope25_competing_products",
+        "doc_518d3edb75482abc:scope25_potential_minus2_30V",
+        "doc_518d3edb75482abc:scope28",
+        "doc_518d3edb75482abc:scope28_pure_mecn",
+        "doc_518d3edb75482abc:scope29",
+        "doc_518d3edb75482abc:scope30",
+        "doc_518d3edb75482abc:scope31",
+        "doc_518d3edb75482abc:scope32",
+        "doc_518d3edb75482abc:scope33",
+        "doc_518d3edb75482abc:scope33_pure_mecn",
+        "doc_518d3edb75482abc:scope34"
+      ],
+      "unresolved": [
+        "The -2.30 V 25:25′ product ratio is described only as unchanged, without a number.",
+        "Covered pages omit product-specific procedures for 29-34."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "General Procedure A",
+          "finding": "Scale, doses, solvent volume/ratio, degassing, electrolysis endpoint, work-up, and chromatography mapped in operation order.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page5:text",
+            "doc_518d3edb75482abc:page5:image"
+          ]
+        },
+        {
+          "region": "product paragraphs 5 and 12-19",
+          "finding": "Product masses, yields, purification details, and mixture statements associated with existing reactions; not duplicated.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page5:text",
+            "doc_518d3edb75482abc:page5:image"
+          ]
+        },
+        {
+          "region": "NMR/HRMS/Rf blocks",
+          "finding": "Characterization retained as source_context rather than reactions.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page5:text",
+            "doc_518d3edb75482abc:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_518d3edb75482abc:table1_entry5_mixed_solvent",
+        "doc_518d3edb75482abc:scheme3_product12",
+        "doc_518d3edb75482abc:scheme3_product13",
+        "doc_518d3edb75482abc:scheme3_product14",
+        "doc_518d3edb75482abc:scheme3_product15",
+        "doc_518d3edb75482abc:scope16",
+        "doc_518d3edb75482abc:scope17",
+        "doc_518d3edb75482abc:scope18",
+        "doc_518d3edb75482abc:scope19"
+      ],
+      "unresolved": [
+        "Product 13 prints 6 mg and 55%, while Scheme 3/prose prints 56%; values are preserved without correction.",
+        "General Procedure A 5 h/4-5 F mol-1 differs from Table 1 product-5 40-120 min/4 F mol-1."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "product 19 continuation",
+          "finding": "E/Z-mixture characterization continues from page 5; no new synthesis record.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page6:text",
+            "doc_518d3edb75482abc:page6:image"
+          ]
+        },
+        {
+          "region": "product paragraphs 22-27 and 25′",
+          "finding": "Masses/yields/purification and mixture characterization linked to Scheme 4/5 records.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page6:text",
+            "doc_518d3edb75482abc:page6:image"
+          ]
+        },
+        {
+          "region": "product 28 heading/start",
+          "finding": "Preparation paragraph begins and continues beyond bounded page 6; page-4 scheme supplies covered outcome.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page6:text",
+            "doc_518d3edb75482abc:page6:image"
+          ]
+        },
+        {
+          "region": "NMR/HRMS/Rf blocks",
+          "finding": "Characterization preserved in source_context, not counted as reactions.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page6:text",
+            "doc_518d3edb75482abc:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_518d3edb75482abc:scope19",
+        "doc_518d3edb75482abc:scope22",
+        "doc_518d3edb75482abc:scope23",
+        "doc_518d3edb75482abc:scope24",
+        "doc_518d3edb75482abc:scope26",
+        "doc_518d3edb75482abc:scope27",
+        "doc_518d3edb75482abc:scope25_competing_products",
+        "doc_518d3edb75482abc:scope28"
+      ],
+      "unresolved": [
+        "Product 28 procedure/characterization continues onto page 7 and is outside this visual-coverage claim.",
+        "No SI file was supplied or associated."
+      ]
+    }
+  ]
+}

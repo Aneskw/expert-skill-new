@@ -1,0 +1,710 @@
+{
+  "document_id": "doc_2a371ced54a752e8",
+  "visual_pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "record_count": 70,
+  "molecule_count": 89,
+  "decisions": [
+    "Table rows and individual scope arrows are separate records.",
+    "Table 1 entry 7 and Scheme 3 product 2 method A are the same experiment and share one record.",
+    "Prior work and generic schemes are typed separately from current specific experiments.",
+    "Table 2 entry 6 and Scheme 4 product 36 remain distinct because their printed ee values differ.",
+    "Scope yields are isolated per the Scheme 3/4 footnotes; table conversions retain an unreported measurement basis.",
+    "Molecule structures are candidate transcriptions and remain unreviewed; unresolved boronate/application structures are not guessed."
+  ],
+  "records": [
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme1_generic_aldehyde_allylation",
+      "location": "Scheme 1",
+      "record_type": "generic_scheme",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page2:image",
+        "doc_2a371ced54a752e8:page2:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme2a_prior_pinacol_cpa",
+      "location": "Scheme 2",
+      "record_type": "literature_example",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page2:image",
+        "doc_2a371ced54a752e8:page2:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme2b_current_generic",
+      "location": "Scheme 2",
+      "record_type": "generic_scheme",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page2:image",
+        "doc_2a371ced54a752e8:page2:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table1_entry_1",
+      "location": "Table 1 entry 1",
+      "record_type": "literature_example",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page3:image",
+        "doc_2a371ced54a752e8:page3:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table1_entry_2",
+      "location": "Table 1 entry 2",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page3:image",
+        "doc_2a371ced54a752e8:page3:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table1_entry_3",
+      "location": "Table 1 entry 3",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page3:image",
+        "doc_2a371ced54a752e8:page3:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table1_entry_4",
+      "location": "Table 1 entry 4",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page3:image",
+        "doc_2a371ced54a752e8:page3:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table1_entry_5",
+      "location": "Table 1 entry 5",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page3:image",
+        "doc_2a371ced54a752e8:page3:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table1_entry_6",
+      "location": "Table 1 entry 6",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page3:image",
+        "doc_2a371ced54a752e8:page3:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table1_entry_7",
+      "location": "Table 1 entry 7; Scheme 3 product 2, method A",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page3:image",
+        "doc_2a371ced54a752e8:page3:text",
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table1_entry_8",
+      "location": "Table 1 entry 8",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page3:image",
+        "doc_2a371ced54a752e8:page3:text",
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table1_acidified_pa1_rescreen",
+      "location": "Page 3 prose rescreen",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page3:image",
+        "doc_2a371ced54a752e8:page3:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_2_method_b",
+      "location": "Scheme 3 product 2, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_3_method_a",
+      "location": "Scheme 3 product 3, method A",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_4_method_a",
+      "location": "Scheme 3 product 4, method A",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_5_method_a",
+      "location": "Scheme 3 product 5, method A",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_6_method_a",
+      "location": "Scheme 3 product 6, method A",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_7_method_a",
+      "location": "Scheme 3 product 7, method A",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_8_method_a",
+      "location": "Scheme 3 product 8, method A",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_9_method_a",
+      "location": "Scheme 3 product 9, method A",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_10_method_a",
+      "location": "Scheme 3 product 10, method A",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_11_method_a",
+      "location": "Scheme 3 product 11, method A",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_12_method_a",
+      "location": "Scheme 3 product 12, method A",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_13_method_b",
+      "location": "Scheme 3 product 13, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_14_method_b",
+      "location": "Scheme 3 product 14, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_15_method_b",
+      "location": "Scheme 3 product 15, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_16_method_b",
+      "location": "Scheme 3 product 16, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_17_method_b",
+      "location": "Scheme 3 product 17, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_18_method_b",
+      "location": "Scheme 3 product 18, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_19_method_b",
+      "location": "Scheme 3 product 19, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_20_method_b",
+      "location": "Scheme 3 product 20, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_21_method_b",
+      "location": "Scheme 3 product 21, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_22_method_b",
+      "location": "Scheme 3 product 22, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_23_method_b",
+      "location": "Scheme 3 product 23, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_24_method_b",
+      "location": "Scheme 3 product 24, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_25_method_b",
+      "location": "Scheme 3 product 25, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_26_method_b",
+      "location": "Scheme 3 product 26, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_27_method_b",
+      "location": "Scheme 3 product 27, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_28_method_b",
+      "location": "Scheme 3 product 28, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_29_method_b",
+      "location": "Scheme 3 product 29, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_31_method_b",
+      "location": "Scheme 3 product 31, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_32_method_b",
+      "location": "Scheme 3 product 32, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_33_method_b",
+      "location": "Scheme 3 product 33, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_34_method_b",
+      "location": "Scheme 3 product 34, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_product_35_method_b",
+      "location": "Scheme 3 product 35, method B",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page4:text",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme3_29_to_30_derivatization",
+      "location": "Scheme 3, 29 → 30",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page4:image",
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page5:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table2_entry_1",
+      "location": "Table 2 entry 1",
+      "record_type": "literature_example",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table2_entry_2",
+      "location": "Table 2 entry 2",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table2_entry_3",
+      "location": "Table 2 entry 3",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table2_entry_4",
+      "location": "Table 2 entry 4",
+      "record_type": "literature_example",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table2_entry_5",
+      "location": "Table 2 entry 5",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table2_entry_6",
+      "location": "Table 2 entry 6",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table2_entry_7",
+      "location": "Table 2 entry 7",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:table2_entry_8",
+      "location": "Table 2 entry 8",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page5:image",
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme4_product_36",
+      "location": "Scheme 4 product 36",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme4_product_37",
+      "location": "Scheme 4 product 37",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme4_product_38",
+      "location": "Scheme 4 product 38",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme4_product_39",
+      "location": "Scheme 4 product 39",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme4_product_40",
+      "location": "Scheme 4 product 40",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme4_product_41",
+      "location": "Scheme 4 product 41",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme4_product_42",
+      "location": "Scheme 4 product 42",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme4_product_43",
+      "location": "Scheme 4 product 43",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme4_product_44",
+      "location": "Scheme 4 product 44",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:scheme4_product_45",
+      "location": "Scheme 4 product 45",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:page6_19_to_47",
+      "location": "Page 6 application discussion",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:page6_19_to_49",
+      "location": "Page 6 application discussion",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:page6_49_to_50",
+      "location": "Page 6 application discussion",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:page6_gram_allylation",
+      "location": "Page 6 gram-scale discussion",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:page6_gram_crotylation",
+      "location": "Page 6 gram-scale discussion",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    },
+    {
+      "reaction_id": "doc_2a371ced54a752e8:page6_gram_propargylation",
+      "location": "Page 6 gram-scale discussion",
+      "record_type": "specific_experiment",
+      "evidence_ids": [
+        "doc_2a371ced54a752e8:page6:image",
+        "doc_2a371ced54a752e8:page6:text"
+      ]
+    }
+  ]
+}

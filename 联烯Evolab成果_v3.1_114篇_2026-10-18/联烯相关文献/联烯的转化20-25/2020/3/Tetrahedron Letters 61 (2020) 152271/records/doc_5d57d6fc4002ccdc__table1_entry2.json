@@ -1,0 +1,3163 @@
+{
+  "reaction_id": "doc_5d57d6fc4002ccdc:table1_entry2",
+  "document_id": "doc_5d57d6fc4002ccdc",
+  "record_type": "specific_experiment",
+  "experiment_categories": {
+    "raw_value": [
+      "optimization"
+    ],
+    "normalized_value": [
+      "optimization"
+    ],
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_5d57d6fc4002ccdc:page1:text",
+      "doc_5d57d6fc4002ccdc:page2:text",
+      "doc_5d57d6fc4002ccdc:page1:image",
+      "doc_5d57d6fc4002ccdc:page2:image",
+      "doc_5d57d6fc4002ccdc:page4:text",
+      "doc_5d57d6fc4002ccdc:page4:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "location": {
+    "raw_value": {
+      "page": 2,
+      "region": "Table 1",
+      "entry": 2
+    },
+    "normalized_value": {
+      "page": 2,
+      "region": "Table 1",
+      "entry": 2
+    },
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_5d57d6fc4002ccdc:page1:text",
+      "doc_5d57d6fc4002ccdc:page2:text",
+      "doc_5d57d6fc4002ccdc:page1:image",
+      "doc_5d57d6fc4002ccdc:page2:image",
+      "doc_5d57d6fc4002ccdc:page4:text",
+      "doc_5d57d6fc4002ccdc:page4:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "general_scheme_ids": [
+    "doc_5d57d6fc4002ccdc:scheme1_general"
+  ],
+  "reaction_name": {
+    "raw_value": "Tandem thia-Michael/Dieckmann condensation",
+    "normalized_value": "Tandem thia-Michael/Dieckmann condensation",
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_5d57d6fc4002ccdc:page1:text",
+      "doc_5d57d6fc4002ccdc:page2:text",
+      "doc_5d57d6fc4002ccdc:page1:image",
+      "doc_5d57d6fc4002ccdc:page2:image",
+      "doc_5d57d6fc4002ccdc:page4:text",
+      "doc_5d57d6fc4002ccdc:page4:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "transformation_type": {
+    "raw_value": null,
+    "normalized_value": "regioselective cyclization to trisubstituted thiophene(s)",
+    "acquisition_method": "inference",
+    "evidence_ids": [
+      "doc_5d57d6fc4002ccdc:page1:text",
+      "doc_5d57d6fc4002ccdc:page2:text",
+      "doc_5d57d6fc4002ccdc:page1:image",
+      "doc_5d57d6fc4002ccdc:page2:image",
+      "doc_5d57d6fc4002ccdc:page4:text",
+      "doc_5d57d6fc4002ccdc:page4:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "inferred",
+    "derivation": "Transformation description is a machine normalization of the source reaction name/drawing.",
+    "alternatives": []
+  },
+  "participants": [
+    {
+      "participant_id": "substrate",
+      "molecule_id": "doc_5d57d6fc4002ccdc:mol:1a",
+      "role": "reactant",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": "53.8 mg",
+          "normalized_value": {
+            "number": 53.8,
+            "unit": "mg"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": "0.286 mmol",
+          "normalized_value": {
+            "number": 0.286,
+            "unit": "mmol"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": "reference substrate",
+          "normalized_value": {
+            "number": 1,
+            "unit": "equiv"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "relative to 1a",
+        "normalized_value": "doc_5d57d6fc4002ccdc:mol:1a",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "thiol",
+      "molecule_id": "doc_5d57d6fc4002ccdc:mol:2",
+      "role": "reactant",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": "0.286 mmol",
+          "normalized_value": {
+            "number": 0.286,
+            "unit": "mmol"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": "26.0 uL",
+          "normalized_value": {
+            "number": 26.0,
+            "unit": "uL"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": "1 mol eq",
+          "normalized_value": {
+            "number": 1,
+            "unit": "equiv"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "relative to 1a",
+        "normalized_value": "doc_5d57d6fc4002ccdc:mol:1a",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "DBU",
+      "molecule_id": "doc_5d57d6fc4002ccdc:mol:DBU",
+      "role": "reagent",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": "0.286 mmol",
+          "normalized_value": {
+            "number": 0.286,
+            "unit": "mmol"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": "42.7 uL",
+          "normalized_value": {
+            "number": 42.7,
+            "unit": "uL"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": "1 mol eq",
+          "normalized_value": {
+            "number": 1,
+            "unit": "equiv"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "relative to 1a",
+        "normalized_value": "doc_5d57d6fc4002ccdc:mol:1a",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "solvent",
+      "molecule_id": "doc_5d57d6fc4002ccdc:mol:THF",
+      "role": "solvent",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": "2 mL",
+          "normalized_value": {
+            "number": 2,
+            "unit": "mL"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "product3",
+      "molecule_id": "doc_5d57d6fc4002ccdc:mol:3a",
+      "role": "product",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": "2,3,5-regioisomer",
+        "normalized_value": "2,3,5-regioisomer",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "product4",
+      "molecule_id": "doc_5d57d6fc4002ccdc:mol:4a",
+      "role": "product",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": "2,3,4-regioisomer",
+        "normalized_value": "2,3,4-regioisomer",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page1:image",
+            "doc_5d57d6fc4002ccdc:page2:image",
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "acid",
+      "molecule_id": "doc_5d57d6fc4002ccdc:mol:HCl",
+      "role": "workup_agent",
+      "stage": "workup",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": "3 mL of 1 N HCl aq",
+          "normalized_value": {
+            "number": 3,
+            "unit": "mL"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "extractant",
+      "molecule_id": "doc_5d57d6fc4002ccdc:mol:CHCl3",
+      "role": "workup_agent",
+      "stage": "workup",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": "20 mL x 3",
+          "normalized_value": {
+            "number": 20,
+            "unit": "mL"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "drying",
+      "molecule_id": "doc_5d57d6fc4002ccdc:mol:MgSO4",
+      "role": "workup_agent",
+      "stage": "workup",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "stationary",
+      "molecule_id": "doc_5d57d6fc4002ccdc:mol:silica",
+      "role": "purification_agent",
+      "stage": "purification",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "eluent1",
+      "molecule_id": "doc_5d57d6fc4002ccdc:mol:hexane",
+      "role": "purification_agent",
+      "stage": "purification",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "eluent2",
+      "molecule_id": "doc_5d57d6fc4002ccdc:mol:EtOAc",
+      "role": "purification_agent",
+      "stage": "purification",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "reaction_scale": {
+    "raw_value": "1a, 0.286 mmol",
+    "normalized_value": {
+      "reference_molecule_id": "doc_5d57d6fc4002ccdc:mol:1a",
+      "amount": {
+        "number": 0.286,
+        "unit": "mmol"
+      }
+    },
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_5d57d6fc4002ccdc:page4:text",
+      "doc_5d57d6fc4002ccdc:page4:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "solvent_conditions": {
+    "composition": {
+      "raw_value": "anhydrous THF",
+      "normalized_value": [
+        "doc_5d57d6fc4002ccdc:mol:THF"
+      ],
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "mixture_ratio": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "total_volume": {
+      "raw_value": "2 mL",
+      "normalized_value": {
+        "number": 2,
+        "unit": "mL"
+      },
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "concentration": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "concentration_basis": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "steps": [
+    {
+      "step_id": "reaction",
+      "stage": "reaction",
+      "participant_ids": [
+        "substrate",
+        "thiol",
+        "DBU",
+        "solvent"
+      ],
+      "operation": {
+        "raw_value": "stir allenyl ester 1a, methyl mercaptoacetate and listed agent(s) in solvent",
+        "normalized_value": "stir allenyl ester 1a, methyl mercaptoacetate and listed agent(s) in solvent",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": "rt",
+        "normalized_value": "r.t.",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": "3 h",
+        "normalized_value": {
+          "number": 3,
+          "unit": "h"
+        },
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": "argon",
+        "normalized_value": "argon",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "step_id": "acid_treatment",
+      "stage": "workup",
+      "participant_ids": [
+        "acid"
+      ],
+      "operation": {
+        "raw_value": "treat with 1 N aqueous HCl",
+        "normalized_value": "treat with 1 N aqueous HCl",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "step_id": "extraction",
+      "stage": "workup",
+      "participant_ids": [
+        "extractant"
+      ],
+      "operation": {
+        "raw_value": "extract with CHCl3 three times",
+        "normalized_value": "extract with CHCl3 three times",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "step_id": "dry_filter_concentrate",
+      "stage": "workup",
+      "participant_ids": [
+        "drying"
+      ],
+      "operation": {
+        "raw_value": "dry over anhydrous MgSO4, filter, and concentrate in vacuo",
+        "normalized_value": "dry over anhydrous MgSO4, filter, and concentrate in vacuo",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "step_id": "chromatography",
+      "stage": "purification",
+      "participant_ids": [
+        "stationary",
+        "eluent1",
+        "eluent2"
+      ],
+      "operation": {
+        "raw_value": "column chromatography on Silica Gel PSQ 60B with n-hexane-AcOEt 8:1",
+        "normalized_value": "column chromatography on Silica Gel PSQ 60B with n-hexane-AcOEt 8:1",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "step_id": "analytical_ptlc",
+      "stage": "purification",
+      "participant_ids": [
+        "product3"
+      ],
+      "operation": {
+        "raw_value": "further PTLC purification to obtain an analytical sample of 3a",
+        "normalized_value": "further PTLC purification to obtain an analytical sample of 3a",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "special_conditions": {
+    "light_source": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "wavelength": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "power": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "current": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "voltage": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "electrodes": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "flow_parameters": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "reactor": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "procedure": {
+    "original_text": {
+      "raw_value": "Typical procedure [18]: 1a (53.8 mg, 0.286 mmol), 2 (26.0 uL, 0.286 mmol), DBU (42.7 uL, 0.286 mmol), anhydrous THF (2 mL), room temperature under argon, 3 h; HCl workup, CHCl3 extraction, MgSO4 drying, and silica chromatography (8:1).",
+      "normalized_value": "Typical procedure [18]: 1a (53.8 mg, 0.286 mmol), 2 (26.0 uL, 0.286 mmol), DBU (42.7 uL, 0.286 mmol), anhydrous THF (2 mL), room temperature under argon, 3 h; HCl workup, CHCl3 extraction, MgSO4 drying, and silica chromatography (8:1).",
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "general_procedure_reference": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "modifications": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "addition_order": {
+      "raw_value": "DBU was added to a solution of 1a and 2 in anhydrous THF.",
+      "normalized_value": [
+        "solution: 1a + 2 in THF",
+        "add DBU"
+      ],
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "pretreatment": {
+      "raw_value": "anhydrous THF; under argon",
+      "normalized_value": [
+        "anhydrous THF",
+        "argon"
+      ],
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "outcomes": [
+    {
+      "outcome_id": "yield",
+      "kind": "yield",
+      "target_molecule_ids": [
+        "doc_5d57d6fc4002ccdc:mol:3a",
+        "doc_5d57d6fc4002ccdc:mol:4a"
+      ],
+      "product_role": {
+        "raw_value": "reported product(s)",
+        "normalized_value": "reported product(s)",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "value": {
+        "raw_value": "Table 1: 99%; procedure [18]: 74.0 mg, 99%, 3a/4a = 97:3",
+        "normalized_value": {
+          "number": 99,
+          "unit": "%"
+        },
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "yield_type": {
+        "raw_value": "isolated",
+        "normalized_value": "isolated",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "measurement_basis": {
+        "raw_value": "isolated yield",
+        "normalized_value": "isolated yield",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "scope": {
+        "raw_value": {
+          "span": "1a + 2 to reported thiophene product(s)"
+        },
+        "normalized_value": {
+          "span": "1a + 2 to reported thiophene product(s)"
+        },
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "outcome_id": "product_amount",
+      "kind": "product_amount",
+      "target_molecule_ids": [
+        "doc_5d57d6fc4002ccdc:mol:3a",
+        "doc_5d57d6fc4002ccdc:mol:4a"
+      ],
+      "product_role": {
+        "raw_value": "inseparable mixture",
+        "normalized_value": "inseparable mixture",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "value": {
+        "raw_value": "74.0 mg mixture",
+        "normalized_value": {
+          "number": 74.0,
+          "unit": "mg"
+        },
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "yield_type": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "measurement_basis": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "scope": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "outcome_id": "regioselectivity",
+      "kind": "selectivity",
+      "target_molecule_ids": [
+        "doc_5d57d6fc4002ccdc:mol:3a",
+        "doc_5d57d6fc4002ccdc:mol:4a"
+      ],
+      "product_role": {
+        "raw_value": "regioisomer ratio",
+        "normalized_value": "regioisomer ratio",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "value": {
+        "raw_value": "3a/4a = 97:3",
+        "normalized_value": {
+          "metric": "3a/4a molar ratio",
+          "ordered_molecule_ids": [
+            "doc_5d57d6fc4002ccdc:mol:3a",
+            "doc_5d57d6fc4002ccdc:mol:4a"
+          ],
+          "ratio": [
+            97,
+            3
+          ]
+        },
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "yield_type": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "measurement_basis": {
+        "raw_value": "400 MHz 1H NMR (CDCl3)",
+        "normalized_value": "400 MHz 1H NMR (CDCl3)",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "scope": {
+        "raw_value": {
+          "metric": "3a/4a",
+          "order": [
+            "doc_5d57d6fc4002ccdc:mol:3a",
+            "doc_5d57d6fc4002ccdc:mol:4a"
+          ]
+        },
+        "normalized_value": {
+          "metric": "3a/4a",
+          "order": [
+            "doc_5d57d6fc4002ccdc:mol:3a",
+            "doc_5d57d6fc4002ccdc:mol:4a"
+          ]
+        },
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "classification": {
+    "standard_id": "bond-formation-20261016",
+    "mapped_reaction_smiles": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "bond_changes": [
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p3_cs",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "S"
+            }
+          ],
+          "before_order": 0,
+          "after_order": 1,
+          "change_type": "formed"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p3_cc",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "C"
+            }
+          ],
+          "before_order": 0,
+          "after_order": 2,
+          "change_type": "formed"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p3_ch",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "H"
+            }
+          ],
+          "before_order": 0,
+          "after_order": 1,
+          "change_type": "hydrogen_gain",
+          "hydrogen_count": 1
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p3_oh",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "O"
+            },
+            {
+              "atom_map": null,
+              "element": "H"
+            }
+          ],
+          "before_order": 0,
+          "after_order": 1,
+          "change_type": "hydrogen_gain",
+          "hydrogen_count": 1
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p3_ccdec",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "C"
+            }
+          ],
+          "before_order": 2,
+          "after_order": 1,
+          "change_type": "order_decreased"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p3_codec",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "O"
+            }
+          ],
+          "before_order": 2,
+          "after_order": 1,
+          "change_type": "order_decreased"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p3_sh",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "S"
+            },
+            {
+              "atom_map": null,
+              "element": "H"
+            }
+          ],
+          "before_order": 1,
+          "after_order": 0,
+          "change_type": "hydrogen_loss",
+          "hydrogen_count": 1
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p4_cs",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "S"
+            }
+          ],
+          "before_order": 0,
+          "after_order": 1,
+          "change_type": "formed"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p4_cc",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "C"
+            }
+          ],
+          "before_order": 0,
+          "after_order": 1,
+          "change_type": "formed"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p4_ccinc",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "C"
+            }
+          ],
+          "before_order": 1,
+          "after_order": 2,
+          "change_type": "order_increased"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p4_ch",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "H"
+            }
+          ],
+          "before_order": 0,
+          "after_order": 1,
+          "change_type": "hydrogen_gain",
+          "hydrogen_count": 1
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p4_oh",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "O"
+            },
+            {
+              "atom_map": null,
+              "element": "H"
+            }
+          ],
+          "before_order": 0,
+          "after_order": 1,
+          "change_type": "hydrogen_gain",
+          "hydrogen_count": 1
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p4_ccdec",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "C"
+            }
+          ],
+          "before_order": 2,
+          "after_order": 1,
+          "change_type": "order_decreased"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p4_codec",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "O"
+            }
+          ],
+          "before_order": 2,
+          "after_order": 1,
+          "change_type": "order_decreased"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      },
+      {
+        "raw_value": null,
+        "normalized_value": {
+          "change_id": "p4_sh",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "S"
+            },
+            {
+              "atom_map": null,
+              "element": "H"
+            }
+          ],
+          "before_order": 1,
+          "after_order": 0,
+          "change_type": "hydrogen_loss",
+          "hydrogen_count": 1
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_5d57d6fc4002ccdc:page1:text",
+          "doc_5d57d6fc4002ccdc:page2:text",
+          "doc_5d57d6fc4002ccdc:page1:image",
+          "doc_5d57d6fc4002ccdc:page2:image",
+          "doc_5d57d6fc4002ccdc:page4:text",
+          "doc_5d57d6fc4002ccdc:page4:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Manual graph-difference candidate from the source structures; atom mapping is not asserted complete.",
+        "alternatives": []
+      }
+    ],
+    "labels": {
+      "raw_value": null,
+      "normalized_value": [
+        {
+          "category_number": 4,
+          "code": "C-S",
+          "supporting_change_ids": [
+            "p3_cs",
+            "p4_cs"
+          ]
+        },
+        {
+          "category_number": 13,
+          "code": "DB-C-C",
+          "supporting_change_ids": [
+            "p3_cc",
+            "p4_ccinc"
+          ]
+        },
+        {
+          "category_number": 1,
+          "code": "C-H",
+          "supporting_change_ids": [
+            "p3_ch",
+            "p4_ch"
+          ]
+        },
+        {
+          "category_number": 24,
+          "code": "O-H",
+          "supporting_change_ids": [
+            "p3_oh",
+            "p4_oh"
+          ]
+        },
+        {
+          "category_number": 2,
+          "code": "C-C",
+          "supporting_change_ids": [
+            "p4_cc"
+          ]
+        }
+      ],
+      "acquisition_method": "structure_derivation",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "inferred",
+      "derivation": "Taxonomy labels were calculated from the explicitly listed candidate bond changes.",
+      "alternatives": []
+    },
+    "coverage": {
+      "raw_value": null,
+      "normalized_value": "partial",
+      "acquisition_method": "inference",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page1:text",
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page1:image",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page4:text",
+        "doc_5d57d6fc4002ccdc:page4:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "inferred",
+      "derivation": "Only source-supported net graph changes are asserted; complete atom mapping, proton source, and coproducts remain unresolved.",
+      "alternatives": []
+    },
+    "limitations": [
+      "Candidate net changes cover the observed regioisomer branch(es); aromatic tautomer/bond localization and atom mapping remain partial.",
+      "No atom-mapped reaction SMILES is claimed.",
+      "Hydrogen gains/losses are net changes; proton donor/acceptor identity is not established."
+    ],
+    "model_votes": []
+  },
+  "notes": [],
+  "evidence_ids": [
+    "doc_5d57d6fc4002ccdc:page1:text",
+    "doc_5d57d6fc4002ccdc:page2:text",
+    "doc_5d57d6fc4002ccdc:page1:image",
+    "doc_5d57d6fc4002ccdc:page2:image",
+    "doc_5d57d6fc4002ccdc:page4:text",
+    "doc_5d57d6fc4002ccdc:page4:image"
+  ],
+  "review": {
+    "status": "needs_review",
+    "method": "model",
+    "reviewer": null,
+    "checked_fields": [],
+    "unresolved": [
+      "No explicitly associated SI was supplied."
+    ]
+  },
+  "completeness": "partial"
+}

@@ -1,0 +1,975 @@
+{
+  "reaction_id": "doc_ca1481599a4b0f91:rxn_soluble_baptes_peptide_test",
+  "document_id": "doc_ca1481599a4b0f91",
+  "record_type": "specific_experiment",
+  "experiment_categories": {
+    "raw_value": [
+      "mechanistic_study"
+    ],
+    "normalized_value": [
+      "mechanistic_study"
+    ],
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_ca1481599a4b0f91:page2:text",
+      "doc_ca1481599a4b0f91:page2:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "location": {
+    "raw_value": {
+      "page": 2,
+      "section": "Results; BAPTES/Cys-peptide reaction analyzed by HR-MS/MS"
+    },
+    "normalized_value": {
+      "page": 2,
+      "section": "Results; BAPTES/Cys-peptide reaction analyzed by HR-MS/MS"
+    },
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_ca1481599a4b0f91:page2:text",
+      "doc_ca1481599a4b0f91:page2:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "general_scheme_ids": [],
+  "reaction_name": {
+    "raw_value": "Reaction of BAPTES with C-terminal Cys-modified cTnI-binding peptide",
+    "normalized_value": "Reaction of BAPTES with C-terminal Cys-modified cTnI-binding peptide",
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_ca1481599a4b0f91:page2:text",
+      "doc_ca1481599a4b0f91:page2:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "transformation_type": {
+    "raw_value": "cysteine-thiol addition to an allene carboxamide",
+    "normalized_value": "cysteine-thiol addition to an allene carboxamide",
+    "acquisition_method": "inference",
+    "evidence_ids": [
+      "doc_ca1481599a4b0f91:page2:text",
+      "doc_ca1481599a4b0f91:page2:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "inferred",
+    "derivation": "Transformation label summarizes the source-described reaction.",
+    "alternatives": []
+  },
+  "participants": [
+    {
+      "participant_id": "soluble_baptes",
+      "molecule_id": "doc_ca1481599a4b0f91:mol_baptes",
+      "role": "reactant",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "soluble_peptide",
+      "molecule_id": "doc_ca1481599a4b0f91:mol_ctni_binding_peptide",
+      "role": "reactant",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "soluble_conjugate",
+      "molecule_id": "doc_ca1481599a4b0f91:mol_baptes_peptide_conjugate",
+      "role": "product",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": "Cys-thiol conjugate",
+        "normalized_value": "Cys-thiol conjugate",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "reaction_scale": {
+    "raw_value": null,
+    "normalized_value": null,
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_ca1481599a4b0f91:page2:text",
+      "doc_ca1481599a4b0f91:page2:image"
+    ],
+    "data_status": "unreported",
+    "verification": "missing",
+    "derivation": null,
+    "alternatives": []
+  },
+  "solvent_conditions": {
+    "composition": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "mixture_ratio": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "total_volume": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "concentration": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "concentration_basis": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "steps": [
+    {
+      "step_id": "soluble_click_s1",
+      "stage": "reaction",
+      "participant_ids": [
+        "soluble_baptes",
+        "soluble_peptide",
+        "soluble_conjugate"
+      ],
+      "operation": {
+        "raw_value": "React BAPTES with the C-terminal-Cys-modified peptide; analyze the reaction by high-resolution tandem MS.",
+        "normalized_value": "React BAPTES with the C-terminal-Cys-modified peptide; analyze the reaction by high-resolution tandem MS.",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "special_conditions": {
+    "light_source": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "wavelength": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "power": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "current": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "voltage": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "electrodes": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "flow_parameters": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "reactor": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "procedure": {
+    "original_text": {
+      "raw_value": "we first analyzed the reaction of BAPTES with a C-terminal Cys-modified derivative of the high affinity peptide (HWQIAYNEHQWQC) using high-resolution tandem MS (MS/MS)",
+      "normalized_value": "BAPTES plus HWQIAYNEHQWQC analyzed by HR-MS/MS",
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "general_procedure_reference": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "modifications": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "addition_order": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "pretreatment": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "outcomes": [
+    {
+      "outcome_id": "soluble_click_selectivity",
+      "kind": "selectivity",
+      "target_molecule_ids": [
+        "doc_ca1481599a4b0f91:mol_baptes_peptide_conjugate"
+      ],
+      "product_role": {
+        "raw_value": "Cys-thiol conjugate",
+        "normalized_value": "Cys-thiol conjugate",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "value": {
+        "raw_value": "occurred exclusively even in the presence of hydroxyls, amines, and carboxylates",
+        "normalized_value": "Cys-thiol-selective conjugation; numeric selectivity not reported",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "yield_type": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "measurement_basis": {
+        "raw_value": "high-resolution tandem mass spectrometry (MS/MS)",
+        "normalized_value": "high-resolution tandem mass spectrometry (MS/MS)",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "scope": {
+        "raw_value": {
+          "metric": "chemoselectivity",
+          "favored_site": "C-terminal Cys thiol",
+          "competing_nucleophiles": [
+            "hydroxyls",
+            "amines",
+            "carboxylates"
+          ]
+        },
+        "normalized_value": {
+          "metric": "chemoselectivity",
+          "favored_site": "C-terminal Cys thiol",
+          "competing_nucleophiles": [
+            "hydroxyls",
+            "amines",
+            "carboxylates"
+          ]
+        },
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "classification": {
+    "standard_id": "bond-formation-20261016",
+    "mapped_reaction_smiles": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "bond_changes": [
+      {
+        "raw_value": {
+          "source_transformation": "cysteine-thiol addition to an allene carboxamide"
+        },
+        "normalized_value": {
+          "change_id": "b1",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "S"
+            }
+          ],
+          "before_order": 0,
+          "after_order": 1,
+          "change_type": "formed"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Net thiol addition to the allene is structure-derived from the source statement and Fig. 1 chemistry; exact atom mapping and residual alkene geometry are unavailable without SI.",
+        "alternatives": []
+      },
+      {
+        "raw_value": {
+          "source_transformation": "cysteine-thiol addition to an allene carboxamide"
+        },
+        "normalized_value": {
+          "change_id": "b2",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "C"
+            }
+          ],
+          "before_order": 2,
+          "after_order": 1,
+          "change_type": "order_decreased"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Net thiol addition to the allene is structure-derived from the source statement and Fig. 1 chemistry; exact atom mapping and residual alkene geometry are unavailable without SI.",
+        "alternatives": []
+      },
+      {
+        "raw_value": {
+          "source_transformation": "cysteine-thiol addition to an allene carboxamide"
+        },
+        "normalized_value": {
+          "change_id": "b3",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "H"
+            }
+          ],
+          "before_order": 0,
+          "after_order": 1,
+          "change_type": "hydrogen_gain",
+          "hydrogen_count": 1
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page2:text",
+          "doc_ca1481599a4b0f91:page2:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Net thiol addition to the allene is structure-derived from the source statement and Fig. 1 chemistry; exact atom mapping and residual alkene geometry are unavailable without SI.",
+        "alternatives": []
+      }
+    ],
+    "labels": {
+      "raw_value": {
+        "taxonomy_basis": "Net thiol addition to the allene is structure-derived from the source statement and Fig. 1 chemistry; exact atom mapping and residual alkene geometry are unavailable without SI."
+      },
+      "normalized_value": [
+        {
+          "category_number": 4,
+          "code": "C-S",
+          "supporting_change_ids": [
+            "b1"
+          ]
+        },
+        {
+          "category_number": 1,
+          "code": "C-H",
+          "supporting_change_ids": [
+            "b3"
+          ]
+        }
+      ],
+      "acquisition_method": "structure_derivation",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "inferred",
+      "derivation": "Net thiol addition to the allene is structure-derived from the source statement and Fig. 1 chemistry; exact atom mapping and residual alkene geometry are unavailable without SI.",
+      "alternatives": []
+    },
+    "coverage": {
+      "raw_value": {
+        "basis": "Net thiol addition to the allene is structure-derived from the source statement and Fig. 1 chemistry; exact atom mapping and residual alkene geometry are unavailable without SI."
+      },
+      "normalized_value": "partial",
+      "acquisition_method": "inference",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "inferred",
+      "derivation": "Net thiol addition to the allene is structure-derived from the source statement and Fig. 1 chemistry; exact atom mapping and residual alkene geometry are unavailable without SI.",
+      "alternatives": []
+    },
+    "limitations": [
+      "Net thiol addition to the allene is structure-derived from the source statement and Fig. 1 chemistry; exact atom mapping and residual alkene geometry are unavailable without SI."
+    ],
+    "model_votes": []
+  },
+  "notes": [
+    {
+      "raw_value": "Supplementary Figs. 7–8 are cited for this reaction, but no SI file is associated in the workspace.",
+      "normalized_value": "SI unavailable",
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    }
+  ],
+  "evidence_ids": [
+    "doc_ca1481599a4b0f91:page2:text",
+    "doc_ca1481599a4b0f91:page2:image"
+  ],
+  "review": {
+    "status": "needs_review",
+    "method": "model",
+    "reviewer": null,
+    "checked_fields": [],
+    "unresolved": [
+      "Reactant amounts, solvent, temperature, duration, workup and product yield are not reported on pages 1–6 and the cited SI is unavailable.",
+      "The residual alkene E/Z geometry and peptide residue configurations are not assigned.",
+      "Chemoselectivity is qualitative; no numeric ratio or denominator is reported."
+    ]
+  },
+  "completeness": "partial"
+}

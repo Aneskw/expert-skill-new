@@ -1,0 +1,52 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "literature_example": 3,
+    "general_scheme": 3,
+    "optimization_entry": 12,
+    "substrate_scope_entry": 27,
+    "reported_experiment": 5,
+    "mechanism": 1
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_b298156f3445f448"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_b298156f3445f448:scheme4a_scaleup_3a",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_b298156f3445f448:page3:text",
+        "doc_b298156f3445f448:page4:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_b298156f3445f448:scheme4c_control_no_base",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_b298156f3445f448:page3:text",
+        "doc_b298156f3445f448:page4:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_b298156f3445f448:scheme4e_deuterium_labeling",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_b298156f3445f448:page3:text",
+        "doc_b298156f3445f448:page4:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    }
+  ]
+}

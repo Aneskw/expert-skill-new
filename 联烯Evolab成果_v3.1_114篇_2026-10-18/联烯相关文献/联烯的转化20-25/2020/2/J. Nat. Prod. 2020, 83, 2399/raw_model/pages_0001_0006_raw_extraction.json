@@ -1,0 +1,76 @@
+{
+  "batch_id": "allene-stereo-v31-200-20261017",
+  "document_id": "doc_2992316b1e64fc22",
+  "visual_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "title": "Total Synthesis of Natural Lembehyne C and Investigation of Its Cytotoxic Properties",
+  "observations": [
+    {
+      "page": 1,
+      "regions": [
+        "article header/abstract",
+        "graphical abstract",
+        "Figure 1",
+        "introduction"
+      ],
+      "decision": "No specific current synthetic run; title/background and overview only."
+    },
+    {
+      "page": 2,
+      "regions": [
+        "Scheme 1",
+        "Scheme 2",
+        "Scheme 3",
+        "Results and Discussion"
+      ],
+      "decision": "Scheme 1 generic retrosynthesis; Scheme 2/3 arrows transcribed as specific source-reported transformations, with duplicate 9→10 merged."
+    },
+    {
+      "page": 3,
+      "regions": [
+        "Scheme 4",
+        "Scheme 5",
+        "two-column chemistry discussion"
+      ],
+      "decision": "Scheme branches separated; source conflicts preserved; cross-page experimental text used only as supporting context, not visual coverage."
+    },
+    {
+      "page": 4,
+      "regions": [
+        "completion of Scheme 5 prose",
+        "Table 1",
+        "Figure 2"
+      ],
+      "decision": "Synthetic 22→1 evidence linked; biological table/figure retained as source_context."
+    },
+    {
+      "page": 5,
+      "regions": [
+        "Figure 3",
+        "cytotoxicity/apoptosis prose"
+      ],
+      "decision": "Non-synthetic biological assay context only."
+    },
+    {
+      "page": 6,
+      "regions": [
+        "Figure 4",
+        "apoptosis/cell-cycle/H2A.X prose"
+      ],
+      "decision": "Non-synthetic mechanistic assay context only."
+    }
+  ],
+  "reaction_count": 21,
+  "molecule_count": 58,
+  "limitations": [
+    "No SI was explicitly associated.",
+    "Pages 9 and 10 extracted text was used to expose conflicts and complete cross-page context; their images were not claimed as reviewed.",
+    "Candidate SMILES and bond classifications are inferred and remain needs_review."
+  ]
+}

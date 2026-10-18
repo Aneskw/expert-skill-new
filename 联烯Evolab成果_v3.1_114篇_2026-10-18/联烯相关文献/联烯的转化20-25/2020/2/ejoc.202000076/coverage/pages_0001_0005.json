@@ -1,0 +1,317 @@
+{
+  "document_id": "doc_08b3dd4eacda5aa8",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract and bibliographic header",
+          "finding": "True title, DOI, authors and explicit online-SI notice; SI file not supplied/associated.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page1:image",
+            "doc_08b3dd4eacda5aa8:page1:text"
+          ]
+        },
+        {
+          "region": "Scheme 1",
+          "finding": "Sugita prior-work literature example with four isomers; retained as source_context, not a current experiment.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 2",
+          "finding": "Current generic thioether/ether and azide arrows; linked to generic records and later scope tables.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page1:image"
+          ]
+        },
+        {
+          "region": "Figure 1",
+          "finding": "Biologically important structures; non-synthetic background context.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_08b3dd4eacda5aa8:scheme_thioether",
+        "doc_08b3dd4eacda5aa8:scheme_ether",
+        "doc_08b3dd4eacda5aa8:scheme_azide"
+      ],
+      "unresolved": [
+        "No supplied SI despite explicit availability notice.",
+        "Scheme 2 uses R groups; individual identities come from later tables."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3",
+          "finding": "Cited prior benzodioxin strategies; retained as literature context.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1 including footnotes",
+          "finding": "All 17 optimization rows extracted separately, including solvent/base/temperature/yield/E:Z ratio, 5 h, 5 mL dry solvent, air and 1H-NMR ratio method.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page2:image",
+            "doc_08b3dd4eacda5aa8:page2:text"
+          ]
+        },
+        {
+          "region": "Table 2 including generic arrow",
+          "finding": "All 24 thioether scope entries 2a-2x extracted separately with reported yields and shared conditions.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_08b3dd4eacda5aa8:scheme_thioether",
+        "doc_08b3dd4eacda5aa8:table1_entry_01",
+        "doc_08b3dd4eacda5aa8:table1_entry_02",
+        "doc_08b3dd4eacda5aa8:table1_entry_03",
+        "doc_08b3dd4eacda5aa8:table1_entry_04",
+        "doc_08b3dd4eacda5aa8:table1_entry_05",
+        "doc_08b3dd4eacda5aa8:table1_entry_06",
+        "doc_08b3dd4eacda5aa8:table1_entry_07",
+        "doc_08b3dd4eacda5aa8:table1_entry_08",
+        "doc_08b3dd4eacda5aa8:table1_entry_09",
+        "doc_08b3dd4eacda5aa8:table1_entry_10",
+        "doc_08b3dd4eacda5aa8:table1_entry_11",
+        "doc_08b3dd4eacda5aa8:table1_entry_12",
+        "doc_08b3dd4eacda5aa8:table1_entry_13",
+        "doc_08b3dd4eacda5aa8:table1_entry_14",
+        "doc_08b3dd4eacda5aa8:table1_entry_15",
+        "doc_08b3dd4eacda5aa8:table1_entry_16",
+        "doc_08b3dd4eacda5aa8:table1_entry_17",
+        "doc_08b3dd4eacda5aa8:table2_2a",
+        "doc_08b3dd4eacda5aa8:table2_2b",
+        "doc_08b3dd4eacda5aa8:table2_2c",
+        "doc_08b3dd4eacda5aa8:table2_2d",
+        "doc_08b3dd4eacda5aa8:table2_2e",
+        "doc_08b3dd4eacda5aa8:table2_2f",
+        "doc_08b3dd4eacda5aa8:table2_2g",
+        "doc_08b3dd4eacda5aa8:table2_2h",
+        "doc_08b3dd4eacda5aa8:table2_2i",
+        "doc_08b3dd4eacda5aa8:table2_2j",
+        "doc_08b3dd4eacda5aa8:table2_2k",
+        "doc_08b3dd4eacda5aa8:table2_2l",
+        "doc_08b3dd4eacda5aa8:table2_2m",
+        "doc_08b3dd4eacda5aa8:table2_2n",
+        "doc_08b3dd4eacda5aa8:table2_2o",
+        "doc_08b3dd4eacda5aa8:table2_2p",
+        "doc_08b3dd4eacda5aa8:table2_2q",
+        "doc_08b3dd4eacda5aa8:table2_2r",
+        "doc_08b3dd4eacda5aa8:table2_2s",
+        "doc_08b3dd4eacda5aa8:table2_2t",
+        "doc_08b3dd4eacda5aa8:table2_2u",
+        "doc_08b3dd4eacda5aa8:table2_2v",
+        "doc_08b3dd4eacda5aa8:table2_2w",
+        "doc_08b3dd4eacda5aa8:table2_2x"
+      ],
+      "unresolved": [
+        "Scope-yield measurement basis and absolute scale are not stated on this page.",
+        "Compact 2a side chain is not forced into a unique structure."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 3",
+          "finding": "All 15 ether scope entries 3a-3o extracted separately.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page3:image"
+          ]
+        },
+        {
+          "region": "Table 4",
+          "finding": "All 12 azide scope entries 4a-4l extracted separately; no external base in the arrow.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page3:image"
+          ]
+        },
+        {
+          "region": "Figure 2",
+          "finding": "nOe characterization for 2f, 2s, 3d, 4j and 4l; retained as stereochemical source_context, not synthesis.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page3:image"
+          ]
+        },
+        {
+          "region": "Table 5",
+          "finding": "All 5 benzodioxin scope entries 5a-5e and the one-pot/cascade depiction extracted; proposed intermediate path not split into fabricated experiments.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_08b3dd4eacda5aa8:scheme_ether",
+        "doc_08b3dd4eacda5aa8:scheme_azide",
+        "doc_08b3dd4eacda5aa8:scheme_benzodioxin",
+        "doc_08b3dd4eacda5aa8:table3_3a",
+        "doc_08b3dd4eacda5aa8:table3_3b",
+        "doc_08b3dd4eacda5aa8:table3_3c",
+        "doc_08b3dd4eacda5aa8:table3_3d",
+        "doc_08b3dd4eacda5aa8:table3_3e",
+        "doc_08b3dd4eacda5aa8:table3_3f",
+        "doc_08b3dd4eacda5aa8:table3_3g",
+        "doc_08b3dd4eacda5aa8:table3_3h",
+        "doc_08b3dd4eacda5aa8:table3_3i",
+        "doc_08b3dd4eacda5aa8:table3_3j",
+        "doc_08b3dd4eacda5aa8:table3_3k",
+        "doc_08b3dd4eacda5aa8:table3_3l",
+        "doc_08b3dd4eacda5aa8:table3_3m",
+        "doc_08b3dd4eacda5aa8:table3_3n",
+        "doc_08b3dd4eacda5aa8:table3_3o",
+        "doc_08b3dd4eacda5aa8:table4_4a",
+        "doc_08b3dd4eacda5aa8:table4_4b",
+        "doc_08b3dd4eacda5aa8:table4_4c",
+        "doc_08b3dd4eacda5aa8:table4_4d",
+        "doc_08b3dd4eacda5aa8:table4_4e",
+        "doc_08b3dd4eacda5aa8:table4_4f",
+        "doc_08b3dd4eacda5aa8:table4_4g",
+        "doc_08b3dd4eacda5aa8:table4_4h",
+        "doc_08b3dd4eacda5aa8:table4_4i",
+        "doc_08b3dd4eacda5aa8:table4_4j",
+        "doc_08b3dd4eacda5aa8:table4_4k",
+        "doc_08b3dd4eacda5aa8:table4_4l",
+        "doc_08b3dd4eacda5aa8:table5_5a",
+        "doc_08b3dd4eacda5aa8:table5_5b",
+        "doc_08b3dd4eacda5aa8:table5_5c",
+        "doc_08b3dd4eacda5aa8:table5_5d",
+        "doc_08b3dd4eacda5aa8:table5_5e"
+      ],
+      "unresolved": [
+        "Several compact aromatic/fused substitution patterns and all benzodioxin products remain structure-unresolved.",
+        "Scope-yield basis is unreported.",
+        "Cascade atom mapping is unresolved."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 4",
+          "finding": "Five distinct post-functionalization experiments extracted: 2→6a, 2→6b, 2m→7, 3m→5b, and two azide thermolyses to 8a/8b (six product rows but five arrow families; 8a and 8b retained as separate experiments).",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page4:image",
+            "doc_08b3dd4eacda5aa8:page4:text"
+          ]
+        },
+        {
+          "region": "General Procedure A",
+          "finding": "Shared Table 2-4 reaction, work-up and purification sequence inherited into 51 scope records; azide rows exclude Li2CO3 as stated.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page4:image",
+            "doc_08b3dd4eacda5aa8:page4:text"
+          ]
+        },
+        {
+          "region": "General Procedure B",
+          "finding": "Shared Table 5 reaction, work-up and purification sequence inherited into five scope records.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page4:image",
+            "doc_08b3dd4eacda5aa8:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_08b3dd4eacda5aa8:table2_2a",
+        "doc_08b3dd4eacda5aa8:table2_2b",
+        "doc_08b3dd4eacda5aa8:table2_2c",
+        "doc_08b3dd4eacda5aa8:table2_2d",
+        "doc_08b3dd4eacda5aa8:table2_2e",
+        "doc_08b3dd4eacda5aa8:table2_2f",
+        "doc_08b3dd4eacda5aa8:table2_2g",
+        "doc_08b3dd4eacda5aa8:table2_2h",
+        "doc_08b3dd4eacda5aa8:table2_2i",
+        "doc_08b3dd4eacda5aa8:table2_2j",
+        "doc_08b3dd4eacda5aa8:table2_2k",
+        "doc_08b3dd4eacda5aa8:table2_2l",
+        "doc_08b3dd4eacda5aa8:table2_2m",
+        "doc_08b3dd4eacda5aa8:table2_2n",
+        "doc_08b3dd4eacda5aa8:table2_2o",
+        "doc_08b3dd4eacda5aa8:table2_2p",
+        "doc_08b3dd4eacda5aa8:table2_2q",
+        "doc_08b3dd4eacda5aa8:table2_2r",
+        "doc_08b3dd4eacda5aa8:table2_2s",
+        "doc_08b3dd4eacda5aa8:table2_2t",
+        "doc_08b3dd4eacda5aa8:table2_2u",
+        "doc_08b3dd4eacda5aa8:table2_2v",
+        "doc_08b3dd4eacda5aa8:table2_2w",
+        "doc_08b3dd4eacda5aa8:table2_2x",
+        "doc_08b3dd4eacda5aa8:table3_3a",
+        "doc_08b3dd4eacda5aa8:table3_3b",
+        "doc_08b3dd4eacda5aa8:table3_3c",
+        "doc_08b3dd4eacda5aa8:table3_3d",
+        "doc_08b3dd4eacda5aa8:table3_3e",
+        "doc_08b3dd4eacda5aa8:table3_3f",
+        "doc_08b3dd4eacda5aa8:table3_3g",
+        "doc_08b3dd4eacda5aa8:table3_3h",
+        "doc_08b3dd4eacda5aa8:table3_3i",
+        "doc_08b3dd4eacda5aa8:table3_3j",
+        "doc_08b3dd4eacda5aa8:table3_3k",
+        "doc_08b3dd4eacda5aa8:table3_3l",
+        "doc_08b3dd4eacda5aa8:table3_3m",
+        "doc_08b3dd4eacda5aa8:table3_3n",
+        "doc_08b3dd4eacda5aa8:table3_3o",
+        "doc_08b3dd4eacda5aa8:table4_4a",
+        "doc_08b3dd4eacda5aa8:table4_4b",
+        "doc_08b3dd4eacda5aa8:table4_4c",
+        "doc_08b3dd4eacda5aa8:table4_4d",
+        "doc_08b3dd4eacda5aa8:table4_4e",
+        "doc_08b3dd4eacda5aa8:table4_4f",
+        "doc_08b3dd4eacda5aa8:table4_4g",
+        "doc_08b3dd4eacda5aa8:table4_4h",
+        "doc_08b3dd4eacda5aa8:table4_4i",
+        "doc_08b3dd4eacda5aa8:table4_4j",
+        "doc_08b3dd4eacda5aa8:table4_4k",
+        "doc_08b3dd4eacda5aa8:table4_4l",
+        "doc_08b3dd4eacda5aa8:table5_5a",
+        "doc_08b3dd4eacda5aa8:table5_5b",
+        "doc_08b3dd4eacda5aa8:table5_5c",
+        "doc_08b3dd4eacda5aa8:table5_5d",
+        "doc_08b3dd4eacda5aa8:table5_5e",
+        "doc_08b3dd4eacda5aa8:scheme4_6a",
+        "doc_08b3dd4eacda5aa8:scheme4_6b",
+        "doc_08b3dd4eacda5aa8:scheme4_7",
+        "doc_08b3dd4eacda5aa8:scheme4_3m_to_5b",
+        "doc_08b3dd4eacda5aa8:scheme4_8a",
+        "doc_08b3dd4eacda5aa8:scheme4_8b"
+      ],
+      "unresolved": [
+        "Absolute scales and chromatography solvent combinations are absent without SI.",
+        "Scheme 4 generally omits work-up, scale and yield basis.",
+        "Thermolysis reaction time is unreported."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "both columns",
+          "finding": "References [7]-[18] and received date only; no current reaction arrow, experimental row, spectrum, mass table or molecular-weight table.",
+          "evidence_ids": [
+            "doc_08b3dd4eacda5aa8:page5:image",
+            "doc_08b3dd4eacda5aa8:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

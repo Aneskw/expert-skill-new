@@ -1,0 +1,101 @@
+{
+  "document_id": "doc_b298156f3445f448",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "page top, continuation from the left column of page 6",
+          "finding": "The paragraph for product 3s continues with its 93:8 e.r., chiral-HPLC conditions/major-minor retention times, and HRMS. The e.r. method was merged into the existing 3s scope experiment; this continuation is not a new synthesis.",
+          "evidence_ids": [
+            "doc_b298156f3445f448:page7:image",
+            "doc_b298156f3445f448:page7:text"
+          ]
+        },
+        {
+          "region": "two-column experimental characterization body",
+          "finding": "Preparation/characterization paragraphs for 3t, 3u, and 5a-5f report product names, masses, repeated yields, optical rotations, NMR, product-specific e.r./chiral-HPLC methods, and HRMS. Mass and e.r. results were associated with the existing Scheme 2/3 experiments; spectra and HRMS remain characterization context. No reaction arrow or table row on this page creates an additional experiment.",
+          "evidence_ids": [
+            "doc_b298156f3445f448:page7:image",
+            "doc_b298156f3445f448:page7:text"
+          ]
+        },
+        {
+          "region": "bottom of right column, Associated Content notice",
+          "finding": "The page advertises a Supporting Information PDF containing spectra. No SI file was explicitly supplied or associated in source_mapping.json, so the notice was retained as context and no SI evidence was inferred.",
+          "evidence_ids": [
+            "doc_b298156f3445f448:page7:image",
+            "doc_b298156f3445f448:page7:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b298156f3445f448:scheme2_3s",
+        "doc_b298156f3445f448:scheme2_3t",
+        "doc_b298156f3445f448:scheme2_3u",
+        "doc_b298156f3445f448:scheme3_5a",
+        "doc_b298156f3445f448:scheme3_5b",
+        "doc_b298156f3445f448:scheme3_5c",
+        "doc_b298156f3445f448:scheme3_5d",
+        "doc_b298156f3445f448:scheme3_5e",
+        "doc_b298156f3445f448:scheme3_5f"
+      ],
+      "unresolved": [
+        "The page labels HPLC peaks only as major/minor and does not explicitly assign each retention peak to an absolute configuration.",
+        "Optical rotation, NMR, and HRMS values were inventoried as characterization context but were not independently verified peak-by-peak.",
+        "The source reports 3s as 93:8 e.r.; this value is preserved verbatim although it sums to 101.",
+        "Candidate isomeric SMILES were structure-derived and parsed with standard stereo, but chemical correctness remains unverified."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper page, Author Information and Notes",
+          "finding": "Author affiliations, contact information, ORCID identifiers, and a no-competing-financial-interest statement; no reaction, table row, arrow, or current-paper experimental procedure is present.",
+          "evidence_ids": [
+            "doc_b298156f3445f448:page8:image",
+            "doc_b298156f3445f448:page8:text"
+          ]
+        },
+        {
+          "region": "middle page, Acknowledgments",
+          "finding": "Funding and acknowledgment text only; no chemical experiment is reported.",
+          "evidence_ids": [
+            "doc_b298156f3445f448:page8:image",
+            "doc_b298156f3445f448:page8:text"
+          ]
+        },
+        {
+          "region": "lower page, References 1-8",
+          "finding": "Bibliographic citations to prior literature. Cited titles were classified as reference context and were not treated as experiments performed in this paper.",
+          "evidence_ids": [
+            "doc_b298156f3445f448:page8:image",
+            "doc_b298156f3445f448:page8:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "full two-column page, References 8-19",
+          "finding": "Continuation of the bibliography only. No figure, reaction arrow, table, footnote adding reagents, or current-paper experiment appears on the page; cited prior work was not converted into current-paper records.",
+          "evidence_ids": [
+            "doc_b298156f3445f448:page9:image",
+            "doc_b298156f3445f448:page9:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

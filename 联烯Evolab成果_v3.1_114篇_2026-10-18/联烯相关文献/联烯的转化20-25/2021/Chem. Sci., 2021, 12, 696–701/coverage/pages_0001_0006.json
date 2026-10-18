@@ -1,0 +1,302 @@
+{
+  "document_id": "doc_b3a74bff0a2fce02",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and article metadata",
+          "finding": "True title, authors, citation, DOI, and ESI-availability statement inventoried; no SI file was associated.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page1:image",
+            "doc_b3a74bff0a2fce02:page1:text"
+          ]
+        },
+        {
+          "region": "Scheme 1 panels a, b, c1, c2",
+          "finding": "Cited prior work/literature examples; retained as source_context, not this-paper experiments.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page1:image",
+            "doc_b3a74bff0a2fce02:page1:text"
+          ]
+        },
+        {
+          "region": "Scheme 1(c3), This work",
+          "finding": "Generic gold-catalyzed cycloisomerization recorded separately from concrete experiments.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page1:image",
+            "doc_b3a74bff0a2fce02:page1:text"
+          ]
+        },
+        {
+          "region": "Scheme 1(d)",
+          "finding": "Representative natural products; non-experimental context.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page1:image",
+            "doc_b3a74bff0a2fce02:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b3a74bff0a2fce02:scheme1c3_generic"
+      ],
+      "unresolved": [
+        "Generic R-group structures are not concrete SMILES.",
+        "ESI is mentioned by the article but was not provided/associated in this workspace."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 rows 1-14 and footnotes a-d",
+          "finding": "Fourteen optimization experiments transcribed row by row, including 2a/3a yields, starting-material recoveries, exceptions, NMR basis, temperatures, times, scales, and solvent volumes.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page2:image",
+            "doc_b3a74bff0a2fce02:page2:text"
+          ]
+        },
+        {
+          "region": "Table 2 rows 1-19 and footnotes a-c",
+          "finding": "Nineteen racemic substrate-scope experiments transcribed row by row with substituent assignments, times, yields, scale/loading exceptions, and standard conditions.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page2:image",
+            "doc_b3a74bff0a2fce02:page2:text"
+          ]
+        },
+        {
+          "region": "Results and discussion prose",
+          "finding": "Narrative repeats selected Table 1 outcomes and identifies standard conditions; duplicate mentions were associated with table records rather than counted anew.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page2:image",
+            "doc_b3a74bff0a2fce02:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b3a74bff0a2fce02:table1_entry01",
+        "doc_b3a74bff0a2fce02:table1_entry02",
+        "doc_b3a74bff0a2fce02:table1_entry03",
+        "doc_b3a74bff0a2fce02:table1_entry04",
+        "doc_b3a74bff0a2fce02:table1_entry05",
+        "doc_b3a74bff0a2fce02:table1_entry06",
+        "doc_b3a74bff0a2fce02:table1_entry07",
+        "doc_b3a74bff0a2fce02:table1_entry08",
+        "doc_b3a74bff0a2fce02:table1_entry09",
+        "doc_b3a74bff0a2fce02:table1_entry10",
+        "doc_b3a74bff0a2fce02:table1_entry11",
+        "doc_b3a74bff0a2fce02:table1_entry12",
+        "doc_b3a74bff0a2fce02:table1_entry13",
+        "doc_b3a74bff0a2fce02:table1_entry14",
+        "doc_b3a74bff0a2fce02:table2_entry01",
+        "doc_b3a74bff0a2fce02:table2_entry02",
+        "doc_b3a74bff0a2fce02:table2_entry03",
+        "doc_b3a74bff0a2fce02:table2_entry04",
+        "doc_b3a74bff0a2fce02:table2_entry05",
+        "doc_b3a74bff0a2fce02:table2_entry06",
+        "doc_b3a74bff0a2fce02:table2_entry07",
+        "doc_b3a74bff0a2fce02:table2_entry08",
+        "doc_b3a74bff0a2fce02:table2_entry09",
+        "doc_b3a74bff0a2fce02:table2_entry10",
+        "doc_b3a74bff0a2fce02:table2_entry11",
+        "doc_b3a74bff0a2fce02:table2_entry12",
+        "doc_b3a74bff0a2fce02:table2_entry13",
+        "doc_b3a74bff0a2fce02:table2_entry14",
+        "doc_b3a74bff0a2fce02:table2_entry15",
+        "doc_b3a74bff0a2fce02:table2_entry16",
+        "doc_b3a74bff0a2fce02:table2_entry17",
+        "doc_b3a74bff0a2fce02:table2_entry18",
+        "doc_b3a74bff0a2fce02:table2_entry19"
+      ],
+      "unresolved": [
+        "Table 2 does not state yield measurement basis.",
+        "Compact structures are retained by source label without verified SMILES."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 3 rows 1-12 and footnotes a-h",
+          "finding": "Twelve enantioenriched optimization/control experiments transcribed, including product/recovery yields, separate product/recovered-substrate ee, catalyst-omission controls, NMR/HPLC bases, and scale/loading/time exceptions.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page3:image",
+            "doc_b3a74bff0a2fce02:page3:text"
+          ]
+        },
+        {
+          "region": "Table 4 rows 1-6 and footnotes a-b",
+          "finding": "Six 3-unsubstituted substrate-scope experiments transcribed with starting-material ee, reaction time, product yield/configuration, and product ee.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page3:image",
+            "doc_b3a74bff0a2fce02:page3:text"
+          ]
+        },
+        {
+          "region": "discussion between Tables 3 and 4",
+          "finding": "Narrative standard conditions and omitted-catalyst no-reaction interpretation linked to Table 3 records; no duplicate experiments created.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page3:image",
+            "doc_b3a74bff0a2fce02:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b3a74bff0a2fce02:table3_entry01",
+        "doc_b3a74bff0a2fce02:table3_entry02",
+        "doc_b3a74bff0a2fce02:table3_entry03",
+        "doc_b3a74bff0a2fce02:table3_entry04",
+        "doc_b3a74bff0a2fce02:table3_entry05",
+        "doc_b3a74bff0a2fce02:table3_entry06",
+        "doc_b3a74bff0a2fce02:table3_entry07",
+        "doc_b3a74bff0a2fce02:table3_entry08",
+        "doc_b3a74bff0a2fce02:table3_entry09",
+        "doc_b3a74bff0a2fce02:table3_entry10",
+        "doc_b3a74bff0a2fce02:table3_entry11",
+        "doc_b3a74bff0a2fce02:table3_entry12",
+        "doc_b3a74bff0a2fce02:table4_entry01",
+        "doc_b3a74bff0a2fce02:table4_entry02",
+        "doc_b3a74bff0a2fce02:table4_entry03",
+        "doc_b3a74bff0a2fce02:table4_entry04",
+        "doc_b3a74bff0a2fce02:table4_entry05",
+        "doc_b3a74bff0a2fce02:table4_entry06"
+      ],
+      "unresolved": [
+        "Table 4 does not state yield or ee measurement basis.",
+        "Axial and central configurations are retained textually, not encoded in concrete SMILES."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 5 rows 1-13 and footnotes a-b",
+          "finding": "Thirteen 3-substituted substrate-scope experiments transcribed; Scheme 3 eqn 1/2 are treated as duplicate evidence for Table 5 entries 8/12 and their X-ray assignments.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page4:image",
+            "doc_b3a74bff0a2fce02:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 2 upper half",
+          "finding": "Gram-scale 1s to 2s and three product derivatizations (Suzuki, two-step HCl/IBX, hydrogenation) recorded as four distinct experiments.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page4:image",
+            "doc_b3a74bff0a2fce02:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 2 lower half",
+          "finding": "Allenation of 9/10 giving two 1u diastereomers and two separate 1u cycloisomerization arrows recorded as three distinct experiments.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page4:image",
+            "doc_b3a74bff0a2fce02:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 3 eqn 1-5",
+          "finding": "Eqn 1/2 deduplicated with Table 5; eqn 3 and 4 retained as separate parallel controls; eqn 5 retained as a deuterium-labeling mechanistic experiment.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page4:image",
+            "doc_b3a74bff0a2fce02:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 2/3 discussion",
+          "finding": "Author interpretation of X-ray assignment, competitive racemization, and deuterium incorporation linked to the corresponding records.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page4:image",
+            "doc_b3a74bff0a2fce02:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b3a74bff0a2fce02:table5_entry01",
+        "doc_b3a74bff0a2fce02:table5_entry02",
+        "doc_b3a74bff0a2fce02:table5_entry03",
+        "doc_b3a74bff0a2fce02:table5_entry04",
+        "doc_b3a74bff0a2fce02:table5_entry05",
+        "doc_b3a74bff0a2fce02:table5_entry06",
+        "doc_b3a74bff0a2fce02:table5_entry07",
+        "doc_b3a74bff0a2fce02:table5_entry08",
+        "doc_b3a74bff0a2fce02:table5_entry09",
+        "doc_b3a74bff0a2fce02:table5_entry10",
+        "doc_b3a74bff0a2fce02:table5_entry11",
+        "doc_b3a74bff0a2fce02:table5_entry12",
+        "doc_b3a74bff0a2fce02:table5_entry13",
+        "doc_b3a74bff0a2fce02:scheme2_scale_up",
+        "doc_b3a74bff0a2fce02:scheme2_suzuki_to_S4",
+        "doc_b3a74bff0a2fce02:scheme2_two_step_to_S5",
+        "doc_b3a74bff0a2fce02:scheme2_hydrogenation_to_S6",
+        "doc_b3a74bff0a2fce02:scheme2_allenation_to_1u_diastereomers",
+        "doc_b3a74bff0a2fce02:scheme2_cyclization_RRa_1u",
+        "doc_b3a74bff0a2fce02:scheme2_cyclization_SRa_1u",
+        "doc_b3a74bff0a2fce02:scheme3_eq3_control_1g",
+        "doc_b3a74bff0a2fce02:scheme3_eq4_control_1t",
+        "doc_b3a74bff0a2fce02:scheme3_eq5_deuterium_label"
+      ],
+      "unresolved": [
+        "Tables 5 and Schemes 2/3 omit several measurement bases and procedural quantities.",
+        "The drawn chiral ligand in Scheme 2 is retained without an invented name.",
+        "No SI was supplied for concrete structure verification."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 4",
+          "finding": "Proposed catalytic mechanism recorded as proposed_mechanism, not as observed experiments; paths a-c and allene racemization remain hypotheses.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page5:image",
+            "doc_b3a74bff0a2fce02:page5:text"
+          ]
+        },
+        {
+          "region": "mechanistic discussion",
+          "finding": "Text relates the Scheme 3 deuterium control and parallel 1g/1t experiments to protodeauration and possible racemization; no additional experiment arrow is present.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page5:image",
+            "doc_b3a74bff0a2fce02:page5:text"
+          ]
+        },
+        {
+          "region": "conclusions and acknowledgements",
+          "finding": "No new reaction experiment; reproduced compounds are acknowledgements, not new condition records.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page5:image",
+            "doc_b3a74bff0a2fce02:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b3a74bff0a2fce02:scheme4_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Proposed intermediates are not independently characterized in the supplied pages."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "two-column references 3-21",
+          "finding": "Bibliography only; cited works are not experiments of this paper and no reaction record was fabricated.",
+          "evidence_ids": [
+            "doc_b3a74bff0a2fce02:page6:image",
+            "doc_b3a74bff0a2fce02:page6:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

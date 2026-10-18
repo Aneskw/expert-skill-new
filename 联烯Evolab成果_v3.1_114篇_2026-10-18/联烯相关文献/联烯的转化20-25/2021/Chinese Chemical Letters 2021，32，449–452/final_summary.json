@@ -1,0 +1,46 @@
+{
+  "title": "Cycloadditions of 1-iminylphosphirane complexes with allenes",
+  "pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "molecules": 50,
+  "reactions": 21,
+  "specific_experiments": 16,
+  "generic_schemes": 1,
+  "proposed_mechanisms": 1,
+  "literature_examples": 3,
+  "audit_warning_records": 2,
+  "audit_warnings": [
+    {
+      "record_id": "doc_782b0f765a8c7b3d:scheme2_1b_2a",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_782b0f765a8c7b3d:page2:image",
+        "doc_782b0f765a8c7b3d:page1:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_782b0f765a8c7b3d:mechanistic_1b_without_2a",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_782b0f765a8c7b3d:page1:text",
+        "doc_782b0f765a8c7b3d:page2:image",
+        "doc_782b0f765a8c7b3d:page3:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    }
+  ],
+  "source_context": 4,
+  "all_needs_review": true,
+  "standard_valid": true,
+  "strict_valid": true,
+  "tests": ".....................................................................    [100%]\n69 passed in 0.87s"
+}

@@ -1,0 +1,175 @@
+{
+  "document_id": "doc_27ee161674b4e4ee",
+  "pages_attempted": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "source_images": [
+    "assets/doc_27ee161674b4e4ee/page1.jpg",
+    "assets/doc_27ee161674b4e4ee/page2.jpg",
+    "assets/doc_27ee161674b4e4ee/page3.jpg",
+    "assets/doc_27ee161674b4e4ee/page4.jpg",
+    "assets/doc_27ee161674b4e4ee/page5.jpg"
+  ],
+  "counts": {
+    "literature_examples": 2,
+    "generic_schemes": 1,
+    "figure1_2_specific_experiments": 42,
+    "page2_prose_optimization_experiments": 6,
+    "page2_prose_scope_experiments": 1,
+    "figure3_specific_experiments": 13,
+    "vcp_unresolved_experiment_family": 1,
+    "figure4_specific_experiments": 11,
+    "scheme2_derivatizations": 6,
+    "mechanistic_experiments": 5,
+    "proposed_mechanisms": 1
+  },
+  "deduplication": [
+    "Figure 1 optimized 3a and the 3a scope identity are represented by one reaction record with merged evidence."
+  ],
+  "page_regions": {
+    "1": [
+      {
+        "region": "title/abstract and bibliographic header",
+        "finding": "Current paper metadata and broad transformation claim; no concrete current experiment.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page1:image",
+          "doc_27ee161674b4e4ee:page1:text"
+        ]
+      },
+      {
+        "region": "Scheme 1A",
+        "finding": "Two generic cited prior-work reaction families, retained as literature examples rather than current experiments.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page1:image"
+        ]
+      },
+      {
+        "region": "Scheme 1B",
+        "finding": "Present-work generic dual-function-reagent docking/migration concept; generic scheme only.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page1:image",
+          "doc_27ee161674b4e4ee:page1:text"
+        ]
+      }
+    ],
+    "2": [
+      {
+        "region": "Figure 1",
+        "finding": "Optimized 1a + styrene experiment giving 3a, 72% after 47 h; merged with the same 3a scope identity.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page2:image",
+          "doc_27ee161674b4e4ee:page2:text"
+        ]
+      },
+      {
+        "region": "Figure 2 main grid",
+        "finding": "Product outcomes 3b–3aj with printed yields, times, cis/dr annotations, and footnotes a/b.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page2:image"
+        ]
+      },
+      {
+        "region": "Figure 2 co-solvent panel and caption",
+        "finding": "Products 4a–4f plus common conditions and footnotes a–c; co-solvent volumes retained.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page2:image",
+          "doc_27ee161674b4e4ee:page2:text"
+        ]
+      },
+      {
+        "region": "optimization/scope prose around Figures 1–2",
+        "finding": "Two methanol-condition observations, four ineffective alternative-base experiments, and an unnumbered vinyl-ether result below 10%; retained independently without inventing SI details.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page2:image",
+          "doc_27ee161674b4e4ee:page2:text"
+        ]
+      }
+    ],
+    "3": [
+      {
+        "region": "left-column continuation of Figure 2 discussion",
+        "finding": "Source discussion for 3ab–3aj and 4a–4f, including cis outcomes, natural-product derivatization, and an SI-only plural VCP radical-clock series retained as unresolved.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page3:image",
+          "doc_27ee161674b4e4ee:page3:text"
+        ]
+      },
+      {
+        "region": "Figure 3",
+        "finding": "Thirteen distinct dual-function reagent scope experiments 5a–5m with yields/times and dr/E/E,E annotations.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page3:image",
+          "doc_27ee161674b4e4ee:page3:text"
+        ]
+      },
+      {
+        "region": "Figure 4",
+        "finding": "Eleven distinct enynylalkenylation experiments 6a–6k with yields/times, one footnote-a loading change, and 6j internal:terminal ratio.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page3:image",
+          "doc_27ee161674b4e4ee:page3:text"
+        ]
+      }
+    ],
+    "4": [
+      {
+        "region": "top-left continuation of Figure 4 discussion",
+        "finding": "Discussion of 6a–6k, including over-functionalization and internal-enyne cases; linked to page-3 scope records.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page4:image",
+          "doc_27ee161674b4e4ee:page4:text"
+        ]
+      },
+      {
+        "region": "Scheme 2",
+        "finding": "Six distinct product-transformation arrows yielding 7–12; each condition letter is a separate experiment.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page4:image",
+          "doc_27ee161674b4e4ee:page4:text"
+        ]
+      },
+      {
+        "region": "mechanistic-study prose",
+        "finding": "Stern–Volmer, reduction potential, quantum yield, light on-off, and TEMPO-trapping experiments; detailed protocols refer to unavailable SI.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page4:text"
+        ]
+      },
+      {
+        "region": "Figure 5",
+        "finding": "Author-proposed mechanism, retained as one proposed-mechanism record rather than executed intermediate experiments.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page4:image",
+          "doc_27ee161674b4e4ee:page4:text"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "region": "summary/acknowledgements/conflict statement",
+        "finding": "No new synthesis experiment, table row, or reaction arrow.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page5:image",
+          "doc_27ee161674b4e4ee:page5:text"
+        ]
+      },
+      {
+        "region": "references and manuscript dates",
+        "finding": "Bibliography only; cited works were not imported as current-paper experiments.",
+        "evidence_ids": [
+          "doc_27ee161674b4e4ee:page5:image",
+          "doc_27ee161674b4e4ee:page5:text"
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "No SI supplied.",
+    "Compact drawings not confidently transcribed remain unresolved rather than forced to SMILES.",
+    "Page enumeration and schema validity do not establish semantic or chemical accuracy."
+  ]
+}

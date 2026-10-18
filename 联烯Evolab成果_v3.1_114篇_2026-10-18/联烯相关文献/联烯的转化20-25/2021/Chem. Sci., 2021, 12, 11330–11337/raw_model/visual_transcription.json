@@ -1,0 +1,68 @@
+{
+  "batch_id": "allene-stereo-v31-200-20261017",
+  "document_id": "doc_b620dbe6e0542262",
+  "pages_visually_inspected": [1, 2, 3, 4, 5, 6],
+  "title": "Stereoselective rhodium-catalyzed 2-C–H 1,3-dienylation of indoles: dual functions of the directing group",
+  "table1": [
+    {"entry": 1, "variation": "None", "solvent": "toluene", "silver": "AgSbF6", "recovery": null, "yield": 80, "z_e": "96/4"},
+    {"entry": 2, "variation": "Dioxane as solvent", "solvent": "dioxane", "silver": "AgSbF6", "recovery": null, "yield": 62, "z_e": "96/4"},
+    {"entry": 3, "variation": "CH3CN as solvent", "solvent": "acetonitrile", "silver": "AgSbF6", "recovery": 75, "yield": null, "z_e": null, "no_expected_product": true},
+    {"entry": 4, "variation": "AgBF4 replacing AgSbF6", "solvent": "toluene", "silver": "AgBF4", "recovery": 60, "yield": 20, "z_e": "96/4"},
+    {"entry": 5, "variation": "No [Ag]", "solvent": "toluene", "silver": null, "recovery": 78, "yield": null, "z_e": null, "no_expected_product": true}
+  ],
+  "equations_page2": [
+    {"id": "eq1", "reactants": ["1a", "2m"], "product": "3am", "scale_mmol": 1.0, "allene_equiv": 1.1, "temperature": "r.t.", "time_h": 22.5, "yield": 81, "selectivity": [{"order": "Z/E", "bond": "C1=C2", "ratio": "99/1"}, {"order": "E/Z", "bond": "C3=C4", "ratio": "100/0"}]},
+    {"id": "eq2", "reactants": ["3ah_ZE98_2"], "product": "3ah_ZE95_5", "scale_mmol": 0.1, "temperature_c": 70, "time_h": 24, "yield": 78, "yield_basis": "NMR", "selectivity": [{"order": "Z/E", "ratio": "95/5"}], "purpose": "isomerization control"}
+  ],
+  "table2": [
+    {"product": "3aa", "substrates": ["1a", "2a"], "yield": 70, "z_e": "96/4"},
+    {"product": "3ab", "substrates": ["1a", "2b"], "yield": 82, "z_e": "96/4"},
+    {"product": "3ac", "substrates": ["1a", "2c"], "yield": 74, "z_e": "96/4"},
+    {"product": "3ad", "substrates": ["1a", "2d"], "yield": 84, "z_e": "96/4"},
+    {"product": "3ae", "substrates": ["1a", "2e"], "yield": 71, "z_e": "97/3"},
+    {"product": "3af", "substrates": ["1a", "2f"], "yield": 85, "z_e": "96/4"},
+    {"product": "3ag", "substrates": ["1a", "2g"], "yield": 81, "z_e": "96/4"},
+    {"product": "3ah", "substrates": ["1a", "2h"], "yield": 77, "z_e": "73/27", "temperature_c": 70},
+    {"product": "3ai", "substrates": ["1a", "2i"], "yield": 86, "z_e": "96/4"},
+    {"product": "3aj", "substrates": ["1a", "2j"], "yield": 80, "z_e": "95/5", "temperature_c": 70},
+    {"product": "3bf", "substrates": ["1b", "2f"], "yield": 89, "z_e": "95/5"},
+    {"product": "3bf", "record_suffix": "scale4mmol", "substrates": ["1b", "2f"], "yield": 85, "product_mass_g": 1.4149, "z_e": "95/5", "scale_mmol": 4.0},
+    {"product": "3cf", "substrates": ["1c", "2f"], "yield": 85, "z_e": "96/4", "assignment": "ORTEP/X-ray, CCDC 2014026"},
+    {"product": "3df", "substrates": ["1d", "2f"], "yield": 84, "z_e": "96/4"},
+    {"product": "3ef", "substrates": ["1e", "2f"], "yield": 85, "z_e": "96/4"},
+    {"product": "3ff", "substrates": ["1f", "2f"], "yield": 85, "z_e": "97/3"},
+    {"product": "3gf", "substrates": ["1g", "2f"], "yield": 78, "z_e": "91/9"},
+    {"product": "3ak", "substrates": ["1a", "2k"], "yield": 65, "z_e": "96/4", "scale_mmol": 0.2},
+    {"product": "3al", "substrates": ["1a", "2l"], "yield": 62, "z_e": "98/2", "scale_mmol": 0.4, "time_h": 12}
+  ],
+  "table3": [
+    {"entry": 1, "substrates": ["1h", "2a"], "recovery": 83, "yield": null, "z_e": null, "no_product": true},
+    {"entry": 2, "substrates": ["1i", "2a"], "recovery": 76, "yield": null, "z_e": null, "no_product": true},
+    {"entry": 3, "substrates": ["1j", "2a"], "recovery": 85, "yield": null, "z_e": null, "no_product": true},
+    {"entry": 4, "substrates": ["1k", "2a"], "product": "3ka", "scale_mmol": 0.5, "yield": 60, "isolated_yield": 52, "z_e": "90/10"},
+    {"entry": 5, "substrates": ["1a", "2h"], "product": "3ah", "temperature_c": 50, "recovery": 25, "yield": 60, "z_e": "75/25"},
+    {"entry": 6, "substrates": ["1a", "2h"], "product": "3ah", "temperature_c": 70, "time_h": 7, "scale_mmol": 1.0, "recovery": 28, "yield": 57, "z_e": "74/26"},
+    {"entry": 7, "substrates": ["1a", "2h"], "product": "3ah", "temperature_c": 70, "yield": 66, "z_e": "73/27", "absence_of_light": true}
+  ],
+  "table4": [
+    {"product": "3an", "substrates": ["1a", "2n"], "yield": 60, "e_z": "93/7"},
+    {"product": "3ao", "substrates": ["1a", "2o"], "yield": 50, "e_z": "90/10", "allene_equiv": 1.1, "assignment": "major C=C configuration established by NOESY; details referred to unavailable ESI"},
+    {"product": "3ap", "substrates": ["1a", "2p"], "yield": 52, "e_z": "91/9", "yield_note": "calculated from E-3 and E/Z mixture after chromatography by 1H NMR; unidentified unknown product formed"},
+    {"product": "3aq", "substrates": ["1a", "2q"], "yield": 49, "e_z": "91/9"},
+    {"product": "3ar", "substrates": ["1a", "2r"], "yield": 59, "e_z": "90/10"},
+    {"product": "3as", "substrates": ["1a", "2s"], "yield": 68, "e_z": "97/3"},
+    {"product": "3at", "substrates": ["1a", "2t"], "yield": 48, "e_z": ">99/1", "scale_mmol": 0.5}
+  ],
+  "non_synthetic_regions": [
+    {"page": 4, "region": "Fig. 1", "finding": "DFT free-energy profile/proposed catalytic pathway, not a reported preparative experiment"},
+    {"page": 5, "region": "Fig. 2", "finding": "DFT transition-state comparison for Z/E selectivity of 1a + 2a; not a preparative experiment"},
+    {"page": 5, "region": "Fig. 3", "finding": "DFT comparison of 2a and 2n selectivity pathways; not a preparative experiment"},
+    {"page": 6, "region": "Fig. 4", "finding": "calculated LUMO plots; not a reaction experiment"}
+  ],
+  "global_limitations": [
+    "No supplementary-information PDF was explicitly provided or associated.",
+    "Machine records remain needs_review even though pages 1–6 were visually inspected.",
+    "Many scope structures are retained by source label with unresolved concrete SMILES rather than guessed from small drawings.",
+    "Table 4 product labels show E/Z while its caption says Z/E; both statements are preserved as a source-order conflict."
+  ]
+}

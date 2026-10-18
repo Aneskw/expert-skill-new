@@ -1,0 +1,60 @@
+{
+  "document_id": "doc_68d6021490685b69",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column and upper right column, references 12–18",
+          "finding": "Prior-literature/review citations only; no current-paper reaction arrow, table row or characterization peak list.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page7:image",
+            "doc_68d6021490685b69:page7:text"
+          ]
+        },
+        {
+          "region": "right column, footnote 19",
+          "finding": "Distinct mechanistic control: the racemic Table 1 entry-1 reaction was run at 0 °C and an unnumbered [2+2] cycloaddition product was qualitatively detected.  One partial needs_review experiment record was added.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page7:image",
+            "doc_68d6021490685b69:page7:text"
+          ]
+        },
+        {
+          "region": "right column, footnote 20",
+          "finding": "CCDC 2042864 (3aa), 2052253 (rac-4ka) and 2079315 (rac-5aa) are crystallographic characterization context, not new synthesis experiments.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page7:image",
+            "doc_68d6021490685b69:page7:text"
+          ]
+        },
+        {
+          "region": "right column, footnote 21",
+          "finding": "Qualitative statement that a one-pot procedure gave product family 4 as major product.  It lacks a substrate instance, yield, ratio and conditions on this page; it is retained in source_context rather than fabricated as a fully distinct reaction row.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page7:image",
+            "doc_68d6021490685b69:page7:text"
+          ]
+        },
+        {
+          "region": "right column, references 22–23 and publication footer",
+          "finding": "Prior-literature citations and administrative footer only; no additional current-paper experiment.",
+          "evidence_ids": [
+            "doc_68d6021490685b69:page7:image",
+            "doc_68d6021490685b69:page7:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_68d6021490685b69:footnote19_racemic_0C_2plus2_detection"
+      ],
+      "unresolved": [
+        "Footnote 19 does not print the detected product number, structure, amount/yield, detection method or product stereochemical composition.",
+        "Footnote 21 is not uniquely distinguishable as a concrete experiment without the cited ESI Table S5.",
+        "The article cites ESI Tables S1 and S5, but no SI file is explicitly associated in source_mapping.json; no SI facts were inferred."
+      ]
+    }
+  ]
+}

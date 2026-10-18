@@ -1,0 +1,29 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "literature_example": 1,
+    "general_scheme": 1,
+    "reported_experiment": 2,
+    "substrate_scope_entry": 12,
+    "mechanism": 1
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_8fa26764c07f8ee4"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_8fa26764c07f8ee4:scheme4_methylindene9",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_8fa26764c07f8ee4:page2:text",
+        "doc_8fa26764c07f8ee4:page2:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    }
+  ]
+}

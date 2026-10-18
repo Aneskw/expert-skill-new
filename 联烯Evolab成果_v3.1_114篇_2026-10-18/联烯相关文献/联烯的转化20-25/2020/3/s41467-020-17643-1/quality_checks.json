@@ -1,0 +1,55 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "reported_experiment": 7
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_ca1481599a4b0f91"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_ca1481599a4b0f91:rxn_np_baptes_silanization",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image",
+        "doc_ca1481599a4b0f91:page3:text",
+        "doc_ca1481599a4b0f91:page3:image",
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_ca1481599a4b0f91:rxn_np_pep_coupling",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page2:text",
+        "doc_ca1481599a4b0f91:page2:image",
+        "doc_ca1481599a4b0f91:page3:text",
+        "doc_ca1481599a4b0f91:page3:image",
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_ca1481599a4b0f91:rxn_8nm_magnetite_nanocrystals_synthesis",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    }
+  ]
+}

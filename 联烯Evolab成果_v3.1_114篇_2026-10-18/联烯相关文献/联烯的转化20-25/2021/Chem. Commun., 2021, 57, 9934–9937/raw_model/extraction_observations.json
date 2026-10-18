@@ -1,0 +1,70 @@
+{
+  "document_id": "doc_b91b082127244b8b",
+  "pages_visually_inspected": [1, 2, 3, 4],
+  "source_images": [
+    "../assets/doc_b91b082127244b8b/page1.jpg",
+    "../assets/doc_b91b082127244b8b/page2.jpg",
+    "../assets/doc_b91b082127244b8b/page3.jpg",
+    "../assets/doc_b91b082127244b8b/page4.jpg"
+  ],
+  "scope_entries": [
+    ["1a", "2a", "3aa", 82, "H; R2=Et; R3=Bn"],
+    ["1b", "2a", "3ba", 89, "R1=4-Me"],
+    ["1c", "2a", "3ca", 85, "R1=4-OMe"],
+    ["1d", "2a", "3da", 69, "R1=4-OCF3"],
+    ["1e", "2a", "3ea", 74, "R1=4-CH2CO2Me"],
+    ["1f", "2a", "3fa", 76, "R1=4-F"],
+    ["1g", "2a", "3ga", 83, "R1=4-Cl"],
+    ["1h", "2a", "3ha", 84, "R1=4-Br"],
+    ["1i", "2a", "3ia", 80, "R1=5-N(Et)2"],
+    ["1j", "2a", "3ja", 80, "R1=5-OMe"],
+    ["1k", "2a", "3ka", 76, "R1=6-F"],
+    ["1l", "2a", "3la", 73, "R1=6-OMe"],
+    ["1m", "2a", "3ma", 65, "R1=6-OEt"],
+    ["1n", "2a", "3na", 80, "R1=6-Me"],
+    ["1o", "2a", "3oa", 77, "aryl-substituted phenol ring"],
+    ["1p", "2a", "3pa", 75, "disubstituted methylenedioxy arene"],
+    ["1q", "2a", "3qa", 82, "dichloro arene"],
+    ["1r", "2a", "3ra", 96, "naphthyl substrate"],
+    ["1s", "2a", "3sa", 69, "para-CO2Me"],
+    ["1t", "2a", "3ta", 54, "para-CF3"],
+    ["1u", "2a", "3ua", 80, "meta-CO2Me"],
+    ["1v", "2a", "3va", 29, "Bpin; standard conditions"],
+    ["1v", "2a", "3va", 41, "Bpin; PhCOONa/PhCOOH buffer"],
+    ["1w", "2a", "3wa", 0, "nitro; expected product not obtained"],
+    ["1x", "2a", "3xa", 80, "R2=Me"],
+    ["1y", "2a", "3ya", 68, "R2=iPr"],
+    ["1a", "2b", "3ab", 60, "R3=Me"],
+    ["1a", "2c", "3ac", 52, "R3=Et"],
+    ["1a", "2d", "3ad", 65, "R3=iPr"]
+  ],
+  "scope_conditions": {
+    "catalyst": "(p-FC6H4)3P (0.3 equiv.)",
+    "additive": "PhCOOH (1.0 equiv.)",
+    "solvent": "toluene",
+    "temperature": "25 °C",
+    "time": "2–4 h",
+    "yield_basis": "isolated",
+    "selectivity": "all new products dr >20:1"
+  },
+  "other_experiments": [
+    "PPh3 (30 mol%) model reaction: 3aa, 50%, toluene, 25 °C; time and yield basis unavailable without SI.",
+    "Gram scale 1a + 2a -> 3aa: prose gives 1a 1.0 g, 3.6 mmol; scheme gives 1a 1.26 g; product 1.4 g, 65%.",
+    "Gram scale 1x + 2a -> 3xa: 1x 1.0 g, 4.0 mmol; product 1.14 g, 71%.",
+    "3xa -> 4: Pd/C, H2, MeOH, then H2SO4; 96%.",
+    "4 -> 5: LiCl 2.0 equiv, H2O 2.0 equiv, DMF, 140 °C; 35%.",
+    "Controls: 6 + 2a not obtained; 7a + 2a not obtained; 7b + 2a not obtained; 8 + 2a no reaction.",
+    "D2O 10 equiv under standard conditions gives d-3aa 58%; C9 26% D, C15 82% D, C16 82% D by 1H NMR."
+  ],
+  "non_experiment_items": [
+    "Figure 1 biological/example structures only.",
+    "Scheme 1 equations 1 and 2 are authors' previous work and must be literature examples.",
+    "Figure 2 is a proposed mechanism, including a separate naphthyl/o-quinone-methide branch, not an observed experimental sequence.",
+    "Page 4 references are bibliography, not experiments."
+  ],
+  "limitations": [
+    "No supporting-information PDF was supplied; SI procedures, optimization rows, characterization and per-product reaction times remain unavailable.",
+    "Concrete structures are retained as unresolved source labels where the small main-text drawing is insufficient for a stereochemically complete SMILES.",
+    "Machine records remain needs_review even though the four supplied page images were visually inspected."
+  ]
+}

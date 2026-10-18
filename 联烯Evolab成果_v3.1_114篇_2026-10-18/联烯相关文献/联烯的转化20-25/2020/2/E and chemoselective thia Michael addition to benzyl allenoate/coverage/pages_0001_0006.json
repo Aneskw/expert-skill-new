@@ -1,0 +1,222 @@
+{
+  "document_id": "doc_7ba97fbb78e354a5",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "full-page publisher cover: title, authors, DOI, publication and supplementary-material link",
+          "finding": "Bibliographic cover only. The tiny journal thumbnail repeats the article graphic but supplies no distinct readable experiment; no synthetic record was created from page 1.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page1:text", "doc_7ba97fbb78e354a5:page1:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["A supplementary-material link is shown, but no SI file is explicitly supplied or associated in this workspace."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "graphical abstract",
+          "finding": "Current generic thia-Michael transformation: benzyl allenoate plus RSH, Et3N 20 mol%, THF 0.5 M, 70 °C, 24 h, E-selective product, 12 examples, up to 99%, >20:1 E/Z.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page2:text", "doc_7ba97fbb78e354a5:page2:image"]
+        },
+        {
+          "region": "Introduction columns",
+          "finding": "Prior literature is discussion context. The Ref. 6c 1:1 E/Z alkynoate example is explicitly retained as literature_example, not a current-paper experiment.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page2:text", "doc_7ba97fbb78e354a5:page2:image"]
+        },
+        {
+          "region": "Results and discussion, lower right",
+          "finding": "Current optimization prose supports Table 1 entries 1 and 2 for 2a and entry 3 for 2b; entry 2 is merged with scope_2a rather than duplicated.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page2:text", "doc_7ba97fbb78e354a5:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_7ba97fbb78e354a5:generic_thia_michael",
+        "doc_7ba97fbb78e354a5:scope_2a",
+        "doc_7ba97fbb78e354a5:scope_2b",
+        "doc_7ba97fbb78e354a5:table1_entry_1",
+        "doc_7ba97fbb78e354a5:table1_entry_3",
+        "doc_7ba97fbb78e354a5:literature_ref6c_alkynoate"
+      ],
+      "unresolved": ["The graphical abstract gives a generic scope maximum rather than a product-specific 99% assignment."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1, top: previous work on allenoate",
+          "finding": "Two Ref. 7 literature experiments were separated: no additive gives 30% conjugated and 14% non-conjugated products; PBu3 20 mol% gives 76% non-conjugated product. These are literature_example records.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page3:text", "doc_7ba97fbb78e354a5:page3:image"]
+        },
+        {
+          "region": "Scheme 1, middle/bottom: previous alkynoate work and this work",
+          "finding": "Ref. 6b and Ref. 6c are separate literature_example records. The current generic RSH addition is linked to the graphical abstract and Scheme 2 rather than counted again.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page3:text", "doc_7ba97fbb78e354a5:page3:image"]
+        },
+        {
+          "region": "Table 1, entries 1-6",
+          "finding": "All six rows were inventoried. Rows 2 and 6 are the same 72% 2a and 92% 2b executions documented in Scheme 2/Sections 4.3-4.4 and therefore share scope records; rows 1, 3, 4 and 5 are independent optimization records.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page3:text", "doc_7ba97fbb78e354a5:page3:image"]
+        },
+        {
+          "region": "discussion below Table 1",
+          "finding": "2b E geometry and thia-over-aza chemoselectivity are author statements. The no-Et3N row includes low conversion and minor crystalline unconjugated 3b; 3b is a targeted minor-product observation within Table 1 entry 5, not a separate synthesis.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page3:text", "doc_7ba97fbb78e354a5:page3:image"]
+        },
+        {
+          "region": "scope prose at lower right",
+          "finding": "2c (93%) and the named 2d-2f scope substrates/products are mapped to their Scheme 2 and detailed-experiment records.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page3:text", "doc_7ba97fbb78e354a5:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_7ba97fbb78e354a5:generic_thia_michael",
+        "doc_7ba97fbb78e354a5:scope_2a",
+        "doc_7ba97fbb78e354a5:scope_2b",
+        "doc_7ba97fbb78e354a5:scope_2c",
+        "doc_7ba97fbb78e354a5:scope_2d",
+        "doc_7ba97fbb78e354a5:scope_2e",
+        "doc_7ba97fbb78e354a5:scope_2f",
+        "doc_7ba97fbb78e354a5:table1_entry_1",
+        "doc_7ba97fbb78e354a5:table1_entry_3",
+        "doc_7ba97fbb78e354a5:table1_entry_4",
+        "doc_7ba97fbb78e354a5:table1_entry_5",
+        "doc_7ba97fbb78e354a5:literature_ref7_no_additive",
+        "doc_7ba97fbb78e354a5:literature_ref7_pbu3",
+        "doc_7ba97fbb78e354a5:literature_ref6b_alkynoate",
+        "doc_7ba97fbb78e354a5:literature_ref6c_alkynoate"
+      ],
+      "unresolved": [
+        "Optimization-row reaction scale, detailed work-up and purification are not reported on the covered pages.",
+        "The compact Ref. 6c drawing/prose do not provide a complete internally consistent prior-work condition set."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1, 2b and 3b drawings plus X-ray structures",
+          "finding": "Structural-characterization evidence confirms the C-S bond and E geometry of 2b and identifies unconjugated 3b. It is retained in source_context and the entry-5 minor-product outcome, not treated as an independent preparative arrow.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page4:text", "doc_7ba97fbb78e354a5:page4:image"]
+        },
+        {
+          "region": "Scheme 2 header and conditions",
+          "finding": "General scope conditions were read directly: benzyl allenoate 150 mol%, RSH 1a-1l, Et3N 20 mol%, THF 0.5 M, 70 °C, 24 h; all products >20:1 E/Z. Footnote b changes 2b to 150 mol% Et3N.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page4:text", "doc_7ba97fbb78e354a5:page4:image"]
+        },
+        {
+          "region": "Scheme 2 product grid 2a-2l and footnotes",
+          "finding": "Twelve independent scope products were recorded with isolated yields: 72, 92, 93, 84, 82, 68, 83, 99, 75, 92, 68 and 82%. Structures were transcribed as machine candidates with explicit E geometry and remain needs_review.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page4:text", "doc_7ba97fbb78e354a5:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_7ba97fbb78e354a5:generic_thia_michael",
+        "doc_7ba97fbb78e354a5:scope_2a",
+        "doc_7ba97fbb78e354a5:scope_2b",
+        "doc_7ba97fbb78e354a5:scope_2c",
+        "doc_7ba97fbb78e354a5:scope_2d",
+        "doc_7ba97fbb78e354a5:scope_2e",
+        "doc_7ba97fbb78e354a5:scope_2f",
+        "doc_7ba97fbb78e354a5:scope_2g",
+        "doc_7ba97fbb78e354a5:scope_2h",
+        "doc_7ba97fbb78e354a5:scope_2i",
+        "doc_7ba97fbb78e354a5:scope_2j",
+        "doc_7ba97fbb78e354a5:scope_2k",
+        "doc_7ba97fbb78e354a5:scope_2l",
+        "doc_7ba97fbb78e354a5:table1_entry_5"
+      ],
+      "unresolved": [
+        "The >20:1 E/Z measurement method is only stated as crude-mixture NMR for 2b, not for every Scheme 2 member.",
+        "Figure 1 points to Supporting Information for crystallographic details, but no SI is associated."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "scope discussion, upper left",
+          "finding": "Prose yields and chemoselectivity statements for 2d-2l were mapped to the Scheme 2 scope records. The 2h prose says quantitative yield while Scheme 2 says 99%; both values are retained as a conflict without choosing.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page5:text", "doc_7ba97fbb78e354a5:page5:image"]
+        },
+        {
+          "region": "general experimental, lower left",
+          "finding": "General nitrogen atmosphere, sealed-tube practice, drying and flash chromatography were inspected. Instrumental/NMR/HRMS/IR details are characterization context, not separate syntheses.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page5:text", "doc_7ba97fbb78e354a5:page5:image"]
+        },
+        {
+          "region": "Section 4.1 substrate synthesis",
+          "finding": "The paper states that benzyl buta-2,3-dienoate was synthesized by a slightly modified literature procedure but sends details to Supplemental Materials. One unresolved current-paper preparation record preserves this claim without inventing reactants or conditions.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page5:text", "doc_7ba97fbb78e354a5:page5:image"]
+        },
+        {
+          "region": "Section 4.2 general procedure",
+          "finding": "Charges, order, THF volume/concentration, nitrogen purge, 70 °C/24 h hold, dry-silica evaporation and flash chromatography were inherited into the twelve scope records. For 2b, the explicit 150 mol% Et3N modification prevents inheritance of the 20 mol% volume/amount.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page5:text", "doc_7ba97fbb78e354a5:page5:image"]
+        },
+        {
+          "region": "Sections 4.3-4.4",
+          "finding": "Specific thiol charges and isolated yields for 2a and 2b were merged with Table 1 entries 2 and 6. Their NMR/HRMS/IR data remain characterization context attached to the same reaction identities.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page5:text", "doc_7ba97fbb78e354a5:page5:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_7ba97fbb78e354a5:scope_2a",
+        "doc_7ba97fbb78e354a5:scope_2b",
+        "doc_7ba97fbb78e354a5:scope_2c",
+        "doc_7ba97fbb78e354a5:scope_2d",
+        "doc_7ba97fbb78e354a5:scope_2e",
+        "doc_7ba97fbb78e354a5:scope_2f",
+        "doc_7ba97fbb78e354a5:scope_2g",
+        "doc_7ba97fbb78e354a5:scope_2h",
+        "doc_7ba97fbb78e354a5:scope_2i",
+        "doc_7ba97fbb78e354a5:scope_2j",
+        "doc_7ba97fbb78e354a5:scope_2k",
+        "doc_7ba97fbb78e354a5:scope_2l",
+        "doc_7ba97fbb78e354a5:substrate_benzyl_allenoate_preparation_unresolved"
+      ],
+      "unresolved": [
+        "Detailed benzyl allenoate preparation is unavailable without explicitly provided SI.",
+        "The general procedure says nucleophile 1a-s/products 2a-s although the covered Scheme 2 displays only 1a-1l/2a-2l; no unseen 2m-2s records were invented."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Sections 4.5-4.8, left column",
+          "finding": "Specific source charges, product identities and yields for 2c-2f were linked to their existing scope records. NMR/HRMS/IR data are characterization, not new experiments.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page6:text", "doc_7ba97fbb78e354a5:page6:image"]
+        },
+        {
+          "region": "Sections 4.9-4.12, right column",
+          "finding": "Specific source charges and outcomes for 2g-2j were linked to scope records. Section 4.10 reports 2h as quantitative, retained alongside Scheme 2's 99%; Section 4.12 continues beyond this page, so only the visible charge/yield/characterization portion was used.",
+          "evidence_ids": ["doc_7ba97fbb78e354a5:page6:text", "doc_7ba97fbb78e354a5:page6:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_7ba97fbb78e354a5:scope_2c",
+        "doc_7ba97fbb78e354a5:scope_2d",
+        "doc_7ba97fbb78e354a5:scope_2e",
+        "doc_7ba97fbb78e354a5:scope_2f",
+        "doc_7ba97fbb78e354a5:scope_2g",
+        "doc_7ba97fbb78e354a5:scope_2h",
+        "doc_7ba97fbb78e354a5:scope_2i",
+        "doc_7ba97fbb78e354a5:scope_2j"
+      ],
+      "unresolved": [
+        "Section 4.12 continues on original PDF page 7; page 7 was not visually covered and no page-7-only detail is claimed.",
+        "Exact chromatographic eluents and product-specific work-up modifications are not reported on the covered pages."
+      ]
+    }
+  ]
+}

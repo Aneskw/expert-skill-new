@@ -1,0 +1,86 @@
+{
+  "document_id": "doc_518d3edb75482abc",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top-left continuation of product 28 paragraph",
+          "finding": "Completes the 81% conversion statement and gives characterization for the already-recorded scope-28 preparation; no separate experiment is created.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page7:text",
+            "doc_518d3edb75482abc:page7:image"
+          ]
+        },
+        {
+          "region": "product preparation paragraphs 29-34",
+          "finding": "Prepared according to General Procedure A; product masses, isolated yields, conversions where printed, and flash-chromatography eluents are appended to existing Scheme-6 scope records 29-34.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page7:text",
+            "doc_518d3edb75482abc:page7:image"
+          ]
+        },
+        {
+          "region": "product 32 heading and analytical block",
+          "finding": "Source conflict preserved: the heading names 2-methoxybenzyl, while Scheme 6 and the F3 HRMS/19F NMR indicate a para-CF3 benzyl structure.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page7:text",
+            "doc_518d3edb75482abc:page7:image",
+            "doc_518d3edb75482abc:page4:text",
+            "doc_518d3edb75482abc:page4:image"
+          ]
+        },
+        {
+          "region": "Rf, NMR and HRMS blocks for products 28-34",
+          "finding": "Characterization evidence only; spectra and mass peaks are retained in source_context and are not counted as synthesis experiments.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page7:text",
+            "doc_518d3edb75482abc:page7:image"
+          ]
+        },
+        {
+          "region": "acknowledgments, keywords, and references 1-14",
+          "finding": "Non-experimental article matter and cited literature; no new current-paper experiment.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page7:text",
+            "doc_518d3edb75482abc:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_518d3edb75482abc:scope28",
+        "doc_518d3edb75482abc:scope29",
+        "doc_518d3edb75482abc:scope30",
+        "doc_518d3edb75482abc:scope31",
+        "doc_518d3edb75482abc:scope32",
+        "doc_518d3edb75482abc:scope33",
+        "doc_518d3edb75482abc:scope34"
+      ],
+      "unresolved": [
+        "Product 32 identity conflict between the printed heading and Scheme 6/analytical data requires expert review.",
+        "No R/S assignment is printed for the product alpha stereocenters; unspecified is not interpreted as achiral or racemic.",
+        "No SI file was explicitly supplied or associated."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 14-29 and received-date line",
+          "finding": "Bibliographic continuation only. It contains cited literature and the received date, not a current-paper reaction arrow, table row, procedure, control, or mechanism experiment.",
+          "evidence_ids": [
+            "doc_518d3edb75482abc:page8:text",
+            "doc_518d3edb75482abc:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "References are not expanded into reaction records because page 8 reports no executable experiments from this paper."
+      ]
+    }
+  ]
+}

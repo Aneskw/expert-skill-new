@@ -1,0 +1,39 @@
+{
+  "page_range": [19, 21],
+  "standard_merge": {
+    "merged_reactions": 96,
+    "molecules": 161,
+    "chemical_accuracy_verified": false
+  },
+  "standard_validate": {
+    "valid": true,
+    "errors": [],
+    "chemical_accuracy_verified": false
+  },
+  "strict_dataset_validate": {
+    "valid": true,
+    "errors": [],
+    "standard_v3_present": true,
+    "chemical_accuracy_verified": false
+  },
+  "audit_review": {
+    "source_reviewed_records": 0,
+    "warning_record_count": 45,
+    "warning_class_counts": {
+      "structure_gap": 45
+    },
+    "absent_warning_classes": [
+      "reaction_identity",
+      "outcome_target",
+      "measurement_basis"
+    ],
+    "documents_without_linked_si": [
+      "doc_2401da5b5fbe4542"
+    ],
+    "decision": "All warnings predate this references-only page increment and concern deliberately unresolved exact structures. They were not repaired by guessing. Pages 19--21 add no molecule or reaction record, and the unavailable SI remains unlinked."
+  },
+  "markdown_checks": {
+    "reagent_amounts_present": true,
+    "table5_solvent_conflict_note_present": true
+  }
+}

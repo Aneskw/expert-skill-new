@@ -1,0 +1,207 @@
+{
+  "schema_version": "3.1",
+  "tool_version": "3.1",
+  "documents": [
+    {
+      "document_id": "doc_a52c76191d5b058b",
+      "sha256": "a52c76191d5b058b4d92cbfa71f0fd60d9121917e8edac22bc2410e6512fe361",
+      "source_name": "source.pdf",
+      "source_pdf": "assets/doc_a52c76191d5b058b/source.pdf",
+      "role": "main_text",
+      "parent_document_id": null,
+      "pages": 8,
+      "title": null,
+      "doi": "10.1021/acscatal.1c00153",
+      "supplementary_material": {
+        "status": "unknown",
+        "note": "SI availability is not established from filename."
+      },
+      "evidence": [
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page1:text",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 1,
+          "kind": "page_text",
+          "text": "Dual Palladium/Photoredox-Catalyzed Enantioselective and\nRegioselective Decarboxylative Hydroaminoalkylation of Allenes\nJun Zheng, Ali Nikbakht, and Bernhard Breit *\nCite This: ACS Catal. 2021, 11, 3343 −3350 Read Online\nACCESS Metrics & More Article Recommendations *sı Supporting Information\nABSTRACT: A dual palladium/photoredox-catalyzed regio- and enantioselective decarboxylative hydroaminoalkylation of allenes\nwith amino acids is reported. This mild, redox-neutral, and atom-economic process allows access to a range of protected vinyl 1,2-\namino ethers in good yields with high levels of branched and enantioselectivity, when alkoxyallenes were employed. Conversely, with\nalkyl- and aryl-substituted terminal allenes as the substrates, a linear-selective decarboxylative hydroaminoalkylation of allenes is\nrealized in high regio- and E/Z selectivities with a Pd/ rac-BINAP catalytic system.\nKEYWORDS: α-amino acid, allene, palladium, photoredox, chiral vicinal amino alcohol\nC\nhiral 1,2-amino alcohols have emerged as a common motif\nin a variety of diﬀerent natural products and pharmaceuti-\ncally active compounds as well as privileged chiral auxiliaries and\nligands (Figure 1). As a result, the importance of vicinal amino\nalcohols has stimulated extensive e ﬀort from the synthetic\ncommunity toward their synthesis.\n1 Among them, processes that\nform the C −C bond between the amine and alcohol\nfunctionalities are particularly attractive but challenging using\ntypical two-electron ionic processes ( Scheme 1A).\nTherefore, a traditional reverse polarity (Umpolung) strategy,\nsuch as using nitroalkane nucleophiles as carbanion equivalents,\nhas been proposed for addressing this issue.\n2 Despite their\neﬀectiveness, these methods often require subsequent refunc-\ntionalization to deliver the amine. The direct enantioselective α-\nlithiation of alkylamines for the addition to carbonyls is an\nalternative, which neverthel ess often requires cryogenic\nconditions, the use of stoichiometric amounts of sparteine and\nstrong bases (alkyl lithiums).\n3 Hence, developing a streamlined,\neﬃcient, and atom-economic methodology to enable the\nenantioselective construction of vicinal amino alcohols via a\nC−C bond formation process under ambient conditions is\nhighly demanded.\nIn recent years, radical cross-coupling between amine and\nalcohol moieties for the construction of vicinal amino alcohols\nby photoredox catalysis has received widespread attention.\n4\nHowever, only a few examples of asymmetric photoredox\ncatalysis to access enantioenriched this class of compounds have\nbeen reported,\n5 including chiral phosphoric acid organo-\ncatalysts,6 chiral-at-metal rhodium/iridium complex,7 and chiral\nscandium-N,N′-dioxide complex. 8 Furthermore, long-living\nketyl radicals obtained from a reduction of aromatic carbonyls\nare required for a successful radical cross-coupling in all of these\nmethods, which diminish the generality of the scope. Therefore,\nexploring alternative alcohol moieties that can enable versatile\nfurther transformations and e ﬀectively couple with α-amino\nalkyl radicals is highly desirable.\nAlkoxyallenes are versatile building blocks for organic\nsynthesis, especially serving as atom-economic\n9 π-allyl fragment\nprecursors for palladium-catalyzed allylic addition to pronu-\ncleophiles leading to allylic alcohol building blocks.\n10 However,\nthe current state of the art to access C−C bonds is still restricted\nto the allylation with soft carbon nucleophiles, such as\nMeldrum’s acids,\n11 azlactones,12 oxindoles,13 and pyrazolones14\n(Scheme 1B). To broaden the carbon pronucleophiles window\nof hydroalkylation of allenes, we recently described a rhodium/\nphotoredox co-catalyzed atom-economic regiodivergent hydro-\naminoalkylation of alkynes and allenes, but unfortunately only\nracemic homoallylic amines could be obtained.\n15\nReceived: January 12, 2021\nRevised: February 18, 2021\nPublished: March 2, 2021\nResearch Articlepubs.acs.org/acscatalysis\n© 2021 The Authors. Published by\nAmerican Chemical Society\n3343\nhttps://dx.doi.org/10.1021/acscatal.1c00153\nACS Catal. 2021, 11, 3343 −3350\nDownloaded via FUDAN UNIV on January 18, 2022 at 03:11:21 (UTC).\nSee https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.\n",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page2:text",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 2,
+          "kind": "page_text",
+          "text": "Inspired by these advances as well as recent progress in\nenantioselective metallaphotoredox catalysis, 5 we envisioned\nthat the utility of alkoxyallenes as the allylic precursor in the\ncross-coupling with α-amino alkyl radicals could lead to the\nformation of 1,2-amino ethers ( Scheme 1C). In addition, easy-\nto-access α-amino acids, which are widely used to generate α-\namino alkyl radicals via a single-electron-oxidative decarbox-\nylation process, 16 could be suitable substrates for the hydro-\naminoalkylation of allenes because α-amino acids can\nsimultaneously serve as reductants and a proton source. The\nreleased proton from the decarboxylation of α-amino acids\ncould promote the generation of a palladium(II) hydride\nFigure 1. Representative examples on 1,2-amino alcohol-containing bioactive compounds.\nScheme 1. (A) Retrosynthetic Analysis of 1,2-Amino Alcohols. (B) Reported Soft Carbon Nucleophiles Used in Allylic Alkylation\nof Alkoxyallenes. (C) This Work: Regioselective Decarboxylative Hydroaminoalkylation of Allenes for the Synthesis of\nEnantioenriched Protected 1,2-Amino Alcohols\nACS Catalysis pubs.acs.org/acscatalysis Research Article\nhttps://dx.doi.org/10.1021/acscatal.1c00153\nACS Catal. 2021, 11, 3343 −3350\n3344\n",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page3:text",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 3,
+          "kind": "page_text",
+          "text": "species, which is crucial for the formation of a π-allyl palladium\nintermediate from allenes. Moreover, the π-allyl palladium\nspecies is believed to be the key intermediate to control\nreactivity, regioselectivity, and stereoselectivity.\n17 After being\nattacked by the activated α-amino alkyl radical and one electron\nreduction, the desired 1,2-amino alcohol function might be\nobtained. Herein, we report on an enantioselective decarbox-\nylative hydroaminoalkylation of allenes with α-amino acids via a\ncombined palladium and photoredox catalysis to give facile\naccess to syn-vicinal amino alcohols with high levels of regio- and\nenantiocontrol.\nWe began our studies by reacting N-phenyl-protected phenyl\nalanine (1a) and cyclohexyloxyallene (2a) in the presence of 2.5\nmol % of [Pd\n2(dba)3], 6 mol % ( S)-BINAP, 50 mol % p-\nCF3C6H4COOH, 1 mol % [Ir(ppy) 2(dtbbpy)PF6][ PC1], and\nD M Fa ss o l v e n t su n d e rb l u e l ight-emitting-diode (LED)\nirradiation. After 16 h, the desired product 3aa was obtained\nin good yields, with >19:1 B/L but poor diastereo- and\nenantiocontrol (1.3:1 dr, 69:31 er).\n18 To our delight, further\nligand screening revealed that the Feringa ligand (L9) proved to\nbe optimal, aﬀording product 3aa with 72% yield, 86:14 B/L, 4:1\ndr, and 97:3 er (Table 1, entry 1).18 A survey of solvents and acid\nadditives was conducted, however, without bene ﬁcial results.18\nInterestingly, evaluation of diﬀerent photosensitizers resulted in\na slight improvement in regioselectivity (90:10 B/L) using\n[Ir(dF(CF\n3)ppy)2(dtbbpy)PF6][ PC2] as the photocatalyst,\nwhile maintaining reactivity (70% yield) and stereoselectivity\n(4.5:1 dr, 96:4 er) ( Table 1, entries 2 and 3). Variation of the\nphotocatalyst loading revealed that 1 mol % provided optimal\nresults ( Table 1 , entries 4 −5). Finally, control experiments\ndemonstrated that photocatalyst, palladium catalyst, and blue\nLED are all crucial for this decarboxylative α-allylation reaction\n(Table 1, entries 6 −8).\nWith the optimized reaction conditions in hand, the substrate\nscope with respect to the two reaction partners was investigated.\nFirst, we explored N-phenyl-protected amino acids derived from\nnatural and unnatural amino acids. As summarized in Table 2,a\nwide range of branched allylated 1,2-amino ethers can readily be\nobtained in good yields with high regio- and enantioselectivities.\nIn addition to O-tert-butyl-tyrosine, unprotected tyrosine was\nalso found to be a suitable substrate yielding the allylation\nadduct ( 3ca) with 91:9 regioselectivity and 96:4 enantiomeric\nratio, as well as complete chemoselectivity in favor of carbon −\ncarbon bond formation instead of the phenol acting as an oxygen\nnucleophile. A 2-naphthyl alanine derivative was allylated well in\nthis Pd/Ir dual catalytic system, a ﬀording the corresponding\nproduct 3da in 74% yield with 96:4 er. Furthermore, a\ntryptophan derivative with an unprotected indole moiety\ncoupled well to furnish allylation adduct 3ea in good yield and\nhigh control of regio- and enantioselectivities. Other N-phenyl-\nderived amino acids with aliphatic side chains, including alanine,\n2-aminobutanoic acid, norval ine, and leucine, were also\nsuccessfully allylated, yielding the related 1,2-amino ethers\n(3fa−3ja)i n4 1 −55% yields with high regio- and enantiose-\nlectivity. In addition, N-phenyl amino acids bearing other\nfunctional groups such as OBn, O\ntBu, SMe, and carboxylate\nesters, involving serine, methionine, aspartic acid, and glutamic\na c i d ,w e r ea l s oc o m p a t i b l ei nt h i sh y d r o a m i n o a l k y l a t i o n\nreaction. In all cases, the products ( 3ka−3oa) were obtained\nin moderate diastereoselectivity with high regio- and enantio-\ncontrol. To be noted, a cyclic amino acid derived from proline\ncoupled well with the allene, resulting in a tertiary homoallylic\namine (3pa) in 93:7 er.\nAs demonstrated in Table 3, with N-phenyl-protected phenyl\nalanine (1a) as the coupling partner under the standard reaction\nconditions, the transformation worked well for a range of\nalkoxyallenes. The enantioselective hydroaminoalkylation of\ncyclopentyl, cycloheptyl, (trimethylsilyl)ethyl, and nonyl-oxy-\nallenes also proceeded smoothly to furnish the corresponding\nallylated adducts ( 3ab−3ae) in good yields (71 −78% yields)\nand diastereoselectivity (2.7:1 −5.6:1 dr) with high regio-\n(91:9−>95:5 B/L) and enantiocontrol (89:11 −97:3 er). A\nnumber of benzyloxyallene derivatives reacted well with amino\nacid 1a leading to the desired products (3af−3ai) in good yields\nand regio- and enantioselectivities. Using the bulkier 1,1-\ndimethylpropyloxyallene and tert-butyl-oxyallene, the yields of\nrelated products ( 3aj−3ak) slightly decreased, while the\nenantioselectivity remained high. Gratifyingly, alkoxyallene\nbearing a chiral alkoxyl group on the side chain underwent\nthis allylation reaction well to give the corresponding product\n3al in 83% yield with >19:1 dr for the syn-isomer using ent-L9 as\nthe ligand. To investigate the matched/mismatched eﬀect of this\ntransformation, L9 was used as a ligand for this hydro-\naminoalkylation reaction, and reversed diastereoselectivities\nwere observed, indicating that the stereochemical induction in\nthis cross-coupling reaction was mostly controlled by the chiral\nligand rather than the chiral substrate. To be noted, 1,1 ′-\ndisubstituted alkoxylallene ( 2m) was also applicable in this\ntransformation.\nTable 1. Optimization of Reaction Conditions a\nentry PC x yield/% B/L dr er\n1 PC1 1 72 86:14 4:1 97:3/ 89:11\n2 PC2 1 73(70) 90:10 4.5:1 96:4/88:12\n3 PC3 1 41 85:15 3.2:1 96:4/88:12\n4 PC2 2 67 89:11 4.5:1 96:4/90:10\n5 PC2 0.5 56 90:10 4.2:1 96:4/88:12\n6b nr\n7c PC2 1n r\n8d PC2 1n r\naReaction conditions (unless otherwise speci ﬁed): 1a (0.1 mmol), 2a\n(0.15 mmol), [Pd 2(dba)3] (2.5 mol %), L9 (12 mol %), p-\nCF3C6H4COOH (50 mol %), [ PC]( x mol %), DMF (1 mL), 16\nh, room temperature (rt), blue LED. NMR yields are reported by\nusing isoquinoline as internal standard, and isolated yield is presented\nin parentheses. Diastereomeric ratio (dr) was determined by 1H NMR\nspectroscopy of the crude mixture. Enantiomeric ratio (er) was\ndetermined by chiral high-perfo rmance liquid chromatography\n(HPLC) analysis. bWithout [ PC]. cWithout blue LED. dWithout\nPd and ligand.\nACS Catalysis pubs.acs.org/acscatalysis Research Article\nhttps://dx.doi.org/10.1021/acscatal.1c00153\nACS Catal. 2021, 11, 3343 −3350\n3345\n",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page4:text",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 4,
+          "kind": "page_text",
+          "text": "According to previous observations on palladium-catalyzed\naddition of pronucleophiles into allenes, 20 by switching the\nligand to rac-BINAP, to our delight, the alkyl-substituted\nterminal allenes coupled well with amino acids, leading to an\narray of homoallylic amines ( 4a−4j, 4l−4t) with exclusive\nlinear- and E/Z selectivities ( Table 4 ). The terminal allenes\ncontaining various functional groups, such as OH, OTBS,\nphthalimide, and alkene, were well tolerated in this trans-\nformation. The phenyl allene coupled well in this trans-\nformation, although the related product ( 4k) could only be\nobtained in a modest L/B ratio. Satisfyingly, the reactions with\nPMP-protected amino acids performed well, i.e., delivered the\ndesired adducts (4s−4t) with up to 90% yields. The generality of\nthis transformation o ﬀers a direct and e ﬃcient strategy to\nprepare homoallylic amines.\nFurthermore, the practical utility of this methodology was\nhighlighted by several postcatalysis transformations of the\nfurnished products ( Scheme 2). Compound 3al was subjected\nto acidic conditions to generate the chiral vicinal amino alcohol\n5a in 85% yield with 99:1 er. Hydrogenation of 3ag with Pd/C\nunder H 2 (1 atm) at ambient temperature followed by\nsubsequent treatment with triﬂuoroacetic acid (TFA) furnished\nthe secondary alcohol 5b in a good yield. Hydroboration and\nconsecutive oxidation of 3aa gave the 1,4-amino alcohol 5c in\n63% yield. Rhodium-catalyzed hydroformylation of 3aa could\nform a six-membered cyclized enamine, which could be\nhydrogenated in situ a ﬀording 2,3-disubstituted piperidine\n(5d) in 60% yield over two steps.\nTo gain some insights into the mechanism, a series of\nexperiments were carried out (see the Supporting Information).\nThe addition of a radical scavenger (TEMPO) could inhibit the\nreaction completely, which indicated the prevalence of a free-\nradical pathway. Furthermore, a radical trap experiment was\nconducted with the addition of ethyl acrylate, and the α-\nalkylated product was formed through an α-amino alkyl radical\nvia a Giese-type reaction. The application of N-phenyl amino\nacid (L-1a)o r( D-1a) derived from enantiomerically pure phenyl\nalanine in this transformation leads to the same regio- and\nstereoselectivities. The coupling reaction between 1a and\ncyclohexyl allene under the linear-selective reaction conditions\nproduced a dimer compound from 1a. Those observations also\nsupport the formation of an intermediate α-amino alkyl radical.\nStern−Volmer studies of N-phenyl amino acid ( 1a) with\nphotocatalyst [PC1] revealed that a simpleN-phenyl amino acid\nTable 2. Scope with respect to the amino acids c\naReactions were carried out with reaction conditions in Table 1, entry 2, unless otherwise noted. Isolated yields are presented. Diastereomeric ratio\n(dr) was determined by 1H NMR spectroscopy of the crude mixture. Er was determined by chiral HPLC analysis. b[PC1] (1 mol %) was used. cEr\nwas determined after derivatization of corresponding compounds (see the Supporting Information ).19\nACS Catalysis pubs.acs.org/acscatalysis Research Article\nhttps://dx.doi.org/10.1021/acscatal.1c00153\nACS Catal. 2021, 11, 3343 −3350\n3346\n",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page5:text",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 5,
+          "kind": "page_text",
+          "text": "(1a) was not able to quench the photoexcited Ir III complex,\nwhile basifying 1a with Cs 2CO3 could e ﬀectively undergo a\nreductive quenching process. Although there was no base\nadditive in the reaction system, the formation of π-allyl\npalladium intermediate from allenes will promote the deproto-\nnation of amino acids, which also hints that a π-allyl palladium\nintermediate is formed prior to the single-electron decarbox-\nylation of amino acids. Furthermore, the low quantum yield\nsuggested that a radical-chain propagation mechanism was not\ninvolved in this reaction.\n18 In addition, the importance of\nirradiation throughout the reaction was further veriﬁed by a light\non/oﬀ experiment. When monitoring the reaction by 1H NMR\nwithin the ﬁrst 1 h, a fast addition of the carboxylic acid to allene\nforming the ester 5aa was observed. This suggested that the\noxidative decarboxylation occurs after this ester formation.\nBased on these mechanistic studies and previous reports, a\npotential mechanism for this decarboxylative hydroaminoalky-\nlation is proposed ( Scheme 3). This transformation starts from\nthe oxidative addition of palladium catalyst with amino acid\ngenerating the palladium hydride species A. Then, migratory\ninsertion of the intermediate A to the allene generates the π-allyl\npalladium species B, which then undergoes competing pathways\nbetween a fast reductive elimination leading to an ester\nintermediate ( 5aa) and a relatively slow decarboxylation via a\nreductive quenching process of the blue-light-excited Ir(III) *\ncomplex. A recent report from the Tunge group21 suggested that\nin this process, a single electron transfer from the carboxylate to\nPd in intermediate C can facilitate the decarboxylation process\nand the newly formed carbon radical then rebounds with the π-\nallyl-Pd species, resulting in the formation of intermediate D.\nThe π-allyl palladium(III) species D undergoes reductive\nelimination forging the formation of a new C −C bond and a\nPd(I) species. The catalytic cycle ﬁnishes with the regeneration\nof Pd(0) via the reduction of Pd(I) by the Ir(II) complex.\nTo conclude, we developed an asymmetric dual photoredox/\npalladium-catalyzed decarboxylative hydroaminoalkylation of\nalkoxylallenes to give synthetically useful protected vinyl 1,2-\namino alcohol products with high degrees of regio- and\nenantioselectivities. A variety of common protecting groups as\nwell as a broad range of protected amino acids bearing di ﬀerent\nfunctional groups were applicable. Mechanistic experiments\ndemonstrated that oxidative decarboxylation might occur after\nthe ester formation of allenes with amino acids, which is also in\naccordance with the observation of speci ﬁc chemoselectivity in\nthe reaction with tyrosine. This transformation enables a\ndiﬀerent retrosynthetic strategy for accessing enantioenriched\n1,2-amino alcohols, complementing the traditional two-electron\npolarity reversal approaches. With alkyl- and aryl-substituted\nterminal allenes as the substrates, linear-selective decarbox-\nylative hydroaminoalkylation is realized in high levels of regio-\nand E/Z selectivities with a Pd/ rac-BINAP catalytic system. To\nthe best of our knowledge, this transformation represents a rare\nexample of asymmetric hydroaminoalkylation of allenes. Further\nstudies to apply this strategy to synthesize other important\nbioactive compounds and potential drug candidates are\ncurrently ongoing in our laboratory.\nTable 3. Scope with respect to Alkoxyallenes b\naReactions were carried out with reaction conditions in Table 1 , entry 2. b[PC1] (1 mol %) was used.\nACS Catalysis pubs.acs.org/acscatalysis Research Article\nhttps://dx.doi.org/10.1021/acscatal.1c00153\nACS Catal. 2021, 11, 3343 −3350\n3347\n",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page6:text",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 6,
+          "kind": "page_text",
+          "text": "Table 4. Scope of Decarboxylative Addition of Amino Acids to Terminal Allenes toward Achiral Linear Homoallylic Amines\naReaction conditions (unless otherwise speci ﬁed): 1 (0.2 mmol), 2 (1.2 equiv), [Pd2(dba)3] (2.5 mol %), rac-BINAP (6 mol %), [ PC1] (1 mol %),\nMeCN (0.1 M), 16 h, rt, blue LED. Isolated yields are presented. Unless otherwise speci ﬁed, all of the reactions were performed with >95:5 L/B\nand ≫95:5 E/Z.\nScheme 2. Synthetic Application of the Allylic Adducts\nACS Catalysis pubs.acs.org/acscatalysis Research Article\nhttps://dx.doi.org/10.1021/acscatal.1c00153\nACS Catal. 2021, 11, 3343 −3350\n3348\n",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page7:text",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 7,
+          "kind": "page_text",
+          "text": "■ ASSOCIATED CONTENT\n*sı Supporting Information\nThe Supporting Information is available free of charge at\nhttps://pubs.acs.org/doi/10.1021/acscatal.1c00153.\nExperimental procedures, characterization of all new\ncompounds, and X-ray data for compounds (2 S,3S)-3al\n(CCDC 1999447) ( PDF)\n■ AUTHOR INFORMATION\nCorresponding Author\nBernhard Breit − Institut für Organische Chemie, Albert-\nLudwigs-Universität Freiburg, 79104 Freiburg im Breisgau,\nGermany;\norcid.org/0000-0002-2514-3898;\nEmail: bernhard.breit@chemie.uni-freiburg.de\nAuthors\nJun Zheng − Institut für Organische Chemie, Albert-Ludwigs-\nUniversität Freiburg, 79104 Freiburg im Breisgau, Germany\nAli Nikbakht − Institut für Organische Chemie, Albert-Ludwigs-\nUniversität Freiburg, 79104 Freiburg im Breisgau, Germany\nComplete contact information is available at:\nhttps://pubs.acs.org/10.1021/acscatal.1c00153\nAuthor Contributions\nAll authors have given approval to the ﬁnal version of the\nmanuscript.\nNotes\nThe authors declare no competing ﬁnancial interest.\n■ ACKNOWLEDGMENTS\nThe authors thank the Alexander von Humboldt Foundation\n(J.Z.) for a postdoctoral fellowship.\n■ REFERENCES\n(1) For reviews on preparing 1,2-amino alcohols, see: (a) Sehl, T.;\nMaugeri, Z.; Rother, D. Multi-Step Synthesis Strategies towards 1,2-\nAmino Alcohols with Special Emphasis on Phenylpropanolamines. J.\nMol. Catal. B: Enzym. 2015, 114,6 5−71. (b) Ghislieri, D.; Turner, N.\nBiocatalytic Approaches to the Synthesis of Enantiomerically Pure\nChiral Amines. Top. Catal. 2014, 57, 284−300. (c) Karjalainen, O. K.;\nKoskinen, A. M. P. Diastereoselective Synthesis of Vicinal Amino\nAlcohols. Org. Biomol. Chem. 2012, 10, 4311−4326.\n(2) For recent reviews, see: (a) Matsunaga, S.; Shibasaki, M. Recent\nAdvances in Cooperative Bimetallic Asymmetric Catalysis: Dinuclear\nSchiff Base Complexes. Chem. Commun. 2014, 50,1 0 4 4−1057.\n(b) Blay, G.; Hernandez-Olmos, V.; Pedro, J. R. Development of\nNew N,N-Ligands for the Enantioselective Copper(II)-Catalyzed\nHenry Reaction. Synlett 2011, 2011, 1195−1211.\n(3) For reviews, see: (a) O ’Brien, P. Basic Instinct: Design, Synthesis\nand Evaluation of (+)-Sparteine Surrogates for Asymmetric Synthesis.\nChem. Commun. 2008, 655−667. (b) Beak, P.; Basu, A.; Gallagher, D.\nJ.; Park, Y. S.; Thayumanavan, S. Regioselective, Diastereoselective, and\nEnantioselective Lithiation −Substitution Sequences: Reaction Path-\nways and Synthetic Applications. Acc. Chem. Res. 1996, 29, 552−560.\n(4) For selected reviews on photoredox catalysis, see: (a) Xie, J.; Jin,\nH.; Hashmi, A. S. K. The Recent Achievements of Redox-Neutral\nRadical C−C Cross-Coupling Enabled by Visible-Light. Chem. Soc. Rev.\n2017, 46, 5193−5203. (b) Nakajima, K.; Miyake, Y.; Nishibayashi, Y.\nSynthetic Utilization of α-Aminoalkyl Radicals and Related Species in\nVisible Light Photoredox Catalysis. Acc. Chem. Res. 2016, 49, 1946 −\n1956. (c) Chen, J.-R.; Hu, X.-Q.; Lu, L.-Q.; Xiao, W.-J. Visible Light\nPhotoredox-Controlled Reactions of N-Radicals and Radical Ions.\nChem. Soc. Rev. 2016, 45, 2044−2056. (d) Romero, N. A.; Nicewicz, D.\nA. Organic Photoredox Catalysis. Chem. Rev. 2016, 116, 10075−\n10166.\n(e) Beatty, J. W.; Stephenson, C. R. J. Amine Functionalization via\nOxidative Photoredox Catalysis: Methodology Development and\nComplex Molecule Synthesis. Acc. Chem. Res. 2015, 48, 1474 −1484.\n(f) Narayanam, J. M. R.; C. Stephenson, R. J. Visible Light Photoredox\nCatalysis: Applications in Organic Synthesis. Chem. Soc. Rev. 2011, 40,\n102−113.\nScheme 3. Proposal Mechanism\nACS Catalysis pubs.acs.org/acscatalysis Research Article\nhttps://dx.doi.org/10.1021/acscatal.1c00153\nACS Catal. 2021, 11, 3343 −3350\n3349\n",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page8:text",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 8,
+          "kind": "page_text",
+          "text": "(5) For selected reviews on dual catalysis strategy in photoredox\nchemistry, see: (a) Milligan, J. A.; Phelan, J. P.; Badir, S. O.; Molander,\nG. A. Alkyl Carbon-Carbon Bond Formation by Nickel/Photoredox\nCross-Coupling. Angew. Chem., Int. Ed. 2019, 58,6 1 5 2−6163.\n(b) Twilton, J.; Le, C.; Zhang, P.; Shaw, M. H.; Evans, R. W.;\nMacMillan, D. W. C. The Merge r of Transition Metal and\nPhotocatalysis. Nat. Rev. Chem. 2017, 1, No. 0052. (c) Skubi, K. L.;\nBlum, T. R.; Yoon, T. P. Dual Catalysis Strategies in Photochemical\nSynthesis. Chem. Rev. 2016, 116, 10035−10074. (d) Tellis, J. C.; Kelly,\nC. B.; Primer, D. N.; Jouffroy, M.; Patel, N. R.; Molander, G. A. Single-\nElectron Transmetalation via Photoredox/Nickel Dual Catalysis:\nUnlocking a New Paradigm for sp\n3−sp2 Cross-Coupling. Acc. Chem.\nRes. 2016, 49, 1429−1439. (e) Prier, C. K.; Rankic, D. A.; MacMillan,\nD. W. C. Visible Light Photoredox Catalysis with Transition Metal\nComplexes: Applications in Organic Synthesis. Chem. Rev. 2013, 113,\n5322−5363.\n(6) Rono, L. J.; Yayla, H. G.; Wang, D. Y.; Armstrong, M. F.; Knowles,\nR. R. Enantioselective Photoredox Catalysis Enabled by Proton-\nCoupled Electron Transfer: Development of an Asymmetric Aza-\nPinacol Cyclization. J. Am. Chem. Soc. 2013, 135, 17735−17738.\n(7) (a) Ma, J.; Harms, K.; Meggers, E. Enantioselective Rhodium/\nRuthenium Photoredox Catalysis En Route to Chiral 1,2-Amino-\nalcohols. Chem. Commun. 2016, 52, 10183−10186. (b) Wang, C.; Qin,\nJ.; Shen, X.; Riedel, R.; Harms, K.; Meggers, E. Asymmetric Radical-\nRadical Cross-Coupling through Vis ible-Light-Activated Iridium\nCatalysis. Angew. Chem., Int. Ed. 2016, 55, 685−688.\n(8) Ye, C.-X.; Melcamu, Y. Y.; Li, H.-H.; Cheng, J.-T.; Zhang, T.-T.;\nRuan, Y.-P.; Zheng, X.; Lu, X.; Huang, P.-Q. Dual Catalysis for\nEnantioselective Convergent Synthesis of Enantiopure Vicinal Amino\nAlcohols. Nat. Commun. 2018, 9, No. 410.\n(9) Trost, B. M. The Atom Economy – a Search for Synthetic\nEfficiency. Science 1991, 254, 1471−1477.\n(10) For a selected review on alkoxylallene, see: (a) Zimmer, R.;\nReissig, H.-U. Alkoxyallenes as Building Blocks for Organic Synthesis.\nChem. Soc. Rev. 2014, 43, 2888−2903. For selective reviews of allene\nchemistry, see: (b) Li, G.-L.; Huo, X.-H.; Jiang, X.-Y.; Zhang, W.-B.\nAsymmetric Synthesis of Allylic Compounds via Hydrofunctionalisa-\ntion and Difunctionalisation of Dienes, Allenes, and Alkynes.Chem. Soc.\nRev. 2020, 49, 2060−2118. (c) Koschker, P.; Breit, B. Branching Out:\nRhodium-Catalyzed Allylation with Alkynes and Allenes. Acc. Chem.\nRes. 2016, 49, 1524 −1536. (d) Le Bras, J.; Muzart, J. Palladium-\nCatalysed Inter- and Intramolecular Formation of C −O Bonds from\nAllenes. Chem. Soc. Rev.\n2014, 43, 3003−3040.\n(11) (a) Trost, B. M.; Simas, A. B. C.; Plietker, B.; Jäkel, C.; Xie, J.\nEnantioselective Palladium-Catalyzed Addition of 1,3-Dicarbonyl\nCompounds to an Allene Derivative. Chem. − Eur. J. 2005, 11,\n7075−7082. (b) Trost, B. M.; Jäkel, C.; Plietker, B. Palladium-\nCatalyzed Asymmetric Addition of Pronucleophiles to Allenes. J. Am.\nChem. Soc. 2003, 125, 4438−4439.\n(12) Trost, B. M.; Xie, J. Palladium-Catalyzed Asymmetric Ring\nExpansion of Allenylcyclobutanols: An Asymmetric Wagner −Meer-\nwein Shift. J. Am. Chem. Soc. 2006, 128, 6044−6045.\n(13) Trost, B. M.; Xie, J.; Sieber, J. D. The Palladium Catalyzed\nAsymmetric Addition of Oxindoles and Allenes: An Atom-Economical\nVersatile Method for the Construction of Chiral Indole Alkaloids.J. Am.\nChem. Soc. 2011, 133, 20611−20622.\n(14) Zhou, H.; Wei, Z.; Zhang, J.-L.; Yang, H.-M.; Xia, C.-G.; Jiang,\nG.-X. From Palladium to Brønsted Acid Catalysis: Highly Enantiose-\nlective Regiodivergent Addition of Alkoxyallenes to Pyrazolones.\nAngew. Chem., Int. Ed. 2017, 56, 1077−1081.\n(15) Zheng, J.; Breit, B. Regiodivergent Hydroaminoalkylation of\nAlkynes and Allenes by a Combined Rhodium and Photoredox\nCatalytic System. Angew. Chem., Int. Ed. 2019, 58, 3392−3397.\n(16) For selected examples on enantioselective decarboxylative\ntransformation of α-amino acids, see: (a) Proctor, R. S. J.; Davis, H.\nJ.; Phipps, R. J. Catalytic Enantioselective Minisci-Type Addition to\nHeteroarenes. Science 2018, 360, 419 −422. (b) Li, J.-T.; Kong, M.;\nQiao, B.; Lee, R.; Zhao, X.; Jiang, Z.-Y. Formal Enantioconvergent\nSubstitution of Alkyl Halides via Catalytic Asymmetric Photoredox\nRadical Coupling. Nat. Commun. 2018, 9, No. 2445. (c) Liu, Y.; Liu, X.;\nLi, J.; Zhao, X.; Qiao, B.; Jiang, Z.-Y. Catalytic Enantioselective Radical\nCoupling of Activated Ketones with N-Aryl Glycines. Chem. Sci. 2018,\n9, 8094−8098. (d) Yin, Y.; Dai, Y.; Jia, H.; Li, J.; Bu, L.; Qiao, B.; Zhao,\nX.; Jiang, Z.-Y. Conjugate Addition-Enantioselective Protonation of N-\nAryl Glycines to α-Branched 2-Vinylazaarenes via Cooperative\nPhotoredox and Asymmetric Catalysis.\nJ. Am. Chem. Soc. 2018, 140,\n6083−6087. (e) Zuo, Z.; Cong, H.; Li, W.; Choi, J.; Fu, G. C.;\nMacMillan, D. W. C. Enantioselective Decarboxylative Arylation of α-\nAmino Acids via the Merger of Photoredox and Nickel Catalysis. J. Am.\nChem. Soc. 2016, 138, 1832−1835.\n(17) For selected reviews on transition-metal-catalyzed single electron\nallylation, see: (a) Zhang, M.; Wang, Y.-N.; Lu, L.-Q.; Xiao, W.-J. Light\nUp the Transition Metal-Catalyzed Single-Electron Allylation. Trends\nChem. 2020, 2, 764 −775. (b) Huang, H.-H.; Bellotti, P.; Glorius, F.\nTransition Metal-Catalysed Allylic Functionalization Reactions Involv-\ning Radicals. Chem. Soc. Rev. 2020, 49, 6186−6197. For examples on\npalladium/photoredox dual catalyzed enantioselective allylic alkylation,\nsee: (c) Zhang, H.-H.; Zhao, J.-J.; Yu, S.-Y. Enantioselective α-\nAllylation of Anilines Enabled by a Combined Palladium and\nPhotoredox Catalytic System. ACS Catal. 2020, 10, 4710 −4716.\n(d) Zhang, H.-H.; Zhao, J.-J.; Yu, S.-Y. Enantioselective Allylic\nAlkylation with 4-Alkyl-1,4-dihydro-pyridines Enabled by Photo-\nredox/Palladium Cocatalysis. J. Am. Chem. Soc. 2018, 140, 16914 −\n16919. (e) Lang, S. B.; O ’Nele, K. M.; Douglas, J. T.; Tunge, J. A. Dual\nCatalytic Decarboxylative Allylations of α-Amino Acids and Their\nDivergent Mechanisms. Chem. − Eur. J. 2015, 21, 18589−18593.\n(18) For details see Supporting Information.\n(19) Due to the di ﬃculty of determining the enantiomeric ratio of\nthese compounds by chiral HPLC analysis, hydroboration and\nconsecutive oxidation gave the corresponding 1,4-amino alcohol\nwhose er can be determined by chiral HPLC analysis. (For details,\nsee Supporting Information).\n(20) For a recent review, see: Blieck, R.; Taillefer, M.; Monnier, F.\nMetal-Catalyzed Intermolecular Hydrofunctionalization of Allenes:\nEasy Access to Allylic Structures via the Selective Formation of C-N, C-\nC, and C-O Bonds. Chem. Rev. 2020, 120, 13545−13598.\n(21) Cartwright, K. C.; Tunge, J. A. Organophotoredox/Palladium\nDual Catalytic Decarboxylative Csp\n3-Csp3 Coupling of Carboxylic\nAcids and π-electrophiles. Chem. Sci. 2020, 11, 8167−8175.\nACS Catalysis pubs.acs.org/acscatalysis Research Article\nhttps://dx.doi.org/10.1021/acscatal.1c00153\nACS Catal. 2021, 11, 3343 −3350\n3350\n",
+          "asset": null,
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "pypdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page1:image",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 1,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_a52c76191d5b058b/page1.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page2:image",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 2,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_a52c76191d5b058b/page2.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page3:image",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 3,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_a52c76191d5b058b/page3.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page4:image",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 4,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_a52c76191d5b058b/page4.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page5:image",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 5,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_a52c76191d5b058b/page5.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page6:image",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 6,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_a52c76191d5b058b/page6.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page7:image",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 7,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_a52c76191d5b058b/page7.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        },
+        {
+          "evidence_id": "doc_a52c76191d5b058b:page8:image",
+          "document_id": "doc_a52c76191d5b058b",
+          "page": 8,
+          "kind": "page_image",
+          "text": null,
+          "asset": "assets/doc_a52c76191d5b058b/page8.jpg",
+          "bbox": null,
+          "bbox_units": null,
+          "provenance": "rendered_source_pdf"
+        }
+      ],
+      "coverage": {
+        "pages_processed": 8,
+        "semantic_extraction_complete": false,
+        "note": "Page/block enumeration is not proof of complete reaction extraction."
+      }
+    }
+  ],
+  "molecules": [],
+  "reactions": [],
+  "source_context": []
+}

@@ -1,0 +1,105 @@
+{
+  "tool_version": "3.1",
+  "audit_scope": "full dataset audit reviewed after pages 7-9 merge; warnings listed here are the source-changed records from this batch",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "general_scheme": 2,
+    "mechanism": 6,
+    "reported_experiment": 13,
+    "optimization_entry": 18,
+    "substrate_scope_entry": 2
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_03086fff1f443524"
+  ],
+  "batch_warning_summary": {
+    "structure_gap": 20,
+    "reaction_identity": 0,
+    "outcome_target": 0,
+    "measurement_basis": 0
+  },
+  "warnings": [
+    {
+      "record_id": "doc_03086fff1f443524:scheme3_prepare_3d1",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table1_entry_01",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table1_entry_02",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table1_entry_03",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table1_entry_04",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table1_entry_05",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table1_entry_06",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table1_entry_07",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table1_entry_08",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table1_entry_09",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table1_entry_10",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table1_entry_11",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table1_entry_12",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table2_entry_02",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table2_entry_03",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table2_entry_04",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table2_entry_05",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table2_entry_06",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:table2_entry_07",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    },
+    {
+      "record_id": "doc_03086fff1f443524:pyridine_3d1_questionable",
+      "warning": "structure_gap: all reactant/product SMILES missing; structures remain text/drawing identified and partial rather than invented"
+    }
+  ],
+  "resolution": "No reaction_identity, outcome_target, or measurement_basis warnings remained. Structure-gap warnings were not silenced by guessing complex stereochemical SMILES; their records retain source names/drawings, unresolved stereochemistry, partial completeness, and needs_review status. The full audit also repeated pre-existing page-4 stability-control structure gaps, which are outside this page batch and were not altered."
+}

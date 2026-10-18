@@ -1,0 +1,79 @@
+{
+  "document_id": "doc_b620dbe6e0542262",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2 upper panel, five arrows from 3bf",
+          "finding": "Five independent derivatization experiments were visually transcribed: Diels–Alder reactions to 14 and 15, Suzuki coupling to 16, Rh-catalyzed C–H functionalization to 17, and directing-group removal to 18. Each arrow retains its displayed reagent loadings, solvent, temperature, time, atmosphere when present, yield, and dr or Z/E result.",
+          "evidence_ids": [
+            "doc_b620dbe6e0542262:page7:image",
+            "doc_b620dbe6e0542262:page7:text"
+          ]
+        },
+        {
+          "region": "Scheme 2 lower panel, arrows from 3am and E-3an",
+          "finding": "Two independent derivatization experiments were visually transcribed: Sc(OTf)3-catalyzed cycloaddition to cis-19 and NaOEt/DMSO directing-group removal to E-20. The cis/E labels are retained without inventing absolute descriptors or numerical ratios.",
+          "evidence_ids": [
+            "doc_b620dbe6e0542262:page7:image",
+            "doc_b620dbe6e0542262:page7:text"
+          ]
+        },
+        {
+          "region": "Prose immediately below Scheme 2",
+          "finding": "The prose repeats the cis-19 experiment (55% yield) and the E-20 experiment (produced without isomerization). These are duplicate mentions of the two Scheme 2 arrows and were merged as additional evidence, not counted as extra experiments.",
+          "evidence_ids": [
+            "doc_b620dbe6e0542262:page7:image",
+            "doc_b620dbe6e0542262:page7:text"
+          ]
+        },
+        {
+          "region": "Conclusions, data availability, author contributions, conflicts, acknowledgements, and beginning of references",
+          "finding": "These sections contain article-level context rather than additional preparative arrows. The ESI is said to exist, but no SI file is explicitly associated in this workspace; the bibliography is not converted into experiments of this paper.",
+          "evidence_ids": [
+            "doc_b620dbe6e0542262:page7:image",
+            "doc_b620dbe6e0542262:page7:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b620dbe6e0542262:scheme2_14",
+        "doc_b620dbe6e0542262:scheme2_15",
+        "doc_b620dbe6e0542262:scheme2_16",
+        "doc_b620dbe6e0542262:scheme2_17",
+        "doc_b620dbe6e0542262:scheme2_18",
+        "doc_b620dbe6e0542262:scheme2_cis19",
+        "doc_b620dbe6e0542262:scheme2_E20"
+      ],
+      "unresolved": [
+        "Scheme 2 does not report reaction scale, addition order, workup, purification, or complete characterization.",
+        "The displayed percentage yields are not explicitly identified as isolated or NMR yields; measurement_basis remains missing.",
+        "Analytical methods for dr, Z/E, cis assignment, and the statement 'without isomerization' are not reported on this page.",
+        "For products 16 and 17, Scheme 2 does not identify which alkene the displayed Z/E ratio describes.",
+        "Compact product drawings do not support fully verified stereochemical SMILES for 14–18, cis-19, or E-20; labels, mixtures, and partial assignments are retained without guessing.",
+        "The cis-19 arrow displays no solvent, so no solvent was inherited from neighboring arrows."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Full page, two-column Notes and references continuation",
+          "finding": "The page consists entirely of bibliography entries (references 2–14 continuations). It contains no current-paper reaction arrows, experimental table rows, spectra, or preparative procedures; cited prior work was not converted into experiments of this paper.",
+          "evidence_ids": [
+            "doc_b620dbe6e0542262:page8:image",
+            "doc_b620dbe6e0542262:page8:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Individual cited papers were not supplied and are outside this page-bounded extraction; their experiments were not inferred from citations."
+      ]
+    }
+  ]
+}

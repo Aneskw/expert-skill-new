@@ -1,0 +1,261 @@
+{
+  "document_id": "doc_41522308b99275e3",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract and bibliographic header",
+          "finding": "True article title and DOI identified; abstract describes the current thermal [2+2]/water-addition cascade but is not a standalone execution.",
+          "evidence_ids": ["doc_41522308b99275e3:page1:text", "doc_41522308b99275e3:page1:image"]
+        },
+        {
+          "region": "Introduction, both columns",
+          "finding": "Background and cited prior work; no current-paper experimental execution is reported in the prose region.",
+          "evidence_ids": ["doc_41522308b99275e3:page1:text", "doc_41522308b99275e3:page1:image"]
+        },
+        {
+          "region": "Scheme 1, bottom right",
+          "finding": "Prior Tang 2013 Cu/Ag-catalyzed arylcyclobutenal synthesis; stored as a literature example, not as this paper's experiment.",
+          "evidence_ids": ["doc_41522308b99275e3:page1:text", "doc_41522308b99275e3:page1:image"]
+        },
+        {
+          "region": "ESI footnote, bottom left",
+          "finding": "ESI availability is stated, but no SI file was explicitly supplied or associated; no SI facts were imported.",
+          "evidence_ids": ["doc_41522308b99275e3:page1:text", "doc_41522308b99275e3:page1:image"]
+        }
+      ],
+      "record_ids": ["doc_41522308b99275e3:scheme1_tang_2013"],
+      "unresolved": ["Scheme 1 generic Aryl substituent, scale, solvent, temperature, time and yield are not reported on this page."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2A-C, upper left",
+          "finding": "Two prior-work transformations and the current generic reaction are three distinct records; the prior schemes are not promoted to current-paper experiments.",
+          "evidence_ids": ["doc_41522308b99275e3:page2:text", "doc_41522308b99275e3:page2:image"]
+        },
+        {
+          "region": "Figure 1, upper right",
+          "finding": "X-ray structure of 2a is characterization/source context, not a separate synthesis.",
+          "evidence_ids": ["doc_41522308b99275e3:page2:text", "doc_41522308b99275e3:page2:image"]
+        },
+        {
+          "region": "Table 1, lower left",
+          "finding": "All eight solvent/time/yield rows were enumerated. Entry 1 is the same 1a-to-2a experiment later shown in Table 2 and Procedure B, so its evidence is merged into one record rather than duplicated.",
+          "evidence_ids": ["doc_41522308b99275e3:page2:text", "doc_41522308b99275e3:page2:image"]
+        },
+        {
+          "region": "Table 2, lower/right half",
+          "finding": "All fifteen displayed outcomes (2a-e, 2f-i, 3j, 2k, 2l-o) were inventoried; decomposition and no-reaction cases are represented without invented observed products.",
+          "evidence_ids": ["doc_41522308b99275e3:page2:text", "doc_41522308b99275e3:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_41522308b99275e3:scheme2a_previous_generic",
+        "doc_41522308b99275e3:scheme2b_jiang_2018",
+        "doc_41522308b99275e3:scheme2c_current_generic",
+        "doc_41522308b99275e3:table1_entry1_table2_2a",
+        "doc_41522308b99275e3:table1_entry2",
+        "doc_41522308b99275e3:table1_entry3",
+        "doc_41522308b99275e3:table1_entry4",
+        "doc_41522308b99275e3:table1_entry5",
+        "doc_41522308b99275e3:table1_entry6",
+        "doc_41522308b99275e3:table1_entry7",
+        "doc_41522308b99275e3:table1_entry8",
+        "doc_41522308b99275e3:table2_2b",
+        "doc_41522308b99275e3:table2_2c",
+        "doc_41522308b99275e3:table2_2d",
+        "doc_41522308b99275e3:table2_2e",
+        "doc_41522308b99275e3:table2_1f_decomposition",
+        "doc_41522308b99275e3:table2_1g_decomposition",
+        "doc_41522308b99275e3:table2_2h",
+        "doc_41522308b99275e3:table2_2i",
+        "doc_41522308b99275e3:table2_3j",
+        "doc_41522308b99275e3:table2_1k_no_reaction",
+        "doc_41522308b99275e3:table2_2l",
+        "doc_41522308b99275e3:table2_2m",
+        "doc_41522308b99275e3:table2_2n",
+        "doc_41522308b99275e3:table2_2o"
+      ],
+      "unresolved": ["Table 1 does not state yield measurement basis or reaction scale.", "The depicted Table 2 products have no absolute/relative stereochemical descriptors at the newly created ring center.", "Table 2's zero-yield 2i row does not state whether substrate was recovered, decomposed, or converted to other products."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top-left substrate-scope discussion",
+          "finding": "Continuation evidence distinguishes 1f/1g decomposition, stable intermediate 3j, and explicit no reaction for 1k; these are not collapsed into generic zero-yield products.",
+          "evidence_ids": ["doc_41522308b99275e3:page3:text", "doc_41522308b99275e3:page3:image"]
+        },
+        {
+          "region": "Scheme 3, lower left",
+          "finding": "Three independent derivatization experiments (desilylation, Wittig reaction, Pinnick oxidation/cyclization) were recorded with all printed reagent loadings, solvent, temperature, time and yield.",
+          "evidence_ids": ["doc_41522308b99275e3:page3:text", "doc_41522308b99275e3:page3:image"]
+        },
+        {
+          "region": "Table 3, upper right",
+          "finding": "All nine dry-solvent/additive rows were recorded separately with paired 3a/2a NMR yields and the stated 1,3,5-trimethoxybenzene measurement basis.",
+          "evidence_ids": ["doc_41522308b99275e3:page3:text", "doc_41522308b99275e3:page3:image"]
+        },
+        {
+          "region": "Scheme 4 and associated prose, center right",
+          "finding": "Conditions A and B are two independent 2 mmol scale-up executions.",
+          "evidence_ids": ["doc_41522308b99275e3:page3:text", "doc_41522308b99275e3:page3:image"]
+        },
+        {
+          "region": "Scheme 5 and mechanism discussion, lower right",
+          "finding": "D2O labeling is a real mechanistic experiment; the adjacent Scheme 6 discussion is linked to a separate proposed-mechanism record.",
+          "evidence_ids": ["doc_41522308b99275e3:page3:text", "doc_41522308b99275e3:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_41522308b99275e3:table2_1f_decomposition",
+        "doc_41522308b99275e3:table2_1g_decomposition",
+        "doc_41522308b99275e3:table2_2h",
+        "doc_41522308b99275e3:table2_3j",
+        "doc_41522308b99275e3:table2_1k_no_reaction",
+        "doc_41522308b99275e3:table2_2m",
+        "doc_41522308b99275e3:table2_2n",
+        "doc_41522308b99275e3:table2_2o",
+        "doc_41522308b99275e3:scheme3_desilylation_2f",
+        "doc_41522308b99275e3:scheme3_wittig_4",
+        "doc_41522308b99275e3:scheme3_pinnick_5",
+        "doc_41522308b99275e3:table3_entry1",
+        "doc_41522308b99275e3:table3_entry2",
+        "doc_41522308b99275e3:table3_entry3",
+        "doc_41522308b99275e3:table3_entry4",
+        "doc_41522308b99275e3:table3_entry5",
+        "doc_41522308b99275e3:table3_entry6",
+        "doc_41522308b99275e3:table3_entry7",
+        "doc_41522308b99275e3:table3_entry8",
+        "doc_41522308b99275e3:table3_entry9",
+        "doc_41522308b99275e3:scheme4_scaleup_a",
+        "doc_41522308b99275e3:scheme4_scaleup_b",
+        "doc_41522308b99275e3:scheme5_d2o_labeling",
+        "doc_41522308b99275e3:scheme6_proposed_mechanism"
+      ],
+      "unresolved": ["Scheme 3 and Scheme 4 do not print yield measurement basis on this page.", "Table 3 reaction scales and dry-solvent preparation details are unreported.", "Scheme 5 does not report yield, analytical method or isotopologue-resolved detection basis."]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 6, upper left",
+          "finding": "Four-arrow author-proposed mechanism recorded as proposed_mechanism, not as an executed synthesis.",
+          "evidence_ids": ["doc_41522308b99275e3:page4:text", "doc_41522308b99275e3:page4:image"]
+        },
+        {
+          "region": "Conclusion, left column",
+          "finding": "Summary prose only; no additional experimental execution beyond already mapped schemes.",
+          "evidence_ids": ["doc_41522308b99275e3:page4:text", "doc_41522308b99275e3:page4:image"]
+        },
+        {
+          "region": "General procedure A scheme and prose A.1-A.3, lower left to upper right",
+          "finding": "Three ordered stages, their reagent loadings, concentrations, temperature/time/atmosphere, workups and column conditions were captured in the generic procedure and inherited by specific preparations.",
+          "evidence_ids": ["doc_41522308b99275e3:page4:text", "doc_41522308b99275e3:page4:image"]
+        },
+        {
+          "region": "specific preparations 1a-1d and start of 1f, right column",
+          "finding": "Preparations 1a-1d were captured with starting mass/mmol, product mass and three-step overall yield; 1f is a cross-page continuation record.",
+          "evidence_ids": ["doc_41522308b99275e3:page4:text", "doc_41522308b99275e3:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_41522308b99275e3:scheme6_proposed_mechanism",
+        "doc_41522308b99275e3:general_procedure_A",
+        "doc_41522308b99275e3:preparation_1a",
+        "doc_41522308b99275e3:preparation_1b",
+        "doc_41522308b99275e3:preparation_1c",
+        "doc_41522308b99275e3:preparation_1d",
+        "doc_41522308b99275e3:preparation_1f"
+      ],
+      "unresolved": ["Intermediate masses/yields and cooling/warming transition times are not reported.", "Specific preparations cite a three-step total yield; it is not reassigned to A.3 alone."]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "continuation of 1f and specific preparations 1h, 1i, 1j, 1l, left column",
+          "finding": "All visible preparations captured; A.3 modification to 0 °C for 1i and 1j is retained separately from the ambient-temperature general procedure.",
+          "evidence_ids": ["doc_41522308b99275e3:page5:text", "doc_41522308b99275e3:page5:image"]
+        },
+        {
+          "region": "specific preparations 1m, 1n and 1o, upper/right column",
+          "finding": "Starting aryl iodide mass/mmol, product mass and three-step overall yield captured for each preparation.",
+          "evidence_ids": ["doc_41522308b99275e3:page5:text", "doc_41522308b99275e3:page5:image"]
+        },
+        {
+          "region": "Preparation of 1e from 1f, lower right",
+          "finding": "Standalone lithiation/silylation experiment captured with low-temperature addition, 15 min hold, separate warming step, 3 h hold, complete reagent loadings, workup, purification, mass and isolated yield.",
+          "evidence_ids": ["doc_41522308b99275e3:page5:text", "doc_41522308b99275e3:page5:image"]
+        },
+        {
+          "region": "NMR/HRMS characterization blocks throughout",
+          "finding": "Analytical peak lists were retained as characterization source context and not converted into synthesis records.",
+          "evidence_ids": ["doc_41522308b99275e3:page5:text", "doc_41522308b99275e3:page5:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_41522308b99275e3:preparation_1f",
+        "doc_41522308b99275e3:preparation_1h",
+        "doc_41522308b99275e3:preparation_1i",
+        "doc_41522308b99275e3:preparation_1j",
+        "doc_41522308b99275e3:preparation_1l",
+        "doc_41522308b99275e3:preparation_1m",
+        "doc_41522308b99275e3:preparation_1n",
+        "doc_41522308b99275e3:preparation_1o",
+        "doc_41522308b99275e3:preparation_1e_from_1f"
+      ],
+      "unresolved": ["The duration of warming from -78 °C to room temperature in the 1e preparation is not reported.", "No CAS values or absolute/axial stereochemical assignments are printed."]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "General procedure B scheme and prose, upper left",
+          "finding": "Generic procedure recorded with non-dry toluene, 0.03 M, nitrogen purge/seal, 2 h reflux, concentration and column purification.",
+          "evidence_ids": ["doc_41522308b99275e3:page6:text", "doc_41522308b99275e3:page6:image"]
+        },
+        {
+          "region": "specific preparations 2a-2d, left column and continuation to upper right",
+          "finding": "Specific input/output masses and yields attached to the existing Table 1/Table 2 experiments rather than duplicated; the generic 50 mg versus specific masses are retained as conflicts.",
+          "evidence_ids": ["doc_41522308b99275e3:page6:text", "doc_41522308b99275e3:page6:image"]
+        },
+        {
+          "region": "specific preparations 2e, 2h, 3j and 2l, right column",
+          "finding": "Specific masses and isolated yields captured and linked to Table 2 rows; 3j is preserved as the stable cyclobutachromene intermediate branch.",
+          "evidence_ids": ["doc_41522308b99275e3:page6:text", "doc_41522308b99275e3:page6:image"]
+        },
+        {
+          "region": "start of 2m preparation and characterization blocks, bottom right",
+          "finding": "The visible 55 mg 1m charge is attached to the 2m record; the continuation outcome outside page 6 is not claimed as visually covered. NMR/HRMS/melting-point data remain source context.",
+          "evidence_ids": ["doc_41522308b99275e3:page6:text", "doc_41522308b99275e3:page6:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_41522308b99275e3:general_procedure_B",
+        "doc_41522308b99275e3:table1_entry1_table2_2a",
+        "doc_41522308b99275e3:table2_2b",
+        "doc_41522308b99275e3:table2_2c",
+        "doc_41522308b99275e3:table2_2d",
+        "doc_41522308b99275e3:table2_2e",
+        "doc_41522308b99275e3:table2_2h",
+        "doc_41522308b99275e3:table2_3j",
+        "doc_41522308b99275e3:table2_2l",
+        "doc_41522308b99275e3:table2_2m",
+        "doc_41522308b99275e3:table2_2n",
+        "doc_41522308b99275e3:table2_2o"
+      ],
+      "unresolved": ["The page-6 prose begins but does not complete the 2m preparation; later-page quantities were not used to fill this page-bounded extraction.", "Complete stereochemical assignments and atom mappings for the cyclobutene products remain unresolved."]
+    }
+  ]
+}

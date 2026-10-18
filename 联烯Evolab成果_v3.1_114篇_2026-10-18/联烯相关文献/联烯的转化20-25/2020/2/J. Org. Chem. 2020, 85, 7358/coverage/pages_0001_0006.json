@@ -1,0 +1,199 @@
+{
+  "document_id": "doc_2f5be1806b6542bb",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, citation, authors, DOI, abstract, and graphical abstract",
+          "finding": "The graphical abstract summarizes the same generic iodofunctionalization represented by Scheme 1; it is duplicate overview evidence, not a separate experiment.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page1:image", "doc_2f5be1806b6542bb:page1:text"]
+        },
+        {
+          "region": "Introduction and Figure 1",
+          "finding": "Background discussion and cited bioactive alkenylphosphonate examples; no current-paper synthetic experiment is created from this region.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page1:image", "doc_2f5be1806b6542bb:page1:text"]
+        }
+      ],
+      "record_ids": ["doc_2f5be1806b6542bb:scheme1_general"],
+      "unresolved": ["The abstract reports 35 examples globally but does not enumerate experiments on this page.", "The paper advertises Supporting Information, but no SI file is explicitly associated in source_mapping.json."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1 generic reaction arrow",
+          "finding": "Generic allene plus R'OH iodofunctionalization using I2 and t-BuOLi; retained as a generic scheme, not a concrete experiment.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page2:image", "doc_2f5be1806b6542bb:page2:text"]
+        },
+        {
+          "region": "Table 1 entries 1-13 and footnotes a-c",
+          "finding": "Thirteen distinct optimization experiments were recorded row by row. Numeric yields are isolated-column yields; entry 11 is trace. Entry 13 has a different 1a/2a/I2/base ratio and scale.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page2:image", "doc_2f5be1806b6542bb:page2:text"]
+        },
+        {
+          "region": "Results-and-Discussion prose around Table 1 and Scheme 2 introduction",
+          "finding": "Entry 1 explicitly states 1 h and air; these details were not inherited into other optimization rows. The prose identifies entry 13 as optimal and reports E geometry/X-ray support for 3a.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page2:image", "doc_2f5be1806b6542bb:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2f5be1806b6542bb:scheme1_general",
+        "doc_2f5be1806b6542bb:table1_entry_01",
+        "doc_2f5be1806b6542bb:table1_entry_02",
+        "doc_2f5be1806b6542bb:table1_entry_03",
+        "doc_2f5be1806b6542bb:table1_entry_04",
+        "doc_2f5be1806b6542bb:table1_entry_05",
+        "doc_2f5be1806b6542bb:table1_entry_06",
+        "doc_2f5be1806b6542bb:table1_entry_07",
+        "doc_2f5be1806b6542bb:table1_entry_08",
+        "doc_2f5be1806b6542bb:table1_entry_09",
+        "doc_2f5be1806b6542bb:table1_entry_10",
+        "doc_2f5be1806b6542bb:table1_entry_11",
+        "doc_2f5be1806b6542bb:table1_entry_12",
+        "doc_2f5be1806b6542bb:table1_entry_13"
+      ],
+      "unresolved": ["Reaction time and atmosphere are not stated for optimization entries 2-13 and remain unreported.", "No numerical E/Z ratio or stereochemical measurement method is reported for individual optimization rows."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2 generic arrow and footnote",
+          "finding": "Generic carboxylic-acid iodofunctionalization conditions were retained separately, including all four 0.20/0.40 mmol charges, 3.0 mL DCM, room temperature, and isolated-after-chromatography basis.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page3:image", "doc_2f5be1806b6542bb:page3:text"]
+        },
+        {
+          "region": "Scheme 2 product grid E-3a through E-3t",
+          "finding": "Twenty row-level substrate-scope experiments were recorded. Products 3h and 3i are explicit 0% failed experiments without fabricated product molecules; the other eighteen carry the depicted time, yield, and E assignment.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page3:image", "doc_2f5be1806b6542bb:page3:text"]
+        },
+        {
+          "region": "bottom-column prose introducing alcohol scope",
+          "finding": "Narrative context for Scheme 3; no additional experiment beyond the Scheme-3 rows on page 4.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page3:image", "doc_2f5be1806b6542bb:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2f5be1806b6542bb:scheme2_general",
+        "doc_2f5be1806b6542bb:scope_3a", "doc_2f5be1806b6542bb:scope_3b",
+        "doc_2f5be1806b6542bb:scope_3c", "doc_2f5be1806b6542bb:scope_3d",
+        "doc_2f5be1806b6542bb:scope_3e", "doc_2f5be1806b6542bb:scope_3f",
+        "doc_2f5be1806b6542bb:scope_3g", "doc_2f5be1806b6542bb:scope_3h",
+        "doc_2f5be1806b6542bb:scope_3i", "doc_2f5be1806b6542bb:scope_3j",
+        "doc_2f5be1806b6542bb:scope_3k", "doc_2f5be1806b6542bb:scope_3l",
+        "doc_2f5be1806b6542bb:scope_3m", "doc_2f5be1806b6542bb:scope_3n",
+        "doc_2f5be1806b6542bb:scope_3o", "doc_2f5be1806b6542bb:scope_3p",
+        "doc_2f5be1806b6542bb:scope_3q", "doc_2f5be1806b6542bb:scope_3r",
+        "doc_2f5be1806b6542bb:scope_3s", "doc_2f5be1806b6542bb:scope_3t"
+      ],
+      "unresolved": ["The long-chain carbon count for acid/product 2k/3k is not confidently established by the bounded image/OCR and remains structurally unresolved.", "No detection method/limit is reported for 3h or 3i.", "Numerical E/Z ratios are unreported."]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 generic arrow and footnote",
+          "finding": "Generic alcohol iodofunctionalization conditions and isolated-after-chromatography basis were retained separately.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page4:image", "doc_2f5be1806b6542bb:page4:text"]
+        },
+        {
+          "region": "Scheme 3 product grid E-5a through E-5j",
+          "finding": "Ten distinct alcohol substrate-scope experiments were recorded with row-specific times and isolated yields. The E product designation is retained; qualitative only/single-stereoisomer prose is not converted into a numerical ratio.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page4:image", "doc_2f5be1806b6542bb:page4:text"]
+        },
+        {
+          "region": "phenol-scope discussion and proposed-mechanism prose",
+          "finding": "Narrative previews Scheme 4 and describes the author-proposed iodonium/neighboring-group-participation mechanism; the latter is linked to the proposed-mechanism record, not treated as a mechanistic experiment.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page4:image", "doc_2f5be1806b6542bb:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2f5be1806b6542bb:scheme3_general",
+        "doc_2f5be1806b6542bb:scope_5a", "doc_2f5be1806b6542bb:scope_5b",
+        "doc_2f5be1806b6542bb:scope_5c", "doc_2f5be1806b6542bb:scope_5d",
+        "doc_2f5be1806b6542bb:scope_5e", "doc_2f5be1806b6542bb:scope_5f",
+        "doc_2f5be1806b6542bb:scope_5g", "doc_2f5be1806b6542bb:scope_5h",
+        "doc_2f5be1806b6542bb:scope_5i", "doc_2f5be1806b6542bb:scope_5j",
+        "doc_2f5be1806b6542bb:scheme5_proposed_mechanism"
+      ],
+      "unresolved": ["Atmosphere, detailed addition order, and detailed workup are not reported on the bounded Scheme-3 page.", "Numerical E/Z ratios and their measurement methods are unreported."]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 4 generic arrow, product grid E-7a through E-7i, and footnote",
+          "finding": "Nine phenol scope experiments were recorded row by row; 7d and 7h are explicit 0% failed experiments. Positive rows carry isolated-after-chromatography yields and E assignment.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page5:image", "doc_2f5be1806b6542bb:page5:text"]
+        },
+        {
+          "region": "Scheme 5",
+          "finding": "Author-proposed iodonium intermediate A and neighboring-group-participation intermediate B; recorded as one proposed mechanism with no claimed experimental yield or atom mapping.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page5:image", "doc_2f5be1806b6542bb:page5:text"]
+        },
+        {
+          "region": "Experimental Section general information and carboxylic-acid general procedure",
+          "finding": "General instrumentation is characterization context. The carboxylic-acid general procedure was merged into Scheme-2 records, including N2, addition order, solvent removal, and petroleum ether/EtOAc 5:1 silica chromatography.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page5:image", "doc_2f5be1806b6542bb:page5:text"]
+        },
+        {
+          "region": "Large-Scale Preparation of 3a",
+          "finding": "A distinct 2.5 mmol scale-up experiment was recorded with every stated mass/amount, 25.0 mL DCM, N2, 2 h at room temperature, 1.08 g product, and 66% isolated yield.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page5:image", "doc_2f5be1806b6542bb:page5:text"]
+        },
+        {
+          "region": "product paragraphs for 3a-3c",
+          "finding": "Preparation masses/yields were merged into the matching Scheme-2 records; Rf, melting point, IR, NMR, and HRMS remain characterization context and were not converted into reactions.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page5:image", "doc_2f5be1806b6542bb:page5:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2f5be1806b6542bb:scheme4_general",
+        "doc_2f5be1806b6542bb:scope_7a", "doc_2f5be1806b6542bb:scope_7b",
+        "doc_2f5be1806b6542bb:scope_7c", "doc_2f5be1806b6542bb:scope_7d",
+        "doc_2f5be1806b6542bb:scope_7e", "doc_2f5be1806b6542bb:scope_7f",
+        "doc_2f5be1806b6542bb:scope_7g", "doc_2f5be1806b6542bb:scope_7h",
+        "doc_2f5be1806b6542bb:scope_7i",
+        "doc_2f5be1806b6542bb:scheme5_proposed_mechanism",
+        "doc_2f5be1806b6542bb:large_scale_3a",
+        "doc_2f5be1806b6542bb:scope_3a", "doc_2f5be1806b6542bb:scope_3b",
+        "doc_2f5be1806b6542bb:scope_3c", "doc_2f5be1806b6542bb:scope_3d",
+        "doc_2f5be1806b6542bb:scope_3e", "doc_2f5be1806b6542bb:scope_3f",
+        "doc_2f5be1806b6542bb:scope_3g", "doc_2f5be1806b6542bb:scope_3h",
+        "doc_2f5be1806b6542bb:scope_3i", "doc_2f5be1806b6542bb:scope_3j",
+        "doc_2f5be1806b6542bb:scope_3k", "doc_2f5be1806b6542bb:scope_3l",
+        "doc_2f5be1806b6542bb:scope_3m", "doc_2f5be1806b6542bb:scope_3n",
+        "doc_2f5be1806b6542bb:scope_3o", "doc_2f5be1806b6542bb:scope_3p",
+        "doc_2f5be1806b6542bb:scope_3q", "doc_2f5be1806b6542bb:scope_3r",
+        "doc_2f5be1806b6542bb:scope_3s", "doc_2f5be1806b6542bb:scope_3t"
+      ],
+      "unresolved": ["No numerical E/Z ratio or stereochemical measurement method is supplied.", "The generic carboxylic-acid procedure states 'indicated time'; row-specific times come from Scheme 2.", "Characterization spectra are not independently interpreted as reaction evidence."]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "continuation of 3c followed by product paragraphs for 3d-3g, 3j-3n",
+          "finding": "No new reaction arrow appears. Visible isolated product masses and matching yields were merged into the existing Scheme-2 experiments; analytical peak lists, Rf, melting points, IR, NMR, and HRMS remain characterization context.",
+          "evidence_ids": ["doc_2f5be1806b6542bb:page6:image", "doc_2f5be1806b6542bb:page6:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2f5be1806b6542bb:scope_3c", "doc_2f5be1806b6542bb:scope_3d",
+        "doc_2f5be1806b6542bb:scope_3e", "doc_2f5be1806b6542bb:scope_3f",
+        "doc_2f5be1806b6542bb:scope_3g", "doc_2f5be1806b6542bb:scope_3j",
+        "doc_2f5be1806b6542bb:scope_3k", "doc_2f5be1806b6542bb:scope_3l",
+        "doc_2f5be1806b6542bb:scope_3m", "doc_2f5be1806b6542bb:scope_3n"
+      ],
+      "unresolved": ["The 3n characterization paragraph continues beyond the bounded page; only the visible preparation mass/yield was used.", "Long-chain identity for 3k remains unresolved.", "No page-6 spectral peak list was converted into a synthetic experiment."]
+    }
+  ]
+}

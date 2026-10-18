@@ -1,0 +1,246 @@
+{
+  "document_id": "doc_93797a8609d47752",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title and abstract",
+          "finding": "Bibliographic metadata and current-work summary; no additional concrete experiment row.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page1:text",
+            "doc_93797a8609d47752:page1:image"
+          ]
+        },
+        {
+          "region": "graphical abstract",
+          "finding": "Generic G2 ROAlMP and G1 vinylidene-generation pathways; mapped to generic records.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page1:text",
+            "doc_93797a8609d47752:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_93797a8609d47752:scheme1_roalmp_generic",
+        "doc_93797a8609d47752:graphical_g1_vinylidene_generic"
+      ],
+      "unresolved": [
+        "Graphical abstract gives no stoichiometry, time, solvent, or temperature."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1",
+          "finding": "Two cited literature examples and one current-work generic ROAlMP arrow.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page2:text",
+            "doc_93797a8609d47752:page2:image"
+          ]
+        },
+        {
+          "region": "Figure 1 and right-column text",
+          "finding": "Concrete G2/THF-d8 kinetic polymerization with conversion, carbene signal, and kobs.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page2:text",
+            "doc_93797a8609d47752:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_93797a8609d47752:scheme1_rcam_prior",
+        "doc_93797a8609d47752:scheme1_cam_prior",
+        "doc_93797a8609d47752:scheme1_roalmp_generic",
+        "doc_93797a8609d47752:figure1_g2_thf_kinetics"
+      ],
+      "unresolved": [
+        "Scheme 1 prior-work structures/conditions are generic and incomplete.",
+        "Figure 1 does not report scale, atmosphere, pressure, workup, isolated yield, Mn, or polymer stereochemistry."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 2",
+          "finding": "Poly(1) NMR/MALDI characterization; not a separate synthesis.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page3:text",
+            "doc_93797a8609d47752:page3:image"
+          ]
+        },
+        {
+          "region": "Table 1 rows 1–15 and footnotes a–e",
+          "finding": "Fifteen distinct optimization experiments with conversion, theoretical Mn, SEC Mn, and dispersity.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page3:text",
+            "doc_93797a8609d47752:page3:image"
+          ]
+        },
+        {
+          "region": "lower-left solvent paragraph",
+          "finding": "Distinct toluene-d8 repetition with 60% conversion, kobs, and residual-carbene comparison.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page3:text",
+            "doc_93797a8609d47752:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_93797a8609d47752:toluene_g2_comparison",
+        "doc_93797a8609d47752:table1_entry01",
+        "doc_93797a8609d47752:table1_entry02",
+        "doc_93797a8609d47752:table1_entry03",
+        "doc_93797a8609d47752:table1_entry04",
+        "doc_93797a8609d47752:table1_entry05",
+        "doc_93797a8609d47752:table1_entry06",
+        "doc_93797a8609d47752:table1_entry07",
+        "doc_93797a8609d47752:table1_entry08",
+        "doc_93797a8609d47752:table1_entry09",
+        "doc_93797a8609d47752:table1_entry10",
+        "doc_93797a8609d47752:table1_entry11",
+        "doc_93797a8609d47752:table1_entry12",
+        "doc_93797a8609d47752:table1_entry13",
+        "doc_93797a8609d47752:table1_entry14",
+        "doc_93797a8609d47752:table1_entry15"
+      ],
+      "unresolved": [
+        "Table 1 omits scale, atmosphere, pressure, workup, isolation yield, and polymer stereochemistry.",
+        "THF is inherited from adjacent prose rather than repeated in each row."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left-column Table 1 discussion",
+          "finding": "Narrative interpretation of already-recorded Table 1 rows; no new experiment row.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page4:text",
+            "doc_93797a8609d47752:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 2",
+          "finding": "Author-proposed vinylidene and alkylidene catalytic pathways; one proposed-mechanism record.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page4:text",
+            "doc_93797a8609d47752:page4:image"
+          ]
+        },
+        {
+          "region": "right-column G1/G2 studies",
+          "finding": "G1 room-temperature no-polymerization/vinylidene trial, distinct equimolar HRMS trial, and start of the repeated 50 °C trial.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page4:text",
+            "doc_93797a8609d47752:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_93797a8609d47752:figure1_g2_thf_kinetics",
+        "doc_93797a8609d47752:scheme2_mechanistic_paths",
+        "doc_93797a8609d47752:table1_entry01",
+        "doc_93797a8609d47752:table1_entry02",
+        "doc_93797a8609d47752:table1_entry03",
+        "doc_93797a8609d47752:table1_entry04",
+        "doc_93797a8609d47752:table1_entry05",
+        "doc_93797a8609d47752:table1_entry06",
+        "doc_93797a8609d47752:table1_entry07",
+        "doc_93797a8609d47752:table1_entry08",
+        "doc_93797a8609d47752:table1_entry09",
+        "doc_93797a8609d47752:table1_entry10",
+        "doc_93797a8609d47752:table1_entry11",
+        "doc_93797a8609d47752:table1_entry12",
+        "doc_93797a8609d47752:table1_entry13",
+        "doc_93797a8609d47752:table1_entry14",
+        "doc_93797a8609d47752:table1_entry15",
+        "doc_93797a8609d47752:g1_rt_vinylidene_no_polymerization",
+        "doc_93797a8609d47752:g1_equimolar_vinylidene_hrms",
+        "doc_93797a8609d47752:g1_50c_unassigned_polymer"
+      ],
+      "unresolved": [
+        "Generic [Ru] intermediates are not safely encoded or atom-mapped.",
+        "The equimolar HRMS trial does not restate solvent, temperature, time, or scale."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation",
+          "finding": "50 °C G1 trial workup and unassigned polymer observation.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page5:text",
+            "doc_93797a8609d47752:page5:image"
+          ]
+        },
+        {
+          "region": "Figure 3 and lower-left prose",
+          "finding": "Sequential G1→vinylidene→NBE-iPr experiment; room-temperature negative stage and 80 °C polymerization stage.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page5:text",
+            "doc_93797a8609d47752:page5:image"
+          ]
+        },
+        {
+          "region": "right-column material properties",
+          "finding": "TGA, DSC, and fluorescence characterization only; stored in source_context.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page5:text",
+            "doc_93797a8609d47752:page5:image"
+          ]
+        },
+        {
+          "region": "Associated Content",
+          "finding": "SI availability is stated, but no SI file is explicitly associated in this workspace.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page5:text",
+            "doc_93797a8609d47752:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_93797a8609d47752:g1_50c_unassigned_polymer",
+        "doc_93797a8609d47752:figure3_nbe_ipr_polymerization"
+      ],
+      "unresolved": [
+        "G1-derived 50 °C polymer microstructure remains author-unassigned.",
+        "NBE-iPr exact structure/stereochemistry and polymer cis/trans distribution are not encoded.",
+        "Figure 3 prose says slight excess of 1 while the scheme displays [M]/[I] = 1; exact excess/rounding is unresolved, and the duration of the 25 °C hold is not quantified."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "acknowledgments",
+          "finding": "Funding and acknowledgments; no reaction experiment.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page6:text",
+            "doc_93797a8609d47752:page6:image"
+          ]
+        },
+        {
+          "region": "references 1–37",
+          "finding": "Bibliographic references only; cited publications were not promoted to current-paper experiments.",
+          "evidence_ids": [
+            "doc_93797a8609d47752:page6:text",
+            "doc_93797a8609d47752:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

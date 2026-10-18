@@ -1,0 +1,41 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "literature_example": 3,
+    "reported_experiment": 4,
+    "mechanism": 1,
+    "general_scheme": 1,
+    "substrate_scope_entry": 12
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_782b0f765a8c7b3d"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_782b0f765a8c7b3d:scheme2_1b_2a",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_782b0f765a8c7b3d:page2:image",
+        "doc_782b0f765a8c7b3d:page1:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_782b0f765a8c7b3d:mechanistic_1b_without_2a",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_782b0f765a8c7b3d:page1:text",
+        "doc_782b0f765a8c7b3d:page2:image",
+        "doc_782b0f765a8c7b3d:page3:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    }
+  ]
+}

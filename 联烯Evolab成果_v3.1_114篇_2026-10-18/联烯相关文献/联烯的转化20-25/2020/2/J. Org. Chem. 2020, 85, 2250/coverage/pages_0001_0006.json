@@ -1,0 +1,291 @@
+{
+  "document_id": "doc_2edd574f8525f831",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract and graphical abstract",
+          "finding": "True title and a generic 24-example hydrosulfonylation overview; recorded as a generic scheme, not one concrete experiment.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page1:image",
+            "doc_2edd574f8525f831:page1:text"
+          ]
+        },
+        {
+          "region": "Figure 1 and introduction",
+          "finding": "Biologically active sulfones and literature discussion are non-synthetic context; no experiment in this paper.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page1:image",
+            "doc_2edd574f8525f831:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2edd574f8525f831:graphical_abstract"
+      ],
+      "unresolved": [
+        "Graphical abstract is generic and does not identify all 24 individual experiments."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1",
+          "finding": "Three cited prior-work arrows are literature_example; arrow (4) is this-work generic scheme.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page2:image",
+            "doc_2edd574f8525f831:page2:text"
+          ]
+        },
+        {
+          "region": "Table 1",
+          "finding": "All 14 optimization rows were represented independently, including four 0%/no-reaction rows and footnotes for light, wavelength and K2CO3.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page2:image",
+            "doc_2edd574f8525f831:page2:text"
+          ]
+        },
+        {
+          "region": "Results prose below/alongside Table 1",
+          "finding": "Narrative duplicates Table 1 and reports 2-phenylindole byproduct plus X-ray assignment of 2a; it was not double-counted.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page2:image",
+            "doc_2edd574f8525f831:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2edd574f8525f831:scheme1_literature_1",
+        "doc_2edd574f8525f831:scheme1_literature_2",
+        "doc_2edd574f8525f831:scheme1_literature_3",
+        "doc_2edd574f8525f831:scheme1_this_work",
+        "doc_2edd574f8525f831:table1_entry_01",
+        "doc_2edd574f8525f831:table1_entry_02",
+        "doc_2edd574f8525f831:table1_entry_03",
+        "doc_2edd574f8525f831:table1_entry_04",
+        "doc_2edd574f8525f831:table1_entry_05",
+        "doc_2edd574f8525f831:table1_entry_06",
+        "doc_2edd574f8525f831:table1_entry_07",
+        "doc_2edd574f8525f831:table1_entry_08",
+        "doc_2edd574f8525f831:table1_entry_09",
+        "doc_2edd574f8525f831:table1_entry_10",
+        "doc_2edd574f8525f831:table1_entry_11",
+        "doc_2edd574f8525f831:table1_entry_12",
+        "doc_2edd574f8525f831:table1_entry_13",
+        "doc_2edd574f8525f831:table1_entry_14"
+      ],
+      "unresolved": [
+        "Exact temperature is not reported in Table 1; byproduct quantity for 2-phenylindole is not reported."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2",
+          "finding": "Twelve N-allenyl scope outcomes were inventoried, including the 2l/2l′ mixture and 2m scale-up footnote.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page3:image",
+            "doc_2edd574f8525f831:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 3",
+          "finding": "Fourteen arylallene scope outcomes were inventoried, including trace 4d, zero/failed 4j and 4k, and 4b scale-up yield.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page3:image",
+            "doc_2edd574f8525f831:page3:text"
+          ]
+        },
+        {
+          "region": "lower-column mechanistic discussion",
+          "finding": "Control experiments are only previewed here and mapped to Scheme 4 records on page 4; fluorescence/quantum-yield observations remain source_context because details are deferred to SI.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page3:image",
+            "doc_2edd574f8525f831:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2edd574f8525f831:scheme2_general",
+        "doc_2edd574f8525f831:scheme3_general",
+        "doc_2edd574f8525f831:scope_2b",
+        "doc_2edd574f8525f831:scope_2c",
+        "doc_2edd574f8525f831:scope_2d",
+        "doc_2edd574f8525f831:scope_2e",
+        "doc_2edd574f8525f831:scope_2f",
+        "doc_2edd574f8525f831:scope_2g",
+        "doc_2edd574f8525f831:scope_2h",
+        "doc_2edd574f8525f831:scope_2i",
+        "doc_2edd574f8525f831:scope_2j",
+        "doc_2edd574f8525f831:scope_2k",
+        "doc_2edd574f8525f831:scope_2m",
+        "doc_2edd574f8525f831:scope_2l_2lprime",
+        "doc_2edd574f8525f831:scope_4a",
+        "doc_2edd574f8525f831:scope_4b",
+        "doc_2edd574f8525f831:scope_4c",
+        "doc_2edd574f8525f831:scope_4d",
+        "doc_2edd574f8525f831:scope_4e",
+        "doc_2edd574f8525f831:scope_4f",
+        "doc_2edd574f8525f831:scope_4g",
+        "doc_2edd574f8525f831:scope_4h",
+        "doc_2edd574f8525f831:scope_4i",
+        "doc_2edd574f8525f831:scope_4j",
+        "doc_2edd574f8525f831:scope_4k",
+        "doc_2edd574f8525f831:scope_4l",
+        "doc_2edd574f8525f831:scope_4m",
+        "doc_2edd574f8525f831:scope_4n"
+      ],
+      "unresolved": [
+        "Compact drawings remain machine structure candidates; SI-only photophysical methods are unavailable."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 4",
+          "finding": "Five control/mechanistic-study experiments were recorded separately, including D2O, AcOH, TEMPO and O2 experiments.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page4:image",
+            "doc_2edd574f8525f831:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 5",
+          "finding": "Author-proposed radical-polar crossover pathway recorded as proposed_mechanism, not as a verified experiment.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page4:image",
+            "doc_2edd574f8525f831:page4:text"
+          ]
+        },
+        {
+          "region": "Experimental section right column",
+          "finding": "General information is context; detailed preparations of 1a and 1b and the beginning of the 1c–i general procedure were extracted.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page4:image",
+            "doc_2edd574f8525f831:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2edd574f8525f831:control_d2o_3a",
+        "doc_2edd574f8525f831:control_d2o_1m",
+        "doc_2edd574f8525f831:control_acetic_acid",
+        "doc_2edd574f8525f831:control_tempo",
+        "doc_2edd574f8525f831:control_oxygen",
+        "doc_2edd574f8525f831:scheme5_proposed_mechanism",
+        "doc_2edd574f8525f831:prep_1a",
+        "doc_2edd574f8525f831:prep_1b",
+        "doc_2edd574f8525f831:general_procedure_1c_1i",
+        "doc_2edd574f8525f831:prep_1c",
+        "doc_2edd574f8525f831:prep_1e",
+        "doc_2edd574f8525f831:prep_1f",
+        "doc_2edd574f8525f831:prep_1g",
+        "doc_2edd574f8525f831:prep_1h",
+        "doc_2edd574f8525f831:prep_1i"
+      ],
+      "unresolved": [
+        "D2O isotope-aware product structures and exact measurement bases require expert review; mechanism is proposed only."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper left continuation and 1c–1i paragraphs",
+          "finding": "Cross-page workup/purification sequence and seven reported starting-allene outcomes were extracted without duplicating operations.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page5:image",
+            "doc_2edd574f8525f831:page5:text"
+          ]
+        },
+        {
+          "region": "right-column starting arylallenes",
+          "finding": "Detailed 3g synthesis is a specific experiment; 3a–3f/3h only cite external literature procedures and remain source_context.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page5:image",
+            "doc_2edd574f8525f831:page5:text"
+          ]
+        },
+        {
+          "region": "lower right hydrosulfonylation general procedure and 2a start",
+          "finding": "General N-indolylallene hydrosulfonylation and exact 2a charges were extracted; the 2a yield continues on page 6.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page5:image",
+            "doc_2edd574f8525f831:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2edd574f8525f831:general_procedure_1c_1i",
+        "doc_2edd574f8525f831:prep_1c",
+        "doc_2edd574f8525f831:prep_1d",
+        "doc_2edd574f8525f831:prep_1e",
+        "doc_2edd574f8525f831:prep_1f",
+        "doc_2edd574f8525f831:prep_1g",
+        "doc_2edd574f8525f831:prep_1h",
+        "doc_2edd574f8525f831:prep_1i",
+        "doc_2edd574f8525f831:prep_3g",
+        "doc_2edd574f8525f831:general_procedure_indolyl_hydrosulfonylation",
+        "doc_2edd574f8525f831:prep_2a"
+      ],
+      "unresolved": [
+        "Cited procedures for 3a–3f/3h were not supplied; individual reaction times for product 2a are inherited only from the general procedure and not restated."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "2a continuation and 2b–2j product paragraphs",
+          "finding": "Exact charges, product masses and yields were linked to the matching scope records; 2a is a distinct 0.3043 mmol preparation.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page6:image",
+            "doc_2edd574f8525f831:page6:text"
+          ]
+        },
+        {
+          "region": "NMR/HRMS/IR/melting-point blocks",
+          "finding": "Characterization was retained as source_context and not promoted to extra synthesis records.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page6:image",
+            "doc_2edd574f8525f831:page6:text"
+          ]
+        },
+        {
+          "region": "source discrepancies",
+          "finding": "Scheme/paragraph yield conflicts for 2b, 2c and 2e, the printed 2j reactant label conflict, and sulfonyl naming inconsistencies were preserved for review.",
+          "evidence_ids": [
+            "doc_2edd574f8525f831:page6:image",
+            "doc_2edd574f8525f831:page6:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2edd574f8525f831:scope_2b",
+        "doc_2edd574f8525f831:scope_2c",
+        "doc_2edd574f8525f831:scope_2d",
+        "doc_2edd574f8525f831:scope_2e",
+        "doc_2edd574f8525f831:scope_2f",
+        "doc_2edd574f8525f831:scope_2g",
+        "doc_2edd574f8525f831:scope_2h",
+        "doc_2edd574f8525f831:scope_2i",
+        "doc_2edd574f8525f831:scope_2j",
+        "doc_2edd574f8525f831:prep_2a"
+      ],
+      "unresolved": [
+        "Yield conflicts 2b/2c/2e and reactant-label conflict for 2j are intentionally unresolved; product headings inconsistently say phenylsulfonyl where Ts reagent/structure is shown."
+      ]
+    }
+  ]
+}

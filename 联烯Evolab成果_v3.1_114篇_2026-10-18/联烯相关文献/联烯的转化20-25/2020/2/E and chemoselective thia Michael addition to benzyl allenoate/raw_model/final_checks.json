@@ -1,0 +1,56 @@
+{
+  "standard_validate": {
+    "valid": true,
+    "errors": [],
+    "chemical_accuracy_verified": false
+  },
+  "strict_dataset_validate": {
+    "valid": true,
+    "errors": [],
+    "standard_v3_present": true,
+    "chemical_accuracy_verified": false
+  },
+  "audit": {
+    "record_kind_counts": {
+      "general_scheme": 1,
+      "optimization_entry": 6,
+      "substrate_scope_entry": 10,
+      "literature_example": 4,
+      "unresolved": 1
+    },
+    "source_reviewed_records": 0,
+    "documents_without_linked_si": ["doc_7ba97fbb78e354a5"],
+    "warnings": [],
+    "chemical_accuracy_verified": false
+  },
+  "formal_v3_counts": {
+    "molecules": 53,
+    "reactions": 22,
+    "specific_experiment": 16,
+    "generic_scheme": 1,
+    "literature_example": 4,
+    "unresolved": 1
+  },
+  "incremental_coverage_pages": [7, 8],
+  "incremental_record_changes": {
+    "created_reactions": 0,
+    "updated_reactions": 3,
+    "updated_reaction_ids": [
+      "doc_7ba97fbb78e354a5:scope_2j",
+      "doc_7ba97fbb78e354a5:scope_2k",
+      "doc_7ba97fbb78e354a5:scope_2l"
+    ],
+    "created_molecules": 0
+  },
+  "markdown_quantity_check": {
+    "scope_2j": true,
+    "scope_2k": true,
+    "scope_2l": true,
+    "conflict_notes_required_for_these_records": false
+  },
+  "regression_tests": {
+    "passed": 69,
+    "failed": 0
+  },
+  "resource_hashes_unchanged": true
+}

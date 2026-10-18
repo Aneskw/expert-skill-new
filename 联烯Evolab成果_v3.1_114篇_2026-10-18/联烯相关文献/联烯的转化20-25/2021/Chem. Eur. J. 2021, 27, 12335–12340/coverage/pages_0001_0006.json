@@ -1,0 +1,206 @@
+{
+  "document_id": "doc_c7aae70d07836214",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, introduction, and Results and Discussion opening",
+          "finding": "True title and DOI confirmed; prose introduces the present iron-catalyzed arylallene polymerization. Prior-work narrative was treated as context, not as this paper's experiments.",
+          "evidence_ids": ["doc_c7aae70d07836214:page1:text", "doc_c7aae70d07836214:page1:image"]
+        },
+        {
+          "region": "Scheme 1a-b",
+          "finding": "Two cited literature polymerization arrows (Endo nickel and Cui rare-earth systems) recorded as literature_example summaries, not present-paper experiments.",
+          "evidence_ids": ["doc_c7aae70d07836214:page1:image", "doc_c7aae70d07836214:page1:text"]
+        },
+        {
+          "region": "Scheme 1c",
+          "finding": "This-work generic arylallene polymerization arrow recorded as generic_scheme; individual experiments are represented by later table rows.",
+          "evidence_ids": ["doc_c7aae70d07836214:page1:image", "doc_c7aae70d07836214:page1:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_c7aae70d07836214:scheme1_endo_literature",
+        "doc_c7aae70d07836214:scheme1_cui_literature",
+        "doc_c7aae70d07836214:scheme1_this_work_generic"
+      ],
+      "unresolved": [
+        "Scheme 1 literature panels summarize cited papers and do not supply complete procedures or all monomer identities."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 rows 1-7 and footnotes",
+          "finding": "All seven hydride-source rows were enumerated. Entry 4 is the same standard-condition experiment repeated as Table 2 entry 1 and was merged rather than duplicated. Entry 2 includes a distinct 7% hydroborated side-product result; entry 7 is a no-[Fe] zero-conversion control.",
+          "evidence_ids": ["doc_c7aae70d07836214:page2:image", "doc_c7aae70d07836214:page2:text"]
+        },
+        {
+          "region": "P1 structural discussion and Figure 1",
+          "finding": "NMR conformer discussion and four DFT conformers are analytical/computational context, not additional synthesis experiments; retained in source_context.",
+          "evidence_ids": ["doc_c7aae70d07836214:page2:image", "doc_c7aae70d07836214:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_c7aae70d07836214:table1_entry1_no_hydride",
+        "doc_c7aae70d07836214:table1_entry2_hbpin_1eq",
+        "doc_c7aae70d07836214:table1_entry3_hbpin_5mol",
+        "doc_c7aae70d07836214:standard_conditions_p1",
+        "doc_c7aae70d07836214:table1_entry5_me2hnbh3",
+        "doc_c7aae70d07836214:table1_entry6_hsioet3",
+        "doc_c7aae70d07836214:table1_entry7_no_fe"
+      ],
+      "unresolved": [
+        "The main-text table does not show the identity/regiochemistry of the 7% hydroborated product.",
+        "Polymer tacticity, chain-end distribution, and residual-alkene geometry are not fully specified; polymer identities remain generic templates."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 rows 1-7 and footnotes",
+          "finding": "All seven condition rows were checked. Row 1 is the Table 1 entry 4 repeat. Rows 2-7 are separate records. Entry 4 has an unresolved source-internal Mn conflict: table cell 12.6 kDa versus footnote [a] >250 kDa. Entry 5 separately retains 90% polymer and 6% dimer with measurement basis unresolved.",
+          "evidence_ids": ["doc_c7aae70d07836214:page3:image", "doc_c7aae70d07836214:page3:text"]
+        },
+        {
+          "region": "MALDI-ToF, DSC, and WAXD prose",
+          "finding": "Repeat mass/end-group observations and amorphous-material characterization were retained as source_context, not synthesis records.",
+          "evidence_ids": ["doc_c7aae70d07836214:page3:text", "doc_c7aae70d07836214:page3:image"]
+        },
+        {
+          "region": "non-aryl substrate paragraph",
+          "finding": "Cyclohexylallene and methoxyallene no-polymerization observations were recorded as separate true controls without invented products or silently inherited charges.",
+          "evidence_ids": ["doc_c7aae70d07836214:page3:text", "doc_c7aae70d07836214:page3:image"]
+        },
+        {
+          "region": "mechanistic prose and Scheme 2a-c",
+          "finding": "Kinetic-order, PMe3 poisoning, radical-clock, labelled-monomer, two deuterated-hydride, iron-hydride-dimer, and H2-control experiments were separated. Scheme 2 isotope observations were not converted into unsupported yields.",
+          "evidence_ids": ["doc_c7aae70d07836214:page3:image", "doc_c7aae70d07836214:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_c7aae70d07836214:standard_conditions_p1",
+        "doc_c7aae70d07836214:table2_entry2_no_stirring",
+        "doc_c7aae70d07836214:table2_entry3_100ul_solvent",
+        "doc_c7aae70d07836214:table2_entry4_no_solvent",
+        "doc_c7aae70d07836214:table2_entry5_80c",
+        "doc_c7aae70d07836214:table2_entry6_quench_5min",
+        "doc_c7aae70d07836214:table2_entry7_20mol_fe",
+        "doc_c7aae70d07836214:control_no_polymerization_cyclohexylallene",
+        "doc_c7aae70d07836214:control_no_polymerization_methoxyallene",
+        "doc_c7aae70d07836214:mechanistic_kinetic_catalyst_order",
+        "doc_c7aae70d07836214:mechanistic_pme3_poisoning",
+        "doc_c7aae70d07836214:mechanistic_radical_clock",
+        "doc_c7aae70d07836214:scheme2a_deuterated_monomer",
+        "doc_c7aae70d07836214:scheme2b_me2dnbh3",
+        "doc_c7aae70d07836214:scheme2b_me2hnbd3",
+        "doc_c7aae70d07836214:scheme2c_feh_dimer",
+        "doc_c7aae70d07836214:scheme2c_hydrogen_control"
+      ],
+      "unresolved": [
+        "No SI was supplied, so kinetic datasets, radical-clock identity, poisoning loadings, and Scheme 2b quench details remain unavailable.",
+        "Table 2 entry 4 Mn conflict cannot be resolved from the main text.",
+        "The 90% polymer/6% dimer split in Table 2 footnote [b] lacks a separately stated measurement basis."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 3 reaction scheme, legend, rows 1-6, and footnotes",
+          "finding": "All six substrate-scope rows were extracted separately. The legend establishes 2=p-Me, 3=m-Me, 4=o-Me, 5=p-OMe, 6=p-F, 7=p-Cl. Entries 5 and 6 use 5 mol% [Fe]; all other common conditions were retained.",
+          "evidence_ids": ["doc_c7aae70d07836214:page4:image", "doc_c7aae70d07836214:page4:text"]
+        },
+        {
+          "region": "paragraph continuing Scheme 2c hydride-dimer control",
+          "finding": "The page-4 prose supplies the 5% conversion and absence of H3N·BH3 for the ([Fe]H)2 record, merged with the page-3 scheme evidence.",
+          "evidence_ids": ["doc_c7aae70d07836214:page4:text", "doc_c7aae70d07836214:page4:image", "doc_c7aae70d07836214:page3:image"]
+        },
+        {
+          "region": "Scheme 3",
+          "finding": "Catalyst activation and intermediates I-III were recorded as a proposed_mechanism, not as experimentally confirmed isolated reactions.",
+          "evidence_ids": ["doc_c7aae70d07836214:page4:image", "doc_c7aae70d07836214:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_c7aae70d07836214:table3_entry1_monomer2",
+        "doc_c7aae70d07836214:table3_entry2_monomer3",
+        "doc_c7aae70d07836214:table3_entry3_monomer4",
+        "doc_c7aae70d07836214:table3_entry4_monomer5",
+        "doc_c7aae70d07836214:table3_entry5_monomer6",
+        "doc_c7aae70d07836214:table3_entry6_monomer7",
+        "doc_c7aae70d07836214:scheme2c_feh_dimer",
+        "doc_c7aae70d07836214:scheme3_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Polymer stereoregularity and residual C=C geometry are not assigned in Table 3; products remain partial generic templates.",
+        "Scheme 3 is explicitly postulated and does not establish elementary-step yields or isolated intermediates."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "continuation of Scheme 3 discussion and Fe(I)-η6-arene experiment",
+          "finding": "The proposed propagation discussion remains part of the mechanism record. The separate Fe(I)-arene catalyst experiment (90% conversion, 6:1 regioisomer ratio, Mn 190 kDa, Đ 1.51, no hydride) is a concrete mechanistic-study record.",
+          "evidence_ids": ["doc_c7aae70d07836214:page5:text", "doc_c7aae70d07836214:page5:image"]
+        },
+        {
+          "region": "Scheme 4",
+          "finding": "The phenylallene [2+2] cycloaddition was recorded with 5 mol% [Fe], 10 mol% H3N·BH3, C6D6, 80 °C, 16 h, 27% isolated combined yield, and 2:1 cis:trans. Cis and trans products are separate template identities; exocyclic Z/E remains unassigned.",
+          "evidence_ids": ["doc_c7aae70d07836214:page5:image", "doc_c7aae70d07836214:page5:text"]
+        },
+        {
+          "region": "controlled dilute syringe-pump paragraph",
+          "finding": "The 670 μL feed/6 mL receiving benzene volumes, 20 μL min−1 addition rate, 5 mol% H3N·BH3, and 1 mol% [Fe] were structured; no substantial yield increase and continued polymer dominance were preserved qualitatively.",
+          "evidence_ids": ["doc_c7aae70d07836214:page5:text", "doc_c7aae70d07836214:page5:image"]
+        },
+        {
+          "region": "deuterated-hydride cycloaddition sentence",
+          "finding": "Me2DN·BH3 and Me2HN·BD3 variants were represented as two isotope experiments, each reporting no 2H incorporation and retaining unstated loadings/conditions as unresolved.",
+          "evidence_ids": ["doc_c7aae70d07836214:page5:text", "doc_c7aae70d07836214:page5:image"]
+        },
+        {
+          "region": "conclusion and references 1-20",
+          "finding": "No additional present-paper reaction arrow or table row was found; referenced prior work was not recast as new experiments.",
+          "evidence_ids": ["doc_c7aae70d07836214:page5:image", "doc_c7aae70d07836214:page5:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_c7aae70d07836214:scheme3_proposed_mechanism",
+        "doc_c7aae70d07836214:fei_arene_catalyst_experiment",
+        "doc_c7aae70d07836214:scheme4_cyclobutane",
+        "doc_c7aae70d07836214:cyclobutane_dilute_syringe_attempt",
+        "doc_c7aae70d07836214:cyclobutane_deuterated_me2dnbh3",
+        "doc_c7aae70d07836214:cyclobutane_deuterated_me2hnbd3"
+      ],
+      "unresolved": [
+        "Fe(I)-arene catalyst loading and reaction conditions are not restated.",
+        "Scheme 4 omits phenylallene charge and C6D6 volume.",
+        "Dilute-addition and deuterated cycloaddition experiments omit several quantities and measurement details in the main text."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 21-27 and manuscript dates",
+          "finding": "Page visually contains bibliography and received/accepted/version dates only; no present-paper reaction arrow, table, footnote, or new experimental result was found.",
+          "evidence_ids": ["doc_c7aae70d07836214:page6:image", "doc_c7aae70d07836214:page6:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

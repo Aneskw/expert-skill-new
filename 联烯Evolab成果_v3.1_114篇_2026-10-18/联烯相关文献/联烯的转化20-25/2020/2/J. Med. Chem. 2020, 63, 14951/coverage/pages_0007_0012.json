@@ -1,0 +1,283 @@
+{
+  "document_id": "doc_832eb8cea3728513",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 3 including Eq 9 and footnotes",
+          "finding": "seven current cysteamine kinetic experiments linked to existing records; PTL entry 8 is explicitly previous literature",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page7:text",
+            "doc_832eb8cea3728513:page7:image"
+          ]
+        },
+        {
+          "region": "left-column structural confirmation paragraph",
+          "finding": "actual compound 48 plus tert-butyl thiol experiment giving S11, 23% yield and 1.6:1 dr",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page7:text",
+            "doc_832eb8cea3728513:page7:image"
+          ]
+        },
+        {
+          "region": "NF-κB bioactivity discussion",
+          "finding": "cellular reporter/viability assay context, not a synthetic reaction",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page7:text",
+            "doc_832eb8cea3728513:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_832eb8cea3728513:rxn:rxn_p6_cysteamine_45",
+        "doc_832eb8cea3728513:rxn:rxn_p6_cysteamine_49",
+        "doc_832eb8cea3728513:rxn:rxn_p6_cysteamine_51",
+        "doc_832eb8cea3728513:rxn:rxn_p6_cysteamine_52",
+        "doc_832eb8cea3728513:rxn:rxn_p6_cysteamine_54",
+        "doc_832eb8cea3728513:rxn:rxn_p6_cysteamine_60",
+        "doc_832eb8cea3728513:rxn:rxn_p6_cysteamine_S17",
+        "doc_832eb8cea3728513:rxn:rxn_p7_48_tBuSH_to_S11"
+      ],
+      "unresolved": [
+        "PTL Table 3 entry is literature-derived and was not promoted to a current experiment.",
+        "S11 exact diastereomer configurations and yield measurement basis are not reported on page 7."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 4 and caption",
+          "finding": "NF-κB luciferase/SEAP reporter assays and viability measurements; biological context only",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page8:text",
+            "doc_832eb8cea3728513:page8:image"
+          ]
+        },
+        {
+          "region": "Table 4",
+          "finding": "Vero-cell IC50 values transcribed to source context, not synthetic experiments",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page8:text",
+            "doc_832eb8cea3728513:page8:image"
+          ]
+        },
+        {
+          "region": "ALARM NMR discussion",
+          "finding": "actual La-antigen thiol-reactivity tests for 51 and S17, including 37 °C/90 min and ±20 mM DTT",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page8:text",
+            "doc_832eb8cea3728513:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_832eb8cea3728513:rxn:rxn_p9_alarm_nmr_51",
+        "doc_832eb8cea3728513:rxn:rxn_p9_alarm_nmr_S17",
+        "doc_832eb8cea3728513:rxn:rxn_p9_alarm_nmr_fluconazole"
+      ],
+      "unresolved": [
+        "No discrete La-protein adduct structure is reported for the ALARM NMR experiments."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 5 and caption",
+          "finding": "five ALARM NMR assay rows recorded as mechanistic studies/controls; spectra themselves are characterization",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page9:text",
+            "doc_832eb8cea3728513:page9:image"
+          ]
+        },
+        {
+          "region": "Figure 6A workflow",
+          "finding": "ALARM MSPS analytical workflow; generic workflow retained as proposed-mechanism/source context",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page9:text",
+            "doc_832eb8cea3728513:page9:image"
+          ]
+        },
+        {
+          "region": "Figure 6B heat map and footnotes",
+          "finding": "five compound/control rows recorded separately with biological/technical replicate caveats",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page9:text",
+            "doc_832eb8cea3728513:page9:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_832eb8cea3728513:rxn:rxn_p9_alarm_nmr_51",
+        "doc_832eb8cea3728513:rxn:rxn_p9_alarm_nmr_S17",
+        "doc_832eb8cea3728513:rxn:rxn_p9_alarm_nmr_DMSO",
+        "doc_832eb8cea3728513:rxn:rxn_p9_alarm_nmr_CPM",
+        "doc_832eb8cea3728513:rxn:rxn_p9_alarm_nmr_fluconazole",
+        "doc_832eb8cea3728513:rxn:rxn_p9_p10_alarm_msps_S17",
+        "doc_832eb8cea3728513:rxn:rxn_p9_p10_alarm_msps_CPM",
+        "doc_832eb8cea3728513:rxn:rxn_p9_p10_alarm_msps_51",
+        "doc_832eb8cea3728513:rxn:rxn_p9_p10_alarm_msps_fluconazole",
+        "doc_832eb8cea3728513:rxn:rxn_p9_p10_alarm_msps_DMSO"
+      ],
+      "unresolved": [
+        "Figure 6 does not supply complete isolated protein-adduct structures.",
+        "One C245 peptide/replicate absence and low-abundance caveats are preserved rather than imputed."
+      ]
+    },
+    {
+      "page": 10,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "ALARM MSPS interpretation",
+          "finding": "S17/CPM reversible-adduction patterns and 51/fluconazole negative patterns linked to Figure 6 records",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page10:text",
+            "doc_832eb8cea3728513:page10:image"
+          ]
+        },
+        {
+          "region": "Conclusions",
+          "finding": "interpretive summary; no additional reaction record",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page10:text",
+            "doc_832eb8cea3728513:page10:image"
+          ]
+        },
+        {
+          "region": "Experimental Section, Chemistry general methods",
+          "finding": "general solvent, atmosphere, chromatography and instrument methods; context rather than a specific run",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page10:text",
+            "doc_832eb8cea3728513:page10:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_832eb8cea3728513:rxn:rxn_p9_p10_alarm_msps_S17",
+        "doc_832eb8cea3728513:rxn:rxn_p9_p10_alarm_msps_CPM",
+        "doc_832eb8cea3728513:rxn:rxn_p9_p10_alarm_msps_51",
+        "doc_832eb8cea3728513:rxn:rxn_p9_p10_alarm_msps_fluconazole",
+        "doc_832eb8cea3728513:rxn:rxn_p9_p10_alarm_msps_DMSO"
+      ],
+      "unresolved": [
+        "ALARM MSPS differentiates labelling patterns but does not provide an isolated covalent product structure."
+      ]
+    },
+    {
+      "page": 11,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Hex-5-yn-2-one (S2) procedure",
+          "finding": "specific literature-analogous preparative run transcribed with ordered reaction/workup/distillation steps",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page11:text",
+            "doc_832eb8cea3728513:page11:image"
+          ]
+        },
+        {
+          "region": "S3, compound 11 and S5 procedures",
+          "finding": "three separate specific preparations transcribed with quantities, temperature stages, workups and isolated yields",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page11:text",
+            "doc_832eb8cea3728513:page11:image"
+          ]
+        },
+        {
+          "region": "compound 9 Run 1 through S5 addition",
+          "finding": "first half of a cross-page specific run; merged with page-12 workup/outcome rather than duplicated",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page11:text",
+            "doc_832eb8cea3728513:page11:image"
+          ]
+        },
+        {
+          "region": "spectral/TLC paragraphs",
+          "finding": "characterization retained as source context, not separate reactions",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page11:text",
+            "doc_832eb8cea3728513:page11:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_832eb8cea3728513:rxn:rxn_p11_S1_to_S2",
+        "doc_832eb8cea3728513:rxn:rxn_p11_S2_to_S3",
+        "doc_832eb8cea3728513:rxn:rxn_p11_S3_to_11",
+        "doc_832eb8cea3728513:rxn:rxn_p11_S5_preparation",
+        "doc_832eb8cea3728513:rxn:rxn_p11_p12_11_to_9_run1"
+      ],
+      "unresolved": [
+        "Named-agent structures/CAS were not inferred where not necessary to the reaction identity.",
+        "Atom-mapped products and full bond-change inventories remain unavailable."
+      ]
+    },
+    {
+      "page": 12,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "compound 9 Run 1 continuation and Run 2",
+          "finding": "cross-page Run 1 completed; Run 2 recorded separately with its own quantities, yield, Z/E ratio and S4 contamination",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page12:text",
+            "doc_832eb8cea3728513:page12:image"
+          ]
+        },
+        {
+          "region": "compound 12/13 preparation mentions",
+          "finding": "previous-literature preparations plus characterization; not promoted to current experiments without standalone current run details",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page12:text",
+            "doc_832eb8cea3728513:page12:image"
+          ]
+        },
+        {
+          "region": "General Procedure A, 14a/14b Runs 1-3",
+          "finding": "three distinct current runs recorded; Run 3 chromatographic fractions retain separate yields, masses and ratio order",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page12:text",
+            "doc_832eb8cea3728513:page12:image"
+          ]
+        },
+        {
+          "region": "15a/15b Runs 1-2",
+          "finding": "two distinct current runs recorded; Run 1 fraction yields/contamination/overall ratio retained",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page12:text",
+            "doc_832eb8cea3728513:page12:image"
+          ]
+        },
+        {
+          "region": "14a/14b/15a characterization",
+          "finding": "spectral/analytical data treated as characterization, not additional syntheses",
+          "evidence_ids": [
+            "doc_832eb8cea3728513:page12:text",
+            "doc_832eb8cea3728513:page12:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_832eb8cea3728513:rxn:rxn_p11_p12_11_to_9_run1",
+        "doc_832eb8cea3728513:rxn:rxn_p11_p12_11_to_9_run2",
+        "doc_832eb8cea3728513:rxn:rxn_p12_lactam_14_run1",
+        "doc_832eb8cea3728513:rxn:rxn_p12_lactam_14_run2",
+        "doc_832eb8cea3728513:rxn:rxn_p12_lactam_14_run3",
+        "doc_832eb8cea3728513:rxn:rxn_p12_lactam_15_run1",
+        "doc_832eb8cea3728513:rxn:rxn_p12_lactam_15_run2"
+      ],
+      "unresolved": [
+        "The eleven-run aggregate range for 14a/14b was not expanded into unreported individual runs.",
+        "Complex lactam relative stereochemistry remains partial without stereo-complete isomeric SMILES.",
+        "No SI association was inferred."
+      ]
+    }
+  ]
+}

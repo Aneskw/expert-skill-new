@@ -1,0 +1,185 @@
+{
+  "document_id": "doc_66a75af3fbad9e13",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and introduction columns",
+          "finding": "The paper title, current-work overview, and the intended vinylallene/sulfonyl-cyanide cycloaddition strategy are stated; no page-1 experimental procedure or quantitative experiment is reported.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page1:image", "doc_66a75af3fbad9e13:page1:text"]
+        },
+        {
+          "region": "Scheme 1 at lower right",
+          "finding": "Four conceptual cyano Diels-Alder aromatization pathways are shown (elimination, cycloreversion, and double-bond isomerization). They are retained as source context, not treated as current-paper experiments.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page1:image", "doc_66a75af3fbad9e13:page1:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["Scheme 1 contains generic R groups and no experiment-specific quantities or yields."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2A-C and surrounding discussion",
+          "finding": "Panels A-C summarize prior Danheiser-laboratory cascades and previously reported bimolecular chemistry. They are literature context and were not counted as new experiments in this paper.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page2:image", "doc_66a75af3fbad9e13:page2:text"]
+        },
+        {
+          "region": "Scheme 2D",
+          "finding": "A current-work generic sequence is proposed: isolated vinylallene plus sulfonyl cyanide gives a 2-sulfonylpyridine, followed by nucleophilic substitution. It is represented as a generic scheme, not a specific experiment.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page2:image", "doc_66a75af3fbad9e13:page2:text"]
+        }
+      ],
+      "record_ids": ["doc_66a75af3fbad9e13:scheme2d_generic"],
+      "unresolved": ["Generic R-group structures cannot be converted to unique concrete SMILES or a complete atom mapping."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 and adjacent paragraph",
+          "finding": "The two-arrow preparation 1 to 2 to vinylallene 3 and the corresponding-benzoate competition giving 3 and direct-substitution product 4 were separated into three records.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page3:image", "doc_66a75af3fbad9e13:page3:text"]
+        },
+        {
+          "region": "Table 1, entries 1-11 and footnotes a-e",
+          "finding": "All eleven optimization rows were transcribed independently, including complex mixtures, trace product, the NMR-estimated 56% result at approximately 80% purity, fresh-vinylallene 68% result, base loadings, and the 1:1 w/w molecular-sieve ratio.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page3:image", "doc_66a75af3fbad9e13:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_66a75af3fbad9e13:scheme3_1_to_2",
+        "doc_66a75af3fbad9e13:scheme3_2_to_3",
+        "doc_66a75af3fbad9e13:scheme3_benzoate_mixture",
+        "doc_66a75af3fbad9e13:table1_entry_1",
+        "doc_66a75af3fbad9e13:table1_entry_2",
+        "doc_66a75af3fbad9e13:table1_entry_3",
+        "doc_66a75af3fbad9e13:table1_entry_4",
+        "doc_66a75af3fbad9e13:table1_entry_5",
+        "doc_66a75af3fbad9e13:table1_entry_6",
+        "doc_66a75af3fbad9e13:table1_entry_7",
+        "doc_66a75af3fbad9e13:table1_entry_8",
+        "doc_66a75af3fbad9e13:table1_entry_9",
+        "doc_66a75af3fbad9e13:table1_entry_10",
+        "doc_66a75af3fbad9e13:table1_entry_11"
+      ],
+      "unresolved": [
+        "Table 1 does not identify every component of a complex mixture.",
+        "The source supplies a w/w molecular-sieve ratio rather than an absolute mass; the raw ratio is preserved without inventing a mass unit.",
+        "Structures drawn in the table remain machine candidates or unresolved until expert structure review."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2, entries 1-6 and footnotes a-c",
+          "finding": "All six substrate-scope rows were transcribed separately, including slow addition for entry 4, DBU use by row, isolated-yield footnote, and both regioisomeric products in entry 6.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page4:image", "doc_66a75af3fbad9e13:page4:text"]
+        },
+        {
+          "region": "paragraphs below Table 2 and Scheme 4",
+          "finding": "The 66:34 regioisomer ratio for 17:18 and the mechanistic/regiochemical transition-state alternatives were captured. Scheme 4 is mechanistic context, not an experimental record.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page4:image", "doc_66a75af3fbad9e13:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_66a75af3fbad9e13:table2_entry_1",
+        "doc_66a75af3fbad9e13:table2_entry_2",
+        "doc_66a75af3fbad9e13:table2_entry_3",
+        "doc_66a75af3fbad9e13:table2_entry_4",
+        "doc_66a75af3fbad9e13:table2_entry_5",
+        "doc_66a75af3fbad9e13:table2_entry_6"
+      ],
+      "unresolved": [
+        "Table 2 entry 3 reports 45%, while its later experimental paragraph reports 39%; both values are retained as a conflict.",
+        "Table 2 entry 5 reports 73%, while its later experimental paragraph reports 72%; both values are retained as a conflict.",
+        "The analytical method for the 66:34 regioisomer ratio is not stated on page 4."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Schemes 5 and 6",
+          "finding": "Four synthetic records were created for 23 to 24, 24 through transient 25 to 26, 27 to 28, and 28 through transient 29 to 30. Overall yields were kept attached to their stated start-to-end spans.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page5:image", "doc_66a75af3fbad9e13:page5:text"]
+        },
+        {
+          "region": "vinylallene 33 paragraph above the azaindole section",
+          "finding": "The explicit 50 degree C, 24 h experiment giving pyridine 34 in 31% after DBU was recorded separately from the 70 degree C Scheme 7 experiment.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page5:image", "doc_66a75af3fbad9e13:page5:text"]
+        },
+        {
+          "region": "one-flask failure and ipso-substitution discussion",
+          "finding": "The unsuccessful one-flask rearrangement/cycloaddition statement and qualitative substitution discussion were retained as source context. Table 3 is only introduced here; its rows are not on page 5 and were not fabricated.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page5:image", "doc_66a75af3fbad9e13:page5:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_66a75af3fbad9e13:scheme5_23_to_24",
+        "doc_66a75af3fbad9e13:scheme5_24_to_26",
+        "doc_66a75af3fbad9e13:scheme6_27_to_28",
+        "doc_66a75af3fbad9e13:scheme6_28_to_30",
+        "doc_66a75af3fbad9e13:text_33_50c_24h"
+      ],
+      "unresolved": [
+        "Absolute masses for the molecular sieves are not stated in the page-5 schemes.",
+        "The failed one-flask attempts do not enumerate substrates, conditions, or product identities sufficiently for specific experiment records.",
+        "Table 3 rows occur outside the bounded page range."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 7",
+          "finding": "Five records were created for 1 to 31, the two independent rearrangements 31 to 32 and 31 to 33, and the two cycloaddition/isomerization experiments 32 to 35 and 33 to 34.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page6:image", "doc_66a75af3fbad9e13:page6:text"]
+        },
+        {
+          "region": "Scheme 8",
+          "finding": "Three records were created for 36 to 37 and the two distinct sulfonyl-cyanide reactions through transient allenyl ether 38 to products 39 and 40. Later experimental text was used only as same-document corroboration and conflict evidence.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page6:image", "doc_66a75af3fbad9e13:page6:text"]
+        },
+        {
+          "region": "Scheme 9",
+          "finding": "Three records were created for the multistage 41 to 42 sequence, rearrangement 42 to 43, and cycloaddition 43 to 44. The multistage sequence keeps each operation separate.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page6:image", "doc_66a75af3fbad9e13:page6:text"]
+        },
+        {
+          "region": "Conclusions and start of General Procedures",
+          "finding": "General handling and solvent-purification statements are source context; they were not automatically inherited into every page-1-to-6 reaction.",
+          "evidence_ids": ["doc_66a75af3fbad9e13:page6:image", "doc_66a75af3fbad9e13:page6:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_66a75af3fbad9e13:scheme7_1_to_31",
+        "doc_66a75af3fbad9e13:scheme7_31_to_32",
+        "doc_66a75af3fbad9e13:scheme7_31_to_33",
+        "doc_66a75af3fbad9e13:scheme7_32_to_35",
+        "doc_66a75af3fbad9e13:scheme7_33_to_34",
+        "doc_66a75af3fbad9e13:scheme8_36_to_37",
+        "doc_66a75af3fbad9e13:scheme8_37_to_39",
+        "doc_66a75af3fbad9e13:scheme8_37_to_40",
+        "doc_66a75af3fbad9e13:scheme9_41_to_42",
+        "doc_66a75af3fbad9e13:scheme9_42_to_43",
+        "doc_66a75af3fbad9e13:scheme9_43_to_44"
+      ],
+      "unresolved": [
+        "Scheme 8 labels compound 36 as 1.5 equiv, while its later experimental paragraph uses 1.0 equiv; both are retained as a conflict.",
+        "Scheme 9 reports 35% for product 44, while its later experimental paragraph reports 34%; both are retained as a conflict.",
+        "Several complex drawn structures and allene axial states remain machine candidates or unresolved pending expert structure review."
+      ]
+    }
+  ]
+}

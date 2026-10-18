@@ -1,0 +1,108 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "literature_example": 3,
+    "general_scheme": 3,
+    "optimization_entry": 5,
+    "substrate_scope_entry": 23,
+    "reported_experiment": 2,
+    "mechanism": 1
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_1b75b17cc3d81272"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_1b75b17cc3d81272:scheme2a_100mol",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_1b75b17cc3d81272:page2:image",
+        "doc_1b75b17cc3d81272:page2:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_1b75b17cc3d81272:scheme2b_10mol",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_1b75b17cc3d81272:page2:image",
+        "doc_1b75b17cc3d81272:page2:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_1b75b17cc3d81272:scheme2d_50mol",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_1b75b17cc3d81272:page2:image",
+        "doc_1b75b17cc3d81272:page2:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_1b75b17cc3d81272:phsecl_20mol_control",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_1b75b17cc3d81272:page2:image",
+        "doc_1b75b17cc3d81272:page2:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+        "missing_steps: recover reported procedure or explicitly retain missing conditions"
+      ]
+    },
+    {
+      "record_id": "doc_1b75b17cc3d81272:scheme3_1o_no_enone",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_1b75b17cc3d81272:page2:image",
+        "doc_1b75b17cc3d81272:page2:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_1b75b17cc3d81272:scheme4_1p_3b",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_1b75b17cc3d81272:page3:image",
+        "doc_1b75b17cc3d81272:page3:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_1b75b17cc3d81272:scheme4_1q_recovery",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_1b75b17cc3d81272:page3:image",
+        "doc_1b75b17cc3d81272:page3:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for recovery; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_1b75b17cc3d81272:scheme5_o2_control",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_1b75b17cc3d81272:page3:image",
+        "doc_1b75b17cc3d81272:page3:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    }
+  ]
+}

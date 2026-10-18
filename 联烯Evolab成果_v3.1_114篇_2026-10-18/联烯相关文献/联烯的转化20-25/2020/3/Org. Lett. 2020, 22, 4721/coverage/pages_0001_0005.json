@@ -1,0 +1,235 @@
+{
+  "document_id": "doc_d9d234c1ff998484",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title/abstract/graphical abstract",
+          "finding": "Article metadata and overview only; no standalone experiment duplicated.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page1:image",
+            "doc_d9d234c1ff998484:page1:text"
+          ]
+        },
+        {
+          "region": "Scheme 1 eqs 1–3",
+          "finding": "Three cited prior-work generic arrows, recorded as literature examples.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page1:image",
+            "doc_d9d234c1ff998484:page1:text"
+          ]
+        },
+        {
+          "region": "Scheme 1 eq 4",
+          "finding": "Generic current-work [8+2] transformation, not a concrete experiment.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page1:image",
+            "doc_d9d234c1ff998484:page1:text"
+          ]
+        },
+        {
+          "region": "bottom prose crossing to page 2",
+          "finding": "Table 1 entry 1 setup and products 4a/5a; concrete values are on page 2 and the record cites both pages.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page1:image",
+            "doc_d9d234c1ff998484:page1:text",
+            "doc_d9d234c1ff998484:page2:image",
+            "doc_d9d234c1ff998484:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_d9d234c1ff998484:scheme1_eq1_literature",
+        "doc_d9d234c1ff998484:scheme1_eq2_literature",
+        "doc_d9d234c1ff998484:scheme1_eq3_literature",
+        "doc_d9d234c1ff998484:scheme1_eq4_generic",
+        "doc_d9d234c1ff998484:table1_entry01"
+      ],
+      "unresolved": [
+        "No SI procedure is supplied; Scheme 1 prior-work substituent details are generic."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 structure header and catalyst panel",
+          "finding": "Azaheptafulvenes 1a/b, allenes 2a–f, catalysts 3a–g, and product branches 4/5 visually inspected.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page2:image",
+            "doc_d9d234c1ff998484:page2:text"
+          ]
+        },
+        {
+          "region": "Table 1 entries 1–13 and footnotes a–h",
+          "finding": "Thirteen independent optimization experiments with yields, 4/5 ratios, ee values, and measurement footnotes.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page2:image",
+            "doc_d9d234c1ff998484:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 2 generic arrow and products 4f–u",
+          "finding": "Sixteen standard scope rows plus one parenthetical 1.0 mmol scale-up; 4u retains <5%/n.d. without forcing a numerical zero.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page2:image",
+            "doc_d9d234c1ff998484:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 2 footnotes and surrounding prose",
+          "finding": "0.1 mmol, 10 mol% 3g, toluene 0.05 M, 25/50 °C, isolated-yield basis, chiral-HPLC ee basis, group time ranges, and scale-up caveat captured.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page2:image",
+            "doc_d9d234c1ff998484:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_d9d234c1ff998484:table1_entry01",
+        "doc_d9d234c1ff998484:table1_entry02",
+        "doc_d9d234c1ff998484:table1_entry03",
+        "doc_d9d234c1ff998484:table1_entry04",
+        "doc_d9d234c1ff998484:table1_entry05",
+        "doc_d9d234c1ff998484:table1_entry06",
+        "doc_d9d234c1ff998484:table1_entry07",
+        "doc_d9d234c1ff998484:table1_entry08",
+        "doc_d9d234c1ff998484:table1_entry09",
+        "doc_d9d234c1ff998484:table1_entry10",
+        "doc_d9d234c1ff998484:table1_entry11",
+        "doc_d9d234c1ff998484:table1_entry12",
+        "doc_d9d234c1ff998484:table1_entry13",
+        "doc_d9d234c1ff998484:scheme2_generic",
+        "doc_d9d234c1ff998484:scheme2_4f",
+        "doc_d9d234c1ff998484:scheme2_4g",
+        "doc_d9d234c1ff998484:scheme2_4h",
+        "doc_d9d234c1ff998484:scheme2_4i",
+        "doc_d9d234c1ff998484:scheme2_4j",
+        "doc_d9d234c1ff998484:scheme2_4k",
+        "doc_d9d234c1ff998484:scheme2_4l",
+        "doc_d9d234c1ff998484:scheme2_4m",
+        "doc_d9d234c1ff998484:scheme2_4n",
+        "doc_d9d234c1ff998484:scheme2_4o",
+        "doc_d9d234c1ff998484:scheme2_4p",
+        "doc_d9d234c1ff998484:scheme2_4q",
+        "doc_d9d234c1ff998484:scheme2_4r",
+        "doc_d9d234c1ff998484:scheme2_4s",
+        "doc_d9d234c1ff998484:scheme2_4t",
+        "doc_d9d234c1ff998484:scheme2_4u",
+        "doc_d9d234c1ff998484:scheme2_4j_scaleup",
+        "doc_d9d234c1ff998484:footnote12_3g_decomposition"
+      ],
+      "unresolved": [
+        "Exact per-row times and SI procedures are unavailable; dense product/catalyst complete structures need expert review."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "scope discussion",
+          "finding": "4j scale-up, 4s/4t success, 2r failure after 96 h at 50 or 80 °C, and X-ray/analogy stereochemical assignments.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page3:image",
+            "doc_d9d234c1ff998484:page3:text"
+          ]
+        },
+        {
+          "region": "Figure 1 and mechanism discussion",
+          "finding": "Tentative H-bonded stereochemical model recorded as proposed mechanism, not experimental proof.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page3:image",
+            "doc_d9d234c1ff998484:page3:text"
+          ]
+        },
+        {
+          "region": "Associated Content",
+          "finding": "SI availability stated by the article, but no SI file supplied; association remains unestablished.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page3:image",
+            "doc_d9d234c1ff998484:page3:text"
+          ]
+        },
+        {
+          "region": "conclusion/authors/references start",
+          "finding": "Context and bibliography; no additional concrete experiment.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page3:image",
+            "doc_d9d234c1ff998484:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_d9d234c1ff998484:scheme2_4j",
+        "doc_d9d234c1ff998484:scheme2_4k",
+        "doc_d9d234c1ff998484:scheme2_4s",
+        "doc_d9d234c1ff998484:scheme2_4t",
+        "doc_d9d234c1ff998484:scheme2_4u",
+        "doc_d9d234c1ff998484:scheme2_4j_scaleup",
+        "doc_d9d234c1ff998484:control_2r_80C",
+        "doc_d9d234c1ff998484:figure1_stereochemical_model"
+      ],
+      "unresolved": [
+        "The prose 'did not afford' and Scheme 2 '<5%' descriptions for 4u are both retained without choosing an interpretation."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "two-column reference list",
+          "finding": "Bibliography only; cited reactions are not imported as current-paper experiments.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page4:image",
+            "doc_d9d234c1ff998484:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "reference 11 continuation",
+          "finding": "Bibliographic continuation only.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page5:image",
+            "doc_d9d234c1ff998484:page5:text"
+          ]
+        },
+        {
+          "region": "footnote 12",
+          "finding": "Two controls: optimized conditions give decomposition only; nBu3P gives minor type-5 [8+4] product detected by NMR.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page5:image",
+            "doc_d9d234c1ff998484:page5:text"
+          ]
+        },
+        {
+          "region": "reference 13",
+          "finding": "Cited computational literature only, not a current-paper experiment.",
+          "evidence_ids": [
+            "doc_d9d234c1ff998484:page5:image",
+            "doc_d9d234c1ff998484:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_d9d234c1ff998484:footnote12_3g_decomposition",
+        "doc_d9d234c1ff998484:footnote12_nBu3P_trace5"
+      ],
+      "unresolved": [
+        "Footnote 12 does not report nBu3P loading or full conditions, and the minor product's exact structure is absent."
+      ]
+    }
+  ]
+}

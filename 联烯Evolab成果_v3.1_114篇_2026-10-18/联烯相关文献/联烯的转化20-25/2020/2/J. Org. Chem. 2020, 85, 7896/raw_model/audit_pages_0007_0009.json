@@ -1,0 +1,33 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "literature_example": 3,
+    "general_scheme": 3,
+    "optimization_entry": 12,
+    "substrate_scope_entry": 27,
+    "reported_experiment": 5,
+    "mechanism": 1
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": ["doc_b298156f3445f448"],
+  "warnings": [
+    {
+      "record_id": "doc_b298156f3445f448:scheme4a_scaleup_3a",
+      "warning": "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+      "disposition": "Outside pages 7-9; source pages 3-4 do not explicitly report a measurement method, so the field remains missing."
+    },
+    {
+      "record_id": "doc_b298156f3445f448:scheme4c_control_no_base",
+      "warning": "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+      "disposition": "Outside pages 7-9; source pages 3-4 do not explicitly report a measurement method, so the field remains missing."
+    },
+    {
+      "record_id": "doc_b298156f3445f448:scheme4e_deuterium_labeling",
+      "warning": "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+      "disposition": "Outside pages 7-9; source pages 3-4 do not explicitly report a measurement method, so the field remains missing."
+    }
+  ],
+  "page_7_updated_records_with_new_warnings": [],
+  "limitations": "The audit is advisory. Schema validity and absence of new warnings do not establish chemical or stereochemical correctness."
+}

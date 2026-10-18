@@ -1,0 +1,234 @@
+{
+  "document_id": "doc_2992316b1e64fc22",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper two-column mitochondrial-apoptosis discussion",
+          "finding": "Biological mechanism discussion and quantitative observations; no synthetic arrow or chemical product isolation.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page7:image",
+            "doc_2992316b1e64fc22:page7:text"
+          ]
+        },
+        {
+          "region": "Figure 5 panels A–E and caption",
+          "finding": "Jurkat mitochondrial membrane-potential/apoptosis flow-cytometry assay; retained in source_context.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page7:image",
+            "doc_2992316b1e64fc22:page7:text"
+          ]
+        },
+        {
+          "region": "lower ROS/signaling-pathway discussion",
+          "finding": "Biological mechanistic interpretation continuing to page 8; not a synthesis experiment.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page7:image",
+            "doc_2992316b1e64fc22:page7:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Figure-panel numeric values were not converted into chemical reaction outcomes."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 6 panels A–E and caption",
+          "finding": "ROS/apoptotic cell-death assay with controls and incubation times; biological source context only.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page8:image",
+            "doc_2992316b1e64fc22:page8:text"
+          ]
+        },
+        {
+          "region": "Figure 7 histograms and caption",
+          "finding": "Signaling-protein assay; biological mechanistic experiment, not chemical synthesis.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page8:image",
+            "doc_2992316b1e64fc22:page8:text"
+          ]
+        },
+        {
+          "region": "conclusion text",
+          "finding": "Whole-route and anticancer conclusions; no new reaction arrow or independently specified run.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page8:image",
+            "doc_2992316b1e64fc22:page8:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Plotted biological values are not represented as chemistry outcomes in the current schema increment."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "General Experimental Procedures",
+          "finding": "Analytical and chromatography methods; retained as source_context rather than a reaction.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page9:image",
+            "doc_2992316b1e64fc22:page9:text"
+          ]
+        },
+        {
+          "region": "Synthesis of 5 and synthesis of (Z)-6",
+          "finding": "Two detailed synthetic procedures; quantities, ordered temperature/time stages, workups and product amounts merged into existing 4→5 and 5→6 records.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page9:image",
+            "doc_2992316b1e64fc22:page9:text"
+          ]
+        },
+        {
+          "region": "Synthesis of mesylate 7 and bromide 8",
+          "finding": "A two-stage printed procedure; 6→7 and 7→8 remain independent records and conflicting scheme/text conditions are retained.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page9:image",
+            "doc_2992316b1e64fc22:page9:text"
+          ]
+        },
+        {
+          "region": "Synthesis of 9 and allene 10",
+          "finding": "Two detailed procedures; internal dicyclohexylamine/dihexylamine identity conflict retained without choosing.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page9:image",
+            "doc_2992316b1e64fc22:page9:text"
+          ]
+        },
+        {
+          "region": "Cross-cyclomagnesiation general procedure",
+          "finding": "The 15a→17 and 15b→18 branches share a procedure but remain two reaction records; loading/time conflicts retained.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page9:image",
+            "doc_2992316b1e64fc22:page9:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2992316b1e64fc22:scheme2_4_to_5",
+        "doc_2992316b1e64fc22:scheme2_5_to_6",
+        "doc_2992316b1e64fc22:scheme2_6_to_7",
+        "doc_2992316b1e64fc22:scheme2_7_to_8",
+        "doc_2992316b1e64fc22:scheme2_8_to_9",
+        "doc_2992316b1e64fc22:schemes2_3_9_to_10",
+        "doc_2992316b1e64fc22:scheme4_10_15a_to_17",
+        "doc_2992316b1e64fc22:scheme4_10_15b_to_18"
+      ],
+      "unresolved": [
+        "Several source conflicts are explicit in records; no conflicting condition or yield was selected.",
+        "The Experimental Section starts 5 from compound 3 via in-situ 4, while the scheme gives a separate 4→5 arrow."
+      ]
+    },
+    {
+      "page": 10,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "characterization of 17, 18 and 19",
+          "finding": "Spectral/elemental data are retained as characterization source_context, not synthetic experiments.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page10:image",
+            "doc_2992316b1e64fc22:page10:text"
+          ]
+        },
+        {
+          "region": "18→19 THP deprotection and 19→17 oxidation statements",
+          "finding": "Known-method citations only; no missing quantities were invented and the approximate 64% remains a two-step result.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page10:image",
+            "doc_2992316b1e64fc22:page10:text"
+          ]
+        },
+        {
+          "region": "Preparation and characterization of 20",
+          "finding": "Detailed staged −78 °C addition, −20 °C addition, warm-up and 3-day hold merged into existing 17→20 record.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page10:image",
+            "doc_2992316b1e64fc22:page10:text"
+          ]
+        },
+        {
+          "region": "Preparation of rac-21",
+          "finding": "Detailed TBAF procedure merged into existing 20→21 record; 2 h/4 h conflict retained.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page10:image",
+            "doc_2992316b1e64fc22:page10:text"
+          ]
+        },
+        {
+          "region": "21→22 and 22→1 statements plus characterization",
+          "finding": "Published-procedure references linked to existing reactions; 82% yield and 96% ee target lembehyne C, with measurement method left missing.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page10:image",
+            "doc_2992316b1e64fc22:page10:text"
+          ]
+        },
+        {
+          "region": "Biology methods beginning at lower right",
+          "finding": "Cell-culture and assay methods; source_context only.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page10:image",
+            "doc_2992316b1e64fc22:page10:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2992316b1e64fc22:scheme4_18_to_19",
+        "doc_2992316b1e64fc22:scheme4_19_to_17",
+        "doc_2992316b1e64fc22:scheme5_17_to_20",
+        "doc_2992316b1e64fc22:scheme5_20_to_21",
+        "doc_2992316b1e64fc22:scheme5_21_to_22",
+        "doc_2992316b1e64fc22:scheme5_22_to_1"
+      ],
+      "unresolved": [
+        "References 13, 14 and 18 are cited for procedures, but their full experimental details are not present on this page and were not backfilled.",
+        "Absolute R/S assignment and ee measurement method for lembehyne C are not given on pages 7–11."
+      ]
+    },
+    {
+      "page": 11,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "H2A.X, mitochondrial-damage and multiplex assay methods",
+          "finding": "Biological experimental methods; no synthetic reaction arrow.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page11:image",
+            "doc_2992316b1e64fc22:page11:text"
+          ]
+        },
+        {
+          "region": "Associated Content / Supporting Information",
+          "finding": "The article states SI availability, but no SI document is explicitly supplied in the workspace; association remains unestablished.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page11:image",
+            "doc_2992316b1e64fc22:page11:text"
+          ]
+        },
+        {
+          "region": "author information, acknowledgments and references",
+          "finding": "Bibliographic and funding material; cited literature is not treated as this paper's experiments.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page11:image",
+            "doc_2992316b1e64fc22:page11:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No Supporting Information file was linked or extracted in this batch."
+      ]
+    }
+  ]
+}

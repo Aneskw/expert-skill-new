@@ -1,0 +1,52 @@
+{
+  "tool": "reaction_tools.py standard stereo",
+  "chemical_accuracy_verified": false,
+  "candidates": [
+    {
+      "source_label": "1d",
+      "input_smiles": "FC(F)(F)C(=C=C(C)C)c1ccccc1",
+      "canonical_isomeric_smiles": "CC(C)=C=C(c1ccccc1)C(F)(F)F",
+      "stereo_graph_key": "c9eb1ba71f5d24fcb4bf697aa4495d166c04b3492ad25a60eb8a934c91c5c598",
+      "atom_centers": [],
+      "double_bonds": [
+        {"bond_index": 4, "stereo": "STEREONONE"},
+        {"bond_index": 5, "stereo": "STEREONONE"}
+      ],
+      "potential_stereo": [
+        {"type": "Bond_Double", "centered_on": 4, "specified": "Unspecified", "descriptor": "NoValue"}
+      ],
+      "source_verified": false,
+      "decision": "Graph diagnostic only. Toolkit output does not establish the source allene-axis assignment, so no concrete SMILES was promoted to the molecule registry."
+    },
+    {
+      "source_label": "4-bromoanisole",
+      "input_smiles": "COc1ccc(Br)cc1",
+      "canonical_isomeric_smiles": "COc1ccc(Br)cc1",
+      "stereo_graph_key": "1f8f02a0e4dd4bf8f69dd80177c4eca78085d119fad269d0630427a1bc6d3819",
+      "atom_centers": [],
+      "double_bonds": [],
+      "potential_stereo": [],
+      "source_verified": false,
+      "decision": "Graph diagnostic only; parsing was not treated as source structure verification."
+    },
+    {
+      "source_label": "5 (4-phenyl-1,2,4-triazoline-3,5-dione)",
+      "input_smiles": "O=C1N(c2ccccc2)N=NC(=O)1",
+      "canonical_isomeric_smiles": "O=C1N=NN(c2ccccc2)C1=O",
+      "stereo_graph_key": "ca73998a146406e4db75f0a17f768a7af93e364bf4b6956cfd719a4396bc12a7",
+      "atom_centers": [],
+      "double_bonds": [
+        {"bond_index": 0, "stereo": "STEREONONE"},
+        {"bond_index": 9, "stereo": "STEREONONE"},
+        {"bond_index": 11, "stereo": "STEREONONE"}
+      ],
+      "potential_stereo": [],
+      "source_verified": false,
+      "decision": "Graph diagnostic only for the unambiguous printed reagent name; no SMILES was promoted because the source-drawing-to-graph check remains unreviewed."
+    }
+  ],
+  "limitations": [
+    "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+    "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+  ]
+}

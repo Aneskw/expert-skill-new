@@ -1,0 +1,158 @@
+{
+  "document_id": "doc_4e4afb29c8afe53f",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "two-column experimental text, top-left continuation through bottom-right",
+          "finding": "Continuation of 3w characterization followed by product/characterization paragraphs for 3x-3ag; reported masses and yields were merged into the corresponding existing Table 2 experiments, while spectral peaks were retained as characterization context.",
+          "evidence_ids": [
+            "doc_4e4afb29c8afe53f:page7:image",
+            "doc_4e4afb29c8afe53f:page7:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_4e4afb29c8afe53f:table2_scope_3w",
+        "doc_4e4afb29c8afe53f:table2_scope_3x",
+        "doc_4e4afb29c8afe53f:table2_scope_3y",
+        "doc_4e4afb29c8afe53f:table2_scope_3z",
+        "doc_4e4afb29c8afe53f:table2_scope_3aa",
+        "doc_4e4afb29c8afe53f:table2_scope_3ab",
+        "doc_4e4afb29c8afe53f:table2_scope_3ac",
+        "doc_4e4afb29c8afe53f:table2_scope_3ad",
+        "doc_4e4afb29c8afe53f:table2_scope_3ae",
+        "doc_4e4afb29c8afe53f:table2_scope_3af",
+        "doc_4e4afb29c8afe53f:table2_scope_3ag"
+      ],
+      "unresolved": [
+        "The 3ag characterization paragraph continues onto page 8.",
+        "Potential stereocenters remain configuration-unassigned unless explicitly stated; successful SMILES parsing is not chemistry verification."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left and upper-right product paragraphs",
+          "finding": "Continuation of 3ag and product/characterization paragraphs for 3ah-3ai and 3aj-3ap; masses and isolated-yield basis were merged into existing Table 2/Table 3 records, not made into duplicate experiments.",
+          "evidence_ids": [
+            "doc_4e4afb29c8afe53f:page8:image",
+            "doc_4e4afb29c8afe53f:page8:text"
+          ]
+        },
+        {
+          "region": "bottom-right Procedure for the Synthesis of 4",
+          "finding": "Full bromination procedure: 3a/DMSO, slow addition of 48% aqueous HBr, open-flask 55 °C/4 h hold, ice quench, filtration/wash/vacuum dry, and silica chromatography; merged with Scheme 2b record.",
+          "evidence_ids": [
+            "doc_4e4afb29c8afe53f:page8:image",
+            "doc_4e4afb29c8afe53f:page8:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_4e4afb29c8afe53f:table2_scope_3ag",
+        "doc_4e4afb29c8afe53f:table2_scope_3ah",
+        "doc_4e4afb29c8afe53f:table2_scope_3ai",
+        "doc_4e4afb29c8afe53f:table3_scope_3aj",
+        "doc_4e4afb29c8afe53f:table3_scope_3ak",
+        "doc_4e4afb29c8afe53f:table3_scope_3al",
+        "doc_4e4afb29c8afe53f:table3_scope_3am",
+        "doc_4e4afb29c8afe53f:table3_scope_3an",
+        "doc_4e4afb29c8afe53f:table3_scope_3ap",
+        "doc_4e4afb29c8afe53f:scheme2b_bromination_4"
+      ],
+      "unresolved": [
+        "3an is reported as two isomers but their configurations/order and the dr measurement method remain unassigned/unreported.",
+        "3ap is reported as a racemic form with dr 3.4:1; individual stereoisomer configurations remain unassigned."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top-left product 4 characterization",
+          "finding": "Isolated product 4 amount/yield and characterization; amount/yield were linked to the existing bromination experiment, while spectra were kept as context.",
+          "evidence_ids": [
+            "doc_4e4afb29c8afe53f:page9:image",
+            "doc_4e4afb29c8afe53f:page9:text"
+          ]
+        },
+        {
+          "region": "left-column Procedure for the Synthesis of 5 and product 5 paragraph",
+          "finding": "Full mechanistic control procedure and isolated 5 amount/yield; merged with the existing Scheme 3a experiment.",
+          "evidence_ids": [
+            "doc_4e4afb29c8afe53f:page9:image",
+            "doc_4e4afb29c8afe53f:page9:text"
+          ]
+        },
+        {
+          "region": "left-column Procedure for the Synthesis of 3a via Addition of 2a to 5",
+          "finding": "The heading and Scheme 3b name enone 5, but the procedure sentence literally says compound 4 (0.4 mmol); both readings are preserved as a source conflict in the existing Scheme 3b record.",
+          "evidence_ids": [
+            "doc_4e4afb29c8afe53f:page9:image",
+            "doc_4e4afb29c8afe53f:page9:text"
+          ]
+        },
+        {
+          "region": "Associated Content and author/reference text",
+          "finding": "Supporting Information is advertised but no SI file is explicitly mapped; author metadata/references are source context, not experiments.",
+          "evidence_ids": [
+            "doc_4e4afb29c8afe53f:page9:image",
+            "doc_4e4afb29c8afe53f:page9:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_4e4afb29c8afe53f:scheme2b_bromination_4",
+        "doc_4e4afb29c8afe53f:scheme3a_1a_to_5_with_tfoh",
+        "doc_4e4afb29c8afe53f:scheme3b_enone_5_to_3a"
+      ],
+      "unresolved": [
+        "Reactant identity conflict in the 3a-from-enone procedure requires expert resolution (5 in heading/Scheme 3b versus literal 4 in procedure sentence).",
+        "Advertised Supporting Information was not supplied/mapped and remains unassociated."
+      ]
+    },
+    {
+      "page": 10,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "entire two-column page",
+          "finding": "Reference list entries only (continuation of citations 3-31); no current-paper reaction arrow, table row, experimental procedure, or new synthesis record.",
+          "evidence_ids": [
+            "doc_4e4afb29c8afe53f:page10:image",
+            "doc_4e4afb29c8afe53f:page10:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Cited literature was not supplied and was not re-extracted as experiments of the current paper."
+      ]
+    },
+    {
+      "page": 11,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "entire page",
+          "finding": "Final reference list entries 31-33 only; no current-paper reaction arrow, table row, experimental procedure, or new synthesis record.",
+          "evidence_ids": [
+            "doc_4e4afb29c8afe53f:page11:image",
+            "doc_4e4afb29c8afe53f:page11:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Cited literature was not supplied and was not re-extracted as experiments of the current paper."
+      ]
+    }
+  ]
+}

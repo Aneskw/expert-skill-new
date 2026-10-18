@@ -1,0 +1,31 @@
+{
+  "source_verified": false,
+  "purpose": "Graph diagnostics for two source-derived connectivity candidates retained only as raw model output; neither candidate was promoted to the molecule registry because relative/absolute stereochemistry is incomplete.",
+  "checks": [
+    {
+      "label": "compound 44 connectivity candidate",
+      "input_smiles": "CC(C)(C)OC(=O)N1C(=O)C(=C)C(CC=C=C)C1C#Cc1ccccc1",
+      "canonical_isomeric_smiles": "C=C=CCC1C(=C)C(=O)N(C(=O)OC(C)(C)C)C1C#Cc1ccccc1",
+      "stereo_graph_key": "9a8a2c2c449adf67782a6494ed4198bde0efb19327f8c5318ecac0fb8a72f07b",
+      "atom_centers": [{"atom_index": 12, "CIP": "?"}, {"atom_index": 17, "CIP": "?"}],
+      "potential_stereo": [
+        {"type": "Atom_Tetrahedral", "centered_on": 12, "specified": "Unspecified"},
+        {"type": "Atom_Tetrahedral", "centered_on": 17, "specified": "Unspecified"},
+        {"type": "Bond_Double", "centered_on": 14, "specified": "Unspecified"}
+      ],
+      "limitations": ["Graph diagnostics cannot infer source configuration, dr or relative ring stereochemistry.", "Allene/axial and ring cis/trans assignment requires source review."]
+    },
+    {
+      "label": "compound S16 connectivity candidate",
+      "input_smiles": "C=C(C)CCC1C(=C)C(=O)OC1C#Cc1ccccc1",
+      "canonical_isomeric_smiles": "C=C(C)CCC1C(=C)C(=O)OC1C#Cc1ccccc1",
+      "stereo_graph_key": "8d234a83f74c0c1d2c1be1865de01c29be64ce58702a06581cc085bee3387d34",
+      "atom_centers": [{"atom_index": 5, "CIP": "?"}, {"atom_index": 11, "CIP": "?"}],
+      "potential_stereo": [
+        {"type": "Atom_Tetrahedral", "centered_on": 5, "specified": "Unspecified"},
+        {"type": "Atom_Tetrahedral", "centered_on": 11, "specified": "Unspecified"}
+      ],
+      "limitations": ["The terminal-CH2 allene is not an axial stereogenic element, but the two tetrahedral centers remain unspecified in this candidate.", "The candidate was not treated as source-verified or registry-complete."]
+    }
+  ]
+}

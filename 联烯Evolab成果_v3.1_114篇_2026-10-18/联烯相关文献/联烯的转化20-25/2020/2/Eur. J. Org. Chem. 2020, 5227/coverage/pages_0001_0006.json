@@ -1,0 +1,155 @@
+{
+  "document_id": "doc_3bed13a021d538c6",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and introduction in both columns",
+          "finding": "Article identity and the claimed Au(I)-catalyzed sequential cycloisomerization/formal [4+2] strategy; introductory prior-work discussion is context rather than a current execution.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page1:text", "doc_3bed13a021d538c6:page1:image"]
+        },
+        {
+          "region": "Figure 1, lower-left natural-product structures",
+          "finding": "Six motivating natural-product structures; no reaction arrow or experiment in this paper. Retained as nonreaction source_context.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page1:text", "doc_3bed13a021d538c6:page1:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["The article advertises Supporting Information, but no SI file is explicitly supplied or associated in this workspace."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1a-d, upper-left and middle-left",
+          "finding": "Four prior-work/generic arrows were separated as literature_example records and not counted as current concrete experiments.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page2:text", "doc_3bed13a021d538c6:page2:image"]
+        },
+        {
+          "region": "Scheme 1e, lower-left",
+          "finding": "This-work generic 1,3,9-ene-allene-yne to fused spirocarbocycle proposal, represented as one generic_scheme.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page2:text", "doc_3bed13a021d538c6:page2:image"]
+        },
+        {
+          "region": "Table 1 and catalyst drawings, upper-right to center-right",
+          "finding": "Eight optimization rows were individually recorded. Entries 1-4 and 6 report isolated yields; entries 5, 7, and 8 report no reaction. Entry 3 is the same 1a-to-2a execution repeated in Scheme 2/product text and is not duplicated.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page2:text", "doc_3bed13a021d538c6:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_3bed13a021d538c6:scheme1a_prior",
+        "doc_3bed13a021d538c6:scheme1b_prior",
+        "doc_3bed13a021d538c6:scheme1c_prior",
+        "doc_3bed13a021d538c6:scheme1d_prior",
+        "doc_3bed13a021d538c6:scheme1e_generic",
+        "doc_3bed13a021d538c6:table1_entry1",
+        "doc_3bed13a021d538c6:table1_entry2",
+        "doc_3bed13a021d538c6:table1_entry3",
+        "doc_3bed13a021d538c6:table1_entry4",
+        "doc_3bed13a021d538c6:table1_entry5",
+        "doc_3bed13a021d538c6:table1_entry6",
+        "doc_3bed13a021d538c6:table1_entry7",
+        "doc_3bed13a021d538c6:table1_entry8"
+      ],
+      "unresolved": ["Catalyst structures A-D are retained by labels/drawings without speculative concrete SMILES.", "Complete atom mapping for the 1a-to-2a cascade is unavailable."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2, left column",
+          "finding": "Products 2a-2x and their yields were inventoried. 2a maps to Table 1 entry 3; 2b-2x each map to a separate substrate_scope record. Selectivities for 2r (rr 10:1), 2v (dr 2.6:1), and 2w (dr 6.1:1) are product-targeted outcomes.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page3:text", "doc_3bed13a021d538c6:page3:image"]
+        },
+        {
+          "region": "Scheme 2 caption, lower-left",
+          "finding": "Caption reports C (5 mol%), DCE (3 mL), room temperature, 12-24 h, isolated yields, and prints substrate amount as 0.3 mol. The 0.3 mol value conflicts with the page-4 general procedure's 0.3 mmol and both are retained.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page3:text", "doc_3bed13a021d538c6:page3:image"]
+        },
+        {
+          "region": "Scheme 3, upper-right",
+          "finding": "Three arrows are separate executions: gram-scale 1e to 2e, m-CPBA double epoxidation 2e to 3e, and FeCl3 conversion 3e to 4e.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page3:text", "doc_3bed13a021d538c6:page3:image"]
+        },
+        {
+          "region": "Scheme 4a-b, middle/lower-right",
+          "finding": "Two mechanistic controls are separate: attempted isolation of transient 5 followed by polymerization during chromatography, and two-stage trapping with 2 equiv N-phenylmaleimide to give 6 in 81% yield.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page3:text", "doc_3bed13a021d538c6:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_3bed13a021d538c6:table1_entry3",
+        "doc_3bed13a021d538c6:scope_2b", "doc_3bed13a021d538c6:scope_2c", "doc_3bed13a021d538c6:scope_2d", "doc_3bed13a021d538c6:scope_2e", "doc_3bed13a021d538c6:scope_2f", "doc_3bed13a021d538c6:scope_2g", "doc_3bed13a021d538c6:scope_2h", "doc_3bed13a021d538c6:scope_2i", "doc_3bed13a021d538c6:scope_2j", "doc_3bed13a021d538c6:scope_2k", "doc_3bed13a021d538c6:scope_2l", "doc_3bed13a021d538c6:scope_2m", "doc_3bed13a021d538c6:scope_2n", "doc_3bed13a021d538c6:scope_2o", "doc_3bed13a021d538c6:scope_2p", "doc_3bed13a021d538c6:scope_2q", "doc_3bed13a021d538c6:scope_2r", "doc_3bed13a021d538c6:scope_2s", "doc_3bed13a021d538c6:scope_2t", "doc_3bed13a021d538c6:scope_2u", "doc_3bed13a021d538c6:scope_2v", "doc_3bed13a021d538c6:scope_2w", "doc_3bed13a021d538c6:scope_2x",
+        "doc_3bed13a021d538c6:scheme3_scaleup_1e_to_2e",
+        "doc_3bed13a021d538c6:scheme3_2e_to_3e",
+        "doc_3bed13a021d538c6:scheme3_3e_to_4e",
+        "doc_3bed13a021d538c6:scheme4a_intermediate_not_isolable",
+        "doc_3bed13a021d538c6:scheme4b_trapping_to_6"
+      ],
+      "unresolved": ["Exact substrate-specific time within the Scheme 2 range is not reported.", "Yield measurement bases for the three Scheme 3 arrows and Scheme 4b are not stated.", "Absolute configurations and selectivity measurement methods are not reported."]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 5, upper-left",
+          "finding": "Multi-arrow author-proposed catalytic mechanism is represented by one proposed_mechanism record; intermediates Ia-VIIa are not treated as observed experiments.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page4:text", "doc_3bed13a021d538c6:page4:image"]
+        },
+        {
+          "region": "Experimental Section general procedure, lower-left",
+          "finding": "General setup, 0.3 mmol substrate, DCE 3 mL, catalyst C 14 mg/15 umol/5 mol%, room temperature 12 h, reduced-pressure solvent removal, and silica flash chromatography with petroleum ether/Et2O 100:1 to 10:1 were structured and inherited by Scheme 2 records.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page4:text", "doc_3bed13a021d538c6:page4:image"]
+        },
+        {
+          "region": "product paragraphs 2a-2f, right column",
+          "finding": "Product masses/yields support the existing preparation records. NMR, HRMS, melting points, and physical descriptions are retained as characterization source_context rather than new reactions.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page4:text", "doc_3bed13a021d538c6:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_3bed13a021d538c6:scheme5_proposed_mechanism",
+        "doc_3bed13a021d538c6:table1_entry3",
+        "doc_3bed13a021d538c6:scope_2b", "doc_3bed13a021d538c6:scope_2c", "doc_3bed13a021d538c6:scope_2d", "doc_3bed13a021d538c6:scope_2e", "doc_3bed13a021d538c6:scope_2f", "doc_3bed13a021d538c6:scope_2g", "doc_3bed13a021d538c6:scope_2h", "doc_3bed13a021d538c6:scope_2i", "doc_3bed13a021d538c6:scope_2j", "doc_3bed13a021d538c6:scope_2k", "doc_3bed13a021d538c6:scope_2l", "doc_3bed13a021d538c6:scope_2m", "doc_3bed13a021d538c6:scope_2n", "doc_3bed13a021d538c6:scope_2o", "doc_3bed13a021d538c6:scope_2p", "doc_3bed13a021d538c6:scope_2q", "doc_3bed13a021d538c6:scope_2r", "doc_3bed13a021d538c6:scope_2s", "doc_3bed13a021d538c6:scope_2t", "doc_3bed13a021d538c6:scope_2u", "doc_3bed13a021d538c6:scope_2v", "doc_3bed13a021d538c6:scope_2w", "doc_3bed13a021d538c6:scope_2x"
+      ],
+      "unresolved": ["General procedure says 12 h whereas Scheme 2 gives 12-24 h; exact per-substrate times are unavailable.", "Complex structures are not converted to unverified concrete SMILES."]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "both columns, continuation of 2f and product paragraphs 2g-2p",
+          "finding": "Reported product masses/yields for 2g-2p map to existing Scheme 2 records. Spectral data, HRMS, melting points, and physical descriptions (including continuation of 2f) are characterization context, not synthesis records.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page5:text", "doc_3bed13a021d538c6:page5:image"]
+        }
+      ],
+      "record_ids": ["doc_3bed13a021d538c6:scope_2f", "doc_3bed13a021d538c6:scope_2g", "doc_3bed13a021d538c6:scope_2h", "doc_3bed13a021d538c6:scope_2i", "doc_3bed13a021d538c6:scope_2j", "doc_3bed13a021d538c6:scope_2k", "doc_3bed13a021d538c6:scope_2l", "doc_3bed13a021d538c6:scope_2m", "doc_3bed13a021d538c6:scope_2n", "doc_3bed13a021d538c6:scope_2o", "doc_3bed13a021d538c6:scope_2p"],
+      "unresolved": ["Characterization confirms reported identities/formulae but does not by itself resolve full stereochemical SMILES or atom mapping."]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "both columns, continuation of 2p and product paragraphs 2q-2x",
+          "finding": "Reported product masses/yields for 2q-2x map to existing Scheme 2 records; 2r regioisomer ratio and 2v/2w diastereomer ratios were preserved. NMR/HRMS/melting-point content is characterization context, not new reactions.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page6:text", "doc_3bed13a021d538c6:page6:image"]
+        },
+        {
+          "region": "lower-right acknowledgments/keywords/references",
+          "finding": "No additional reaction execution appears in this region.",
+          "evidence_ids": ["doc_3bed13a021d538c6:page6:text", "doc_3bed13a021d538c6:page6:image"]
+        }
+      ],
+      "record_ids": ["doc_3bed13a021d538c6:scope_2p", "doc_3bed13a021d538c6:scope_2q", "doc_3bed13a021d538c6:scope_2r", "doc_3bed13a021d538c6:scope_2s", "doc_3bed13a021d538c6:scope_2t", "doc_3bed13a021d538c6:scope_2u", "doc_3bed13a021d538c6:scope_2v", "doc_3bed13a021d538c6:scope_2w", "doc_3bed13a021d538c6:scope_2x"],
+      "unresolved": ["The major/minor absolute configurations for 2v/2w and regioisomer identities for 2r are not assigned; selectivity measurement methods are not reported."]
+    }
+  ]
+}

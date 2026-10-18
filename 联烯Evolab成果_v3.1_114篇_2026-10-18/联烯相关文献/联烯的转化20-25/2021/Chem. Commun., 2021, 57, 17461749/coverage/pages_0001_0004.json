@@ -1,0 +1,247 @@
+{
+  "document_id": "doc_1a0071146ff7cf43",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, citation, abstract, and ESI notice",
+          "finding": "Metadata and article summary; ESI is advertised but no SI file was supplied or associated.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page1:image"
+          ]
+        },
+        {
+          "region": "two-column introduction",
+          "finding": "Background and cited literature discussion; no current concrete experiment arrow or table row.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page1:image"
+          ]
+        },
+        {
+          "region": "Figure 1",
+          "finding": "Selected bioactive oxindole/allene scaffolds; non-synthetic context, not experiments from this paper.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No SI was supplied despite the availability notice; CCDC files were not treated as attached sources."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1",
+          "finding": "Three cited prior-work reaction families plus one current generic divergent scheme; classified separately from current concrete experiments.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page2:image"
+          ]
+        },
+        {
+          "region": "left-column feasibility and optimization prose",
+          "finding": "The 18% feasibility result duplicates Table 1 entry 1; the optimized 75% result duplicates Table 1 entry 25/Scheme 2 product 3a.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 2",
+          "finding": "All 36 printed products 3a–3aj inventoried; 3a is cross-page-deduplicated with Table 1 entry 25, and 35 additional scope records were created.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page2:image"
+          ]
+        },
+        {
+          "region": "right-column scope discussion",
+          "finding": "Three explicit failed scope limitations (5-OMe isatin, 5-NO2 isatin, gamma-phenyl allenoate) retained without fabricated products.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1a0071146ff7cf43:literature_jia_2011",
+        "doc_1a0071146ff7cf43:literature_nair_2015",
+        "doc_1a0071146ff7cf43:literature_yao_2019",
+        "doc_1a0071146ff7cf43:generic_divergent_scheme",
+        "doc_1a0071146ff7cf43:table1_entry1",
+        "doc_1a0071146ff7cf43:table1_entry25",
+        "doc_1a0071146ff7cf43:scheme2_3b",
+        "doc_1a0071146ff7cf43:scheme2_3c",
+        "doc_1a0071146ff7cf43:scheme2_3d",
+        "doc_1a0071146ff7cf43:scheme2_3e",
+        "doc_1a0071146ff7cf43:scheme2_3f",
+        "doc_1a0071146ff7cf43:scheme2_3g",
+        "doc_1a0071146ff7cf43:scheme2_3h",
+        "doc_1a0071146ff7cf43:scheme2_3i",
+        "doc_1a0071146ff7cf43:scheme2_3j",
+        "doc_1a0071146ff7cf43:scheme2_3k",
+        "doc_1a0071146ff7cf43:scheme2_3l",
+        "doc_1a0071146ff7cf43:scheme2_3m",
+        "doc_1a0071146ff7cf43:scheme2_3n",
+        "doc_1a0071146ff7cf43:scheme2_3o",
+        "doc_1a0071146ff7cf43:scheme2_3p",
+        "doc_1a0071146ff7cf43:scheme2_3q",
+        "doc_1a0071146ff7cf43:scheme2_3r",
+        "doc_1a0071146ff7cf43:scheme2_3s",
+        "doc_1a0071146ff7cf43:scheme2_3t",
+        "doc_1a0071146ff7cf43:scheme2_3u",
+        "doc_1a0071146ff7cf43:scheme2_3v",
+        "doc_1a0071146ff7cf43:scheme2_3w",
+        "doc_1a0071146ff7cf43:scheme2_3x",
+        "doc_1a0071146ff7cf43:scheme2_3y",
+        "doc_1a0071146ff7cf43:scheme2_3z",
+        "doc_1a0071146ff7cf43:scheme2_3aa",
+        "doc_1a0071146ff7cf43:scheme2_3ab",
+        "doc_1a0071146ff7cf43:scheme2_3ac",
+        "doc_1a0071146ff7cf43:scheme2_3ad",
+        "doc_1a0071146ff7cf43:scheme2_3ae",
+        "doc_1a0071146ff7cf43:scheme2_3af",
+        "doc_1a0071146ff7cf43:scheme2_3ag",
+        "doc_1a0071146ff7cf43:scheme2_3ah",
+        "doc_1a0071146ff7cf43:scheme2_3ai",
+        "doc_1a0071146ff7cf43:scheme2_3aj",
+        "doc_1a0071146ff7cf43:limit_5OMe_isatin",
+        "doc_1a0071146ff7cf43:limit_5NO2_isatin",
+        "doc_1a0071146ff7cf43:limit_gamma_phenyl_allenoate"
+      ],
+      "unresolved": [
+        "Scheme 2 does not state yield measurement methods for products other than the deduplicated 3a table experiment.",
+        "Most compact product structures cannot be safely encoded as complete SMILES; source labels/drawings and stereo status are retained."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 and footnotes",
+          "finding": "All 26 optimization rows inventoried separately; dashes and trace values preserved qualitatively; entry 12 separately records 4a at 36% isolated yield.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 3",
+          "finding": "All 19 gamma-functionalized allenoate outcomes 4a–4s recorded with printed yields and dr values.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 3 header and optimization prose",
+          "finding": "Temperature conflict retained: the scheme prints both 0–5 °C and rt, while prose states 0–5 °C for 0.5 h.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 4",
+          "finding": "Three distinct mechanistic controls recorded: rapid 4a formation then cyclization, isolated-4a cyclization, and DABCO formation of 4a without further cyclization.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1a0071146ff7cf43:generic_divergent_scheme",
+        "doc_1a0071146ff7cf43:table1_entry1",
+        "doc_1a0071146ff7cf43:table1_entry2",
+        "doc_1a0071146ff7cf43:table1_entry3",
+        "doc_1a0071146ff7cf43:table1_entry4",
+        "doc_1a0071146ff7cf43:table1_entry5",
+        "doc_1a0071146ff7cf43:table1_entry6",
+        "doc_1a0071146ff7cf43:table1_entry7",
+        "doc_1a0071146ff7cf43:table1_entry8",
+        "doc_1a0071146ff7cf43:table1_entry9",
+        "doc_1a0071146ff7cf43:table1_entry10",
+        "doc_1a0071146ff7cf43:table1_entry11",
+        "doc_1a0071146ff7cf43:table1_entry12",
+        "doc_1a0071146ff7cf43:table1_entry13",
+        "doc_1a0071146ff7cf43:table1_entry14",
+        "doc_1a0071146ff7cf43:table1_entry15",
+        "doc_1a0071146ff7cf43:table1_entry16",
+        "doc_1a0071146ff7cf43:table1_entry17",
+        "doc_1a0071146ff7cf43:table1_entry18",
+        "doc_1a0071146ff7cf43:table1_entry19",
+        "doc_1a0071146ff7cf43:table1_entry20",
+        "doc_1a0071146ff7cf43:table1_entry21",
+        "doc_1a0071146ff7cf43:table1_entry22",
+        "doc_1a0071146ff7cf43:table1_entry23",
+        "doc_1a0071146ff7cf43:table1_entry24",
+        "doc_1a0071146ff7cf43:table1_entry25",
+        "doc_1a0071146ff7cf43:table1_entry26",
+        "doc_1a0071146ff7cf43:scheme3_4a",
+        "doc_1a0071146ff7cf43:scheme3_4b",
+        "doc_1a0071146ff7cf43:scheme3_4c",
+        "doc_1a0071146ff7cf43:scheme3_4d",
+        "doc_1a0071146ff7cf43:scheme3_4e",
+        "doc_1a0071146ff7cf43:scheme3_4f",
+        "doc_1a0071146ff7cf43:scheme3_4g",
+        "doc_1a0071146ff7cf43:scheme3_4h",
+        "doc_1a0071146ff7cf43:scheme3_4i",
+        "doc_1a0071146ff7cf43:scheme3_4j",
+        "doc_1a0071146ff7cf43:scheme3_4k",
+        "doc_1a0071146ff7cf43:scheme3_4l",
+        "doc_1a0071146ff7cf43:scheme3_4m",
+        "doc_1a0071146ff7cf43:scheme3_4n",
+        "doc_1a0071146ff7cf43:scheme3_4o",
+        "doc_1a0071146ff7cf43:scheme3_4p",
+        "doc_1a0071146ff7cf43:scheme3_4q",
+        "doc_1a0071146ff7cf43:scheme3_4r",
+        "doc_1a0071146ff7cf43:scheme3_4s",
+        "doc_1a0071146ff7cf43:scheme4a_intermediate_then_cyclization",
+        "doc_1a0071146ff7cf43:scheme4b_isolated_4a_cyclization",
+        "doc_1a0071146ff7cf43:scheme4c_dabco_no_cyclization"
+      ],
+      "unresolved": [
+        "Scheme 3 yield/dr measurement methods and dr component identities/order are unreported.",
+        "Several Scheme 4 reagent charges and yield methods are unreported."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 5",
+          "finding": "One author-proposed mechanism A–F retained as a proposed-mechanism record; intermediates were not expanded into executed experiments.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page4:image"
+          ]
+        },
+        {
+          "region": "left-column continuation of control interpretation",
+          "finding": "Cross-page discussion supports the Scheme 4 controls and DBU/DABCO divergence; linked to existing controls rather than duplicated.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page4:image"
+          ]
+        },
+        {
+          "region": "summary, acknowledgements, conflicts, and references",
+          "finding": "Non-experimental text; no additional current synthesis arrow, optimization row, or procedure.",
+          "evidence_ids": [
+            "doc_1a0071146ff7cf43:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1a0071146ff7cf43:scheme4a_intermediate_then_cyclization",
+        "doc_1a0071146ff7cf43:scheme4b_isolated_4a_cyclization",
+        "doc_1a0071146ff7cf43:scheme4c_dabco_no_cyclization",
+        "doc_1a0071146ff7cf43:scheme5_proposed_mechanism"
+      ],
+      "unresolved": [
+        "The gamma-functionalized-allenoate mechanism in Scheme S2 is mentioned but unavailable because SI was not supplied.",
+        "No standalone mass-spectrum peak table, molecular-weight table, or fragment-abundance block was found on pages 1–4."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1005 @@
+{
+  "reaction_id": "doc_6809ee7b65b00f0c:scheme4_control_5",
+  "document_id": "doc_6809ee7b65b00f0c",
+  "record_type": "specific_experiment",
+  "experiment_categories": {
+    "raw_value": [
+      "control"
+    ],
+    "normalized_value": [
+      "control"
+    ],
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_6809ee7b65b00f0c:page3:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "location": {
+    "raw_value": "Scheme 4 control with 5",
+    "normalized_value": {
+      "page": 3,
+      "region": "Scheme 4 control with 5"
+    },
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_6809ee7b65b00f0c:page3:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "general_scheme_ids": [
+    "doc_6809ee7b65b00f0c:scheme1_current"
+  ],
+  "reaction_name": {
+    "raw_value": "control experiment",
+    "normalized_value": "control experiment",
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_6809ee7b65b00f0c:page3:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "transformation_type": {
+    "raw_value": "control experiment",
+    "normalized_value": "attempted tandem annulation",
+    "acquisition_method": "inference",
+    "evidence_ids": [
+      "doc_6809ee7b65b00f0c:page3:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "inferred",
+    "derivation": "Normalized transformation type from the source reaction title/drawing.",
+    "alternatives": []
+  },
+  "participants": [
+    {
+      "participant_id": "p_aldimine",
+      "molecule_id": "m_5",
+      "role": "reactant",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": "0.1 mmol",
+          "normalized_value": {
+            "number": 0.1,
+            "unit": "mmol",
+            "raw_text": "0.1 mmol"
+          },
+          "acquisition_method": "inherited_general_condition",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": "Scheme 4 says 'under our standard condition'; the 0.10/0.12 mmol substrate charges, 1.2 equiv allenoate, 2.0 mL solvent, and 4 h time are inherited from the displayed standard scope conditions.",
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": "1.0 equiv",
+          "normalized_value": {
+            "number": 1.0,
+            "unit": "equiv",
+            "raw_text": "1.0 equiv"
+          },
+          "acquisition_method": "inherited_general_condition",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": "Scheme 4 says 'under our standard condition'; the 0.10/0.12 mmol substrate charges, 1.2 equiv allenoate, 2.0 mL solvent, and 4 h time are inherited from the displayed standard scope conditions.",
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "m_5",
+        "normalized_value": "m_5",
+        "acquisition_method": "inference",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Equivalence/loading denominator is the displayed 1.0 equiv limiting aldimine substrate.",
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "p_allenoate",
+      "molecule_id": "m_2a",
+      "role": "reactant",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": "0.12 mmol",
+          "normalized_value": {
+            "number": 0.12,
+            "unit": "mmol",
+            "raw_text": "0.12 mmol"
+          },
+          "acquisition_method": "inherited_general_condition",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": "Scheme 4 says 'under our standard condition'; the 0.10/0.12 mmol substrate charges, 1.2 equiv allenoate, 2.0 mL solvent, and 4 h time are inherited from the displayed standard scope conditions.",
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": "1.2 equiv",
+          "normalized_value": {
+            "number": 1.2,
+            "unit": "equiv",
+            "raw_text": "1.2 equiv"
+          },
+          "acquisition_method": "inherited_general_condition",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": "Scheme 4 says 'under our standard condition'; the 0.10/0.12 mmol substrate charges, 1.2 equiv allenoate, 2.0 mL solvent, and 4 h time are inherited from the displayed standard scope conditions.",
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "m_5",
+        "normalized_value": "m_5",
+        "acquisition_method": "inference",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Equivalence/loading denominator is the displayed 1.0 equiv limiting aldimine substrate.",
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "p_base",
+      "molecule_id": "m_K2CO3",
+      "role": "reagent",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": "1.1 equiv",
+          "normalized_value": {
+            "number": 1.1,
+            "unit": "equiv",
+            "raw_text": "1.1 equiv"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "m_5",
+        "normalized_value": "m_5",
+        "acquisition_method": "inference",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Equivalence/loading denominator is the displayed 1.0 equiv limiting aldimine substrate.",
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "p_catalyst",
+      "molecule_id": "m_PPh3",
+      "role": "catalyst",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": "20 mol%",
+          "normalized_value": {
+            "number": 20,
+            "unit": "mol%",
+            "raw_text": "20 mol%"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "m_5",
+        "normalized_value": "m_5",
+        "acquisition_method": "inference",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Equivalence/loading denominator is the displayed 1.0 equiv limiting aldimine substrate.",
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "p_solvent",
+      "molecule_id": "m_PhMe",
+      "role": "solvent",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_6809ee7b65b00f0c:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "reaction_scale": {
+    "raw_value": {
+      "reference": "m_5",
+      "amount": "0.1 mmol"
+    },
+    "normalized_value": {
+      "reference_molecule_id": "m_5",
+      "amount": {
+        "number": 0.1,
+        "unit": "mmol",
+        "raw_text": "0.1 mmol"
+      }
+    },
+    "acquisition_method": "inference",
+    "evidence_ids": [
+      "doc_6809ee7b65b00f0c:page3:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "inferred",
+    "derivation": "Reaction scale normalized from the displayed limiting-reactant amount.",
+    "alternatives": []
+  },
+  "solvent_conditions": {
+    "composition": {
+      "raw_value": "PhMe",
+      "normalized_value": [
+        "PhMe"
+      ],
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "mixture_ratio": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "total_volume": {
+      "raw_value": "standard condition (2.0 mL)",
+      "normalized_value": {
+        "number": 2.0,
+        "unit": "mL",
+        "raw_text": "standard 2.0 mL"
+      },
+      "acquisition_method": "inherited_general_condition",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": "Scheme 4 says 'under our standard condition'; the 0.10/0.12 mmol substrate charges, 1.2 equiv allenoate, 2.0 mL solvent, and 4 h time are inherited from the displayed standard scope conditions.",
+      "alternatives": []
+    },
+    "concentration": {
+      "raw_value": "displayed scale/volume",
+      "normalized_value": {
+        "number": 0.05,
+        "unit": "M",
+        "raw_text": "derived 0.05 M"
+      },
+      "acquisition_method": "inference",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "inferred",
+      "derivation": "Computed from displayed limiting-substrate mmol divided by displayed total solvent volume.",
+      "alternatives": []
+    },
+    "concentration_basis": {
+      "raw_value": "m_5",
+      "normalized_value": "m_5",
+      "acquisition_method": "inference",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "inferred",
+      "derivation": "Limiting aldimine substrate used as concentration basis.",
+      "alternatives": []
+    }
+  },
+  "steps": [
+    {
+      "step_id": "reaction",
+      "stage": "reaction",
+      "participant_ids": [
+        "p_aldimine",
+        "p_allenoate",
+        "p_base",
+        "p_catalyst",
+        "p_solvent"
+      ],
+      "operation": {
+        "raw_value": "treated with 2a under the standard condition",
+        "normalized_value": "treated with 2a under the standard condition",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": "40 °C",
+        "normalized_value": {
+          "number": 40,
+          "unit": "°C",
+          "raw_text": "40 °C"
+        },
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": "standard condition (4 h)",
+        "normalized_value": {
+          "number": 4,
+          "unit": "h",
+          "raw_text": "standard 4 h"
+        },
+        "acquisition_method": "inherited_general_condition",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": "Scheme 4 says 'under our standard condition'; the 0.10/0.12 mmol substrate charges, 1.2 equiv allenoate, 2.0 mL solvent, and 4 h time are inherited from the displayed standard scope conditions.",
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "special_conditions": {
+    "light_source": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "wavelength": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "power": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "current": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "voltage": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "electrodes": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "flow_parameters": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "reactor": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "procedure": {
+    "original_text": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "general_procedure_reference": {
+      "raw_value": "under our standard condition",
+      "normalized_value": "Scheme 2/3 standard conditions",
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "modifications": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "addition_order": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "pretreatment": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "outcomes": [
+    {
+      "outcome_id": "no_product",
+      "kind": "no_reaction",
+      "target_molecule_ids": [],
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "value": {
+        "raw_value": "No product",
+        "normalized_value": "No product",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "yield_type": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "measurement_basis": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "scope": {
+        "raw_value": "target annulation product not obtained",
+        "normalized_value": "target annulation product not obtained",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_6809ee7b65b00f0c:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "classification": {
+    "standard_id": "bond-formation-20261016",
+    "mapped_reaction_smiles": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "bond_changes": [],
+    "labels": {
+      "raw_value": [],
+      "normalized_value": [],
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "coverage": {
+      "raw_value": null,
+      "normalized_value": "not_applicable",
+      "acquisition_method": "inference",
+      "evidence_ids": [
+        "doc_6809ee7b65b00f0c:page3:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "inferred",
+      "derivation": "No target-product transformation was observed.",
+      "alternatives": []
+    },
+    "limitations": [
+      "No observed product; intended transformation is not classified."
+    ],
+    "model_votes": []
+  },
+  "notes": [],
+  "evidence_ids": [
+    "doc_6809ee7b65b00f0c:page3:image"
+  ],
+  "review": {
+    "status": "needs_review",
+    "method": "model",
+    "reviewer": null,
+    "checked_fields": [],
+    "unresolved": [
+      "No detection method/limit is reported; the 4 h time is inherited from the explicitly referenced standard conditions."
+    ]
+  },
+  "completeness": "partial"
+}

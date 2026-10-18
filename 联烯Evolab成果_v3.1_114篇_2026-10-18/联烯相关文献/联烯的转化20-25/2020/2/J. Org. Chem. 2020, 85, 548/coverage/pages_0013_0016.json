@@ -1,0 +1,108 @@
+{
+  "document_id": "doc_66a75af3fbad9e13",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 13,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "experimental section, compounds 46-51",
+          "finding": "Detailed procedures for Table 3 entries 2-6 and 8 were matched to and merged into the existing row-level experiments. Entry 7 remains a distinct table-only condition and was not conflated with the detailed compound-50 preparation.",
+          "evidence_ids": [
+            "doc_66a75af3fbad9e13:page13:image"
+          ]
+        },
+        {
+          "region": "lower-right start of compound 52 procedure",
+          "finding": "The preparation corresponding to Table 3 entry 9 begins here and continues on page 14; both pages are linked to one experiment.",
+          "evidence_ids": [
+            "doc_66a75af3fbad9e13:page13:image"
+          ]
+        },
+        {
+          "region": "analytical paragraphs for compounds 46-51",
+          "finding": "IR/NMR/HRMS peak lists and calculated/found masses were classified as characterization context, not synthesis experiments.",
+          "evidence_ids": [
+            "doc_66a75af3fbad9e13:page13:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_66a75af3fbad9e13:table3_entry_2",
+        "doc_66a75af3fbad9e13:table3_entry_3",
+        "doc_66a75af3fbad9e13:table3_entry_4",
+        "doc_66a75af3fbad9e13:table3_entry_5",
+        "doc_66a75af3fbad9e13:table3_entry_6",
+        "doc_66a75af3fbad9e13:table3_entry_8",
+        "doc_66a75af3fbad9e13:table3_entry_9"
+      ],
+      "unresolved": [
+        "Table 3 versus detailed-text conflicts remain unresolved for entry 2 time/yield (13 h and 77-82% versus 12 h and 80%) and entry 8 time (16 h versus 18 h)."
+      ]
+    },
+    {
+      "page": 14,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation of compound 52",
+          "finding": "Workup, hexanes trituration, 0.196 g product, and 75% isolated yield complete the existing Table 3 entry 9 record.",
+          "evidence_ids": [
+            "doc_66a75af3fbad9e13:page14:image"
+          ]
+        },
+        {
+          "region": "compound 52 characterization",
+          "finding": "Melting point, IR, NMR, and HRMS data were retained as characterization context rather than a reaction.",
+          "evidence_ids": [
+            "doc_66a75af3fbad9e13:page14:image"
+          ]
+        },
+        {
+          "region": "Associated Content, author information, acknowledgments, and references",
+          "finding": "Back matter and cited prior work are not current-paper experiments. The SI notice was recorded, but no SI was associated because source_mapping.json leaves that relationship unestablished.",
+          "evidence_ids": [
+            "doc_66a75af3fbad9e13:page14:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_66a75af3fbad9e13:table3_entry_9"
+      ],
+      "unresolved": [
+        "The advertised Supporting Information was not supplied or explicitly associated, so it was not used."
+      ]
+    },
+    {
+      "page": 15,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "full page, references 7-24",
+          "finding": "Bibliographic citations and descriptions of prior work only; no current-paper experimental arrow, table row, or procedure was found.",
+          "evidence_ids": [
+            "doc_66a75af3fbad9e13:page15:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    },
+    {
+      "page": 16,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "full page, references 25-41",
+          "finding": "Bibliographic citations and descriptions of prior work only; no current-paper experimental arrow, table row, or procedure was found.",
+          "evidence_ids": [
+            "doc_66a75af3fbad9e13:page16:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "document_id": "doc_ef264899de17791f",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation",
+          "finding": "Continuation of 18/19 NMR and MS characterization; linked as source_context and not counted as a new synthesis.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page7:image",
+            "doc_ef264899de17791f:page7:text"
+          ]
+        },
+        {
+          "region": "left column, procedure for 20",
+          "finding": "Two independent nucleophilic epoxidation batches (2.0 g, 80%; repeated 2.9 g, 72%) followed by a pooled Eschenmoser–Tanabe fragmentation to 20 (60%); represented by r23, r24 and enriched r10.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page7:image",
+            "doc_ef264899de17791f:page7:text"
+          ]
+        },
+        {
+          "region": "lower-left to upper-right, procedure for 21",
+          "finding": "Detailed LTBA reduction/TBS protection sequence with −60 °C hold, separate workups, 85% over two steps, relative assignment discussion, and a separate qualitative NaBH4 comparison; represented by enriched r11 and new r25.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page7:image",
+            "doc_ef264899de17791f:page7:text"
+          ]
+        },
+        {
+          "region": "right column, procedure for 22",
+          "finding": "Detailed Wittig methylenation (97%) and CuI/LiOtBu Wang allenation (75%) including pretreatment, addition order, times, concentrations, workup and purification; enriches r12.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page7:image",
+            "doc_ef264899de17791f:page7:text"
+          ]
+        },
+        {
+          "region": "NMR/HRMS blocks for 20-22",
+          "finding": "Characterization retained in source_context; no synthetic records created from spectral peaks.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page7:image",
+            "doc_ef264899de17791f:page7:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ef264899de17791f:r09_14_to_18_19",
+        "doc_ef264899de17791f:r10_1_to_20_scheme4",
+        "doc_ef264899de17791f:r11_20_to_21_scheme4",
+        "doc_ef264899de17791f:r12_21_to_22_scheme4",
+        "doc_ef264899de17791f:r23_1_to_s4_epoxide_batch1",
+        "doc_ef264899de17791f:r24_1_to_s4_epoxide_batch2",
+        "doc_ef264899de17791f:r25_parallel_nabh4_reduction"
+      ],
+      "unresolved": [
+        "The repeated 2.9 g epoxidation batch does not provide batch-specific reagent amounts or solvent volume.",
+        "The NaBH4 comparison gives no numerical dr, measurement method, detailed conditions or yield.",
+        "The epoxide intermediate is unlabelled and has no standalone complete structure drawing.",
+        "Allene 22 has no axial assignment and no evidence-checked full SMILES was encoded."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation",
+          "finding": "Completion of 22 characterization followed by the detailed three-stage 22→allenyl ketone→hydrazone→23+24 procedure; enriches r13 and provides product-specific isolated yields 16% and 60%.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page8:image",
+            "doc_ef264899de17791f:page8:text"
+          ]
+        },
+        {
+          "region": "middle-left NMR/HRMS blocks",
+          "finding": "Characterization of 23 and 24 retained in source_context; spectral peaks are not separate reactions.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page8:image",
+            "doc_ef264899de17791f:page8:text"
+          ]
+        },
+        {
+          "region": "lower-left and right column",
+          "finding": "Acknowledgments, keywords and references 1-21; cited works are background, not current-paper experiments.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page8:image",
+            "doc_ef264899de17791f:page8:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ef264899de17791f:r12_21_to_22_scheme4",
+        "doc_ef264899de17791f:r13_22_to_23_24_scheme4"
+      ],
+      "unresolved": [
+        "The Scheme 4 ratio 23:24=4:15 has no reported measurement method.",
+        "Complex relative stereochemistry for 23/24 is preserved from headings but not encoded as isomeric SMILES."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "entire page",
+          "finding": "References 21-25 and received date only; no scheme, table, reaction arrow, experimental procedure, control, or new characterization record.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page9:image",
+            "doc_ef264899de17791f:page9:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No synthetic experiment is present on this page; cited references were not reclassified as executions in the current paper."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "document_id": "doc_782b0f765a8c7b3d",
+  "scope": "Original PDF pages 1-4, visually inspected from rendered page images",
+  "pages": [
+    {
+      "page": 1,
+      "regions": [
+        {"region": "title/abstract", "finding": "Article metadata and current-work summary; no independent experiment arrow."},
+        {"region": "left-column introduction", "finding": "Narrative prior-work references; the actual overview arrows are Scheme 1 on page 2."},
+        {"region": "right-column current-work discussion", "finding": "Describes Scheme 2 experiments 1a+2a and 1b+2a, individual products, X-ray/NMR assignments, and two actual mechanistic operations: omission of 2a and subsequent reaction of 7 with 2a."}
+      ]
+    },
+    {
+      "page": 2,
+      "regions": [
+        {"region": "Scheme 1a-c", "finding": "Three prior-literature transformation overviews, retained as literature_example records; not counted as current-paper experiments."},
+        {"region": "Figure 1", "finding": "Single-crystal structure of 3aa; structure evidence only, not a new synthesis."},
+        {"region": "body text", "finding": "Proposed pathway discussion; Table 1 substrate trends; Scheme 4 regioselectivity discussion. Repeated mentions link to existing experiments."},
+        {"region": "Scheme 2 upper arrow", "finding": "One current experiment: 1a+2a with Mo(CO)6 in xylenes at reflux, giving 3aa 31%, 4aa 12%, 5aa 8%, plus printed 31P NMR shifts."},
+        {"region": "Scheme 2 lower arrow", "finding": "One current experiment: 1b+2a under the same printed arrow conditions, giving 3ba 21% and 6ba 36%, plus printed 31P NMR shifts."}
+      ]
+    },
+    {
+      "page": 3,
+      "regions": [
+        {"region": "Scheme 3", "finding": "Plausible proposed mechanism with intermediate 7 and competing [2+2]/[4+2] branches; not an additional experiment."},
+        {"region": "Table 1 header arrow", "finding": "One generic reaction scheme, separated from experimental rows."},
+        {"region": "Table 1 entries 1-8 and footnotes", "finding": "Eight distinct substrate-scope experiments; entries 6-7 are 1:1 regioisomer mixtures by 31P NMR, entry 8 reports 0 in isolated-product yield column and no product is invented."},
+        {"region": "Scheme 4 upper arrow", "finding": "One experiment 1a+2d giving 4ad/4ad′, total 53%, ratio 6:1."},
+        {"region": "Scheme 4 lower arrow rows", "finding": "Three experiments 1b+2d/2f/2g giving 6bd/6bd′ 57% (8:1), 6bf/6bf′ 40% (7:1), and 6bg/6bg′ 48% (3:1). Ratios are stated in prose to be determined by 31P NMR."}
+      ]
+    },
+    {
+      "page": 4,
+      "regions": [
+        {"region": "Figure 2", "finding": "Single-crystal structure of 6bd and selected bond metrics; structure assignment context, not a separate synthesis."},
+        {"region": "Appendix A. Supplementary data", "finding": "States that supplementary material is available online; no SI file was supplied or explicitly associated in this run."},
+        {"region": "Acknowledgments and references", "finding": "No current-paper synthetic experiment or characterization peak table."}
+      ]
+    }
+  ],
+  "crops": [
+    "raw_model/page2_scheme1.png",
+    "raw_model/page2_scheme2.png",
+    "raw_model/page3_scheme3.png",
+    "raw_model/page3_table1.png",
+    "raw_model/page3_scheme4.png"
+  ],
+  "semantic_accuracy_verified": false
+}

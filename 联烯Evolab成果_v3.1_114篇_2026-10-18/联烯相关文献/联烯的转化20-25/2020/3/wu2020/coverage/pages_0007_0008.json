@@ -1,0 +1,60 @@
+{
+  "document_id": "doc_439fe3cfd49f9dfc",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "two-column references section (references 6-18)",
+          "finding": "Reference list only; cited papers are prior literature and no experiment performed in this article is shown on the page.",
+          "evidence_ids": [
+            "doc_439fe3cfd49f9dfc:page7:text",
+            "doc_439fe3cfd49f9dfc:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left graphical reaction panel",
+          "finding": "Generic phosphine-catalyzed [3+2] annulation under cat. PR3, anhydrous solvent, Ar and room temperature; duplicate evidence for the existing this-work generic scheme, not a new concrete experiment.",
+          "evidence_ids": [
+            "doc_439fe3cfd49f9dfc:page8:text",
+            "doc_439fe3cfd49f9dfc:page8:image"
+          ]
+        },
+        {
+          "region": "pink feature box and yield/example callouts",
+          "finding": "Article-level summary claims an amino quaternary stereogenic center, up to 94% yield and 30 examples; aggregate claims are not assigned as a product-specific outcome.",
+          "evidence_ids": [
+            "doc_439fe3cfd49f9dfc:page8:text",
+            "doc_439fe3cfd49f9dfc:page8:image"
+          ]
+        },
+        {
+          "region": "right summary paragraph and author line",
+          "finding": "Graphical-abstract narrative and bibliographic content; no additional table row, reaction arrow or experimental procedure.",
+          "evidence_ids": [
+            "doc_439fe3cfd49f9dfc:page8:text",
+            "doc_439fe3cfd49f9dfc:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_439fe3cfd49f9dfc:scheme1_this_work_generic"
+      ],
+      "unresolved": [
+        "R1/R2/R3 identities, PR3 identity/loading, anhydrous-solvent identity/volume and reaction time are not specified in the graphical abstract.",
+        "No absolute configuration or mixture identity is assigned to the highlighted stereogenic center.",
+        "The 94% maximum is not tied to a single row on this page and its measurement basis is not reported here."
+      ]
+    }
+  ]
+}

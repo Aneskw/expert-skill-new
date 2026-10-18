@@ -1,0 +1,223 @@
+{
+  "document_id": "doc_5d57d6fc4002ccdc",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, authors, abstract and article metadata",
+          "finding": "Current-paper bibliographic metadata and abstract; the abstract contrasts DBU formation of 2,3,5-trisubstituted thiophenes with MgBr2/Et3N formation of 2,3,4-regioisomers.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page1:image"
+          ]
+        },
+        {
+          "region": "left-column introduction",
+          "finding": "Background and cited prior work are not current-paper experiments; the authors introduce Scheme 1 as the intended thia-Michael/Dieckmann sequence.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page1:image"
+          ]
+        },
+        {
+          "region": "right-column Table 1 discussion and beginning of Table 2 discussion",
+          "finding": "Narrative evidence for all eight Table 1 optimization entries, including the no-reaction Et3N control, and for the DBU substrate-scope trend; numerical rows are located on page 2.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page1:text",
+            "doc_5d57d6fc4002ccdc:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_5d57d6fc4002ccdc:table1_entry1",
+        "doc_5d57d6fc4002ccdc:table1_entry2",
+        "doc_5d57d6fc4002ccdc:table1_entry3",
+        "doc_5d57d6fc4002ccdc:table1_entry4",
+        "doc_5d57d6fc4002ccdc:table1_entry5",
+        "doc_5d57d6fc4002ccdc:table1_entry6",
+        "doc_5d57d6fc4002ccdc:table1_entry7",
+        "doc_5d57d6fc4002ccdc:table1_entry8",
+        "doc_5d57d6fc4002ccdc:table2_entry1",
+        "doc_5d57d6fc4002ccdc:table2_entry2",
+        "doc_5d57d6fc4002ccdc:table2_entry3",
+        "doc_5d57d6fc4002ccdc:table2_entry4"
+      ],
+      "unresolved": [
+        "No reaction structures are drawn on page 1; record identities and row values require the page-2 tables/schemes.",
+        "Cited prior literature was not converted into current-paper reaction records."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Scheme 1",
+          "finding": "Generic Ar/R tandem thia-Michael addition followed by alternative Dieckmann condensations to product classes 3 and 4; recorded as a generic scheme, not a concrete experiment.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page2:image"
+          ]
+        },
+        {
+          "region": "middle Table 1, entries 1-8 and footnotes a-c",
+          "finding": "Eight independent optimization experiments were transcribed row-by-row, including one 0%/no-addition control, isolated yields, 3a/4a ratios, solvents, X equivalents, and the 400/500 MHz 1H NMR ratio methods.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page2:image"
+          ]
+        },
+        {
+          "region": "lower Table 2, entries 1-6 and footnotes a-c",
+          "finding": "Six independent DBU substrate-scope experiments were transcribed row-by-row with Ar/R assignments, isolated combined yields, and product-ratio measurement methods.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page2:image"
+          ]
+        },
+        {
+          "region": "upper-right prose preceding Scheme 2/3",
+          "finding": "Narrative links Table 3 to MgBr2/Et3N, reports the -78 °C 4a/5a experiment, both 5a cyclization experiments, 5a recovery, and the NOE-based geometry determination.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page2:text",
+            "doc_5d57d6fc4002ccdc:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_5d57d6fc4002ccdc:scheme1_general",
+        "doc_5d57d6fc4002ccdc:table1_entry1",
+        "doc_5d57d6fc4002ccdc:table1_entry2",
+        "doc_5d57d6fc4002ccdc:table1_entry3",
+        "doc_5d57d6fc4002ccdc:table1_entry4",
+        "doc_5d57d6fc4002ccdc:table1_entry5",
+        "doc_5d57d6fc4002ccdc:table1_entry6",
+        "doc_5d57d6fc4002ccdc:table1_entry7",
+        "doc_5d57d6fc4002ccdc:table1_entry8",
+        "doc_5d57d6fc4002ccdc:table2_entry1",
+        "doc_5d57d6fc4002ccdc:table2_entry2",
+        "doc_5d57d6fc4002ccdc:table2_entry3",
+        "doc_5d57d6fc4002ccdc:table2_entry4",
+        "doc_5d57d6fc4002ccdc:table2_entry5",
+        "doc_5d57d6fc4002ccdc:table2_entry6",
+        "doc_5d57d6fc4002ccdc:table3_entry1",
+        "doc_5d57d6fc4002ccdc:table3_entry2",
+        "doc_5d57d6fc4002ccdc:table3_entry3",
+        "doc_5d57d6fc4002ccdc:table3_entry4",
+        "doc_5d57d6fc4002ccdc:table3_entry5",
+        "doc_5d57d6fc4002ccdc:table3_entry6",
+        "doc_5d57d6fc4002ccdc:scheme2_low_temperature",
+        "doc_5d57d6fc4002ccdc:scheme3_dbu_cyclization",
+        "doc_5d57d6fc4002ccdc:scheme3_mgbr2_cyclization"
+      ],
+      "unresolved": [
+        "Table-only experiments do not report charge masses/volumes, atmosphere, workup or purification in the supplied main text.",
+        "The yield measurement bases for Scheme 2/3 are not stated and were not inherited from Table 1."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top Table 3, entries 1-6 and isolated-yield footnote",
+          "finding": "Six independent MgBr2/Et3N substrate-scope experiments were transcribed row-by-row; each gives only product 4b-g and an isolated yield.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page3:text",
+            "doc_5d57d6fc4002ccdc:page3:image"
+          ]
+        },
+        {
+          "region": "lower-left Scheme 2",
+          "finding": "One -78 °C, 3 h mechanistic experiment affords 4a (6%) and 5a (91%) while 3a is not observed.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page3:text",
+            "doc_5d57d6fc4002ccdc:page3:image"
+          ]
+        },
+        {
+          "region": "bottom-left Scheme 3, upper and lower arrows",
+          "finding": "Two distinct 5a cyclization experiments were recorded: DBU gives 99% with 3a/4a >99:<1; MgBr2/Et3N gives 3a 15% and recovers 5a 77%.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page3:text",
+            "doc_5d57d6fc4002ccdc:page3:image"
+          ]
+        },
+        {
+          "region": "right-column Scheme 4 and mechanism discussion",
+          "finding": "Author-proposed plausible pathways through A/B/C were recorded as one proposed-mechanism record, not as isolated or experimentally verified reactions.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page3:text",
+            "doc_5d57d6fc4002ccdc:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_5d57d6fc4002ccdc:table3_entry1",
+        "doc_5d57d6fc4002ccdc:table3_entry2",
+        "doc_5d57d6fc4002ccdc:table3_entry3",
+        "doc_5d57d6fc4002ccdc:table3_entry4",
+        "doc_5d57d6fc4002ccdc:table3_entry5",
+        "doc_5d57d6fc4002ccdc:table3_entry6",
+        "doc_5d57d6fc4002ccdc:scheme2_low_temperature",
+        "doc_5d57d6fc4002ccdc:scheme3_dbu_cyclization",
+        "doc_5d57d6fc4002ccdc:scheme3_mgbr2_cyclization",
+        "doc_5d57d6fc4002ccdc:scheme4_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 2/3 yield and recovery measurement bases are not reported.",
+        "Scheme 4 is expressly plausible and not fully understood; A/B/C are proposed intermediates and no complete atom mapping is asserted.",
+        "The source does not explicitly name the drawn 5a alkene geometry as E or Z; only the NOE-supported drawing is retained."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "reference 18 typical DBU procedure",
+          "finding": "Detailed Table 1 entry 2 procedure and all reported charges, argon/anhydrous THF, 3 h hold, HCl workup, CHCl3 extraction, MgSO4 drying, 8:1 chromatography and 74.0 mg/99% mixture outcome were merged into the existing row record.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ]
+        },
+        {
+          "region": "reference 23 typical MgBr2/Et3N procedure",
+          "finding": "Detailed Table 1 entry 7 procedure and all reported charges, argon/anhydrous THF, 3 h hold, HCl workup, CHCl3 extraction, MgSO4 drying, 9:1 chromatography and 52.3 mg/85% 4a outcome were merged into the existing row record.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ]
+        },
+        {
+          "region": "references 19 and 24 characterization blocks",
+          "finding": "Standalone 1H/13C NMR, IR, HRMS and elemental-analysis data for 3a/4a were retained in source_context and not converted into synthesis experiments.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ]
+        },
+        {
+          "region": "Supplementary data statement and cited references",
+          "finding": "The page states that supplementary data are online, but no SI file was explicitly supplied; the bibliography is source context, not current-paper experimental records.",
+          "evidence_ids": [
+            "doc_5d57d6fc4002ccdc:page4:text",
+            "doc_5d57d6fc4002ccdc:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_5d57d6fc4002ccdc:table1_entry2",
+        "doc_5d57d6fc4002ccdc:table1_entry7"
+      ],
+      "unresolved": [
+        "The linked supplementary data were not provided or explicitly associated, so no SI procedures, MOL files or InChIKeys were imported.",
+        "Spectroscopic peak assignments were not independently interpreted as stereochemical proof."
+      ]
+    }
+  ]
+}

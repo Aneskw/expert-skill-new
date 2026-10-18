@@ -1,0 +1,47 @@
+{
+  "canonical_isomeric_smiles": "CC=C=CCC(=O)N(C)Oc1ccc([N+](=O)[O-])cc1[N+](=O)[O-]",
+  "stereo_graph_key": "7a5f5ef65ca718cd40be3a8662a0c2727a8bfa49e9daa4e7a227d809c0f1cc2a",
+  "connectivity_smiles": "CC=C=CCC(=O)N(C)Oc1ccc([N+](=O)[O-])cc1[N+](=O)[O-]",
+  "atom_centers": [],
+  "double_bonds": [
+    {
+      "bond_index": 1,
+      "stereo": "STEREONONE"
+    },
+    {
+      "bond_index": 2,
+      "stereo": "STEREONONE"
+    },
+    {
+      "bond_index": 5,
+      "stereo": "STEREONONE"
+    },
+    {
+      "bond_index": 12,
+      "stereo": "STEREONONE"
+    },
+    {
+      "bond_index": 17,
+      "stereo": "STEREONONE"
+    }
+  ],
+  "potential_stereo": [
+    {
+      "type": "Bond_Double",
+      "centered_on": 1,
+      "specified": "Unspecified",
+      "descriptor": "NoValue"
+    },
+    {
+      "type": "Bond_Double",
+      "centered_on": 2,
+      "specified": "Unspecified",
+      "descriptor": "NoValue"
+    }
+  ],
+  "source_verified": false,
+  "limitations": [
+    "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+    "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "document_id": "doc_a2856b5fccd4e90c",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title/abstract",
+          "finding": "Article title, one-pot halogenation/Suzuki concept and GOx/Pd hybrid summary; no concrete experiment arrow or table on this page.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page1:text",
+            "doc_a2856b5fccd4e90c:page1:image"
+          ]
+        },
+        {
+          "region": "introduction",
+          "finding": "Prior literature and study motivation only; SI availability is mentioned but no SI is associated in the workspace.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page1:text",
+            "doc_a2856b5fccd4e90c:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No SI file is supplied despite the article's availability statement."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1a",
+          "finding": "Prior 2017 generic enzymatic allene halocyclization; classified as literature example.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page2:text",
+            "doc_a2856b5fccd4e90c:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 1b",
+          "finding": "Current-work generic one-pot halocyclization/cross-coupling concept.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page2:text",
+            "doc_a2856b5fccd4e90c:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1 and footnotes",
+          "finding": "Fourteen distinct optimization entries with row-specific Pd source/loading, ligand, base, temperature, 2a/3a qNMR yields and footnote exceptions.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page2:text",
+            "doc_a2856b5fccd4e90c:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a2856b5fccd4e90c:scheme1a_prior_halocyclization",
+        "doc_a2856b5fccd4e90c:scheme1b_generic_onepot",
+        "doc_a2856b5fccd4e90c:table1_entry01",
+        "doc_a2856b5fccd4e90c:table1_entry02",
+        "doc_a2856b5fccd4e90c:table1_entry03",
+        "doc_a2856b5fccd4e90c:table1_entry04",
+        "doc_a2856b5fccd4e90c:table1_entry05",
+        "doc_a2856b5fccd4e90c:table1_entry06",
+        "doc_a2856b5fccd4e90c:table1_entry07",
+        "doc_a2856b5fccd4e90c:table1_entry08",
+        "doc_a2856b5fccd4e90c:table1_entry09",
+        "doc_a2856b5fccd4e90c:table1_entry10",
+        "doc_a2856b5fccd4e90c:table1_entry11",
+        "doc_a2856b5fccd4e90c:table1_entry12",
+        "doc_a2856b5fccd4e90c:table1_entry13",
+        "doc_a2856b5fccd4e90c:table1_entry14"
+      ],
+      "unresolved": [
+        "Ligand 7/8 identities are retained by source labels; their structures are not promoted to externally verified identities."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "discussion of Table 1",
+          "finding": "NaCl and NaI replacement experiments (6% and 48% overall yields) plus interpretation of entries; no separate record for prose repetitions of table rows.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page3:text",
+            "doc_a2856b5fccd4e90c:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 2",
+          "finding": "Generic scope arrow and nine product arrows 3a-i; 3a is deduplicated with page 4 and page 6 evidence.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page3:text",
+            "doc_a2856b5fccd4e90c:page3:image"
+          ]
+        },
+        {
+          "region": "stereochemistry prose",
+          "finding": "Chiral substrates were optically inactive and yielded racemic heterocycles; no ee/er/dr values or absolute configurations are reported.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page3:text",
+            "doc_a2856b5fccd4e90c:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a2856b5fccd4e90c:halide_control_nacl",
+        "doc_a2856b5fccd4e90c:halide_control_nai",
+        "doc_a2856b5fccd4e90c:scheme2_3a",
+        "doc_a2856b5fccd4e90c:scheme2_3b",
+        "doc_a2856b5fccd4e90c:scheme2_3c",
+        "doc_a2856b5fccd4e90c:scheme2_3d",
+        "doc_a2856b5fccd4e90c:scheme2_3e",
+        "doc_a2856b5fccd4e90c:scheme2_3f",
+        "doc_a2856b5fccd4e90c:scheme2_3g",
+        "doc_a2856b5fccd4e90c:scheme2_3h",
+        "doc_a2856b5fccd4e90c:scheme2_3i",
+        "doc_a2856b5fccd4e90c:scheme2_generic_allenol_scope"
+      ],
+      "unresolved": [
+        "Compact structures 1b-i and products 3e-i are not all safely encodable from the page image; labels/drawings remain authoritative."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3",
+          "finding": "Generic boronic-acid scope arrow; 3a duplicate plus eight new products 3j-q, including footnoted 10 equiv and 15 equiv syringe-pump cases.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page4:text",
+            "doc_a2856b5fccd4e90c:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 4",
+          "finding": "Concrete one-pot Sonogashira experiment 1a to 3r, 76%; Stille/Heck failures are under-specified source context, not fabricated records.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page4:text",
+            "doc_a2856b5fccd4e90c:page4:image"
+          ]
+        },
+        {
+          "region": "nanobiohybrid prose",
+          "finding": "Preparation/characterization discussion and prose evidence for the two Scheme 5 experiments; physical characterization is not synthesis.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page4:text",
+            "doc_a2856b5fccd4e90c:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a2856b5fccd4e90c:scheme2_3a",
+        "doc_a2856b5fccd4e90c:scheme3_3j",
+        "doc_a2856b5fccd4e90c:scheme3_3k",
+        "doc_a2856b5fccd4e90c:scheme3_3l",
+        "doc_a2856b5fccd4e90c:scheme3_3m",
+        "doc_a2856b5fccd4e90c:scheme3_3n",
+        "doc_a2856b5fccd4e90c:scheme3_3o",
+        "doc_a2856b5fccd4e90c:scheme3_3p",
+        "doc_a2856b5fccd4e90c:scheme3_3q",
+        "doc_a2856b5fccd4e90c:scheme3_generic_boronic_scope",
+        "doc_a2856b5fccd4e90c:scheme4_3r",
+        "doc_a2856b5fccd4e90c:scheme5a_nanobiohybrid_halocyclization",
+        "doc_a2856b5fccd4e90c:scheme5b_nanobiohybrid_suzuki"
+      ],
+      "unresolved": [
+        "Product 3p geometry is not promoted from the reagent name to an E/Z product assignment; several yield measurement bases are not printed."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1",
+          "finding": "SEM, XRD, TEM and particle-size characterization only; retained in source_context, not a reaction.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page5:text",
+            "doc_a2856b5fccd4e90c:page5:image"
+          ]
+        },
+        {
+          "region": "Scheme 5a",
+          "finding": "GOx/Pd hybrid halocyclization of 1a to 2a (69%) plus minor 9 (7%), combined 76% in prose.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page5:text",
+            "doc_a2856b5fccd4e90c:page5:image"
+          ]
+        },
+        {
+          "region": "Scheme 5b",
+          "finding": "GOx/Pd hybrid Suzuki coupling of 2a with 3,5-xylylboronic acid to 3j (81%).",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page5:text",
+            "doc_a2856b5fccd4e90c:page5:image"
+          ]
+        },
+        {
+          "region": "left-column prose",
+          "finding": "Under-specified true one-pot hybrid attempts gave 20-30%; retained as context because run count/conditions/product basis are absent.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page5:text",
+            "doc_a2856b5fccd4e90c:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a2856b5fccd4e90c:scheme5a_nanobiohybrid_halocyclization",
+        "doc_a2856b5fccd4e90c:scheme5b_nanobiohybrid_suzuki"
+      ],
+      "unresolved": [
+        "Scheme 5 times, quantities and yield measurement bases are unreported; the 20-30% early attempt series is not separable into run-level records."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "general remarks",
+          "finding": "Analytical and purification instrumentation context; no independent synthetic experiments.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page6:text",
+            "doc_a2856b5fccd4e90c:page6:image"
+          ]
+        },
+        {
+          "region": "representative procedure",
+          "finding": "Detailed 3a one-pot preparation, work-up, chromatography, 22.2 mg/84 μmol/85%; merged with the 3a scope record.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page6:text",
+            "doc_a2856b5fccd4e90c:page6:image"
+          ]
+        },
+        {
+          "region": "3a characterization",
+          "finding": "Rf, NMR, IR and HRMS observations retained as source_context, not additional reactions.",
+          "evidence_ids": [
+            "doc_a2856b5fccd4e90c:page6:text",
+            "doc_a2856b5fccd4e90c:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a2856b5fccd4e90c:scheme2_3a"
+      ],
+      "unresolved": [
+        "Representative procedure times conflict with the generic scope arrows (2.5/3 h vs 4/16 h); both alternatives are retained."
+      ]
+    }
+  ]
+}

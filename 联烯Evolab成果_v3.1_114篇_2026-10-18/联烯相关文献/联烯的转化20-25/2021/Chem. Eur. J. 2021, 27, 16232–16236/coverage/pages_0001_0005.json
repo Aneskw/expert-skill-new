@@ -1,0 +1,198 @@
+{
+  "document_id": "doc_2f1500a108e364c7",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1A-C, lower-right half",
+          "finding": "Three cited prior-work examples (Rh-assisted allylation/Pauson-Khand, NHC ring opening/cycloisomerization, and phosphine alkynoate redox isomerization); classified as literature_example, not experiments newly reported in this paper.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page1:image"]
+        },
+        {
+          "region": "Figure 1D, lower-right half",
+          "finding": "This paper's generic auto-tandem redox isomerization/(3+2) allenoate annulation; R/EWG/Pg structures retained as generic templates.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page1:image"]
+        },
+        {
+          "region": "title, abstract and body text",
+          "finding": "Article identity and scope confirmed; no additional concrete experiment beyond Figure 1 arrows on this page.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page1:image", "doc_2f1500a108e364c7:page1:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2f1500a108e364c7:figure1A_literature_example",
+        "doc_2f1500a108e364c7:figure1B_literature_example",
+        "doc_2f1500a108e364c7:figure1C_literature_example",
+        "doc_2f1500a108e364c7:figure1D_generic_scheme"
+      ],
+      "unresolved": [
+        "Figure 1A-C are compact citation illustrations; complete structures, atom mappings and yield measurement bases were not reconstructed.",
+        "Figure 1D generic variables are not expanded into concrete molecules."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 2A, lower-left",
+          "finding": "Six catalyst-specific redox-isomerization/self-annulation experiments represented separately; three catalysts share one dash row but remain separate experiments.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page2:image"]
+        },
+        {
+          "region": "Figure 2B, lower-left",
+          "finding": "One deuterium-labelling mechanistic experiment, (D2)-10d to (D4)-14d, 25% yield.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page2:image"]
+        },
+        {
+          "region": "Figure 2C, lower-left",
+          "finding": "Computational comparison of phosphine addition barriers; preserved as source_context rather than a synthetic experiment.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page2:image"]
+        },
+        {
+          "region": "Table 1, lower-right",
+          "finding": "All 12 optimization rows recorded independently with catalyst, solvent, temperature, 16 h, 13a:15a ratio, target-specific yield and NMR ratio basis.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_2f1500a108e364c7:figure2A_pme2ph",
+        "doc_2f1500a108e364c7:figure2A_pmeph2",
+        "doc_2f1500a108e364c7:figure2A_pbu3",
+        "doc_2f1500a108e364c7:figure2A_pph3",
+        "doc_2f1500a108e364c7:figure2A_pcy3",
+        "doc_2f1500a108e364c7:figure2A_pnme2_3",
+        "doc_2f1500a108e364c7:figure2B_deuterium",
+        "doc_2f1500a108e364c7:table1_entry_01",
+        "doc_2f1500a108e364c7:table1_entry_02",
+        "doc_2f1500a108e364c7:table1_entry_03",
+        "doc_2f1500a108e364c7:table1_entry_04",
+        "doc_2f1500a108e364c7:table1_entry_05",
+        "doc_2f1500a108e364c7:table1_entry_06",
+        "doc_2f1500a108e364c7:table1_entry_07",
+        "doc_2f1500a108e364c7:table1_entry_08",
+        "doc_2f1500a108e364c7:table1_entry_09",
+        "doc_2f1500a108e364c7:table1_entry_10",
+        "doc_2f1500a108e364c7:table1_entry_11",
+        "doc_2f1500a108e364c7:table1_entry_12"
+      ],
+      "unresolved": [
+        "Figure 2A '27 (12)^b' cannot be interpreted because footnote b is not defined on the supplied page.",
+        "Figure 2A dash values are retained as source markers, not converted to zero or no reaction.",
+        "Table 1 header/prose assign ordinary-row yields to 13a, while visible footnote c reads 'Isolated yield of 15a'; the apparent source typo is retained for expert review.",
+        "Figure 2B duration and yield measurement basis are unreported."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation of Table 1 discussion",
+          "finding": "Textual duplicate/context for Table 1 entry 7 retained on the same record, including 53% 13a and 9% 15a; not duplicated as a new experiment.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page3:image"]
+        },
+        {
+          "region": "Table 2, lower half",
+          "finding": "Twenty-five displayed scope/failure entries (13b-x plus repeated 13a condition and predominant 15y case) recorded separately with 13:15 ratio, combined purified yield, parenthetical 13 yield, catalyst-loading footnote and >20:1 dr.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page3:image"]
+        },
+        {
+          "region": "body text above Table 2",
+          "finding": "Cis relative stereochemistry, X-ray confirmation context for 13x, aryl-ketone failure to 15y, and enantioselective-study lead-in associated with the corresponding records/context.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page3:image", "doc_2f1500a108e364c7:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2f1500a108e364c7:table1_entry_07",
+        "doc_2f1500a108e364c7:table2_scope_a",
+        "doc_2f1500a108e364c7:table2_scope_b",
+        "doc_2f1500a108e364c7:table2_scope_c",
+        "doc_2f1500a108e364c7:table2_scope_d",
+        "doc_2f1500a108e364c7:table2_scope_e",
+        "doc_2f1500a108e364c7:table2_scope_f",
+        "doc_2f1500a108e364c7:table2_scope_g",
+        "doc_2f1500a108e364c7:table2_scope_h",
+        "doc_2f1500a108e364c7:table2_scope_i",
+        "doc_2f1500a108e364c7:table2_scope_j",
+        "doc_2f1500a108e364c7:table2_scope_k",
+        "doc_2f1500a108e364c7:table2_scope_l",
+        "doc_2f1500a108e364c7:table2_scope_m",
+        "doc_2f1500a108e364c7:table2_scope_n",
+        "doc_2f1500a108e364c7:table2_scope_o",
+        "doc_2f1500a108e364c7:table2_scope_p",
+        "doc_2f1500a108e364c7:table2_scope_q",
+        "doc_2f1500a108e364c7:table2_scope_r",
+        "doc_2f1500a108e364c7:table2_scope_s",
+        "doc_2f1500a108e364c7:table2_scope_t",
+        "doc_2f1500a108e364c7:table2_scope_u",
+        "doc_2f1500a108e364c7:table2_scope_v",
+        "doc_2f1500a108e364c7:table2_scope_w",
+        "doc_2f1500a108e364c7:table2_scope_x",
+        "doc_2f1500a108e364c7:table2_scope_y"
+      ],
+      "unresolved": [
+        "No SI was supplied, so exact substrate charges, scale, workup, purification details and compound-specific characterization remain unavailable.",
+        "Compact scope structures are source-labelled with relative cis information but no asserted complete stereochemical SMILES.",
+        "Absolute configuration of products is unassigned; X-ray context for 13x is retained but the crystallographic data file is absent."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 3A, top-left",
+          "finding": "Two concrete derivatization experiments: thiolate addition 13m→16m and hydrogenation 13t→17t, each with product yield and 2:1 dr.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page4:image"]
+        },
+        {
+          "region": "Figure 3B, top-right",
+          "finding": "Author-proposed dual-cycle mechanism; classified as proposed_mechanism, not an experimentally verified reaction sequence.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page4:image"]
+        },
+        {
+          "region": "Scheme 1, lower-left",
+          "finding": "One enantioselective experiment using 20 mol% D3 in CH2Cl2 at 50 °C for 16 h; 13a 32%, >20:1 dr, 67:33 er and 15a 6%, with HPLC er basis.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page4:image"]
+        },
+        {
+          "region": "body text and conclusion",
+          "finding": "Narrative interpretation and proposed-cycle description linked to the above records; no additional experiment arrow found.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page4:image", "doc_2f1500a108e364c7:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2f1500a108e364c7:figure3A_thiolate_addition",
+        "doc_2f1500a108e364c7:figure3A_hydrogenation",
+        "doc_2f1500a108e364c7:figure3B_proposed_mechanism",
+        "doc_2f1500a108e364c7:scheme1_enantioselective"
+      ],
+      "unresolved": [
+        "For thiolate addition, the 20 h cannot be apportioned among low-temperature addition, warming ramp and room-temperature hold; ramp time is unreported.",
+        "Hydrogen pressure and derivatization yield measurement bases are unreported.",
+        "The 67:33 er has no assigned absolute-configuration order; no R/S identities were invented.",
+        "Proposed intermediates 18-22 are mechanistic drawings, not isolated/observed experiment records."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "entire page",
+          "finding": "References [6]-[18], crystallographic citation context, and manuscript dates only; no new table, reaction arrow or concrete experiment.",
+          "evidence_ids": ["doc_2f1500a108e364c7:page5:image", "doc_2f1500a108e364c7:page5:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Reference [17] cites CCDC 2086419, but the crystallographic file was not supplied and was not treated as an associated source.",
+        "References to Supporting Information do not constitute an explicitly provided SI association."
+      ]
+    }
+  ]
+}

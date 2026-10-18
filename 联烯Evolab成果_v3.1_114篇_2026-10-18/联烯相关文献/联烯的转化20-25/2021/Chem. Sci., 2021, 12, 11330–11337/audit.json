@@ -1,0 +1,77 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "general_scheme": 1,
+    "optimization_entry": 5,
+    "substrate_scope_entry": 27,
+    "reported_experiment": 15,
+    "mechanism": 3
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_b620dbe6e0542262"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_b620dbe6e0542262:eq2_3ah_isomerization_control",
+      "record_kind": "reported_experiment",
+      "evidence_ids": ["doc_b620dbe6e0542262:page2:image", "doc_b620dbe6e0542262:page2:text"],
+      "warnings": ["structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"]
+    },
+    {
+      "record_id": "doc_b620dbe6e0542262:scheme2_14",
+      "record_kind": "reported_experiment",
+      "evidence_ids": ["doc_b620dbe6e0542262:page7:image", "doc_b620dbe6e0542262:page7:text"],
+      "warnings": ["measurement_basis: missing or unassigned method for yield; do not assume isolated yield"]
+    },
+    {
+      "record_id": "doc_b620dbe6e0542262:scheme2_15",
+      "record_kind": "reported_experiment",
+      "evidence_ids": ["doc_b620dbe6e0542262:page7:image", "doc_b620dbe6e0542262:page7:text"],
+      "warnings": ["measurement_basis: missing or unassigned method for yield; do not assume isolated yield"]
+    },
+    {
+      "record_id": "doc_b620dbe6e0542262:scheme2_16",
+      "record_kind": "reported_experiment",
+      "evidence_ids": ["doc_b620dbe6e0542262:page7:image", "doc_b620dbe6e0542262:page7:text"],
+      "warnings": ["measurement_basis: missing or unassigned method for yield; do not assume isolated yield"]
+    },
+    {
+      "record_id": "doc_b620dbe6e0542262:scheme2_17",
+      "record_kind": "reported_experiment",
+      "evidence_ids": ["doc_b620dbe6e0542262:page7:image", "doc_b620dbe6e0542262:page7:text"],
+      "warnings": ["measurement_basis: missing or unassigned method for yield; do not assume isolated yield"]
+    },
+    {
+      "record_id": "doc_b620dbe6e0542262:scheme2_18",
+      "record_kind": "reported_experiment",
+      "evidence_ids": ["doc_b620dbe6e0542262:page7:image", "doc_b620dbe6e0542262:page7:text"],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_b620dbe6e0542262:scheme2_cis19",
+      "record_kind": "reported_experiment",
+      "evidence_ids": ["doc_b620dbe6e0542262:page7:image", "doc_b620dbe6e0542262:page7:text"],
+      "warnings": ["measurement_basis: missing or unassigned method for yield; do not assume isolated yield"]
+    },
+    {
+      "record_id": "doc_b620dbe6e0542262:scheme2_E20",
+      "record_kind": "reported_experiment",
+      "evidence_ids": ["doc_b620dbe6e0542262:page7:image", "doc_b620dbe6e0542262:page7:text"],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    }
+  ],
+  "workflow_disposition": {
+    "measurement_basis": "Retained as missing for all seven Scheme 2 yields because the page does not state isolated/NMR basis; no method was inferred.",
+    "structure_gap": "Retained for the two directing-group-removal records because source-labelled geometric species could not be encoded as fully verified stereochemical SMILES from the compact page drawing. The source labels, stereo states, inferred N-H formation, and limitations remain explicit.",
+    "preexisting_warning": "The page-2 eq2 warning predates and lies outside pages 7-8; it was not rewritten in this bounded session."
+  }
+}

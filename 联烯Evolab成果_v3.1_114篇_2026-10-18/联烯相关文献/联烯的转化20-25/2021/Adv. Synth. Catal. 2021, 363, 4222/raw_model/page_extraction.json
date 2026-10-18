@@ -1,0 +1,151 @@
+{
+  "document_id": "doc_cb03cf42d5a5f24b",
+  "pages_attempted": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "source_images": [
+    {
+      "page": 1,
+      "evidence_id": "doc_cb03cf42d5a5f24b:page1:image",
+      "asset": "assets/doc_cb03cf42d5a5f24b/page1.jpg"
+    },
+    {
+      "page": 2,
+      "evidence_id": "doc_cb03cf42d5a5f24b:page2:image",
+      "asset": "assets/doc_cb03cf42d5a5f24b/page2.jpg"
+    },
+    {
+      "page": 3,
+      "evidence_id": "doc_cb03cf42d5a5f24b:page3:image",
+      "asset": "assets/doc_cb03cf42d5a5f24b/page3.jpg"
+    },
+    {
+      "page": 4,
+      "evidence_id": "doc_cb03cf42d5a5f24b:page4:image",
+      "asset": "assets/doc_cb03cf42d5a5f24b/page4.jpg"
+    },
+    {
+      "page": 5,
+      "evidence_id": "doc_cb03cf42d5a5f24b:page5:image",
+      "asset": "assets/doc_cb03cf42d5a5f24b/page5.jpg"
+    },
+    {
+      "page": 6,
+      "evidence_id": "doc_cb03cf42d5a5f24b:page6:image",
+      "asset": "assets/doc_cb03cf42d5a5f24b/page6.jpg"
+    }
+  ],
+  "inventory": {
+    "page1": {
+      "figures": [
+        "Figure 1 medicinal context"
+      ],
+      "current_experiments": 0
+    },
+    "page2": {
+      "schemes": [
+        "Scheme 1A conceptual map",
+        "Scheme 1B two prior-work families",
+        "Scheme 1C current generic scheme"
+      ]
+    },
+    "page3": {
+      "tables": [
+        {
+          "table": 1,
+          "entries": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        }
+      ],
+      "current_experiments": 24
+    },
+    "page4": {
+      "scheme2_products": [
+        "3aa",
+        "3ba",
+        "3ca",
+        "3da",
+        "3ea",
+        "3fa",
+        "3ga",
+        "3ha",
+        "3ia",
+        "3ja",
+        "3ka",
+        "3ab",
+        "3ac",
+        "3ad",
+        "3ae",
+        "3af",
+        "3ag",
+        "3ah",
+        "3ai",
+        "3aj",
+        "3ak",
+        "3al",
+        "3am",
+        "3an",
+        "3ao",
+        "3ap",
+        "3aq",
+        "3ar",
+        "3as"
+      ],
+      "scheme3": [
+        "scale-up"
+      ],
+      "scheme4_controls": [
+        "eq a/base",
+        "eq a/phen",
+        "eq b",
+        "eq c/5a",
+        "eq c/6a",
+        "eq c/7a"
+      ]
+    },
+    "page5": {
+      "schemes": [
+        "Scheme 5 proposed mechanism"
+      ],
+      "procedure": "General Procedure for compounds 3"
+    },
+    "page6": {
+      "content": "references only",
+      "current_experiments": 0
+    }
+  },
+  "deduplication": [
+    "Table 1 entry 15 and Scheme 2 product 3aa were not merged because their printed substrate amounts differ (0.3/0.6 vs 0.2/0.4 mmol).",
+    "Scheme 2 rows and the page-5 General Procedure were linked as repeated/general evidence, not counted as duplicate experiments."
+  ],
+  "si_association": "unestablished; no SI file supplied"
+}

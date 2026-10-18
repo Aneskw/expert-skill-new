@@ -1,0 +1,86 @@
+{
+  "standard_validate": {
+    "valid": true,
+    "errors": []
+  },
+  "strict_dataset_validate": {
+    "valid": true,
+    "errors": []
+  },
+  "reaction_count": 59,
+  "molecule_count": 107,
+  "review_status_counts": {
+    "needs_review": 59
+  },
+  "completeness_counts": {
+    "partial": 59
+  },
+  "audit_warning_records": 53,
+  "audit_warning_prefix_counts": {
+    "structure_gap": 53,
+    "measurement_basis": 19
+  },
+  "checks": [
+    {
+      "file": "records/doc_08515448f9baa759__scheme2_acetone_rt_10min_2equiv.md",
+      "required_tokens": [
+        "2.0 equiv",
+        "acetone, rt, 10 min"
+      ],
+      "missing": [],
+      "passed": true
+    },
+    {
+      "file": "records/doc_08515448f9baa759__scheme7_2f_to_7fa.md",
+      "required_tokens": [
+        "5 mol%",
+        "1,4-dioxane:H2O (2:1)",
+        "60 °C",
+        "2 h"
+      ],
+      "missing": [],
+      "passed": true
+    },
+    {
+      "file": "records/doc_08515448f9baa759__scheme7_2h_to_11h.md",
+      "required_tokens": [
+        "H2 (1 atm)",
+        "72 h"
+      ],
+      "missing": [],
+      "passed": true
+    },
+    {
+      "file": "records/doc_08515448f9baa759__scheme7_15b_to_16b.md",
+      "required_tokens": [
+        "IPrAuCl",
+        "AgOTf",
+        "5 mol%",
+        "80 °C",
+        "24 h"
+      ],
+      "missing": [],
+      "passed": true
+    },
+    {
+      "file": "records/doc_08515448f9baa759__scheme5_2a_to_7a.md",
+      "required_tokens": [
+        "allocation between rt annulation and 0 °C base treatment is not stated"
+      ],
+      "missing": [],
+      "passed": true
+    }
+  ],
+  "coverage": {
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "all_attempted": true,
+    "all_regions_nonempty": true
+  },
+  "all_checks_passed": true
+}

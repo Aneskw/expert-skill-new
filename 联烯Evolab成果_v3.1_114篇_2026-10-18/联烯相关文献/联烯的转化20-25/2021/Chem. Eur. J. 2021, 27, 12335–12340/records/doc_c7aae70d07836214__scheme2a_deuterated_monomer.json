@@ -1,0 +1,1095 @@
+{
+  "reaction_id": "doc_c7aae70d07836214:scheme2a_deuterated_monomer",
+  "document_id": "doc_c7aae70d07836214",
+  "record_type": "specific_experiment",
+  "experiment_categories": {
+    "raw_value": [
+      "mechanistic_study"
+    ],
+    "normalized_value": [
+      "mechanistic_study"
+    ],
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_c7aae70d07836214:page3:text",
+      "doc_c7aae70d07836214:page3:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "location": {
+    "raw_value": "Scheme 2a and page 3 prose",
+    "normalized_value": "Scheme 2a and page 3 prose",
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_c7aae70d07836214:page3:text",
+      "doc_c7aae70d07836214:page3:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "general_scheme_ids": [],
+  "reaction_name": {
+    "raw_value": "polymerization of deuterium-labelled phenylallene",
+    "normalized_value": "polymerization of deuterium-labelled phenylallene",
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_c7aae70d07836214:page3:text",
+      "doc_c7aae70d07836214:page3:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "transformation_type": {
+    "raw_value": "allene polymerization",
+    "normalized_value": "allene polymerization",
+    "acquisition_method": "inference",
+    "evidence_ids": [
+      "doc_c7aae70d07836214:page3:text",
+      "doc_c7aae70d07836214:page3:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "inferred",
+    "derivation": "Transformation type normalized from the source reaction name/drawing.",
+    "alternatives": []
+  },
+  "participants": [
+    {
+      "participant_id": "scheme2a_deuterated_monomer_monomer",
+      "molecule_id": "m_1d2",
+      "role": "reactant",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": "0.5 mmol allene",
+          "normalized_value": {
+            "number": 0.5,
+            "unit": "mmol"
+          },
+          "acquisition_method": "inherited_general_condition",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": "Scheme 2a explicitly says standard conditions; the Table 2 standard conditions are on the same page.",
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "scheme2a_deuterated_monomer_fe",
+      "molecule_id": "m_fe",
+      "role": "catalyst",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": "1 mol% [Fe]",
+          "normalized_value": {
+            "number": 1,
+            "unit": "mol%"
+          },
+          "acquisition_method": "inherited_general_condition",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": "Scheme 2a explicitly says standard conditions; the Table 2 standard conditions are on the same page.",
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "1 mol% [Fe]",
+        "normalized_value": "m_1d2",
+        "acquisition_method": "inherited_general_condition",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": "Scheme 2a explicitly says standard conditions; the Table 2 standard conditions are on the same page.",
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "scheme2a_deuterated_monomer_hydride",
+      "molecule_id": "m_nh3bh3",
+      "role": "reagent",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": "5 mol% hydride",
+          "normalized_value": {
+            "number": 5,
+            "unit": "mol%"
+          },
+          "acquisition_method": "inherited_general_condition",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": "Scheme 2a explicitly says standard conditions; the Table 2 standard conditions are on the same page.",
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "5 mol% hydride",
+        "normalized_value": "m_1d2",
+        "acquisition_method": "inherited_general_condition",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": "Scheme 2a explicitly says standard conditions; the Table 2 standard conditions are on the same page.",
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "scheme2a_deuterated_monomer_solvent",
+      "molecule_id": "m_c6d6",
+      "role": "solvent",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": "600 μL C6D6",
+          "normalized_value": {
+            "number": 600,
+            "unit": "uL"
+          },
+          "acquisition_method": "inherited_general_condition",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": "Scheme 2a explicitly says standard conditions; the Table 2 standard conditions are on the same page.",
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "scheme2a_product",
+      "molecule_id": "m_p1d2",
+      "role": "product",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": "deuterium-retaining polymer",
+        "normalized_value": "deuterium-retaining polymer",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_c7aae70d07836214:page3:text",
+            "doc_c7aae70d07836214:page3:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "reaction_scale": {
+    "raw_value": null,
+    "normalized_value": null,
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_c7aae70d07836214:page3:text",
+      "doc_c7aae70d07836214:page3:image"
+    ],
+    "data_status": "unreported",
+    "verification": "missing",
+    "derivation": null,
+    "alternatives": []
+  },
+  "solvent_conditions": {
+    "composition": {
+      "raw_value": "C6D6",
+      "normalized_value": [
+        "C6D6"
+      ],
+      "acquisition_method": "inherited_general_condition",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": "Scheme 2a explicitly says standard conditions; the Table 2 standard conditions are on the same page.",
+      "alternatives": []
+    },
+    "mixture_ratio": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "total_volume": {
+      "raw_value": "600 μL",
+      "normalized_value": {
+        "number": 600,
+        "unit": "uL"
+      },
+      "acquisition_method": "inherited_general_condition",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": "Scheme 2a explicitly says standard conditions; the Table 2 standard conditions are on the same page.",
+      "alternatives": []
+    },
+    "concentration": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "concentration_basis": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "steps": [
+    {
+      "step_id": "reaction",
+      "stage": "reaction",
+      "participant_ids": [
+        "scheme2a_deuterated_monomer_monomer",
+        "scheme2a_deuterated_monomer_fe",
+        "scheme2a_deuterated_monomer_hydride",
+        "scheme2a_deuterated_monomer_solvent",
+        "scheme2a_product"
+      ],
+      "operation": {
+        "raw_value": "polymerization under standard conditions",
+        "normalized_value": "polymerization under standard conditions",
+        "acquisition_method": "inherited_general_condition",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": "Inherited because Scheme 2a explicitly invokes standard conditions.",
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": "standard conditions: RT",
+        "normalized_value": "RT",
+        "acquisition_method": "inherited_general_condition",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": "Inherited because Scheme 2a explicitly invokes standard conditions.",
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": "standard conditions: 16 h",
+        "normalized_value": {
+          "number": 16,
+          "unit": "h"
+        },
+        "acquisition_method": "inherited_general_condition",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": "Inherited because Scheme 2a explicitly invokes standard conditions.",
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "special_conditions": {
+    "light_source": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "wavelength": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "power": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "current": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "voltage": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "electrodes": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "flow_parameters": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "reactor": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "procedure": {
+    "original_text": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "general_procedure_reference": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "modifications": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "addition_order": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "pretreatment": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "outcomes": [
+    {
+      "outcome_id": "isotope_retention",
+      "kind": "other",
+      "target_molecule_ids": [
+        "m_p1d2"
+      ],
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "value": {
+        "raw_value": "clean isotopic retention; no intramolecular scrambling",
+        "normalized_value": "deuterium retained without detectable intramolecular scrambling",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "yield_type": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "measurement_basis": {
+        "raw_value": "1H and 2H NMR spectroscopy",
+        "normalized_value": "1H and 2H NMR spectroscopy",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "scope": {
+        "raw_value": "polymer from 1-d2",
+        "normalized_value": "polymer from 1-d2",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "classification": {
+    "standard_id": "bond-formation-20261016",
+    "mapped_reaction_smiles": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "bond_changes": [
+      {
+        "raw_value": "polymer repeat drawing",
+        "normalized_value": {
+          "change_id": "c1",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "C"
+            }
+          ],
+          "before_order": 0,
+          "after_order": 1,
+          "change_type": "formed"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_c7aae70d07836214:page3:text",
+          "doc_c7aae70d07836214:page3:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "At least one new inter-monomer C–C sigma connection is explicit in the repeat-unit drawing; full repeat mapping is unresolved.",
+        "alternatives": []
+      }
+    ],
+    "labels": {
+      "raw_value": "new inter-monomer C–C bond",
+      "normalized_value": [
+        {
+          "category_number": 2,
+          "code": "C-C",
+          "supporting_change_ids": [
+            "c1"
+          ]
+        }
+      ],
+      "acquisition_method": "structure_derivation",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "inferred",
+      "derivation": "Taxonomy label follows the single source-supported formed connection retained in the partial mapping.",
+      "alternatives": []
+    },
+    "coverage": {
+      "raw_value": "partial repeat-unit analysis",
+      "normalized_value": "partial",
+      "acquisition_method": "inference",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "inferred",
+      "derivation": "Polymer chain ends, full atom correspondence, bond-order changes, and tacticity are not fully mapped.",
+      "alternatives": []
+    },
+    "limitations": [
+      "Partial repeat-unit classification only; no complete atom-mapped polymer reaction is asserted."
+    ],
+    "model_votes": []
+  },
+  "notes": [
+    {
+      "raw_value": "3.46 ppm methylene integral matches residual protons; 6.24 ppm α proton integrates to 1H; 2H NMR peaks only at 3.70–3.45 ppm.",
+      "normalized_value": "reported isotope-retention observations",
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_c7aae70d07836214:page3:text",
+        "doc_c7aae70d07836214:page3:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    }
+  ],
+  "evidence_ids": [
+    "doc_c7aae70d07836214:page3:text",
+    "doc_c7aae70d07836214:page3:image"
+  ],
+  "review": {
+    "status": "needs_review",
+    "method": "model",
+    "reviewer": null,
+    "checked_fields": [],
+    "unresolved": []
+  },
+  "completeness": "partial"
+}

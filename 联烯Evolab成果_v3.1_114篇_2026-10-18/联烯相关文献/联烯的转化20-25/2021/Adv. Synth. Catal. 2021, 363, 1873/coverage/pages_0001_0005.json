@@ -1,0 +1,260 @@
+{
+  "document_id": "doc_ad9cc345885d5e84",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title/abstract/keywords and both text columns",
+          "finding": "Article metadata and introductory context; no concrete experiment arrow or table row.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page1:image",
+            "doc_ad9cc345885d5e84:page1:text"
+          ]
+        },
+        {
+          "region": "Figure 1, lower right",
+          "finding": "Pharmaceutical examples containing terephthalates; non-synthetic context retained in source_context.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Supporting information is advertised online but no SI file was supplied or associated."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1a, upper left",
+          "finding": "Three cited prior-work transformations recorded as literature_example, not this paper's experiments.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page2:image",
+            "doc_ad9cc345885d5e84:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 1b, middle left",
+          "finding": "Authors' generic R-group benzannulation recorded as generic_scheme.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page2:image",
+            "doc_ad9cc345885d5e84:page2:text"
+          ]
+        },
+        {
+          "region": "Table 1, lower right including footnotes",
+          "finding": "All 18 optimization rows recorded independently; entries 9/10 use 24 h, and entry 10 retains the yield dash without converting it to zero.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page2:image",
+            "doc_ad9cc345885d5e84:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ad9cc345885d5e84:scheme1_prior_diels_alder",
+        "doc_ad9cc345885d5e84:scheme1_prior_CH_functionalization",
+        "doc_ad9cc345885d5e84:scheme1_prior_222_benzannulation",
+        "doc_ad9cc345885d5e84:scheme1_this_work_generic",
+        "doc_ad9cc345885d5e84:table1_entry_01",
+        "doc_ad9cc345885d5e84:table1_entry_02",
+        "doc_ad9cc345885d5e84:table1_entry_03",
+        "doc_ad9cc345885d5e84:table1_entry_04",
+        "doc_ad9cc345885d5e84:table1_entry_05",
+        "doc_ad9cc345885d5e84:table1_entry_06",
+        "doc_ad9cc345885d5e84:table1_entry_07",
+        "doc_ad9cc345885d5e84:table1_entry_08",
+        "doc_ad9cc345885d5e84:table1_entry_09",
+        "doc_ad9cc345885d5e84:table1_entry_10",
+        "doc_ad9cc345885d5e84:table1_entry_11",
+        "doc_ad9cc345885d5e84:table1_entry_12",
+        "doc_ad9cc345885d5e84:table1_entry_13",
+        "doc_ad9cc345885d5e84:table1_entry_14",
+        "doc_ad9cc345885d5e84:table1_entry_15",
+        "doc_ad9cc345885d5e84:table1_entry_16",
+        "doc_ad9cc345885d5e84:table1_entry_17",
+        "doc_ad9cc345885d5e84:table1_entry_18"
+      ],
+      "unresolved": [
+        "Optimization workup details are absent from pages 1–5.",
+        "The exact meaning of Table-1 entry-10 dash is not stated."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2, lower left including footnote",
+          "finding": "Fourteen enamine-scope rows 3aa–3na recorded; 3na is a nonproductive 0% experiment without an invented produced molecule.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page3:image",
+            "doc_ad9cc345885d5e84:page3:text"
+          ]
+        },
+        {
+          "region": "Equation 1, upper right",
+          "finding": "Methanesulfonyl-protected substrate experiment recorded separately; printed 1n label collision retained.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page3:image",
+            "doc_ad9cc345885d5e84:page3:text"
+          ]
+        },
+        {
+          "region": "Table 3, lower right including footnote",
+          "finding": "Nine allenoate-scope rows 3ab–3aj recorded independently.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page3:image",
+            "doc_ad9cc345885d5e84:page3:text"
+          ]
+        },
+        {
+          "region": "prose above tables",
+          "finding": "Scope discussion, 3na failure, and X-ray structure statement linked to records/context rather than duplicated.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page3:image",
+            "doc_ad9cc345885d5e84:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ad9cc345885d5e84:table2_3aa",
+        "doc_ad9cc345885d5e84:table2_3ba",
+        "doc_ad9cc345885d5e84:table2_3ca",
+        "doc_ad9cc345885d5e84:table2_3da",
+        "doc_ad9cc345885d5e84:table2_3ea",
+        "doc_ad9cc345885d5e84:table2_3fa",
+        "doc_ad9cc345885d5e84:table2_3ga",
+        "doc_ad9cc345885d5e84:table2_3ha",
+        "doc_ad9cc345885d5e84:table2_3ia",
+        "doc_ad9cc345885d5e84:table2_3ja",
+        "doc_ad9cc345885d5e84:table2_3ka",
+        "doc_ad9cc345885d5e84:table2_3la",
+        "doc_ad9cc345885d5e84:table2_3ma",
+        "doc_ad9cc345885d5e84:table2_3na",
+        "doc_ad9cc345885d5e84:table3_3ab",
+        "doc_ad9cc345885d5e84:table3_3ac",
+        "doc_ad9cc345885d5e84:table3_3ad",
+        "doc_ad9cc345885d5e84:table3_3ae",
+        "doc_ad9cc345885d5e84:table3_3af",
+        "doc_ad9cc345885d5e84:table3_3ag",
+        "doc_ad9cc345885d5e84:table3_3ah",
+        "doc_ad9cc345885d5e84:table3_3ai",
+        "doc_ad9cc345885d5e84:table3_3aj",
+        "doc_ad9cc345885d5e84:eq1_methanesulfonyl_enamine"
+      ],
+      "unresolved": [
+        "Several complex substituent structures remain source-labelled without candidate SMILES pending expert transcription."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2, lower left",
+          "finding": "Gram-scale reaction, hydrolysis, coupling, reduction, and Suzuki arrows recorded as separate experiments; two stage yields remain attached to their own start/end points.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page4:image",
+            "doc_ad9cc345885d5e84:page4:text"
+          ]
+        },
+        {
+          "region": "deuterium-experiment prose, upper columns",
+          "finding": "Real D2O mechanistic study recorded separately with 20 equiv D2O; incorporation extent/method left missing.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page4:image",
+            "doc_ad9cc345885d5e84:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 3, lower right",
+          "finding": "One proposed_mechanism record covers A–J; proposed arrows are not counted as experiments.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page4:image",
+            "doc_ad9cc345885d5e84:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ad9cc345885d5e84:scheme2_gram_scale_3ha",
+        "doc_ad9cc345885d5e84:scheme2_hydrolysis_3ha_to_acid",
+        "doc_ad9cc345885d5e84:scheme2_coupling_acid_to_4",
+        "doc_ad9cc345885d5e84:scheme2_reduction_3ha_to_5",
+        "doc_ad9cc345885d5e84:scheme2_suzuki_to_6",
+        "doc_ad9cc345885d5e84:deuterium_experiment_D2O",
+        "doc_ad9cc345885d5e84:scheme3_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Scheme-2 Suzuki substrate is 3fa in the drawing but 3ha in prose.",
+        "Scheme 3 swaps printed 1a/2a labels relative to Tables 1–3.",
+        "Most Scheme-2 reagent amounts/times and yield measurement bases are unreported."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Experimental Section, upper left",
+          "finding": "General Procedure linked to matching successful scope experiments; reaction, solvent removal, and flash chromatography represented in order.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page5:image",
+            "doc_ad9cc345885d5e84:page5:text"
+          ]
+        },
+        {
+          "region": "General Procedure quantities",
+          "finding": "Enamine 1/allenoate 2 charges are reversed relative to Tables 2–3; both source alternatives are retained as conflicts.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page5:image",
+            "doc_ad9cc345885d5e84:page5:text",
+            "doc_ad9cc345885d5e84:page3:image",
+            "doc_ad9cc345885d5e84:page3:text"
+          ]
+        },
+        {
+          "region": "Acknowledgements and references",
+          "finding": "No new experiment; cited bibliography not expanded into invented experiments.",
+          "evidence_ids": [
+            "doc_ad9cc345885d5e84:page5:image",
+            "doc_ad9cc345885d5e84:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ad9cc345885d5e84:table2_3aa",
+        "doc_ad9cc345885d5e84:table2_3ba",
+        "doc_ad9cc345885d5e84:table2_3ca",
+        "doc_ad9cc345885d5e84:table2_3da",
+        "doc_ad9cc345885d5e84:table2_3ea",
+        "doc_ad9cc345885d5e84:table2_3fa",
+        "doc_ad9cc345885d5e84:table2_3ga",
+        "doc_ad9cc345885d5e84:table2_3ha",
+        "doc_ad9cc345885d5e84:table2_3ia",
+        "doc_ad9cc345885d5e84:table2_3ja",
+        "doc_ad9cc345885d5e84:table2_3ka",
+        "doc_ad9cc345885d5e84:table2_3la",
+        "doc_ad9cc345885d5e84:table2_3ma",
+        "doc_ad9cc345885d5e84:table3_3ab",
+        "doc_ad9cc345885d5e84:table3_3ac",
+        "doc_ad9cc345885d5e84:table3_3ad",
+        "doc_ad9cc345885d5e84:table3_3ae",
+        "doc_ad9cc345885d5e84:table3_3af",
+        "doc_ad9cc345885d5e84:table3_3ag",
+        "doc_ad9cc345885d5e84:table3_3ah",
+        "doc_ad9cc345885d5e84:table3_3ai",
+        "doc_ad9cc345885d5e84:table3_3aj",
+        "doc_ad9cc345885d5e84:eq1_methanesulfonyl_enamine"
+      ],
+      "unresolved": [
+        "No SI experimental or characterization detail was supplied."
+      ]
+    }
+  ]
+}

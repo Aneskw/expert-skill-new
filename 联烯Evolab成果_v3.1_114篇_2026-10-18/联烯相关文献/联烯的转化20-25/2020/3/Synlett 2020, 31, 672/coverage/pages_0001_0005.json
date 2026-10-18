@@ -1,0 +1,239 @@
+{
+  "document_id": "doc_776101937d954ae0",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, graphical abstract and abstract",
+          "finding": "Bibliographic metadata and a duplicate summary of the current thermolysis sequence; no extra experiment beyond Table 1/Procedures A–B.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page1:text",
+            "doc_776101937d954ae0:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1",
+          "finding": "Four contextual prior-work arrows: syntheses of 1, 2, 3 and the authors' earlier generic route to 4; classified as literature examples, not current experiments.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page1:text",
+            "doc_776101937d954ae0:page1:image"
+          ]
+        },
+        {
+          "region": "lower prose",
+          "finding": "Introduction/prior-work discussion; cross-page continuation only, with no independent current experiment on this page.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page1:text",
+            "doc_776101937d954ae0:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_776101937d954ae0:scheme1_literature_allene1",
+        "doc_776101937d954ae0:scheme1_literature_allene2",
+        "doc_776101937d954ae0:scheme1_literature_lactam3",
+        "doc_776101937d954ae0:scheme1_previous_allene4",
+        "doc_776101937d954ae0:generic_thermolysis_4_to_7_8",
+        "doc_776101937d954ae0:synthesis_4b",
+        "doc_776101937d954ae0:synthesis_4d"
+      ],
+      "unresolved": [
+        "Generic Scheme 1 structures contain R/n/X variables and are retained as templates.",
+        "The title graphic is a summary and does not specify substrate-specific long times."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2",
+          "finding": "Three cited prior-work transformations: cyclohexadiene paths a/b and allene 2 isomerization to diene 6; not current experiments.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page2:text",
+            "doc_776101937d954ae0:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1",
+          "finding": "Five short Procedure-A experiments with two product outcomes each, plus five distinct completion/Procedure-B experiments; all five rows and footnotes inventoried.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page2:text",
+            "doc_776101937d954ae0:page2:image"
+          ]
+        },
+        {
+          "region": "prose surrounding Table 1",
+          "finding": "Identifies 4b/4d as novel, describes TLC evolution 4/7→8, and reports products 7/8 as single diastereoisomers; no absolute configurations assigned.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page2:text",
+            "doc_776101937d954ae0:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_776101937d954ae0:scheme1_previous_allene4",
+        "doc_776101937d954ae0:scheme2_literature_path_a",
+        "doc_776101937d954ae0:scheme2_literature_path_b",
+        "doc_776101937d954ae0:scheme2_literature_allene2_to_6",
+        "doc_776101937d954ae0:generic_thermolysis_4_to_7_8",
+        "doc_776101937d954ae0:synthesis_4b",
+        "doc_776101937d954ae0:synthesis_4d",
+        "doc_776101937d954ae0:procedureA_4a",
+        "doc_776101937d954ae0:procedureA_4b",
+        "doc_776101937d954ae0:procedureA_4c",
+        "doc_776101937d954ae0:procedureA_4d",
+        "doc_776101937d954ae0:procedureA_4e",
+        "doc_776101937d954ae0:procedureB_4a",
+        "doc_776101937d954ae0:procedureB_4b",
+        "doc_776101937d954ae0:procedureB_4c",
+        "doc_776101937d954ae0:procedureB_4d",
+        "doc_776101937d954ae0:procedureB_4e"
+      ],
+      "unresolved": [
+        "Dense structures 4a–e, 7a–e and 8a–e are source-labelled but not safely encoded as complete isomeric SMILES.",
+        "Exact enantiomeric composition and absolute stereochemistry are unreported."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figures 1 and 2",
+          "finding": "Single-crystal X-ray renderings of 7a and 8a; characterization evidence, not separate syntheses.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page3:text",
+            "doc_776101937d954ae0:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 3",
+          "finding": "Author-proposed biradical pathway A–D, recorded as proposed mechanism rather than experimental proof.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page3:text",
+            "doc_776101937d954ae0:page3:image"
+          ]
+        },
+        {
+          "region": "right-column prose",
+          "finding": "Reports the performed isolated-intermediate experiment 7a→8a in 50% yield and explains its mechanistic interpretation.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page3:text",
+            "doc_776101937d954ae0:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_776101937d954ae0:generic_thermolysis_4_to_7_8",
+        "doc_776101937d954ae0:procedureA_4a",
+        "doc_776101937d954ae0:procedureB_4a",
+        "doc_776101937d954ae0:procedureC_7a_to_8a",
+        "doc_776101937d954ae0:scheme3_proposed_biradical_mechanism"
+      ],
+      "unresolved": [
+        "Biradicals A–D are proposed and not directly observed.",
+        "X-ray pictures confirm connectivity/relative arrangement but no absolute R/S naming is supplied on the page."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Notes 13–14",
+          "finding": "Product yield/amount and characterization for novel allenes 4b and 4d; spectral peak lists retained as source context, not reactions.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page4:text",
+            "doc_776101937d954ae0:page4:image"
+          ]
+        },
+        {
+          "region": "General Procedure A",
+          "finding": "0.68 mmol substrate, dry toluene 6.0 mL, microwave 150 °C/30 min, TLC systems, evaporation, silica chromatography and product-specific eluents transcribed.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page4:text",
+            "doc_776101937d954ae0:page4:image"
+          ]
+        },
+        {
+          "region": "General Procedure B",
+          "finding": "0.16 mmol substrate, dry toluene 6.0 mL, microwave 150 °C/3–7.5 h, TLC, evaporation and Et2O crystallization transcribed.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page4:text",
+            "doc_776101937d954ae0:page4:image"
+          ]
+        },
+        {
+          "region": "Note 17 and 8a characterization start",
+          "finding": "7a mass/yield and 8a Procedure-A/Procedure-B amounts/yields tied to their respective experiments; NMR/MS/analysis remain characterization context.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page4:text",
+            "doc_776101937d954ae0:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_776101937d954ae0:synthesis_4b",
+        "doc_776101937d954ae0:synthesis_4d",
+        "doc_776101937d954ae0:procedureA_4a",
+        "doc_776101937d954ae0:procedureA_4b",
+        "doc_776101937d954ae0:procedureA_4c",
+        "doc_776101937d954ae0:procedureA_4d",
+        "doc_776101937d954ae0:procedureA_4e",
+        "doc_776101937d954ae0:procedureB_4a",
+        "doc_776101937d954ae0:procedureB_4b",
+        "doc_776101937d954ae0:procedureB_4c",
+        "doc_776101937d954ae0:procedureB_4d",
+        "doc_776101937d954ae0:procedureB_4e"
+      ],
+      "unresolved": [
+        "No detailed preparation procedure for 4b/4d is printed.",
+        "Procedure A does not assign an eluent to 8d; 7d is trace.",
+        "Table footnote says chromatography for yields while Procedure B says crystallization from Et2O."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation",
+          "finding": "Continuation of 8a characterization and CCDC identifiers; no new synthesis record.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page5:text",
+            "doc_776101937d954ae0:page5:image"
+          ]
+        },
+        {
+          "region": "General Procedure C",
+          "finding": "Distinct mechanistic-study experiment: 7a 0.24 mmol in absolute toluene 6.0 mL, microwave 150 °C/2 h, TLC, evaporation, Et2O crystallization, 8a 49 mg (50%).",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page5:text",
+            "doc_776101937d954ae0:page5:image"
+          ]
+        },
+        {
+          "region": "remaining references",
+          "finding": "Bibliography only; cited papers are not reconstructed as experiments.",
+          "evidence_ids": [
+            "doc_776101937d954ae0:page5:text",
+            "doc_776101937d954ae0:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_776101937d954ae0:procedureA_4a",
+        "doc_776101937d954ae0:procedureB_4a",
+        "doc_776101937d954ae0:procedureC_7a_to_8a"
+      ],
+      "unresolved": [
+        "Procedure C atmosphere and pressure are unreported.",
+        "No supplied SI is associated despite the article's online-SI statement."
+      ]
+    }
+  ]
+}

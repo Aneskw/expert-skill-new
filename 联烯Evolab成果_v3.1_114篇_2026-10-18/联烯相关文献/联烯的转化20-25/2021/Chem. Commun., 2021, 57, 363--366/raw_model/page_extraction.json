@@ -1,0 +1,62 @@
+{
+  "document_id": "doc_1fb7cef55cdd0f91",
+  "pages": [
+    {
+      "page": 1,
+      "inventory": [
+        "title/abstract/metadata",
+        "Scheme 1a literature precedent",
+        "Scheme 1b literature precedent",
+        "Scheme 1c current generic scheme",
+        "ESI/CCDC availability notice"
+      ],
+      "decisions": [
+        "No concrete current experiment is reported on page 1.",
+        "External SI/CIF files are not associated."
+      ]
+    },
+    {
+      "page": 2,
+      "inventory": [
+        "Table 1 entries 1–12",
+        "Scheme 2 products 4aa–4ka and 4ab–4aj",
+        "prose product distribution and catalyst/solvent discussion"
+      ],
+      "decisions": [
+        "All 12 table rows are separate.",
+        "All 20 Scheme 2 outcomes are separate; Scheme 2 4aa is not Table 1 entry 7 because scale/volume differ."
+      ]
+    },
+    {
+      "page": 3,
+      "inventory": [
+        "Scheme 2 allenone-scope discussion",
+        "Scheme 3 scale-up",
+        "36 h/68% 5aa prose experiment",
+        "Table 2 entries 1–3",
+        "Scheme 4 products 5aa/5da/5ea/5ga/5ha/5ja/5ka/5ah/5af",
+        "parallel-resolution prose"
+      ],
+      "decisions": [
+        "Table 2 entry 3 and Scheme 4 5af are merged.",
+        "Scheme 5 5af/5′′af prose and page-4 drawing are one experiment."
+      ]
+    },
+    {
+      "page": 4,
+      "inventory": [
+        "Scheme 5 six parallel-resolution arrows",
+        "conclusion",
+        "references"
+      ],
+      "decisions": [
+        "Six product-pair arrows are six experiments.",
+        "References are not imported as current-paper experiments."
+      ]
+    }
+  ],
+  "limitations": [
+    "Compact structures were retained without unsafe complete SMILES.",
+    "SI procedures and characterization were not supplied."
+  ]
+}

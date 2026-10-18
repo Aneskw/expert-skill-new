@@ -1,0 +1,175 @@
+{
+  "document_id": "doc_2401da5b5fbe4542",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and upper body",
+          "finding": "The title and abstract identify the current phosphine-catalyzed (4+1) annulative rearrangement and its mechanistic study; this is an overview, not a discrete experimental procedure.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page1:image", "doc_2401da5b5fbe4542:page1:text"]
+        },
+        {
+          "region": "Figure 1 and introduction",
+          "finding": "Representative pyrrolizidine alkaloids and cited prior allene-imine chemistry are background material, not experiments performed in this paper.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page1:image", "doc_2401da5b5fbe4542:page1:text"]
+        },
+        {
+          "region": "lower-right current-work proposal",
+          "finding": "The text introduces the generic conversion of allenylic carbamates 1 through phosphonium dienes 2 to pyrrolines 3; it is linked to the generic current-work scheme continued on page 2.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page1:image", "doc_2401da5b5fbe4542:page1:text"]
+        }
+      ],
+      "record_ids": ["doc_2401da5b5fbe4542:scheme_current_annulation"],
+      "unresolved": ["No procedure, quantities, or individual yield is supplied on this page for the generic proposal.", "The page states that supporting information exists, but no supporting-information file was supplied and no association was inferred."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1",
+          "finding": "The upper arrow is the current generic 1-to-3 annulation proposal; the lower allenylic-acetate/bisnucleophile arrow is Tong's cited prior work and is retained as a literature example rather than a current-paper experiment.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page2:image", "doc_2401da5b5fbe4542:page2:text"]
+        },
+        {
+          "region": "Table 1 entries 1-12",
+          "finding": "All twelve optimization rows were inventoried independently. Entry 3 is the same reported 1a-to-3a experiment repeated in Table 3, and entry 12 is the same optimized 1b-to-3b experiment repeated in Tables 2 and 3; those repetitions were merged with multi-page evidence rather than duplicated.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page2:image", "doc_2401da5b5fbe4542:page2:text"]
+        },
+        {
+          "region": "Table 1 footnotes and adjacent prose",
+          "finding": "The common 0.14 mmol substrate and phosphine amounts, 4 mL plus 4 mL solvent, 24 h addition, additional 4 h stirring, isolated-yield basis, entry-1 one-portion addition, and entry-12 argon deaeration were retained.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page2:image", "doc_2401da5b5fbe4542:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2401da5b5fbe4542:scheme_current_annulation",
+        "doc_2401da5b5fbe4542:lit_tong_scheme1",
+        "doc_2401da5b5fbe4542:rxn_opt_t1_e01",
+        "doc_2401da5b5fbe4542:rxn_opt_t1_e02",
+        "doc_2401da5b5fbe4542:rxn_ann_3a",
+        "doc_2401da5b5fbe4542:rxn_opt_t1_e04",
+        "doc_2401da5b5fbe4542:rxn_opt_t1_e05",
+        "doc_2401da5b5fbe4542:rxn_opt_t1_e06",
+        "doc_2401da5b5fbe4542:rxn_opt_t1_e07",
+        "doc_2401da5b5fbe4542:rxn_opt_t1_e08",
+        "doc_2401da5b5fbe4542:rxn_opt_t1_e09",
+        "doc_2401da5b5fbe4542:rxn_opt_t1_e10",
+        "doc_2401da5b5fbe4542:rxn_opt_t1_e11",
+        "doc_2401da5b5fbe4542:rxn_ann_3b"
+      ],
+      "unresolved": ["The printed concentration and the stated 0.14 mmol in two 4 mL portions do not reconcile without choosing a concentration basis; both source facts are preserved and the conflict remains unresolved.", "The supplied page does not provide workup or purification details for each optimization row."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 entries 1-5 and footnotes",
+          "finding": "Each row contains a carbamate-preparation arrow and an annulation arrow, yielding ten experiment records. The repeated 1b and 3b rows were merged with the corresponding Table 3/current optimized records. The 1bb row retains 22% isolated yield and 79% yield based on recovered starting material as distinct outcomes.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page3:image", "doc_2401da5b5fbe4542:page3:text"]
+        },
+        {
+          "region": "Table 3 entries 1-13 and footnotes",
+          "finding": "All thirteen carbamate-preparation arrows and thirteen annulation arrows were inventoried. Shared conditions and the PPh3/non-deaerated exceptions were retained, while repeated 1a/1b and 3a/3b experiments were not duplicated.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page3:image", "doc_2401da5b5fbe4542:page3:text"]
+        },
+        {
+          "region": "body text above and beside the tables",
+          "finding": "The explicitly reported MBH preparations of 7a and 7b were recorded separately at 66% and 79%. The grouped statement that 7c-m arose by tin(II)- or indium-mediated allenylation lacks row-specific quantities on this page and remains source context rather than invented procedures.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page3:image", "doc_2401da5b5fbe4542:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2401da5b5fbe4542:rxn_mbh_7a", "doc_2401da5b5fbe4542:rxn_mbh_7b",
+        "doc_2401da5b5fbe4542:rxn_carb_1a", "doc_2401da5b5fbe4542:rxn_carb_1b", "doc_2401da5b5fbe4542:rxn_carb_1c", "doc_2401da5b5fbe4542:rxn_carb_1d", "doc_2401da5b5fbe4542:rxn_carb_1e", "doc_2401da5b5fbe4542:rxn_carb_1f", "doc_2401da5b5fbe4542:rxn_carb_1g", "doc_2401da5b5fbe4542:rxn_carb_1h", "doc_2401da5b5fbe4542:rxn_carb_1i", "doc_2401da5b5fbe4542:rxn_carb_1j", "doc_2401da5b5fbe4542:rxn_carb_1k", "doc_2401da5b5fbe4542:rxn_carb_1l", "doc_2401da5b5fbe4542:rxn_carb_1m", "doc_2401da5b5fbe4542:rxn_carb_1ba", "doc_2401da5b5fbe4542:rxn_carb_1bb", "doc_2401da5b5fbe4542:rxn_carb_1bc", "doc_2401da5b5fbe4542:rxn_carb_1bd",
+        "doc_2401da5b5fbe4542:rxn_ann_3a", "doc_2401da5b5fbe4542:rxn_ann_3b", "doc_2401da5b5fbe4542:rxn_ann_3c", "doc_2401da5b5fbe4542:rxn_ann_3d", "doc_2401da5b5fbe4542:rxn_ann_3e", "doc_2401da5b5fbe4542:rxn_ann_3f", "doc_2401da5b5fbe4542:rxn_ann_3g", "doc_2401da5b5fbe4542:rxn_ann_3h", "doc_2401da5b5fbe4542:rxn_ann_3i", "doc_2401da5b5fbe4542:rxn_ann_3j", "doc_2401da5b5fbe4542:rxn_ann_3k", "doc_2401da5b5fbe4542:rxn_ann_3l", "doc_2401da5b5fbe4542:rxn_ann_3m", "doc_2401da5b5fbe4542:rxn_ann_3ba", "doc_2401da5b5fbe4542:rxn_ann_3bb", "doc_2401da5b5fbe4542:rxn_ann_3bc", "doc_2401da5b5fbe4542:rxn_ann_3bd"
+      ],
+      "unresolved": ["The image supplies substituent drawings but not secure machine-readable exact structures for every member; uncertain complex SMILES remain empty.", "The yield measurement basis for the two MBH preparations is not reported on pages 1-6.", "Individual quantities, steps, and yields for the grouped preparations of 7c-m are not supplied on this page."]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2",
+          "finding": "The conversion of 1 through phosphonium diene 2 and sulfonamide anion 8 to 3 is a proposed mechanism, not a discrete observed synthesis, and is classified accordingly.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page4:image", "doc_2401da5b5fbe4542:page4:text"]
+        },
+        {
+          "region": "Table 4 entries 1-6 and footnotes",
+          "finding": "All six reactions of 9 with 10a were recorded independently with reagent presence/absence, yields of 11a/12a/13a, recovery of 9, 6 h addition and 1-1.5 h post-addition time. Entry 6 is a genuine no-reaction control with 100% recovery and no fabricated product.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page4:image", "doc_2401da5b5fbe4542:page4:text"]
+        },
+        {
+          "region": "Table 5 entries 1-7 and footnotes",
+          "finding": "All seven reactions of 9 with 10b were recorded independently with 1 h addition, 5-5.5 h post-addition time, product yields and recovery. Entry 7 is a no-reaction control. The table footnote's dry benzene conflicts with adjacent prose calling these standard 10a/10b reactions CH3CN; both source values are preserved as a conflict.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page4:image", "doc_2401da5b5fbe4542:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2401da5b5fbe4542:mechanism_scheme2",
+        "doc_2401da5b5fbe4542:rxn_mech_t4_e01", "doc_2401da5b5fbe4542:rxn_mech_t4_e02", "doc_2401da5b5fbe4542:rxn_mech_t4_e03", "doc_2401da5b5fbe4542:rxn_mech_t4_e04", "doc_2401da5b5fbe4542:rxn_mech_t4_e05", "doc_2401da5b5fbe4542:rxn_mech_t4_e06",
+        "doc_2401da5b5fbe4542:rxn_mech_t5_e01", "doc_2401da5b5fbe4542:rxn_mech_t5_e02", "doc_2401da5b5fbe4542:rxn_mech_t5_e03", "doc_2401da5b5fbe4542:rxn_mech_t5_e04", "doc_2401da5b5fbe4542:rxn_mech_t5_e05", "doc_2401da5b5fbe4542:rxn_mech_t5_e06", "doc_2401da5b5fbe4542:rxn_mech_t5_e07"
+      ],
+      "unresolved": ["Table 5 solvent conflict remains unresolved; no source value was selected over the other.", "The analytical method for the reported E/Z ratios is not stated on pages 1-6.", "Complete atom mapping and exact structures for the drawing-defined products remain unresolved."]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 6 entries 1-4 and footnotes",
+          "finding": "All four reactions of 9 with 10c were recorded independently with row-specific post-addition times of 8.5, 29, 72, and 9 h and their respective yields/recovery. The 13c E:Z ratio is linked to the 13c product.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page5:image", "doc_2401da5b5fbe4542:page5:text"]
+        },
+        {
+          "region": "two-column mechanistic discussion",
+          "finding": "The prose interprets products from Tables 4-6 and supplies evidence for the same experiments; it was merged into those records rather than counted as new reactions.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page5:image", "doc_2401da5b5fbe4542:page5:text"]
+        },
+        {
+          "region": "page-wide figures and tables inventory",
+          "finding": "No additional reaction scheme arrow or independent characterization-only mass-spectrum/molecular-weight/fragment-abundance table appears on this page.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page5:image", "doc_2401da5b5fbe4542:page5:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2401da5b5fbe4542:rxn_mech_t4_e01", "doc_2401da5b5fbe4542:rxn_mech_t4_e02", "doc_2401da5b5fbe4542:rxn_mech_t4_e03", "doc_2401da5b5fbe4542:rxn_mech_t4_e04",
+        "doc_2401da5b5fbe4542:rxn_mech_t5_e01", "doc_2401da5b5fbe4542:rxn_mech_t5_e02", "doc_2401da5b5fbe4542:rxn_mech_t5_e03", "doc_2401da5b5fbe4542:rxn_mech_t5_e04",
+        "doc_2401da5b5fbe4542:rxn_mech_t6_e01", "doc_2401da5b5fbe4542:rxn_mech_t6_e02", "doc_2401da5b5fbe4542:rxn_mech_t6_e03", "doc_2401da5b5fbe4542:rxn_mech_t6_e04"
+      ],
+      "unresolved": ["Zero-valued product columns do not report analytical detection limits.", "The E/Z analytical method and complete product mappings are not reported on pages 1-6."]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper two-column discussion",
+          "finding": "The text discusses NaOAc controls and outcomes already tabulated in Tables 4 and 5; evidence was added to those existing records and no duplicate experiments were created.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page6:image", "doc_2401da5b5fbe4542:page6:text"]
+        },
+        {
+          "region": "Scheme 3",
+          "finding": "The route from allenylic acetate 9 to allenoate 12 through proposed phosphonium intermediates is mechanistic rationale, not a directly observed synthetic experiment.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page6:image", "doc_2401da5b5fbe4542:page6:text"]
+        },
+        {
+          "region": "Scheme 4 and lower-right text",
+          "finding": "The proposed pathway for Tong's cited (4+1) reaction is retained as a proposed mechanism and is not promoted to a current-paper experimental record.",
+          "evidence_ids": ["doc_2401da5b5fbe4542:page6:image", "doc_2401da5b5fbe4542:page6:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2401da5b5fbe4542:rxn_mech_t4_e03", "doc_2401da5b5fbe4542:rxn_mech_t4_e04", "doc_2401da5b5fbe4542:rxn_mech_t4_e05", "doc_2401da5b5fbe4542:rxn_mech_t4_e06",
+        "doc_2401da5b5fbe4542:rxn_mech_t5_e03", "doc_2401da5b5fbe4542:rxn_mech_t5_e04", "doc_2401da5b5fbe4542:rxn_mech_t5_e05", "doc_2401da5b5fbe4542:rxn_mech_t5_e06", "doc_2401da5b5fbe4542:rxn_mech_t5_e07",
+        "doc_2401da5b5fbe4542:mechanism_scheme3", "doc_2401da5b5fbe4542:mechanism_scheme4"
+      ],
+      "unresolved": ["The proposed intermediates and elementary steps are mechanistic inferences rather than directly observed species on this page.", "No new tabulated experiment appears on page 6; experimental details remain those of the cross-page Table 4 and Table 5 records."]
+    }
+  ]
+}

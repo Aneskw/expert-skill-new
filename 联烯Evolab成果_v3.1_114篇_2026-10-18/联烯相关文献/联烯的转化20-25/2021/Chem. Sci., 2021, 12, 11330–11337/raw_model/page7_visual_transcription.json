@@ -1,0 +1,104 @@
+{
+  "batch_id": "allene-stereo-v31-200-20261017",
+  "document_id": "doc_b620dbe6e0542262",
+  "pages_visually_inspected": [7, 8],
+  "title": "Stereoselective rhodium-catalyzed 2-C–H 1,3-dienylation of indoles: dual functions of the directing group",
+  "scheme2": [
+    {
+      "id": "scheme2_14",
+      "reactants": ["3bf", "N-methylmaleimide"],
+      "reagent_equivalents": {"N-methylmaleimide": 1},
+      "solvent": "DMF",
+      "temperature_c": 60,
+      "time_h": 24,
+      "atmosphere": "Ar",
+      "product": "14",
+      "yield_percent": 80,
+      "selectivity": {"metric": "dr", "value": ">20:1", "major_configuration": "not assigned by descriptor"}
+    },
+    {
+      "id": "scheme2_15",
+      "reactants": ["3bf", "diethyl acetylenedicarboxylate"],
+      "reagent_equivalents": {"diethyl acetylenedicarboxylate": 3},
+      "solvent": "DMF",
+      "temperature_c": 60,
+      "time_h": 24,
+      "atmosphere": "Ar",
+      "product": "15",
+      "yield_percent": 77
+    },
+    {
+      "id": "scheme2_16",
+      "reactants": ["3bf", "PhB(OH)2"],
+      "charges": {"PhB(OH)2": "1.2 equiv", "Pd(PPh3)4": "2 mol%", "K3PO4": "2 equiv"},
+      "solvent": "DME/H2O",
+      "solvent_total_volume_ml": 2,
+      "solvent_ratio": "4:1",
+      "temperature_c": 65,
+      "time_h": 18,
+      "atmosphere": "Ar",
+      "product": "16",
+      "yield_percent": 89,
+      "selectivity": {"metric": "Z/E", "value": "96/4", "bond": "not specified in Scheme 2"}
+    },
+    {
+      "id": "scheme2_17",
+      "reactants": ["3bf", "methyl acrylate"],
+      "charges": {"methyl acrylate": "1.5 equiv", "[Cp*RhCl2]2": "5 mol%", "Cu(OAc)2·H2O": "1 equiv"},
+      "solvent": "DMF",
+      "solvent_total_volume_ml": 1,
+      "temperature_c": 80,
+      "time_h": 12,
+      "atmosphere": null,
+      "product": "17",
+      "yield_percent": 65,
+      "selectivity": {"metric": "Z/E", "value": "93/7", "bond": "not specified in Scheme 2"}
+    },
+    {
+      "id": "scheme2_18",
+      "reactants": ["3bf"],
+      "charges": {"NaOEt": "4 equiv"},
+      "solvent": "DMSO",
+      "temperature": "r.t.",
+      "time_h": 36,
+      "atmosphere": "Ar",
+      "product": "18",
+      "yield_percent": 66,
+      "selectivity": {"metric": "Z/E", "value": "95/5", "bond": "not specified in Scheme 2"}
+    },
+    {
+      "id": "scheme2_cis19",
+      "reactants": ["3am", "diethyl acetylenedicarboxylate"],
+      "charges": {"diethyl acetylenedicarboxylate": "3 equiv", "Sc(OTf)3": "10 mol%"},
+      "solvent": null,
+      "temperature_c": 100,
+      "time_h": 24,
+      "atmosphere": "Ar",
+      "product": "cis-19",
+      "yield_percent": 55,
+      "selectivity": {"metric": "relative configuration", "value": "cis", "ratio": null}
+    },
+    {
+      "id": "scheme2_E20",
+      "reactants": ["E-3an"],
+      "charges": {"NaOEt": "4 equiv"},
+      "solvent": "DMSO",
+      "temperature_c": 40,
+      "time_h": 30,
+      "atmosphere": "Ar",
+      "product": "E-20",
+      "yield_percent": 58,
+      "selectivity": {"metric": "geometric configuration", "value": "E; produced without isomerization", "ratio": null}
+    }
+  ],
+  "page8": {
+    "finding": "References only; no reaction arrows, tables, spectra, or current-paper experimental records.",
+    "record_ids": []
+  },
+  "global_limitations": [
+    "No supplementary-information PDF was explicitly provided or associated.",
+    "Scheme 2 does not state reaction scale, addition order, workup, purification, yield basis, or analytical method for the reported selectivities.",
+    "Product drawings were retained by source labels where a fully verified stereochemical SMILES could not be established from the page image alone.",
+    "All records remain needs_review."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "general_scheme": 1,
+    "reported_experiment": 17,
+    "optimization_entry": 12,
+    "substrate_scope_entry": 20
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_66a75af3fbad9e13"
+  ],
+  "warning_summary": {
+    "reaction_identity": 0,
+    "outcome_target": 0,
+    "measurement_basis": 6,
+    "structure_gap": 4
+  },
+  "warnings_reviewed": [
+    {
+      "record_id": "doc_66a75af3fbad9e13:scheme3_2_to_3",
+      "warning": "structure_gap",
+      "decision": "Retained unresolved because the allene structure and stereochemical identity were not encoded confidently; page-7/page-8 labels and evidence remain attached."
+    },
+    {
+      "record_id": "doc_66a75af3fbad9e13:prep_10",
+      "warning": "structure_gap",
+      "decision": "Retained unresolved because precursor S1 is only referenced by label in the bounded pages and the allene axial configuration is unreported."
+    },
+    {
+      "record_id": "doc_66a75af3fbad9e13:prep_11",
+      "warning": "structure_gap",
+      "decision": "Retained unresolved because precursor S2 is only referenced by label in the bounded pages and the product allene axial configuration is unreported."
+    },
+    {
+      "record_id": "doc_66a75af3fbad9e13:scheme3_benzoate_mixture",
+      "warning": "structure_gap and measurement_basis",
+      "decision": "Prior-page record; no unsupported structure or yield basis was introduced in this page-7-to-12 pass."
+    },
+    {
+      "record_id": "doc_66a75af3fbad9e13:table1_entry_4",
+      "warning": "measurement_basis",
+      "decision": "Prior-page optimization result; method remains unreported rather than inferred."
+    },
+    {
+      "record_id": "doc_66a75af3fbad9e13:table1_entry_9",
+      "warning": "measurement_basis",
+      "decision": "Prior-page optimization result; method remains unreported rather than inferred."
+    },
+    {
+      "record_id": "doc_66a75af3fbad9e13:table1_entry_11",
+      "warning": "measurement_basis",
+      "decision": "Prior-page optimization result; method remains unreported rather than inferred."
+    },
+    {
+      "record_id": "doc_66a75af3fbad9e13:text_33_50c_24h",
+      "warning": "measurement_basis",
+      "decision": "Prior-page prose result; method remains unreported rather than inferred."
+    },
+    {
+      "record_id": "doc_66a75af3fbad9e13:scheme7_1_to_31",
+      "warning": "measurement_basis",
+      "decision": "Prior-page record; the bounded source does not state the yield method, so it remains missing."
+    }
+  ],
+  "limitations": "Audit warnings are advisory. The absence of a warning does not establish chemical correctness, and all machine records remain needs_review."
+}

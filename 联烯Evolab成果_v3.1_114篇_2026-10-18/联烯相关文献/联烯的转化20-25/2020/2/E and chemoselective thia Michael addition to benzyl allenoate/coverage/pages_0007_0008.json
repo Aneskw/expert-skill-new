@@ -1,0 +1,70 @@
+{
+  "document_id": "doc_7ba97fbb78e354a5",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper left, continuation of Section 4.12",
+          "finding": "HRMS found value and IR bands continue the characterization of 2j. This is characterization evidence for the existing scope_2j synthesis, not a separate experiment.",
+          "evidence_ids": [
+            "doc_7ba97fbb78e354a5:page7:text",
+            "doc_7ba97fbb78e354a5:page7:image"
+          ]
+        },
+        {
+          "region": "left column, Sections 4.13 and 4.14",
+          "finding": "Product-specific experimental paragraphs report 1k as 45 mg, 0.5 mmol, 100 mol% with 2k in 68% isolated yield, and 1l as 101.2 mg, 0.5 mmol, 100 mol% with 2l in 82% isolated yield. These are duplicate textual descriptions of the existing Scheme 2 scope experiments and were merged as additional evidence rather than new records. NMR/HRMS/IR blocks remain characterization context.",
+          "evidence_ids": [
+            "doc_7ba97fbb78e354a5:page7:text",
+            "doc_7ba97fbb78e354a5:page7:image"
+          ]
+        },
+        {
+          "region": "left column below Section 4.14: supplementary data, disclosure, funding, and start of references",
+          "finding": "No additional synthesis is reported. The text points to supporting information and CCDC data, but source_mapping.json does not explicitly associate an SI file; disclosure, funding, and citations are non-experimental context.",
+          "evidence_ids": [
+            "doc_7ba97fbb78e354a5:page7:text",
+            "doc_7ba97fbb78e354a5:page7:image"
+          ]
+        },
+        {
+          "region": "right column, references 1-5",
+          "finding": "Bibliographic references only; no current-paper reaction arrow, table row, or experimental procedure is present.",
+          "evidence_ids": [
+            "doc_7ba97fbb78e354a5:page7:text",
+            "doc_7ba97fbb78e354a5:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_7ba97fbb78e354a5:scope_2j",
+        "doc_7ba97fbb78e354a5:scope_2k",
+        "doc_7ba97fbb78e354a5:scope_2l"
+      ],
+      "unresolved": [
+        "Exact chromatographic eluents and product-specific work-up modifications for 2k and 2l are not reported on this page.",
+        "The page states that supporting information is attached, but no SI file is explicitly associated in the workspace; no SI-only details were inferred.",
+        "The >20:1 E/Z measurement method remains unreported for 2j, 2k, and 2l."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "both columns, continuation of references 5-9",
+          "finding": "The full page is a bibliography continuation. It contains cited-paper titles and publication metadata only, with no current-paper experiment, reaction arrow, table, figure, footnote, or standalone characterization dataset to record.",
+          "evidence_ids": [
+            "doc_7ba97fbb78e354a5:page8:text",
+            "doc_7ba97fbb78e354a5:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

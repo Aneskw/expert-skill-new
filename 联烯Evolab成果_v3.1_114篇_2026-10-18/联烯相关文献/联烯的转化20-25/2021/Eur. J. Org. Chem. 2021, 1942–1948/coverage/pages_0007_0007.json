@@ -1,0 +1,44 @@
+{
+  "document_id": "doc_a10334c5f49b8d92",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation of the 4a analytical paragraph",
+          "finding": "Characterization only: the page continues the 1H NMR list for 4a and reports 13C NMR, IR, melting point 148-149 degC, and HRMS calculated/found values. It is linked to the existing 4a preparation and is not a new synthetic experiment.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page7:image",
+            "doc_a10334c5f49b8d92:page7:text"
+          ]
+        },
+        {
+          "region": "upper-left Supporting Information paragraph",
+          "finding": "The article says SI contains spectra, detailed procedures, and the 4e crystal structure (CCDC 2044635). No SI was supplied or explicitly associated, so no SI facts were imported.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page7:image",
+            "doc_a10334c5f49b8d92:page7:text"
+          ]
+        },
+        {
+          "region": "remaining two columns below/alongside the SI paragraph",
+          "finding": "Acknowledgements, conflict-of-interest statement, keywords, references 1-17, and manuscript dates. These are back matter and cited literature, with no current-paper reaction arrow, scope/optimization row, mechanistic experiment, or new synthesis.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page7:image",
+            "doc_a10334c5f49b8d92:page7:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a10334c5f49b8d92:table2_4a"
+      ],
+      "unresolved": [
+        "The 1H NMR list starts on page 6, so page 7 alone is only a continuation; it was not reconstructed as an independent complete spectrum.",
+        "The explicitly mentioned Supporting Information was not supplied or associated.",
+        "The analytical data do not assign absolute or relative stereochemistry for 4a; its potential C4 stereocenter remains unspecified and its complex structure remains not encoded as a full stereochemical SMILES."
+      ]
+    }
+  ]
+}

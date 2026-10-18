@@ -1,0 +1,1471 @@
+{
+  "mol_mecn": {
+    "canonical_isomeric_smiles": "CC#N",
+    "stereo_graph_key": "fdd689a8c9458d0c74f4e8e0d335dcfc7416c1b04df6625b21f2d2ee202b808a",
+    "connectivity_smiles": "CC#N",
+    "atom_centers": [],
+    "double_bonds": [],
+    "potential_stereo": [],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_dce": {
+    "canonical_isomeric_smiles": "ClCCCl",
+    "stereo_graph_key": "3cbabee25f31af0513b2bfca40e098fec9d001d9d47ae7dc8204bb1ae2327f06",
+    "connectivity_smiles": "ClCCCl",
+    "atom_centers": [],
+    "double_bonds": [],
+    "potential_stereo": [],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_thf": {
+    "canonical_isomeric_smiles": "C1CCOC1",
+    "stereo_graph_key": "92623ccd36bc322bf260d54035ff640468c5ff006fe42959840eaa9126b6208e",
+    "connectivity_smiles": "C1CCOC1",
+    "atom_centers": [],
+    "double_bonds": [],
+    "potential_stereo": [],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_meoh": {
+    "canonical_isomeric_smiles": "CO",
+    "stereo_graph_key": "fc8842c641d9150647f928e6c294ce26dd51ecae5ba30b114a78ddedcd398815",
+    "connectivity_smiles": "CO",
+    "atom_centers": [],
+    "double_bonds": [],
+    "potential_stereo": [],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_sodium_metabisulfite": {
+    "canonical_isomeric_smiles": "O=S([O-])S(=O)(=O)[O-].[Na+].[Na+]",
+    "stereo_graph_key": "3ad795d53595c826434010ebc2d71153923770657091314b87fd81f822065b2d",
+    "connectivity_smiles": "O=S([O-])S(=O)(=O)[O-].[Na+].[Na+]",
+    "atom_centers": [
+      {
+        "atom_index": 3,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 1,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 3,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 4,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 3,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_1a_scheme2": {
+    "canonical_isomeric_smiles": "C=C=C(C)C(O)c1ccc(Br)cc1",
+    "stereo_graph_key": "eece9e85558dadeeac31800d9a8615618aa3c37e71c8cdf3d8afcbb01d91f67b",
+    "connectivity_smiles": "C=C=C(C)C(O)c1ccc(Br)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 1,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 10,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 11,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 1,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      },
+      {
+        "type": "Bond_Double",
+        "centered_on": 10,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3a": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccc(Br)cc1)S(=O)(=O)c1ccc(Br)cc1",
+    "stereo_graph_key": "aea6998a590b040d8947e78d3344e9b2da14803ed40c9f64488767ee9f5ca34d",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccc(Br)cc1)S(=O)(=O)c1ccc(Br)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 11,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 13,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_1b_scheme2": {
+    "canonical_isomeric_smiles": "C=C=C(C)C(O)c1ccccc1",
+    "stereo_graph_key": "93655c0731028033510a0ad7d6e0c5a7358ea6c7550a7442f420520cc9fe7028",
+    "connectivity_smiles": "C=C=C(C)C(O)c1ccccc1",
+    "atom_centers": [
+      {
+        "atom_index": 1,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 9,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 10,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 1,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      },
+      {
+        "type": "Bond_Double",
+        "centered_on": 9,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3b": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccccc1)S(=O)(=O)c1ccc(Br)cc1",
+    "stereo_graph_key": "6217309ff4c0a6d4fefb01eb7f83dfb6da00969813c4d9807fc97c45d7a8a72e",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccccc1)S(=O)(=O)c1ccc(Br)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 10,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 13,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_1c_scheme2": {
+    "canonical_isomeric_smiles": "C=C=C(C)C(O)c1ccc(C)cc1",
+    "stereo_graph_key": "d73eba7217ec03bc0dacde3e7bd7146d858d91c8be592359837913d95754ef18",
+    "connectivity_smiles": "C=C=C(C)C(O)c1ccc(C)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 1,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 10,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 11,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 1,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      },
+      {
+        "type": "Bond_Double",
+        "centered_on": 10,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3c": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccc(C)cc1)S(=O)(=O)c1ccc(Br)cc1",
+    "stereo_graph_key": "9a2d5428a81cb7a3ca81a872f9444b663be79864eafc7d63d4b1133148efc95c",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccc(C)cc1)S(=O)(=O)c1ccc(Br)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 11,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 13,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_1d_scheme2": {
+    "canonical_isomeric_smiles": "C=C=C(C)C(O)c1ccc(OC)cc1",
+    "stereo_graph_key": "6824986e1dc0c266864db7ce9b3bd5f26d83e95dd85e74bf44a7cb744995f014",
+    "connectivity_smiles": "C=C=C(C)C(O)c1ccc(OC)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 1,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 11,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 1,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      },
+      {
+        "type": "Bond_Double",
+        "centered_on": 11,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3d": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccc(Br)cc1",
+    "stereo_graph_key": "87689e8d72f9974cfa89d2a848248dc90338ba5367bdecd29e4f7869c4a1d019",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccc(Br)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 15,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_1e_scheme2": {
+    "canonical_isomeric_smiles": "C=C=C(C)C(O)c1ccc(C(=O)OC)cc1",
+    "stereo_graph_key": "e783af21cb2207dc5990d6a34704532412edca1e785e8ebc0691983160ca6355",
+    "connectivity_smiles": "C=C=C(C)C(O)c1ccc(C(=O)OC)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 1,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 6,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 13,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 1,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      },
+      {
+        "type": "Bond_Double",
+        "centered_on": 13,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3e": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccc(C(=O)OC)cc1)S(=O)(=O)c1ccc(Br)cc1",
+    "stereo_graph_key": "d3e5f7e6863e1a53cdea41fd938d423dc0f492fb8eab92c537a99bffa9daaa43",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccc(C(=O)OC)cc1)S(=O)(=O)c1ccc(Br)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 8,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 16,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 17,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_1f_scheme2": {
+    "canonical_isomeric_smiles": "C=C=C(C)C(O)c1ccccc1OC",
+    "stereo_graph_key": "98a9f01e8c53e26011c7bcd2baba71eb9097339a1805e37f578e3519de789494",
+    "connectivity_smiles": "C=C=C(C)C(O)c1ccccc1OC",
+    "atom_centers": [
+      {
+        "atom_index": 1,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 11,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 1,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      },
+      {
+        "type": "Bond_Double",
+        "centered_on": 11,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3f": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccccc1OC)S(=O)(=O)c1ccc(Br)cc1",
+    "stereo_graph_key": "a231e8c3ea71d7b3d86ba551e29a98b503a45dadd93885f587607e7b672729f1",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccccc1OC)S(=O)(=O)c1ccc(Br)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 15,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_1g_scheme2": {
+    "canonical_isomeric_smiles": "C=C=C(C)C(O)c1ccccc1C",
+    "stereo_graph_key": "db1e4e42feb9204a301e6ee94a59f54384363cfe821cb3d93940930bbaed45aa",
+    "connectivity_smiles": "C=C=C(C)C(O)c1ccccc1C",
+    "atom_centers": [
+      {
+        "atom_index": 1,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 10,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 11,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 1,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      },
+      {
+        "type": "Bond_Double",
+        "centered_on": 10,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3g": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccccc1C)S(=O)(=O)c1ccc(Br)cc1",
+    "stereo_graph_key": "eba687759c7295db1be34c13541d57ca3efbf7bdc79d1983181b42c6e8436916",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccccc1C)S(=O)(=O)c1ccc(Br)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 11,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 13,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_1h_scheme2": {
+    "canonical_isomeric_smiles": "C=C=C(C)C(O)c1c(OC)cccc1OC",
+    "stereo_graph_key": "7ba491c232fc08d379d953f10172333605b66d3072c9ec49ca04bb63e0ad4aa6",
+    "connectivity_smiles": "C=C=C(C)C(O)c1c(OC)cccc1OC",
+    "atom_centers": [
+      {
+        "atom_index": 1,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 13,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 1,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      },
+      {
+        "type": "Bond_Double",
+        "centered_on": 13,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3h": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1c(OC)cccc1OC)S(=O)(=O)c1ccc(Br)cc1",
+    "stereo_graph_key": "210c7e013bcfa1711dcb5ff402b021a3a77ca25e3178974d0c43a1aafd1f231b",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1c(OC)cccc1OC)S(=O)(=O)c1ccc(Br)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 16,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 17,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_1i_scheme2": {
+    "canonical_isomeric_smiles": "C=C=C(C)C(O)c1cc(OC)cc(OC)c1",
+    "stereo_graph_key": "c86086866e906343e506b750913879675a87388820d3186ba5cd965eb56b9700",
+    "connectivity_smiles": "C=C=C(C)C(O)c1cc(OC)cc(OC)c1",
+    "atom_centers": [
+      {
+        "atom_index": 1,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 13,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 1,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      },
+      {
+        "type": "Bond_Double",
+        "centered_on": 13,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3i": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1cc(OC)cc(OC)c1)S(=O)(=O)c1ccc(Br)cc1",
+    "stereo_graph_key": "039f7e74d3aaa76329a1d30f27dfc257f6c8088d1ad361b9ac64722e0d6bb5f6",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1cc(OC)cc(OC)c1)S(=O)(=O)c1ccc(Br)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 16,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 17,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_1j_scheme2": {
+    "canonical_isomeric_smiles": "C=C=C(C)C(O)c1cccs1",
+    "stereo_graph_key": "6f6329e65a2395b98b637ea080f5bbbc7daf225fa70ce25d7863ed1201c11b0c",
+    "connectivity_smiles": "C=C=C(C)C(O)c1cccs1",
+    "atom_centers": [
+      {
+        "atom_index": 1,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 8,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 9,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 1,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      },
+      {
+        "type": "Bond_Double",
+        "centered_on": 8,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3j": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1cccs1)S(=O)(=O)c1ccc(Br)cc1",
+    "stereo_graph_key": "01d23b2ebc3ef8cc48c80c08e40ff755f9db867be2dd6c345a978d85e15fda8c",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1cccs1)S(=O)(=O)c1ccc(Br)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 9,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 11,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_1k_scheme2": {
+    "canonical_isomeric_smiles": "C=C=C(C)C(O)c1ccsc1",
+    "stereo_graph_key": "725fe445a029d2687df3fab2a3ac5fae1c4d71e5a86978d9b9af9391f965be0c",
+    "connectivity_smiles": "C=C=C(C)C(O)c1ccsc1",
+    "atom_centers": [
+      {
+        "atom_index": 1,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 8,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 9,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 1,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      },
+      {
+        "type": "Bond_Double",
+        "centered_on": 8,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3k": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccsc1)S(=O)(=O)c1ccc(Br)cc1",
+    "stereo_graph_key": "6136b17a919569dc95e119431b1ced1b8f3e2348f2e89b58c25a01b9ec5ef410",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccsc1)S(=O)(=O)c1ccc(Br)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 9,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 11,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_2a": {
+    "canonical_isomeric_smiles": "F[B-](F)(F)F.N#[N+]c1ccc(Br)cc1",
+    "stereo_graph_key": "fc083c959e5947a3005ba69ba8264716a0146aad08fa1c2769741e9c4cbbdb45",
+    "connectivity_smiles": "F[B-](F)(F)F.N#[N+]c1ccc(Br)cc1",
+    "atom_centers": [],
+    "double_bonds": [],
+    "potential_stereo": [],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_1c_scheme3_pome": {
+    "canonical_isomeric_smiles": "C=C=C(C)C(O)c1ccc(OC)cc1",
+    "stereo_graph_key": "6824986e1dc0c266864db7ce9b3bd5f26d83e95dd85e74bf44a7cb744995f014",
+    "connectivity_smiles": "C=C=C(C)C(O)c1ccc(OC)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 1,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 11,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 1,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      },
+      {
+        "type": "Bond_Double",
+        "centered_on": 11,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_diazo_3l": {
+    "canonical_isomeric_smiles": "COc1ccc([N+]#N)cc1.F[B-](F)(F)F",
+    "stereo_graph_key": "00af8e0ad4ea5e121558075f51c3572c6b2a4a4f1ef06b1456ba6701224f1079",
+    "connectivity_smiles": "COc1ccc([N+]#N)cc1.F[B-](F)(F)F",
+    "atom_centers": [],
+    "double_bonds": [],
+    "potential_stereo": [],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3l": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccc(OC)cc1",
+    "stereo_graph_key": "40b518dd1588bd6cb09e3e36eb97840afb54bb7986513b47818928875e2a2bd0",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccc(OC)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 15,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_diazo_3m": {
+    "canonical_isomeric_smiles": "F[B-](F)(F)F.N#[N+]c1ccc(Cl)cc1",
+    "stereo_graph_key": "997040ca816885f4d09dd309797fde20e6ad8a3c9270398d08f5ed8c1230c6c8",
+    "connectivity_smiles": "F[B-](F)(F)F.N#[N+]c1ccc(Cl)cc1",
+    "atom_centers": [],
+    "double_bonds": [],
+    "potential_stereo": [],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3m": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccc(Cl)cc1",
+    "stereo_graph_key": "3802169de2887017ef35ca23dbcb9e0f34046d5675689c2a9155d7edcc21a4d5",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccc(Cl)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 15,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_diazo_3n": {
+    "canonical_isomeric_smiles": "F[B-](F)(F)F.N#[N+]c1ccc(F)cc1",
+    "stereo_graph_key": "8b1b683bb7dac13114afc89a97e35d04add5d3706c7fb2d71caec9c24e418fc4",
+    "connectivity_smiles": "F[B-](F)(F)F.N#[N+]c1ccc(F)cc1",
+    "atom_centers": [],
+    "double_bonds": [],
+    "potential_stereo": [],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3n": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccc(F)cc1",
+    "stereo_graph_key": "e673d478d771341d012430fcbbac72cad657a5642d725c7ef22056a0f003297a",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccc(F)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 15,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_diazo_3o": {
+    "canonical_isomeric_smiles": "CCOC(=O)c1ccc([N+]#N)cc1.F[B-](F)(F)F",
+    "stereo_graph_key": "32ba682dca3af54e9e35fde88c47404f67dcfd14e96e36dde025e7202ffbfa29",
+    "connectivity_smiles": "CCOC(=O)c1ccc([N+]#N)cc1.F[B-](F)(F)F",
+    "atom_centers": [],
+    "double_bonds": [
+      {
+        "bond_index": 6,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3o": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccc(C(=O)OCC)cc1",
+    "stereo_graph_key": "afcd28cc6e80dfc24ba588e5a8c2089a17771cb346db440699edf706896f58ba",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccc(C(=O)OCC)cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 15,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 21,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_diazo_3p": {
+    "canonical_isomeric_smiles": "F[B-](F)(F)F.N#[N+]c1ccc([N+](=O)[O-])cc1",
+    "stereo_graph_key": "e1e0f69d18e5aa1f8f9b1e9b322e9c9926417387bf38e007080e0acb722fd6ae",
+    "connectivity_smiles": "F[B-](F)(F)F.N#[N+]c1ccc([N+](=O)[O-])cc1",
+    "atom_centers": [],
+    "double_bonds": [
+      {
+        "bond_index": 6,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3p": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+    "stereo_graph_key": "ccbe69cc6ff702c8a16896e80f821fe0bc98d03d89eb24274a91a12d56e89df0",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 15,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 21,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_diazo_3q": {
+    "canonical_isomeric_smiles": "F[B-](F)(F)F.N#[N+]c1ccccc1Br",
+    "stereo_graph_key": "e0b31b904eb5cb10b514cebde4091091a66862777ee90677102f81331eaca5bd",
+    "connectivity_smiles": "F[B-](F)(F)F.N#[N+]c1ccccc1Br",
+    "atom_centers": [],
+    "double_bonds": [],
+    "potential_stereo": [],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3q": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccccc1Br",
+    "stereo_graph_key": "cdfb308154628e61e5063201bb1ddfee0947d45f0d9df80753a6ab34b440b2f2",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccccc1Br",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 15,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_diazo_3r": {
+    "canonical_isomeric_smiles": "F[B-](F)(F)F.N#[N+]c1ccccc1",
+    "stereo_graph_key": "88b1624611f0744e02be4369199813c736d3f8654166b73f0affb080f8f87abd",
+    "connectivity_smiles": "F[B-](F)(F)F.N#[N+]c1ccccc1",
+    "atom_centers": [],
+    "double_bonds": [],
+    "potential_stereo": [],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_3r": {
+    "canonical_isomeric_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccccc1",
+    "stereo_graph_key": "a1a3000145b7ba6b3c32983eea2d7805e5b64d3c613b74b974800376a69a0427",
+    "connectivity_smiles": "C=C(C(C)(C=O)c1ccc(OC)cc1)S(=O)(=O)c1ccccc1",
+    "atom_centers": [
+      {
+        "atom_index": 2,
+        "CIP": "?"
+      }
+    ],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 12,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 14,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 15,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Atom_Tetrahedral",
+        "centered_on": 2,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "mol_diazo_mbr": {
+    "canonical_isomeric_smiles": "F[B-](F)(F)F.N#[N+]c1cccc(Br)c1",
+    "stereo_graph_key": "86372d9e1f2dc7948304a1053cbeca18582ae562ffd446ffc87c2c5bdafdbabf",
+    "connectivity_smiles": "F[B-](F)(F)F.N#[N+]c1cccc(Br)c1",
+    "atom_centers": [],
+    "double_bonds": [],
+    "potential_stereo": [],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  }
+}

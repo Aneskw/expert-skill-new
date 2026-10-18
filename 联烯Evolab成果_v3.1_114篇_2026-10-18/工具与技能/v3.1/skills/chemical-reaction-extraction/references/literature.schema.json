@@ -1,0 +1,941 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "3.1"
+    },
+    "tool_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "molecules": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/molecule"
+      }
+    },
+    "reactions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/reaction"
+      }
+    },
+    "source_context": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "tool_version",
+    "documents",
+    "molecules",
+    "reactions",
+    "source_context"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:chemical-literature-extraction:3.1",
+  "title": "Molecule registry and evidence-linked reaction experiments, 2026-10-16 standard",
+  "$defs": {
+    "fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "raw_value": {},
+        "normalized_value": {},
+        "acquisition_method": {
+          "enum": [
+            "original_extraction",
+            "inherited_general_condition",
+            "structure_derivation",
+            "external_database",
+            "inference",
+            "not_applicable"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "data_status": {
+          "enum": [
+            "confirmed",
+            "pending_review",
+            "unreported",
+            "unreadable",
+            "not_applicable",
+            "conflict"
+          ]
+        },
+        "verification": {
+          "enum": [
+            "unreviewed",
+            "source_checked",
+            "inferred",
+            "missing"
+          ]
+        },
+        "derivation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alternatives": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        }
+      },
+      "required": [
+        "raw_value",
+        "normalized_value",
+        "acquisition_method",
+        "evidence_ids",
+        "data_status",
+        "verification",
+        "derivation",
+        "alternatives"
+      ]
+    },
+    "occurrence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "document_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "compound_label": {
+          "$ref": "#/$defs/fact"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "document_id",
+        "compound_label",
+        "evidence_ids"
+      ]
+    },
+    "template_variable": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "attachment_points": {
+          "$ref": "#/$defs/fact"
+        },
+        "definition": {
+          "$ref": "#/$defs/fact"
+        },
+        "allowed_values": {
+          "$ref": "#/$defs/fact"
+        },
+        "constraints": {
+          "$ref": "#/$defs/fact"
+        }
+      },
+      "required": [
+        "label",
+        "attachment_points",
+        "definition",
+        "allowed_values",
+        "constraints"
+      ]
+    },
+    "template": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "fixed_structure": {
+          "$ref": "#/$defs/fact"
+        },
+        "variables": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/template_variable"
+          }
+        },
+        "instance_mapping": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "molecule_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "compound_label": {
+                "$ref": "#/$defs/fact"
+              },
+              "assignments": {
+                "$ref": "#/$defs/fact"
+              }
+            },
+            "required": [
+              "molecule_id",
+              "compound_label",
+              "assignments"
+            ]
+          }
+        },
+        "reason": {
+          "$ref": "#/$defs/fact"
+        }
+      },
+      "required": [
+        "fixed_structure",
+        "variables",
+        "instance_mapping",
+        "reason"
+      ]
+    },
+    "external_property": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "property_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "database_name": {
+          "$ref": "#/$defs/fact"
+        },
+        "database_compound_id": {
+          "$ref": "#/$defs/fact"
+        },
+        "matching_method": {
+          "$ref": "#/$defs/fact"
+        },
+        "matching_status": {
+          "$ref": "#/$defs/fact"
+        },
+        "metric": {
+          "$ref": "#/$defs/fact"
+        },
+        "value": {
+          "$ref": "#/$defs/fact"
+        },
+        "p_value": {
+          "$ref": "#/$defs/fact"
+        },
+        "p_value_basis": {
+          "$ref": "#/$defs/fact"
+        },
+        "target_or_extracted_metal": {
+          "$ref": "#/$defs/fact"
+        },
+        "assay_context": {
+          "$ref": "#/$defs/fact"
+        },
+        "statistics": {
+          "$ref": "#/$defs/fact"
+        }
+      },
+      "required": [
+        "property_id",
+        "database_name",
+        "database_compound_id",
+        "matching_method",
+        "matching_status",
+        "metric",
+        "value",
+        "p_value",
+        "p_value_basis",
+        "target_or_extracted_metal",
+        "assay_context",
+        "statistics"
+      ]
+    },
+    "molecule": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "molecule_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "identity_status": {
+          "enum": [
+            "unresolved",
+            "source_identified",
+            "structure_checked"
+          ]
+        },
+        "occurrences": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/occurrence"
+          }
+        },
+        "names": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "original": {
+              "$ref": "#/$defs/fact"
+            },
+            "english": {
+              "$ref": "#/$defs/fact"
+            },
+            "abbreviations": {
+              "$ref": "#/$defs/fact"
+            },
+            "aliases": {
+              "$ref": "#/$defs/fact"
+            }
+          },
+          "required": [
+            "original",
+            "english",
+            "abbreviations",
+            "aliases"
+          ]
+        },
+        "cas_numbers": {
+          "$ref": "#/$defs/fact"
+        },
+        "representation_type": {
+          "enum": [
+            "smiles",
+            "generic_template",
+            "unresolved"
+          ]
+        },
+        "smiles": {
+          "$ref": "#/$defs/fact"
+        },
+        "generic_template": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/template"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "stereochemistry": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "atom_centers": {
+              "$ref": "#/$defs/fact"
+            },
+            "double_bonds": {
+              "$ref": "#/$defs/fact"
+            },
+            "axial": {
+              "$ref": "#/$defs/fact"
+            },
+            "mixture": {
+              "$ref": "#/$defs/fact"
+            },
+            "assignment": {
+              "$ref": "#/$defs/fact"
+            },
+            "chirality_status": {
+              "$ref": "#/$defs/fact"
+            },
+            "geometry_status": {
+              "$ref": "#/$defs/fact"
+            },
+            "representation_status": {
+              "$ref": "#/$defs/fact"
+            },
+            "isomeric_smiles": {
+              "$ref": "#/$defs/fact"
+            },
+            "identity_key": {
+              "$ref": "#/$defs/fact"
+            }
+          },
+          "required": [
+            "atom_centers",
+            "double_bonds",
+            "axial",
+            "mixture",
+            "assignment",
+            "chirality_status",
+            "geometry_status",
+            "representation_status",
+            "isomeric_smiles",
+            "identity_key"
+          ]
+        },
+        "identity_note": {
+          "$ref": "#/$defs/fact"
+        },
+        "external_properties": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/external_property"
+          }
+        },
+        "allene_features": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "fragment_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "carbon_atom_maps": {
+                "$ref": "#/$defs/fact"
+              },
+              "substitution": {
+                "$ref": "#/$defs/fact"
+              },
+              "axial_stereochemistry": {
+                "$ref": "#/$defs/fact"
+              },
+              "local_environment": {
+                "$ref": "#/$defs/fact"
+              }
+            },
+            "required": [
+              "fragment_id",
+              "carbon_atom_maps",
+              "substitution",
+              "axial_stereochemistry",
+              "local_environment"
+            ]
+          }
+        }
+      },
+      "required": [
+        "molecule_id",
+        "identity_status",
+        "occurrences",
+        "names",
+        "cas_numbers",
+        "representation_type",
+        "smiles",
+        "generic_template",
+        "stereochemistry",
+        "identity_note",
+        "external_properties"
+      ]
+    },
+    "participant": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "participant_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "molecule_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "role": {
+          "enum": [
+            "reactant",
+            "product",
+            "catalyst",
+            "ligand",
+            "reagent",
+            "solvent",
+            "additive",
+            "workup_agent",
+            "purification_agent",
+            "unknown"
+          ]
+        },
+        "stage": {
+          "enum": [
+            "reaction",
+            "workup",
+            "purification",
+            "characterization"
+          ]
+        },
+        "product_role": {
+          "$ref": "#/$defs/fact"
+        },
+        "charges": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "mass": {
+              "$ref": "#/$defs/fact"
+            },
+            "amount": {
+              "$ref": "#/$defs/fact"
+            },
+            "volume": {
+              "$ref": "#/$defs/fact"
+            },
+            "equivalents": {
+              "$ref": "#/$defs/fact"
+            },
+            "mol_percent": {
+              "$ref": "#/$defs/fact"
+            }
+          },
+          "required": [
+            "mass",
+            "amount",
+            "volume",
+            "equivalents",
+            "mol_percent"
+          ]
+        },
+        "equivalence_reference": {
+          "$ref": "#/$defs/fact"
+        }
+      },
+      "required": [
+        "participant_id",
+        "molecule_id",
+        "role",
+        "stage",
+        "product_role",
+        "charges",
+        "equivalence_reference"
+      ]
+    },
+    "step": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "step_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stage": {
+          "enum": [
+            "reaction",
+            "workup",
+            "purification",
+            "characterization"
+          ]
+        },
+        "participant_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "operation": {
+          "$ref": "#/$defs/fact"
+        },
+        "temperature": {
+          "$ref": "#/$defs/fact"
+        },
+        "time": {
+          "$ref": "#/$defs/fact"
+        },
+        "atmosphere": {
+          "$ref": "#/$defs/fact"
+        },
+        "pressure": {
+          "$ref": "#/$defs/fact"
+        }
+      },
+      "required": [
+        "step_id",
+        "stage",
+        "participant_ids",
+        "operation",
+        "temperature",
+        "time",
+        "atmosphere",
+        "pressure"
+      ]
+    },
+    "outcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "outcome_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "yield",
+            "product_amount",
+            "selectivity",
+            "conversion",
+            "recovery",
+            "no_reaction",
+            "trace",
+            "decomposition",
+            "other"
+          ]
+        },
+        "target_molecule_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "product_role": {
+          "$ref": "#/$defs/fact"
+        },
+        "value": {
+          "$ref": "#/$defs/fact"
+        },
+        "yield_type": {
+          "$ref": "#/$defs/fact"
+        },
+        "measurement_basis": {
+          "$ref": "#/$defs/fact"
+        },
+        "scope": {
+          "$ref": "#/$defs/fact"
+        }
+      },
+      "required": [
+        "outcome_id",
+        "kind",
+        "target_molecule_ids",
+        "product_role",
+        "value",
+        "yield_type",
+        "measurement_basis",
+        "scope"
+      ]
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "standard_id": {
+          "const": "bond-formation-20261016"
+        },
+        "mapped_reaction_smiles": {
+          "$ref": "#/$defs/fact"
+        },
+        "bond_changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        },
+        "labels": {
+          "$ref": "#/$defs/fact"
+        },
+        "coverage": {
+          "$ref": "#/$defs/fact"
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "model_votes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "model_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "labels": {
+                "$ref": "#/$defs/fact"
+              }
+            },
+            "required": [
+              "model_id",
+              "labels"
+            ]
+          }
+        }
+      },
+      "required": [
+        "standard_id",
+        "mapped_reaction_smiles",
+        "bond_changes",
+        "labels",
+        "coverage",
+        "limitations",
+        "model_votes"
+      ]
+    },
+    "reaction": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "reaction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "document_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "record_type": {
+          "enum": [
+            "specific_experiment",
+            "generic_scheme",
+            "proposed_mechanism",
+            "literature_example",
+            "unresolved"
+          ]
+        },
+        "experiment_categories": {
+          "$ref": "#/$defs/fact"
+        },
+        "location": {
+          "$ref": "#/$defs/fact"
+        },
+        "general_scheme_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "reaction_name": {
+          "$ref": "#/$defs/fact"
+        },
+        "transformation_type": {
+          "$ref": "#/$defs/fact"
+        },
+        "participants": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/participant"
+          }
+        },
+        "reaction_scale": {
+          "$ref": "#/$defs/fact"
+        },
+        "solvent_conditions": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "composition": {
+              "$ref": "#/$defs/fact"
+            },
+            "mixture_ratio": {
+              "$ref": "#/$defs/fact"
+            },
+            "total_volume": {
+              "$ref": "#/$defs/fact"
+            },
+            "concentration": {
+              "$ref": "#/$defs/fact"
+            },
+            "concentration_basis": {
+              "$ref": "#/$defs/fact"
+            }
+          },
+          "required": [
+            "composition",
+            "mixture_ratio",
+            "total_volume",
+            "concentration",
+            "concentration_basis"
+          ]
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/step"
+          }
+        },
+        "special_conditions": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "light_source": {
+              "$ref": "#/$defs/fact"
+            },
+            "wavelength": {
+              "$ref": "#/$defs/fact"
+            },
+            "power": {
+              "$ref": "#/$defs/fact"
+            },
+            "current": {
+              "$ref": "#/$defs/fact"
+            },
+            "voltage": {
+              "$ref": "#/$defs/fact"
+            },
+            "electrodes": {
+              "$ref": "#/$defs/fact"
+            },
+            "flow_parameters": {
+              "$ref": "#/$defs/fact"
+            },
+            "reactor": {
+              "$ref": "#/$defs/fact"
+            }
+          },
+          "required": [
+            "light_source",
+            "wavelength",
+            "power",
+            "current",
+            "voltage",
+            "electrodes",
+            "flow_parameters",
+            "reactor"
+          ]
+        },
+        "procedure": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "original_text": {
+              "$ref": "#/$defs/fact"
+            },
+            "general_procedure_reference": {
+              "$ref": "#/$defs/fact"
+            },
+            "modifications": {
+              "$ref": "#/$defs/fact"
+            },
+            "addition_order": {
+              "$ref": "#/$defs/fact"
+            },
+            "pretreatment": {
+              "$ref": "#/$defs/fact"
+            }
+          },
+          "required": [
+            "original_text",
+            "general_procedure_reference",
+            "modifications",
+            "addition_order",
+            "pretreatment"
+          ]
+        },
+        "outcomes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/outcome"
+          }
+        },
+        "classification": {
+          "$ref": "#/$defs/classification"
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "review": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "status": {
+              "enum": [
+                "needs_review",
+                "source_reviewed",
+                "rejected"
+              ]
+            },
+            "method": {
+              "enum": [
+                "none",
+                "model",
+                "assistant_visual",
+                "human"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "checked_fields": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "unresolved": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "required": [
+            "status",
+            "method",
+            "reviewer",
+            "checked_fields",
+            "unresolved"
+          ]
+        },
+        "completeness": {
+          "enum": [
+            "partial",
+            "complete"
+          ]
+        }
+      },
+      "required": [
+        "reaction_id",
+        "document_id",
+        "record_type",
+        "experiment_categories",
+        "location",
+        "general_scheme_ids",
+        "reaction_name",
+        "transformation_type",
+        "participants",
+        "reaction_scale",
+        "solvent_conditions",
+        "steps",
+        "special_conditions",
+        "procedure",
+        "outcomes",
+        "classification",
+        "notes",
+        "evidence_ids",
+        "review",
+        "completeness"
+      ]
+    }
+  }
+}

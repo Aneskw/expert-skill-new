@@ -1,0 +1,42 @@
+{
+  "batch_id": "allene-stereo-v31-200-20261017",
+  "document_id": "doc_65d1cdf1cb09f398",
+  "page_range": [
+    7,
+    7
+  ],
+  "source_image_inspected": "assets/doc_65d1cdf1cb09f398/page7.jpg",
+  "evidence_ids": [
+    "doc_65d1cdf1cb09f398:page7:image",
+    "doc_65d1cdf1cb09f398:page7:text"
+  ],
+  "new_reaction_records": [],
+  "updated_reaction_records": [
+    "doc_65d1cdf1cb09f398:table2_3h",
+    "doc_65d1cdf1cb09f398:table3_5c"
+  ],
+  "updated_molecule_records": [
+    "m_3h",
+    "m_5c"
+  ],
+  "new_source_context": {
+    "context_id": "doc_65d1cdf1cb09f398:page7_references_and_ccdc",
+    "type": "crystallographic_and_bibliographic_context",
+    "description": "Page 7 contains only the continuation of references [15], reference [16] mapping CCDC 1937754 to 3h and CCDC 1968335 to 5c, and reference [17]. It contains no reaction arrow, structure drawing, table row, procedure, or standalone spectrum. The CCDC availability statement does not establish an associated SI file in this workspace.",
+    "linked_reaction_ids": [
+      "doc_65d1cdf1cb09f398:table2_3h",
+      "doc_65d1cdf1cb09f398:table3_5c"
+    ],
+    "linked_molecule_ids": [
+      "m_3h",
+      "m_5c"
+    ],
+    "evidence_ids": [
+      "doc_65d1cdf1cb09f398:page7:image",
+      "doc_65d1cdf1cb09f398:page7:text"
+    ]
+  },
+  "decision": "No new synthesis, control, mechanism experiment, table row, reaction arrow, or spectrum occurs on page 7. References were not converted into current-paper experiments.",
+  "si_association": "unestablished",
+  "review_status": "needs_review"
+}

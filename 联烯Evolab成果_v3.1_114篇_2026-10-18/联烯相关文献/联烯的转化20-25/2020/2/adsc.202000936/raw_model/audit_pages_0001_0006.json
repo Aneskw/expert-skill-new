@@ -1,0 +1,21 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "general_scheme": 5,
+    "optimization_entry": 36,
+    "substrate_scope_entry": 29,
+    "reported_experiment": 1
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": ["doc_2abd3d7449bbf0b6"],
+  "warnings": [
+    {
+      "record_id": "doc_2abd3d7449bbf0b6:prose_11i_to_11c",
+      "record_kind": "reported_experiment",
+      "evidence_ids": ["doc_2abd3d7449bbf0b6:page2:image", "doc_2abd3d7449bbf0b6:page2:text"],
+      "warnings": ["structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"]
+    }
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules."
+}

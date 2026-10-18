@@ -1,0 +1,195 @@
+{
+  "document_id": "doc_ca1481599a4b0f91",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title and abstract",
+          "finding": "Paper identity and platform summary; no reaction arrow, table, synthetic procedure, or independent characterization experiment.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page1:text",
+            "doc_ca1481599a4b0f91:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Abstract claims are high-level and were not expanded into reaction conditions."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "right column, Results—Synthesis and characterization of peptide-functionalized NPs",
+          "finding": "BAPTES synthesis is stated; BAPTES reacts with C-terminal-Cys peptide and is analyzed by HR-MS/MS; NP-BAPTES is functionalized with peptide to form NP-Pep.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ]
+        },
+        {
+          "region": "right-column characterization continuation",
+          "finding": "TEM/FTIR/MAS-NMR observations support NP-BAPTES and NP-Pep formation; spectral values are characterization, not separate synthesis records.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page2:text",
+            "doc_ca1481599a4b0f91:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ca1481599a4b0f91:rxn_baptes_synthesis",
+        "doc_ca1481599a4b0f91:rxn_np_baptes_silanization",
+        "doc_ca1481599a4b0f91:rxn_soluble_baptes_peptide_test",
+        "doc_ca1481599a4b0f91:rxn_np_pep_coupling"
+      ],
+      "unresolved": [
+        "Cited Supplementary Figs. 2–10 are not associated in the workspace.",
+        "Detailed methods are on page 9, used only as context outside this page-coverage declaration."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Fig. 1a silanization arrow",
+          "finding": "Fe3O4-OA is silanized with BAPTES to NP-BAPTES; this is duplicate graphical evidence for the specific silanization record, not a second experiment.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page3:text",
+            "doc_ca1481599a4b0f91:page3:image"
+          ]
+        },
+        {
+          "region": "Fig. 1b allene-thiol click drawing",
+          "finding": "Surface-bound allene carboxamide reacts with the C-terminal cysteine thiol to form the NP-Pep conjugate; residual alkene geometry is not labeled.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page3:text",
+            "doc_ca1481599a4b0f91:page3:image"
+          ]
+        },
+        {
+          "region": "Fig. 1c–h and surrounding text",
+          "finding": "TEM, FTIR, TGA and solvent-dispersibility characterization; TGA supports peptide loading but does not create additional synthesis records.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page3:text",
+            "doc_ca1481599a4b0f91:page3:image"
+          ]
+        },
+        {
+          "region": "bottom-right start of cTnI enrichment section",
+          "finding": "Protein enrichment workflow begins; it is biochemical/analytical context rather than a covalent synthesis.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page3:text",
+            "doc_ca1481599a4b0f91:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ca1481599a4b0f91:rxn_np_baptes_silanization",
+        "doc_ca1481599a4b0f91:rxn_np_pep_coupling"
+      ],
+      "unresolved": [
+        "Exact surface anchoring connectivity and peptide-conjugate E/Z geometry cannot be established from the heterogeneous drawing."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Fig. 2a",
+          "finding": "Affinity enrichment sequence (loading, NP binding, magnetic isolation, elution, top-down LC/MS); no covalent reaction arrow.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page4:text",
+            "doc_ca1481599a4b0f91:page4:image"
+          ]
+        },
+        {
+          "region": "Fig. 2b–h",
+          "finding": "SDS-PAGE, proteoform recovery, enrichment statistics and mass spectra; analytical observations retained in source_context, not synthesis experiments.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page4:text",
+            "doc_ca1481599a4b0f91:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Supplementary Tables 5–6 and source-data files are cited but not supplied as associated SI."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column, NP-Pep enrichment and controls",
+          "finding": "Protein binding/washing/elution results plus NP-BAPTES, acidic-pH and negative-peptide enrichment controls; chemical conversion and coupling yield are not reported for controls.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page5:text",
+            "doc_ca1481599a4b0f91:page5:image"
+          ]
+        },
+        {
+          "region": "left/right columns, LC/MS comparison and heart samples",
+          "finding": "Proteoform distributions and NP-versus-agarose enrichment are analytical results, not new syntheses.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page5:text",
+            "doc_ca1481599a4b0f91:page5:image"
+          ]
+        },
+        {
+          "region": "right column, start of serum enrichment",
+          "finding": "Serum spike-in experiment description; no covalent product is formed.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page5:text",
+            "doc_ca1481599a4b0f91:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Control-NP preparation details and chemical coupling conversion are not reported on pages 1–6; no no-reaction synthesis was invented."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Fig. 3a–d",
+          "finding": "SDS-PAGE, extracted-ion chromatograms and deconvoluted protein mass spectra for cTnI/HSA enrichment; characterization only.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page6:text",
+            "doc_ca1481599a4b0f91:page6:image"
+          ]
+        },
+        {
+          "region": "Fig. 3e–g",
+          "finding": "Instrument-response and NP-enrichment calibration/sensitivity data; no synthetic transformation.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page6:text",
+            "doc_ca1481599a4b0f91:page6:image"
+          ]
+        },
+        {
+          "region": "bottom continuation text",
+          "finding": "Discussion of serum enrichment performance; no additional reaction arrow or table row.",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page6:text",
+            "doc_ca1481599a4b0f91:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Reported protein spectra/abundances are not converted into chemical reaction records."
+      ]
+    }
+  ]
+}

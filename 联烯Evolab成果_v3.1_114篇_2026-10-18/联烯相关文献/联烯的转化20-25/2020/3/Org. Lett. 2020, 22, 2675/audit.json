@@ -1,0 +1,49 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "literature_example": 2,
+    "general_scheme": 1,
+    "optimization_entry": 18,
+    "substrate_scope_entry": 21,
+    "reported_experiment": 5,
+    "mechanism": 1
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_f3ddb3d9d361e80d"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_f3ddb3d9d361e80d:scheme2_p1_asymmetric_attempt",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_f3ddb3d9d361e80d:page3:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_f3ddb3d9d361e80d:scheme3a_scale_up",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_f3ddb3d9d361e80d:page3:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_f3ddb3d9d361e80d:scheme3b_allylation",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_f3ddb3d9d361e80d:page3:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "tool": "standard_records.stereo_inspect (same implementation as reaction_tools.py standard stereo)",
+  "source_verified": false,
+  "checks": [
+    {
+      "molecule_id": "m_etoac",
+      "compound_label": "EtOAc",
+      "input_smiles": "CCOC(C)=O",
+      "canonical_isomeric_smiles": "CCOC(C)=O",
+      "stereo_graph_key": "aa776d017a7413eaa98d958836bf2321d599c41772392950b900f195a10b0042",
+      "connectivity_smiles": "CCOC(C)=O",
+      "atom_centers": [],
+      "double_bonds": [
+        {
+          "bond_index": 4,
+          "stereo": "STEREONONE"
+        }
+      ],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_water",
+      "compound_label": "H2O",
+      "input_smiles": "O",
+      "canonical_isomeric_smiles": "O",
+      "stereo_graph_key": "c4694f2e93d5c4e7d51f9c5deb75e6cc8be5e1114178c6a45b6fc2c566a0aa8c",
+      "connectivity_smiles": "O",
+      "atom_centers": [],
+      "double_bonds": [],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_ethanol",
+      "compound_label": "EtOH",
+      "input_smiles": "CCO",
+      "canonical_isomeric_smiles": "CCO",
+      "stereo_graph_key": "ab1de819ede91df490e6441934decfa9041b49f91d6bbadbba4df634ccff57fa",
+      "connectivity_smiles": "CCO",
+      "atom_centers": [],
+      "double_bonds": [],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_mecn",
+      "compound_label": "MeCN",
+      "input_smiles": "CC#N",
+      "canonical_isomeric_smiles": "CC#N",
+      "stereo_graph_key": "fdd689a8c9458d0c74f4e8e0d335dcfc7416c1b04df6625b21f2d2ee202b808a",
+      "connectivity_smiles": "CC#N",
+      "atom_centers": [],
+      "double_bonds": [],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_toluene",
+      "compound_label": "toluene",
+      "input_smiles": "Cc1ccccc1",
+      "canonical_isomeric_smiles": "Cc1ccccc1",
+      "stereo_graph_key": "5da1ba726f54707457f9b345ee903af6b90813f94b68ff79693d596e75457e77",
+      "connectivity_smiles": "Cc1ccccc1",
+      "atom_centers": [],
+      "double_bonds": [],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_dce",
+      "compound_label": "DCE",
+      "input_smiles": "ClCCCl",
+      "canonical_isomeric_smiles": "ClCCCl",
+      "stereo_graph_key": "3cbabee25f31af0513b2bfca40e098fec9d001d9d47ae7dc8204bb1ae2327f06",
+      "connectivity_smiles": "ClCCCl",
+      "atom_centers": [],
+      "double_bonds": [],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_acetone",
+      "compound_label": "acetone",
+      "input_smiles": "CC(C)=O",
+      "canonical_isomeric_smiles": "CC(C)=O",
+      "stereo_graph_key": "de84a3a5e7d86fb53fe767b079b6e324b7f486e3ee690b86b06fd5d7231fb01c",
+      "connectivity_smiles": "CC(C)=O",
+      "atom_centers": [],
+      "double_bonds": [
+        {
+          "bond_index": 2,
+          "stereo": "STEREONONE"
+        }
+      ],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_tempo",
+      "compound_label": "TEMPO",
+      "input_smiles": "CC1(C)CCCC(C)(C)N1[O]",
+      "canonical_isomeric_smiles": "CC1(C)CCCC(C)(C)N1[O]",
+      "stereo_graph_key": "14d3f2bbec00056d012d3b6e34cb4795c02769107f2c7c1188e7fd9caa174170",
+      "connectivity_smiles": "CC1(C)CCCC(C)(C)N1[O]",
+      "atom_centers": [],
+      "double_bonds": [],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_tbuamine",
+      "compound_label": "t-BuNH2",
+      "input_smiles": "CC(C)(C)N",
+      "canonical_isomeric_smiles": "CC(C)(C)N",
+      "stereo_graph_key": "d40c87c8ea09b47b39af806fbc9cf81741b83ba20d6148bb453cc5148c2a493c",
+      "connectivity_smiles": "CC(C)(C)N",
+      "atom_centers": [],
+      "double_bonds": [],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_tfa",
+      "compound_label": "TFA",
+      "input_smiles": "O=C(O)C(F)(F)F",
+      "canonical_isomeric_smiles": "O=C(O)C(F)(F)F",
+      "stereo_graph_key": "40941979aaadf2021439cc523254741bf5aedddf2769afaced9317493f2c93a1",
+      "connectivity_smiles": "O=C(O)C(F)(F)F",
+      "atom_centers": [],
+      "double_bonds": [
+        {
+          "bond_index": 0,
+          "stereo": "STEREONONE"
+        }
+      ],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_dcm",
+      "compound_label": "DCM",
+      "input_smiles": "ClCCl",
+      "canonical_isomeric_smiles": "ClCCl",
+      "stereo_graph_key": "a910e51b8ef4ac4d666448ee01498b8eb2f2be869d162bd731b186354d9d154f",
+      "connectivity_smiles": "ClCCl",
+      "atom_centers": [],
+      "double_bonds": [],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_h2",
+      "compound_label": "H2",
+      "input_smiles": "[H][H]",
+      "canonical_isomeric_smiles": "[H][H]",
+      "stereo_graph_key": "ea7e44a64c7461517e4f9eb140658e1650e4fe580eaa6895de3a748fdaaf72df",
+      "connectivity_smiles": "[H][H]",
+      "atom_centers": [],
+      "double_bonds": [],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_ether",
+      "compound_label": "Et2O",
+      "input_smiles": "CCOCC",
+      "canonical_isomeric_smiles": "CCOCC",
+      "stereo_graph_key": "f2ef24d8a92c71b25a77ca5f108dad81819066e2824cdd28df5b970402c795d1",
+      "connectivity_smiles": "CCOCC",
+      "atom_centers": [],
+      "double_bonds": [],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_ozone",
+      "compound_label": "O3",
+      "input_smiles": "[O-][O+]=O",
+      "canonical_isomeric_smiles": "O=[O+][O-]",
+      "stereo_graph_key": "38abc985abe1f1571a07a0e2724c0936e141122cad3af9a2bdafa5219f4085e1",
+      "connectivity_smiles": "O=[O+][O-]",
+      "atom_centers": [],
+      "double_bonds": [
+        {
+          "bond_index": 1,
+          "stereo": "STEREONONE"
+        }
+      ],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    },
+    {
+      "molecule_id": "m_iproh",
+      "compound_label": "i-PrOH",
+      "input_smiles": "CC(O)C",
+      "canonical_isomeric_smiles": "CC(C)O",
+      "stereo_graph_key": "dbb1ac6e5de735970d66b019862ecf51f867be44b3d2bcce9fa8b917092e5625",
+      "connectivity_smiles": "CC(C)O",
+      "atom_centers": [],
+      "double_bonds": [],
+      "potential_stereo": [],
+      "source_verified": false,
+      "limitations": [
+        "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+        "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "source_verified": false,
+  "candidates": [
+    {
+      "molecule_id": "m_p6",
+      "candidate_smiles": "O=C(Nc1ccc2ccccc2c1)[C@H]1CCCN1",
+      "canonical_isomeric_smiles": "O=C(Nc1ccc2ccccc2c1)[C@H]1CCCN1",
+      "stereo_graph_key": "a31c04a7862ffdb0d543b5b82dd30995fdfc3b0e074b44773d56d0bdf6d08ba4",
+      "atom_centers": [{"atom_index": 13, "CIP": "R"}],
+      "decision": "not promoted",
+      "reason": "The source drawing establishes a chiral prolinamide, but the local @/@@ candidate and absolute descriptor were not secure enough to promote as the formal molecular identity."
+    },
+    {
+      "molecule_id": "m_cpme",
+      "candidate_smiles": "COC1CCCC1",
+      "canonical_isomeric_smiles": "COC1CCCC1",
+      "stereo_graph_key": "0bb5ee5db22519ffa0806256698d1606ab2f8f46ac406cd1121c257327c247f8",
+      "atom_centers": [],
+      "decision": "promoted as connectivity candidate"
+    },
+    {
+      "molecule_id": "m_4brba",
+      "candidate_smiles": "O=C(O)c1ccc(Br)cc1",
+      "canonical_isomeric_smiles": "O=C(O)c1ccc(Br)cc1",
+      "stereo_graph_key": "bfe56d77f434bcfe534dd1c510a3ce604e76af9bc742374d29ddeab8967613d6",
+      "atom_centers": [],
+      "decision": "promoted as connectivity candidate"
+    },
+    {
+      "molecule_id": "m_tfa",
+      "candidate_smiles": "O=C(O)C(F)(F)F",
+      "canonical_isomeric_smiles": "O=C(O)C(F)(F)F",
+      "stereo_graph_key": "40941979aaadf2021439cc523254741bf5aedddf2769afaced9317493f2c93a1",
+      "atom_centers": [],
+      "decision": "promoted as connectivity candidate"
+    }
+  ],
+  "limitations": [
+    "Graph diagnostics do not infer unreported configuration, ee, dr, racemic composition, or source correctness.",
+    "Allene axial stereochemistry and bridged-ring relative configurations remain source-drawing descriptions when exact SMILES was not secure."
+  ]
+}

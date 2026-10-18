@@ -1,0 +1,239 @@
+{
+  "document_id": "doc_2992316b1e64fc22",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract and graphical abstract",
+          "finding": "Article identity and whole-route summary; not a specific run.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page1:image",
+            "doc_2992316b1e64fc22:page1:text"
+          ]
+        },
+        {
+          "region": "Figure 1 and introduction",
+          "finding": "Lembehynes B/C structures and cited prior lembehyne B work; retained as background, not current experiments.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page1:image",
+            "doc_2992316b1e64fc22:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Graphical abstract gives a 41% overall synthesis yield but does not define a single experimental run or measurement basis."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1",
+          "finding": "Retrosynthetic analysis; one generic-scheme record, not performed experiments.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page2:image",
+            "doc_2992316b1e64fc22:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 2, every arrow 2→3→4→5→6→7→8→9→10",
+          "finding": "Eight source-reported transformations; arrow-specific conditions/yields transcribed, and later text conflicts retained.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page2:image",
+            "doc_2992316b1e64fc22:page2:text",
+            "doc_2992316b1e64fc22:page3:text",
+            "doc_2992316b1e64fc22:page9:text"
+          ]
+        },
+        {
+          "region": "Scheme 3, every arrow 11+2→12→13→14→9→10",
+          "finding": "Four new alternative-route records; repeated 9→10 linked to the Scheme 2 record; catalyst discrepancy retained.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page2:image",
+            "doc_2992316b1e64fc22:page2:text",
+            "doc_2992316b1e64fc22:page3:text"
+          ]
+        },
+        {
+          "region": "bottom Results and Discussion",
+          "finding": "Chemistry rationale and citations; no additional table row or reaction arrow.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page2:image",
+            "doc_2992316b1e64fc22:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2992316b1e64fc22:scheme1_retrosynthetic_analysis",
+        "doc_2992316b1e64fc22:scheme2_2_to_3",
+        "doc_2992316b1e64fc22:scheme2_3_to_4",
+        "doc_2992316b1e64fc22:scheme2_4_to_5",
+        "doc_2992316b1e64fc22:scheme2_5_to_6",
+        "doc_2992316b1e64fc22:scheme2_6_to_7",
+        "doc_2992316b1e64fc22:scheme2_7_to_8",
+        "doc_2992316b1e64fc22:scheme2_8_to_9",
+        "doc_2992316b1e64fc22:schemes2_3_9_to_10",
+        "doc_2992316b1e64fc22:scheme3_11_2_to_12",
+        "doc_2992316b1e64fc22:scheme3_12_to_13",
+        "doc_2992316b1e64fc22:scheme3_13_to_14",
+        "doc_2992316b1e64fc22:scheme3_14_to_9"
+      ],
+      "unresolved": [
+        "Several arrows cite prior methods; exact status of a newly executed versus literature-adapted run is not always explicit.",
+        "Yield measurement bases are generally unreported."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 4, both 15a/15b branches and 18→19→17",
+          "finding": "Four specific transformations; scheme/prose/experimental loading and time conflicts retained.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page3:image",
+            "doc_2992316b1e64fc22:page3:text",
+            "doc_2992316b1e64fc22:page9:text",
+            "doc_2992316b1e64fc22:page10:text"
+          ]
+        },
+        {
+          "region": "Scheme 5, 17→20→21→22→1",
+          "finding": "Four specific transformations; TBAF time conflict and 96% ee retained.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page3:image",
+            "doc_2992316b1e64fc22:page3:text",
+            "doc_2992316b1e64fc22:page4:text",
+            "doc_2992316b1e64fc22:page10:text"
+          ]
+        },
+        {
+          "region": "two-column chemistry discussion",
+          "finding": "Narrative duplicates of schemes plus yields/ratios; linked to records rather than duplicated.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page3:image",
+            "doc_2992316b1e64fc22:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2992316b1e64fc22:schemes2_3_9_to_10",
+        "doc_2992316b1e64fc22:scheme4_10_15a_to_17",
+        "doc_2992316b1e64fc22:scheme4_10_15b_to_18",
+        "doc_2992316b1e64fc22:scheme4_18_to_19",
+        "doc_2992316b1e64fc22:scheme4_19_to_17",
+        "doc_2992316b1e64fc22:scheme5_17_to_20",
+        "doc_2992316b1e64fc22:scheme5_20_to_21",
+        "doc_2992316b1e64fc22:scheme5_21_to_22",
+        "doc_2992316b1e64fc22:scheme5_22_to_1"
+      ],
+      "unresolved": [
+        "Cross-cyclomagnesiation loadings differ among Scheme 4, prose ratio and later experimental text.",
+        "Absolute R/S of natural lembehyne C was not derived.",
+        "Several measurement bases remain unreported."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top-left Scheme 5 completion prose",
+          "finding": "Duplicate evidence for 21→22 and 22→1; merged with page-3 records.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page4:image",
+            "doc_2992316b1e64fc22:page4:text"
+          ]
+        },
+        {
+          "region": "Table 1",
+          "finding": "Four-cell-line IC50 assay values; non-synthetic and retained in source_context.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page4:image",
+            "doc_2992316b1e64fc22:page4:text"
+          ]
+        },
+        {
+          "region": "Figure 2 and caption",
+          "finding": "Jurkat apoptosis flow-cytometry dose series; non-synthetic biological assay context.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page4:image",
+            "doc_2992316b1e64fc22:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2992316b1e64fc22:scheme5_21_to_22",
+        "doc_2992316b1e64fc22:scheme5_22_to_1"
+      ],
+      "unresolved": [
+        "IC50 measurement details are outside this chemistry-record increment; no chemical product was invented."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 3 panels A–F and caption",
+          "finding": "Jurkat cell-cycle dose series and comparison with cited lembehyne B data; retained as source_context, not synthetic records.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page5:image",
+            "doc_2992316b1e64fc22:page5:text"
+          ]
+        },
+        {
+          "region": "bottom continuation prose",
+          "finding": "IC50 recap and apoptosis discussion; no reaction arrow/table of chemical synthesis.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page5:image",
+            "doc_2992316b1e64fc22:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Individual plotted cell-cycle percentages are not all legible enough for exhaustive numerical transcription; figure/caption context is preserved."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 4 panels A–D and caption",
+          "finding": "H2A.X phosphorylation control/test assay; mechanistic biological observation retained as source_context.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page6:image",
+            "doc_2992316b1e64fc22:page6:text"
+          ]
+        },
+        {
+          "region": "apoptosis and cell-cycle prose",
+          "finding": "Reports late/early apoptosis and sub-G1 observations; no synthetic reaction arrow.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page6:image",
+            "doc_2992316b1e64fc22:page6:text"
+          ]
+        },
+        {
+          "region": "DNA-damage discussion",
+          "finding": "Author interpretation and cited biology, not a chemical synthesis experiment.",
+          "evidence_ids": [
+            "doc_2992316b1e64fc22:page6:image",
+            "doc_2992316b1e64fc22:page6:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The text says 'all three cell lines' despite four named leukemia lines elsewhere; no correction was imposed."
+      ]
+    }
+  ]
+}

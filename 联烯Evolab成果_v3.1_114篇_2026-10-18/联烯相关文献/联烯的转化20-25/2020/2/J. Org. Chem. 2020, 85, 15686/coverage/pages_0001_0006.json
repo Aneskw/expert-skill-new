@@ -1,0 +1,258 @@
+{
+  "document_id": "doc_496d854c8fcb9457",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top title, abstract, and graphical abstract",
+          "finding": "True paper title/DOI and a generic this-work aminophosphination overview; no concrete experiment-level quantities beyond the overview claim.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page1:text", "doc_496d854c8fcb9457:page1:image"]
+        },
+        {
+          "region": "right column, Scheme 1 arrows (a)-(e) and 'this work'",
+          "finding": "Five cited prior-literature reaction arrows were classified as literature_example; the final variable allene arrow was classified as a generic_scheme, not as a concrete experiment.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page1:image", "doc_496d854c8fcb9457:page1:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_496d854c8fcb9457:scheme1a_prior_cu",
+        "doc_496d854c8fcb9457:scheme1b_prior_oxime",
+        "doc_496d854c8fcb9457:scheme1c_prior_amino",
+        "doc_496d854c8fcb9457:scheme1d_prior_azido",
+        "doc_496d854c8fcb9457:scheme1e_prior_alkyne",
+        "doc_496d854c8fcb9457:scheme1_this_work"
+      ],
+      "unresolved": [
+        "Prior-literature arrows use generic R/PG groups and were not expanded into experiments from this paper.",
+        "The graphical abstract's '21 examples/up to 93% yields' is a summary claim, not an independently counted reaction."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column optimization narrative and Scheme 2",
+          "finding": "The model 1a + 2a -> 3a experiment (0.2/0.4 mmol, Tf2O/2,6-lutidine, DCE, N2, room temperature, 2 h, 86%) is the same experiment later repeated in Scheme 3 and the 3a preparation paragraph; it is stored once as record 3a.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page2:text", "doc_496d854c8fcb9457:page2:image"]
+        },
+        {
+          "region": "upper right, Scheme 3 including H2O2 footnote",
+          "finding": "Generic Scheme 3 plus six product entries: 3a, 3a′, 3b, 3c, 3d, and 3e. The H2O2 footnote is represented as an explicit additional reagent/step for 3a′, with dose/time/temperature left unreported.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page2:image", "doc_496d854c8fcb9457:page2:text"]
+        },
+        {
+          "region": "middle/lower right, Scheme 4 and footnotes",
+          "finding": "Generic Scheme 4 and twelve separate scope entries 5a-5l. 5k is the observed hydroamination product rather than an aminophosphination product. dr >10:1 for 5f/5g and E:Z >10:1 for 5i/5j are crude-NMR selectivity outcomes linked to the respective products.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page2:image", "doc_496d854c8fcb9457:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_496d854c8fcb9457:scheme3_generic",
+        "doc_496d854c8fcb9457:scheme4_generic",
+        "doc_496d854c8fcb9457:3a",
+        "doc_496d854c8fcb9457:3ap",
+        "doc_496d854c8fcb9457:3b",
+        "doc_496d854c8fcb9457:3c",
+        "doc_496d854c8fcb9457:3d",
+        "doc_496d854c8fcb9457:3e",
+        "doc_496d854c8fcb9457:5a",
+        "doc_496d854c8fcb9457:5b",
+        "doc_496d854c8fcb9457:5c",
+        "doc_496d854c8fcb9457:5d",
+        "doc_496d854c8fcb9457:5e",
+        "doc_496d854c8fcb9457:5f",
+        "doc_496d854c8fcb9457:5g",
+        "doc_496d854c8fcb9457:5h",
+        "doc_496d854c8fcb9457:5i",
+        "doc_496d854c8fcb9457:5j",
+        "doc_496d854c8fcb9457:5k",
+        "doc_496d854c8fcb9457:5l"
+      ],
+      "unresolved": [
+        "The unenumerated earlier Ag/Cu catalyst/solvent/temperature failures cannot be split into row-level experiments and remain source_context.",
+        "Scheme 4 compact substrate drawings do not support fully certain structure transcription for 4h and 4l; their concrete SMILES remain unresolved.",
+        "5f/5g source names give (1R,3S), but candidate SMILES do not encode those centers; 5g anti assignment and its X-ray basis are preserved textually.",
+        "The exact major/minor identities for both members of each dr result are not fully specified on this page."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column discussion continuing Scheme 4",
+          "finding": "anti-5g is attributed to single-crystal X-ray diffraction; E-5i to NOESY. 5h-5l results and the special hydroamination outcome 5k are cross-checked against Scheme 4 rather than counted again.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page3:text", "doc_496d854c8fcb9457:page3:image"]
+        },
+        {
+          "region": "left middle, Scheme 5 and following paragraph",
+          "finding": "Generic Scheme 5 plus four separate phosphine-oxide scope experiments 6a-6d. Two separately named alternative phosphorus-source trials are qualitative trace controls; exact trace products and measurement method are unreported.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page3:image", "doc_496d854c8fcb9457:page3:text"]
+        },
+        {
+          "region": "upper right, Scheme 6",
+          "finding": "Tentative mechanism A-D was recorded as proposed_mechanism, not as experimental proof or isolated intermediates.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page3:image", "doc_496d854c8fcb9457:page3:text"]
+        },
+        {
+          "region": "lower right, Experimental Section and start of General Procedures",
+          "finding": "General analytical methods were kept as source_context. The common 0.2 mmol procedure begins here and is inherited only by product paragraphs explicitly saying they were prepared according to it; the sentence continues on page 4.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page3:text", "doc_496d854c8fcb9457:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_496d854c8fcb9457:scheme5_generic",
+        "doc_496d854c8fcb9457:3a",
+        "doc_496d854c8fcb9457:3ap",
+        "doc_496d854c8fcb9457:3b",
+        "doc_496d854c8fcb9457:3c",
+        "doc_496d854c8fcb9457:3d",
+        "doc_496d854c8fcb9457:3e",
+        "doc_496d854c8fcb9457:5a",
+        "doc_496d854c8fcb9457:5b",
+        "doc_496d854c8fcb9457:5c",
+        "doc_496d854c8fcb9457:5d",
+        "doc_496d854c8fcb9457:5e",
+        "doc_496d854c8fcb9457:5f",
+        "doc_496d854c8fcb9457:5g",
+        "doc_496d854c8fcb9457:5h",
+        "doc_496d854c8fcb9457:5i",
+        "doc_496d854c8fcb9457:5j",
+        "doc_496d854c8fcb9457:5k",
+        "doc_496d854c8fcb9457:5l",
+        "doc_496d854c8fcb9457:6a",
+        "doc_496d854c8fcb9457:6b",
+        "doc_496d854c8fcb9457:6c",
+        "doc_496d854c8fcb9457:6d",
+        "doc_496d854c8fcb9457:trace_control_phosphinate",
+        "doc_496d854c8fcb9457:trace_control_oxaphosphinine",
+        "doc_496d854c8fcb9457:scheme6_proposed_mechanism"
+      ],
+      "unresolved": [
+        "DFT calculation details and full stereochemical evidence are said to be in SI, which was not supplied.",
+        "Alternative phosphorus-source control charges, temperature, time, exact product identity, and trace measurement basis are unreported.",
+        "The General Procedures sentence continues onto page 4; it was reconstructed only across those two supplied page texts/images."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper left, continuation of General Procedures",
+          "finding": "Tf2O charge, 2 h room-temperature hold, NaHCO3 quench, CH2Cl2 extraction, Na2SO4 drying, concentration, and short silica column were captured in ordered reaction/workup/purification steps for every explicitly general-procedure scope preparation.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page4:text", "doc_496d854c8fcb9457:page4:image"]
+        },
+        {
+          "region": "upper left, Gram-Scale Preparation of 5a",
+          "finding": "Distinct 5.0 mmol scale-up experiment with all reported masses/volumes/amounts, 2 h at room temperature, 2.1 g product, and 88% isolated yield; not merged with the 0.2 mmol 93% scope preparation.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page4:text", "doc_496d854c8fcb9457:page4:image"]
+        },
+        {
+          "region": "remaining two columns, product paragraphs 3a, 3a′, 3b-e, 5a-b",
+          "finding": "Product-specific isolated masses, yields, and PE/EtOAc ratios were linked to existing Scheme 3/4 experiment records. NMR/HRMS blocks remain characterization source_context and were not made into reactions.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page4:text", "doc_496d854c8fcb9457:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_496d854c8fcb9457:3a",
+        "doc_496d854c8fcb9457:3ap",
+        "doc_496d854c8fcb9457:3b",
+        "doc_496d854c8fcb9457:3c",
+        "doc_496d854c8fcb9457:3d",
+        "doc_496d854c8fcb9457:3e",
+        "doc_496d854c8fcb9457:5a",
+        "doc_496d854c8fcb9457:5b",
+        "doc_496d854c8fcb9457:5c",
+        "doc_496d854c8fcb9457:5d",
+        "doc_496d854c8fcb9457:5e",
+        "doc_496d854c8fcb9457:5f",
+        "doc_496d854c8fcb9457:5g",
+        "doc_496d854c8fcb9457:5h",
+        "doc_496d854c8fcb9457:5i",
+        "doc_496d854c8fcb9457:5j",
+        "doc_496d854c8fcb9457:5k",
+        "doc_496d854c8fcb9457:5l",
+        "doc_496d854c8fcb9457:6a",
+        "doc_496d854c8fcb9457:6b",
+        "doc_496d854c8fcb9457:6c",
+        "doc_496d854c8fcb9457:6d",
+        "doc_496d854c8fcb9457:5a_gram_scale"
+      ],
+      "unresolved": [
+        "The gram-scale paragraph does not report a chromatography eluent ratio.",
+        "Product structures are machine candidates; NMR/HRMS parsing was not used as independent structure verification.",
+        "General-procedure inheritance does not fill unreported treatment details for the H2O2-modified 3a′ step."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left and right columns, product paragraphs 5c-5j",
+          "finding": "Each paragraph was associated with its pre-existing Scheme 4 experiment and contributes isolated mass/yield and PE/EtOAc 8:1 purification evidence. Source-labelled (1R,3S) names for 5f/5g and E names for 5i/5j were retained without inventing missing enantiomer/racemate information.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page5:text", "doc_496d854c8fcb9457:page5:image"]
+        },
+        {
+          "region": "lower right, 5k paragraph beginning",
+          "finding": "5k is an 87% isolated hydroamination product (57 mg, PE/EtOAc 10:1), with no phosphorus in the product; its characterization continues on page 6 and is not a second reaction.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page5:text", "doc_496d854c8fcb9457:page5:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_496d854c8fcb9457:5c",
+        "doc_496d854c8fcb9457:5d",
+        "doc_496d854c8fcb9457:5e",
+        "doc_496d854c8fcb9457:5f",
+        "doc_496d854c8fcb9457:5g",
+        "doc_496d854c8fcb9457:5h",
+        "doc_496d854c8fcb9457:5i",
+        "doc_496d854c8fcb9457:5j",
+        "doc_496d854c8fcb9457:5k"
+      ],
+      "unresolved": [
+        "Absolute stereochemical drawings/names for 5f/5g require expert/SI review; their machine SMILES preserve connectivity but not the named centers.",
+        "The source reports dr/E:Z measurement basis only in the Scheme 4 footnotes (crude-mixture NMR), not in each product paragraph.",
+        "5k HRMS/NMR continuation on page 6 is characterization only."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper left, end of 5k characterization and 5l preparation",
+          "finding": "The beginning is characterization continuation for 5k, not a new reaction. The 5l paragraph supplies the 90 mg/90% isolated preparation and PE/EtOAc 8:1 purification evidence.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page6:text", "doc_496d854c8fcb9457:page6:image"]
+        },
+        {
+          "region": "left/lower and upper right, 6a-6d product paragraphs",
+          "finding": "Four Scheme 5 preparations were linked to the existing 6a-6d records with isolated masses/yields and PE/EtOAc 8:1 purification. Their NMR/HRMS data remain characterization context.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page6:text", "doc_496d854c8fcb9457:page6:image"]
+        },
+        {
+          "region": "right column, Associated Content and Accession Codes",
+          "finding": "The article advertises calculation results, NMR copies, and X-ray data for 5g plus CCDC 2024402. This establishes only that SI exists online, not that an SI file was supplied/associated in this dataset.",
+          "evidence_ids": ["doc_496d854c8fcb9457:page6:text", "doc_496d854c8fcb9457:page6:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_496d854c8fcb9457:5l",
+        "doc_496d854c8fcb9457:6a",
+        "doc_496d854c8fcb9457:6b",
+        "doc_496d854c8fcb9457:6c",
+        "doc_496d854c8fcb9457:6d"
+      ],
+      "unresolved": [
+        "No SI file was provided; online availability and CCDC accession do not authorize SI association.",
+        "Exact stereochemical identity and full atom maps remain machine-review items.",
+        "Page 6 characterization data do not independently prove the machine-transcribed structures."
+      ]
+    }
+  ]
+}

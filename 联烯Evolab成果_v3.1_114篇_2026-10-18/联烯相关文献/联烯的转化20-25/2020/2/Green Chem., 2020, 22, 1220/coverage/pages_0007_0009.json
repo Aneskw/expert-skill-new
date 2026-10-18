@@ -1,0 +1,139 @@
+{
+  "document_id": "doc_41522308b99275e3",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper left, continuation of 2m followed by preparations 2n and 2o",
+          "finding": "The 2m cross-page sentence is completed (40 mg, 70%); full specific charges/masses for 2n and 2o are visible and merged into their existing Procedure-B records. NMR/HRMS/melting points are characterization context.",
+          "evidence_ids": [
+            "doc_41522308b99275e3:page7:text",
+            "doc_41522308b99275e3:page7:image"
+          ]
+        },
+        {
+          "region": "lower left, Preparation of 2f from 2a",
+          "finding": "Complete desilylation execution, workup, column conditions, isolated mass and 94% yield; merged into the existing Scheme 3 record.",
+          "evidence_ids": [
+            "doc_41522308b99275e3:page7:text",
+            "doc_41522308b99275e3:page7:image"
+          ]
+        },
+        {
+          "region": "bottom left to upper right, preparation of compound 4",
+          "finding": "Complete Wittig execution. The timed stages are 0 °C addition, room-temperature 30 min hold, recooling to 0 °C, 2a addition, then an overnight nitrogen hold of unreported temperature/duration; merged into the existing record.",
+          "evidence_ids": [
+            "doc_41522308b99275e3:page7:text",
+            "doc_41522308b99275e3:page7:image"
+          ]
+        },
+        {
+          "region": "middle right, preparation of compound 5",
+          "finding": "Complete Pinnick oxidation/cyclization execution, including the 1.0 mL aqueous reagent solution, workup, isolation and 74% yield; merged into the existing record.",
+          "evidence_ids": [
+            "doc_41522308b99275e3:page7:text",
+            "doc_41522308b99275e3:page7:image"
+          ]
+        },
+        {
+          "region": "lower right, 3a analytical block",
+          "finding": "Only 1H/13C NMR characterization of 3a; retained as source_context and not made into a synthesis experiment.",
+          "evidence_ids": [
+            "doc_41522308b99275e3:page7:text",
+            "doc_41522308b99275e3:page7:image"
+          ]
+        },
+        {
+          "region": "lower right, Scheme 4 scale-up procedure",
+          "finding": "Condition A is complete on this page; condition B begins here and continues on page 8. They remain two distinct pre-existing scale-up records.",
+          "evidence_ids": [
+            "doc_41522308b99275e3:page7:text",
+            "doc_41522308b99275e3:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_41522308b99275e3:table2_2m",
+        "doc_41522308b99275e3:table2_2n",
+        "doc_41522308b99275e3:table2_2o",
+        "doc_41522308b99275e3:scheme3_desilylation_2f",
+        "doc_41522308b99275e3:scheme3_wittig_4",
+        "doc_41522308b99275e3:scheme3_pinnick_5",
+        "doc_41522308b99275e3:scheme4_scaleup_a",
+        "doc_41522308b99275e3:scheme4_scaleup_b"
+      ],
+      "unresolved": [
+        "General procedure B states 50 mg, while the specific 2m/2n/2o preparations state 55/63/58 mg; both values are retained as conflicts.",
+        "The Wittig overnight-hold temperature and exact duration are not reported.",
+        "Workup/extraction volumes are mostly unreported.",
+        "No absolute configuration is assigned for potentially stereogenic cyclobutene-ring centers."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper left, continuation of Scheme 4 condition B",
+          "finding": "Completes the water-solvent scale-up workup, column isolation, 450 mg product mass and 68% isolated yield; merged with the condition-B record begun on page 7.",
+          "evidence_ids": [
+            "doc_41522308b99275e3:page8:text",
+            "doc_41522308b99275e3:page8:image"
+          ]
+        },
+        {
+          "region": "upper left, Procedure for deuterium labeling using D2O",
+          "finding": "Complete mechanistic isotope-labeling execution with scale, concentration, D2O loading, vessel preparation, sonication, reflux and column; reports a 1:1 labeled:unlabeled mixture without analytical method or total yield.",
+          "evidence_ids": [
+            "doc_41522308b99275e3:page8:text",
+            "doc_41522308b99275e3:page8:image"
+          ]
+        },
+        {
+          "region": "remaining left column and full right column",
+          "finding": "Conflicts statement, acknowledgements and references 1-10 only; no current-paper reaction execution or reaction arrow.",
+          "evidence_ids": [
+            "doc_41522308b99275e3:page8:text",
+            "doc_41522308b99275e3:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_41522308b99275e3:scheme4_scaleup_b",
+        "doc_41522308b99275e3:scheme5_d2o_labeling"
+      ],
+      "unresolved": [
+        "The D2O experiment does not report the analytical method/uncertainty for the 1:1 ratio or a total isolated yield.",
+        "Extraction and wash volumes for condition B are unreported."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top left and top right",
+          "finding": "Continuation of reference 10 and reference note 11 only. Note 11 states the X-ray assignment of 2a (CCDC 1958998); this is characterization context, not an experimental synthesis record.",
+          "evidence_ids": [
+            "doc_41522308b99275e3:page9:text",
+            "doc_41522308b99275e3:page9:image"
+          ]
+        },
+        {
+          "region": "remainder of page",
+          "finding": "Blank journal page area; no scheme, table, arrow, experimental paragraph or reaction execution.",
+          "evidence_ids": [
+            "doc_41522308b99275e3:page9:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No reaction record is associated with this page because it contains references/characterization note only."
+      ]
+    }
+  ]
+}

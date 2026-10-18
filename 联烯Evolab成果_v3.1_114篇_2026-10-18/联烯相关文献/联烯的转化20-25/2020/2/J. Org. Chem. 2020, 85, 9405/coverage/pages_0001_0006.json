@@ -1,0 +1,333 @@
+{
+  "document_id": "doc_106b2f72bb5b02d2",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title/abstract and graphical abstract",
+          "finding": "Current paper title, DOI and two-stage 1→2→3 summary; bibliographic/source context, not a standalone optimization row.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page1:text",
+            "doc_106b2f72bb5b02d2:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1a",
+          "finding": "Prior-work generic aza-Ferrier transformation; classified as literature_example.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page1:text",
+            "doc_106b2f72bb5b02d2:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1b-c",
+          "finding": "Two prior-work examples (46% Ferrier rearrangement; 84% Triton B isomerization), kept as literature_example records.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page1:text",
+            "doc_106b2f72bb5b02d2:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1d",
+          "finding": "Current-work generic sequence 1→2→3; generic_scheme only, with concrete experiments elsewhere.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page1:text",
+            "doc_106b2f72bb5b02d2:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_106b2f72bb5b02d2:scheme1a_prior_generic_aza_ferrier",
+        "doc_106b2f72bb5b02d2:scheme1b_prior_ferrier_46pct",
+        "doc_106b2f72bb5b02d2:scheme1c_prior_isomerization_84pct",
+        "doc_106b2f72bb5b02d2:scheme1d_current_generic"
+      ],
+      "unresolved": [
+        "Prior-work Scheme 1 structures were not converted into definitive compact structures from the small drawings."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left-column prose above Scheme 2",
+          "finding": "Low-yield tBuOK isomerization control with qualitative recovery and decomposition.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page2:text",
+            "doc_106b2f72bb5b02d2:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 2",
+          "finding": "Twelve distinct 1a-l→2a-l Triton B isomerizations, one record per arrow/product instance.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page2:text",
+            "doc_106b2f72bb5b02d2:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1 and footnotes",
+          "finding": "Nine distinct acid-screening experiments, including isolated 3a yields, 2a recoveries, side-product yield and the 1.25 mmol scale-up.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page2:text",
+            "doc_106b2f72bb5b02d2:page2:image"
+          ]
+        },
+        {
+          "region": "right-column scope discussion",
+          "finding": "Narrative cross-check of Scheme 3 outcomes; unsuccessful tBu-substrate preparation retained as source_context because no concrete procedure is supplied.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page2:text",
+            "doc_106b2f72bb5b02d2:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_106b2f72bb5b02d2:control_tbuok_isomerization_1a",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1a_to_2a",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1b_to_2b",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1c_to_2c",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1d_to_2d",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1e_to_2e",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1f_to_2f",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1g_to_2g",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1h_to_2h",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1i_to_2i",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1j_to_2j",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1k_to_2k",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1l_to_2l",
+        "doc_106b2f72bb5b02d2:table1_entry_1",
+        "doc_106b2f72bb5b02d2:table1_entry_2",
+        "doc_106b2f72bb5b02d2:table1_entry_3",
+        "doc_106b2f72bb5b02d2:table1_entry_4",
+        "doc_106b2f72bb5b02d2:table1_entry_5",
+        "doc_106b2f72bb5b02d2:table1_entry_6",
+        "doc_106b2f72bb5b02d2:table1_entry_7",
+        "doc_106b2f72bb5b02d2:table1_entry_8",
+        "doc_106b2f72bb5b02d2:table1_entry_9"
+      ],
+      "unresolved": [
+        "Exact conditions of the tBuOK attempt and unsuccessful R2=tBu substrate preparation are not reported.",
+        "Run-specific charges for Scheme 2 derivatives 2b-l are not shown on this page."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 and footnotes",
+          "finding": "Eleven standard scope reactions plus separate 2e and 2i over-1 mmol runs; 3j retains 2% yield, 5/5 dr and TLC-observed side products.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page3:text",
+            "doc_106b2f72bb5b02d2:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 4a-c",
+          "finding": "Five derivatization experiments: Wittig, Diels-Alder, reduction, cyclization and Michael addition.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page3:text",
+            "doc_106b2f72bb5b02d2:page3:image"
+          ]
+        },
+        {
+          "region": "left-column discussion below Scheme 3",
+          "finding": "Failed analogous cyclization using acyclic 3a retained as a partial negative-control record.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page3:text",
+            "doc_106b2f72bb5b02d2:page3:image"
+          ]
+        },
+        {
+          "region": "Experimental Section general methods",
+          "finding": "Instrument and general handling/chromatography information retained as source_context; not synthetic experiments.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page3:text",
+            "doc_106b2f72bb5b02d2:page3:image"
+          ]
+        },
+        {
+          "region": "bottom-right start of Representative Procedure for 1a",
+          "finding": "Start of Step 1 for 9a; merged with the continuation on page 4.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page3:text",
+            "doc_106b2f72bb5b02d2:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_106b2f72bb5b02d2:scheme3_scope_2b_to_3b",
+        "doc_106b2f72bb5b02d2:scheme3_scope_2c_to_3c",
+        "doc_106b2f72bb5b02d2:scheme3_scope_2d_to_3d",
+        "doc_106b2f72bb5b02d2:scheme3_scope_2e_to_3e",
+        "doc_106b2f72bb5b02d2:scheme3_scope_2f_to_3f",
+        "doc_106b2f72bb5b02d2:scheme3_scope_2g_to_3g",
+        "doc_106b2f72bb5b02d2:scheme3_scope_2h_to_3h",
+        "doc_106b2f72bb5b02d2:scheme3_scope_2i_to_3i",
+        "doc_106b2f72bb5b02d2:scheme3_scope_2j_to_3j",
+        "doc_106b2f72bb5b02d2:scheme3_scope_2k_to_3k",
+        "doc_106b2f72bb5b02d2:scheme3_scope_2l_to_3l",
+        "doc_106b2f72bb5b02d2:scheme3_scaleup_2e_to_3e",
+        "doc_106b2f72bb5b02d2:scheme3_scaleup_2i_to_3i",
+        "doc_106b2f72bb5b02d2:scheme4a_wittig_3e_to_4",
+        "doc_106b2f72bb5b02d2:scheme4a_diels_alder_4_to_5",
+        "doc_106b2f72bb5b02d2:scheme4b_reduction_3l_to_6",
+        "doc_106b2f72bb5b02d2:scheme4b_cyclization_6_to_7",
+        "doc_106b2f72bb5b02d2:scheme4c_michael_3i_to_8",
+        "doc_106b2f72bb5b02d2:control_acyclic_3a_cyclization_failure",
+        "doc_106b2f72bb5b02d2:prep_9a"
+      ],
+      "unresolved": [
+        "Several Scheme 4 times and measurement bases are absent; dr methods/configurations are not reported.",
+        "The failed acyclic cyclization does not identify the exact cyclization intermediate or charges."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column continuation of 1a representative procedure",
+          "finding": "Completed 9a formation, 10a preparation, 1a N-methylation and full 1a→2a isomerization procedure with ordered workup/purification.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page4:text",
+            "doc_106b2f72bb5b02d2:page4:image"
+          ]
+        },
+        {
+          "region": "right column product paragraphs",
+          "finding": "Concrete 1b/1c N-alkylations and 2b/2c isomerizations; masses/yields merged with Scheme 2 records.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page4:text",
+            "doc_106b2f72bb5b02d2:page4:image"
+          ]
+        },
+        {
+          "region": "bottom-right start of 1d paragraph",
+          "finding": "Start of overall 1d preparation; merged with continuation on page 5.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page4:text",
+            "doc_106b2f72bb5b02d2:page4:image"
+          ]
+        },
+        {
+          "region": "NMR/IR/HRMS blocks",
+          "finding": "Characterization only; retained in source_context, not promoted to reactions.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page4:text",
+            "doc_106b2f72bb5b02d2:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1a_to_2a",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1b_to_2b",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1c_to_2c",
+        "doc_106b2f72bb5b02d2:prep_9a",
+        "doc_106b2f72bb5b02d2:prep_10a",
+        "doc_106b2f72bb5b02d2:prep_1a_methylation",
+        "doc_106b2f72bb5b02d2:prep_1b_alkylation",
+        "doc_106b2f72bb5b02d2:prep_1c_alkylation",
+        "doc_106b2f72bb5b02d2:prep_1d_overall_from_aldehyde"
+      ],
+      "unresolved": [
+        "Compound structures are machine candidates and remain needs_review; characterization was not promoted to reaction facts."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "two-column product paragraphs 1d-2h",
+          "finding": "Overall preparations of 1d-h and isomerizations 2d-h; isolated masses/yields captured, exact inherited run charges left unreported.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page5:text",
+            "doc_106b2f72bb5b02d2:page5:image"
+          ]
+        },
+        {
+          "region": "NMR/IR/HRMS and melting-point lines",
+          "finding": "Characterization only; no separate synthetic records created.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page5:text",
+            "doc_106b2f72bb5b02d2:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1d_to_2d",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1e_to_2e",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1f_to_2f",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1g_to_2g",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1h_to_2h",
+        "doc_106b2f72bb5b02d2:prep_1d_overall_from_aldehyde",
+        "doc_106b2f72bb5b02d2:prep_1e_overall_from_aldehyde",
+        "doc_106b2f72bb5b02d2:prep_1f_overall_from_aldehyde",
+        "doc_106b2f72bb5b02d2:prep_1g_overall_from_aldehyde",
+        "doc_106b2f72bb5b02d2:prep_1h_overall_from_aldehyde"
+      ],
+      "unresolved": [
+        "The phrase 'same procedure with 1a/2a' does not restate run-specific charges; these remain unreported."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column 1i/2i and 1j/2j paragraphs",
+          "finding": "9i formation, overall 9i→1i, 1i→2i, overall 1j preparation and 1j→2j isomerization; source-reported mixtures retained.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page6:text",
+            "doc_106b2f72bb5b02d2:page6:image"
+          ]
+        },
+        {
+          "region": "right column Representative Procedure for 1k",
+          "finding": "Three distinct concrete steps: 11k Boc protection, lactam reduction to 12k, and Sc(OTf)3-catalyzed acetalization to 1k.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page6:text",
+            "doc_106b2f72bb5b02d2:page6:image"
+          ]
+        },
+        {
+          "region": "bottom-right 2k paragraph",
+          "finding": "1k→2k Triton B isomerization with product mass/yield merged into the Scheme 2 record.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page6:text",
+            "doc_106b2f72bb5b02d2:page6:image"
+          ]
+        },
+        {
+          "region": "NMR/IR/HRMS blocks and page-5 continuation",
+          "finding": "Characterization only; retained in source_context.",
+          "evidence_ids": [
+            "doc_106b2f72bb5b02d2:page6:text",
+            "doc_106b2f72bb5b02d2:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1i_to_2i",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1j_to_2j",
+        "doc_106b2f72bb5b02d2:scheme2_isomerization_1k_to_2k",
+        "doc_106b2f72bb5b02d2:prep_1j_overall_from_aldehyde",
+        "doc_106b2f72bb5b02d2:prep_9i",
+        "doc_106b2f72bb5b02d2:prep_1i_from_9i_overall",
+        "doc_106b2f72bb5b02d2:prep_11k_boc_protection",
+        "doc_106b2f72bb5b02d2:prep_12k_reduction",
+        "doc_106b2f72bb5b02d2:prep_1k_acetalization"
+      ],
+      "unresolved": [
+        "Overall/multistep yields for 1i and 12k retain their stated spans; per-step yields are unavailable.",
+        "SI is mentioned by the paper but no SI file was provided or associated."
+      ]
+    }
+  ]
+}

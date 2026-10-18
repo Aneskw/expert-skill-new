@@ -1,0 +1,180 @@
+{
+  "document_id": "doc_1b75b17cc3d81272",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, graphical abstract, and abstract",
+          "finding": "Article identity and a generic current-study transformation are visible; the graphical abstract reports 21 examples, up to 76% yield, and up to 100:0 E/Z as overview context rather than a separate experiment.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page1:image", "doc_1b75b17cc3d81272:page1:text"]
+        },
+        {
+          "region": "right-column discussion of catalyst loading",
+          "finding": "Prose describes the four Scheme 2 experiments: stoichiometric, 10 mol%, 20 mol%, and 50 mol% diphenyl diselenide; these are linked to the concrete records drawn on page 2, not duplicated.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page1:image", "doc_1b75b17cc3d81272:page1:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_1b75b17cc3d81272:scheme2a_100mol",
+        "doc_1b75b17cc3d81272:scheme2b_10mol",
+        "doc_1b75b17cc3d81272:scheme2c_20mol_2a",
+        "doc_1b75b17cc3d81272:scheme2d_50mol"
+      ],
+      "unresolved": [
+        "The graphical abstract is a summary and does not provide experiment-level scale, procedure, or analytical methods."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1a–c",
+          "finding": "Three cited previous-work generic transformations (alkene, alkyne, and diene functionalization); classified as literature examples rather than current-paper experiments.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page2:image", "doc_1b75b17cc3d81272:page2:text"]
+        },
+        {
+          "region": "Scheme 1d",
+          "finding": "Generic overview of the present allene oxygenative rearrangement; retained as a generic scheme.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page2:image"]
+        },
+        {
+          "region": "Scheme 2 rows a–d and adjacent prose",
+          "finding": "Four catalyst-loading experiments plus the prose-only 20 mol% PhSeCl replacement control. Each condition is independent; the 20 mol%/69% experiment is the same 2a entry repeated in Scheme 3 and is not double-counted.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page2:image", "doc_1b75b17cc3d81272:page2:text"]
+        },
+        {
+          "region": "Scheme 3 general arrow and product rows 2a–n plus precursor 1o",
+          "finding": "One generic scope drawing, 14 product entries (2a–n), and one nonproductive precursor 1o. Product yields and E/Z ratios are transcribed row by row; 2a reuses the Scheme 2c record.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page2:image", "doc_1b75b17cc3d81272:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_1b75b17cc3d81272:scheme1a_prior_alkene",
+        "doc_1b75b17cc3d81272:scheme1b_prior_alkyne",
+        "doc_1b75b17cc3d81272:scheme1c_prior_diene",
+        "doc_1b75b17cc3d81272:scheme1d_current_overview",
+        "doc_1b75b17cc3d81272:scheme3_scope_generic",
+        "doc_1b75b17cc3d81272:scheme2a_100mol",
+        "doc_1b75b17cc3d81272:scheme2b_10mol",
+        "doc_1b75b17cc3d81272:scheme2c_20mol_2a",
+        "doc_1b75b17cc3d81272:scheme2d_50mol",
+        "doc_1b75b17cc3d81272:phsecl_20mol_control",
+        "doc_1b75b17cc3d81272:scheme3_2b",
+        "doc_1b75b17cc3d81272:scheme3_2c",
+        "doc_1b75b17cc3d81272:scheme3_2d",
+        "doc_1b75b17cc3d81272:scheme3_2e",
+        "doc_1b75b17cc3d81272:scheme3_2f",
+        "doc_1b75b17cc3d81272:scheme3_2g",
+        "doc_1b75b17cc3d81272:scheme3_2h",
+        "doc_1b75b17cc3d81272:scheme3_2i",
+        "doc_1b75b17cc3d81272:scheme3_2j",
+        "doc_1b75b17cc3d81272:scheme3_2k",
+        "doc_1b75b17cc3d81272:scheme3_2l",
+        "doc_1b75b17cc3d81272:scheme3_2m",
+        "doc_1b75b17cc3d81272:scheme3_2n",
+        "doc_1b75b17cc3d81272:scheme3_1o_no_enone"
+      ],
+      "unresolved": [
+        "No reaction scale, workup, purification, atmosphere, or E/Z analytical method is printed on this page.",
+        "Dense starting-material drawings 1b–o are retained by source label where a safe complete SMILES was not established."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 4",
+          "finding": "One allenol-to-enone experiment (1p→3b), one unreactive/recovered allenyl acetate control (1q), one generic scope arrow, and seven individual ether-scope experiments 2r–x.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page3:image", "doc_1b75b17cc3d81272:page3:text"]
+        },
+        {
+          "region": "Scheme 5",
+          "finding": "Two genuine mechanistic experiments: an H2(18)O labeling reaction with 90% 18O incorporation measured by HRMS, and an anhydrous-solvent O2-balloon control giving 2a in 10% yield.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page3:image", "doc_1b75b17cc3d81272:page3:text"]
+        },
+        {
+          "region": "Scheme 6 and mechanism prose",
+          "finding": "Author-proposed catalytic cycle through INT-1 to INT-5; classified as a proposed mechanism, not experimental proof.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page3:image", "doc_1b75b17cc3d81272:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_1b75b17cc3d81272:scheme4_scope_generic",
+        "doc_1b75b17cc3d81272:scheme4_1p_3b",
+        "doc_1b75b17cc3d81272:scheme4_1q_recovery",
+        "doc_1b75b17cc3d81272:scheme4_2r",
+        "doc_1b75b17cc3d81272:scheme4_2s",
+        "doc_1b75b17cc3d81272:scheme4_2t",
+        "doc_1b75b17cc3d81272:scheme4_2u",
+        "doc_1b75b17cc3d81272:scheme4_2v",
+        "doc_1b75b17cc3d81272:scheme4_2w",
+        "doc_1b75b17cc3d81272:scheme4_2x",
+        "doc_1b75b17cc3d81272:scheme5_h218o",
+        "doc_1b75b17cc3d81272:scheme5_o2_control",
+        "doc_1b75b17cc3d81272:scheme6_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 4 scope scale, oxidant charge, E/Z method, workup, and purification are not supplied.",
+        "The Scheme 5 isotope product yield and the O2-control yield measurement basis are not reported on the supplied page."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1 and surrounding text",
+          "finding": "Computed 1b + PhSeOTf→INT-1b reaction profile and NCIPLOT analysis; retained in source_context as computational mechanistic evidence, not as a synthetic experiment.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page4:image", "doc_1b75b17cc3d81272:page4:text"]
+        },
+        {
+          "region": "Associated Content notice",
+          "finding": "The article says SI exists, but no SI file was explicitly supplied in this session; no SI procedure or characterization data were associated.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page4:image", "doc_1b75b17cc3d81272:page4:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Figure S1, computational details, experimental procedures, and spectra are unavailable because SI was not provided."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "both reference columns",
+          "finding": "Bibliography only; cited reactions are not newly reported experiments in this paper and no records were created from reference prose.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page5:image", "doc_1b75b17cc3d81272:page5:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "footnotes 9–14",
+          "finding": "Mechanistic commentary includes the authors' tentative explanation for 1q failure and an alternative Scheme S1 path; it is linked as context to the proposed mechanism and does not create a new experiment.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page6:image", "doc_1b75b17cc3d81272:page6:text"]
+        },
+        {
+          "region": "references 15–16",
+          "finding": "Cited literature only; no current-paper experiment is present.",
+          "evidence_ids": ["doc_1b75b17cc3d81272:page6:image", "doc_1b75b17cc3d81272:page6:text"]
+        }
+      ],
+      "record_ids": ["doc_1b75b17cc3d81272:scheme6_proposed_mechanism"],
+      "unresolved": [
+        "Scheme S1 is only referenced and was not supplied; the alternative mechanism is not reconstructed."
+      ]
+    }
+  ]
+}

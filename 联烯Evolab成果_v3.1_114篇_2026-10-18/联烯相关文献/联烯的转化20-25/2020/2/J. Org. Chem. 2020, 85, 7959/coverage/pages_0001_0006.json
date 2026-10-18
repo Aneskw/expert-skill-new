@@ -1,0 +1,245 @@
+{
+  "document_id": "doc_f3d393b861fb548d",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, bibliographic header, abstract, and graphical abstract",
+          "finding": "The true title/DOI and the current generic picolyl-amide/allenyl-sulfone transformation were transcribed. The graphical abstract duplicates the current generic transformation and was not counted as a second experiment.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page1:image", "doc_f3d393b861fb548d:page1:text"]
+        },
+        {
+          "region": "Introduction and Scheme 1 discussion",
+          "finding": "Background and cited vinyl-sulfone applications are context. No cited example was promoted to a current-paper experiment.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page1:image", "doc_f3d393b861fb548d:page1:text"]
+        },
+        {
+          "region": "lower-column initial experiment paragraph",
+          "finding": "The 1a/2a/Ni(OTf)2 experiment at 120 °C is the prose occurrence of Table 1 entry 1 and was merged with that row rather than duplicated.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page1:image", "doc_f3d393b861fb548d:page1:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_f3d393b861fb548d:scheme1b_generic",
+        "doc_f3d393b861fb548d:table1_entry_01"
+      ],
+      "unresolved": [
+        "The graphical abstract does not state a separate experiment scale, time, or yield.",
+        "Structures in the introductory biological examples are contextual and were not exhaustively registered as current-paper chemistry."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1a and Scheme 1b",
+          "finding": "Scheme 1a contains biological examples without reaction arrows and is source context. Scheme 1b is one current generic transformation.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page2:image", "doc_f3d393b861fb548d:page2:text"]
+        },
+        {
+          "region": "Equation 1 and adjacent prose",
+          "finding": "Disulfone 5a is explicitly isolated in 10% yield. A separate partial record was retained because the displayed 50 °C/24 h equation is not unambiguously tied to one optimization row.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page2:image", "doc_f3d393b861fb548d:page2:text"]
+        },
+        {
+          "region": "Table 1, entries 1-11 and footnotes",
+          "finding": "All eleven optimization rows were recorded separately, including row-specific Ni, NaTs, temperature/time changes, NMR yield, recovered 1a, blank selectivity cells, and zero-yield/decomposition entries.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page2:image", "doc_f3d393b861fb548d:page2:text"]
+        },
+        {
+          "region": "right-column optimization and scope prose",
+          "finding": "Solvent effects, recovery, unsuccessful HPLC separation, optimized THF conditions, and the first unreactive 1n/1o/1p observations were associated with their corresponding records.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page2:image", "doc_f3d393b861fb548d:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_f3d393b861fb548d:scheme1b_generic",
+        "doc_f3d393b861fb548d:table1_entry_01",
+        "doc_f3d393b861fb548d:table1_entry_02",
+        "doc_f3d393b861fb548d:table1_entry_03",
+        "doc_f3d393b861fb548d:table1_entry_04",
+        "doc_f3d393b861fb548d:table1_entry_05",
+        "doc_f3d393b861fb548d:table1_entry_06",
+        "doc_f3d393b861fb548d:table1_entry_07",
+        "doc_f3d393b861fb548d:table1_entry_08",
+        "doc_f3d393b861fb548d:table1_entry_09",
+        "doc_f3d393b861fb548d:table1_entry_10",
+        "doc_f3d393b861fb548d:table1_entry_11",
+        "doc_f3d393b861fb548d:eq1_disulfone_5a",
+        "doc_f3d393b861fb548d:unreactive_1n",
+        "doc_f3d393b861fb548d:unreactive_1o",
+        "doc_f3d393b861fb548d:unreactive_1p_50c"
+      ],
+      "unresolved": [
+        "Except for entry 4 (NMR yield), Table 1 does not explicitly state a yield measurement basis in the inspected page.",
+        "Blank selectivity cells in entries 4 and 9-11 remain unreported, not zero.",
+        "The solvent identity for the separately displayed 5a isolation in Equation 1 is not stated."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1 generic arrow, structures 1b-m/3b-m/4b-m, caption, and footnotes",
+          "finding": "One generic scheme and twelve distinct substrate-scope experiments were recorded. Each yield and 3/4 ratio is product-targeted; the 1d BRSM value, 1k/1l time notes, and the excluded 85:15 run for 1l were preserved.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page3:image", "doc_f3d393b861fb548d:page3:text"]
+        },
+        {
+          "region": "Figure 2 and adjoining unreactive-substrate prose",
+          "finding": "Distinct records were made for 1n, 1o, 1p at 50 °C, 1p at room temperature, 2b, and 2c. No product was fabricated for the true no-reaction control; uncharacterizable material remains unresolved.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page3:image", "doc_f3d393b861fb548d:page3:text"]
+        },
+        {
+          "region": "mechanistic-study prose below Figure 2",
+          "finding": "ICP-MS is analytical source context. The 1c/2a mass-balance study, BHT and AIBN probes, crossover experiment, 1a/5b/K2CO3 negative control, and deuterium-labeling experiment were separated as mechanistic records and linked forward to Scheme 2 where applicable.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page3:image", "doc_f3d393b861fb548d:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_f3d393b861fb548d:figure1_generic",
+        "doc_f3d393b861fb548d:figure1_scope_3b",
+        "doc_f3d393b861fb548d:figure1_scope_3c",
+        "doc_f3d393b861fb548d:figure1_scope_3d",
+        "doc_f3d393b861fb548d:figure1_scope_3e",
+        "doc_f3d393b861fb548d:figure1_scope_3f",
+        "doc_f3d393b861fb548d:figure1_scope_3g",
+        "doc_f3d393b861fb548d:figure1_scope_3h",
+        "doc_f3d393b861fb548d:figure1_scope_3i",
+        "doc_f3d393b861fb548d:figure1_scope_3j",
+        "doc_f3d393b861fb548d:figure1_scope_3k",
+        "doc_f3d393b861fb548d:figure1_scope_3l",
+        "doc_f3d393b861fb548d:figure1_scope_3m",
+        "doc_f3d393b861fb548d:unreactive_1n",
+        "doc_f3d393b861fb548d:unreactive_1o",
+        "doc_f3d393b861fb548d:unreactive_1p_50c",
+        "doc_f3d393b861fb548d:unreactive_1p_rt",
+        "doc_f3d393b861fb548d:unreactive_2b",
+        "doc_f3d393b861fb548d:unreactive_2c",
+        "doc_f3d393b861fb548d:mass_balance_1c_2a",
+        "doc_f3d393b861fb548d:scheme2a_bht",
+        "doc_f3d393b861fb548d:scheme2b_aibn",
+        "doc_f3d393b861fb548d:scheme2c_crossover",
+        "doc_f3d393b861fb548d:control_1a_5b_k2co3",
+        "doc_f3d393b861fb548d:scheme2d_deuterium"
+      ],
+      "unresolved": [
+        "The Figure 1 arrow says 48 h, while product-specific modified protocols for solids/oils are referred to unavailable SI; unreported row durations were not guessed.",
+        "Scope yield measurement bases are not stated on this page.",
+        "Products 3b-m/4b-m contain potential unassigned tetrahedral stereochemistry; no racemic claim was inferred.",
+        "Detailed conditions for the 1a/5b/K2CO3 control are in unavailable SI."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2a-d",
+          "finding": "The BHT, AIBN, crossover, and deuterium-labeling experiments were recorded separately. Scheme 2d isotope contents and four displayed isotopologue percentages were retained as selectivity/composition outcomes; ESI peaks remain source context.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page4:image", "doc_f3d393b861fb548d:page4:text"]
+        },
+        {
+          "region": "interconversion and in situ NMR paragraphs",
+          "finding": "The charged 59:41 product-mixture control ending at 78:22 and the independent 25.5 h hourly NMR monitoring experiment were kept as distinct mechanistic studies.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page4:image", "doc_f3d393b861fb548d:page4:text"]
+        },
+        {
+          "region": "Scheme 3a-c and mechanism prose",
+          "finding": "All three proposed branches were represented in one proposed-mechanism record with ordered steps; intermediates 6-10 were not treated as isolated products.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page4:image", "doc_f3d393b861fb548d:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_f3d393b861fb548d:scheme2a_bht",
+        "doc_f3d393b861fb548d:scheme2b_aibn",
+        "doc_f3d393b861fb548d:scheme2c_crossover",
+        "doc_f3d393b861fb548d:scheme2d_deuterium",
+        "doc_f3d393b861fb548d:interconversion_probe",
+        "doc_f3d393b861fb548d:in_situ_nmr_monitoring",
+        "doc_f3d393b861fb548d:scheme3_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Positional deuterium mixtures cannot be represented as one unique concrete SMILES.",
+        "Charges for the interconversion and in situ NMR experiments are not stated in the bounded page prose.",
+        "The proposed mechanism and alternative mechanisms are not experimental proof; unavailable SI was not inferred."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "N-benzylbenzamide/pyridine control paragraph",
+          "finding": "The 1.0 equiv and 0.2 equiv pyridine runs were recorded separately; only the latter has the approximately 17% 5a observation.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page5:image", "doc_f3d393b861fb548d:page5:text"]
+        },
+        {
+          "region": "continuation of proposed mechanism discussion and Scheme 4a-b",
+          "finding": "Scheme 4 is a DFT acidity model, recorded as a proposed/computational mechanism with the displayed free-energy values, not as a preparative experiment or yield.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page5:image", "doc_f3d393b861fb548d:page5:text"]
+        },
+        {
+          "region": "Conclusion and General Methods",
+          "finding": "Conclusion is narrative. Instrumental and purification-method descriptions were retained as source context and did not create reactions.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page5:image", "doc_f3d393b861fb548d:page5:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_f3d393b861fb548d:nbenzyl_pyridine_1eq",
+        "doc_f3d393b861fb548d:nbenzyl_pyridine_0p2eq",
+        "doc_f3d393b861fb548d:scheme3_proposed_mechanism",
+        "doc_f3d393b861fb548d:scheme4_dft_acidity"
+      ],
+      "unresolved": [
+        "Temperature, time, solvent, and charges for the N-benzylbenzamide controls are not stated in the bounded paragraph.",
+        "DFT values do not establish experimental acidity or isolated intermediates."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "completion of General Methods",
+          "finding": "Mass-spectrometry and ICP-MS instrument descriptions are characterization context, not reaction experiments.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page6:image", "doc_f3d393b861fb548d:page6:text"]
+        },
+        {
+          "region": "General Procedures A and B",
+          "finding": "Aryl- and alkyl-acid amidation procedures were recorded separately with ordered ice-bath addition, 5 min addition, room-temperature 2-4 h hold, recooling, amine addition, overnight hold, workup, and purification steps. The bicarbonate versus hydroxide workups remain distinct.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page6:image", "doc_f3d393b861fb548d:page6:text"]
+        },
+        {
+          "region": "General Procedures C and D",
+          "finding": "Solid- and liquid-substrate coupling procedures were recorded separately, including open-air charging, three evacuation/N2 cycles, 50 °C reaction, NMR monitoring, and workup/purification. Only Procedure D explicitly reports 48-72 h.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page6:image", "doc_f3d393b861fb548d:page6:text"]
+        },
+        {
+          "region": "specific preparation paragraphs for 1a, 1b, 1c, and beginning of 1d",
+          "finding": "Four concrete amidations were recorded with every displayed reagent mass/amount/volume. Product mass, yield, and chromatography were captured for 1a-c; the 1d paragraph crosses to page 7 and remains partial without importing the continuation.",
+          "evidence_ids": ["doc_f3d393b861fb548d:page6:image", "doc_f3d393b861fb548d:page6:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_f3d393b861fb548d:general_procedure_a",
+        "doc_f3d393b861fb548d:general_procedure_b",
+        "doc_f3d393b861fb548d:general_procedure_c",
+        "doc_f3d393b861fb548d:general_procedure_d",
+        "doc_f3d393b861fb548d:synthesis_1a",
+        "doc_f3d393b861fb548d:synthesis_1b",
+        "doc_f3d393b861fb548d:synthesis_1c",
+        "doc_f3d393b861fb548d:synthesis_1d"
+      ],
+      "unresolved": [
+        "The 1d preparation continues beyond the requested page range, so its purification, product amount, yield, and characterization remain unreported in this pass.",
+        "General Procedure C completion time is qualitative; no duration was invented.",
+        "The SI-only modified protocols referenced for scope substrates were not associated or used."
+      ]
+    }
+  ]
+}

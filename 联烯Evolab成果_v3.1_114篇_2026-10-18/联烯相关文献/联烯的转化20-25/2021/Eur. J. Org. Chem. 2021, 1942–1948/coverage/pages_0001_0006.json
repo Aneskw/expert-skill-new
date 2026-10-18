@@ -1,0 +1,335 @@
+{
+  "document_id": "doc_a10334c5f49b8d92",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and author block",
+          "finding": "Article title/DOI and abstract identify the present DMAP-mediated one-pot chromene method; no reaction arrow or table is present here.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page1:image",
+            "doc_a10334c5f49b8d92:page1:text"
+          ]
+        },
+        {
+          "region": "lower-right Results and Discussion opening",
+          "finding": "Prose reports three initial catalyst trials with 1a/2a and no desired product; the detailed condition drawing is on page 3 and evidence was merged into the three control records.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page1:image",
+            "doc_a10334c5f49b8d92:page1:text",
+            "doc_a10334c5f49b8d92:page3:image"
+          ]
+        },
+        {
+          "region": "page footnote",
+          "finding": "Supporting Information is explicitly said to be available online, but no SI file was supplied or associated; status remains mentioned_not_supplied.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page1:image",
+            "doc_a10334c5f49b8d92:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a10334c5f49b8d92:scheme2_eq1_pPh3_control",
+        "doc_a10334c5f49b8d92:scheme2_eq1_dabco_control",
+        "doc_a10334c5f49b8d92:scheme2_eq1_dmap_control"
+      ],
+      "unresolved": [
+        "No SI procedure or catalyst-screening details beyond the supplied main article were imported."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1a-b",
+          "finding": "Two cited prior-work generic transformations (refs. 11 and 12), classified as literature_example rather than current-paper experiments.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 1c",
+          "finding": "Present-work generic Rauhut-Currier/aza- or oxa-Michael cascade design, recorded as a generic scheme with R-group templates.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page2:image"
+          ]
+        },
+        {
+          "region": "Figure 1",
+          "finding": "Natural products/pharmaceuticals and a chroman core are contextual structures, not current-paper synthesis experiments; retained in source_context.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page2:image"
+          ]
+        },
+        {
+          "region": "bottom discussion columns",
+          "finding": "Narrative reports 3 at 39%, conversion to 4a, one-pot 4a at 68%, and optimization trends; detailed records cite the corresponding page 3 figure/table.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page2:image",
+            "doc_a10334c5f49b8d92:page2:text",
+            "doc_a10334c5f49b8d92:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a10334c5f49b8d92:scheme1a_literature",
+        "doc_a10334c5f49b8d92:scheme1b_literature",
+        "doc_a10334c5f49b8d92:scheme1c_general",
+        "doc_a10334c5f49b8d92:scheme2_eq2_make_3",
+        "doc_a10334c5f49b8d92:scheme2_eq2_3_to_4a"
+      ],
+      "unresolved": [
+        "Figure 1 compound structures were not treated as experimental products."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2 eq. 1",
+          "finding": "Three distinct failed controls: PPh3 (10 mol%, rt-to-60 °C), DABCO (10 mol%, rt), and DMAP (10 mol%, rt), all in toluene with desired 4a not observed.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 2 eq. 2",
+          "finding": "Two concrete transformations: 1b+2a to isolated 3 (39%, partial decomposition during purification), then TBAF/THF at rt to 4a (87%).",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page3:image",
+            "doc_a10334c5f49b8d92:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 2 eq. 3",
+          "finding": "One-pot 1b+2a sequence: DMAP/toluene/rt/12 h, then TBAF in THF/toluene at rt, giving 4a in 68% over two steps.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page3:image"
+          ]
+        },
+        {
+          "region": "Table 1 rows 1-15 and footnotes",
+          "finding": "All 15 optimization rows were recorded independently; entries 1-2 preserve trace product plus decomposition, and entries 3-15 preserve isolated yields. Entry 15 is merged with the identical Table 2 4b presentation.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a10334c5f49b8d92:scheme2_eq1_pPh3_control",
+        "doc_a10334c5f49b8d92:scheme2_eq1_dabco_control",
+        "doc_a10334c5f49b8d92:scheme2_eq1_dmap_control",
+        "doc_a10334c5f49b8d92:scheme2_eq2_make_3",
+        "doc_a10334c5f49b8d92:scheme2_eq2_3_to_4a",
+        "doc_a10334c5f49b8d92:scheme2_eq3_onepot_4a",
+        "doc_a10334c5f49b8d92:table1_entry_01",
+        "doc_a10334c5f49b8d92:table1_entry_02",
+        "doc_a10334c5f49b8d92:table1_entry_03",
+        "doc_a10334c5f49b8d92:table1_entry_04",
+        "doc_a10334c5f49b8d92:table1_entry_05",
+        "doc_a10334c5f49b8d92:table1_entry_06",
+        "doc_a10334c5f49b8d92:table1_entry_07",
+        "doc_a10334c5f49b8d92:table1_entry_08",
+        "doc_a10334c5f49b8d92:table1_entry_09",
+        "doc_a10334c5f49b8d92:table1_entry_10",
+        "doc_a10334c5f49b8d92:table1_entry_11",
+        "doc_a10334c5f49b8d92:table1_entry_12",
+        "doc_a10334c5f49b8d92:table1_entry_13",
+        "doc_a10334c5f49b8d92:table1_entry_14",
+        "doc_a10334c5f49b8d92:table1_entry_15"
+      ],
+      "unresolved": [
+        "Scheme 2 eq. 1/2 reaction times or reagent loadings are partly unreported; PPh3 ramp duration is unreported; Scheme 2 eq. 2/3 yield measurement bases remain missing where not explicitly stated."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 common scheme and footnote",
+          "finding": "Common scope conditions: p-QM 1 (0.1 mmol), allenoate 2 (0.12 mmol), DMAP (0.01 mmol), Et2O (1.0 mL), rt 2 h, then TBAF (1 M in THF, 0.1 mmol) 1 h.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page4:image"
+          ]
+        },
+        {
+          "region": "Table 2 products 4a-4o",
+          "finding": "Fifteen scope products were inspected. Fourteen new scope records were created; 4b/75% is the same experiment as Table 1 entry 15 and was not duplicated.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page4:image"
+          ]
+        },
+        {
+          "region": "4e X-ray inset",
+          "finding": "X-ray/CCDC 2044635 is structure characterization, retained in source_context and the 4e note rather than counted as a separate synthesis.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page4:image",
+            "doc_a10334c5f49b8d92:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a10334c5f49b8d92:table1_entry_15",
+        "doc_a10334c5f49b8d92:table2_4a",
+        "doc_a10334c5f49b8d92:table2_4c",
+        "doc_a10334c5f49b8d92:table2_4d",
+        "doc_a10334c5f49b8d92:table2_4e",
+        "doc_a10334c5f49b8d92:table2_4f",
+        "doc_a10334c5f49b8d92:table2_4g",
+        "doc_a10334c5f49b8d92:table2_4h",
+        "doc_a10334c5f49b8d92:table2_4i",
+        "doc_a10334c5f49b8d92:table2_4j",
+        "doc_a10334c5f49b8d92:table2_4k",
+        "doc_a10334c5f49b8d92:table2_4l",
+        "doc_a10334c5f49b8d92:table2_4m",
+        "doc_a10334c5f49b8d92:table2_4n",
+        "doc_a10334c5f49b8d92:table2_4o"
+      ],
+      "unresolved": [
+        "Absolute/relative configuration at the potential C4 stereocenter is not assigned for 4a-4o; complex structures remain not encoded rather than guessed.",
+        "4a table yield (82%) conflicts with the page 6 experimental paragraph (68%, 33 mg); both are retained with no chosen normalized yield."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left scope discussion",
+          "finding": "Narrative confirms yield ranges and identifies allenoates 2b-2d and products 4l-4o; author-proposed explanation for low 4o yield is retained as a note.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page5:image",
+            "doc_a10334c5f49b8d92:page5:text"
+          ]
+        },
+        {
+          "region": "Scheme 3 enlarged scale",
+          "finding": "1c (2 mmol, 920 mg)+2a (2.4 mmol, 360 mg) under standard one-pot conditions gives 4b (730 mg, 71%).",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page5:image",
+            "doc_a10334c5f49b8d92:page5:text"
+          ]
+        },
+        {
+          "region": "Scheme 3 eqs. 1-3",
+          "finding": "Three derivatizations of 4b: LAH/THF 0 °C-to-rt to 5 (>99%); MeI/NaH/DMF 0 °C-to-rt to 6 (87%); Pd/C/H2/EtOH/rt to 7 (96%).",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page5:image",
+            "doc_a10334c5f49b8d92:page5:text"
+          ]
+        },
+        {
+          "region": "Scheme 3 eq. 4",
+          "finding": "Amino-p-QM 8 control decomposed/messy; intended product was not detected. No product yield or intended bond class was invented.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page5:image",
+            "doc_a10334c5f49b8d92:page5:text"
+          ]
+        },
+        {
+          "region": "right-column Scheme 4/5 discussion",
+          "finding": "Prose supports the β-ICD reaction to 10 (34%, 70% ee), failed β-ICD trial, and author-proposed mechanism shown on page 6.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page5:image",
+            "doc_a10334c5f49b8d92:page5:text",
+            "doc_a10334c5f49b8d92:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a10334c5f49b8d92:scheme3_scaleup_4b",
+        "doc_a10334c5f49b8d92:scheme3_eq1_4b_to_5",
+        "doc_a10334c5f49b8d92:scheme3_eq2_4b_to_6",
+        "doc_a10334c5f49b8d92:scheme3_eq3_4b_to_7",
+        "doc_a10334c5f49b8d92:scheme3_eq4_amino_pqm_control",
+        "doc_a10334c5f49b8d92:scheme4_eq1_asymmetric_10",
+        "doc_a10334c5f49b8d92:scheme4_eq2_betaicd_failed_3",
+        "doc_a10334c5f49b8d92:scheme5_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Derivatization reagent quantities, reaction times, workups, purification and yield measurement bases are unreported.",
+        "The scale-up yield basis is unreported.",
+        "The failed amino-p-QM control lacks a detection method/limit."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 4 eq. 1",
+          "finding": "β-ICD (10 mol%) in 2-Me-THF at rt converts 9+2a to 10 in 34% yield and 70% ee; the starred center lacks an R/S assignment and the ee method is unreported.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page6:image",
+            "doc_a10334c5f49b8d92:page5:text"
+          ]
+        },
+        {
+          "region": "Scheme 4 eq. 2",
+          "finding": "β-ICD trial with an OTBS-depicted substrate labelled 1a gives intended 3 not detected. This label conflicts with page 3's OH-depicted 1a, so separate molecule IDs are retained.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page6:image",
+            "doc_a10334c5f49b8d92:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 5",
+          "finding": "Author-proposed Rauhut-Currier/oxa-Michael cycle with intermediates A-E; recorded as proposed_mechanism, not a mechanistic experiment.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page6:image",
+            "doc_a10334c5f49b8d92:page5:text"
+          ]
+        },
+        {
+          "region": "Experimental Section General Procedure",
+          "finding": "General scope operation, all quantities, staged times/temperature, water/ether workup, Na2SO4 drying and PE:EA silica chromatography were structured and inherited only by records explicitly following the general procedure.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page6:image",
+            "doc_a10334c5f49b8d92:page6:text"
+          ]
+        },
+        {
+          "region": "specific 4a paragraph",
+          "finding": "4a is reported as 33 mg, 68% from 1b (0.1 mmol, 43 mg) and 2a (0.12 mmol, 21 mg), conflicting with Table 2's 82%; characterization begins but is not a separate synthesis record.",
+          "evidence_ids": [
+            "doc_a10334c5f49b8d92:page6:image",
+            "doc_a10334c5f49b8d92:page6:text",
+            "doc_a10334c5f49b8d92:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a10334c5f49b8d92:table2_4a",
+        "doc_a10334c5f49b8d92:table2_4c",
+        "doc_a10334c5f49b8d92:table2_4d",
+        "doc_a10334c5f49b8d92:table2_4e",
+        "doc_a10334c5f49b8d92:table2_4f",
+        "doc_a10334c5f49b8d92:table2_4g",
+        "doc_a10334c5f49b8d92:table2_4h",
+        "doc_a10334c5f49b8d92:table2_4i",
+        "doc_a10334c5f49b8d92:table2_4j",
+        "doc_a10334c5f49b8d92:table2_4k",
+        "doc_a10334c5f49b8d92:table2_4l",
+        "doc_a10334c5f49b8d92:table2_4m",
+        "doc_a10334c5f49b8d92:table2_4n",
+        "doc_a10334c5f49b8d92:table2_4o",
+        "doc_a10334c5f49b8d92:scheme3_scaleup_4b",
+        "doc_a10334c5f49b8d92:scheme4_eq1_asymmetric_10",
+        "doc_a10334c5f49b8d92:scheme4_eq2_betaicd_failed_3",
+        "doc_a10334c5f49b8d92:scheme5_proposed_mechanism"
+      ],
+      "unresolved": [
+        "The main article points to unavailable SI for catalyst screening and detailed compound data.",
+        "No absolute configuration or ee measurement method is supplied for 10.",
+        "Page 7 continuation of 4a characterization was outside the requested visual coverage and is not claimed as inspected."
+      ]
+    }
+  ]
+}

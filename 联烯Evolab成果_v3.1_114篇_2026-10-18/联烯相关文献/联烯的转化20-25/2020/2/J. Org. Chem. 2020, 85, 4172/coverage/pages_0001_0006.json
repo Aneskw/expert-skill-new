@@ -1,0 +1,298 @@
+{
+  "document_id": "doc_40554c21bc96f78b",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, graphical abstract",
+          "finding": "Article metadata and a generic current-work transformation; not a concrete experiment.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page1:image",
+            "doc_40554c21bc96f78b:page1:text"
+          ]
+        },
+        {
+          "region": "Scheme 1a",
+          "finding": "Bioactive structures and carbonyl-bioisostere comparison; no synthetic experiment.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1b–c",
+          "finding": "Three generic arrows: boryl substitution, cross-coupling utility, and Diels–Alder utility.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_40554c21bc96f78b:scheme1_boryl_substitution",
+        "doc_40554c21bc96f78b:scheme1_cross_coupling",
+        "doc_40554c21bc96f78b:scheme1_diels_alder"
+      ],
+      "unresolved": [
+        "Generic R-group structures were not expanded into concrete SMILES."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 including scheme, rows 1–12, ligand drawings and footnotes",
+          "finding": "Twelve independent optimization experiments, including two trace outcomes and a no-ligand row.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page2:image",
+            "doc_40554c21bc96f78b:page2:text"
+          ]
+        },
+        {
+          "region": "Table 2 scheme, products 3a–3k and footnotes",
+          "finding": "Ten successful substrate-scope experiments 3a–3j and one complex-mixture control 1k; Z/E ratios retained for 3g–3j.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page2:image",
+            "doc_40554c21bc96f78b:page2:text"
+          ]
+        },
+        {
+          "region": "Results discussion",
+          "finding": "Narrative repeats Table 1/2 outcomes; merged as additional evidence rather than duplicated.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_40554c21bc96f78b:table1_entry_01",
+        "doc_40554c21bc96f78b:table1_entry_02",
+        "doc_40554c21bc96f78b:table1_entry_03",
+        "doc_40554c21bc96f78b:table1_entry_04",
+        "doc_40554c21bc96f78b:table1_entry_05",
+        "doc_40554c21bc96f78b:table1_entry_06",
+        "doc_40554c21bc96f78b:table1_entry_07",
+        "doc_40554c21bc96f78b:table1_entry_08",
+        "doc_40554c21bc96f78b:table1_entry_09",
+        "doc_40554c21bc96f78b:table1_entry_10",
+        "doc_40554c21bc96f78b:table1_entry_11",
+        "doc_40554c21bc96f78b:table1_entry_12",
+        "doc_40554c21bc96f78b:scope_table2_3a",
+        "doc_40554c21bc96f78b:scope_table2_3b",
+        "doc_40554c21bc96f78b:scope_table2_3c",
+        "doc_40554c21bc96f78b:scope_table2_3d",
+        "doc_40554c21bc96f78b:scope_table2_3e",
+        "doc_40554c21bc96f78b:scope_table2_3f",
+        "doc_40554c21bc96f78b:scope_table2_3g",
+        "doc_40554c21bc96f78b:scope_table2_3h",
+        "doc_40554c21bc96f78b:scope_table2_3i",
+        "doc_40554c21bc96f78b:scope_table2_3j",
+        "doc_40554c21bc96f78b:scope_table2_1k_complex_mixture"
+      ],
+      "unresolved": [
+        "Many drawn structures lack independently verified SMILES.",
+        "The Table 2 3j time conflicts with a later individual paragraph (7 h vs 6.5 h)."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 3 rows 4a–4i and footnotes",
+          "finding": "Nine independent cross-coupling experiments; 4i yield is by GC, the others are reported under isolated-yield heading.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page3:image",
+            "doc_40554c21bc96f78b:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 2",
+          "finding": "Specific Diels–Alder reaction of 3b with dienophile 5 to product 6 (30%).",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page3:image",
+            "doc_40554c21bc96f78b:page3:text"
+          ]
+        },
+        {
+          "region": "discussion below Table 3",
+          "finding": "Maleic anhydride is reported unreactive; retained as a no-reaction control without inventing a product.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page3:text"
+          ]
+        },
+        {
+          "region": "Figure 1a–b",
+          "finding": "Author-proposed catalytic cycle and Z/E isomerization pathway; recorded as proposed mechanism, not observed synthesis.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page3:image",
+            "doc_40554c21bc96f78b:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_40554c21bc96f78b:scope_table3_4a",
+        "doc_40554c21bc96f78b:scope_table3_4b",
+        "doc_40554c21bc96f78b:scope_table3_4c",
+        "doc_40554c21bc96f78b:scope_table3_4d",
+        "doc_40554c21bc96f78b:scope_table3_4e",
+        "doc_40554c21bc96f78b:scope_table3_4f",
+        "doc_40554c21bc96f78b:scope_table3_4g",
+        "doc_40554c21bc96f78b:scope_table3_4h",
+        "doc_40554c21bc96f78b:scope_table3_4i",
+        "doc_40554c21bc96f78b:scheme2_3b_5_to_6",
+        "doc_40554c21bc96f78b:maleic_anhydride_unreactive",
+        "doc_40554c21bc96f78b:figure1_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 2 does not state the 30% yield measurement basis on pages 1–6."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "General",
+          "finding": "Analytical and handling methods; retained as source_context, not reactions.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page4:image",
+            "doc_40554c21bc96f78b:page4:text"
+          ]
+        },
+        {
+          "region": "Procedure A for 1a",
+          "finding": "Three isolated transformations: alcohol formation (67%), mesylation (61%), and Pd/organozinc allene formation (45%).",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page4:image",
+            "doc_40554c21bc96f78b:page4:text"
+          ]
+        },
+        {
+          "region": "1a–1f characterization/preparation paragraphs",
+          "finding": "Characterization kept as context; 1b–1f preparation references to Procedure A recorded without inventing missing yields.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page4:image",
+            "doc_40554c21bc96f78b:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_40554c21bc96f78b:prep1a_alcohol",
+        "doc_40554c21bc96f78b:prep1a_mesylate",
+        "doc_40554c21bc96f78b:prep1a_allene",
+        "doc_40554c21bc96f78b:prep1b_procedure_A",
+        "doc_40554c21bc96f78b:prep1c_procedure_A",
+        "doc_40554c21bc96f78b:prep1d_procedure_A",
+        "doc_40554c21bc96f78b:prep1e_procedure_A",
+        "doc_40554c21bc96f78b:prep1f_procedure_A",
+        "doc_40554c21bc96f78b:prep1g_procedure_A",
+        "doc_40554c21bc96f78b:prep1h_procedure_A",
+        "doc_40554c21bc96f78b:prep1i_procedure_A"
+      ],
+      "unresolved": [
+        "Unnamed intermediates and corresponding ketones remain identity-unresolved.",
+        "Product-specific scales/yields for 1b–1f are unreported here."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "1g–1i paragraphs",
+          "finding": "Procedure-A preparation references and characterization; no product-specific yields printed.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page5:image",
+            "doc_40554c21bc96f78b:page5:text"
+          ]
+        },
+        {
+          "region": "Preparation of 1j",
+          "finding": "Three concrete isolated operations: propargyl alcohol 97%, chloride 38%, allene 1j 9%.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page5:image",
+            "doc_40554c21bc96f78b:page5:text"
+          ]
+        },
+        {
+          "region": "Preparation of 1k",
+          "finding": "Three concrete isolated operations: gem-dibromo intermediate 76%, mesylate 60%, allene 1k 47%.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page5:image",
+            "doc_40554c21bc96f78b:page5:text"
+          ]
+        },
+        {
+          "region": "start of General Borylation Procedure",
+          "finding": "Charges and glovebox setup for 3a; merged into the Table 2 3a record.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page5:image",
+            "doc_40554c21bc96f78b:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_40554c21bc96f78b:prep1g_procedure_A",
+        "doc_40554c21bc96f78b:prep1h_procedure_A",
+        "doc_40554c21bc96f78b:prep1i_procedure_A",
+        "doc_40554c21bc96f78b:prep1j_propargyl_alcohol",
+        "doc_40554c21bc96f78b:prep1j_propargyl_chloride",
+        "doc_40554c21bc96f78b:prep1j_allene",
+        "doc_40554c21bc96f78b:prep1k_gem_dibromo",
+        "doc_40554c21bc96f78b:prep1k_mesylate",
+        "doc_40554c21bc96f78b:prep1k_allene"
+      ],
+      "unresolved": [
+        "Identity of the unnamed alkyne and several intermediates is not independently resolved."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "completion of 3a procedure",
+          "finding": "Reaction, workup, purification, 83% yield, product amount and trace-byproduct note merged into scope record 3a.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page6:image",
+            "doc_40554c21bc96f78b:page6:text"
+          ]
+        },
+        {
+          "region": "individual 3b–3i paragraphs",
+          "finding": "Product-specific substrate charges, times, yields, product masses/amounts, and Z/E results merged into existing Table 2 records.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page6:image",
+            "doc_40554c21bc96f78b:page6:text"
+          ]
+        },
+        {
+          "region": "NMR/HRMS blocks",
+          "finding": "Characterization retained in source_context and not counted as synthesis experiments.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page6:image",
+            "doc_40554c21bc96f78b:page6:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_40554c21bc96f78b:scope_table2_3a",
+        "doc_40554c21bc96f78b:scope_table2_3b",
+        "doc_40554c21bc96f78b:scope_table2_3c",
+        "doc_40554c21bc96f78b:scope_table2_3d",
+        "doc_40554c21bc96f78b:scope_table2_3e",
+        "doc_40554c21bc96f78b:scope_table2_3f",
+        "doc_40554c21bc96f78b:scope_table2_3g",
+        "doc_40554c21bc96f78b:scope_table2_3h",
+        "doc_40554c21bc96f78b:scope_table2_3i"
+      ],
+      "unresolved": [
+        "3c product amount is printed/extracted as '395 mmol' next to 64.9 mg and was left unreadable rather than corrected.",
+        "3i characterization continues to page 7; no page-7 visual coverage is claimed."
+      ]
+    }
+  ]
+}

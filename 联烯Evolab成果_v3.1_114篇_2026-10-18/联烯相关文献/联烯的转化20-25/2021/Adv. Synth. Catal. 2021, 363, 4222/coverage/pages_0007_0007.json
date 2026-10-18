@@ -1,0 +1,38 @@
+{
+  "document_id": "doc_cb03cf42d5a5f24b",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "two-column reference list, continuation of reference [8] and references [9]-[15]",
+          "finding": "Reference citations only; no current-paper synthesis experiment, reaction arrow, optimization/scope row, procedure, reagent footnote, or product result is present.",
+          "evidence_ids": [
+            "doc_cb03cf42d5a5f24b:page7:image"
+          ]
+        },
+        {
+          "region": "right column, reference [14] CCDC 2034008 notice",
+          "finding": "External crystallographic-data availability statement supporting the paper's 3ba assignment; the CIF is not supplied and was not associated as SI or converted into an experiment.",
+          "evidence_ids": [
+            "doc_cb03cf42d5a5f24b:page7:image"
+          ]
+        },
+        {
+          "region": "full-page non-synthetic and characterization inventory",
+          "finding": "No standalone mass-spectrum peak table, molecular-weight table, or fragment-relative-abundance block is present; no source_context characterization experiment or reaction record is warranted beyond the reference-list context.",
+          "evidence_ids": [
+            "doc_cb03cf42d5a5f24b:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The cited external papers and CCDC deposit were not supplied, so their experiments/structures were not extracted or independently verified.",
+        "No chemistry record is created from bibliographic citations alone."
+      ]
+    }
+  ]
+}

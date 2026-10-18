@@ -1,0 +1,180 @@
+{
+  "standard_id": "bond-formation-20261016",
+  "categories": [
+    {
+      "number": 1,
+      "code": "C-H"
+    },
+    {
+      "number": 2,
+      "code": "C-C"
+    },
+    {
+      "number": 3,
+      "code": "C-O"
+    },
+    {
+      "number": 4,
+      "code": "C-S"
+    },
+    {
+      "number": 5,
+      "code": "C-N"
+    },
+    {
+      "number": 6,
+      "code": "C-P"
+    },
+    {
+      "number": 7,
+      "code": "C-F"
+    },
+    {
+      "number": 8,
+      "code": "C-Cl"
+    },
+    {
+      "number": 9,
+      "code": "C-Br"
+    },
+    {
+      "number": 10,
+      "code": "C-I"
+    },
+    {
+      "number": 11,
+      "code": "C-B"
+    },
+    {
+      "number": 12,
+      "code": "C-Si"
+    },
+    {
+      "number": 13,
+      "code": "DB-C-C"
+    },
+    {
+      "number": 14,
+      "code": "DB-C-O"
+    },
+    {
+      "number": 15,
+      "code": "DB-C-S"
+    },
+    {
+      "number": 16,
+      "code": "DB-C-N"
+    },
+    {
+      "number": 17,
+      "code": "DB-C-P"
+    },
+    {
+      "number": 18,
+      "code": "DB-O-S"
+    },
+    {
+      "number": 19,
+      "code": "DB-O-P"
+    },
+    {
+      "number": 20,
+      "code": "DB-O-N"
+    },
+    {
+      "number": 21,
+      "code": "TB-C-C"
+    },
+    {
+      "number": 22,
+      "code": "TB-C-N"
+    },
+    {
+      "number": 23,
+      "code": "C-M"
+    },
+    {
+      "number": 24,
+      "code": "O-H"
+    },
+    {
+      "number": 25,
+      "code": "O-P"
+    },
+    {
+      "number": 26,
+      "code": "O-S"
+    },
+    {
+      "number": 27,
+      "code": "O-N"
+    },
+    {
+      "number": 28,
+      "code": "O-Si"
+    },
+    {
+      "number": 29,
+      "code": "N-H"
+    },
+    {
+      "number": 30,
+      "code": "N-P"
+    },
+    {
+      "number": 31,
+      "code": "N-S"
+    },
+    {
+      "number": 32,
+      "code": "N-N"
+    },
+    {
+      "number": 33,
+      "code": "N-Cl"
+    },
+    {
+      "number": 34,
+      "code": "S-H"
+    },
+    {
+      "number": 35,
+      "code": "S-Cl"
+    },
+    {
+      "number": 36,
+      "code": "S-P"
+    },
+    {
+      "number": 37,
+      "code": "Si-H"
+    },
+    {
+      "number": 38,
+      "code": "Si-B"
+    },
+    {
+      "number": 39,
+      "code": "Si-Si"
+    },
+    {
+      "number": 40,
+      "code": "P-H"
+    },
+    {
+      "number": 41,
+      "code": "Others"
+    }
+  ],
+  "rules": {
+    "metal": "C-<actual element>, category 23",
+    "other": "other-A-B, category 41; DB/TB are retained in bond changes for unlisted bond orders",
+    "multiple_labels": true,
+    "unchanged_product_bonds": "excluded",
+    "bond_order_increase": "label new DB/TB; retain before/after order",
+    "bond_order_decrease": "retain change; not a newly connected single bond",
+    "hydrogen": "include net H gains on mapped atoms; atom partner identity may remain unresolved",
+    "negative_control": "no inferred bond-formation label from intended reaction",
+    "model_votes": "optional independent annotations, never chemical verification"
+  }
+}

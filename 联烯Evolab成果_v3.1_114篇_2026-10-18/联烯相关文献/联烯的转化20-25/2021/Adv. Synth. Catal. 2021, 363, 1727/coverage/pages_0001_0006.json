@@ -1,0 +1,311 @@
+{
+  "document_id": "doc_1e9ebe5249be1f43",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title/author/DOI header",
+          "finding": "paper metadata; DOI corrected to 10.1002/adsc.202001167",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page1:image",
+            "doc_1e9ebe5249be1f43:page1:text"
+          ]
+        },
+        {
+          "region": "abstract and introductory prose",
+          "finding": "article-level summary and background, not a concrete experiment",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page1:image",
+            "doc_1e9ebe5249be1f43:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "SI is stated to exist online but no SI file was supplied; no association was made."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1",
+          "finding": "bioactive example structures; non-synthetic context",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 1A",
+          "finding": "cited literature hydrofunctionalization overview",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 1B-a and 1B-b",
+          "finding": "authors' previous-work summaries, not experiments newly reported here",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 1C and optimization prose",
+          "finding": "generic transformation plus prose corresponding to Table 1 entries on page 3",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page2:image",
+            "doc_1e9ebe5249be1f43:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1e9ebe5249be1f43:scheme1A_literature_hydrofunctionalization",
+        "doc_1e9ebe5249be1f43:scheme1B_a_prior_alkynylation",
+        "doc_1e9ebe5249be1f43:scheme1B_b_prior_amination",
+        "doc_1e9ebe5249be1f43:scheme1C_generic",
+        "doc_1e9ebe5249be1f43:table1_entry_01",
+        "doc_1e9ebe5249be1f43:table1_entry_02",
+        "doc_1e9ebe5249be1f43:table1_entry_03",
+        "doc_1e9ebe5249be1f43:table1_entry_04",
+        "doc_1e9ebe5249be1f43:table1_entry_05",
+        "doc_1e9ebe5249be1f43:table1_entry_06",
+        "doc_1e9ebe5249be1f43:table1_entry_07",
+        "doc_1e9ebe5249be1f43:table1_entry_08",
+        "doc_1e9ebe5249be1f43:table1_entry_09",
+        "doc_1e9ebe5249be1f43:table1_entry_10",
+        "doc_1e9ebe5249be1f43:table1_entry_11",
+        "doc_1e9ebe5249be1f43:table1_entry_12",
+        "doc_1e9ebe5249be1f43:table1_entry_13",
+        "doc_1e9ebe5249be1f43:table1_entry_14",
+        "doc_1e9ebe5249be1f43:table1_entry_15",
+        "doc_1e9ebe5249be1f43:table1_entry_16",
+        "doc_1e9ebe5249be1f43:table1_entry_17",
+        "doc_1e9ebe5249be1f43:table1_entry_18"
+      ],
+      "unresolved": [
+        "Small generic structures use R/X/Nu variables; no concrete SMILES or complete atom mapping was asserted."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 rows 1–23 and footnotes",
+          "finding": "23 optimization experiments transcribed row-by-row; entry 5 kept as two temperature/time stages",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page3:image"
+          ]
+        },
+        {
+          "region": "Table 2 products 3a–3o",
+          "finding": "scope entries transcribed independently; 3a uses 0.20 mmol 1a and is distinct from the 0.05 mmol Table 1 entry 19 experiment",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page3:image"
+          ]
+        },
+        {
+          "region": "Table 2 3p and 3q",
+          "finding": "two real non-productive experiments; no product molecules invented",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1e9ebe5249be1f43:table1_entry_01",
+        "doc_1e9ebe5249be1f43:table1_entry_02",
+        "doc_1e9ebe5249be1f43:table1_entry_03",
+        "doc_1e9ebe5249be1f43:table1_entry_04",
+        "doc_1e9ebe5249be1f43:table1_entry_05",
+        "doc_1e9ebe5249be1f43:table1_entry_06",
+        "doc_1e9ebe5249be1f43:table1_entry_07",
+        "doc_1e9ebe5249be1f43:table1_entry_08",
+        "doc_1e9ebe5249be1f43:table1_entry_09",
+        "doc_1e9ebe5249be1f43:table1_entry_10",
+        "doc_1e9ebe5249be1f43:table1_entry_11",
+        "doc_1e9ebe5249be1f43:table1_entry_12",
+        "doc_1e9ebe5249be1f43:table1_entry_13",
+        "doc_1e9ebe5249be1f43:table1_entry_14",
+        "doc_1e9ebe5249be1f43:table1_entry_15",
+        "doc_1e9ebe5249be1f43:table1_entry_16",
+        "doc_1e9ebe5249be1f43:table1_entry_17",
+        "doc_1e9ebe5249be1f43:table1_entry_18",
+        "doc_1e9ebe5249be1f43:table1_entry_19",
+        "doc_1e9ebe5249be1f43:table1_entry_20",
+        "doc_1e9ebe5249be1f43:table1_entry_21",
+        "doc_1e9ebe5249be1f43:table1_entry_22",
+        "doc_1e9ebe5249be1f43:table1_entry_23",
+        "doc_1e9ebe5249be1f43:table2_product_3a",
+        "doc_1e9ebe5249be1f43:table2_product_3b",
+        "doc_1e9ebe5249be1f43:table2_product_3c",
+        "doc_1e9ebe5249be1f43:table2_product_3d",
+        "doc_1e9ebe5249be1f43:table2_product_3e",
+        "doc_1e9ebe5249be1f43:table2_product_3f",
+        "doc_1e9ebe5249be1f43:table2_product_3g",
+        "doc_1e9ebe5249be1f43:table2_product_3h",
+        "doc_1e9ebe5249be1f43:table2_product_3i",
+        "doc_1e9ebe5249be1f43:table2_product_3j",
+        "doc_1e9ebe5249be1f43:table2_product_3k",
+        "doc_1e9ebe5249be1f43:table2_product_3l",
+        "doc_1e9ebe5249be1f43:table2_product_3m",
+        "doc_1e9ebe5249be1f43:table2_product_3n",
+        "doc_1e9ebe5249be1f43:table2_product_3o",
+        "doc_1e9ebe5249be1f43:table2_no_product_3p",
+        "doc_1e9ebe5249be1f43:table2_no_product_3q"
+      ],
+      "unresolved": [
+        "Complex drawn structures and absolute configurations are not safely encoded; products retain visible stereo/ee descriptions and not_encoded representation status."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 3 products 3r–3w and footnotes",
+          "finding": "six scope experiments including combined enol/diketone and diastereomeric outcomes",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page4:image"
+          ]
+        },
+        {
+          "region": "Table 4 rows 1–8 and footnotes",
+          "finding": "eight non-reactive nucleophile experiments transcribed independently",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 2",
+          "finding": "2.0 mmol scale-up with masses, product amount, yield, and ee",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 3 four arrows",
+          "finding": "O-allylation, C-allylation, RCM, and pyrazole derivatization records",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1e9ebe5249be1f43:table3_product_3r",
+        "doc_1e9ebe5249be1f43:table3_product_3s",
+        "doc_1e9ebe5249be1f43:table3_product_3t",
+        "doc_1e9ebe5249be1f43:table3_product_3u",
+        "doc_1e9ebe5249be1f43:table3_product_3v",
+        "doc_1e9ebe5249be1f43:table3_product_3w",
+        "doc_1e9ebe5249be1f43:table4_entry_01_no_reaction",
+        "doc_1e9ebe5249be1f43:table4_entry_02_no_reaction",
+        "doc_1e9ebe5249be1f43:table4_entry_03_no_reaction",
+        "doc_1e9ebe5249be1f43:table4_entry_04_no_reaction",
+        "doc_1e9ebe5249be1f43:table4_entry_05_no_reaction",
+        "doc_1e9ebe5249be1f43:table4_entry_06_no_reaction",
+        "doc_1e9ebe5249be1f43:table4_entry_07_no_reaction",
+        "doc_1e9ebe5249be1f43:table4_entry_08_no_reaction",
+        "doc_1e9ebe5249be1f43:scheme2_scale_up_3a",
+        "doc_1e9ebe5249be1f43:scheme3_O_allylation_4a",
+        "doc_1e9ebe5249be1f43:scheme3_C_allylation_4b",
+        "doc_1e9ebe5249be1f43:scheme3_RCM_5a",
+        "doc_1e9ebe5249be1f43:scheme3_pyrazole_6a"
+      ],
+      "unresolved": [
+        "4a temperature differs between scheme (0 °C→rt) and prose (at 0 °C); retained as conflict.",
+        "Several derivatization measurement bases and the scale-up time/solvent volume are unreported."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "continuation of Scheme 3 discussion",
+          "finding": "prose outcomes for 5a and 6a linked to page-4 records",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page5:image",
+            "doc_1e9ebe5249be1f43:page5:text"
+          ]
+        },
+        {
+          "region": "Scheme 4 and mechanism prose",
+          "finding": "author-proposed catalytic cycle, classified as proposed_mechanism rather than experiment",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page5:image",
+            "doc_1e9ebe5249be1f43:page5:text"
+          ]
+        },
+        {
+          "region": "General Procedure for Synthesis of 3",
+          "finding": "charges, argon pretreatment, 100 °C/10 h reaction, workup, and flash chromatography inherited only by matching scope records",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page5:image",
+            "doc_1e9ebe5249be1f43:page5:text"
+          ]
+        },
+        {
+          "region": "Supporting Information Available/acknowledgements/references",
+          "finding": "context only; no SI file supplied and no characterization peaks extracted",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page5:image",
+            "doc_1e9ebe5249be1f43:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1e9ebe5249be1f43:scheme3_O_allylation_4a",
+        "doc_1e9ebe5249be1f43:scheme3_C_allylation_4b",
+        "doc_1e9ebe5249be1f43:scheme3_RCM_5a",
+        "doc_1e9ebe5249be1f43:scheme3_pyrazole_6a",
+        "doc_1e9ebe5249be1f43:scheme4_proposed_mechanism",
+        "doc_1e9ebe5249be1f43:table2_product_3a",
+        "doc_1e9ebe5249be1f43:table2_product_3b",
+        "doc_1e9ebe5249be1f43:table2_product_3c",
+        "doc_1e9ebe5249be1f43:table2_product_3d",
+        "doc_1e9ebe5249be1f43:table2_product_3e",
+        "doc_1e9ebe5249be1f43:table2_product_3f",
+        "doc_1e9ebe5249be1f43:table2_product_3g",
+        "doc_1e9ebe5249be1f43:table2_product_3h",
+        "doc_1e9ebe5249be1f43:table2_product_3i",
+        "doc_1e9ebe5249be1f43:table2_product_3j",
+        "doc_1e9ebe5249be1f43:table2_product_3k",
+        "doc_1e9ebe5249be1f43:table2_product_3l",
+        "doc_1e9ebe5249be1f43:table2_product_3m",
+        "doc_1e9ebe5249be1f43:table2_product_3n",
+        "doc_1e9ebe5249be1f43:table2_product_3o",
+        "doc_1e9ebe5249be1f43:table3_product_3r",
+        "doc_1e9ebe5249be1f43:table3_product_3s",
+        "doc_1e9ebe5249be1f43:table3_product_3t",
+        "doc_1e9ebe5249be1f43:table3_product_3u",
+        "doc_1e9ebe5249be1f43:table3_product_3v",
+        "doc_1e9ebe5249be1f43:table3_product_3w"
+      ],
+      "unresolved": [
+        "The proposed intermediates are not treated as observed species.",
+        "Detailed procedures and spectra said to be in SI remain unavailable."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "reference list [1]–[14]",
+          "finding": "bibliography only; no experiments extracted from uncaptured cited papers",
+          "evidence_ids": [
+            "doc_1e9ebe5249be1f43:page6:image",
+            "doc_1e9ebe5249be1f43:page6:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

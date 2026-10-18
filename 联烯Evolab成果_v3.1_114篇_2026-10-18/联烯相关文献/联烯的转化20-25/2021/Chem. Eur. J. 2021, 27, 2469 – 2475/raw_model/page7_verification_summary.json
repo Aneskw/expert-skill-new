@@ -1,0 +1,48 @@
+{
+  "document_id": "doc_f15761c9ba9d1af6",
+  "page_range": [
+    7,
+    7
+  ],
+  "original_image_inspected": true,
+  "coverage_file": "runs/current/coverage/pages_0007_0007.json",
+  "page7_new_molecules": 0,
+  "page7_new_reactions": 0,
+  "page7_new_source_context": 1,
+  "final_bundle_counts": {
+    "molecules": 27,
+    "reactions": 27,
+    "source_context": 6
+  },
+  "reaction_record_types": {
+    "generic_scheme": 7,
+    "specific_experiment": 20
+  },
+  "reaction_review_status": {
+    "needs_review": 27
+  },
+  "page7_reaction_evidence_refs": [],
+  "markdown_regression_check": {
+    "performed": true,
+    "missing_tokens": [],
+    "note": "Page 7 has no reaction and therefore no new reaction Markdown. Existing representative preparation/catalysis Markdown files still expose their reagent quantities, outcome methods, and the 3b precursor conflict note after the merge."
+  },
+  "validation": {
+    "submitted_standard_validate": "passed",
+    "standard_merge": "passed",
+    "merged_standard_validate": "passed",
+    "strict_validate": "passed",
+    "standard_v3_present": true,
+    "tests": "69 passed"
+  },
+  "audit": {
+    "warning_records": 5,
+    "reaction_identity": 0,
+    "outcome_target": 0,
+    "structure_gap": 4,
+    "measurement_basis": 1,
+    "disposition": "All five warnings predate page 7 and cannot be resolved from a references-only page. Organogold structures remain unresolved and the Scheme 3 yield method remains unreported; no value was guessed."
+  },
+  "semantic_accuracy_verified": false,
+  "chemical_accuracy_verified": false
+}

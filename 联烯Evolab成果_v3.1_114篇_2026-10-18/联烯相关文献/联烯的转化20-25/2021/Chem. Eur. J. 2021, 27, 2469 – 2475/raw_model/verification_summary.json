@@ -1,0 +1,55 @@
+{
+  "document_id": "doc_f15761c9ba9d1af6",
+  "markdown_checked": true,
+  "checks": [
+    {
+      "record": "doc_f15761c9ba9d1af6:prep_2a",
+      "file": "runs/current/records/doc_f15761c9ba9d1af6__prep_2a.md",
+      "verified_content": ["71.5 mg 1a", "0.10 mmol 1a", "32.1 mg (tht)AuCl", "0.10 mmol (tht)AuCl", "1 equiv", "1 mL CH2Cl2", "5 h", "5 mL n-hexane", "61.1 mg 2a", "65%"]
+    },
+    {
+      "record": "doc_f15761c9ba9d1af6:prep_3b",
+      "file": "runs/current/records/doc_f15761c9ba9d1af6__prep_3b.md",
+      "verified_content": ["73.5 mg/0.10 mmol conflicting precursor", "64.1 mg/0.20 mmol (tht)AuCl", "two 1 mL CH2Cl2 portions", "two 1 h holds", "5 mL n-hexane", "102.1 mg 3b", "85%", "Scheme 2 1b versus experimental paragraph 1a conflict note"]
+    },
+    {
+      "record": "doc_f15761c9ba9d1af6:table1_hydration_3a",
+      "file": "runs/current/records/doc_f15761c9ba9d1af6__table1_hydration_3a.md",
+      "verified_content": ["17.4 mg/0.10 mmol substrate", "3 mol% catalyst", "1.0 mmol and 10 equiv water", "1 mL acetone", "RT/48 h", "69% yield", "31% recovery", "1H NMR basis", "6:1 column eluent"]
+    },
+    {
+      "record": "doc_f15761c9ba9d1af6:table3_alkoxycyclization_3b",
+      "file": "runs/current/records/doc_f15761c9ba9d1af6__table3_alkoxycyclization_3b.md",
+      "verified_content": ["0.5 mL CH2Cl2", "0.5 mL methanol", "97% product", "3% substrate recovery", "67% catalyst recovery", "33% 2b", "separate 1H and 31P NMR bases"]
+    },
+    {
+      "record": "doc_f15761c9ba9d1af6:table4_hydroalkoxylation_entry2",
+      "file": "runs/current/records/doc_f15761c9ba9d1af6__table4_hydroalkoxylation_entry2.md",
+      "verified_content": ["5 mol% 3b", "10 mol% AgSbF6", "0.4 mL toluene premix", "10 min", "0.6 mL substrate solution", "24 h", "25.3 mg/0.10 mmol substrate", "91% yield", "9% recovery", "silica/hexane/ethyl acetate participants"]
+    },
+    {
+      "record": "doc_f15761c9ba9d1af6:table5_entry6",
+      "file": "runs/current/records/doc_f15761c9ba9d1af6__table5_entry6.md",
+      "verified_content": ["3 mol% 2b", "CH2Cl2/MeOH 1:1", "40 °C", "3 d", "80% yield", "20% recovery", "1H NMR basis"]
+    },
+    {
+      "record": "doc_f15761c9ba9d1af6:scheme3_tfe_cycloisomerization",
+      "file": "runs/current/records/doc_f15761c9ba9d1af6__scheme3_tfe_cycloisomerization.md",
+      "verified_content": ["3 mol% 2b", "CH2Cl2/CF3CH2OH 1:1", "RT/24 h", "96%", "explicit missing measurement-basis/scale/volume/workup note"]
+    }
+  ],
+  "missing_checked_tokens": [],
+  "validation": {
+    "standard_validate": "passed",
+    "strict_validate": "passed",
+    "chemical_accuracy_verified": false
+  },
+  "audit_disposition": {
+    "structure_gap": 4,
+    "measurement_basis": 1,
+    "reaction_identity": 0,
+    "outcome_target": 0,
+    "missing_steps": 0,
+    "note": "The four structure-gap warnings are retained for complex organogold preparations; the one measurement-basis warning is retained for Scheme 3 because pages 1-6 do not report the method."
+  }
+}

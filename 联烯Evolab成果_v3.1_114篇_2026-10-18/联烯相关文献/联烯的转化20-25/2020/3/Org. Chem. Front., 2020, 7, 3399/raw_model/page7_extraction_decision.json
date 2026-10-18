@@ -1,0 +1,29 @@
+{
+  "batch_id": "allene-stereo-v31-200-20261017",
+  "document_id": "doc_3f18b691f7dce01d",
+  "page_range": [7, 7],
+  "source_mapping": "runs/current/source_mapping.json",
+  "source_type": "original journal PDF",
+  "presentation_conversion": false,
+  "image_inspected": "runs/current/assets/doc_3f18b691f7dce01d/page7.jpg",
+  "evidence_ids": [
+    "doc_3f18b691f7dce01d:page7:image",
+    "doc_3f18b691f7dce01d:page7:text"
+  ],
+  "regions": [
+    {
+      "region": "references 17–20",
+      "decision": "source_context_only",
+      "reason": "Bibliography entries cite external papers but do not report current-paper reaction instances on this page."
+    },
+    {
+      "region": "header/footer/blank area",
+      "decision": "no_record",
+      "reason": "No chemical figure, table, arrow, experimental footnote, procedure, control or characterization dataset is present."
+    }
+  ],
+  "new_molecules": 0,
+  "new_reactions": 0,
+  "new_source_context": 1,
+  "semantic_accuracy_verified": false
+}

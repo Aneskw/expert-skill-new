@@ -1,0 +1,232 @@
+{
+  "document_id": "doc_865f887b40814098",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, bibliographic header",
+          "finding": "Article title and DOI were restored; the abstract states the current allenol-to-bis(triflyl)enone transformation and downstream product classes.",
+          "evidence_ids": ["doc_865f887b40814098:page1:image", "doc_865f887b40814098:page1:text"]
+        },
+        {
+          "region": "Scheme 1a",
+          "finding": "Prior-literature alkyne-to-bis(triflyl)cyclobutene reaction, classified as a literature example rather than a current experiment.",
+          "evidence_ids": ["doc_865f887b40814098:page1:image"]
+        },
+        {
+          "region": "Scheme 1b-c",
+          "finding": "Initial hypothetical project aim is separated from the current generic allenol-to-enone proposal.",
+          "evidence_ids": ["doc_865f887b40814098:page1:image"]
+        },
+        {
+          "region": "Scheme 1d",
+          "finding": "Cited classical allenol electrophile reactivity with alternative generic products; retained as literature context.",
+          "evidence_ids": ["doc_865f887b40814098:page1:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_865f887b40814098:scheme1a_previous_literature",
+        "doc_865f887b40814098:scheme1b_initial_aim",
+        "doc_865f887b40814098:scheme1c_current_generic",
+        "doc_865f887b40814098:scheme1d_classical_reactivity"
+      ],
+      "unresolved": ["Generic R groups, exact cited conditions and complete atom mapping are not supplied on this page."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Results prose and Scheme 2a",
+          "finding": "Allene 2 did not react with reagent 1 in MeCN at room temperature; prose separately names no Lewis acid, AgOTf, [(Ph3P)AuNTf2], and In(OTf)3 variants. Four condition records were created and starting-material recovery remains qualitative.",
+          "evidence_ids": ["doc_865f887b40814098:page2:image", "doc_865f887b40814098:page2:text"]
+        },
+        {
+          "region": "Scheme 2b-c and linked prose",
+          "finding": "Allenamide 3 produced a complicated mixture; allenol 4a gave sodium-salt (E)-5a in 75% yield, with the Z isomer not obtained.",
+          "evidence_ids": ["doc_865f887b40814098:page2:image", "doc_865f887b40814098:page2:text"]
+        },
+        {
+          "region": "Scheme 3 scope entries 5a-j",
+          "finding": "Ten distinct substrate/product entries were transcribed with printed isolated yields, E/Z percentages where present, times, and the -40 °C initiation footnote for 5c and 5e.",
+          "evidence_ids": ["doc_865f887b40814098:page2:image"]
+        },
+        {
+          "region": "Scheme 3 nonproductive precursors",
+          "finding": "5-indole and 5-oxindole allenols gave complicated mixtures/no enone rather than target products.",
+          "evidence_ids": ["doc_865f887b40814098:page2:image", "doc_865f887b40814098:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_865f887b40814098:scheme2a_no_reaction_none",
+        "doc_865f887b40814098:scheme2a_no_reaction_AgOTf",
+        "doc_865f887b40814098:scheme2a_no_reaction_AuNTf2",
+        "doc_865f887b40814098:scheme2a_no_reaction_InOTf3",
+        "doc_865f887b40814098:scheme2b_complicated_mixture",
+        "doc_865f887b40814098:scheme2c_initial_4a_to_5a",
+        "doc_865f887b40814098:scheme3_4a_to_5a",
+        "doc_865f887b40814098:scheme3_4b_to_5b",
+        "doc_865f887b40814098:scheme3_4c_to_5c",
+        "doc_865f887b40814098:scheme3_4d_to_5d",
+        "doc_865f887b40814098:scheme3_4e_to_5e",
+        "doc_865f887b40814098:scheme3_4f_to_5f",
+        "doc_865f887b40814098:scheme3_4g_to_5g",
+        "doc_865f887b40814098:scheme3_4h_to_5h",
+        "doc_865f887b40814098:scheme3_4i_to_5i",
+        "doc_865f887b40814098:scheme3_4j_to_5j",
+        "doc_865f887b40814098:scheme3_nonproductive_5_indole",
+        "doc_865f887b40814098:scheme3_nonproductive_5_oxindole"
+      ],
+      "unresolved": [
+        "Catalyst loadings/times for the Scheme 2a variants and detailed identities of complicated mixtures are unreported.",
+        "Scheme 2c yield basis and reaction time are unreported.",
+        "The analytical method for Scheme 3 E/Z percentages is unreported; structures other than 4a/5a remain unresolved rather than guessed."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 4 scope entries 5k-o and 5r-x",
+          "finding": "Twelve distinct successful entries were transcribed with isolated yield, E/Z column value and time; 5w and 5x retain the 0 °C footnote.",
+          "evidence_ids": ["doc_865f887b40814098:page3:image"]
+        },
+        {
+          "region": "Scheme 4 precursors 4p and 4q",
+          "finding": "Two proximal-allene-substituted substrates are separate nonproductive records because enone formation was suppressed/messy.",
+          "evidence_ids": ["doc_865f887b40814098:page3:image", "doc_865f887b40814098:page3:text"]
+        },
+        {
+          "region": "Scheme 5 deuterated product array",
+          "finding": "Nine printed deuterated product entries were recorded separately with isolated yield, >99 E/Z-column value and time.",
+          "evidence_ids": ["doc_865f887b40814098:page3:image"]
+        },
+        {
+          "region": "Scheme 6 discussion below Scheme 5",
+          "finding": "Prose announces downstream transformations but the actual conditions/arrows occur on page 4 and are mapped there, avoiding duplicate experiments.",
+          "evidence_ids": ["doc_865f887b40814098:page3:text", "doc_865f887b40814098:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_865f887b40814098:scheme4_4k_to_5k",
+        "doc_865f887b40814098:scheme4_4l_to_5l",
+        "doc_865f887b40814098:scheme4_4m_to_5m",
+        "doc_865f887b40814098:scheme4_4n_to_5n",
+        "doc_865f887b40814098:scheme4_4o_to_5o",
+        "doc_865f887b40814098:scheme4_4r_to_5r",
+        "doc_865f887b40814098:scheme4_4s_to_5s",
+        "doc_865f887b40814098:scheme4_4t_to_5t",
+        "doc_865f887b40814098:scheme4_4u_to_5u",
+        "doc_865f887b40814098:scheme4_4v_to_5v",
+        "doc_865f887b40814098:scheme4_4w_to_5w",
+        "doc_865f887b40814098:scheme4_4x_to_5x",
+        "doc_865f887b40814098:scheme4_suppressed_4p",
+        "doc_865f887b40814098:scheme4_suppressed_4q",
+        "doc_865f887b40814098:scheme5_D_5a",
+        "doc_865f887b40814098:scheme5_Dprime_5a",
+        "doc_865f887b40814098:scheme5_D2_5a",
+        "doc_865f887b40814098:scheme5_D2prime_5a",
+        "doc_865f887b40814098:scheme5_D3_5a",
+        "doc_865f887b40814098:scheme5_D3prime_5a",
+        "doc_865f887b40814098:scheme5_D3doubleprime_5a",
+        "doc_865f887b40814098:scheme5_D4_5a",
+        "doc_865f887b40814098:scheme5_D5_5a"
+      ],
+      "unresolved": [
+        "Full structures/stereochemical encoding for most scope compounds were not forced from compact artwork.",
+        "Scheme 5 groups several deuterated precursors; the exact precursor-to-individual-product mapping and deuterium assay method are not explicit on the supplied page.",
+        "E/Z analytical methods are unreported."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 6a",
+          "finding": "Five independent arrows were recorded: 5a to hydrazone 6, 6 to pyrazole 7, and 5a to allylic alcohol 8, diene 9 and thioether 10 with all printed reagents, solvents, temperatures, times and yields.",
+          "evidence_ids": ["doc_865f887b40814098:page4:image"]
+        },
+        {
+          "region": "Scheme 6b-d",
+          "finding": "Four independent transformations were recorded: 5j to pyrrole 11; temperature-divergent 5w to 12 or 13; and 5x to triazole 14.",
+          "evidence_ids": ["doc_865f887b40814098:page4:image"]
+        },
+        {
+          "region": "Scheme 7a-c and mechanistic-study prose",
+          "finding": "One H2(18)O labeling experiment and separate Ar-atmosphere/O2-balloon controls were recorded, including H2(18)O at 2 equiv and the three printed yields.",
+          "evidence_ids": ["doc_865f887b40814098:page4:image", "doc_865f887b40814098:page4:text"]
+        },
+        {
+          "region": "Scheme 8 discussion and DFT paragraph start",
+          "finding": "The proposed mechanism and calculations are not treated as preparative experiments; the formal Scheme 8 mechanism record is located on page 5 where the full scheme appears.",
+          "evidence_ids": ["doc_865f887b40814098:page4:text", "doc_865f887b40814098:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_865f887b40814098:scheme6a_5a_to_6",
+        "doc_865f887b40814098:scheme6a_6_to_7",
+        "doc_865f887b40814098:scheme6a_5a_to_8",
+        "doc_865f887b40814098:scheme6a_5a_to_9",
+        "doc_865f887b40814098:scheme6a_5a_to_10",
+        "doc_865f887b40814098:scheme6b_5j_to_11",
+        "doc_865f887b40814098:scheme6c_5w_to_12",
+        "doc_865f887b40814098:scheme6c_5w_to_13",
+        "doc_865f887b40814098:scheme6d_5x_to_14",
+        "doc_865f887b40814098:scheme7a_H218O_labeling",
+        "doc_865f887b40814098:scheme7_Ar_control",
+        "doc_865f887b40814098:scheme7_O2_control"
+      ],
+      "unresolved": [
+        "Scheme 6 and 7 yields have no reported measurement basis in the supplied pages.",
+        "The 5 h for 5a to 9 spans the printed 0 °C-to-room-temperature program; separate cold-hold/ramp durations are not reported.",
+        "Charges other than H2(18)O 2 equiv, scales, atmospheres for non-control reactions, workups and purification details are unavailable."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 8",
+          "finding": "Tentative pathway 4 plus reagent 1 through INT-1 to INT-4 and product 5; recorded as proposed_mechanism, not as a confirmed experiment.",
+          "evidence_ids": ["doc_865f887b40814098:page5:image", "doc_865f887b40814098:page5:text"]
+        },
+        {
+          "region": "Figure 1 and associated DFT prose",
+          "finding": "Computed C4/C3 transition-state set and 87:13 kinetic ratio; retained as mechanistic computation source_context, not experimental selectivity.",
+          "evidence_ids": ["doc_865f887b40814098:page5:image", "doc_865f887b40814098:page5:text"]
+        },
+        {
+          "region": "Figure 2",
+          "finding": "Computed pathway through TS-3b and energies for INT-1 to INT-4; retained as source_context rather than a synthetic record.",
+          "evidence_ids": ["doc_865f887b40814098:page5:image", "doc_865f887b40814098:page5:text"]
+        }
+      ],
+      "record_ids": ["doc_865f887b40814098:scheme8_proposed_mechanism"],
+      "unresolved": ["Computed structures and hydrogen/proton transfers are not fully atom-mapped; Supporting Information calculations were not supplied."]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Conclusions",
+          "finding": "Narrative summary of the reported cascade; no new reaction arrow, table row or experimental condition was introduced.",
+          "evidence_ids": ["doc_865f887b40814098:page6:image", "doc_865f887b40814098:page6:text"]
+        },
+        {
+          "region": "Acknowledgements, conflict of interest, keywords and references 1-16",
+          "finding": "Non-experimental back matter and bibliography; cited literature was not converted into current-paper experiments.",
+          "evidence_ids": ["doc_865f887b40814098:page6:image", "doc_865f887b40814098:page6:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["The reference list continues beyond page 6, outside the required coverage range; no claim is made that later pages were covered."]
+    }
+  ]
+}

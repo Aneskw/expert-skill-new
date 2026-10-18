@@ -1,0 +1,37 @@
+{
+  "document_id": "doc_1ba437add780cf5e",
+  "page_range": [7, 8],
+  "coverage_pages_exact": true,
+  "page7_arrow_inventory_count": 8,
+  "page7_record_id_count": 8,
+  "page8_record_id_count": 0,
+  "markdown_checks": {
+    "scheme6_deprotection_6a": {
+      "required_tokens": ["DDQ", "CH2Cl2/H2O", "rt", "0.5 h", "91%"],
+      "missing_tokens": []
+    },
+    "scheme6_metathesis_8b": {
+      "required_tokens": ["Hoveyda-Grubbs II", "benzene", "80 °C", "24 h", "45%"],
+      "missing_tokens": []
+    },
+    "scheme6_to_mycestericin_G": {
+      "required_tokens": ["Pd/C", "10 mol%", "1 atm balloon", "EtOAc", "6 M", "reflux", "NaOH", "1 M", "MeOH", "60%", "overall yield"],
+      "missing_tokens": []
+    },
+    "scheme6_syn_3hb": {
+      "required_tokens": ["2 mmol scale", "L3-Pd/L3-Ag", "63%", "14:1", "96% ee", "3hb", "4hb", "conflict"],
+      "missing_tokens": []
+    }
+  },
+  "strict_validation": "passed",
+  "standard_validation": "passed",
+  "tests": "69 passed",
+  "audit": {
+    "warning_bearing_records_total": 21,
+    "reaction_identity": 0,
+    "outcome_target": 0,
+    "measurement_basis": 21,
+    "structure_gap": 6
+  },
+  "chemical_accuracy_verified": false
+}

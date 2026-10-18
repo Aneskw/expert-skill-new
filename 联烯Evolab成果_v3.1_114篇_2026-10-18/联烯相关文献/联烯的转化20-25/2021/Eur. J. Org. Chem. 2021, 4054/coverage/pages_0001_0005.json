@@ -1,0 +1,176 @@
+{
+  "document_id": "doc_1cf04303b61f633d",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left title, authors, abstract, and lower-left article/SI note",
+          "finding": "Article title, authors, DOI context, and an explicit statement that Supporting Information is available; no SI file was supplied or associated.",
+          "evidence_ids": ["doc_1cf04303b61f633d:page1:image"]
+        },
+        {
+          "region": "right half, Scheme 1 panels a-f",
+          "finding": "Six cited prior-work reaction panels, retained as literature_example records rather than present-paper experiments.",
+          "evidence_ids": ["doc_1cf04303b61f633d:page1:image"]
+        },
+        {
+          "region": "right half, Scheme 1 panel g",
+          "finding": "Current-work generic copper-catalyzed gamma-protoborylation/protosilylation design; no experiment-specific yield assigned.",
+          "evidence_ids": ["doc_1cf04303b61f633d:page1:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_1cf04303b61f633d:scheme1a_literature",
+        "doc_1cf04303b61f633d:scheme1b_literature",
+        "doc_1cf04303b61f633d:scheme1c_literature",
+        "doc_1cf04303b61f633d:scheme1d_literature",
+        "doc_1cf04303b61f633d:scheme1e_literature",
+        "doc_1cf04303b61f633d:scheme1f_literature",
+        "doc_1cf04303b61f633d:scheme1g_general"
+      ],
+      "unresolved": [
+        "The cited prior-work panels were not expanded into complete molecule registries or experimental procedures.",
+        "Supporting Information is mentioned but was not supplied; no SI association was inferred."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left lower half, Table 1 main grid",
+          "finding": "All 18 optimization rows were read individually, including catalyst loading, reagent/tBuOH equivalents, temperature, NMR yield, isolated values in parentheses, and N.R./0-yield controls.",
+          "evidence_ids": ["doc_1cf04303b61f633d:page2:image"]
+        },
+        {
+          "region": "below Table 1, ligand drawings and footnotes a-i",
+          "finding": "PPh3 and L1-L3 additions, entry-14 KOtBu 23 mol%, no-base entry 12, 12 h silylation exception, NMR basis, and isolated-yield footnote were structured.",
+          "evidence_ids": ["doc_1cf04303b61f633d:page2:image"]
+        },
+        {
+          "region": "both text columns above/right of Table 1",
+          "finding": "Optimization discussion and Table 2 scope narrative were used as supporting context; repeated mentions were not counted as extra experiments.",
+          "evidence_ids": ["doc_1cf04303b61f633d:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_1cf04303b61f633d:table1_entry_01",
+        "doc_1cf04303b61f633d:table1_entry_02",
+        "doc_1cf04303b61f633d:table1_entry_03",
+        "doc_1cf04303b61f633d:table1_entry_04",
+        "doc_1cf04303b61f633d:table1_entry_05",
+        "doc_1cf04303b61f633d:table1_entry_06",
+        "doc_1cf04303b61f633d:table1_entry_07",
+        "doc_1cf04303b61f633d:table1_entry_08",
+        "doc_1cf04303b61f633d:table1_entry_09",
+        "doc_1cf04303b61f633d:table1_entry_10",
+        "doc_1cf04303b61f633d:table1_entry_11",
+        "doc_1cf04303b61f633d:table1_entry_12",
+        "doc_1cf04303b61f633d:table1_entry_13",
+        "doc_1cf04303b61f633d:table1_entry_14",
+        "doc_1cf04303b61f633d:table1_entry_15",
+        "doc_1cf04303b61f633d:table1_entry_16",
+        "doc_1cf04303b61f633d:table1_entry_17",
+        "doc_1cf04303b61f633d:table1_entry_18"
+      ],
+      "unresolved": [
+        "No product detection limit is reported for entries 11-12 (N.R.) or entry 16 (0% yield).",
+        "Complete structures/stereochemical assignments of ligands L1-L3 were not encoded from the dense drawings."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left upper half, Table 2 products and footnotes",
+          "finding": "Eighteen scope products were inventoried. 4a and 5a match Table 1 entries 9 and 18 and were linked as repeated evidence; the other 16 are separate scope experiments. Product-specific time, temperature, Cu loading, reagent, yield, and dr footnotes were retained.",
+          "evidence_ids": ["doc_1cf04303b61f633d:page3:image"]
+        },
+        {
+          "region": "left lower half, Table 3 equations and three diboron drawings",
+          "finding": "Three independent diboron/oxidation experiments were recorded, with alcohol 8 yields 71%, 43%, and 55%; unstable intermediate 7 was not misrepresented as a separately isolated synthesis.",
+          "evidence_ids": ["doc_1cf04303b61f633d:page3:image"]
+        },
+        {
+          "region": "right lower half, Scheme 2 equations 1-5",
+          "finding": "Two gram-scale reactions and three derivatization experiments were recorded; low-temperature stages, timed holds, warming, reagent equivalents, product yields, Z/E and dr results were separated.",
+          "evidence_ids": ["doc_1cf04303b61f633d:page3:image"]
+        },
+        {
+          "region": "right upper text and mechanism discussion beginning",
+          "finding": "Scale-up/derivatization prose supports Scheme 2. The following catalytic-cycle discussion is author interpretation, not a new mechanistic experiment.",
+          "evidence_ids": ["doc_1cf04303b61f633d:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_1cf04303b61f633d:table1_entry_09",
+        "doc_1cf04303b61f633d:table1_entry_18",
+        "doc_1cf04303b61f633d:table2_4b",
+        "doc_1cf04303b61f633d:table2_4c",
+        "doc_1cf04303b61f633d:table2_4d",
+        "doc_1cf04303b61f633d:table2_4e",
+        "doc_1cf04303b61f633d:table2_4f",
+        "doc_1cf04303b61f633d:table2_4g",
+        "doc_1cf04303b61f633d:table2_4i",
+        "doc_1cf04303b61f633d:table2_4j",
+        "doc_1cf04303b61f633d:table2_6",
+        "doc_1cf04303b61f633d:table2_5b",
+        "doc_1cf04303b61f633d:table2_5c",
+        "doc_1cf04303b61f633d:table2_5e",
+        "doc_1cf04303b61f633d:table2_5f",
+        "doc_1cf04303b61f633d:table2_5h",
+        "doc_1cf04303b61f633d:table2_5i",
+        "doc_1cf04303b61f633d:table2_5j",
+        "doc_1cf04303b61f633d:table3_diboron_1",
+        "doc_1cf04303b61f633d:table3_diboron_2",
+        "doc_1cf04303b61f633d:table3_diboron_3",
+        "doc_1cf04303b61f633d:scheme2_scaleup_boryl",
+        "doc_1cf04303b61f633d:scheme2_scaleup_silyl",
+        "doc_1cf04303b61f633d:scheme2_homologation",
+        "doc_1cf04303b61f633d:scheme2_5a_to_11",
+        "doc_1cf04303b61f633d:scheme2_4i_to_12"
+      ],
+      "unresolved": [
+        "Yield measurement basis is not stated for most Table 2/Table 3/ Scheme 2 outcomes; null/missing is preserved rather than assuming isolated yield.",
+        "Complex dense scope structures retain labels and image evidence where a complete stereochemically faithful SMILES could not be safely transcribed.",
+        "Table 3 does not assign a specific CuI loading within 5-10 mol% to each reagent and does not report oxidation time.",
+        "Scheme 2 eq. 3 prints 2 h for the -78 °C-to-room-temperature program without separately assigning ramp and hold times; eq. 5 gives no time for the final warming stage."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left Scheme 3",
+          "finding": "Author-proposed Cu-Y catalytic cycle with intermediates I-III; stored as proposed_mechanism, not as an observed mechanistic experiment.",
+          "evidence_ids": ["doc_1cf04303b61f633d:page4:image"]
+        },
+        {
+          "region": "left-column discussion/conclusion and remaining page",
+          "finding": "Mechanistic rationale, conclusion, acknowledgements, conflict statement, keywords, and references; no new synthesis experiment identified.",
+          "evidence_ids": ["doc_1cf04303b61f633d:page4:image"]
+        }
+      ],
+      "record_ids": ["doc_1cf04303b61f633d:scheme3_proposed_mechanism"],
+      "unresolved": ["The proposed intermediates and LUMO-based regioselectivity explanation are not direct experimental proof in the supplied pages."]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "both columns and manuscript-date block",
+          "finding": "References 11-22 and manuscript received/revised/accepted dates only; no reaction arrow, table row, present-paper synthesis, or standalone characterization table was identified.",
+          "evidence_ids": ["doc_1cf04303b61f633d:page5:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

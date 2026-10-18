@@ -1,0 +1,2343 @@
+{
+  "reaction_id": "doc_ca1481599a4b0f91:rxn_3_butynoic_acid_synthesis",
+  "document_id": "doc_ca1481599a4b0f91",
+  "record_type": "specific_experiment",
+  "experiment_categories": {
+    "raw_value": [
+      "other"
+    ],
+    "normalized_value": [
+      "other"
+    ],
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_ca1481599a4b0f91:page9:text",
+      "doc_ca1481599a4b0f91:page9:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "location": {
+    "raw_value": {
+      "page": 9,
+      "section": "Methods—Synthesis of 3-butynoic acid"
+    },
+    "normalized_value": {
+      "page": 9,
+      "section": "Methods—Synthesis of 3-butynoic acid"
+    },
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_ca1481599a4b0f91:page9:text",
+      "doc_ca1481599a4b0f91:page9:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "general_scheme_ids": [],
+  "reaction_name": {
+    "raw_value": "Synthesis of 3-butynoic acid",
+    "normalized_value": "Synthesis of 3-butynoic acid",
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_ca1481599a4b0f91:page9:text",
+      "doc_ca1481599a4b0f91:page9:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "transformation_type": {
+    "raw_value": "oxidation of 3-butyn-1-ol to 3-butynoic acid",
+    "normalized_value": "oxidation of 3-butyn-1-ol to 3-butynoic acid",
+    "acquisition_method": "inference",
+    "evidence_ids": [
+      "doc_ca1481599a4b0f91:page9:text",
+      "doc_ca1481599a4b0f91:page9:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "inferred",
+    "derivation": "Transformation label summarizes the source-described reaction.",
+    "alternatives": []
+  },
+  "participants": [
+    {
+      "participant_id": "water_initial",
+      "molecule_id": "doc_ca1481599a4b0f91:mol_water",
+      "role": "solvent",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": "deionized water (135 mL)",
+          "normalized_value": {
+            "number": 135,
+            "unit": "mL"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "nitric_acid",
+      "molecule_id": "doc_ca1481599a4b0f91:mol_nitric_acid",
+      "role": "reagent",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": "2.5 mmol",
+          "normalized_value": {
+            "number": 2.5,
+            "unit": "mmol"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": "70% HNO3 (0.170 mL)",
+          "normalized_value": {
+            "number": 0.17,
+            "unit": "mL"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": "0.05 eq.",
+          "normalized_value": {
+            "number": 0.05,
+            "unit": "equiv"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "relative to 3-butyn-1-ol",
+        "normalized_value": "doc_ca1481599a4b0f91:mol_3_butyn_1_ol",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "sodium_dichromate",
+      "molecule_id": "doc_ca1481599a4b0f91:mol_sodium_dichromate_dihydrate",
+      "role": "reagent",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": "0.15 g",
+          "normalized_value": {
+            "number": 0.15,
+            "unit": "g"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": "0.5 mmol",
+          "normalized_value": {
+            "number": 0.5,
+            "unit": "mmol"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": "0.01 eq.",
+          "normalized_value": {
+            "number": 0.01,
+            "unit": "equiv"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "relative to 3-butyn-1-ol",
+        "normalized_value": "doc_ca1481599a4b0f91:mol_3_butyn_1_ol",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "sodium_periodate",
+      "molecule_id": "doc_ca1481599a4b0f91:mol_sodium_periodate",
+      "role": "reagent",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": "34.2 g",
+          "normalized_value": {
+            "number": 34.2,
+            "unit": "g"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": "160 mmol",
+          "normalized_value": {
+            "number": 160,
+            "unit": "mmol"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": "3.2 eq.",
+          "normalized_value": {
+            "number": 3.2,
+            "unit": "equiv"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "relative to 3-butyn-1-ol",
+        "normalized_value": "doc_ca1481599a4b0f91:mol_3_butyn_1_ol",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "butynol",
+      "molecule_id": "doc_ca1481599a4b0f91:mol_3_butyn_1_ol",
+      "role": "reactant",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": "3.50 g",
+          "normalized_value": {
+            "number": 3.5,
+            "unit": "g"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": "50 mmol",
+          "normalized_value": {
+            "number": 50,
+            "unit": "mmol"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": "1 eq.",
+          "normalized_value": {
+            "number": 1,
+            "unit": "equiv"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "3-butyn-1-ol reference",
+        "normalized_value": "doc_ca1481599a4b0f91:mol_3_butyn_1_ol",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "water_alcohol_solution",
+      "molecule_id": "doc_ca1481599a4b0f91:mol_water",
+      "role": "solvent",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": "chilled deionized water (135 mL)",
+          "normalized_value": {
+            "number": 135,
+            "unit": "mL"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "diethyl_ether",
+      "molecule_id": "doc_ca1481599a4b0f91:mol_diethyl_ether",
+      "role": "workup_agent",
+      "stage": "workup",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": "diethyl ether (80 mL × 5)",
+          "normalized_value": {
+            "number": 400,
+            "unit": "mL",
+            "raw_text": "80 mL × 5"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "magnesium_sulfate",
+      "molecule_id": "doc_ca1481599a4b0f91:mol_magnesium_sulfate",
+      "role": "workup_agent",
+      "stage": "workup",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "pentane_wash",
+      "molecule_id": "doc_ca1481599a4b0f91:mol_pentane",
+      "role": "purification_agent",
+      "stage": "purification",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": "pentane (200 mL × 3)",
+          "normalized_value": {
+            "number": 600,
+            "unit": "mL",
+            "raw_text": "200 mL × 3"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "acid_product",
+      "molecule_id": "doc_ca1481599a4b0f91:mol_3_butynoic_acid",
+      "role": "product",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": "main product",
+        "normalized_value": "main product",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_ca1481599a4b0f91:page9:text",
+            "doc_ca1481599a4b0f91:page9:image"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "reaction_scale": {
+    "raw_value": "3-butyn-1-ol: 50 mmol",
+    "normalized_value": {
+      "reference_molecule_id": "doc_ca1481599a4b0f91:mol_3_butyn_1_ol",
+      "amount": {
+        "number": 50,
+        "unit": "mmol"
+      }
+    },
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_ca1481599a4b0f91:page9:text",
+      "doc_ca1481599a4b0f91:page9:image"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "solvent_conditions": {
+    "composition": {
+      "raw_value": "135 mL deionized water in the flask; 3-butyn-1-ol diluted with a separate 135 mL chilled deionized water",
+      "normalized_value": [
+        {
+          "molecule_id": "doc_ca1481599a4b0f91:mol_water",
+          "volume": {
+            "number": 135,
+            "unit": "mL"
+          },
+          "use": "initial charge"
+        },
+        {
+          "molecule_id": "doc_ca1481599a4b0f91:mol_water",
+          "volume": {
+            "number": 135,
+            "unit": "mL"
+          },
+          "use": "alcohol solution"
+        }
+      ],
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "mixture_ratio": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "total_volume": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "concentration": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "concentration_basis": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "steps": [
+    {
+      "step_id": "acid_s1_charge_water_oxidants",
+      "stage": "reaction",
+      "participant_ids": [
+        "water_initial",
+        "nitric_acid",
+        "sodium_dichromate",
+        "sodium_periodate"
+      ],
+      "operation": {
+        "raw_value": "Charge water, 70% nitric acid, sodium dichromate dihydrate and sodium periodate; stir vigorously on an ice bath.",
+        "normalized_value": "Charge water, 70% nitric acid, sodium dichromate dihydrate and sodium periodate; stir vigorously on an ice bath.",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": "ice bath",
+        "normalized_value": "ice bath",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": "15 min",
+        "normalized_value": {
+          "number": 15,
+          "unit": "min"
+        },
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "step_id": "acid_s2_prepare_alcohol_solution",
+      "stage": "reaction",
+      "participant_ids": [
+        "butynol",
+        "water_alcohol_solution"
+      ],
+      "operation": {
+        "raw_value": "Dilute 3-butyn-1-ol with chilled deionized water.",
+        "normalized_value": "Dilute 3-butyn-1-ol with chilled deionized water.",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "step_id": "acid_s3_slow_addition",
+      "stage": "reaction",
+      "participant_ids": [
+        "butynol",
+        "water_alcohol_solution",
+        "nitric_acid",
+        "sodium_dichromate",
+        "sodium_periodate"
+      ],
+      "operation": {
+        "raw_value": "Add the chilled 3-butyn-1-ol solution slowly to the oxidant mixture.",
+        "normalized_value": "Add the chilled 3-butyn-1-ol solution slowly to the oxidant mixture.",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "step_id": "acid_s4_overnight_stir",
+      "stage": "reaction",
+      "participant_ids": [
+        "butynol",
+        "nitric_acid",
+        "sodium_dichromate",
+        "sodium_periodate",
+        "acid_product"
+      ],
+      "operation": {
+        "raw_value": "Stir the reaction mixture overnight.",
+        "normalized_value": "Stir the reaction mixture overnight.",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": "overnight",
+        "normalized_value": "overnight",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "step_id": "acid_s5_filter",
+      "stage": "workup",
+      "participant_ids": [
+        "acid_product"
+      ],
+      "operation": {
+        "raw_value": "Filter the reaction mixture to remove insoluble salts.",
+        "normalized_value": "Filter the reaction mixture to remove insoluble salts.",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "step_id": "acid_s6_extract",
+      "stage": "workup",
+      "participant_ids": [
+        "acid_product",
+        "diethyl_ether"
+      ],
+      "operation": {
+        "raw_value": "Extract the product from the aqueous phase with diethyl ether five times (80 mL each).",
+        "normalized_value": "Extract the product from the aqueous phase with diethyl ether five times (80 mL each).",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "step_id": "acid_s7_dry_concentrate",
+      "stage": "workup",
+      "participant_ids": [
+        "acid_product",
+        "magnesium_sulfate"
+      ],
+      "operation": {
+        "raw_value": "Combine the organic fractions, dry over anhydrous magnesium sulfate and concentrate by rotary evaporation to an orange viscous liquid.",
+        "normalized_value": "Combine the organic fractions, dry over anhydrous magnesium sulfate and concentrate by rotary evaporation to an orange viscous liquid.",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "step_id": "acid_s8_pentane_wash",
+      "stage": "purification",
+      "participant_ids": [
+        "acid_product",
+        "pentane_wash"
+      ],
+      "operation": {
+        "raw_value": "Wash with pentane three times (200 mL each) and concentrate again by rotary evaporation to obtain an off-white solid.",
+        "normalized_value": "Wash with pentane three times (200 mL each) and concentrate again by rotary evaporation to obtain an off-white solid.",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "special_conditions": {
+    "light_source": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "wavelength": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "power": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "current": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "voltage": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "electrodes": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "flow_parameters": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "reactor": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "procedure": {
+    "original_text": {
+      "raw_value": "Deionized water (135 mL) ... 70% HNO3 (0.170 mL, 0.05 eq., 2.5 mmol), Na2Cr2O7·2H2O (0.15 g, 0.01 eq., 0.5 mmol), and NaIO4 (34.2 g, 3.2 eq., 160 mmol) ... ice bath for 15 min. 3-Butyn-1-ol (3.50 g, 1 eq., 50 mmol) ... chilled deionized water (135 mL), added slowly, and stirred overnight ... diethyl ether (80 mL × 5) ... magnesium sulfate ... pentane (200 mL × 3) ... 3-butynoic acid (2.19 g, 52% yield).",
+      "normalized_value": "See ordered charges, reaction, workup and purification steps.",
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "general_procedure_reference": {
+      "raw_value": "following a previously reported procedure, with modification (reference 36)",
+      "normalized_value": "modified literature procedure; exact modifications not enumerated",
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "modifications": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "addition_order": {
+      "raw_value": "Water; HNO3; Na2Cr2O7·2H2O; NaIO4; then slow addition of chilled aqueous 3-butyn-1-ol.",
+      "normalized_value": [
+        "water",
+        "HNO3",
+        "Na2Cr2O7·2H2O",
+        "NaIO4",
+        "aqueous 3-butyn-1-ol"
+      ],
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "pretreatment": {
+      "raw_value": "500 mL single-neck round-bottom flask fitted with magnetic stirrer bar",
+      "normalized_value": "500 mL single-neck round-bottom flask with stir bar",
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "outcomes": [
+    {
+      "outcome_id": "acid_product_mass",
+      "kind": "product_amount",
+      "target_molecule_ids": [
+        "doc_ca1481599a4b0f91:mol_3_butynoic_acid"
+      ],
+      "product_role": {
+        "raw_value": "main product",
+        "normalized_value": "main product",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "value": {
+        "raw_value": "2.19 g",
+        "normalized_value": {
+          "number": 2.19,
+          "unit": "g"
+        },
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "yield_type": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "measurement_basis": {
+        "raw_value": "mass of off-white solid after pentane washing and rotary evaporation",
+        "normalized_value": "mass of off-white solid after pentane washing and rotary evaporation",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "scope": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "outcome_id": "acid_reported_yield",
+      "kind": "yield",
+      "target_molecule_ids": [
+        "doc_ca1481599a4b0f91:mol_3_butynoic_acid"
+      ],
+      "product_role": {
+        "raw_value": "main product",
+        "normalized_value": "main product",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "value": {
+        "raw_value": "52% yield",
+        "normalized_value": {
+          "number": 52,
+          "unit": "%"
+        },
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "yield_type": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "measurement_basis": {
+        "raw_value": "reported alongside 2.19 g purified product; calculation method not stated",
+        "normalized_value": "reported alongside 2.19 g purified product; calculation method not stated",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "scope": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "classification": {
+    "standard_id": "bond-formation-20261016",
+    "mapped_reaction_smiles": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "bond_changes": [
+      {
+        "raw_value": {
+          "source_transformation": "oxidation of 3-butyn-1-ol to 3-butynoic acid"
+        },
+        "normalized_value": {
+          "change_id": "b1",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "O"
+            }
+          ],
+          "before_order": 1,
+          "after_order": 2,
+          "change_type": "order_increased"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Net primary-alcohol oxidation is structure-derived from the named substrate and product. Oxygen sources, oxidant reduction products and complete atom mapping are unresolved.",
+        "alternatives": []
+      },
+      {
+        "raw_value": {
+          "source_transformation": "oxidation of 3-butyn-1-ol to 3-butynoic acid"
+        },
+        "normalized_value": {
+          "change_id": "b2",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "O"
+            }
+          ],
+          "before_order": 0,
+          "after_order": 1,
+          "change_type": "formed"
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Net primary-alcohol oxidation is structure-derived from the named substrate and product. Oxygen sources, oxidant reduction products and complete atom mapping are unresolved.",
+        "alternatives": []
+      },
+      {
+        "raw_value": {
+          "source_transformation": "oxidation of 3-butyn-1-ol to 3-butynoic acid"
+        },
+        "normalized_value": {
+          "change_id": "b3",
+          "atoms": [
+            {
+              "atom_map": null,
+              "element": "C"
+            },
+            {
+              "atom_map": null,
+              "element": "H"
+            }
+          ],
+          "before_order": 1,
+          "after_order": 0,
+          "change_type": "hydrogen_loss",
+          "hydrogen_count": 2
+        },
+        "acquisition_method": "structure_derivation",
+        "evidence_ids": [
+          "doc_ca1481599a4b0f91:page9:text",
+          "doc_ca1481599a4b0f91:page9:image"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Net primary-alcohol oxidation is structure-derived from the named substrate and product. Oxygen sources, oxidant reduction products and complete atom mapping are unresolved.",
+        "alternatives": []
+      }
+    ],
+    "labels": {
+      "raw_value": {
+        "taxonomy_basis": "Net primary-alcohol oxidation is structure-derived from the named substrate and product. Oxygen sources, oxidant reduction products and complete atom mapping are unresolved."
+      },
+      "normalized_value": [
+        {
+          "category_number": 14,
+          "code": "DB-C-O",
+          "supporting_change_ids": [
+            "b1"
+          ]
+        },
+        {
+          "category_number": 3,
+          "code": "C-O",
+          "supporting_change_ids": [
+            "b2"
+          ]
+        }
+      ],
+      "acquisition_method": "structure_derivation",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "inferred",
+      "derivation": "Net primary-alcohol oxidation is structure-derived from the named substrate and product. Oxygen sources, oxidant reduction products and complete atom mapping are unresolved.",
+      "alternatives": []
+    },
+    "coverage": {
+      "raw_value": {
+        "basis": "Net primary-alcohol oxidation is structure-derived from the named substrate and product. Oxygen sources, oxidant reduction products and complete atom mapping are unresolved."
+      },
+      "normalized_value": "partial",
+      "acquisition_method": "inference",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "inferred",
+      "derivation": "Net primary-alcohol oxidation is structure-derived from the named substrate and product. Oxygen sources, oxidant reduction products and complete atom mapping are unresolved.",
+      "alternatives": []
+    },
+    "limitations": [
+      "Net primary-alcohol oxidation is structure-derived from the named substrate and product. Oxygen sources, oxidant reduction products and complete atom mapping are unresolved."
+    ],
+    "model_votes": []
+  },
+  "notes": [
+    {
+      "raw_value": "The source does not state whether the ice bath was maintained during slow addition or the overnight hold.",
+      "normalized_value": "Temperature after the initial 15 min ice-bath period is unreported.",
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    {
+      "raw_value": "The source reports '52% yield' after purification but does not explicitly label the yield as isolated or specify a measurement method.",
+      "normalized_value": "Yield type remains unreported; product mass and operational purification basis are retained separately.",
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_ca1481599a4b0f91:page9:text",
+        "doc_ca1481599a4b0f91:page9:image"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    }
+  ],
+  "evidence_ids": [
+    "doc_ca1481599a4b0f91:page9:text",
+    "doc_ca1481599a4b0f91:page9:image"
+  ],
+  "review": {
+    "status": "needs_review",
+    "method": "model",
+    "reviewer": null,
+    "checked_fields": [],
+    "unresolved": [
+      "Temperature during the slow addition and overnight reaction is not reported.",
+      "Yield type and calculation basis are not explicitly reported.",
+      "Complete atom mapping and oxidant-derived oxygen identity are unresolved; bond classification is partial.",
+      "Reference 36 is cited as the prior procedure, but its full experimental record is not imported as a current-paper experiment."
+    ]
+  },
+  "completeness": "partial"
+}

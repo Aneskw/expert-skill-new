@@ -1,0 +1,58 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "general_scheme": 1,
+    "optimization_entry": 8,
+    "substrate_scope_entry": 12,
+    "reported_experiment": 3,
+    "mechanism": 1
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_5d57d6fc4002ccdc"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_5d57d6fc4002ccdc:scheme2_low_temperature",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page3:text",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page3:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_5d57d6fc4002ccdc:scheme3_dbu_cyclization",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page3:text",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page3:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_5d57d6fc4002ccdc:scheme3_mgbr2_cyclization",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_5d57d6fc4002ccdc:page2:text",
+        "doc_5d57d6fc4002ccdc:page3:text",
+        "doc_5d57d6fc4002ccdc:page2:image",
+        "doc_5d57d6fc4002ccdc:page3:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for recovery; do not assume isolated yield",
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    }
+  ]
+}

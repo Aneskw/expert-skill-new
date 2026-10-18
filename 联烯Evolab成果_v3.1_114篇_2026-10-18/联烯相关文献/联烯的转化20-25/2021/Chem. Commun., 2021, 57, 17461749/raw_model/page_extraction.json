@@ -1,0 +1,58 @@
+{
+  "document_id": "doc_1a0071146ff7cf43",
+  "pages": {
+    "1": {
+      "regions": [
+        "title/abstract",
+        "introduction",
+        "Figure 1"
+      ],
+      "reaction_decision": "no current concrete experiment"
+    },
+    "2": {
+      "regions": [
+        "Scheme 1",
+        "Scheme 2",
+        "optimization prose"
+      ],
+      "inventory": {
+        "literature_examples": 3,
+        "generic_schemes": 1,
+        "scheme2_products": 36,
+        "explicit_failed_scope_mentions": 3
+      }
+    },
+    "3": {
+      "regions": [
+        "Table 1",
+        "Scheme 3",
+        "Scheme 4",
+        "mechanistic prose"
+      ],
+      "inventory": {
+        "table_rows": 26,
+        "scheme3_products": 19,
+        "controls": 3
+      }
+    },
+    "4": {
+      "regions": [
+        "Scheme 5",
+        "mechanistic discussion",
+        "references"
+      ],
+      "inventory": {
+        "proposed_mechanisms": 1
+      }
+    }
+  },
+  "deduplication": [
+    "Table 1 entry 1 includes the page-2 initial 18% feasibility report.",
+    "Table 1 entry 25 and Scheme 2 product 3a are one experiment."
+  ],
+  "limitations": [
+    "No SI was supplied.",
+    "Compact structures are retained unresolved where safe full encoding was not achieved.",
+    "Scheme 3 temperature conflict is preserved."
+  ]
+}

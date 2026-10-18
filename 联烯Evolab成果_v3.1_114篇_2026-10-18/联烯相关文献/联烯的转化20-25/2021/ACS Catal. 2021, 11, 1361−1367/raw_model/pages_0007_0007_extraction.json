@@ -1,0 +1,47 @@
+{
+  "document_id": "doc_448eb03f81b6e3bb",
+  "pages": [
+    7
+  ],
+  "semantic_accuracy_verified": false,
+  "visual_review": {
+    "asset": "runs/current/assets/doc_448eb03f81b6e3bb/page7.jpg",
+    "regions": [
+      {
+        "region": "left column, references 9(j)-10(e)",
+        "finding": "Cited prior literature only; no experiment performed in the current article is displayed."
+      },
+      {
+        "region": "left column, footnote 11",
+        "finding": "Additional isoindigo formation observation for the existing Figure 4 experiment using allenoate 1b."
+      },
+      {
+        "region": "left column, footnote 12",
+        "finding": "Two distinct base-variation experiments for 4g, one with K2CO3 and one with Cs2CO3; each reports 5g at rr 4:1."
+      },
+      {
+        "region": "left column, footnote 13",
+        "finding": "5g absolute-configuration assignment by X-ray analysis and deposition CCDC 1970725; stereochemical evidence, not a new reaction."
+      },
+      {
+        "region": "lower left and upper right, references 14-18",
+        "finding": "Cited literature only; no current-paper experiment."
+      }
+    ]
+  },
+  "new_reaction_ids": [
+    "doc_448eb03f81b6e3bb:footnote12_4g_k2co3",
+    "doc_448eb03f81b6e3bb:footnote12_4g_cs2co3"
+  ],
+  "augmented_reaction_ids": [
+    "doc_448eb03f81b6e3bb:fig4_1b"
+  ],
+  "stereochemical_evidence_molecule_ids": [
+    "doc_448eb03f81b6e3bb:mol:5g"
+  ],
+  "limitations": [
+    "No Supporting Information was supplied or associated.",
+    "Footnote 12 omits base charges, reaction times, yield, ee, and rr measurement method.",
+    "Page 7 gives no structure drawing for isoindigo and no explicit R/S descriptors for 5g."
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "document_id": "doc_a996ed1ac1a2b8f0",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, authors, DOI, and ESI notice",
+          "finding": "Metadata and abstract; ESI is advertised but no SI file was supplied or associated.",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page1:text",
+            "doc_a996ed1ac1a2b8f0:page1:image"
+          ]
+        },
+        {
+          "region": "right-column current-work discussion and first standard-result paragraph",
+          "finding": "Current Fe/Cu chemodivergent transformation and the beginning of the 1a→3a standard experiment (81%); linked to the generic scheme and Table 1 entry 1 rather than duplicated.",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page1:text",
+            "doc_a996ed1ac1a2b8f0:page1:image"
+          ]
+        },
+        {
+          "region": "introduction and biological/method context",
+          "finding": "Background and cited methods; no additional current-paper concrete reaction arrow.",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page1:text",
+            "doc_a996ed1ac1a2b8f0:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a996ed1ac1a2b8f0:scheme1_current_generic",
+        "doc_a996ed1ac1a2b8f0:table1_entry1"
+      ],
+      "unresolved": [
+        "No supplied SI; experimental workup and purification details are unavailable."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1",
+          "finding": "One grouped cited prior-work family and one current two-branch generic Fe/Cu scheme.",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page2:text",
+            "doc_a996ed1ac1a2b8f0:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1 entries 1–13 and footnotes",
+          "finding": "Thirteen independent Fe-system optimization experiments; entry 1 duplicates Scheme 2 product 3a. Table/prose conflict retained for Co(acac)3 versus Co(acac)2 in entry 6.",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page2:text",
+            "doc_a996ed1ac1a2b8f0:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 2a substrate scope",
+          "finding": "Sixteen printed products 3a–3p; 3a merged with Table 1 entry 1, leaving fifteen additional scope records.",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page2:text",
+            "doc_a996ed1ac1a2b8f0:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 2b amplification reaction",
+          "finding": "One 4.0 mmol 1a scale-up giving 3a in 70% (0.69 g).",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page2:text",
+            "doc_a996ed1ac1a2b8f0:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a996ed1ac1a2b8f0:scheme1_prior_work",
+        "doc_a996ed1ac1a2b8f0:scheme1_current_generic",
+        "doc_a996ed1ac1a2b8f0:table1_entry1",
+        "doc_a996ed1ac1a2b8f0:table1_entry2",
+        "doc_a996ed1ac1a2b8f0:table1_entry3",
+        "doc_a996ed1ac1a2b8f0:table1_entry4",
+        "doc_a996ed1ac1a2b8f0:table1_entry5",
+        "doc_a996ed1ac1a2b8f0:table1_entry6",
+        "doc_a996ed1ac1a2b8f0:table1_entry7",
+        "doc_a996ed1ac1a2b8f0:table1_entry8",
+        "doc_a996ed1ac1a2b8f0:table1_entry9",
+        "doc_a996ed1ac1a2b8f0:table1_entry10",
+        "doc_a996ed1ac1a2b8f0:table1_entry11",
+        "doc_a996ed1ac1a2b8f0:table1_entry12",
+        "doc_a996ed1ac1a2b8f0:table1_entry13",
+        "doc_a996ed1ac1a2b8f0:scheme2_3b",
+        "doc_a996ed1ac1a2b8f0:scheme2_3c",
+        "doc_a996ed1ac1a2b8f0:scheme2_3d",
+        "doc_a996ed1ac1a2b8f0:scheme2_3e",
+        "doc_a996ed1ac1a2b8f0:scheme2_3f",
+        "doc_a996ed1ac1a2b8f0:scheme2_3g",
+        "doc_a996ed1ac1a2b8f0:scheme2_3h",
+        "doc_a996ed1ac1a2b8f0:scheme2_3i",
+        "doc_a996ed1ac1a2b8f0:scheme2_3j",
+        "doc_a996ed1ac1a2b8f0:scheme2_3k",
+        "doc_a996ed1ac1a2b8f0:scheme2_3l",
+        "doc_a996ed1ac1a2b8f0:scheme2_3m",
+        "doc_a996ed1ac1a2b8f0:scheme2_3n",
+        "doc_a996ed1ac1a2b8f0:scheme2_3o",
+        "doc_a996ed1ac1a2b8f0:scheme2_3p",
+        "doc_a996ed1ac1a2b8f0:scheme2_scale_up_3a"
+      ],
+      "unresolved": [
+        "Scheme 2 yields and the scale-up yield lack an explicit measurement basis.",
+        "Compact product structures and several internal-arene substrate positions remain unencoded."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 entries 1–7 and footnotes",
+          "finding": "Seven independent Cu-system optimization experiments, including two Trace and two NR results; entry 1 duplicates Scheme 3 product 4a.",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page3:text",
+            "doc_a996ed1ac1a2b8f0:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 3 substrate scope",
+          "finding": "Thirteen printed products 4a–4m; 4a merged with Table 2 entry 1, leaving twelve additional scope records.",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page3:text",
+            "doc_a996ed1ac1a2b8f0:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 4a control experiment",
+          "finding": "Two distinct TEMPO experiments: Fe system gives trace 3a, Cu system gives 4a in 79%.",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page3:text",
+            "doc_a996ed1ac1a2b8f0:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 4b and adjacent prose",
+          "finding": "Author-proposed Fe-H radical cycle for 3; mechanism record, not executed intermediate experiments.",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page3:text",
+            "doc_a996ed1ac1a2b8f0:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a996ed1ac1a2b8f0:table2_entry1",
+        "doc_a996ed1ac1a2b8f0:table2_entry2",
+        "doc_a996ed1ac1a2b8f0:table2_entry3",
+        "doc_a996ed1ac1a2b8f0:table2_entry4",
+        "doc_a996ed1ac1a2b8f0:table2_entry5",
+        "doc_a996ed1ac1a2b8f0:table2_entry6",
+        "doc_a996ed1ac1a2b8f0:table2_entry7",
+        "doc_a996ed1ac1a2b8f0:scheme3_4b",
+        "doc_a996ed1ac1a2b8f0:scheme3_4c",
+        "doc_a996ed1ac1a2b8f0:scheme3_4d",
+        "doc_a996ed1ac1a2b8f0:scheme3_4e",
+        "doc_a996ed1ac1a2b8f0:scheme3_4f",
+        "doc_a996ed1ac1a2b8f0:scheme3_4g",
+        "doc_a996ed1ac1a2b8f0:scheme3_4h",
+        "doc_a996ed1ac1a2b8f0:scheme3_4i",
+        "doc_a996ed1ac1a2b8f0:scheme3_4j",
+        "doc_a996ed1ac1a2b8f0:scheme3_4k",
+        "doc_a996ed1ac1a2b8f0:scheme3_4l",
+        "doc_a996ed1ac1a2b8f0:scheme3_4m",
+        "doc_a996ed1ac1a2b8f0:scheme4_tempo_fe",
+        "doc_a996ed1ac1a2b8f0:scheme4_tempo_cu",
+        "doc_a996ed1ac1a2b8f0:scheme4b_fe_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 3 and Scheme 4a yield measurement bases are not stated.",
+        "No absolute/relative stereochemical assignments, ee, er, or dr are reported for products on this page."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 5 and mechanism discussion",
+          "finding": "Author-proposed Cu-H cycle for formation of 4; no executed intermediate synthesis was created.",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page4:text",
+            "doc_a996ed1ac1a2b8f0:page4:image"
+          ]
+        },
+        {
+          "region": "conclusion, acknowledgements, conflict statement, and references",
+          "finding": "No additional current-paper synthesis experiment, optimization row, or reaction arrow.",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page4:text",
+            "doc_a996ed1ac1a2b8f0:page4:image"
+          ]
+        },
+        {
+          "region": "whole-page spectral inventory",
+          "finding": "No standalone mass-spectrum peak table, molecular-weight table, or fragment-relative-abundance block.",
+          "evidence_ids": [
+            "doc_a996ed1ac1a2b8f0:page4:text",
+            "doc_a996ed1ac1a2b8f0:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a996ed1ac1a2b8f0:scheme5_cu_mechanism"
+      ],
+      "unresolved": [
+        "Mechanistic intermediates A and D–F are proposed and not independently established on the supplied pages."
+      ]
+    }
+  ]
+}

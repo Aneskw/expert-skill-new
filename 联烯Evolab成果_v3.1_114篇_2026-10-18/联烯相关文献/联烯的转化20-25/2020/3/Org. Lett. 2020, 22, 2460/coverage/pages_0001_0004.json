@@ -1,0 +1,182 @@
+{
+  "document_id": "doc_923e441b37ab9296",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and graphical abstract at page top",
+          "finding": "Current-paper generic amine/phosphine-catalyzed [3+2] annulation; merged with the repeated schemes on pages 2-3 as one generic_scheme record.",
+          "evidence_ids": ["doc_923e441b37ab9296:page1:image"]
+        },
+        {
+          "region": "Figure 1 in lower-right column",
+          "finding": "Prior-work 3-butynoate/allenoate activation and boxed Loh 2010 asymmetric annulation. It is classified as literature_example, not a current-paper experiment.",
+          "evidence_ids": ["doc_923e441b37ab9296:page1:image"]
+        },
+        {
+          "region": "two-column introduction prose",
+          "finding": "Background and cited reaction classes only; no additional current-paper table row or independently quantified experiment.",
+          "evidence_ids": ["doc_923e441b37ab9296:page1:image", "doc_923e441b37ab9296:page1:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_923e441b37ab9296:general_annulation",
+        "doc_923e441b37ab9296:literature_loh_2010"
+      ],
+      "unresolved": [
+        "Figure 1 gives generic R groups and summary ranges only; exact cited-literature substrate identities and measurement bases are not supplied on this page."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 2, upper-left",
+          "finding": "Author's working hypothesis: amine-catalyzed 3-butynoate-to-allenoate isomerization followed by phosphine-mediated [3+2] annulation. Classified as proposed_mechanism, not as an experimentally proven pathway.",
+          "evidence_ids": ["doc_923e441b37ab9296:page2:image"]
+        },
+        {
+          "region": "Table 1 reaction drawing and catalyst structures, upper-right",
+          "finding": "Current reaction scheme, catalysts (R,R)-DIPAMP, 3a-3h, and NUSIOC-Phos, plus two-stage 12 h/12 h room-temperature operation. Dense catalyst structures were not forced into candidate SMILES.",
+          "evidence_ids": ["doc_923e441b37ab9296:page2:image"]
+        },
+        {
+          "region": "Table 1 entries 1-14 and footnotes a-h",
+          "finding": "Fourteen distinct optimization/control rows extracted. Entry 11 is the same optimized 4a experiment repeated on page 3 and is represented once with combined evidence. Entry 12 is trace product without Et3N; entry 13 is Et3N-only allenoate isomerization; entry 14 is one-pot and reports an additional unidentified diastereomer.",
+          "evidence_ids": ["doc_923e441b37ab9296:page2:image", "doc_923e441b37ab9296:page2:text"]
+        },
+        {
+          "region": "surrounding discussion below Table 1",
+          "finding": "Narrative evidence linked to the matching table rows, including the necessity controls and the unidentified additional diastereomer; no duplicate experiments created.",
+          "evidence_ids": ["doc_923e441b37ab9296:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_923e441b37ab9296:general_annulation",
+        "doc_923e441b37ab9296:proposed_binary_catalysis",
+        "doc_923e441b37ab9296:table1_entry01",
+        "doc_923e441b37ab9296:table1_entry02",
+        "doc_923e441b37ab9296:table1_entry03",
+        "doc_923e441b37ab9296:table1_entry04",
+        "doc_923e441b37ab9296:table1_entry05",
+        "doc_923e441b37ab9296:table1_entry06",
+        "doc_923e441b37ab9296:table1_entry07",
+        "doc_923e441b37ab9296:table1_entry08",
+        "doc_923e441b37ab9296:table1_entry09",
+        "doc_923e441b37ab9296:table1_entry10",
+        "doc_923e441b37ab9296:optimized_4a_shared",
+        "doc_923e441b37ab9296:table1_entry12",
+        "doc_923e441b37ab9296:table1_entry13",
+        "doc_923e441b37ab9296:table1_entry14"
+      ],
+      "unresolved": [
+        "The isolated-product identity for Table 1 entry 7 (dr 1:2) is not assigned on pages 1-4.",
+        "The two minor components in Table 1 entry 14's 11:1:2 dr are not structurally assigned.",
+        "Workup, purification, and full compound procedures require the unavailable SI."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 reaction drawing, entries 1-8, and footnotes",
+          "finding": "Eight base/solvent rows inventoried. Entry 1 is merged with Table 1 entry 11/Table 3 entry 1; entries 2-8 are independent optimization records. The DABCO row retains the 5:1:17 dr and the prose/table ambiguity about the unidentified major diastereomer and 14% isolated yield.",
+          "evidence_ids": ["doc_923e441b37ab9296:page3:image", "doc_923e441b37ab9296:page3:text"]
+        },
+        {
+          "region": "Table 3 reaction drawing, entries 1-20, and footnotes",
+          "finding": "All twenty scope rows inventoried. Entry 1 is the shared optimized 4a experiment; entries 2-20 are independent records for 4b-4t with yield, dr, and ee explicitly targeted and measurement bases separated.",
+          "evidence_ids": ["doc_923e441b37ab9296:page3:image", "doc_923e441b37ab9296:page3:text"]
+        },
+        {
+          "region": "right-column scope discussion and absolute-configuration statement",
+          "finding": "Product absolute configurations are reported as assigned by analogy to the X-ray structure of 4s. Because individual R/S descriptors are not printed in pages 1-4, product stereochemistry is retained as specified but not encoded.",
+          "evidence_ids": ["doc_923e441b37ab9296:page3:image"]
+        },
+        {
+          "region": "right-column 1H NMR isomerization paragraph",
+          "finding": "Actual mechanistic-study observation extracted: freshly prepared 1a contained 7.6% allenoate 1a′ and reached 83% at equilibrium around 12 h after Et3N addition.",
+          "evidence_ids": ["doc_923e441b37ab9296:page3:image", "doc_923e441b37ab9296:page3:text"]
+        },
+        {
+          "region": "Associated Content / Supporting Information notice",
+          "finding": "The article states SI availability, but no SI file was explicitly supplied in this session; the notice is source_context only and no SI association was inferred.",
+          "evidence_ids": ["doc_923e441b37ab9296:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_923e441b37ab9296:general_annulation",
+        "doc_923e441b37ab9296:optimized_4a_shared",
+        "doc_923e441b37ab9296:table2_entry02",
+        "doc_923e441b37ab9296:table2_entry03",
+        "doc_923e441b37ab9296:table2_entry04",
+        "doc_923e441b37ab9296:table2_entry05",
+        "doc_923e441b37ab9296:table2_entry06",
+        "doc_923e441b37ab9296:table2_entry07",
+        "doc_923e441b37ab9296:table2_entry08",
+        "doc_923e441b37ab9296:table3_entry02",
+        "doc_923e441b37ab9296:table3_entry03",
+        "doc_923e441b37ab9296:table3_entry04",
+        "doc_923e441b37ab9296:table3_entry05",
+        "doc_923e441b37ab9296:table3_entry06",
+        "doc_923e441b37ab9296:table3_entry07",
+        "doc_923e441b37ab9296:table3_entry08",
+        "doc_923e441b37ab9296:table3_entry09",
+        "doc_923e441b37ab9296:table3_entry10",
+        "doc_923e441b37ab9296:table3_entry11",
+        "doc_923e441b37ab9296:table3_entry12",
+        "doc_923e441b37ab9296:table3_entry13",
+        "doc_923e441b37ab9296:table3_entry14",
+        "doc_923e441b37ab9296:table3_entry15",
+        "doc_923e441b37ab9296:table3_entry16",
+        "doc_923e441b37ab9296:table3_entry17",
+        "doc_923e441b37ab9296:table3_entry18",
+        "doc_923e441b37ab9296:table3_entry19",
+        "doc_923e441b37ab9296:table3_entry20",
+        "doc_923e441b37ab9296:nmr_isomerization_study",
+        "doc_923e441b37ab9296:footnote16_nPr_trace",
+        "doc_923e441b37ab9296:footnote16_phenethyl_no_product"
+      ],
+      "unresolved": [
+        "Table 2 entry 3 does not unambiguously identify which diastereomer the 14% isolated-yield cell targets.",
+        "Compact Table 3 product drawings show wedges but do not print individual R/S descriptors; exact isomeric SMILES were not safely encoded.",
+        "The NMR study's quantities, solvent, temperature, and detailed protocol are deferred to SI and are absent from pages 1-4."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "author information, acknowledgments, and references 1-15",
+          "finding": "Bibliographic and administrative content only; cited papers were not converted into current-paper experiments.",
+          "evidence_ids": ["doc_923e441b37ab9296:page4:image", "doc_923e441b37ab9296:page4:text"]
+        },
+        {
+          "region": "reference footnote 16 in lower-right column",
+          "finding": "Two current-paper unsuccessful substrate tests extracted separately: n-Pr-substituted 3-butynoate gave trace product with 2a; phenethyl-substituted β-trifluoromethyl enone with 1a gave no desired annulation product.",
+          "evidence_ids": ["doc_923e441b37ab9296:page4:image", "doc_923e441b37ab9296:page4:text"]
+        },
+        {
+          "region": "reference footnotes 17-18",
+          "finding": "Footnote 17 is crystallographic-accession context. Footnote 18 points to preliminary SI studies with chalcones; because SI was not supplied, it was not converted into an experiment record.",
+          "evidence_ids": ["doc_923e441b37ab9296:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_923e441b37ab9296:footnote16_nPr_trace",
+        "doc_923e441b37ab9296:footnote16_phenethyl_no_product"
+      ],
+      "unresolved": [
+        "The trace n-Pr product has no structure, compound number, yield, or detection method on page 4.",
+        "The phenethyl-enone failure has no reported detection method, conversion, byproducts, or starting-material recovery.",
+        "No SI experiments were imported because SI was not explicitly provided."
+      ]
+    }
+  ]
+}

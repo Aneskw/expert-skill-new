@@ -1,0 +1,43 @@
+{
+  "counts": {
+    "molecules": 94,
+    "reactions": 54,
+    "specific_experiments": 51,
+    "source_context": 4,
+    "audit_warning_records": 19,
+    "audit_warning_messages_by_type": {
+      "measurement_basis": 2,
+      "structure_gap": 17
+    }
+  },
+  "checks": {
+    "dataset_standard_matches_standard_records": true,
+    "coverage_pages_exact": true,
+    "coverage_all_attempted": true,
+    "coverage_regions_nonempty": true,
+    "unique_reaction_ids": true,
+    "all_reactions_need_review": true,
+    "all_molecule_stereo_statuses_present": true,
+    "document_title_present": true,
+    "document_id_correct": true
+  },
+  "markdown_checks": {
+    "table1_entry7": {
+      "path": "runs/current/records/doc_1fb7cef55cdd0f91__table1_entry7.md",
+      "missing_tokens": []
+    },
+    "scheme3_gram_scale_4aa": {
+      "path": "runs/current/records/doc_1fb7cef55cdd0f91__scheme3_gram_scale_4aa.md",
+      "missing_tokens": []
+    },
+    "table2_entry1": {
+      "path": "runs/current/records/doc_1fb7cef55cdd0f91__table2_entry1.md",
+      "missing_tokens": []
+    },
+    "scheme5_parallel_resolution_af": {
+      "path": "runs/current/records/doc_1fb7cef55cdd0f91__scheme5_parallel_resolution_af.md",
+      "missing_tokens": []
+    }
+  },
+  "all_checks_pass": true
+}

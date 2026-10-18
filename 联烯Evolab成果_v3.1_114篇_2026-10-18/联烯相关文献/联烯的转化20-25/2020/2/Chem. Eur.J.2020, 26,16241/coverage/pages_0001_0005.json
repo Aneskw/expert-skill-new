@@ -1,0 +1,172 @@
+{
+  "document_id": "doc_949fbd90ad35f065",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, author block, abstract and introductory prose",
+          "finding": "The real article title and DOI were confirmed. The prose describes the current synthesis goals and cites earlier thailandepsin syntheses; citations are context, not current experiments.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page1:image", "doc_949fbd90ad35f065:page1:text"]
+        },
+        {
+          "region": "Figure 1",
+          "finding": "Structures of previously known thailandepsins A-F and FK228; retained as prior-work source context rather than current synthesis records.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page1:image", "doc_949fbd90ad35f065:page1:text"]
+        },
+        {
+          "region": "Scheme 1 and adjacent mechanism-of-action discussion",
+          "finding": "Literature-context reduction of a generic thailandepsin disulfide to the active thiol; recorded as a literature example, not a current-paper preparative experiment.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page1:image", "doc_949fbd90ad35f065:page1:text"]
+        }
+      ],
+      "record_ids": ["doc_949fbd90ad35f065:scheme1_literature_disulfide_reduction"],
+      "unresolved": ["Scheme 1 omits reducing agent, yield, and exact R/R' identities; classification is necessarily partial."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Schemes 2 and 3",
+          "finding": "Retrosynthetic disconnections for 8/9 and 10/11/12/13. They are generic planning relations and are not counted as specific preparative experiments.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page2:image", "doc_949fbd90ad35f065:page2:text"]
+        },
+        {
+          "region": "Scheme 4 first arrow and prose",
+          "finding": "Rhodium/Josiphos/PPTS-catalyzed hydroamination of benzophenone imine 14 and hepta-1,2-diene 15 to directly used adduct 16 at 80 °C for 18 h in 0.1 M DCE.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page2:image", "doc_949fbd90ad35f065:page2:text"]
+        },
+        {
+          "region": "Scheme 4 steps a-b",
+          "finding": "Separate Fmoc and Cbz protection branches give 17 (73%, 96% ee) and 18 (58%). The 0 °C-to-room-temperature program is split into a cold start and warming stage; the source gives only a combined 17 h.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page2:image", "doc_949fbd90ad35f065:page2:text"]
+        },
+        {
+          "region": "Scheme 4 steps c-e and accompanying prose",
+          "finding": "Fmoc/Cbz dihydroxylations are separate experiments (79%/91%); periodate cleavage plus chlorite oxidation are separate two-step sequences to 19/20 (70%/82%). Unnumbered diols are retained as unresolved intermediates.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page2:image", "doc_949fbd90ad35f065:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_949fbd90ad35f065:scheme2_retrosynthesis",
+        "doc_949fbd90ad35f065:scheme3_retrosynthesis",
+        "doc_949fbd90ad35f065:scheme4_hydroamination_14_15_to_16",
+        "doc_949fbd90ad35f065:scheme4_16_to_17",
+        "doc_949fbd90ad35f065:scheme4_16_to_18",
+        "doc_949fbd90ad35f065:scheme4_dihydroxylation_17",
+        "doc_949fbd90ad35f065:scheme4_dihydroxylation_18",
+        "doc_949fbd90ad35f065:scheme4_oxidative_cleavage_to_19",
+        "doc_949fbd90ad35f065:scheme4_oxidative_cleavage_to_20"
+      ],
+      "unresolved": ["No SI was supplied; most reagent charges, temperatures for c-e, yield measurement bases, and ee method are absent from the main text.", "Compact protected intermediates were not forced into complete stereochemical SMILES."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 5",
+          "finding": "Two specific arrows were recorded: EDCI/HOBt/NEt3 coupling of 19 and 21 to 22 (76%), then TFA/Et3SiH cleavage to 12 (81%).",
+          "evidence_ids": ["doc_949fbd90ad35f065:page3:image", "doc_949fbd90ad35f065:page3:text"]
+        },
+        {
+          "region": "Table 1 including footnotes",
+          "finding": "The 23-to-24 TBS protection in footnote a is one experiment. All five hydrooxycarbonylation optimization rows are independent records with time, catalyst/ligand loading, combined isolated yield and 1H-NMR d.r.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page3:image", "doc_949fbd90ad35f065:page3:text"]
+        },
+        {
+          "region": "Mosher assignment prose",
+          "finding": "For (R,R)-DIOP, the newly formed major allylic-ester center of 26 is assigned S by Mosher ester comparison. The source does not assign the minor diastereomer absolutely.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page3:image", "doc_949fbd90ad35f065:page3:text"]
+        },
+        {
+          "region": "Scheme 6 and prose",
+          "finding": "Steps a-c are one source-reported three-step sequence from 26 to 27 with 58% overall yield; steps d-f are separate Jones oxidation, Fmoc deprotection and macrolactamization records. The 58% was not relabeled as a step-c yield.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page3:image", "doc_949fbd90ad35f065:page3:text"]
+        },
+        {
+          "region": "Scheme 7 introductory prose continuing to page 4",
+          "finding": "The prose identifies the cross-metathesis/substitution sequences and states that no Z isomer was observed; the eight arrows and exact conditions are read from page 4 and linked to both pages.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page3:image", "doc_949fbd90ad35f065:page3:text", "doc_949fbd90ad35f065:page4:image", "doc_949fbd90ad35f065:page4:text"]
+        },
+        {
+          "region": "qualitative failed-method discussion",
+          "finding": "DMP/Pinnick oxidation attempts and in-situ macrolactamization are described only qualitatively; retained in source_context instead of inventing precise no-reaction protocols.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page3:image", "doc_949fbd90ad35f065:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_949fbd90ad35f065:scheme5_coupling_19_21_to_22",
+        "doc_949fbd90ad35f065:scheme5_deprotection_22_to_12",
+        "doc_949fbd90ad35f065:table1_footnote_statine_silylation",
+        "doc_949fbd90ad35f065:table1_entry_1",
+        "doc_949fbd90ad35f065:table1_entry_2",
+        "doc_949fbd90ad35f065:table1_entry_3",
+        "doc_949fbd90ad35f065:table1_entry_4",
+        "doc_949fbd90ad35f065:table1_entry_5",
+        "doc_949fbd90ad35f065:scheme6_26_to_27_three_step",
+        "doc_949fbd90ad35f065:scheme6_jones_27_to_10",
+        "doc_949fbd90ad35f065:scheme6_fmoc_deprotection_10",
+        "doc_949fbd90ad35f065:scheme6_macrolactamization_to_9",
+        "doc_949fbd90ad35f065:scheme7_a_9_to_28",
+        "doc_949fbd90ad35f065:scheme7_b_9_29_to_30",
+        "doc_949fbd90ad35f065:scheme7_c_30_to_31",
+        "doc_949fbd90ad35f065:scheme7_d_30_to_32",
+        "doc_949fbd90ad35f065:scheme7_e_32_to_33",
+        "doc_949fbd90ad35f065:scheme7_f_9_34_to_35",
+        "doc_949fbd90ad35f065:scheme7_g_35_to_36",
+        "doc_949fbd90ad35f065:scheme7_h_36_to_8"
+      ],
+      "unresolved": ["Most Scheme 5-7 yield measurement bases and detailed charges are not reported.", "DMP/Pinnick and in-situ macrolactamization failures lack enough detail for standalone concrete experiment records.", "Complex structures and minor-diastereomer assignments require expert/SI review."]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 7",
+          "finding": "All eight labeled arrows a-h were recorded separately. Cross-metathesis b/f retain 20 mol% Grubbs II and brsm yields; the remaining deprotections/substitution retain their individual times, temperatures and yields, including the missing yield for h.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page4:image", "doc_949fbd90ad35f065:page4:text"]
+        },
+        {
+          "region": "Table 2 and cellular-assay prose",
+          "finding": "HDAC inhibition, cell viability, cellular HDAC activity and Western blot results are biological observations, not synthesis or characterization-only synthetic records; retained in source_context.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page4:image", "doc_949fbd90ad35f065:page4:text"]
+        },
+        {
+          "region": "Experimental Section",
+          "finding": "Detailed procedure for Table 1 entry 2: charges, vacuum pretreatment, DCE volume/concentration, allene pretreatment/addition, 10 °C/48 h reaction, crude-NMR d.r., chromatography, product mass/amount/yield. It was merged into entry 2 rather than duplicated.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page4:image", "doc_949fbd90ad35f065:page4:text", "doc_949fbd90ad35f065:page3:image", "doc_949fbd90ad35f065:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_949fbd90ad35f065:table1_entry_2",
+        "doc_949fbd90ad35f065:scheme7_a_9_to_28",
+        "doc_949fbd90ad35f065:scheme7_b_9_29_to_30",
+        "doc_949fbd90ad35f065:scheme7_c_30_to_31",
+        "doc_949fbd90ad35f065:scheme7_d_30_to_32",
+        "doc_949fbd90ad35f065:scheme7_e_32_to_33",
+        "doc_949fbd90ad35f065:scheme7_f_9_34_to_35",
+        "doc_949fbd90ad35f065:scheme7_g_35_to_36",
+        "doc_949fbd90ad35f065:scheme7_h_36_to_8"
+      ],
+      "unresolved": ["Scheme 7 reagent charges and most yield measurement bases are absent; step h has no printed yield.", "No Z isomer was observed, but no E/Z ratio or analytical method is reported.", "Table 2 assay details defer to unavailable SI and were not used to infer an SI association."]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "acknowledgements, conflict statement, keywords, references and manuscript dates",
+          "finding": "No current-paper reaction arrow, experiment table, spectrum, molecular-weight table or fragment-abundance table occurs on this page. References are bibliography, not current experiments.",
+          "evidence_ids": ["doc_949fbd90ad35f065:page5:image", "doc_949fbd90ad35f065:page5:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["Reference 25 points to Supporting Information for Mosher details, but no SI file was provided or associated."]
+    }
+  ]
+}

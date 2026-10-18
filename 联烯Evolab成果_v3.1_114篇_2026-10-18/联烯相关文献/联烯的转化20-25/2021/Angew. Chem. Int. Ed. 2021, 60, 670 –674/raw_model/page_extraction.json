@@ -1,0 +1,80 @@
+{
+  "document_id": "doc_151fad1677f63120",
+  "source_pdf": "assets/doc_151fad1677f63120/source.pdf",
+  "pages_attempted": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "image_evidence_ids": [
+    "doc_151fad1677f63120:page1:image",
+    "doc_151fad1677f63120:page2:image",
+    "doc_151fad1677f63120:page3:image",
+    "doc_151fad1677f63120:page4:image",
+    "doc_151fad1677f63120:page5:image"
+  ],
+  "visual_crops": [
+    "raw_model/crops/page1_scheme1.jpg",
+    "raw_model/crops/page2_table1.jpg",
+    "raw_model/crops/page2_table2.jpg",
+    "raw_model/crops/page3_scheme2.jpg",
+    "raw_model/crops/page4_scheme3.jpg",
+    "raw_model/crops/page4_scheme4.jpg",
+    "raw_model/crops/page4_scheme5.jpg"
+  ],
+  "inventory": {
+    "page1": {
+      "table_rows": 0,
+      "concrete_arrows": 0,
+      "generic_or_prior_schemes": 2,
+      "decisions": [
+        "Table 1 entry 1 prose duplicate merged"
+      ]
+    },
+    "page2": {
+      "table1_rows": 13,
+      "table2_physical_rows": 5,
+      "table2_distinct_catalyst_experiments": 10
+    },
+    "page3": {
+      "scheme2_drawn_products": 18,
+      "new_scheme2_records": 17,
+      "duplicates": [
+        "2a = Table 1 entry 12"
+      ]
+    },
+    "page4": {
+      "scheme3_specific_records": 28,
+      "scheme4a_specific_records": 3,
+      "scheme4b_specific_records": 1,
+      "proposed_mechanisms": 1
+    },
+    "page5": {
+      "new_specific_records": 1,
+      "enriched_existing_records": 4,
+      "synthesis_arrows": 0
+    }
+  },
+  "deduplication": [
+    {
+      "source_locations": [
+        "Table 1 entry 12",
+        "Scheme 2 product 2a"
+      ],
+      "record_id": "doc_151fad1677f63120:table1_entry12",
+      "reason": "same displayed reagents, loadings, solvent, temperature, time, and 83% 2a outcome"
+    },
+    {
+      "source_locations": [
+        "page-1 initial-attempt prose",
+        "Table 1 entry 1"
+      ],
+      "record_id": "doc_151fad1677f63120:table1_entry1",
+      "reason": "same Pd(OAc)2/DCE initial experiment and 2a/5a yields"
+    }
+  ],
+  "semantic_accuracy_verified": false,
+  "chemical_accuracy_verified": false
+}

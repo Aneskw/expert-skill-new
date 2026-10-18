@@ -1,0 +1,250 @@
+{
+  "document_id": "doc_b91b082127244b8b",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract and bibliographic header",
+          "finding": "Current paper identity and transformation summary; no concrete experimental row.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page1:image",
+            "doc_b91b082127244b8b:page1:text"
+          ]
+        },
+        {
+          "region": "Figure 1",
+          "finding": "Core/natural-product structures and biological context only; non-synthetic source_context, not a reaction.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page1:image",
+            "doc_b91b082127244b8b:page1:text"
+          ]
+        },
+        {
+          "region": "introductory text and ESI/CCDC footnote",
+          "finding": "Prior literature discussion; CCDC 2075585 identifies 3aa structural evidence. ESI availability is stated, but no SI file was supplied or associated.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page1:image",
+            "doc_b91b082127244b8b:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b91b082127244b8b:table1_3aa_standard"
+      ],
+      "unresolved": [
+        "No SI was supplied; cited supporting procedures and crystallographic file were not inspected."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1, previous work Eqs. 1–2",
+          "finding": "Two literature examples, explicitly separated from this paper's experiments.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page2:image",
+            "doc_b91b082127244b8b:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 1, This work",
+          "finding": "Generic cascade-annulation scheme, recorded as generic_scheme rather than a specific experiment.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page2:image",
+            "doc_b91b082127244b8b:page2:text"
+          ]
+        },
+        {
+          "region": "left-column model-reaction and optimization prose",
+          "finding": "PPh3/30 mol% model experiment affords 3aa in 50%; optimal p-fluorophenylphosphine/PhCOOH conditions afford 3aa in 82% and >20:1 dr.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page2:image",
+            "doc_b91b082127244b8b:page2:text"
+          ]
+        },
+        {
+          "region": "Table 1 header, 29 displayed outcomes/condition variants and footnotes",
+          "finding": "All table entries inventoried individually; 3va standard and buffer are separate records, and 3wa is a negative outcome rather than an invented product experiment.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page2:image",
+            "doc_b91b082127244b8b:page2:text"
+          ]
+        },
+        {
+          "region": "right-column scope discussion",
+          "finding": "Text cross-checks substituent groups and yields; continuation occurs on page 3.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page2:image",
+            "doc_b91b082127244b8b:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b91b082127244b8b:scheme1_previous_eq1",
+        "doc_b91b082127244b8b:scheme1_previous_eq2",
+        "doc_b91b082127244b8b:scheme1_current_general",
+        "doc_b91b082127244b8b:optimization_pph3_3aa_50pct",
+        "doc_b91b082127244b8b:table1_3aa_standard",
+        "doc_b91b082127244b8b:table1_3ba_standard",
+        "doc_b91b082127244b8b:table1_3ca_standard",
+        "doc_b91b082127244b8b:table1_3da_standard",
+        "doc_b91b082127244b8b:table1_3ea_standard",
+        "doc_b91b082127244b8b:table1_3fa_standard",
+        "doc_b91b082127244b8b:table1_3ga_standard",
+        "doc_b91b082127244b8b:table1_3ha_standard",
+        "doc_b91b082127244b8b:table1_3ia_standard",
+        "doc_b91b082127244b8b:table1_3ja_standard",
+        "doc_b91b082127244b8b:table1_3ka_standard",
+        "doc_b91b082127244b8b:table1_3la_standard",
+        "doc_b91b082127244b8b:table1_3ma_standard",
+        "doc_b91b082127244b8b:table1_3na_standard",
+        "doc_b91b082127244b8b:table1_3oa_standard",
+        "doc_b91b082127244b8b:table1_3pa_standard",
+        "doc_b91b082127244b8b:table1_3qa_standard",
+        "doc_b91b082127244b8b:table1_3ra_standard",
+        "doc_b91b082127244b8b:table1_3sa_standard",
+        "doc_b91b082127244b8b:table1_3ta_standard",
+        "doc_b91b082127244b8b:table1_3ua_standard",
+        "doc_b91b082127244b8b:table1_3va_standard",
+        "doc_b91b082127244b8b:table1_3va_buffer",
+        "doc_b91b082127244b8b:table1_3wa_standard",
+        "doc_b91b082127244b8b:table1_3xa_standard",
+        "doc_b91b082127244b8b:table1_3ya_standard",
+        "doc_b91b082127244b8b:table1_3ab_standard",
+        "doc_b91b082127244b8b:table1_3ac_standard",
+        "doc_b91b082127244b8b:table1_3ad_standard"
+      ],
+      "unresolved": [
+        "Individual substrate charges and exact per-entry times (beyond shared 2–4 h) are not shown.",
+        "Concrete stereochemically complete SMILES are not asserted from compact scope drawings.",
+        "Table S1 and other SI-only optimization rows are unavailable."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top-left continuation of Table 1 discussion",
+          "finding": "Confirms 3sa/3ta/3ua, buffered 3va, failed 3wa, and 3xa/3ya/3ab–3ad outcomes.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page3:image",
+            "doc_b91b082127244b8b:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 2a gram-scale synthesis",
+          "finding": "Two scale-up experiments; 1a mass conflict retained (text 1.0 g vs scheme 1.26 g).",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page3:image",
+            "doc_b91b082127244b8b:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 2b transformation",
+          "finding": "3xa→4 one-pot hydrogenation/debenzylation/esterification and 4→5 Krapcho decarboxylation recorded separately.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page3:image",
+            "doc_b91b082127244b8b:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 3 control experiments Eqs. 1–3",
+          "finding": "Four negative controls recorded separately (6, 7a, 7b, 8); no product fabricated.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page3:image",
+            "doc_b91b082127244b8b:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 3 Eq. 4 deuterium labelling",
+          "finding": "d-3aa, 58%; C9 26% D, C15/C16 82% D; 1H NMR basis retained for D incorporation.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page3:image",
+            "doc_b91b082127244b8b:page3:text"
+          ]
+        },
+        {
+          "region": "Figure 2",
+          "finding": "Author-proposed catalytic cycle and naphthyl branch recorded as proposed_mechanism, not experimental proof.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page3:image",
+            "doc_b91b082127244b8b:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b91b082127244b8b:table1_3aa_standard",
+        "doc_b91b082127244b8b:table1_3sa_standard",
+        "doc_b91b082127244b8b:table1_3ta_standard",
+        "doc_b91b082127244b8b:table1_3ua_standard",
+        "doc_b91b082127244b8b:table1_3va_standard",
+        "doc_b91b082127244b8b:table1_3va_buffer",
+        "doc_b91b082127244b8b:table1_3wa_standard",
+        "doc_b91b082127244b8b:table1_3xa_standard",
+        "doc_b91b082127244b8b:table1_3ya_standard",
+        "doc_b91b082127244b8b:table1_3ab_standard",
+        "doc_b91b082127244b8b:table1_3ac_standard",
+        "doc_b91b082127244b8b:table1_3ad_standard",
+        "doc_b91b082127244b8b:scheme2a_gram_scale_3aa",
+        "doc_b91b082127244b8b:scheme2a_gram_scale_3xa",
+        "doc_b91b082127244b8b:scheme2b_3xa_to_4",
+        "doc_b91b082127244b8b:scheme2b_4_to_5",
+        "doc_b91b082127244b8b:scheme3_control_eq1_6",
+        "doc_b91b082127244b8b:scheme3_control_eq2_7a",
+        "doc_b91b082127244b8b:scheme3_control_eq2_7b",
+        "doc_b91b082127244b8b:scheme3_control_eq3_8",
+        "doc_b91b082127244b8b:scheme3_deuterium_label_d3aa",
+        "doc_b91b082127244b8b:figure2_main_mechanism",
+        "doc_b91b082127244b8b:figure2_naphthyl_branch"
+      ],
+      "unresolved": [
+        "Most procedures, workups, purification, times and yield measurement bases require unavailable SI.",
+        "Scale-up 1a mass conflict cannot be resolved from the supplied paper.",
+        "Mechanism intermediates are proposed and not independently verified."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "mechanism continuation, left column",
+          "finding": "Completes phosphine elimination/catalyst regeneration and describes separate naphthyl [1,5]-H-shift/o-quinone-methide proposal.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page4:image",
+            "doc_b91b082127244b8b:page4:text"
+          ]
+        },
+        {
+          "region": "conclusion",
+          "finding": "Author summary: three sigma bonds and three contiguous stereogenic centers; no new concrete experiment.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page4:image",
+            "doc_b91b082127244b8b:page4:text"
+          ]
+        },
+        {
+          "region": "references",
+          "finding": "Bibliography only; no current-paper experiment created.",
+          "evidence_ids": [
+            "doc_b91b082127244b8b:page4:image",
+            "doc_b91b082127244b8b:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b91b082127244b8b:figure2_main_mechanism",
+        "doc_b91b082127244b8b:figure2_naphthyl_branch",
+        "doc_b91b082127244b8b:table1_3ra_standard"
+      ],
+      "unresolved": [
+        "The energetic rationale for the naphthyl pathway is an author proposal, not a measured intermediate or barrier."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "document_id": "doc_25b2677dbb7fd376",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, authors, DOI, abstract and SI notice",
+          "finding": "Current-paper identity and scope were recorded. The page advertises online supporting information, but no SI file was supplied or associated.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page1:image", "doc_25b2677dbb7fd376:page1:text"]
+        },
+        {
+          "region": "Figure 1 and introduction",
+          "finding": "Figure 1 is biological-context artwork, not a synthesis experiment. Introductory prior-work prose contains no concrete current-paper experimental arrow on this page.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page1:image", "doc_25b2677dbb7fd376:page1:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["The advertised supporting information was not provided; it was not inferred or associated."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1a and 1b",
+          "finding": "Two cited prior-work reaction families were retained as literature_example records, not current experiments.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page2:image", "doc_25b2677dbb7fd376:page2:text"]
+        },
+        {
+          "region": "Scheme 1, This work",
+          "finding": "One current R-group generic three-component cyanoalkylsulfonylation was retained separately from concrete experiments.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page2:image", "doc_25b2677dbb7fd376:page2:text"]
+        },
+        {
+          "region": "Table 1 rows 1–18 and footnotes a–h",
+          "finding": "All 18 optimization rows were recorded independently. Trace, 0%, catalyst/solvent replacements, Na2S2O5, DABSO, 50 °C, 70 °C, 12 h and 24 h exceptions were preserved. Entry 18 was merged with the identical Scheme 2 3a report.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page2:image", "doc_25b2677dbb7fd376:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_25b2677dbb7fd376:scheme1a_prior_pd",
+        "doc_25b2677dbb7fd376:scheme1b_prior_cu",
+        "doc_25b2677dbb7fd376:scheme1_current_generic",
+        "doc_25b2677dbb7fd376:table1_entry1",
+        "doc_25b2677dbb7fd376:table1_entry2",
+        "doc_25b2677dbb7fd376:table1_entry3",
+        "doc_25b2677dbb7fd376:table1_entry4",
+        "doc_25b2677dbb7fd376:table1_entry5",
+        "doc_25b2677dbb7fd376:table1_entry6",
+        "doc_25b2677dbb7fd376:table1_entry7",
+        "doc_25b2677dbb7fd376:table1_entry8",
+        "doc_25b2677dbb7fd376:table1_entry9",
+        "doc_25b2677dbb7fd376:table1_entry10",
+        "doc_25b2677dbb7fd376:table1_entry11",
+        "doc_25b2677dbb7fd376:table1_entry12",
+        "doc_25b2677dbb7fd376:table1_entry13",
+        "doc_25b2677dbb7fd376:table1_entry14",
+        "doc_25b2677dbb7fd376:table1_entry15",
+        "doc_25b2677dbb7fd376:table1_entry16",
+        "doc_25b2677dbb7fd376:table1_entry17",
+        "doc_25b2677dbb7fd376:table1_entry18"
+      ],
+      "unresolved": ["Table 1 0% and trace rows do not report conversion, recovered starting material, byproducts, or detection limits."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2 header, products 3a–3o, caption and X-ray inset",
+          "finding": "All 15 printed outcomes were inventoried. The 3a outcome duplicates Table 1 entry 18 and was merged; 3b–3o are independent substrate-scope records. The 3c X-ray assignment and CCDC 2073119 were retained.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page3:image", "doc_25b2677dbb7fd376:page3:text"]
+        },
+        {
+          "region": "Scheme 3 header, products 4a–4m and unsuccessful substrates 2n/2o",
+          "finding": "Thirteen successful outcomes and two failed desired-product experiments were recorded separately. Every printed dr is a product-targeted selectivity outcome; unprinted dr values were not invented.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page3:image", "doc_25b2677dbb7fd376:page3:text"]
+        },
+        {
+          "region": "Scheme 4 arrows to 5a and 5b",
+          "finding": "Butanolysis/ring opening to 5a and Ritter conversion to 5b were retained as two derivatization experiments with separate temperatures and yields.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page3:image", "doc_25b2677dbb7fd376:page3:text"]
+        },
+        {
+          "region": "control-experiment discussion continuing to page 4",
+          "finding": "Prose identifies DPE, TEMPO and BHT suppression, GC-MS detection of 6, isolated 7/8, and the allenoate 9 control; records are linked to the Scheme 5 image on page 4.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page3:image", "doc_25b2677dbb7fd376:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_25b2677dbb7fd376:table1_entry18",
+        "doc_25b2677dbb7fd376:scheme2_3b", "doc_25b2677dbb7fd376:scheme2_3c", "doc_25b2677dbb7fd376:scheme2_3d", "doc_25b2677dbb7fd376:scheme2_3e", "doc_25b2677dbb7fd376:scheme2_3f", "doc_25b2677dbb7fd376:scheme2_3g", "doc_25b2677dbb7fd376:scheme2_3h", "doc_25b2677dbb7fd376:scheme2_3i", "doc_25b2677dbb7fd376:scheme2_3j", "doc_25b2677dbb7fd376:scheme2_3k", "doc_25b2677dbb7fd376:scheme2_3l", "doc_25b2677dbb7fd376:scheme2_3m", "doc_25b2677dbb7fd376:scheme2_3n", "doc_25b2677dbb7fd376:scheme2_3o",
+        "doc_25b2677dbb7fd376:scheme3_4a", "doc_25b2677dbb7fd376:scheme3_4b", "doc_25b2677dbb7fd376:scheme3_4c", "doc_25b2677dbb7fd376:scheme3_4d", "doc_25b2677dbb7fd376:scheme3_4e", "doc_25b2677dbb7fd376:scheme3_4f", "doc_25b2677dbb7fd376:scheme3_4g", "doc_25b2677dbb7fd376:scheme3_4h", "doc_25b2677dbb7fd376:scheme3_4i", "doc_25b2677dbb7fd376:scheme3_4j", "doc_25b2677dbb7fd376:scheme3_4k", "doc_25b2677dbb7fd376:scheme3_4l", "doc_25b2677dbb7fd376:scheme3_4m",
+        "doc_25b2677dbb7fd376:scheme3_2n_failed", "doc_25b2677dbb7fd376:scheme3_2o_failed",
+        "doc_25b2677dbb7fd376:scheme4_5a", "doc_25b2677dbb7fd376:scheme4_5b",
+        "doc_25b2677dbb7fd376:scheme5_tempo_control", "doc_25b2677dbb7fd376:scheme5_bht_control", "doc_25b2677dbb7fd376:scheme5_dpe_control", "doc_25b2677dbb7fd376:scheme5_allenoate9_control", "doc_25b2677dbb7fd376:scheme5_butenolide10_control"
+      ],
+      "unresolved": [
+        "Exact candidate graphs for most Scheme 2/3 members remain unresolved pending expert structure transcription.",
+        "Printed dr values lack diastereomer identities/order assignment and measurement method.",
+        "Scheme 4 does not report time, reagent charges, workup/purification, or yield measurement basis."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 5 experiments 1–4",
+          "finding": "TEMPO and BHT alternatives were split into separate controls; the drawn compound 6 was assigned only to TEMPO. DPE products 7 and 8, allenoate 9 and preformed butenolide 10 controls were recorded independently.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page4:image", "doc_25b2677dbb7fd376:page4:text"]
+        },
+        {
+          "region": "Scheme 6 and mechanism discussion",
+          "finding": "The A–E pathway was retained as one proposed_mechanism record, not expanded into executed experiments.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page4:image", "doc_25b2677dbb7fd376:page4:text"]
+        },
+        {
+          "region": "General Procedure for the Synthesis of Cyanoalkylsulfonylated Butenolides",
+          "finding": "Reaction charges, sealed-tube volume, temperature/time, dilution, wash, drying, concentration and column chromatography were structured in operation order and inherited only by matching scope experiments.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page4:image", "doc_25b2677dbb7fd376:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_25b2677dbb7fd376:table1_entry18",
+        "doc_25b2677dbb7fd376:scheme2_3b", "doc_25b2677dbb7fd376:scheme2_3c", "doc_25b2677dbb7fd376:scheme2_3d", "doc_25b2677dbb7fd376:scheme2_3e", "doc_25b2677dbb7fd376:scheme2_3f", "doc_25b2677dbb7fd376:scheme2_3g", "doc_25b2677dbb7fd376:scheme2_3h", "doc_25b2677dbb7fd376:scheme2_3i", "doc_25b2677dbb7fd376:scheme2_3j", "doc_25b2677dbb7fd376:scheme2_3k", "doc_25b2677dbb7fd376:scheme2_3l", "doc_25b2677dbb7fd376:scheme2_3m", "doc_25b2677dbb7fd376:scheme2_3n", "doc_25b2677dbb7fd376:scheme2_3o",
+        "doc_25b2677dbb7fd376:scheme3_4a", "doc_25b2677dbb7fd376:scheme3_4b", "doc_25b2677dbb7fd376:scheme3_4c", "doc_25b2677dbb7fd376:scheme3_4d", "doc_25b2677dbb7fd376:scheme3_4e", "doc_25b2677dbb7fd376:scheme3_4f", "doc_25b2677dbb7fd376:scheme3_4g", "doc_25b2677dbb7fd376:scheme3_4h", "doc_25b2677dbb7fd376:scheme3_4i", "doc_25b2677dbb7fd376:scheme3_4j", "doc_25b2677dbb7fd376:scheme3_4k", "doc_25b2677dbb7fd376:scheme3_4l", "doc_25b2677dbb7fd376:scheme3_4m",
+        "doc_25b2677dbb7fd376:scheme3_2n_failed", "doc_25b2677dbb7fd376:scheme3_2o_failed",
+        "doc_25b2677dbb7fd376:scheme5_tempo_control", "doc_25b2677dbb7fd376:scheme5_bht_control", "doc_25b2677dbb7fd376:scheme5_dpe_control", "doc_25b2677dbb7fd376:scheme5_allenoate9_control", "doc_25b2677dbb7fd376:scheme5_butenolide10_control",
+        "doc_25b2677dbb7fd376:scheme6_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 5 reports desired-product 0% without a measurement basis, conversion, recovery or byproduct inventory.",
+        "The combined radical-scavenger wording does not fully delimit compound 6 detection; its drawn TEMPO-adduct identity motivated conservative assignment only to TEMPO.",
+        "The general procedure gives no chromatography eluent or fraction details."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 3–17",
+          "finding": "Bibliographic references only; no current-paper reaction arrow, table, procedure, or standalone characterization block was found.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page5:image", "doc_25b2677dbb7fd376:page5:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 17–20 and CCDC notice",
+          "finding": "Bibliographic references and the CCDC 2073119 notice for 3c only; no synthesis experiment or reaction arrow was found.",
+          "evidence_ids": ["doc_25b2677dbb7fd376:page6:image", "doc_25b2677dbb7fd376:page6:text"]
+        }
+      ],
+      "record_ids": ["doc_25b2677dbb7fd376:scheme2_3c"],
+      "unresolved": ["External crystallographic files were not supplied and were not treated as associated source documents."]
+    }
+  ]
+}

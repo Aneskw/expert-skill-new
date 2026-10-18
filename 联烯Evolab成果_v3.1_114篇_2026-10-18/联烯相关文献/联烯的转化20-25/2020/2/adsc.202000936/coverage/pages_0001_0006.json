@@ -1,0 +1,141 @@
+{
+  "document_id": "doc_2abd3d7449bbf0b6",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, SI notice, and both introduction columns",
+          "finding": "True title/DOI and an explicit online-SI notice were read. The introduction discusses cited prior propargylations; no current-paper reaction arrow, table, or specific experimental row occurs on this page.",
+          "evidence_ids": ["doc_2abd3d7449bbf0b6:page1:image", "doc_2abd3d7449bbf0b6:page1:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["The article advertises SI, but no SI file was supplied or explicitly associated."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column Scheme 1 and surrounding discussion",
+          "finding": "One generic aldehyde propargylation arrow was recorded. Catalysts 4 and 5 are cited prior work and structures 6a-d carry predicted ee values, so those were retained as context rather than current-paper experiments.",
+          "evidence_ids": ["doc_2abd3d7449bbf0b6:page2:image", "doc_2abd3d7449bbf0b6:page2:text"]
+        },
+        {
+          "region": "right column Results and Discussion plus Scheme 2",
+          "finding": "Four generic catalyst-synthesis arrows were recorded separately. The prose-reported 11i-to-11c derivatization was retained as one partial specific experiment because all details are deferred to unavailable SI.",
+          "evidence_ids": ["doc_2abd3d7449bbf0b6:page2:image", "doc_2abd3d7449bbf0b6:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2abd3d7449bbf0b6:scheme1_general_propargylation",
+        "doc_2abd3d7449bbf0b6:scheme2_step1_8_to_9",
+        "doc_2abd3d7449bbf0b6:scheme2_step2_9_to_11",
+        "doc_2abd3d7449bbf0b6:scheme2_step3_11_to_12",
+        "doc_2abd3d7449bbf0b6:scheme2_step4_12_to_7",
+        "doc_2abd3d7449bbf0b6:prose_11i_to_11c"
+      ],
+      "unresolved": [
+        "Scheme 2 supplies no yields or full experimental conditions on this page.",
+        "The exact structures, reagents, conditions, yield, and bond changes for 11i to 11c are SI-only and remain unresolved."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column Table 1, reaction drawing, all 11 rows, and footnotes a-d",
+          "finding": "All 11 catalyst-screening rows were recorded as distinct optimization experiments, including trace conversion, two <=5% conversions, the not-determined ee, GC conversion basis, chiral-GC ee basis, and the explicit S assignment for entry 2.",
+          "evidence_ids": ["doc_2abd3d7449bbf0b6:page3:image", "doc_2abd3d7449bbf0b6:page3:text"]
+        },
+        {
+          "region": "right column Table 2, all 11 rows, and footnotes a-c",
+          "finding": "All 11 solvent-screening rows were recorded separately. The shared allenylsilane/base doses were explicitly inherited from the adjacent model reaction rather than re-labelled as directly printed in Table 2.",
+          "evidence_ids": ["doc_2abd3d7449bbf0b6:page3:image", "doc_2abd3d7449bbf0b6:page3:text"]
+        },
+        {
+          "region": "discussion below Tables 1 and 2",
+          "finding": "Narrative statements were associated with the matching table series and were not duplicated as new experiments.",
+          "evidence_ids": ["doc_2abd3d7449bbf0b6:page3:image", "doc_2abd3d7449bbf0b6:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2abd3d7449bbf0b6:table1_entry_01", "doc_2abd3d7449bbf0b6:table1_entry_02", "doc_2abd3d7449bbf0b6:table1_entry_03", "doc_2abd3d7449bbf0b6:table1_entry_04", "doc_2abd3d7449bbf0b6:table1_entry_05", "doc_2abd3d7449bbf0b6:table1_entry_06", "doc_2abd3d7449bbf0b6:table1_entry_07", "doc_2abd3d7449bbf0b6:table1_entry_08", "doc_2abd3d7449bbf0b6:table1_entry_09", "doc_2abd3d7449bbf0b6:table1_entry_10", "doc_2abd3d7449bbf0b6:table1_entry_11",
+        "doc_2abd3d7449bbf0b6:table2_entry_01", "doc_2abd3d7449bbf0b6:table2_entry_02", "doc_2abd3d7449bbf0b6:table2_entry_03", "doc_2abd3d7449bbf0b6:table2_entry_04", "doc_2abd3d7449bbf0b6:table2_entry_05", "doc_2abd3d7449bbf0b6:table2_entry_06", "doc_2abd3d7449bbf0b6:table2_entry_07", "doc_2abd3d7449bbf0b6:table2_entry_08", "doc_2abd3d7449bbf0b6:table2_entry_09", "doc_2abd3d7449bbf0b6:table2_entry_10", "doc_2abd3d7449bbf0b6:table2_entry_11"
+      ],
+      "unresolved": [
+        "No isolated yields are reported for Tables 1-2.",
+        "Except for Table 1 entry 2, the printed optimization tables do not explicitly assign the absolute configuration/order of the ee pair."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 3, all 14 rows, and footnotes a-c",
+          "finding": "All 14 loading/time optimization rows were recorded independently with their exact catalyst loading, time, conversion, and only the ee values actually printed. Temperature and atmosphere were paired with the reaction time in each structured step.",
+          "evidence_ids": ["doc_2abd3d7449bbf0b6:page4:image", "doc_2abd3d7449bbf0b6:page4:text"]
+        },
+        {
+          "region": "Figure 1 panels a-c and surrounding computational discussion",
+          "finding": "BP1-BP5 and TS-6a/TS-7a are computational stereochemical models and relative energies, not synthetic experiments; they were retained in source_context.",
+          "evidence_ids": ["doc_2abd3d7449bbf0b6:page4:image", "doc_2abd3d7449bbf0b6:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2abd3d7449bbf0b6:table3_entry_01", "doc_2abd3d7449bbf0b6:table3_entry_02", "doc_2abd3d7449bbf0b6:table3_entry_03", "doc_2abd3d7449bbf0b6:table3_entry_04", "doc_2abd3d7449bbf0b6:table3_entry_05", "doc_2abd3d7449bbf0b6:table3_entry_06", "doc_2abd3d7449bbf0b6:table3_entry_07", "doc_2abd3d7449bbf0b6:table3_entry_08", "doc_2abd3d7449bbf0b6:table3_entry_09", "doc_2abd3d7449bbf0b6:table3_entry_10", "doc_2abd3d7449bbf0b6:table3_entry_11", "doc_2abd3d7449bbf0b6:table3_entry_12", "doc_2abd3d7449bbf0b6:table3_entry_13", "doc_2abd3d7449bbf0b6:table3_entry_14"
+      ],
+      "unresolved": [
+        "Rows without a printed ee remain without an ee outcome; no value was inferred.",
+        "Model-reaction scale, solvent, and reagent doses are inherited from the explicitly continued Table 1 context; compound-specific SI detail is unavailable."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 4 reaction header and footnotes a-c",
+          "finding": "The shared 0.5 mmol/1.5 equiv/1 mol%/DCM/-60 °C/8 h/argon conditions, isolated-yield basis, chiral GC-or-HPLC ee basis, default R assignment, 9.4 mmol scale exception, and 3aa catalyst/solvent/time exception were retained with evidence.",
+          "evidence_ids": ["doc_2abd3d7449bbf0b6:page5:image", "doc_2abd3d7449bbf0b6:page5:text"]
+        },
+        {
+          "region": "Table 4 structures and result labels 3a through 3ab",
+          "finding": "All 29 distinct scope experiments were recorded, including two separate 3a runs. Every isolated yield and ee targets its displayed product; 3b and 3y preserve the opposite/S center assignment, while 1x/1y alkene E/Z remains unspecified.",
+          "evidence_ids": ["doc_2abd3d7449bbf0b6:page5:image", "doc_2abd3d7449bbf0b6:page5:text"]
+        },
+        {
+          "region": "right-column transition-state discussion",
+          "finding": "Computational interpretation and cited prior calculations were not converted into synthetic experiments.",
+          "evidence_ids": ["doc_2abd3d7449bbf0b6:page5:image", "doc_2abd3d7449bbf0b6:page5:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_2abd3d7449bbf0b6:table4_3a_small", "doc_2abd3d7449bbf0b6:table4_3a_scale", "doc_2abd3d7449bbf0b6:table4_3b", "doc_2abd3d7449bbf0b6:table4_3c", "doc_2abd3d7449bbf0b6:table4_3d", "doc_2abd3d7449bbf0b6:table4_3e", "doc_2abd3d7449bbf0b6:table4_3f", "doc_2abd3d7449bbf0b6:table4_3g", "doc_2abd3d7449bbf0b6:table4_3h", "doc_2abd3d7449bbf0b6:table4_3i", "doc_2abd3d7449bbf0b6:table4_3j", "doc_2abd3d7449bbf0b6:table4_3k", "doc_2abd3d7449bbf0b6:table4_3l", "doc_2abd3d7449bbf0b6:table4_3m", "doc_2abd3d7449bbf0b6:table4_3n", "doc_2abd3d7449bbf0b6:table4_3o", "doc_2abd3d7449bbf0b6:table4_3p", "doc_2abd3d7449bbf0b6:table4_3q", "doc_2abd3d7449bbf0b6:table4_3r", "doc_2abd3d7449bbf0b6:table4_3s", "doc_2abd3d7449bbf0b6:table4_3t", "doc_2abd3d7449bbf0b6:table4_3u", "doc_2abd3d7449bbf0b6:table4_3v", "doc_2abd3d7449bbf0b6:table4_3w", "doc_2abd3d7449bbf0b6:table4_3x", "doc_2abd3d7449bbf0b6:table4_3y", "doc_2abd3d7449bbf0b6:table4_3z", "doc_2abd3d7449bbf0b6:table4_3aa", "doc_2abd3d7449bbf0b6:table4_3ab"
+      ],
+      "unresolved": [
+        "The footnote gives chiral GC or chiral HPLC, but compound-specific method details are in unavailable SI.",
+        "Candidate structures and isomeric SMILES were derived from compact drawings and remain needs_review.",
+        "No workup/purification sequence is printed within pages 1-6."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 2 and both text columns through Conclusion",
+          "finding": "The page contains computed TS structures/relative energies and mechanistic interpretation for 1a-c with 7e, followed by conclusions. These are computational/source context, not new synthetic experiments or measured scope rows.",
+          "evidence_ids": ["doc_2abd3d7449bbf0b6:page6:image", "doc_2abd3d7449bbf0b6:page6:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["Computed transition-state assignments are not experimental proof and were not promoted to reaction outcomes."]
+    }
+  ]
+}

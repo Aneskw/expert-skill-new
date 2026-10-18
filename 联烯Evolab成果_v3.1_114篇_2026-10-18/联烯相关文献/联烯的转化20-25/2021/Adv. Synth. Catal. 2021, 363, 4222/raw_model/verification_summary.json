@@ -1,0 +1,83 @@
+{
+  "expected_reactions": 64,
+  "actual_reactions": 64,
+  "expected_concrete_experiments": 60,
+  "scope_amount_conflict_records": [
+    "doc_cb03cf42d5a5f24b:scheme2_3aa",
+    "doc_cb03cf42d5a5f24b:scheme2_3ba",
+    "doc_cb03cf42d5a5f24b:scheme2_3ca",
+    "doc_cb03cf42d5a5f24b:scheme2_3da",
+    "doc_cb03cf42d5a5f24b:scheme2_3ea",
+    "doc_cb03cf42d5a5f24b:scheme2_3fa",
+    "doc_cb03cf42d5a5f24b:scheme2_3ga",
+    "doc_cb03cf42d5a5f24b:scheme2_3ha",
+    "doc_cb03cf42d5a5f24b:scheme2_3ia",
+    "doc_cb03cf42d5a5f24b:scheme2_3ja",
+    "doc_cb03cf42d5a5f24b:scheme2_3ka",
+    "doc_cb03cf42d5a5f24b:scheme2_3ab",
+    "doc_cb03cf42d5a5f24b:scheme2_3ac",
+    "doc_cb03cf42d5a5f24b:scheme2_3ad",
+    "doc_cb03cf42d5a5f24b:scheme2_3ae",
+    "doc_cb03cf42d5a5f24b:scheme2_3af",
+    "doc_cb03cf42d5a5f24b:scheme2_3ag",
+    "doc_cb03cf42d5a5f24b:scheme2_3ah",
+    "doc_cb03cf42d5a5f24b:scheme2_3ai",
+    "doc_cb03cf42d5a5f24b:scheme2_3aj",
+    "doc_cb03cf42d5a5f24b:scheme2_3ak",
+    "doc_cb03cf42d5a5f24b:scheme2_3al",
+    "doc_cb03cf42d5a5f24b:scheme2_3am",
+    "doc_cb03cf42d5a5f24b:scheme2_3an",
+    "doc_cb03cf42d5a5f24b:scheme2_3ao",
+    "doc_cb03cf42d5a5f24b:scheme2_3ap",
+    "doc_cb03cf42d5a5f24b:scheme2_3aq",
+    "doc_cb03cf42d5a5f24b:scheme2_3ar",
+    "doc_cb03cf42d5a5f24b:scheme2_3as"
+  ],
+  "markdown_tokens_to_check": [
+    "11.9",
+    "124",
+    "0.9",
+    "3 mL",
+    "110",
+    "18 h",
+    "DCM",
+    "H2O",
+    "Na2SO4",
+    "petroleum ether",
+    "ethyl acetate",
+    "dichloromethane",
+    "Source conflict"
+  ],
+  "markdown_checked_record": "doc_cb03cf42d5a5f24b:scheme2_3aa",
+  "markdown_missing_tokens": [],
+  "coverage_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "coverage_regions_per_page": [
+    2,
+    3,
+    3,
+    4,
+    3,
+    1
+  ],
+  "needs_review_reactions": 64,
+  "audit_warning_records": 1,
+  "audit_warnings": [
+    {
+      "record_id": "doc_cb03cf42d5a5f24b:scheme3_scale_up",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_cb03cf42d5a5f24b:page4:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    }
+  ]
+}

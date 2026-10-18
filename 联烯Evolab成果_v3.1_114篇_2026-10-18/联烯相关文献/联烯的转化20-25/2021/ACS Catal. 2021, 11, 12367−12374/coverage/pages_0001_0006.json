@@ -1,0 +1,359 @@
+{
+  "document_id": "doc_a3d4333b7270ebfb",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title/abstract and graphical abstract",
+          "finding": "Article metadata and a generic this-work reaction summary; no distinct concrete experiment.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page1:image",
+            "doc_a3d4333b7270ebfb:page1:text"
+          ]
+        },
+        {
+          "region": "two-column introduction",
+          "finding": "Background and cited prior art discussion; no current-paper concrete experimental row.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page1:image",
+            "doc_a3d4333b7270ebfb:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a3d4333b7270ebfb:figure1c_current_generic"
+      ],
+      "unresolved": [
+        "Graphical-abstract Ar/RF/tether variables and ligand L* remain generic."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1a",
+          "finding": "Background bioactive structures; source_context, not current experiments.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page2:image",
+            "doc_a3d4333b7270ebfb:page2:text"
+          ]
+        },
+        {
+          "region": "Figure 1b",
+          "finding": "Cited Cramer literature example, retained as literature_example.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page2:image",
+            "doc_a3d4333b7270ebfb:page2:text"
+          ]
+        },
+        {
+          "region": "Figure 1c",
+          "finding": "This-work generic reaction scheme, not a concrete row.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page2:image",
+            "doc_a3d4333b7270ebfb:page2:text"
+          ]
+        },
+        {
+          "region": "Table 1 and footnotes",
+          "finding": "Ten optimization rows; entry 9 duplicates Scheme 1 product 3a and is merged with page-3 evidence.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page2:image",
+            "doc_a3d4333b7270ebfb:page2:text"
+          ]
+        },
+        {
+          "region": "scope discussion prose",
+          "finding": "Narrative cross-checks for 3a-u, including specific values for 3b, 3n, and 3o; no additional duplicate experiments.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page2:image",
+            "doc_a3d4333b7270ebfb:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a3d4333b7270ebfb:figure1b_cramer_literature",
+        "doc_a3d4333b7270ebfb:figure1c_current_generic",
+        "doc_a3d4333b7270ebfb:table1_entry_01",
+        "doc_a3d4333b7270ebfb:table1_entry_02",
+        "doc_a3d4333b7270ebfb:table1_entry_03",
+        "doc_a3d4333b7270ebfb:table1_entry_04",
+        "doc_a3d4333b7270ebfb:table1_entry_05",
+        "doc_a3d4333b7270ebfb:table1_entry_06",
+        "doc_a3d4333b7270ebfb:table1_entry_07",
+        "doc_a3d4333b7270ebfb:table1_entry_08",
+        "doc_a3d4333b7270ebfb:table1_entry_09_scope_3a",
+        "doc_a3d4333b7270ebfb:table1_entry_10"
+      ],
+      "unresolved": [
+        "Table 1 footnote c does not explicitly restate scaled absolute charges/volumes; conflict with Scheme 1 is retained for entry 9."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1 green general-reaction panel",
+          "finding": "Generic CF3/CF2H imidoylation conditions and footnotes b-e.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page3:image",
+            "doc_a3d4333b7270ebfb:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 1 CF3 upper scope",
+          "finding": "Products 3a-z plus scale demonstrations, each transcribed; 3a standard row deduplicated against Table 1 entry 9.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page3:image",
+            "doc_a3d4333b7270ebfb:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 1 CF3 isocyanide scope",
+          "finding": "Products 3aa-ae transcribed as separate experiments.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page3:image",
+            "doc_a3d4333b7270ebfb:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 1 CF2H lower scope",
+          "finding": "Products 4a-ab transcribed; 4a low-catalyst comparison is separate and 4y' is retained as a byproduct outcome.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page3:image",
+            "doc_a3d4333b7270ebfb:page3:text"
+          ]
+        },
+        {
+          "region": "X-ray renderings",
+          "finding": "3u and 4a crystallographic renderings are characterization context, not new syntheses.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page3:image",
+            "doc_a3d4333b7270ebfb:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 1 footnotes",
+          "finding": "Isolated-yield basis, catalyst-loading exceptions, 70 °C exception, and 0.1 mmol CF2H conditions transcribed.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page3:image",
+            "doc_a3d4333b7270ebfb:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a3d4333b7270ebfb:table1_entry_09_scope_3a",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3b",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3c",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3d",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3e",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3f",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3g",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3h",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3i",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3j",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3k",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3l",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3m",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3n",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3o",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3p",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3q",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3r",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3s",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3t",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3u",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3v",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3w",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3x",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3y",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3z",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3aa",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3ab",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3ac",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3ad",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3ae",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3a_5mmol",
+        "doc_a3d4333b7270ebfb:scheme1_scope_3a_gram",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4a_low_catalyst",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4a",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4b",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4c",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4d",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4e",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4f",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4g",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4h",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4i",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4j",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4k",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4l",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4m",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4n",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4o",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4p",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4q",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4r",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4s",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4t",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4u",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4v",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4w",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4x",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4y",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4z",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4aa",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4ab"
+      ],
+      "unresolved": [
+        "Most complete scope structures, exact absolute configurations, ee methods, and detailed workups require unavailable SI.",
+        "Scale-up callouts do not restate all absolute charges; they were not calculated."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2a",
+          "finding": "Three allene-insertion cascade experiments 5a-c to 6a-c.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page4:image",
+            "doc_a3d4333b7270ebfb:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 2b",
+          "finding": "Eight complex-molecule scope products 7a-h with yield and ee/de.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page4:image",
+            "doc_a3d4333b7270ebfb:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 2c",
+          "finding": "Two distinct nitrations of 3a to 8a and 8b with acid volumes, room temperature, and 16/32 h.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page4:image",
+            "doc_a3d4333b7270ebfb:page4:text"
+          ]
+        },
+        {
+          "region": "X-ray renderings",
+          "finding": "8a and 8b crystallographic renderings are characterization context.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page4:image",
+            "doc_a3d4333b7270ebfb:page4:text"
+          ]
+        },
+        {
+          "region": "body prose",
+          "finding": "Cross-checks CF2H scope, 4y' byproduct, allene cascade, complex-molecule scope and nitration outcomes; no extra distinct experiment.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page4:image",
+            "doc_a3d4333b7270ebfb:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a3d4333b7270ebfb:scheme1_scope_4a_low_catalyst",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4a",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4x",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4y",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4z",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4aa",
+        "doc_a3d4333b7270ebfb:scheme1_scope_4ab",
+        "doc_a3d4333b7270ebfb:scheme2a_6a",
+        "doc_a3d4333b7270ebfb:scheme2a_6b",
+        "doc_a3d4333b7270ebfb:scheme2a_6c",
+        "doc_a3d4333b7270ebfb:scheme2b_7a",
+        "doc_a3d4333b7270ebfb:scheme2b_7b",
+        "doc_a3d4333b7270ebfb:scheme2b_7c",
+        "doc_a3d4333b7270ebfb:scheme2b_7d",
+        "doc_a3d4333b7270ebfb:scheme2b_7e",
+        "doc_a3d4333b7270ebfb:scheme2b_7f",
+        "doc_a3d4333b7270ebfb:scheme2b_7g",
+        "doc_a3d4333b7270ebfb:scheme2b_7h",
+        "doc_a3d4333b7270ebfb:scheme2c_8a",
+        "doc_a3d4333b7270ebfb:scheme2c_8b"
+      ],
+      "unresolved": [
+        "Scheme 2b does not print absolute substrate charges; de major/minor configurations and selectivity methods are unreported in processed pages."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3a",
+          "finding": "One true methyl-isocyanide control experiment yielding 10.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page5:image",
+            "doc_a3d4333b7270ebfb:page5:text"
+          ]
+        },
+        {
+          "region": "Scheme 3b",
+          "finding": "Author-proposed favored/disfavored stereocontrol models; proposed_mechanism, not experimental proof.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page5:image",
+            "doc_a3d4333b7270ebfb:page5:text"
+          ]
+        },
+        {
+          "region": "summary prose",
+          "finding": "Article-level summary only; no new experiment.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page5:image",
+            "doc_a3d4333b7270ebfb:page5:text"
+          ]
+        },
+        {
+          "region": "Supporting Information statement",
+          "finding": "SI availability statement retained, but no SI file is linked or inferred.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page5:image",
+            "doc_a3d4333b7270ebfb:page5:text"
+          ]
+        },
+        {
+          "region": "author information/acknowledgments",
+          "finding": "Administrative metadata; no chemical experiment.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page5:image",
+            "doc_a3d4333b7270ebfb:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a3d4333b7270ebfb:scheme3a_control_10",
+        "doc_a3d4333b7270ebfb:scheme3b_proposed_mode"
+      ],
+      "unresolved": [
+        "Control-product yield measurement basis and absolute configuration are not reported in processed pages."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 1-10",
+          "finding": "Bibliographic citations only; no experiment performed in the current paper.",
+          "evidence_ids": [
+            "doc_a3d4333b7270ebfb:page6:image",
+            "doc_a3d4333b7270ebfb:page6:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

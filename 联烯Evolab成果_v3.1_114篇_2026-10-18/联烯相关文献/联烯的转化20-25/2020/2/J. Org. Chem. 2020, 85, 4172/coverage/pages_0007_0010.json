@@ -1,0 +1,143 @@
+{
+  "document_id": "doc_40554c21bc96f78b",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top-left continuation from page 6",
+          "finding": "NMR/HRMS characterization for 3i; no new synthesis experiment.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page7:image",
+            "doc_40554c21bc96f78b:page7:text"
+          ]
+        },
+        {
+          "region": "left column, 3j paragraph",
+          "finding": "Individual borylation experiment 1j to 3j: 144.8 mg (0.50 mmol), 6.5 h, GPC, 45%, 90.4 mg (0.23 mmol), Z/E 79/21 by 19F NMR of the crude mixture; the 6.5 h value conflicts with Table 2's 7 h.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page7:image",
+            "doc_40554c21bc96f78b:page7:text"
+          ]
+        },
+        {
+          "region": "left-to-right columns, Cross-Coupling Reaction Procedure for 4a",
+          "finding": "Full setup, charges, nitrogen handling, 60 °C/25 h reaction, workup, chromatography, and 4a product amount/yield.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page7:image",
+            "doc_40554c21bc96f78b:page7:text"
+          ]
+        },
+        {
+          "region": "remaining columns, individual 4b–4f paragraphs",
+          "finding": "Product-specific substrate charges, times, product amounts, yields, and 4f E/Z ratio merged into the existing Table 3 records; spectral blocks are characterization context.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page7:image",
+            "doc_40554c21bc96f78b:page7:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_40554c21bc96f78b:scope_table2_3i",
+        "doc_40554c21bc96f78b:scope_table2_3j",
+        "doc_40554c21bc96f78b:scope_table3_4a",
+        "doc_40554c21bc96f78b:scope_table3_4b",
+        "doc_40554c21bc96f78b:scope_table3_4c",
+        "doc_40554c21bc96f78b:scope_table3_4d",
+        "doc_40554c21bc96f78b:scope_table3_4e",
+        "doc_40554c21bc96f78b:scope_table3_4f"
+      ],
+      "unresolved": [
+        "3j reaction time remains a source conflict: Table 2 gives 7 h, while the page-7 paragraph gives 6.5 h.",
+        "Complete source-verified structures/atom mappings for these labeled compounds remain unavailable; concrete SMILES were not invented."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top-left continuation",
+          "finding": "Continuation of 4f characterization; no separate experiment.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page8:image",
+            "doc_40554c21bc96f78b:page8:text"
+          ]
+        },
+        {
+          "region": "left and middle columns, 4g–4i paragraphs",
+          "finding": "Individual cross-coupling times, substrate/product amounts, and yields merged into existing Table 3 records. The 4i paragraph's product mass/amount is retained alongside Table 3's GC footnote as a basis conflict.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page8:image",
+            "doc_40554c21bc96f78b:page8:text"
+          ]
+        },
+        {
+          "region": "middle/right columns, Diels–Alder procedure",
+          "finding": "Full experiment for 3b plus dienophile 5: exact charges, toluene volume, nitrogen handling, room temperature for 21 h, workup, chromatography, and isolated 6 (30%, 14.7 mg, 0.030 mmol).",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page8:image",
+            "doc_40554c21bc96f78b:page8:text"
+          ]
+        },
+        {
+          "region": "right column lower section",
+          "finding": "Product 6 characterization followed by Associated Content, author information, acknowledgments, and reference-list material; retained as context, not new experiments.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page8:image",
+            "doc_40554c21bc96f78b:page8:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_40554c21bc96f78b:scope_table3_4f",
+        "doc_40554c21bc96f78b:scope_table3_4g",
+        "doc_40554c21bc96f78b:scope_table3_4h",
+        "doc_40554c21bc96f78b:scope_table3_4i",
+        "doc_40554c21bc96f78b:scheme2_3b_5_to_6"
+      ],
+      "unresolved": [
+        "4i yield basis remains conflicting/ambiguous between the Table 3 GC footnote and the matching product mass/amount in the individual paragraph.",
+        "The advertised Supporting Information was not supplied or explicitly associated, so it was not used."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "full page, references 2–14",
+          "finding": "Cited prior literature only; no current-paper experimental arrow, table row, or procedure was converted into a record.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page9:image",
+            "doc_40554c21bc96f78b:page9:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Reference-list descriptions were not treated as evidence of experiments performed in this paper."
+      ]
+    },
+    {
+      "page": 10,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "full page, references 15–21",
+          "finding": "Cited prior literature only; no current-paper experiment is present on this page.",
+          "evidence_ids": [
+            "doc_40554c21bc96f78b:page10:image",
+            "doc_40554c21bc96f78b:page10:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Reference-list descriptions were not imported as this article's reaction records."
+      ]
+    }
+  ]
+}

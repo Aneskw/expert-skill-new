@@ -1,0 +1,40 @@
+{
+  "2a_candidate": {
+    "canonical_isomeric_smiles": "C=C=CC(=O)OCc1ccccc1",
+    "stereo_graph_key": "ee1b789569b20b530310b933abe72ec86000e320a33e7bc27b014124d8de8289",
+    "connectivity_smiles": "C=C=CC(=O)OCc1ccccc1",
+    "atom_centers": [],
+    "double_bonds": [
+      {
+        "bond_index": 0,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 1,
+        "stereo": "STEREONONE"
+      },
+      {
+        "bond_index": 3,
+        "stereo": "STEREONONE"
+      }
+    ],
+    "potential_stereo": [
+      {
+        "type": "Bond_Double",
+        "centered_on": 1,
+        "specified": "Unspecified",
+        "descriptor": "NoValue"
+      }
+    ],
+    "source_verified": false,
+    "limitations": [
+      "Graph diagnostics cannot infer unreported configuration, ee, dr or racemic composition.",
+      "Axial/allene, relative and ring cis/trans assignments need source review; toolkit support is limited."
+    ]
+  },
+  "limitations": [
+    "Only the concrete 2a candidate was committed to the registry as SMILES.",
+    "Complex source structures were left unresolved rather than assigned unsafe stereochemical SMILES.",
+    "Toolkit diagnostics cannot certify allene axial stereochemistry or source identity."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "checks": {
+    "standard_matches_dataset": true,
+    "document_id": true,
+    "source_hash": true,
+    "coverage_exact_pages": true,
+    "coverage_regions_nonempty": true,
+    "all_needs_review": true,
+    "stereo_status_complete": true,
+    "model_votes_empty": true,
+    "si_not_associated": true,
+    "representative_markdown_tokens": true
+  },
+  "counts": {
+    "molecules": 79,
+    "reactions": 54,
+    "record_types": {
+      "literature_example": 1,
+      "generic_scheme": 1,
+      "specific_experiment": 50,
+      "proposed_mechanism": 2
+    },
+    "experiment_categories": {
+      "optimization": 20,
+      "substrate_scope": 29,
+      "scale_up": 1,
+      "control": 2,
+      "mechanistic_study": 2
+    },
+    "source_context": 4,
+    "audit_warning_records": 29,
+    "audit_issue_messages": {
+      "measurement_basis": 29,
+      "structure_gap": 12
+    }
+  },
+  "markdown_missing_tokens": {
+    "table1_entry1": [],
+    "table1_entry6": [],
+    "table2_entry1": [],
+    "scheme2_scale_up_3a": [],
+    "scheme4_tempo_cu": []
+  },
+  "audit_warning_record_ids": [
+    "doc_a996ed1ac1a2b8f0:scheme2_3b",
+    "doc_a996ed1ac1a2b8f0:scheme2_3c",
+    "doc_a996ed1ac1a2b8f0:scheme2_3d",
+    "doc_a996ed1ac1a2b8f0:scheme2_3e",
+    "doc_a996ed1ac1a2b8f0:scheme2_3f",
+    "doc_a996ed1ac1a2b8f0:scheme2_3g",
+    "doc_a996ed1ac1a2b8f0:scheme2_3h",
+    "doc_a996ed1ac1a2b8f0:scheme2_3i",
+    "doc_a996ed1ac1a2b8f0:scheme2_3j",
+    "doc_a996ed1ac1a2b8f0:scheme2_3k",
+    "doc_a996ed1ac1a2b8f0:scheme2_3l",
+    "doc_a996ed1ac1a2b8f0:scheme2_3m",
+    "doc_a996ed1ac1a2b8f0:scheme2_3n",
+    "doc_a996ed1ac1a2b8f0:scheme2_3o",
+    "doc_a996ed1ac1a2b8f0:scheme2_3p",
+    "doc_a996ed1ac1a2b8f0:scheme2_scale_up_3a",
+    "doc_a996ed1ac1a2b8f0:scheme3_4b",
+    "doc_a996ed1ac1a2b8f0:scheme3_4c",
+    "doc_a996ed1ac1a2b8f0:scheme3_4d",
+    "doc_a996ed1ac1a2b8f0:scheme3_4e",
+    "doc_a996ed1ac1a2b8f0:scheme3_4f",
+    "doc_a996ed1ac1a2b8f0:scheme3_4g",
+    "doc_a996ed1ac1a2b8f0:scheme3_4h",
+    "doc_a996ed1ac1a2b8f0:scheme3_4i",
+    "doc_a996ed1ac1a2b8f0:scheme3_4j",
+    "doc_a996ed1ac1a2b8f0:scheme3_4k",
+    "doc_a996ed1ac1a2b8f0:scheme3_4l",
+    "doc_a996ed1ac1a2b8f0:scheme3_4m",
+    "doc_a996ed1ac1a2b8f0:scheme4_tempo_cu"
+  ]
+}

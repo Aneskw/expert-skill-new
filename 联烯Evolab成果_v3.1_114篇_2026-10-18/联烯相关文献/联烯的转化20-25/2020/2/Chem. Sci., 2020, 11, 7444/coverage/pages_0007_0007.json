@@ -1,0 +1,31 @@
+{
+  "document_id": "doc_48a246e692c52136",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "two-column reference list, references 20-28",
+          "finding": "Original-image inspection shows only bibliographic references concerning computational methods, visualization, activation-strain analysis and enamine-catalysis mechanisms; these are cited literature, not experiments reported in this paper.",
+          "evidence_ids": [
+            "doc_48a246e692c52136:page7:image",
+            "doc_48a246e692c52136:page7:text"
+          ]
+        },
+        {
+          "region": "page margins, header and footer",
+          "finding": "Only journal branding, licence/download text, page number and citation footer are present; there is no reaction arrow, scheme, table, experimental procedure, footnote with new reagents or conditions, or standalone characterization peak list.",
+          "evidence_ids": [
+            "doc_48a246e692c52136:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Experiments and structures in the cited papers were not supplied and are outside the page-bounded extraction; no citation was promoted to a current-paper experiment."
+      ]
+    }
+  ]
+}

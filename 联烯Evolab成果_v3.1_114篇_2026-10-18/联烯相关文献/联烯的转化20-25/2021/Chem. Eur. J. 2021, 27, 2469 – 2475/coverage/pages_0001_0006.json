@@ -1,0 +1,221 @@
+{
+  "document_id": "doc_f15761c9ba9d1af6",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and introduction",
+          "finding": "Title and present-paper aims identified; no row-level current experiment is reported in this region.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page1:text", "doc_f15761c9ba9d1af6:page1:image"]
+        },
+        {
+          "region": "Scheme 1 at lower right",
+          "finding": "Cited prior work [14] showing P=P cleavage to phosphanoxy-substituted phosphaalkene 1; retained as cited-prior-work source_context, not a current-paper experiment.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page1:text", "doc_f15761c9ba9d1af6:page1:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Scheme 1 gives generic R1/R2 reagents and no current-paper experimental quantities; no specific reaction record was fabricated.",
+        "Supporting Information is mentioned but no SI file was supplied or associated."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2 Eq. (1)",
+          "finding": "General mono(chlorogold) complexation and the 1a→2a (65%) and 1b→2b (64%) variants; exact preparation details continue on page 5.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page2:text", "doc_f15761c9ba9d1af6:page2:image"]
+        },
+        {
+          "region": "Scheme 2 Eq. (2)",
+          "finding": "General bis(chlorogold) complexation and 3a (80%)/3b (85%) variants; exact preparation details continue on page 6.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page2:text", "doc_f15761c9ba9d1af6:page2:image"]
+        },
+        {
+          "region": "Figure 1 and associated prose",
+          "finding": "ORTEP/AIM characterization of 2a and proposed weak P···Au interaction; retained as characterization context, not an additional synthesis.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page2:text", "doc_f15761c9ba9d1af6:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_f15761c9ba9d1af6:scheme2_mono_generic",
+        "doc_f15761c9ba9d1af6:scheme2_bis_generic",
+        "doc_f15761c9ba9d1af6:prep_2a",
+        "doc_f15761c9ba9d1af6:prep_2b",
+        "doc_f15761c9ba9d1af6:prep_3a",
+        "doc_f15761c9ba9d1af6:prep_3b"
+      ],
+      "unresolved": [
+        "Complete organogold structures and P=C stereochemistry were not encoded as SMILES.",
+        "The later Preparation of 3b paragraph conflicts with Scheme 2 on whether the precursor label is 1a or 1b; both source values are retained."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figures 2 and 3",
+          "finding": "Crystallographic/conformational, 31P NMR, VT-NMR and DFT observations for 3a/3b; not separate synthetic experiments.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page3:text", "doc_f15761c9ba9d1af6:page3:image"]
+        },
+        {
+          "region": "Table 1",
+          "finding": "Two independent hydration rows (3a and 3b) with 3 mol% catalyst, H2O 10 equiv, acetone, RT, 48 h, product yield and starting-material recovery by 1H NMR.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page3:text", "doc_f15761c9ba9d1af6:page3:image"]
+        },
+        {
+          "region": "Table 2",
+          "finding": "Two independent 1,6-enyne cycloisomerization rows (3a and 3b) with 3 mol% catalyst, CH2Cl2, RT, 24 h, product yield and recovery by 1H NMR.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page3:text", "doc_f15761c9ba9d1af6:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_f15761c9ba9d1af6:table1_generic",
+        "doc_f15761c9ba9d1af6:table2_generic",
+        "doc_f15761c9ba9d1af6:table1_hydration_3a",
+        "doc_f15761c9ba9d1af6:table1_hydration_3b",
+        "doc_f15761c9ba9d1af6:table2_cycloisomerization_3a",
+        "doc_f15761c9ba9d1af6:table2_cycloisomerization_3b"
+      ],
+      "unresolved": [
+        "Hydration substrate is named 2-propynyl/propargyl acetate but drawn as a phenyl-substituted acetate; the drawing-derived candidate identity remains pending review.",
+        "Exact connectivity of the cycloisomerization product was not encoded.",
+        "Conformational behavior of 3b is not treated as a configurational stereoisomer assignment."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 3",
+          "finding": "Two independent alkoxycyclization rows (3a/3b), each retaining product yield, 1,6-enyne recovery, catalyst recovery, and mono(chlorogold) de-coordination-product yield with the separate 1H/31P NMR bases.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page4:text", "doc_f15761c9ba9d1af6:page4:image"]
+        },
+        {
+          "region": "Table 4",
+          "finding": "Two independent intramolecular allenyl-alcohol hydroalkoxylation entries: no additive and AgSbF6 (10 mol%), with yield/recovery by 1H NMR.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page4:text", "doc_f15761c9ba9d1af6:page4:image"]
+        },
+        {
+          "region": "Table 5",
+          "finding": "Seven independent mononuclear-catalyst alkoxycyclization entries, including the 40 °C variants and the complex-4 no-reaction control.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page4:text", "doc_f15761c9ba9d1af6:page4:image"]
+        },
+        {
+          "region": "Figure 4 and adjacent prose",
+          "finding": "Plausible methanol/chloride interaction is an author proposal, not a proven mechanism. Prose-only negative statements whose details are deferred to SI remain source_context.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page4:text", "doc_f15761c9ba9d1af6:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_f15761c9ba9d1af6:table3_generic",
+        "doc_f15761c9ba9d1af6:table4_generic",
+        "doc_f15761c9ba9d1af6:table5_generic",
+        "doc_f15761c9ba9d1af6:table3_alkoxycyclization_3a",
+        "doc_f15761c9ba9d1af6:table3_alkoxycyclization_3b",
+        "doc_f15761c9ba9d1af6:table4_hydroalkoxylation_entry1",
+        "doc_f15761c9ba9d1af6:table4_hydroalkoxylation_entry2",
+        "doc_f15761c9ba9d1af6:table5_entry1",
+        "doc_f15761c9ba9d1af6:table5_entry2",
+        "doc_f15761c9ba9d1af6:table5_entry3",
+        "doc_f15761c9ba9d1af6:table5_entry4",
+        "doc_f15761c9ba9d1af6:table5_entry5",
+        "doc_f15761c9ba9d1af6:table5_entry6",
+        "doc_f15761c9ba9d1af6:table5_entry7"
+      ],
+      "unresolved": [
+        "Exact alkoxycyclization-product connectivity/stereochemistry was not safely encoded.",
+        "The separate no-hydration/no-cycloisomerization observations with complexes 2 lack variant-specific conditions.",
+        "The unsuccessful allenyl-alcohol reaction with 2b/AgSbF6 is referred to SI, which was not supplied."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3",
+          "finding": "One distinct 2b-catalyzed 1,6-enyne cycloisomerization in CH2Cl2/CF3CH2OH (1:1), RT, 24 h, 96% yield.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page5:text", "doc_f15761c9ba9d1af6:page5:image"]
+        },
+        {
+          "region": "Preparation of 2a",
+          "finding": "Specific 1a/(tht)AuCl preparation with all displayed masses, mmol, solvent/wash volumes, 5 h at room temperature, product mass and 65% yield; characterization remains context.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page5:text", "doc_f15761c9ba9d1af6:page5:image"]
+        },
+        {
+          "region": "Preparation of 2b",
+          "finding": "Specific 1b/(tht)AuCl preparation with all displayed masses, mmol, solvent/wash volumes, 5 h at room temperature, product mass and 64% yield; characterization remains context.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page5:text", "doc_f15761c9ba9d1af6:page5:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_f15761c9ba9d1af6:scheme3_tfe_cycloisomerization",
+        "doc_f15761c9ba9d1af6:prep_2a",
+        "doc_f15761c9ba9d1af6:prep_2b"
+      ],
+      "unresolved": [
+        "Scheme 3 does not state scale, solvent volumes, workup/purification, or yield measurement basis.",
+        "Complete structures/stereochemistry of 2a and 2b remain unresolved despite the 2a crystal drawing."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Preparations of 3a and 3b",
+          "finding": "Two specific two-stage preparations with charges, solvent volumes, two 1 h room-temperature holds, reduced-pressure operations, wash volumes, product masses and yields.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page6:text", "doc_f15761c9ba9d1af6:page6:image"]
+        },
+        {
+          "region": "Hydration and cycloisomerization procedures",
+          "finding": "General charges, solvent volumes, times, room-temperature conditions, and silica/hexane-ethyl acetate purification mapped to the four Table 1/2 row records.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page6:text", "doc_f15761c9ba9d1af6:page6:image"]
+        },
+        {
+          "region": "Alkoxycyclization procedure",
+          "finding": "Substrate charge, separate 0.5 mL CH2Cl2/MeOH portions and column workup mapped to Table 3 and Table 5; entry-specific Table 5 times/temperatures take precedence over the generic 24 h hold.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page6:text", "doc_f15761c9ba9d1af6:page6:image"]
+        },
+        {
+          "region": "Intramolecular hydroalkoxylation procedure",
+          "finding": "Catalyst/additive premix (0.4 mL toluene, 10 min) and separate substrate solution (0.6 mL, 0.10 mmol), followed by 24 h at room temperature and short silica column, mapped to both Table 4 entries.",
+          "evidence_ids": ["doc_f15761c9ba9d1af6:page6:text", "doc_f15761c9ba9d1af6:page6:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_f15761c9ba9d1af6:prep_3a",
+        "doc_f15761c9ba9d1af6:prep_3b",
+        "doc_f15761c9ba9d1af6:table1_hydration_3a",
+        "doc_f15761c9ba9d1af6:table1_hydration_3b",
+        "doc_f15761c9ba9d1af6:table2_cycloisomerization_3a",
+        "doc_f15761c9ba9d1af6:table2_cycloisomerization_3b",
+        "doc_f15761c9ba9d1af6:table3_alkoxycyclization_3a",
+        "doc_f15761c9ba9d1af6:table3_alkoxycyclization_3b",
+        "doc_f15761c9ba9d1af6:table4_hydroalkoxylation_entry1",
+        "doc_f15761c9ba9d1af6:table4_hydroalkoxylation_entry2",
+        "doc_f15761c9ba9d1af6:table5_entry1",
+        "doc_f15761c9ba9d1af6:table5_entry2",
+        "doc_f15761c9ba9d1af6:table5_entry3",
+        "doc_f15761c9ba9d1af6:table5_entry4",
+        "doc_f15761c9ba9d1af6:table5_entry5",
+        "doc_f15761c9ba9d1af6:table5_entry6",
+        "doc_f15761c9ba9d1af6:table5_entry7"
+      ],
+      "unresolved": [
+        "Preparation of 3b names precursor 1a while Scheme 2 identifies 1b; both are retained as a conflict.",
+        "The general procedures do not report internal standards or detailed workup quantities beyond the stated column/eluent information.",
+        "The intramolecular hydroalkoxylation eluent ratio is not reported."
+      ]
+    }
+  ]
+}

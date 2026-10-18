@@ -1,0 +1,86 @@
+{
+  "document_id": "doc_a996ed1ac1a2b8f0",
+  "pages": [
+    {
+      "page": 1,
+      "image_evidence": "doc_a996ed1ac1a2b8f0:page1:image",
+      "regions": [
+        {
+          "region": "title/abstract/ESI notice",
+          "finding": "metadata and unassociated ESI notice"
+        },
+        {
+          "region": "right-column current-work prose",
+          "finding": "generic Fe/Cu pathways and standard 3a experiment beginning"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_evidence": "doc_a996ed1ac1a2b8f0:page2:image",
+      "regions": [
+        {
+          "region": "Scheme 1",
+          "finding": "one prior-work family and one two-branch current generic scheme"
+        },
+        {
+          "region": "Table 1",
+          "finding": "13 independent rows; row 1 duplicates Scheme 2 3a; row 6 cobalt identity conflict"
+        },
+        {
+          "region": "Scheme 2a",
+          "finding": "16 products 3a–3p; 3a merged with Table 1 row 1"
+        },
+        {
+          "region": "Scheme 2b",
+          "finding": "one 4.0 mmol scale-up experiment"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "image_evidence": "doc_a996ed1ac1a2b8f0:page3:image",
+      "regions": [
+        {
+          "region": "Table 2",
+          "finding": "7 independent rows; row 1 duplicates Scheme 3 4a"
+        },
+        {
+          "region": "Scheme 3",
+          "finding": "13 products 4a–4m; 4a merged with Table 2 row 1"
+        },
+        {
+          "region": "Scheme 4a",
+          "finding": "two independent TEMPO controls"
+        },
+        {
+          "region": "Scheme 4b",
+          "finding": "one proposed Fe mechanism"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "image_evidence": "doc_a996ed1ac1a2b8f0:page4:image",
+      "regions": [
+        {
+          "region": "Scheme 5/top-left prose",
+          "finding": "one proposed Cu mechanism and explanatory prose"
+        },
+        {
+          "region": "remainder",
+          "finding": "conclusion, acknowledgements, conflicts, references; no new experiment"
+        }
+      ]
+    }
+  ],
+  "deduplication": [
+    "Table 1 entry 1 / Scheme 2 product 3a / page-1 prose are one experiment.",
+    "Table 2 entry 1 / Scheme 3 product 4a are one experiment."
+  ],
+  "limitations": [
+    "No SI supplied.",
+    "Compact products are not forced into complete SMILES.",
+    "Scope/control yield methods are unreported unless a table footnote explicitly states them."
+  ]
+}

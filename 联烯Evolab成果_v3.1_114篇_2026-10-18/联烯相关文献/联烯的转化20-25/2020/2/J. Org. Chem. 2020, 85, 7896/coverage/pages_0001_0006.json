@@ -1,0 +1,265 @@
+{
+  "document_id": "doc_b298156f3445f448",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top title, abstract, and graphical abstract",
+          "finding": "True article title and a duplicate high-level depiction of the current Pd-catalyzed naphthol/alkoxyallene transformation; the graphical abstract is not counted as a second experiment.",
+          "evidence_ids": ["doc_b298156f3445f448:page1:image", "doc_b298156f3445f448:page1:text"]
+        },
+        {
+          "region": "Scheme 1a, three prior-work arrows",
+          "finding": "Three cited literature transformations (allylic alcohol derivatives, alkynes/oxidative allylation, and allenamides) are recorded as literature examples, not current-paper experiments.",
+          "evidence_ids": ["doc_b298156f3445f448:page1:image"]
+        },
+        {
+          "region": "Scheme 1b, this-work arrow",
+          "finding": "One generic current-work dearomative allylic alkylation scheme; R-group drawings are retained as templates.",
+          "evidence_ids": ["doc_b298156f3445f448:page1:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_b298156f3445f448:scheme1a_prior_allylic_derivatives",
+        "doc_b298156f3445f448:scheme1a_prior_alkyne",
+        "doc_b298156f3445f448:scheme1a_prior_allenamide",
+        "doc_b298156f3445f448:scheme1b_current_generic"
+      ],
+      "unresolved": [
+        "The cited prior-work drawings are generic and were not expanded into concrete structures or treated as experiments from this paper.",
+        "The page advertises Supporting Information, but no SI file was explicitly provided or associated."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 reaction drawing, ligand structures, rows 1-12, and footnotes",
+          "finding": "Twelve separate optimization experiments were enumerated. Rows 4 and 12 have blank yield/e.r. cells and are not converted into zero yield or no-reaction claims.",
+          "evidence_ids": ["doc_b298156f3445f448:page2:image", "doc_b298156f3445f448:page2:text"]
+        },
+        {
+          "region": "optimization discussion below Table 1",
+          "finding": "Entry 11 is reported as 81% yield, 92:8 e.r., and E/Z >19:1. The prose calls the base DBU while the table calls it TMG; both values are retained as a conflict.",
+          "evidence_ids": ["doc_b298156f3445f448:page2:image", "doc_b298156f3445f448:page2:text"]
+        },
+        {
+          "region": "scope and absolute-configuration discussion",
+          "finding": "Introduces Schemes 2/3 and states that 3a was assigned R by calculated ECD comparison to SI Figure S1; the unavailable SI is not inferred or used.",
+          "evidence_ids": ["doc_b298156f3445f448:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_b298156f3445f448:table1_entry01",
+        "doc_b298156f3445f448:table1_entry02",
+        "doc_b298156f3445f448:table1_entry03",
+        "doc_b298156f3445f448:table1_entry04",
+        "doc_b298156f3445f448:table1_entry05",
+        "doc_b298156f3445f448:table1_entry06",
+        "doc_b298156f3445f448:table1_entry07",
+        "doc_b298156f3445f448:table1_entry08",
+        "doc_b298156f3445f448:table1_entry09",
+        "doc_b298156f3445f448:table1_entry10",
+        "doc_b298156f3445f448:table1_entry11",
+        "doc_b298156f3445f448:table1_entry12"
+      ],
+      "unresolved": [
+        "Rows 4 and 12 have blank outcome cells; the source does not establish whether this means no reaction, no isolated material, or omitted data.",
+        "Entry 11 base conflict remains unresolved: TMG in the table versus DBU in the prose.",
+        "Ligand drawings L1-L5 were retained by source labels; no complete machine SMILES were asserted."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2 generic arrow, product drawings 3a-3u, footnote",
+          "finding": "One generic scheme plus 21 independent beta-naphthol substrate-scope experiments. Each row retains its isolated yield and product-specific e.r.; 3s is preserved exactly as source-reported 93:8 e.r.",
+          "evidence_ids": ["doc_b298156f3445f448:page3:image", "doc_b298156f3445f448:page3:text"]
+        },
+        {
+          "region": "lower-left preparative-scale, reduction, and control-experiment prose",
+          "finding": "Corroborates Scheme 4a-e records. The scale-up prose reports 1.81 g 3a, conflicting with the 1.44 g shown on page 4; both are retained.",
+          "evidence_ids": ["doc_b298156f3445f448:page3:text"]
+        },
+        {
+          "region": "lower-right deuterium-labeling and mechanism discussion",
+          "finding": "Reports 61% deuteration at the allene middle carbon and presents an author-proposed catalytic cycle; the proposal is not treated as experimental proof.",
+          "evidence_ids": ["doc_b298156f3445f448:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_b298156f3445f448:scheme2_generic",
+        "doc_b298156f3445f448:scheme2_3a",
+        "doc_b298156f3445f448:scheme2_3b",
+        "doc_b298156f3445f448:scheme2_3c",
+        "doc_b298156f3445f448:scheme2_3d",
+        "doc_b298156f3445f448:scheme2_3e",
+        "doc_b298156f3445f448:scheme2_3f",
+        "doc_b298156f3445f448:scheme2_3g",
+        "doc_b298156f3445f448:scheme2_3h",
+        "doc_b298156f3445f448:scheme2_3i",
+        "doc_b298156f3445f448:scheme2_3j",
+        "doc_b298156f3445f448:scheme2_3k",
+        "doc_b298156f3445f448:scheme2_3l",
+        "doc_b298156f3445f448:scheme2_3m",
+        "doc_b298156f3445f448:scheme2_3n",
+        "doc_b298156f3445f448:scheme2_3o",
+        "doc_b298156f3445f448:scheme2_3p",
+        "doc_b298156f3445f448:scheme2_3q",
+        "doc_b298156f3445f448:scheme2_3r",
+        "doc_b298156f3445f448:scheme2_3s",
+        "doc_b298156f3445f448:scheme2_3t",
+        "doc_b298156f3445f448:scheme2_3u",
+        "doc_b298156f3445f448:scheme4a_scaleup_3a",
+        "doc_b298156f3445f448:scheme4b_reduction_3ab",
+        "doc_b298156f3445f448:scheme4c_control_no_base",
+        "doc_b298156f3445f448:scheme4d_control_methyl_ether",
+        "doc_b298156f3445f448:scheme4e_deuterium_labeling",
+        "doc_b298156f3445f448:scheme5_proposed_cycle"
+      ],
+      "unresolved": [
+        "The source mass conflict for the scale-up (1.81 g versus 1.44 g) remains unresolved.",
+        "Candidate product SMILES encode E geometry but leave the new tetrahedral center untagged pending expert atom-level mapping.",
+        "No complete atom-mapped reaction is claimed; bond classification is partial.",
+        "The 3s e.r. value is reported as 93:8 and was not silently normalized."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 generic arrow, product drawings 5a-5f, and footnote",
+          "finding": "One generic scheme and six independent alpha-naphthol scope experiments. The footnote calls the 0.2 mmol substrate 1, whereas the arrow/general procedure call it 4; this label conflict is retained.",
+          "evidence_ids": ["doc_b298156f3445f448:page4:image", "doc_b298156f3445f448:page4:text"]
+        },
+        {
+          "region": "Scheme 4a-e",
+          "finding": "Five separate experiments: preparative scale-up, NaBH4 reduction, base-free control, methyl-ether no-reaction control, and D2O labeling. The no-reaction control has no fabricated product.",
+          "evidence_ids": ["doc_b298156f3445f448:page4:image", "doc_b298156f3445f448:page4:text"]
+        },
+        {
+          "region": "Scheme 5 proposed catalytic cycle",
+          "finding": "Recorded as a proposed mechanism, not as an observed mechanistic experiment.",
+          "evidence_ids": ["doc_b298156f3445f448:page4:image", "doc_b298156f3445f448:page4:text"]
+        },
+        {
+          "region": "Experimental Section and beta/alpha general-procedure text",
+          "finding": "General procedures were inherited into the matching scope records: sealed tube, PO, Pd2(dba)3, TMG, (R,R)-L5, 60 °C, noble-gas protection, TLC completion, concentration, and flash chromatography.",
+          "evidence_ids": ["doc_b298156f3445f448:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_b298156f3445f448:scheme3_generic",
+        "doc_b298156f3445f448:scheme3_5a",
+        "doc_b298156f3445f448:scheme3_5b",
+        "doc_b298156f3445f448:scheme3_5c",
+        "doc_b298156f3445f448:scheme3_5d",
+        "doc_b298156f3445f448:scheme3_5e",
+        "doc_b298156f3445f448:scheme3_5f",
+        "doc_b298156f3445f448:scheme4a_scaleup_3a",
+        "doc_b298156f3445f448:scheme4b_reduction_3ab",
+        "doc_b298156f3445f448:scheme4c_control_no_base",
+        "doc_b298156f3445f448:scheme4d_control_methyl_ether",
+        "doc_b298156f3445f448:scheme4e_deuterium_labeling",
+        "doc_b298156f3445f448:scheme5_proposed_cycle"
+      ],
+      "unresolved": [
+        "Scheme 3 source-label conflict (1 versus 4) remains explicit.",
+        "Scale-up mass conflict remains explicit.",
+        "Control and labeling experiments cite 'standard conditions' without fully restating every charge on the scheme; missing details were not invented.",
+        "The proposed intermediates in Scheme 5 were not asserted as isolated or directly observed species."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "continuation of alpha-naphthol general procedure",
+          "finding": "Completes the operation sequence used by Scheme 3 records; the text says 'provide 6' although the scheme labels products 5, so this wording is not used to create a new product series.",
+          "evidence_ids": ["doc_b298156f3445f448:page5:image", "doc_b298156f3445f448:page5:text"]
+        },
+        {
+          "region": "Procedure for synthesis of alcohol and page-spanning reduction text",
+          "finding": "Provides explicit 3a, NaBH4, MeOH charges, 5 h at room temperature, crude 1H NMR d.r. measurement, solvent removal, and PE/EtOAc 9:1 chromatography for Scheme 4b. Heading says alcohol 6a, body says 3ab; both labels are retained as a source inconsistency.",
+          "evidence_ids": ["doc_b298156f3445f448:page5:image", "doc_b298156f3445f448:page5:text"]
+        },
+        {
+          "region": "preparation/characterization paragraphs for 3a-3i",
+          "finding": "Product masses, repeated yields, and product-specific chiral-HPLC methods were merged into the matching Scheme 2 records. NMR/HRMS/rotation data are characterization context, not separate syntheses.",
+          "evidence_ids": ["doc_b298156f3445f448:page5:image", "doc_b298156f3445f448:page5:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_b298156f3445f448:scheme3_5a",
+        "doc_b298156f3445f448:scheme3_5b",
+        "doc_b298156f3445f448:scheme3_5c",
+        "doc_b298156f3445f448:scheme3_5d",
+        "doc_b298156f3445f448:scheme3_5e",
+        "doc_b298156f3445f448:scheme3_5f",
+        "doc_b298156f3445f448:scheme4b_reduction_3ab",
+        "doc_b298156f3445f448:scheme2_3a",
+        "doc_b298156f3445f448:scheme2_3b",
+        "doc_b298156f3445f448:scheme2_3c",
+        "doc_b298156f3445f448:scheme2_3d",
+        "doc_b298156f3445f448:scheme2_3e",
+        "doc_b298156f3445f448:scheme2_3f",
+        "doc_b298156f3445f448:scheme2_3g",
+        "doc_b298156f3445f448:scheme2_3h",
+        "doc_b298156f3445f448:scheme2_3i"
+      ],
+      "unresolved": [
+        "The alpha-procedure sentence says 'provide 6' while Scheme 3 products are 5a-5f.",
+        "The reduction heading says alcohol 6a while the body/scheme say 3ab.",
+        "Spectral assignments were preserved as context and were not independently checked peak-by-peak.",
+        "The general procedure says noble gas protection without naming the gas."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top-left continuation of 3i HPLC/HRMS paragraph",
+          "finding": "Completes the 3i minor retention time and HRMS context; this is a continuation of the existing 3i scope experiment.",
+          "evidence_ids": ["doc_b298156f3445f448:page6:image", "doc_b298156f3445f448:page6:text"]
+        },
+        {
+          "region": "preparation/characterization paragraphs for 3j-3s",
+          "finding": "Product masses, repeated yields, and chiral-HPLC methods were merged into the corresponding Scheme 2 records. The page contains no additional reaction arrow or independent synthesis beyond these continuations.",
+          "evidence_ids": ["doc_b298156f3445f448:page6:image", "doc_b298156f3445f448:page6:text"]
+        },
+        {
+          "region": "spectral, rotation, and HRMS data throughout both columns",
+          "finding": "Retained as characterization context; molecular-ion values, NMR peaks, and retention times are not modeled as separate reactions.",
+          "evidence_ids": ["doc_b298156f3445f448:page6:image", "doc_b298156f3445f448:page6:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_b298156f3445f448:scheme2_3i",
+        "doc_b298156f3445f448:scheme2_3j",
+        "doc_b298156f3445f448:scheme2_3k",
+        "doc_b298156f3445f448:scheme2_3l",
+        "doc_b298156f3445f448:scheme2_3m",
+        "doc_b298156f3445f448:scheme2_3n",
+        "doc_b298156f3445f448:scheme2_3o",
+        "doc_b298156f3445f448:scheme2_3p",
+        "doc_b298156f3445f448:scheme2_3q",
+        "doc_b298156f3445f448:scheme2_3r",
+        "doc_b298156f3445f448:scheme2_3s"
+      ],
+      "unresolved": [
+        "Spectral assignments and HRMS arithmetic were not independently verified and remain characterization context.",
+        "The 3s ratio remains source-reported as 93:8 e.r. without correction.",
+        "No claim is made that later pages or unavailable SI were semantically covered."
+      ]
+    }
+  ]
+}

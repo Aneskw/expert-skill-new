@@ -1,0 +1,70 @@
+{
+  "document_id": "doc_a52c76191d5b058b",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper half: Scheme 3, Proposal Mechanism",
+          "finding": "Author-proposed Pd/photoredox catalytic cycle with 1a, generic allene 2, intermediates A-D, competing ester 5aa, product 3, Pd(0/I/II/III) and Ir(II/III) redox arrows. Merged into the existing proposed_mechanism record, not treated as experimental proof.",
+          "evidence_ids": [
+            "doc_a52c76191d5b058b:page7:image",
+            "doc_a52c76191d5b058b:page7:text"
+          ]
+        },
+        {
+          "region": "lower left: Associated Content / Supporting Information",
+          "finding": "The article states that SI contains experimental procedures, characterization, and X-ray data for (2S,3S)-3al (CCDC 1999447). The absolute assignment was attached to m_3al; no SI/CCDC file was associated.",
+          "evidence_ids": [
+            "doc_a52c76191d5b058b:page7:image",
+            "doc_a52c76191d5b058b:page7:text"
+          ]
+        },
+        {
+          "region": "lower left: Author Information, Author Contributions, Notes, Acknowledgments",
+          "finding": "Bibliographic and administrative content; no synthetic experiment or standalone characterization table.",
+          "evidence_ids": [
+            "doc_a52c76191d5b058b:page7:image",
+            "doc_a52c76191d5b058b:page7:text"
+          ]
+        },
+        {
+          "region": "lower right: References 1-4",
+          "finding": "Cited reviews/prior literature, not experiments performed in the current article.",
+          "evidence_ids": [
+            "doc_a52c76191d5b058b:page7:image",
+            "doc_a52c76191d5b058b:page7:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a52c76191d5b058b:proposed_mechanism_text"
+      ],
+      "unresolved": [
+        "The SI and CCDC 1999447 structure file are mentioned but not supplied or explicitly associated in the workspace.",
+        "Generic R and L_n groups prevent unique SMILES and complete stereochemical encoding for Scheme 3 entities.",
+        "Intermediates A-D are proposed and not claimed as isolated or directly observed on this page."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "full page: References 5-21",
+          "finding": "Reference list continuation only. It includes cited reviews, prior synthetic methods, the SI cross-reference, an er-derivatization explanation, and mechanistic prior art; none is a new experiment performed in the current paper on this page.",
+          "evidence_ids": [
+            "doc_a52c76191d5b058b:page8:image",
+            "doc_a52c76191d5b058b:page8:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Cited literature was not re-extracted as current-paper experiments; no reaction arrows, tables, or independent spectral peak lists appear on the page."
+      ]
+    }
+  ]
+}

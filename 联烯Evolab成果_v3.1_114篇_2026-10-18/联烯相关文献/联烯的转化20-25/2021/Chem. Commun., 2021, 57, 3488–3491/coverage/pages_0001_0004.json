@@ -1,0 +1,199 @@
+{
+  "document_id": "doc_dbfa3548c0baadcd",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, DOI, authors, and ESI notice",
+          "finding": "Article metadata were confirmed visually. The paper advertises ESI, but no SI file was supplied or associated.",
+          "evidence_ids": [
+            "doc_dbfa3548c0baadcd:page1:text",
+            "doc_dbfa3548c0baadcd:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1a",
+          "finding": "Conceptual overview of cited γ-addition and α-addition/twofold-addition modes. These are generic literature families, not concrete current-paper experiments.",
+          "evidence_ids": [
+            "doc_dbfa3548c0baadcd:page1:text",
+            "doc_dbfa3548c0baadcd:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1b and adjacent design prose",
+          "finding": "Current-work generic (4+1) annulation design and proposed intermediates; represented as one generic scheme, not an executed experiment.",
+          "evidence_ids": [
+            "doc_dbfa3548c0baadcd:page1:text",
+            "doc_dbfa3548c0baadcd:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_dbfa3548c0baadcd:literature_gamma_addition",
+        "doc_dbfa3548c0baadcd:literature_alpha_addition",
+        "doc_dbfa3548c0baadcd:generic_scheme"
+      ],
+      "unresolved": [
+        "Scheme 1a groups broad cited precedents and does not provide concrete substrate-specific conditions or yields.",
+        "Proposed intermediates in Scheme 1b are not experimentally isolated records."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1, all ten printed data rows and footnotes a–b",
+          "finding": "Ten distinct optimization experiments were inventoried. The table visibly repeats entry number 4; the anisylphosphine optimum is the second printed entry 4, while prose calls it entry 5. All table yields use the isolated-yield footnote.",
+          "evidence_ids": [
+            "doc_dbfa3548c0baadcd:page2:text",
+            "doc_dbfa3548c0baadcd:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 2 header and products 3a–3s",
+          "finding": "All 19 scope outcomes were inventoried. Product 3a duplicates the optimized anisylphosphine 71% Table 1 experiment and was merged with it; products 3b–3s are 18 additional experiments.",
+          "evidence_ids": [
+            "doc_dbfa3548c0baadcd:page2:text",
+            "doc_dbfa3548c0baadcd:page2:image"
+          ]
+        },
+        {
+          "region": "scope discussion below Scheme 2 and lower-right continuation",
+          "finding": "Prose confirms the substrate series, yields for selected products, and the distinct N-acylpyrazole outcome 4; it does not state a common yield measurement basis for Scheme 2 or Scheme 3.",
+          "evidence_ids": [
+            "doc_dbfa3548c0baadcd:page2:text",
+            "doc_dbfa3548c0baadcd:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_dbfa3548c0baadcd:generic_scheme",
+        "doc_dbfa3548c0baadcd:table1_entry1",
+        "doc_dbfa3548c0baadcd:table1_entry2",
+        "doc_dbfa3548c0baadcd:table1_entry3",
+        "doc_dbfa3548c0baadcd:table1_entry4_nbu",
+        "doc_dbfa3548c0baadcd:table1_entry4_panisyl",
+        "doc_dbfa3548c0baadcd:table1_entry5",
+        "doc_dbfa3548c0baadcd:table1_entry6",
+        "doc_dbfa3548c0baadcd:table1_entry7",
+        "doc_dbfa3548c0baadcd:table1_entry8",
+        "doc_dbfa3548c0baadcd:table1_entry9",
+        "doc_dbfa3548c0baadcd:scheme2_3b",
+        "doc_dbfa3548c0baadcd:scheme2_3c",
+        "doc_dbfa3548c0baadcd:scheme2_3d",
+        "doc_dbfa3548c0baadcd:scheme2_3e",
+        "doc_dbfa3548c0baadcd:scheme2_3f",
+        "doc_dbfa3548c0baadcd:scheme2_3g",
+        "doc_dbfa3548c0baadcd:scheme2_3h",
+        "doc_dbfa3548c0baadcd:scheme2_3i",
+        "doc_dbfa3548c0baadcd:scheme2_3j",
+        "doc_dbfa3548c0baadcd:scheme2_3k",
+        "doc_dbfa3548c0baadcd:scheme2_3l",
+        "doc_dbfa3548c0baadcd:scheme2_3m",
+        "doc_dbfa3548c0baadcd:scheme2_3n",
+        "doc_dbfa3548c0baadcd:scheme2_3o",
+        "doc_dbfa3548c0baadcd:scheme2_3p",
+        "doc_dbfa3548c0baadcd:scheme2_3q",
+        "doc_dbfa3548c0baadcd:scheme2_3r",
+        "doc_dbfa3548c0baadcd:scheme2_3s",
+        "doc_dbfa3548c0baadcd:scheme3_product4"
+      ],
+      "unresolved": [
+        "Scheme 2 and Scheme 3 do not state yield measurement methods on this page.",
+        "Most scope absolute charges, solvent volume, atmosphere, workup, and purification are unavailable because SI was not supplied.",
+        "Compact product structures lack explicit absolute-configuration and alkene-geometry assignments."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 and its continued discussion",
+          "finding": "One concrete N-acylpyrazole/allenoate experiment gives product 4 in 30%; mechanistic intermediates E/F and the pathway discussion are not separate experiments.",
+          "evidence_ids": [
+            "doc_dbfa3548c0baadcd:page3:text",
+            "doc_dbfa3548c0baadcd:page3:image"
+          ]
+        },
+        {
+          "region": "equation (1)",
+          "finding": "Two distinct PtBu3-catalysed experiments were recorded because Na2CO3 and NaOH give separate 27% and 69% product-5 outcomes.",
+          "evidence_ids": [
+            "doc_dbfa3548c0baadcd:page3:text",
+            "doc_dbfa3548c0baadcd:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 4",
+          "finding": "Author-proposed mechanism with paths to 3a and 5; retained as one proposed-mechanism record, not a collection of executed intermediate reactions.",
+          "evidence_ids": [
+            "doc_dbfa3548c0baadcd:page3:text",
+            "doc_dbfa3548c0baadcd:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 5",
+          "finding": "Two concrete experiments: 1.0 mmol scale annulation to 3g (0.28 g, 57%) and a separate intramolecular Heck conversion of 3g to 6 (73%).",
+          "evidence_ids": [
+            "doc_dbfa3548c0baadcd:page3:text",
+            "doc_dbfa3548c0baadcd:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_dbfa3548c0baadcd:scheme3_product4",
+        "doc_dbfa3548c0baadcd:eq1_ptbu3_na2co3",
+        "doc_dbfa3548c0baadcd:eq1_ptbu3_naoh",
+        "doc_dbfa3548c0baadcd:scheme4_proposed_mechanism",
+        "doc_dbfa3548c0baadcd:scheme5_scaleup_3g",
+        "doc_dbfa3548c0baadcd:scheme5_heck_to6",
+        "doc_dbfa3548c0baadcd:no_phosphine_product5_control"
+      ],
+      "unresolved": [
+        "Scheme-level yields do not report measurement bases.",
+        "Equation (1), Scheme 3, and Scheme 5 omit workup and purification details on the covered pages.",
+        "The discussion mentions the no-phosphine control, but its detailed conditions are only incompletely described in footnote 12."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 1–11",
+          "finding": "Bibliography only; cited papers were not imported as current-paper experiments.",
+          "evidence_ids": [
+            "doc_dbfa3548c0baadcd:page4:text",
+            "doc_dbfa3548c0baadcd:page4:image"
+          ]
+        },
+        {
+          "region": "reference footnote 12",
+          "finding": "A real negative mechanistic control states that reaction of 1a and 2 without phosphine catalyst gave no detectable product 5. The footnote does not specify which base variant or the detection method.",
+          "evidence_ids": [
+            "doc_dbfa3548c0baadcd:page4:text",
+            "doc_dbfa3548c0baadcd:page4:image"
+          ]
+        },
+        {
+          "region": "entire page spectral/table inventory",
+          "finding": "No current synthesis arrow, optimization table, standalone mass-spectrum peak table, molecular-weight table, or fragment-relative-abundance block is present beyond the footnote control.",
+          "evidence_ids": [
+            "doc_dbfa3548c0baadcd:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_dbfa3548c0baadcd:no_phosphine_product5_control"
+      ],
+      "unresolved": [
+        "The no-phosphine control's base, scale, temperature, time, atmosphere, and detection method are unreported in footnote 12 and were not inferred."
+      ]
+    }
+  ]
+}

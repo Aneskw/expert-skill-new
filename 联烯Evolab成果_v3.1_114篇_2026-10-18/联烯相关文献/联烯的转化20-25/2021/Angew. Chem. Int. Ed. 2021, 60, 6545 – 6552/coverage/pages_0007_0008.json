@@ -1,0 +1,93 @@
+{
+  "document_id": "doc_1ba437add780cf5e",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column, Scheme 6 upper route",
+          "finding": "Four current-paper arrows: 2 mmol L13-Pd/L1-Cu coupling to (2S,3S)-3ha; DDQ deprotection to 6a; Hoveyda-Grubbs-II cross-metathesis with 7 to 8a; three-stage c-e conversion to mycestericin F·HCl.",
+          "evidence_ids": [
+            "doc_1ba437add780cf5e:page7:image",
+            "doc_1ba437add780cf5e:page7:text"
+          ]
+        },
+        {
+          "region": "left column, Scheme 6 lower route",
+          "finding": "Four current-paper arrows: 2 mmol L3-Pd/L3-Ag coupling to scheme-labelled (2S,3R)-4hb; DDQ deprotection to 6b; cross-metathesis with 7 to 8b; three-stage c-e conversion to mycestericin G·HCl. The 4hb scheme label conflicts with page-6 prose label 3hb.",
+          "evidence_ids": [
+            "doc_1ba437add780cf5e:page7:image",
+            "doc_1ba437add780cf5e:page7:text"
+          ]
+        },
+        {
+          "region": "Scheme 6 caption and footnote conditions a-e",
+          "finding": "Explicit reagents, solvents, temperatures/times, Pd/C loading, H2 pressure, solution concentrations, and PMB definition were assigned to the corresponding arrows; c-e yields were retained as overall multistep yields.",
+          "evidence_ids": [
+            "doc_1ba437add780cf5e:page7:image",
+            "doc_1ba437add780cf5e:page7:text"
+          ]
+        },
+        {
+          "region": "conflict-of-interest, keywords, and references [1]-[14]",
+          "finding": "Non-experimental context and cited literature; no additional current-paper experiment was created.",
+          "evidence_ids": [
+            "doc_1ba437add780cf5e:page7:image",
+            "doc_1ba437add780cf5e:page7:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_1ba437add780cf5e:scheme6_scaled_3ha",
+        "doc_1ba437add780cf5e:scheme6_deprotection_6a",
+        "doc_1ba437add780cf5e:scheme6_metathesis_8a",
+        "doc_1ba437add780cf5e:scheme6_to_mycestericin_F",
+        "doc_1ba437add780cf5e:scheme6_syn_3hb",
+        "doc_1ba437add780cf5e:scheme6_deprotection_6b",
+        "doc_1ba437add780cf5e:scheme6_metathesis_8b",
+        "doc_1ba437add780cf5e:scheme6_to_mycestericin_G"
+      ],
+      "unresolved": [
+        "Page-6 prose labels the syn product (2S,3R)-3hb, while page-7 Scheme 6 labels it (2S,3R)-4hb; both are retained without choosing.",
+        "Scheme 6 does not state most charges/volumes, coupling temperature/time, purification, yield measurement methods, dr/ee methods, or E/Z assignments for 8a/8b.",
+        "Complex Scheme 6 structures were not forced into complete isomeric SMILES; source drawings and explicit stereo assignments remain primary evidence."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "two-column references [14]-[30]",
+          "finding": "Bibliography only; cited papers are not current-paper experiments.",
+          "evidence_ids": [
+            "doc_1ba437add780cf5e:page8:image",
+            "doc_1ba437add780cf5e:page8:text"
+          ]
+        },
+        {
+          "region": "references [24]-[28] mechanistic/crystallographic notes",
+          "finding": "Author discussion and external CCDC 2036502 availability notice; no supplied CIF/SI and no new executed experiment on this page.",
+          "evidence_ids": [
+            "doc_1ba437add780cf5e:page8:image",
+            "doc_1ba437add780cf5e:page8:text"
+          ]
+        },
+        {
+          "region": "manuscript received/revised/accepted/version dates",
+          "finding": "Publication metadata; no reaction arrow, table row, experimental procedure, or standalone mass-spectrum/fragment table.",
+          "evidence_ids": [
+            "doc_1ba437add780cf5e:page8:image",
+            "doc_1ba437add780cf5e:page8:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "External references and CCDC 2036502 were not supplied as associated documents and were not imported."
+      ]
+    }
+  ]
+}

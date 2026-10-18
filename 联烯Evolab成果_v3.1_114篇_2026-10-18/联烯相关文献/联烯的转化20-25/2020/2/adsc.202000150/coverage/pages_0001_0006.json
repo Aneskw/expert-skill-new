@@ -1,0 +1,247 @@
+{
+  "document_id": "doc_65d1cdf1cb09f398",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and both body-text columns",
+          "finding": "Bibliographic metadata and study overview; no current-paper reaction arrow/table row on this page.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page1:image",
+            "doc_65d1cdf1cb09f398:page1:text"
+          ]
+        },
+        {
+          "region": "Supporting Information notice",
+          "finding": "SI availability is advertised, but no SI was supplied or explicitly associated.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page1:image",
+            "doc_65d1cdf1cb09f398:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No SI association is established."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1",
+          "finding": "Bioactive 4H-pyran context only; not a current-paper synthetic experiment.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 1",
+          "finding": "This-paper generic bifunctional-phosphonium [4+2] strategy; recorded as a generic scheme.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page2:image",
+            "doc_65d1cdf1cb09f398:page2:text"
+          ]
+        },
+        {
+          "region": "right-column optimization discussion",
+          "finding": "Narrative descriptions of Table 1 entries; merged into the page-3 row records rather than duplicated.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page2:image",
+            "doc_65d1cdf1cb09f398:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_65d1cdf1cb09f398:scheme1_generic"
+      ],
+      "unresolved": [
+        "Scheme 1 variable attachment details remain template-level."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 reaction drawing, catalyst drawings P1-P10, rows 1-15, and footnotes a-f",
+          "finding": "Fifteen optimization experiments recorded separately; printed reactant unit 'equiv.' retained as unresolved.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page3:image",
+            "doc_65d1cdf1cb09f398:page3:text"
+          ]
+        },
+        {
+          "region": "Table 2 generic arrow, product rows 3a-3l, X-ray inset, and footnotes a-c",
+          "finding": "One generic scheme plus twelve scope rows, including 3g no reaction and 3h X-ray assignment.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page3:image",
+            "doc_65d1cdf1cb09f398:page3:text"
+          ]
+        },
+        {
+          "region": "lower prose",
+          "finding": "Scope narrative cross-checked against product rows; not duplicated as new experiments.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page3:image",
+            "doc_65d1cdf1cb09f398:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_65d1cdf1cb09f398:table1_entry_01",
+        "doc_65d1cdf1cb09f398:table1_entry_02",
+        "doc_65d1cdf1cb09f398:table1_entry_03",
+        "doc_65d1cdf1cb09f398:table1_entry_04",
+        "doc_65d1cdf1cb09f398:table1_entry_05",
+        "doc_65d1cdf1cb09f398:table1_entry_06",
+        "doc_65d1cdf1cb09f398:table1_entry_07",
+        "doc_65d1cdf1cb09f398:table1_entry_08",
+        "doc_65d1cdf1cb09f398:table1_entry_09",
+        "doc_65d1cdf1cb09f398:table1_entry_10",
+        "doc_65d1cdf1cb09f398:table1_entry_11",
+        "doc_65d1cdf1cb09f398:table1_entry_12",
+        "doc_65d1cdf1cb09f398:table1_entry_13",
+        "doc_65d1cdf1cb09f398:table1_entry_14",
+        "doc_65d1cdf1cb09f398:table1_entry_15",
+        "doc_65d1cdf1cb09f398:table2_generic",
+        "doc_65d1cdf1cb09f398:table2_3a",
+        "doc_65d1cdf1cb09f398:table2_3b",
+        "doc_65d1cdf1cb09f398:table2_3c",
+        "doc_65d1cdf1cb09f398:table2_3d",
+        "doc_65d1cdf1cb09f398:table2_3e",
+        "doc_65d1cdf1cb09f398:table2_3f",
+        "doc_65d1cdf1cb09f398:table2_3g",
+        "doc_65d1cdf1cb09f398:table2_3h",
+        "doc_65d1cdf1cb09f398:table2_3i",
+        "doc_65d1cdf1cb09f398:table2_3j",
+        "doc_65d1cdf1cb09f398:table2_3k",
+        "doc_65d1cdf1cb09f398:table2_3l"
+      ],
+      "unresolved": [
+        "Most compact structures are not encoded as concrete SMILES.",
+        "Table 1 0.05/0.075 'equiv.' denominator is not stated."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 3 generic arrow, product rows 5a-5k, X-ray inset, and footnotes a-c",
+          "finding": "One generic scheme and eleven scope experiments recorded; 5c X-ray assignment retained.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page4:image",
+            "doc_65d1cdf1cb09f398:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 2a",
+          "finding": "Preparative 1 mmol-scale synthesis of 3h recorded separately from Table 2.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page4:image",
+            "doc_65d1cdf1cb09f398:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 2b",
+          "finding": "FeCl3-mediated hydrolysis of 3h to 6 recorded as derivatization.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page4:image",
+            "doc_65d1cdf1cb09f398:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 2c",
+          "finding": "D2O deuterium-labelling annulation recorded as a mechanistic-study experiment.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page4:image",
+            "doc_65d1cdf1cb09f398:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_65d1cdf1cb09f398:table3_generic",
+        "doc_65d1cdf1cb09f398:table3_5a",
+        "doc_65d1cdf1cb09f398:table3_5b",
+        "doc_65d1cdf1cb09f398:table3_5c",
+        "doc_65d1cdf1cb09f398:table3_5d",
+        "doc_65d1cdf1cb09f398:table3_5e",
+        "doc_65d1cdf1cb09f398:table3_5f",
+        "doc_65d1cdf1cb09f398:table3_5g",
+        "doc_65d1cdf1cb09f398:table3_5h",
+        "doc_65d1cdf1cb09f398:table3_5i",
+        "doc_65d1cdf1cb09f398:table3_5j",
+        "doc_65d1cdf1cb09f398:table3_5k",
+        "doc_65d1cdf1cb09f398:scheme2a_scaleup_3h",
+        "doc_65d1cdf1cb09f398:scheme2b_hydrolysis_6",
+        "doc_65d1cdf1cb09f398:scheme2c_deuterium"
+      ],
+      "unresolved": [
+        "Scheme 2 omits several quantities, workups, and measurement methods."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 4 generic drawing, rows 1-5, and footnotes a-e",
+          "finding": "One generic control scheme and five distinct control experiments; MeOH row retained as messy/no-major-product without inventing a product.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page5:image",
+            "doc_65d1cdf1cb09f398:page5:text"
+          ]
+        },
+        {
+          "region": "TS1 drawing and surrounding prose",
+          "finding": "Proposed stereocontrol transition-state model recorded as proposed mechanism, not experimental proof.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page5:image",
+            "doc_65d1cdf1cb09f398:page5:text"
+          ]
+        },
+        {
+          "region": "General Procedures for products 3 and 5",
+          "finding": "Amounts, TLC endpoint, filtration/wash/evaporation, and chromatography gradient inherited only by the matching Table 2/3 scope records.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page5:image",
+            "doc_65d1cdf1cb09f398:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_65d1cdf1cb09f398:table4_generic",
+        "doc_65d1cdf1cb09f398:table4_entry_01",
+        "doc_65d1cdf1cb09f398:table4_entry_02",
+        "doc_65d1cdf1cb09f398:table4_entry_03",
+        "doc_65d1cdf1cb09f398:table4_entry_04",
+        "doc_65d1cdf1cb09f398:table4_entry_05",
+        "doc_65d1cdf1cb09f398:ts1_proposed_stereo_model"
+      ],
+      "unresolved": [
+        "Compound-specific SI procedures and characterization are unavailable."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "acknowledgements continuation and references [1]-[15]",
+          "finding": "No current-paper experiment, reaction arrow, table row, or standalone spectrum; citations were not treated as new experiments.",
+          "evidence_ids": [
+            "doc_65d1cdf1cb09f398:page6:image",
+            "doc_65d1cdf1cb09f398:page6:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

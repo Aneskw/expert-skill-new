@@ -1,0 +1,32 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "literature_example": 3,
+    "general_scheme": 2,
+    "optimization_entry": 13,
+    "substrate_scope_entry": 17,
+    "reported_experiment": 3,
+    "mechanism": 1
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_d9d234c1ff998484"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_d9d234c1ff998484:scheme2_4j_scaleup",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_d9d234c1ff998484:page2:image",
+        "doc_d9d234c1ff998484:page2:text",
+        "doc_d9d234c1ff998484:page3:image",
+        "doc_d9d234c1ff998484:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    }
+  ]
+}

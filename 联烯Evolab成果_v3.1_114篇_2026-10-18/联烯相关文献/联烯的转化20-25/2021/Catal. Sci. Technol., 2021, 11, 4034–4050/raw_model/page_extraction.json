@@ -1,0 +1,131 @@
+{
+  "document_id": "doc_837adcd3d5d8cb7b",
+  "pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "source_images": {
+    "1": "assets/doc_837adcd3d5d8cb7b/page1.jpg",
+    "2": "assets/doc_837adcd3d5d8cb7b/page2.jpg",
+    "3": "assets/doc_837adcd3d5d8cb7b/page3.jpg",
+    "4": "assets/doc_837adcd3d5d8cb7b/page4.jpg",
+    "5": "assets/doc_837adcd3d5d8cb7b/page5.jpg",
+    "6": "assets/doc_837adcd3d5d8cb7b/page6.jpg"
+  },
+  "page_inventory": [
+    {
+      "page": 1,
+      "items": [
+        "cover artwork and graphical reaction/speciation summary",
+        "no independent experimental table or arrow"
+      ],
+      "record_ids": []
+    },
+    {
+      "page": 2,
+      "items": [
+        "title/abstract/DOI",
+        "Scheme 1a cited prior work",
+        "Scheme 1b current generic transformation",
+        "ESI availability notice only"
+      ],
+      "record_ids": [
+        "doc_837adcd3d5d8cb7b:literature_dehydropolymerisation",
+        "doc_837adcd3d5d8cb7b:scheme1_current_dehydrocoupling"
+      ]
+    },
+    {
+      "page": 3,
+      "items": [
+        "Figure 1 six catalyst-loading curves",
+        "Figure 1 11B NMR product-distribution run",
+        "Scheme 1 repeated generic transformation"
+      ],
+      "record_ids": [
+        "doc_837adcd3d5d8cb7b:literature_dehydropolymerisation",
+        "doc_837adcd3d5d8cb7b:scheme1_current_dehydrocoupling",
+        "doc_837adcd3d5d8cb7b:catalyst_loading_0_63",
+        "doc_837adcd3d5d8cb7b:catalyst_loading_1_25",
+        "doc_837adcd3d5d8cb7b:catalyst_loading_2_00",
+        "doc_837adcd3d5d8cb7b:catalyst_loading_2_50",
+        "doc_837adcd3d5d8cb7b:catalyst_loading_3_75",
+        "doc_837adcd3d5d8cb7b:catalyst_loading_5_00",
+        "doc_837adcd3d5d8cb7b:nmr_product_distribution"
+      ]
+    },
+    {
+      "page": 4,
+      "items": [
+        "three deuterated-substrate mechanistic experiments",
+        "Figure 2 baseline plus four distinct poison/complex comparisons",
+        "Scheme 2 two synthesis arrows"
+      ],
+      "record_ids": [
+        "doc_837adcd3d5d8cb7b:nmr_product_distribution",
+        "doc_837adcd3d5d8cb7b:isotope_d3b_nme2h",
+        "doc_837adcd3d5d8cb7b:isotope_h3b_nme2d",
+        "doc_837adcd3d5d8cb7b:isotope_d3b_nme2d",
+        "doc_837adcd3d5d8cb7b:nme2h_poison",
+        "doc_837adcd3d5d8cb7b:bh3_poison",
+        "doc_837adcd3d5d8cb7b:catalysis_complex4",
+        "doc_837adcd3d5d8cb7b:catalysis_complex5",
+        "doc_837adcd3d5d8cb7b:synthesis_complex4",
+        "doc_837adcd3d5d8cb7b:synthesis_complex5"
+      ]
+    },
+    {
+      "page": 5,
+      "items": [
+        "Scheme/figure 3 stepwise methylation",
+        "UV-vis 2-equiv activation",
+        "two NMR activation experiments",
+        "MeLi dilution/speciation control",
+        "complex 5 inactivity continuation"
+      ],
+      "record_ids": [
+        "doc_837adcd3d5d8cb7b:scheme_activation_sequence",
+        "doc_837adcd3d5d8cb7b:nme2h_poison",
+        "doc_837adcd3d5d8cb7b:bh3_poison",
+        "doc_837adcd3d5d8cb7b:catalysis_complex4",
+        "doc_837adcd3d5d8cb7b:catalysis_complex5",
+        "doc_837adcd3d5d8cb7b:synthesis_complex5",
+        "doc_837adcd3d5d8cb7b:activation_uvvis_2eq",
+        "doc_837adcd3d5d8cb7b:activation_nmr_2eq",
+        "doc_837adcd3d5d8cb7b:activation_nmr_1eq",
+        "doc_837adcd3d5d8cb7b:meli_uvvis_dilution",
+        "doc_837adcd3d5d8cb7b:isolation_complex6"
+      ]
+    },
+    {
+      "page": 6,
+      "items": [
+        "complex 6 isolation/XRD composition",
+        "Figure 5 direct baseline duplicate plus four alternative catalyst/activation protocols"
+      ],
+      "record_ids": [
+        "doc_837adcd3d5d8cb7b:scheme_activation_sequence",
+        "doc_837adcd3d5d8cb7b:catalyst_loading_2_50",
+        "doc_837adcd3d5d8cb7b:isolation_complex6",
+        "doc_837adcd3d5d8cb7b:catalysis_complex6_meli",
+        "doc_837adcd3d5d8cb7b:catalysis_complex2",
+        "doc_837adcd3d5d8cb7b:catalysis_in_situ_complex2",
+        "doc_837adcd3d5d8cb7b:catalysis_li_amidoborane"
+      ]
+    }
+  ],
+  "deduplication": [
+    "Figure 5 direct 1/MeLi curve was merged into catalyst_loading_2_50.",
+    "Scheme 1b is a generic scheme and was not counted as a concrete catalytic run.",
+    "The page-1 cover graphic was retained as source context only.",
+    "NMR/UV-vis/MS/XRD observations were not converted into standalone synthesis records unless they described a real activation/control experiment."
+  ],
+  "limitations": [
+    "Only pages 1-6 were visually inspected and claimed as covered.",
+    "Pages 13-15 extracted text was used only as necessary matching procedure context; those pages were not visually covered.",
+    "ESI was advertised but not supplied and was not associated."
+  ]
+}

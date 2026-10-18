@@ -1,0 +1,88 @@
+{
+  "document_id": "doc_403ed550996f2a54",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column top, continuation of compound 5d characterization",
+          "finding": "The 13C NMR list and HRMS for 5d continue from page 6; this is characterization of the existing Table 2 entry, not a new synthesis.",
+          "evidence_ids": [
+            "doc_403ed550996f2a54:page7:text",
+            "doc_403ed550996f2a54:page7:image"
+          ]
+        },
+        {
+          "region": "left column, compound 5e characterization paragraph",
+          "finding": "Full source name for 5e, 77% yield (0.490 g), physical properties, 1H/13C NMR, and HRMS; linked to the existing diyne_5 experiment.",
+          "evidence_ids": [
+            "doc_403ed550996f2a54:page7:text",
+            "doc_403ed550996f2a54:page7:image"
+          ]
+        },
+        {
+          "region": "left column lower half, Associated Content and author information",
+          "finding": "The article advertises NMR Supporting Information, but SI association remains unestablished and no SI facts were imported; author/funding metadata are not reactions.",
+          "evidence_ids": [
+            "doc_403ed550996f2a54:page7:text",
+            "doc_403ed550996f2a54:page7:image"
+          ]
+        },
+        {
+          "region": "right column, acknowledgments and references 1-3",
+          "finding": "Acknowledgments and cited bibliography only; cited titles are not current-paper experimental records on this page.",
+          "evidence_ids": [
+            "doc_403ed550996f2a54:page7:text",
+            "doc_403ed550996f2a54:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_403ed550996f2a54:diyne_4",
+        "doc_403ed550996f2a54:diyne_5"
+      ],
+      "unresolved": [
+        "Complete stereochemical graphs for 5d and 5e were not safely encoded from the bounded source.",
+        "The advertised SI was not supplied or explicitly associated."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "both columns, references 4-12",
+          "finding": "Bibliographic references only; there are no reaction arrows, tables, procedures, controls, or characterization blocks to record as this paper's experiments.",
+          "evidence_ids": [
+            "doc_403ed550996f2a54:page8:text",
+            "doc_403ed550996f2a54:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The cited papers were not supplied as source documents, so their experimental details were not extracted from citation titles."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper left, end of reference 12 and reference 13; remainder blank",
+          "finding": "Bibliography continuation only; no reaction arrow, table, procedure, mechanistic experiment, or characterization record is present.",
+          "evidence_ids": [
+            "doc_403ed550996f2a54:page9:text",
+            "doc_403ed550996f2a54:page9:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The cited book and catalyst paper were not supplied as source documents and were not treated as experiments in the current article."
+      ]
+    }
+  ]
+}

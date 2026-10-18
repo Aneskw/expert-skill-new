@@ -1,0 +1,302 @@
+{
+  "document_id": "doc_ef264899de17791f",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title and abstract",
+          "finding": "Article identity and the reported unexpected bridged selectivity; no standalone experiment arrow.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page1:image",
+            "doc_ef264899de17791f:page1:text"
+          ]
+        },
+        {
+          "region": "Figure 1",
+          "finding": "Six cited prior syntheses presented as background; no conditions/yields sufficient for concrete executions in this paper.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page1:image",
+            "doc_ef264899de17791f:page1:text"
+          ]
+        },
+        {
+          "region": "Results and Discussion, lower right",
+          "finding": "Narrative inventory of the Scheme 1 sequence 1→9→10→11→3, coupling with in-situ 4 from 12 to 13, and deprotection to 14.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page1:image",
+            "doc_ef264899de17791f:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ef264899de17791f:r01_1_to_9",
+        "doc_ef264899de17791f:r02_9_to_10",
+        "doc_ef264899de17791f:r03_10_to_11_primary",
+        "doc_ef264899de17791f:r05_11_to_3",
+        "doc_ef264899de17791f:r06_2_to_12",
+        "doc_ef264899de17791f:r07_3_plus_12_to_13",
+        "doc_ef264899de17791f:r08_13_to_14"
+      ],
+      "unresolved": [
+        "Figure 1 does not provide enough experimental detail to reconstruct cited executions; it remains source_context."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 2",
+          "finding": "Retrosynthetic arrows and anticipated/known intermediates; planning context, not experimental executions.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page2:image",
+            "doc_ef264899de17791f:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 1",
+          "finding": "Seven current-work synthetic arrows with reported conditions/yields, linked to detailed records and later procedures.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page2:image",
+            "doc_ef264899de17791f:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 2",
+          "finding": "Actual tandem cycloaddition of 14 gives 18 (54%) and 19 (44%); intermediate arrows 15–17 are proposed mechanism.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page2:image",
+            "doc_ef264899de17791f:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 3",
+          "finding": "Author-proposed singlet/triplet and radical pathway, including 5-exo/6-endo closure and 1,4-HAT; separately classified as proposed_mechanism.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page2:image",
+            "doc_ef264899de17791f:page2:text"
+          ]
+        },
+        {
+          "region": "lower-right prose",
+          "finding": "Narrative preview of modified Scheme 4 and reported 21 dr 5:1 / products 23 and 24.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page2:image",
+            "doc_ef264899de17791f:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ef264899de17791f:r01_1_to_9",
+        "doc_ef264899de17791f:r02_9_to_10",
+        "doc_ef264899de17791f:r03_10_to_11_primary",
+        "doc_ef264899de17791f:r05_11_to_3",
+        "doc_ef264899de17791f:r06_2_to_12",
+        "doc_ef264899de17791f:r07_3_plus_12_to_13",
+        "doc_ef264899de17791f:r08_13_to_14",
+        "doc_ef264899de17791f:r09_14_to_18_19",
+        "doc_ef264899de17791f:r10_1_to_20_scheme4",
+        "doc_ef264899de17791f:r11_20_to_21_scheme4",
+        "doc_ef264899de17791f:r12_21_to_22_scheme4",
+        "doc_ef264899de17791f:r13_22_to_23_24_scheme4",
+        "doc_ef264899de17791f:r22_proposed_tmm_mechanism"
+      ],
+      "unresolved": [
+        "The desired linear product in Scheme 3 is hypothetical and was not created as an observed-product experiment."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 4",
+          "finding": "Four multistage current-work arrows: 1→20, 20→21, 21→22, and 22→23+24, with stage yields, dr/product ratio and several unlabelled intermediates.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page3:image",
+            "doc_ef264899de17791f:page3:text"
+          ]
+        },
+        {
+          "region": "Table 1",
+          "finding": "Two current model experiments retained separately: 25→26 (57%, bridged only) and 27→28 (88%, linear only).",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page3:image",
+            "doc_ef264899de17791f:page3:text"
+          ]
+        },
+        {
+          "region": "Table 2",
+          "finding": "Entries 1–5 are cited literature examples (separate literature_example records); entries 6–7 duplicate Table 1 and are not double-counted. HOMO–LUMO gaps are computational context.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page3:image",
+            "doc_ef264899de17791f:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ef264899de17791f:r10_1_to_20_scheme4",
+        "doc_ef264899de17791f:r11_20_to_21_scheme4",
+        "doc_ef264899de17791f:r12_21_to_22_scheme4",
+        "doc_ef264899de17791f:r13_22_to_23_24_scheme4",
+        "doc_ef264899de17791f:r14_25_to_26_table1",
+        "doc_ef264899de17791f:r15_27_to_28_table1",
+        "doc_ef264899de17791f:r17_literature_29a",
+        "doc_ef264899de17791f:r18_literature_29b",
+        "doc_ef264899de17791f:r19_literature_29c",
+        "doc_ef264899de17791f:r20_literature_29d",
+        "doc_ef264899de17791f:r21_literature_29e",
+        "doc_ef264899de17791f:r22_proposed_tmm_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 4 omits charges, times, workups and measurement bases on this page.",
+        "Table 1 omits experimental conditions and measurement methods."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 3",
+          "finding": "Calculated singlet cycloaddition barriers and observed/predicted regioselectivity; computational context, not five new executions.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page4:image",
+            "doc_ef264899de17791f:page4:text"
+          ]
+        },
+        {
+          "region": "Figure 3",
+          "finding": "Calculated transition-state structures/distances for 25-TS and 27-TS; not a synthetic experiment.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page4:image",
+            "doc_ef264899de17791f:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 5",
+          "finding": "Current two-stage experiment 31→hydrazone→33 via proposed TMM diyl 32, with 80% stage yield and 16% final yield.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page4:image",
+            "doc_ef264899de17791f:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ef264899de17791f:r14_25_to_26_table1",
+        "doc_ef264899de17791f:r15_27_to_28_table1",
+        "doc_ef264899de17791f:r16_31_to_33_scheme5"
+      ],
+      "unresolved": [
+        "Scheme 5 omits charges, times, workup, purification, yield measurement basis and a numerical regioisomer ratio."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Experimental Section general information",
+          "finding": "General Ar atmosphere, glassware, default room temperature, solvent/purification and analytical context; not a reaction record.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page5:image",
+            "doc_ef264899de17791f:page5:text"
+          ]
+        },
+        {
+          "region": "procedure for 9",
+          "finding": "Detailed protection of 1 to 9 including charges, 23 min reaction, workup, crystallization, mass and 92% yield.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page5:image",
+            "doc_ef264899de17791f:page5:text"
+          ]
+        },
+        {
+          "region": "procedure for 10",
+          "finding": "Detailed epoxidation of 9 to 10 with 30 min addition, 6 h at 0 °C, 3 d at 1–5 °C, periodic H2O2, workup and 76% (BRSM 80%).",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page5:image",
+            "doc_ef264899de17791f:page5:text"
+          ]
+        },
+        {
+          "region": "procedure for 11",
+          "finding": "Primary 10→11 procedure and beginning of alternative procedure; alternative continues on page 6.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page5:image",
+            "doc_ef264899de17791f:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ef264899de17791f:r01_1_to_9",
+        "doc_ef264899de17791f:r02_9_to_10",
+        "doc_ef264899de17791f:r03_10_to_11_primary",
+        "doc_ef264899de17791f:r04_10_to_11_alternative"
+      ],
+      "unresolved": [
+        "Primary 10→11 procedure does not report the p-toluenesulfonyl hydrazide charge."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top-left continuation",
+          "finding": "Completion of the alternative 10→11 procedure and its 71% yield.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page6:image",
+            "doc_ef264899de17791f:page6:text"
+          ]
+        },
+        {
+          "region": "procedures for 3 and 12",
+          "finding": "Detailed Wittig methylenation 11→3 and dithiane formation 2→12, with all printed charges, ordered conditions, workups and yields.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page6:image",
+            "doc_ef264899de17791f:page6:text"
+          ]
+        },
+        {
+          "region": "procedure for 13",
+          "finding": "Detailed one-pot hydrazone generation/copper-mediated allene formation 3+12→13, with two reflux stages and 81% yield.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page6:image",
+            "doc_ef264899de17791f:page6:text"
+          ]
+        },
+        {
+          "region": "procedures for 14 and 18/19",
+          "finding": "Detailed 13→14 deprotection (93%) and the beginning/complete reaction-operation portion of 14→18+19 with 54%/44% outcomes; later characterization is outside claimed coverage.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page6:image",
+            "doc_ef264899de17791f:page6:text"
+          ]
+        },
+        {
+          "region": "NMR/HRMS blocks",
+          "finding": "Characterization retained as source_context; no independent synthetic records created.",
+          "evidence_ids": [
+            "doc_ef264899de17791f:page6:image",
+            "doc_ef264899de17791f:page6:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ef264899de17791f:r04_10_to_11_alternative",
+        "doc_ef264899de17791f:r05_11_to_3",
+        "doc_ef264899de17791f:r06_2_to_12",
+        "doc_ef264899de17791f:r07_3_plus_12_to_13",
+        "doc_ef264899de17791f:r08_13_to_14",
+        "doc_ef264899de17791f:r09_14_to_18_19"
+      ],
+      "unresolved": [
+        "The detailed 18/19 characterization continues beyond page 6 and is not claimed as covered."
+      ]
+    }
+  ]
+}
