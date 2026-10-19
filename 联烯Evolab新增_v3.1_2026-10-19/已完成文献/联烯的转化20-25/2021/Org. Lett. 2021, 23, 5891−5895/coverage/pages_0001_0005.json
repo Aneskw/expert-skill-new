@@ -1,0 +1,142 @@
+{
+  "document_id": "doc_33fc8f32de8ab299",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and graphical abstract",
+          "finding": "Current-work generic tandem Au-catalyzed cyclization/oxidative arene coupling; graphical abstract duplicates the generic scheme rather than a concrete experiment.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page1:text", "doc_33fc8f32de8ab299:page1:image"]
+        },
+        {
+          "region": "two-column introduction and lower-right optimization lead-in",
+          "finding": "Background/cited chemistry was not imported as current work; prose supplies Table 1 entry 1 outcome context and identifies 1a, 2a, and 3a.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page1:text", "doc_33fc8f32de8ab299:page1:image"]
+        }
+      ],
+      "record_ids": ["doc_33fc8f32de8ab299:scheme1D_generic_current_work", "doc_33fc8f32de8ab299:table1_entry_01"],
+      "unresolved": ["Graphical abstract does not report concrete charges, time, or an individual yield."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1A-D, left column",
+          "finding": "Scheme 1A is scaffold/application context; Scheme 1B-a, 1B-b, and 1C are three cited-work generic examples; Scheme 1D is the current generic scheme.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page2:text", "doc_33fc8f32de8ab299:page2:image"]
+        },
+        {
+          "region": "Table 1 entries 1-15 and footnotes a-i",
+          "finding": "All 15 optimization rows were extracted separately, including catalyst substitutions, AgSbF6, oxidants/loadings, concentration, 2-equiv arene exception, no-Au control, and 1 mmol scale-up. All three numeric columns are target-linked; 1a is recovery and 2a/3a are product yields.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page2:text", "doc_33fc8f32de8ab299:page2:image"]
+        },
+        {
+          "region": "lower discussion and substrate-scope introduction",
+          "finding": "Prose cross-checks Table 1 outcomes and introduces Scheme 2; no additional concrete reaction beyond the table rows was manufactured.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page2:text", "doc_33fc8f32de8ab299:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_33fc8f32de8ab299:scheme1D_generic_current_work",
+        "doc_33fc8f32de8ab299:scheme1B_a_ref7",
+        "doc_33fc8f32de8ab299:scheme1B_b_ref8",
+        "doc_33fc8f32de8ab299:scheme1C_ref11",
+        "doc_33fc8f32de8ab299:table1_entry_01",
+        "doc_33fc8f32de8ab299:table1_entry_02",
+        "doc_33fc8f32de8ab299:table1_entry_03",
+        "doc_33fc8f32de8ab299:table1_entry_04",
+        "doc_33fc8f32de8ab299:table1_entry_05",
+        "doc_33fc8f32de8ab299:table1_entry_06",
+        "doc_33fc8f32de8ab299:table1_entry_07",
+        "doc_33fc8f32de8ab299:table1_entry_08",
+        "doc_33fc8f32de8ab299:table1_entry_09",
+        "doc_33fc8f32de8ab299:table1_entry_10",
+        "doc_33fc8f32de8ab299:table1_entry_11",
+        "doc_33fc8f32de8ab299:table1_entry_12",
+        "doc_33fc8f32de8ab299:table1_entry_13",
+        "doc_33fc8f32de8ab299:table1_entry_14",
+        "doc_33fc8f32de8ab299:table1_entry_15"
+      ],
+      "unresolved": ["Supporting Information with further optimization was not supplied.", "Main-text Table 1 does not supply workup, purification, or characterization operations."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2 upper blue box, products 2a-2i",
+          "finding": "Nine beta-ketoallene scope displays were checked. Product 2a (87%, 3 h) duplicates Table 1 entry 12 and was merged; products 2b-2i yield eight independent scope records.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page3:text", "doc_33fc8f32de8ab299:page3:image"]
+        },
+        {
+          "region": "Scheme 2 lower red box, products 2j-2ac and footnotes",
+          "finding": "All 20 arene/indole scope products were inventoried with displayed yields and times; 2m retains footnote-b AuCl3 10 mol% while the remaining scope entries retain 5 mol%.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page3:text", "doc_33fc8f32de8ab299:page3:image"]
+        },
+        {
+          "region": "Scheme 3A-E and footnotes",
+          "finding": "Five concrete mechanistic/control studies were extracted: Au(I)+PIDA coupling, 3a negative control, arene chlorination control, D2O labeling, and paired parallel H/D KIE study.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page3:text", "doc_33fc8f32de8ab299:page3:image"]
+        },
+        {
+          "region": "Scheme 3F catalytic cycles",
+          "finding": "Author-proposed routes A/B retained as proposed_mechanism, not as an observed experiment.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page3:text", "doc_33fc8f32de8ab299:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_33fc8f32de8ab299:scheme1D_generic_current_work",
+        "doc_33fc8f32de8ab299:table1_entry_12",
+        "doc_33fc8f32de8ab299:scheme2_scope_2b", "doc_33fc8f32de8ab299:scheme2_scope_2c", "doc_33fc8f32de8ab299:scheme2_scope_2d", "doc_33fc8f32de8ab299:scheme2_scope_2e", "doc_33fc8f32de8ab299:scheme2_scope_2f", "doc_33fc8f32de8ab299:scheme2_scope_2g", "doc_33fc8f32de8ab299:scheme2_scope_2h", "doc_33fc8f32de8ab299:scheme2_scope_2i",
+        "doc_33fc8f32de8ab299:scheme2_scope_2j", "doc_33fc8f32de8ab299:scheme2_scope_2k", "doc_33fc8f32de8ab299:scheme2_scope_2l", "doc_33fc8f32de8ab299:scheme2_scope_2m", "doc_33fc8f32de8ab299:scheme2_scope_2n", "doc_33fc8f32de8ab299:scheme2_scope_2o", "doc_33fc8f32de8ab299:scheme2_scope_2p", "doc_33fc8f32de8ab299:scheme2_scope_2q", "doc_33fc8f32de8ab299:scheme2_scope_2r", "doc_33fc8f32de8ab299:scheme2_scope_2s", "doc_33fc8f32de8ab299:scheme2_scope_2t", "doc_33fc8f32de8ab299:scheme2_scope_2u", "doc_33fc8f32de8ab299:scheme2_scope_2v", "doc_33fc8f32de8ab299:scheme2_scope_2w", "doc_33fc8f32de8ab299:scheme2_scope_2x", "doc_33fc8f32de8ab299:scheme2_scope_2y", "doc_33fc8f32de8ab299:scheme2_scope_2z", "doc_33fc8f32de8ab299:scheme2_scope_2aa", "doc_33fc8f32de8ab299:scheme2_scope_2ab", "doc_33fc8f32de8ab299:scheme2_scope_2ac",
+        "doc_33fc8f32de8ab299:scheme3A_ph3paucl_pida", "doc_33fc8f32de8ab299:scheme3B_3a_control", "doc_33fc8f32de8ab299:scheme3C_arene_pida_aucl3", "doc_33fc8f32de8ab299:scheme3D_d2o_labeling", "doc_33fc8f32de8ab299:scheme3E_parallel_kie", "doc_33fc8f32de8ab299:scheme3F_proposed_mechanism"
+      ],
+      "unresolved": ["Scheme 2 yield measurement bases are not stated in the main-text footnote.", "Dense Scheme 2 structures and exact positional isomers were not forced into guessed SMILES.", "KIE analytical/rate-fitting details and D-incorporation methods are unavailable without SI."]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left-column continuation of Scheme 3C-E discussion",
+          "finding": "Confirms 5 at 77%, 3a-d1 from deuterodeauration, kH/kD=1.0, and the authors' interpretation that arene C-H functionalization is not rate determining.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page4:text", "doc_33fc8f32de8ab299:page4:image"]
+        },
+        {
+          "region": "left-column proposed catalytic cycles and conclusion",
+          "finding": "Mechanistic prose supports the proposed-mechanism record; route B is suggested as major but route A is not ruled out. No proposed intermediate was promoted to an observed product.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page4:text", "doc_33fc8f32de8ab299:page4:image"]
+        },
+        {
+          "region": "Associated Content / Supporting Information notice",
+          "finding": "The paper states that SI exists, but the workspace contains no explicitly associated SI file; association remains unestablished.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page4:text", "doc_33fc8f32de8ab299:page4:image"]
+        },
+        {
+          "region": "author information, acknowledgments, and start of references",
+          "finding": "No additional synthesis experiment; bibliographic/contextual content only.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page4:text", "doc_33fc8f32de8ab299:page4:image"]
+        }
+      ],
+      "record_ids": ["doc_33fc8f32de8ab299:scheme3B_3a_control", "doc_33fc8f32de8ab299:scheme3C_arene_pida_aucl3", "doc_33fc8f32de8ab299:scheme3D_d2o_labeling", "doc_33fc8f32de8ab299:scheme3E_parallel_kie", "doc_33fc8f32de8ab299:scheme3F_proposed_mechanism"],
+      "unresolved": ["SI-only detailed procedures, substrate preparation, characterization, limitation studies, and mechanistic methods were not available for extraction."]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "full two-column page",
+          "finding": "References 2-18 only; cited reactions are literature context, not additional current-paper experiments. No standalone mass-spectrum peak table, molecular-weight table, or fragment-abundance table is present.",
+          "evidence_ids": ["doc_33fc8f32de8ab299:page5:text", "doc_33fc8f32de8ab299:page5:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["Reference 17 points to an SI deuteration procedure, but SI was not supplied and was not inferred as associated."]
+    }
+  ]
+}

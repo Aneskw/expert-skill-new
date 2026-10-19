@@ -1,0 +1,149 @@
+{
+  "document_id": "doc_bdc226a45f665dd1",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top title, abstract, and graphical abstract",
+          "finding": "Paper title/authors and a graphical summary of the current Cu-catalyzed coupling; graphical abstract duplicates the current-work generic transformation and is not a separate experiment.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page1:image", "doc_bdc226a45f665dd1:page1:text"]
+        },
+        {
+          "region": "right column, Scheme 1a–c",
+          "finding": "Scheme 1a and 1b are cited prior-work/selectivity context; Scheme 1c is the current-work generic transformation and is represented once as a generic scheme.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page1:image", "doc_bdc226a45f665dd1:page1:text"]
+        },
+        {
+          "region": "body prose beneath abstract",
+          "finding": "Background and rationale only; no additional current specific experiment or quantitative outcome.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page1:image", "doc_bdc226a45f665dd1:page1:text"]
+        }
+      ],
+      "record_ids": ["doc_bdc226a45f665dd1:scheme1c_generic"],
+      "unresolved": ["Generic R1/R2/R3/EWG structures are contextual templates; no instance graph was inferred from Scheme 1 alone."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left-center, Scheme 2 and associated prose",
+          "finding": "Three discovery runs were checked: 1a′ gives 3aa in 20% isolated yield, 1a″ gives 0%/no conversion, and 1a gives 3aa in 44%; the last is the same experiment as Table 1 entry 1 and is stored once.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page2:image", "doc_bdc226a45f665dd1:page2:text"]
+        },
+        {
+          "region": "upper-right, Table 1 rows 1–17 and footnotes a–g",
+          "finding": "All 17 optimization rows were individually recorded, including copper salt/loading, temperature, yields/trace, PCy3, 2,2′-bipyridyl, Cy2NH, reversed limiting reagent, and 3 equiv DTBP exceptions. Table yields retain the isolated-yield footnote.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page2:image", "doc_bdc226a45f665dd1:page2:text"]
+        },
+        {
+          "region": "lower-right prose continuing after Table 1",
+          "finding": "Optimization interpretation and the 1 mmol/71% 3aa scale-up statement were associated with the corresponding records; references to SI Tables S1/S2 were not followed because SI was not supplied.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page2:image", "doc_bdc226a45f665dd1:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_bdc226a45f665dd1:discovery_1a_prime",
+        "doc_bdc226a45f665dd1:discovery_1a_dprime",
+        "doc_bdc226a45f665dd1:table1_entry01",
+        "doc_bdc226a45f665dd1:table1_entry02",
+        "doc_bdc226a45f665dd1:table1_entry03",
+        "doc_bdc226a45f665dd1:table1_entry04",
+        "doc_bdc226a45f665dd1:table1_entry05",
+        "doc_bdc226a45f665dd1:table1_entry06",
+        "doc_bdc226a45f665dd1:table1_entry07",
+        "doc_bdc226a45f665dd1:table1_entry08",
+        "doc_bdc226a45f665dd1:table1_entry09",
+        "doc_bdc226a45f665dd1:table1_entry10",
+        "doc_bdc226a45f665dd1:table1_entry11",
+        "doc_bdc226a45f665dd1:table1_entry12",
+        "doc_bdc226a45f665dd1:table1_entry13",
+        "doc_bdc226a45f665dd1:table1_entry14",
+        "doc_bdc226a45f665dd1:table1_entry15",
+        "doc_bdc226a45f665dd1:table1_entry16",
+        "doc_bdc226a45f665dd1:table1_entry17",
+        "doc_bdc226a45f665dd1:scheme3_3aa_scaleup"
+      ],
+      "unresolved": ["SI screening Tables S1/S2 and full procedures are unavailable.", "Scheme 2 does not provide workup or purification details."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left, Scheme 3 and footnotes a–c",
+          "finding": "Standard 3aa, the separate 1 mmol result, products 3ba–3qa, and not-detected 3ra were checked. Footnote temperatures and crude-1H-NMR E/Z ratios for 3oa/3pa/3qa were retained with explicit product targets.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page3:image", "doc_bdc226a45f665dd1:page3:text"]
+        },
+        {
+          "region": "lower-left, Scheme 4 and footnotes a–c",
+          "finding": "All 16 tertiary C(sp3)–H scope arrows 3ab–3aq were independently recorded; 70, 80, and 50 °C exceptions were applied only to their footnoted entries.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page3:image", "doc_bdc226a45f665dd1:page3:text"]
+        },
+        {
+          "region": "middle-right, Scheme 5",
+          "finding": "Five derivatization arrows were recorded separately: three Diels–Alder reactions to 4–6, LiAlH4 reduction to 7, and BF3·Et2O cyclization to 8. The 0 °C to rt/2 h program for 7 was split into ordered temperature stages without inventing an addition time.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page3:image", "doc_bdc226a45f665dd1:page3:text"]
+        },
+        {
+          "region": "lower-right control/mechanism prose",
+          "finding": "Absence-of-copper and absence-of-DTBP negative controls, TEMPO/BHT inhibition/trapping statements, and the beginning of the proposed pathway were identified. Negative controls do not invent products.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page3:image", "doc_bdc226a45f665dd1:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_bdc226a45f665dd1:table1_entry17",
+        "doc_bdc226a45f665dd1:scheme3_3aa_scaleup",
+        "doc_bdc226a45f665dd1:scheme3_3ba", "doc_bdc226a45f665dd1:scheme3_3ca", "doc_bdc226a45f665dd1:scheme3_3da", "doc_bdc226a45f665dd1:scheme3_3ea", "doc_bdc226a45f665dd1:scheme3_3fa", "doc_bdc226a45f665dd1:scheme3_3ga", "doc_bdc226a45f665dd1:scheme3_3ha", "doc_bdc226a45f665dd1:scheme3_3ia", "doc_bdc226a45f665dd1:scheme3_3ja", "doc_bdc226a45f665dd1:scheme3_3ka", "doc_bdc226a45f665dd1:scheme3_3la", "doc_bdc226a45f665dd1:scheme3_3ma", "doc_bdc226a45f665dd1:scheme3_3na", "doc_bdc226a45f665dd1:scheme3_3oa", "doc_bdc226a45f665dd1:scheme3_3pa", "doc_bdc226a45f665dd1:scheme3_3qa", "doc_bdc226a45f665dd1:scheme3_3ra",
+        "doc_bdc226a45f665dd1:scheme4_3ab", "doc_bdc226a45f665dd1:scheme4_3ac", "doc_bdc226a45f665dd1:scheme4_3ad", "doc_bdc226a45f665dd1:scheme4_3ae", "doc_bdc226a45f665dd1:scheme4_3af", "doc_bdc226a45f665dd1:scheme4_3ag", "doc_bdc226a45f665dd1:scheme4_3ah", "doc_bdc226a45f665dd1:scheme4_3ai", "doc_bdc226a45f665dd1:scheme4_3aj", "doc_bdc226a45f665dd1:scheme4_3ak", "doc_bdc226a45f665dd1:scheme4_3al", "doc_bdc226a45f665dd1:scheme4_3am", "doc_bdc226a45f665dd1:scheme4_3an", "doc_bdc226a45f665dd1:scheme4_3ao", "doc_bdc226a45f665dd1:scheme4_3ap", "doc_bdc226a45f665dd1:scheme4_3aq",
+        "doc_bdc226a45f665dd1:scheme5_product4", "doc_bdc226a45f665dd1:scheme5_product5", "doc_bdc226a45f665dd1:scheme5_product6", "doc_bdc226a45f665dd1:scheme5_product7", "doc_bdc226a45f665dd1:scheme5_product8",
+        "doc_bdc226a45f665dd1:control_no_copper", "doc_bdc226a45f665dd1:control_no_dtbp", "doc_bdc226a45f665dd1:scheme6_tempo", "doc_bdc226a45f665dd1:scheme6_bht", "doc_bdc226a45f665dd1:scheme6b_proposed_mechanism"
+      ],
+      "unresolved": ["Yield measurement basis is not stated for Scheme 3/4/5 entries.", "Most dense scope structures and their complete stereochemistry were not safely encoded as SMILES from the main-text drawings.", "The standard-scope absolute scale, DMSO volume, workup, and purification are not reported on this page."]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left, Scheme 6a",
+          "finding": "TEMPO 3 equiv or BHT 1 equiv suppresses 3aa to trace. The drawn 86% adduct 9 contains the TEMPO unit, so it is linked only to the TEMPO record; the combined arrow is retained as an ambiguity for expert review.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page4:image", "doc_bdc226a45f665dd1:page4:text"]
+        },
+        {
+          "region": "upper-left, Scheme 6b and continuing prose",
+          "finding": "Proposed intermediates A–C, SET steps, β-Si elimination, and final 3aa are represented as one proposed-mechanism record, not as experimentally proven synthetic experiments.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page4:image", "doc_bdc226a45f665dd1:page4:text"]
+        },
+        {
+          "region": "mechanism prose and Associated Content",
+          "finding": "TMSOtBu detection by GC-MS is retained as source context only; no peak table/spectrum is modeled as a reaction. SI availability is stated, but no SI PDF was supplied or associated.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page4:image", "doc_bdc226a45f665dd1:page4:text"]
+        },
+        {
+          "region": "right column references",
+          "finding": "Bibliographic context only; no additional current-work experiment.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page4:image", "doc_bdc226a45f665dd1:page4:text"]
+        }
+      ],
+      "record_ids": ["doc_bdc226a45f665dd1:scheme6_tempo", "doc_bdc226a45f665dd1:scheme6_bht", "doc_bdc226a45f665dd1:scheme6b_proposed_mechanism"],
+      "unresolved": ["Scheme 6a combines TEMPO and BHT above one arrow; no BHT-specific trapped product or detection basis is reported.", "GC-MS data for TMSOtBu and all SI procedures/spectra are unavailable."]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "both columns, full page",
+          "finding": "References 6–23 only; cited literature experiments are not current-work records, and no current synthetic arrow, table row, characterization table, or control is present.",
+          "evidence_ids": ["doc_bdc226a45f665dd1:page5:image", "doc_bdc226a45f665dd1:page5:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

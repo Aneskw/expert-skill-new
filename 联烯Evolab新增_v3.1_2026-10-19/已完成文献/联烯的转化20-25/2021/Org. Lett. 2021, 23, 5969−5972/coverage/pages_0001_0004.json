@@ -1,0 +1,184 @@
+{
+  "document_id": "doc_923862b0df8c4625",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and graphical abstract across the upper half",
+          "finding": "Current-work graphical summary of Pd/chiral-ligand coupling, Ru-catalyzed RCM, and downstream functionalization; treated as duplicate generic evidence rather than a separate experiment.",
+          "evidence_ids": [
+            "doc_923862b0df8c4625:page1:image",
+            "doc_923862b0df8c4625:page1:text"
+          ]
+        },
+        {
+          "region": "Scheme 1A, lower-right middle",
+          "finding": "Current-work generic route A + B to C and D; represented as one generic scheme, not as a fully specified experiment.",
+          "evidence_ids": ["doc_923862b0df8c4625:page1:image"]
+        },
+        {
+          "region": "Scheme 1B, lower-right",
+          "finding": "Current-work generic route E + F to G; represented as one generic scheme, not as a fully specified experiment.",
+          "evidence_ids": ["doc_923862b0df8c4625:page1:image"]
+        },
+        {
+          "region": "introduction and saccharomicin structures",
+          "finding": "Natural-product and literature context only; saccharomicin structures are not counted as synthetic experiments in this paper.",
+          "evidence_ids": [
+            "doc_923862b0df8c4625:page1:image",
+            "doc_923862b0df8c4625:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_923862b0df8c4625:scheme1_A_generic",
+        "doc_923862b0df8c4625:scheme1_B_generic"
+      ],
+      "unresolved": [
+        "Generic labels A–G do not supply full quantities, times, solvents, or reproducible procedures.",
+        "Dense source structures and stereochemical graphs were not encoded as concrete SMILES."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 scheme above the table",
+          "finding": "Preliminary 1 + 2 to 4a route and the 5 + 6 coupling/RCM network; the preliminary low-yield route is a separate experiment.",
+          "evidence_ids": [
+            "doc_923862b0df8c4625:page2:image",
+            "doc_923862b0df8c4625:page2:text"
+          ]
+        },
+        {
+          "region": "Table 1 entries 1–5 and footnotes a–g",
+          "finding": "Five distinct optimization experiments; reagent ratios, catalyst/ligand exceptions, 1 mmol scale, NMR versus isolated bases, two-step yields, and 7a:7b ratios were retained per row.",
+          "evidence_ids": ["doc_923862b0df8c4625:page2:image"]
+        },
+        {
+          "region": "Scheme 2, lower-right",
+          "finding": "Three separate synthetic arrows: 7a to 8, 8 to 9, and 9 to 10; the final oxidative cyclization gives a single diastereomer.",
+          "evidence_ids": [
+            "doc_923862b0df8c4625:page2:image",
+            "doc_923862b0df8c4625:page2:text"
+          ]
+        },
+        {
+          "region": "right-column prose describing Scheme 3",
+          "finding": "Cross-page evidence for formation of 12a/13a/13b, dihydroxylation to 14, MOM protection to 15, and elaboration to 16/17. The 86% value for 13b is explicitly overall over two steps and is not substituted for the 87% RCM step yield drawn on page 3.",
+          "evidence_ids": ["doc_923862b0df8c4625:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_923862b0df8c4625:preliminary_1_2_to_4a",
+        "doc_923862b0df8c4625:table1_entry1",
+        "doc_923862b0df8c4625:table1_entry2",
+        "doc_923862b0df8c4625:table1_entry3",
+        "doc_923862b0df8c4625:table1_entry4",
+        "doc_923862b0df8c4625:table1_entry5",
+        "doc_923862b0df8c4625:scheme2_7a_to_8",
+        "doc_923862b0df8c4625:scheme2_8_to_9",
+        "doc_923862b0df8c4625:scheme2_9_to_10",
+        "doc_923862b0df8c4625:scheme3_5_11_to_12a",
+        "doc_923862b0df8c4625:scheme3_5_11_to_12b",
+        "doc_923862b0df8c4625:scheme3_12a_to_13a",
+        "doc_923862b0df8c4625:scheme3_12b_to_13b",
+        "doc_923862b0df8c4625:scheme3_13a_to_14",
+        "doc_923862b0df8c4625:scheme3_14_to_15",
+        "doc_923862b0df8c4625:scheme3_15_to_unnumbered_alcohol",
+        "doc_923862b0df8c4625:scheme3_unnumbered_alcohol_to_16",
+        "doc_923862b0df8c4625:scheme3_16_to_17"
+      ],
+      "unresolved": [
+        "The paper refers to SI for full conditions and characterization, but no SI was supplied or associated.",
+        "Several main-text yields do not report isolated/NMR measurement basis.",
+        "Workup, purification, and reaction time are absent for most Scheme 2/3 operations."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 part 1, upper-left",
+          "finding": "Four arrows were separated: ligand-controlled Pd couplings to 12a/12b and RCM steps to 13a/13b. The 99%, 79%, 87%, and selectivity annotations were associated with their depicted products.",
+          "evidence_ids": ["doc_923862b0df8c4625:page3:image"]
+        },
+        {
+          "region": "Scheme 3 part 2, center-left",
+          "finding": "Five operations were separated: 13a to 14, 14 to 15, debenzylation of 15 to an unnumbered alcohol, carbamate formation to 16, and oxidative cyclization to 17.",
+          "evidence_ids": [
+            "doc_923862b0df8c4625:page3:image",
+            "doc_923862b0df8c4625:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 4 and adjacent prose, lower-left",
+          "finding": "Five experiments were retained: protected-substrate 18 trace-adduct test, two ligand-controlled 20 + 19 coupling/RCM runs, 21a benzoylation to 22, and 21a dihydroxylation to 23.",
+          "evidence_ids": [
+            "doc_923862b0df8c4625:page3:image",
+            "doc_923862b0df8c4625:page3:text"
+          ]
+        },
+        {
+          "region": "Supporting Information notice and author/acknowledgment regions",
+          "finding": "The page states SI availability and NMR files, but no SI file was supplied in this session; these regions do not create additional reaction records.",
+          "evidence_ids": ["doc_923862b0df8c4625:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_923862b0df8c4625:scheme3_5_11_to_12a",
+        "doc_923862b0df8c4625:scheme3_5_11_to_12b",
+        "doc_923862b0df8c4625:scheme3_12a_to_13a",
+        "doc_923862b0df8c4625:scheme3_12b_to_13b",
+        "doc_923862b0df8c4625:scheme3_13a_to_14",
+        "doc_923862b0df8c4625:scheme3_14_to_15",
+        "doc_923862b0df8c4625:scheme3_15_to_unnumbered_alcohol",
+        "doc_923862b0df8c4625:scheme3_unnumbered_alcohol_to_16",
+        "doc_923862b0df8c4625:scheme3_16_to_17",
+        "doc_923862b0df8c4625:scheme4_18_19_trace",
+        "doc_923862b0df8c4625:scheme4_20_19_ss",
+        "doc_923862b0df8c4625:scheme4_20_19_rr",
+        "doc_923862b0df8c4625:scheme4_21a_to_22",
+        "doc_923862b0df8c4625:scheme4_21a_to_23"
+      ],
+      "unresolved": [
+        "Most Scheme 3/4 procedures lack time, temperature, solvent, workup, or purification in the supplied main text.",
+        "The exact identity of the trace adduct from 18 + 19 and of the combined regioisomers is not assigned.",
+        "Yield/trace/selectivity measurement bases are not reported for most Scheme 3/4 outcomes.",
+        "Dense sugar stereochemistry is retained textually but not encoded as atom-indexed isomeric SMILES."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "both reference columns",
+          "finding": "Reference list only; cited literature was not converted into current-work experiments.",
+          "evidence_ids": [
+            "doc_923862b0df8c4625:page4:image",
+            "doc_923862b0df8c4625:page4:text"
+          ]
+        },
+        {
+          "region": "footnotes 7–12 in the right column",
+          "finding": "Explanatory citations and notes: compound syntheses are referred to SI, NMR detection-limit context is stated, and the origin of regioselectivity is explicitly unresolved; no additional current-work reaction arrow is present.",
+          "evidence_ids": [
+            "doc_923862b0df8c4625:page4:image",
+            "doc_923862b0df8c4625:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Footnote 12 states that the origin of regioselectivity remains unclear.",
+        "Referenced prior publications were not independently inspected and are not treated as source experiments here."
+      ]
+    }
+  ]
+}
