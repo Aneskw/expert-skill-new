@@ -1,0 +1,979 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "reported_experiment": 6,
+    "general_scheme": 3,
+    "optimization_entry": 21,
+    "substrate_scope_entry": 58
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_e1c2e1b1afa31a18"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme2_cycloaddition_sulfurization",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page1:text",
+        "doc_e1c2e1b1afa31a18:page2:image",
+        "doc_e1c2e1b1afa31a18:page2:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme2_deprotection_1_to_2",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page1:text",
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme2_condensation_2_to_3",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page1:text",
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme2_grignard_3_to_4_4p",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page1:text",
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme2_raney_ni_4_to_5",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page1:text",
+        "doc_e1c2e1b1afa31a18:page2:image",
+        "doc_e1c2e1b1afa31a18:page2:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme2_raney_ni_4p_to_5p",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page1:text",
+        "doc_e1c2e1b1afa31a18:page2:image",
+        "doc_e1c2e1b1afa31a18:page2:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_01",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image",
+        "doc_e1c2e1b1afa31a18:page2:text",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_02",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image",
+        "doc_e1c2e1b1afa31a18:page2:text",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_03",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image",
+        "doc_e1c2e1b1afa31a18:page2:text",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_04",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_05",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_06",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_07",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_08",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image",
+        "doc_e1c2e1b1afa31a18:page2:text",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_09",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_10",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_11",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image",
+        "doc_e1c2e1b1afa31a18:page2:text",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_12",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_13",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_14",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_15",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_16",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_17",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image",
+        "doc_e1c2e1b1afa31a18:page2:text",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_18",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_19",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_20",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:table1_entry_21",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page2:image"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8aa",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ba",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ca",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8da",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ea",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8fa",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ga",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ha",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ia",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ja",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ka",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8la",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ma",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8na",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8oa",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8pa",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8qa",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ra",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8sa",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ta",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ua",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ab",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ac",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ad",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ae",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8af",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ag",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ah",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8ai",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme3_8aa_scaleup",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8aap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8bap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8cap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8dap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8eap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8fap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8gap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8hap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8iap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8kap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8lap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8map",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8vap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8oap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8pap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8qap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8rap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8wap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8sap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8tap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8uap",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8abp",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8acp",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8adp",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8aep",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8agp",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8ahp",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_e1c2e1b1afa31a18:scheme4_8aip",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_e1c2e1b1afa31a18:page3:image",
+        "doc_e1c2e1b1afa31a18:page3:text",
+        "doc_e1c2e1b1afa31a18:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    }
+  ]
+}

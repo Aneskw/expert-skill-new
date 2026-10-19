@@ -1,0 +1,278 @@
+{
+  "document_id": "doc_c4eb8ba8c0b88c9d",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and graphical abstract",
+          "finding": "Current-paper transformation summary and duplicate graphical overview; the graphic reports 29 examples, up to 88% yield, and >99% ee but is not a separate experiment.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page1:image",
+            "doc_c4eb8ba8c0b88c9d:page1:text"
+          ]
+        },
+        {
+          "region": "introduction, both columns",
+          "finding": "Background and cited asymmetric-reduction work; no current-paper concrete experimental row or preparative arrow is printed on this page.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page1:image",
+            "doc_c4eb8ba8c0b88c9d:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The graphical abstract is mapped to source_context rather than duplicated as an experiment.",
+        "No SI is associated with this session."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1a",
+          "finding": "Cited Buchwald asymmetric conjugate-reduction profile; retained as a literature_example, not a present-paper experiment.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page2:image",
+            "doc_c4eb8ba8c0b88c9d:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 1b, first and second arrows",
+          "finding": "Authors' cited previous [2+2] cycloaddition and radical 1,4-addition work; the two arrows are separate literature_example records.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page2:image",
+            "doc_c4eb8ba8c0b88c9d:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 1c",
+          "finding": "Current-work generic yne–allenone to cyclobuta[a]naphthalen-4(2H)-one transformation; represented once as a generic_scheme and linked to the concrete rows.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page2:image",
+            "doc_c4eb8ba8c0b88c9d:page2:text"
+          ]
+        },
+        {
+          "region": "Table 1, entries 1-22 and footnotes a-g",
+          "finding": "Twenty-two independent optimization experiments transcribed row by row, including trace/not-detected outcomes, all base equivalents, alternative copper salts/silanes, isolated-yield basis, chiral-HPLC ee method, and the opposite-ligand entry 22.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page2:image",
+            "doc_c4eb8ba8c0b88c9d:page2:text"
+          ]
+        },
+        {
+          "region": "optimization discussion prose",
+          "finding": "Cross-checked entries 1, 8-22; 3a′ is explicitly not observed and is attached only to entry 1 as an alternative-regioisomer outcome. Entry 22's source-printed >−99% ee and opposite enantioconfiguration are preserved without numeric repair.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page2:image",
+            "doc_c4eb8ba8c0b88c9d:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c4eb8ba8c0b88c9d:general_scheme_cascade_reduction",
+        "doc_c4eb8ba8c0b88c9d:literature_scheme1a_buchwald",
+        "doc_c4eb8ba8c0b88c9d:literature_scheme1b_cycloaddition",
+        "doc_c4eb8ba8c0b88c9d:literature_scheme1b_radical_addition",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_01",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_02",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_03",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_04",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_05",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_06",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_07",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_08",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_09",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_10",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_11",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_12",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_13",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_14",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_15",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_16",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_17",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_18",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_19",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_20",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_21",
+        "doc_c4eb8ba8c0b88c9d:optimization_entry_22"
+      ],
+      "unresolved": [
+        "Dense 1a/3a/3a′ and ligand drawings were not converted into guessed complete stereochemical SMILES.",
+        "Trace/not-detected outcomes have no reported detection limit.",
+        "Entry 22's printed ee sign is semantically awkward; the source text is retained and the opposite-enantiomer identity is separate."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2, products 3a-3p",
+          "finding": "Sixteen independent scope rows transcribed, including yields/ee and the 1p severe-decomposition/0% failure without inventing a formed product.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page3:image",
+            "doc_c4eb8ba8c0b88c9d:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 2, products 3q-3dd and footnote a",
+          "finding": "Fourteen further scope rows transcribed independently with the common 0.2 mmol/0.6 mmol, 10 mol% Cu/ligand, 1.5 equiv MeONa, 2.0 mL DCE, 50 °C, 12 h, Ar conditions, isolated-yield basis, and chiral-HPLC ee method.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page3:image",
+            "doc_c4eb8ba8c0b88c9d:page3:text"
+          ]
+        },
+        {
+          "region": "stereochemical discussion and CCDC statement",
+          "finding": "(R)-3c is assigned by X-ray crystallography (CCDC 2064795); derivative configurations are stored as analogy-based assignments, not toolkit-derived absolute configurations.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page3:image",
+            "doc_c4eb8ba8c0b88c9d:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 3a",
+          "finding": "Scale-up 1c (3 mmol) to 3c recorded separately: 62%, 0.51 g, >99% ee; only conditions printed on this arrow were retained.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page3:image",
+            "doc_c4eb8ba8c0b88c9d:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 3b",
+          "finding": "Ozonation of 3c in DCM at −78 °C followed by Me2S at rt recorded as a two-stage derivatization to 4 (92%, 98% ee).",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page3:image",
+            "doc_c4eb8ba8c0b88c9d:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 4 graphic",
+          "finding": "Possible catalytic cycle A-E identified as an author-proposed mechanism, not an observed mechanistic experiment.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page3:image",
+            "doc_c4eb8ba8c0b88c9d:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c4eb8ba8c0b88c9d:general_scheme_cascade_reduction",
+        "doc_c4eb8ba8c0b88c9d:scope_1a_to_3a",
+        "doc_c4eb8ba8c0b88c9d:scope_1b_to_3b",
+        "doc_c4eb8ba8c0b88c9d:scope_1c_to_3c",
+        "doc_c4eb8ba8c0b88c9d:scope_1d_to_3d",
+        "doc_c4eb8ba8c0b88c9d:scope_1e_to_3e",
+        "doc_c4eb8ba8c0b88c9d:scope_1f_to_3f",
+        "doc_c4eb8ba8c0b88c9d:scope_1g_to_3g",
+        "doc_c4eb8ba8c0b88c9d:scope_1h_to_3h",
+        "doc_c4eb8ba8c0b88c9d:scope_1i_to_3i",
+        "doc_c4eb8ba8c0b88c9d:scope_1j_to_3j",
+        "doc_c4eb8ba8c0b88c9d:scope_1k_to_3k",
+        "doc_c4eb8ba8c0b88c9d:scope_1l_to_3l",
+        "doc_c4eb8ba8c0b88c9d:scope_1m_to_3m",
+        "doc_c4eb8ba8c0b88c9d:scope_1n_to_3n",
+        "doc_c4eb8ba8c0b88c9d:scope_1o_to_3o",
+        "doc_c4eb8ba8c0b88c9d:scope_1p_to_3p",
+        "doc_c4eb8ba8c0b88c9d:scope_1q_to_3q",
+        "doc_c4eb8ba8c0b88c9d:scope_1r_to_3r",
+        "doc_c4eb8ba8c0b88c9d:scope_1s_to_3s",
+        "doc_c4eb8ba8c0b88c9d:scope_1t_to_3t",
+        "doc_c4eb8ba8c0b88c9d:scope_1u_to_3u",
+        "doc_c4eb8ba8c0b88c9d:scope_1v_to_3v",
+        "doc_c4eb8ba8c0b88c9d:scope_1w_to_3w",
+        "doc_c4eb8ba8c0b88c9d:scope_1x_to_3x",
+        "doc_c4eb8ba8c0b88c9d:scope_1y_to_3y",
+        "doc_c4eb8ba8c0b88c9d:scope_1z_to_3z",
+        "doc_c4eb8ba8c0b88c9d:scope_1aa_to_3aa",
+        "doc_c4eb8ba8c0b88c9d:scope_1bb_to_3bb",
+        "doc_c4eb8ba8c0b88c9d:scope_1cc_to_3cc",
+        "doc_c4eb8ba8c0b88c9d:scope_1dd_to_3dd",
+        "doc_c4eb8ba8c0b88c9d:scale_up_1c_to_3c",
+        "doc_c4eb8ba8c0b88c9d:derivatization_3c_to_4",
+        "doc_c4eb8ba8c0b88c9d:proposed_mechanism_scheme4"
+      ],
+      "unresolved": [
+        "Dense source structures, especially exact positional assignments for 1q-1dd/3q-3dd, remain source-drawing identities without guessed complete SMILES.",
+        "Styryl E/Z geometry for 1n/3n is not explicitly assigned and remains unspecified.",
+        "Scheme 3a omits loadings, solvent volume, duration, atmosphere, yield basis, and ee method.",
+        "Scheme 3b omits reagent amounts, both stage durations, yield basis, and ee method.",
+        "The proposed mechanism is not treated as experimental proof."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left-column continuation of Scheme 4 discussion",
+          "finding": "Author-proposed CuH cycle continuation: B to π-complex C, hydride delivery to D, σ-bond metathesis to E, and workup tautomerization to 3a; no separate observed experiment.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page4:image",
+            "doc_c4eb8ba8c0b88c9d:page4:text"
+          ]
+        },
+        {
+          "region": "Supporting Information and accession-code notices",
+          "finding": "SI availability and CCDC 2064795 are announced; no SI PDF was explicitly provided, so no SI experimental details were associated.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page4:image",
+            "doc_c4eb8ba8c0b88c9d:page4:text"
+          ]
+        },
+        {
+          "region": "conclusion, author information, acknowledgments, and start of references",
+          "finding": "No additional current-paper reaction arrow, table row, or independent characterization-only record.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page4:image",
+            "doc_c4eb8ba8c0b88c9d:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c4eb8ba8c0b88c9d:proposed_mechanism_scheme4"
+      ],
+      "unresolved": [
+        "Mechanistic intermediates A-E are proposed rather than directly observed.",
+        "The announced SI is not associated with this input."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "two-column reference list, references 4-14",
+          "finding": "Bibliography only; cited paper titles are source context, not current-paper experiments. No scheme, table, reaction arrow, mass-spectrum table, or independent preparation was identified.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page5:image",
+            "doc_c4eb8ba8c0b88c9d:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "reference-list continuation, references 14-18",
+          "finding": "Bibliography only; no current-paper experimental content, scheme, table, reaction arrow, or characterization-only dataset was identified.",
+          "evidence_ids": [
+            "doc_c4eb8ba8c0b88c9d:page6:image",
+            "doc_c4eb8ba8c0b88c9d:page6:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

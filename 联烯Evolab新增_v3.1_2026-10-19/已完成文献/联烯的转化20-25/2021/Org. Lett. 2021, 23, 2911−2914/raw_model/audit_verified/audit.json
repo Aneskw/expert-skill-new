@@ -1,0 +1,578 @@
+{
+  "chemical_accuracy_verified": false,
+  "datasets": [
+    {
+      "tool_version": "3.1",
+      "chemical_accuracy_verified": false,
+      "record_kind_counts": {
+        "general_scheme": 4,
+        "reported_experiment": 1,
+        "optimization_entry": 14,
+        "substrate_scope_entry": 29
+      },
+      "source_reviewed_records": 0,
+      "documents_without_linked_si": [
+        "doc_0e80a55b596be81e"
+      ],
+      "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+      "warnings": [
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme1_10_plus_11_to_12",
+          "record_kind": "reported_experiment",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page1:text",
+            "doc_0e80a55b596be81e:page1:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table1_entry_1",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page1:text",
+            "doc_0e80a55b596be81e:page1:image",
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table1_entry_2",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page1:text",
+            "doc_0e80a55b596be81e:page1:image",
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table1_entry_3",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page1:text",
+            "doc_0e80a55b596be81e:page1:image",
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table1_entry_4",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page1:text",
+            "doc_0e80a55b596be81e:page1:image",
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table1_entry_5",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page1:text",
+            "doc_0e80a55b596be81e:page1:image",
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table1_entry_6",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page1:text",
+            "doc_0e80a55b596be81e:page1:image",
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table1_entry_7",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page1:text",
+            "doc_0e80a55b596be81e:page1:image",
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table1_entry_8",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page1:text",
+            "doc_0e80a55b596be81e:page1:image",
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table2_entry_1",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table2_entry_2",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table2_entry_3",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table2_entry_4",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table2_entry_5",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table2_entry_6",
+          "record_kind": "optimization_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_14_to_15",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_16_to_17",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_18_to_19",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_20_to_21",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_22_to_23",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_24_to_25",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_26_to_27",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_28_to_29",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_30_to_31",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image",
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_32_to_33",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_34_to_35",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_36_to_37",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_38_to_39",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme2_40_to_41",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme3_42_to_43",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme3_44_to_45",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme3_46_to_47",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:scheme3_48_to_49",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table3_entry_1_product_51",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table3_entry_2_product_53",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table3_entry_3_product_55",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table3_entry_4_product_57",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table3_entry_5_product_59",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table3_entry_6_product_61",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table3_entry_7_product_63",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table3_entry_8_product_65",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table3_entry_9_product_67",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table3_entry_10_product_69",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_0e80a55b596be81e:table3_entry_11_product_29",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_0e80a55b596be81e:page3:text",
+            "doc_0e80a55b596be81e:page3:image",
+            "doc_0e80a55b596be81e:page2:text",
+            "doc_0e80a55b596be81e:page2:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        }
+      ],
+      "dataset": "/EvoLab/student-workspaces/xllin/evolab-state/workspaces/allene-stereo-v31-200-20261017/runs/current/dataset.json",
+      "dataset_sha256": "0019baed932de51d802693bf274962a2c67f93e6253ca4d4645fc065fad82273",
+      "extraction_version": "3.1"
+    }
+  ],
+  "duplicates": [],
+  "errors": [],
+  "summary": {
+    "dataset_versions": {
+      "3.1": 1
+    },
+    "record_kind_counts": {
+      "general_scheme": 4,
+      "reported_experiment": 1,
+      "optimization_entry": 14,
+      "substrate_scope_entry": 29
+    },
+    "flagged_records_by_issue": {
+      "measurement_basis": 29,
+      "structure_gap": 43
+    },
+    "datasets_scanned": 1,
+    "records_scanned": 48,
+    "source_reviewed_records": 0,
+    "excluded_directory_names": []
+  }
+}

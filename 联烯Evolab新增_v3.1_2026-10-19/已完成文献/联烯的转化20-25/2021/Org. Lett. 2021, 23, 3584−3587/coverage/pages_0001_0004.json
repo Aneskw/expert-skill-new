@@ -1,0 +1,167 @@
+{
+  "document_id": "doc_275edf2145e01c65",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "graphical abstract above the abstract",
+          "finding": "Current-work generic catalytic sequence with R/X/n/m variables; recorded as one generic scheme, not a concrete experiment.",
+          "evidence_ids": ["doc_275edf2145e01c65:page1:image", "doc_275edf2145e01c65:page1:text"]
+        },
+        {
+          "region": "Figure 1 at lower left",
+          "finding": "Structures of Darunavir and related HIV-protease-inhibitor ligands are biological/background context, not experiments performed in this paper.",
+          "evidence_ids": ["doc_275edf2145e01c65:page1:image", "doc_275edf2145e01c65:page1:text"]
+        },
+        {
+          "region": "introductory prose in both columns",
+          "finding": "Motivation and high-level description of the current sequential Pd/RCM strategy; no additional concrete reaction row beyond the generic strategy.",
+          "evidence_ids": ["doc_275edf2145e01c65:page1:image", "doc_275edf2145e01c65:page1:text"]
+        }
+      ],
+      "record_ids": ["doc_275edf2145e01c65:generic_current_strategy"],
+      "unresolved": [
+        "The graphical abstract reports generic yield >94% and ee >90% without a concrete substrate instance; values were not promoted to a specific experiment.",
+        "Generic variables R, X, n and m prevent a complete molecular graph and atom mapping."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1, top-left",
+          "finding": "Chiral-pool and enzymatic-resolution paths are cited prior approaches; the 'This work' row is the same generic current strategy already recorded from page 1.",
+          "evidence_ids": ["doc_275edf2145e01c65:page2:image", "doc_275edf2145e01c65:page2:text"]
+        },
+        {
+          "region": "Table 1 reaction diagram and four table rows",
+          "finding": "Four independent hydroalkoxylation optimization experiments plus the displayed RCM 3→4 and two-step analytical derivatization 4→5; each row/arrow has its own record.",
+          "evidence_ids": ["doc_275edf2145e01c65:page2:image", "doc_275edf2145e01c65:page2:text"]
+        },
+        {
+          "region": "prose immediately above Scheme 2",
+          "finding": "Explicit thermal Bu3SnH attempt caused extensive decomposition of 4; retained as a control experiment without an invented product.",
+          "evidence_ids": ["doc_275edf2145e01c65:page2:image", "doc_275edf2145e01c65:page2:text"]
+        },
+        {
+          "region": "Scheme 2",
+          "finding": "Four concrete arrows 4→6→7→8→9, including stepwise temperatures/times, yields, complete diastereoselectivity and benzoate ee.",
+          "evidence_ids": ["doc_275edf2145e01c65:page2:image", "doc_275edf2145e01c65:page2:text"]
+        },
+        {
+          "region": "Scheme 3",
+          "finding": "Six concrete arrows 10+2→11→12→13→14→15→16. The 72% combined yield in page-3 continuation prose is retained separately from the pictured 81% 13→14 yield.",
+          "evidence_ids": ["doc_275edf2145e01c65:page2:image", "doc_275edf2145e01c65:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_275edf2145e01c65:generic_current_strategy",
+        "doc_275edf2145e01c65:table1_entry_01",
+        "doc_275edf2145e01c65:table1_entry_02",
+        "doc_275edf2145e01c65:table1_entry_03",
+        "doc_275edf2145e01c65:table1_entry_04",
+        "doc_275edf2145e01c65:table1_rcm_3_to_4",
+        "doc_275edf2145e01c65:table1_derivatization_4_to_5",
+        "doc_275edf2145e01c65:thermal_bu3snh_decomposition_4",
+        "doc_275edf2145e01c65:scheme2_4_to_6",
+        "doc_275edf2145e01c65:scheme2_6_to_7",
+        "doc_275edf2145e01c65:scheme2_7_to_8",
+        "doc_275edf2145e01c65:scheme2_8_to_9",
+        "doc_275edf2145e01c65:scheme3_10_2_to_11",
+        "doc_275edf2145e01c65:scheme3_11_to_12",
+        "doc_275edf2145e01c65:scheme3_12_to_13",
+        "doc_275edf2145e01c65:scheme3_13_to_14",
+        "doc_275edf2145e01c65:scheme3_14_to_15",
+        "doc_275edf2145e01c65:scheme3_15_to_16"
+      ],
+      "unresolved": [
+        "SI was not supplied, so most workup, purification and measurement-basis details remain unreported.",
+        "The figures specify relative stereochemistry by wedges/dashes, but absolute R/S descriptors are not printed and dense structures are only partially or not encoded.",
+        "The thermal decomposition attempt lacks exact temperature, time, solvent and analytical method."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top-left continuation of Scheme 3 discussion",
+          "finding": "Reports 72% combined yield over 12→14, 71% 14→15 with complete diastereoselectivity, and 90% ee assessed through benzoate 16; merged as additional evidence for the page-2 Scheme 3 records.",
+          "evidence_ids": ["doc_275edf2145e01c65:page3:image", "doc_275edf2145e01c65:page3:text"]
+        },
+        {
+          "region": "Scheme 4",
+          "finding": "Seven arrows retained independently: hydroalkoxylation, RCM, failed 6-exo radical attempt, Pd cyclization, chemoselective hydrogenation, two-step ozonolysis/reduction and benzoylation.",
+          "evidence_ids": ["doc_275edf2145e01c65:page3:image", "doc_275edf2145e01c65:page3:text"]
+        },
+        {
+          "region": "Scheme 4 crossed-out 19→21 arrow and related prose",
+          "finding": "True failed experiment. No intended product was fabricated; the explicitly reported small amount of unidentified dehalogenated side product is retained as a trace outcome.",
+          "evidence_ids": ["doc_275edf2145e01c65:page3:image", "doc_275edf2145e01c65:page3:text"]
+        },
+        {
+          "region": "Associated Content and Supporting Information notice",
+          "finding": "SI and FAIR NMR files are announced but not provided or explicitly associated; notice retained only as source context.",
+          "evidence_ids": ["doc_275edf2145e01c65:page3:image", "doc_275edf2145e01c65:page3:text"]
+        },
+        {
+          "region": "author information and beginning of references",
+          "finding": "Metadata/bibliography, not additional synthesis experiments.",
+          "evidence_ids": ["doc_275edf2145e01c65:page3:image", "doc_275edf2145e01c65:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_275edf2145e01c65:scheme3_13_to_14",
+        "doc_275edf2145e01c65:scheme3_14_to_15",
+        "doc_275edf2145e01c65:scheme3_15_to_16",
+        "doc_275edf2145e01c65:scheme4_1_17_to_18",
+        "doc_275edf2145e01c65:scheme4_18_to_19",
+        "doc_275edf2145e01c65:scheme4_failed_19_to_21",
+        "doc_275edf2145e01c65:scheme4_19_to_20",
+        "doc_275edf2145e01c65:scheme4_20_to_21",
+        "doc_275edf2145e01c65:scheme4_21_to_22",
+        "doc_275edf2145e01c65:scheme4_22_to_23"
+      ],
+      "unresolved": [
+        "The identities and conditions of additional initiator/hydrogen-donor trials are not enumerated, so no fabricated experiment rows were created.",
+        "The minor dehalogenated product from 19 has no supplied structure, amount or analytical method.",
+        "Most yield/ee measurement methods, workups and purifications are absent without SI; absolute configurations remain unprinted.",
+        "The time after dimethyl sulfide addition in the 21→22 sequence is not printed."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 4–10 and 12–18",
+          "finding": "Bibliographic prior work and review citations; not current-paper experiments.",
+          "evidence_ids": ["doc_275edf2145e01c65:page4:image", "doc_275edf2145e01c65:page4:text"]
+        },
+        {
+          "region": "footnote 11 in right column",
+          "finding": "Two explicit current-paper catalyst controls: Grubbs second and Hoveyda Grubbs second each showed no conversion; recorded separately.",
+          "evidence_ids": ["doc_275edf2145e01c65:page4:image", "doc_275edf2145e01c65:page4:text"]
+        },
+        {
+          "region": "footnote 16 in right column",
+          "finding": "Reports a small amount of dehalogenated product in the failed 19 cyclization; mapped as evidence/context for the page-3 failed-control record, not a separate preparation.",
+          "evidence_ids": ["doc_275edf2145e01c65:page4:image", "doc_275edf2145e01c65:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_275edf2145e01c65:rcm_control_grubbs2",
+        "doc_275edf2145e01c65:rcm_control_hoveyda2",
+        "doc_275edf2145e01c65:scheme4_failed_19_to_21"
+      ],
+      "unresolved": [
+        "Footnote 11 does not report catalyst loadings, solvent, temperature, time or conversion-assessment method.",
+        "Footnote 16 does not identify or quantify the dehalogenated product beyond 'a small amount'."
+      ]
+    }
+  ]
+}

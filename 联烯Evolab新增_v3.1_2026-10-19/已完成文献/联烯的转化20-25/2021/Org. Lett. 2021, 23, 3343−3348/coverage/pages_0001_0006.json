@@ -1,0 +1,234 @@
+{
+  "document_id": "doc_b45c99640e5f5e97",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, author line, citation, abstract, and graphical abstract",
+          "finding": "Current-paper metadata and a duplicate generic summary of the Cu-catalyzed cycloisomerization; the graphical abstract is not a separate experiment.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page1:image",
+            "doc_b45c99640e5f5e97:page1:text"
+          ]
+        },
+        {
+          "region": "Figure 1 and introductory columns",
+          "finding": "Biologically active azepines and cited prior-work discussion are background/source context, not experiments from this paper.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page1:image",
+            "doc_b45c99640e5f5e97:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b45c99640e5f5e97:scheme1b_generic"
+      ],
+      "unresolved": [
+        "The compact graphical abstract cannot establish complete substrate/product connectivity or stereochemistry independently of the larger schemes."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1a, upper-left",
+          "finding": "Four explicitly labelled previous-work transformations; retained as literature context and not counted as current-paper experiments.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page2:image",
+            "doc_b45c99640e5f5e97:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 1b, middle-left",
+          "finding": "Current-work generic CuBr/toluene/100 °C cycloisomerization; recorded as a generic scheme, not a concrete scope row.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1 and footnotes, upper-right",
+          "finding": "All 14 optimization rows were recorded separately. Entry 14 is a true no-reaction control. Entries 2-4 have blank yield/selectivity cells and prose-reported unknown decomposition; entry 5 reports 12% product plus decomposition. Footnote conditions 1a 0.2 mmol, 0.1 M, and 5 mol% catalyst were structured; yields are isolated per footnote b.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page2:image",
+            "doc_b45c99640e5f5e97:page2:text"
+          ]
+        },
+        {
+          "region": "paragraphs below Scheme 1/Table 1",
+          "finding": "Entry 1 supplies an explicit 12 h duration. Separate Z-1a and Z/E-1a-mixture experiments under optimized conditions each give 66% product with reported isomer ratios. Narrative repetitions of table rows were linked rather than duplicated.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page2:image",
+            "doc_b45c99640e5f5e97:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b45c99640e5f5e97:scheme1b_generic",
+        "doc_b45c99640e5f5e97:table1_entry01",
+        "doc_b45c99640e5f5e97:table1_entry02",
+        "doc_b45c99640e5f5e97:table1_entry03",
+        "doc_b45c99640e5f5e97:table1_entry04",
+        "doc_b45c99640e5f5e97:table1_entry05",
+        "doc_b45c99640e5f5e97:table1_entry06",
+        "doc_b45c99640e5f5e97:table1_entry07",
+        "doc_b45c99640e5f5e97:table1_entry08",
+        "doc_b45c99640e5f5e97:table1_entry09",
+        "doc_b45c99640e5f5e97:table1_entry10",
+        "doc_b45c99640e5f5e97:table1_entry11",
+        "doc_b45c99640e5f5e97:table1_entry12",
+        "doc_b45c99640e5f5e97:table1_entry13",
+        "doc_b45c99640e5f5e97:table1_entry14",
+        "doc_b45c99640e5f5e97:prose_Z1a_optimized",
+        "doc_b45c99640e5f5e97:prose_ZE1a_optimized"
+      ],
+      "unresolved": [
+        "Only Table 1 entry 1 has an explicit 12 h duration; that duration was not silently inherited by entries 2-14.",
+        "The prose-only Z-1a and Z/E-1a experiments do not report reaction scale, time, workup, purification, or yield measurement basis.",
+        "Complete structures and absolute configurations require structure-level review or the unprovided SI."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2 generic arrow and 13 product rows, left column",
+          "finding": "The generic scope arrow was recorded separately. Product 2a was merged with Table 1 entry 6 because the conditions and 69% yield coincide; the 79:21 Table 1 versus 78:22 Scheme 2 Z/E conflict is retained without choosing. Rows 2b-2m were recorded as 12 independent scope experiments with product-targeted yield and Z/E outcomes.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page3:image",
+            "doc_b45c99640e5f5e97:page3:text"
+          ]
+        },
+        {
+          "region": "CCDC-1810670 ORTEP panel and footnote",
+          "finding": "Crystallographic characterization of 2a; retained as source context and not made into a synthetic experiment.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page3:image"
+          ]
+        },
+        {
+          "region": "Figure 2a proposed mechanism, upper-right",
+          "finding": "Author-proposed [2,3] rearrangement, [3+2] cycloaddition, [3,3] hetero-Claisen rearrangement, and tautomerization; represented as one proposed-mechanism record, not isolated intermediates.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page3:image",
+            "doc_b45c99640e5f5e97:page3:text"
+          ]
+        },
+        {
+          "region": "Figure 2b transition states and DFT discussion, lower-right/lower-left",
+          "finding": "Eight calculated transition states, relative Gibbs energies, and calculated 71:29 Z/E are computational analysis rather than preparative experiments.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page3:image",
+            "doc_b45c99640e5f5e97:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b45c99640e5f5e97:scheme2_generic",
+        "doc_b45c99640e5f5e97:table1_entry06",
+        "doc_b45c99640e5f5e97:scheme2_scope_2b",
+        "doc_b45c99640e5f5e97:scheme2_scope_2c",
+        "doc_b45c99640e5f5e97:scheme2_scope_2d",
+        "doc_b45c99640e5f5e97:scheme2_scope_2e",
+        "doc_b45c99640e5f5e97:scheme2_scope_2f",
+        "doc_b45c99640e5f5e97:scheme2_scope_2g",
+        "doc_b45c99640e5f5e97:scheme2_scope_2h",
+        "doc_b45c99640e5f5e97:scheme2_scope_2i",
+        "doc_b45c99640e5f5e97:scheme2_scope_2j",
+        "doc_b45c99640e5f5e97:scheme2_scope_2k",
+        "doc_b45c99640e5f5e97:scheme2_scope_2l",
+        "doc_b45c99640e5f5e97:scheme2_scope_2m",
+        "doc_b45c99640e5f5e97:figure2_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 2 does not state reaction scale, duration, workup, purification, or yield measurement basis for 2b-2m.",
+        "Scope substrate structures are not individually drawn at sufficient detail to assign all input E/Z configurations.",
+        "Absolute configurations and complete stereochemical encoding are unresolved; product trans-relative and exocyclic E/Z information is retained textually."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 3, upper-left",
+          "finding": "Calculated potential-energy surface continuing the proposed mechanism; not a preparative experiment.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page4:image",
+            "doc_b45c99640e5f5e97:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 3, left column",
+          "finding": "A real mechanistic-study attempt: 1n with CuBr 5 mol% in toluene at 100 °C gives a complex mixture. It is recorded without inventing a unique product or yield.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page4:image"
+          ]
+        },
+        {
+          "region": "conclusion and associated-content notice",
+          "finding": "Conclusion duplicates the reaction/bond-formation summary. The article says SI exists, but no SI was supplied or explicitly associated, so the association remains unestablished.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page4:image",
+            "doc_b45c99640e5f5e97:page4:text"
+          ]
+        },
+        {
+          "region": "author information, acknowledgments, and start of references",
+          "finding": "Metadata and bibliography only; no additional current-paper experiment.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b45c99640e5f5e97:scheme3_1n_complex_mixture",
+        "doc_b45c99640e5f5e97:figure2_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 3 does not identify the mixture components, proportions, yield, scale, time, workup, purification, or analytical basis.",
+        "SI and CIF are mentioned but were not supplied; no association was inferred."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "both columns",
+          "finding": "References 2-14 only; cited literature was not converted into experiments of the current paper.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page5:image",
+            "doc_b45c99640e5f5e97:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "reference 14 continuation and note 15",
+          "finding": "Bibliography plus note 15. Note 15 supplies duplicate explanatory evidence that 1n gave a complex product mixture, probably due to the methyl-group inductive effect; it is linked to the existing Scheme 3 record, not duplicated.",
+          "evidence_ids": [
+            "doc_b45c99640e5f5e97:page6:image",
+            "doc_b45c99640e5f5e97:page6:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_b45c99640e5f5e97:scheme3_1n_complex_mixture"
+      ],
+      "unresolved": [
+        "The individual components of the 1n complex mixture remain unreported."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "document_id": "doc_5db5615b0ea4506c",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and blue graphical-abstract panel",
+          "finding": "Current-work generic cis-1,2-digermylation and regioselective allene hydrogermylation are overviewed; these repeat later tables and were not counted as duplicate concrete experiments.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page1:image", "doc_5db5615b0ea4506c:page1:text"]
+        },
+        {
+          "region": "Scheme 1, Catalytic 1,2-Digermylation of Alkynes",
+          "finding": "Two Pd prior-work routes and the current generic Au/TiO2 route are shown; the adjacent continuation also cites a Pt(acac)2 prior-work result. Prior work is classified as literature_example, not as this paper's experiment.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page1:image", "doc_5db5615b0ea4506c:page1:text"]
+        },
+        {
+          "region": "introductory prose and received/published metadata",
+          "finding": "Background and citations only; no additional current concrete experiment was identified.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page1:image", "doc_5db5615b0ea4506c:page1:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_5db5615b0ea4506c:generic_digermylation",
+        "doc_5db5615b0ea4506c:generic_hydrogermylation",
+        "doc_5db5615b0ea4506c:literature_pd_activated",
+        "doc_5db5615b0ea4506c:literature_pd_unactivated",
+        "doc_5db5615b0ea4506c:literature_pt_unactivated"
+      ],
+      "unresolved": [
+        "The prior-work scheme does not identify concrete substrate structures or measurement bases in this paper.",
+        "Graphical-abstract yield ranges are overview values and are not assigned to a new concrete experiment."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 header and entries 3a-3q",
+          "finding": "Seventeen independent substrate-scope entries were transcribed with Au/TiO2 loading, digermane equivalents, DCE, 70 °C, time, isolated yields, and footnote overrides. The 3o E/Z mixture is separated into two molecular identities.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page2:image", "doc_5db5615b0ea4506c:page2:text"]
+        },
+        {
+          "region": "Table 1 footnotes b-d and adjacent propargyl-alcohol prose",
+          "finding": "3f uses 2 equiv digermane for 4 h; 3o has Z/E 75/25; a separate 2.5-equiv propargyl-alcohol variant forms 3q/3q' about 1:1 and 3q' about 50%.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page2:image", "doc_5db5615b0ea4506c:page2:text"]
+        },
+        {
+          "region": "discussion below/alongside Table 1",
+          "finding": "Au/Al2O3, Au/ZnO, 0.1 mol% Au/TiO2, and unenumerated internal-alkyne failures are discussion/context. The explicit Ph3PAuNTf2 5 mol%, 70 °C, 24 h, 5% result is retained as a control/optimization experiment.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page2:image", "doc_5db5615b0ea4506c:page2:text"]
+        },
+        {
+          "region": "right-column hydrogermylation setup and exceptional 4j/4k prose",
+          "finding": "The Table 2 general conditions and the special product distributions for 4j and 4k are introduced; the corresponding concrete records use the page-3 table as the primary figure evidence.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page2:image", "doc_5db5615b0ea4506c:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_5db5615b0ea4506c:generic_digermylation",
+        "doc_5db5615b0ea4506c:generic_hydrogermylation",
+        "doc_5db5615b0ea4506c:table1_3a",
+        "doc_5db5615b0ea4506c:table1_3b",
+        "doc_5db5615b0ea4506c:table1_3c",
+        "doc_5db5615b0ea4506c:table1_3d",
+        "doc_5db5615b0ea4506c:table1_3e",
+        "doc_5db5615b0ea4506c:table1_3f",
+        "doc_5db5615b0ea4506c:table1_3g",
+        "doc_5db5615b0ea4506c:table1_3h",
+        "doc_5db5615b0ea4506c:table1_3i",
+        "doc_5db5615b0ea4506c:table1_3j",
+        "doc_5db5615b0ea4506c:table1_3k",
+        "doc_5db5615b0ea4506c:table1_3l",
+        "doc_5db5615b0ea4506c:table1_3m",
+        "doc_5db5615b0ea4506c:table1_3n",
+        "doc_5db5615b0ea4506c:table1_3o",
+        "doc_5db5615b0ea4506c:table1_3p",
+        "doc_5db5615b0ea4506c:table1_3q",
+        "doc_5db5615b0ea4506c:propargyl_overgermylation_3q_prime",
+        "doc_5db5615b0ea4506c:auI_ph3pau_ntf2_control",
+        "doc_5db5615b0ea4506c:table2_6j",
+        "doc_5db5615b0ea4506c:table2_6k"
+      ],
+      "unresolved": [
+        "No SI was supplied, so support-screening rows and full procedures on cited SI page S3 remain unavailable.",
+        "Dense source drawings 1d/3d, 1e/3e, and 1h/3h were retained without forced complete SMILES.",
+        "The unenumerated internal-alkyne no-reaction statement was not turned into fabricated substrate-specific records.",
+        "Yield measurement basis for 3q' and the Au(I) control is not reported."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 header and entries 6a-6k",
+          "finding": "Eleven independent hydrogermylation entries were transcribed. Rows 6a-6e retain exact internal/terminal ratios; 6g-6i retain the prose >99% statement; 6j and 6k retain both products and their 20/80 and 66/34 distributions.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page3:image", "doc_5db5615b0ea4506c:page3:text"]
+        },
+        {
+          "region": "Scheme 2",
+          "finding": "Four author-proposed mechanistic pathways were retained as proposed_mechanism records: generic digermylation, generic hydrogermylation, the 4j conjugated branch, and the 4k H2-elimination branch. They are not experimental records.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page3:image", "doc_5db5615b0ea4506c:page3:text"]
+        },
+        {
+          "region": "Scheme 3",
+          "finding": "Four concrete Pd2dba3/AgBF4/DMF coupling combinations were separated by substrate/aryl iodide, with 3 equiv aryl iodide, 5 mol% source notation, yields, and three-product ratios where shown.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page3:image", "doc_5db5615b0ea4506c:page3:text"]
+        },
+        {
+          "region": "lower-column prose around monoarylated intermediates",
+          "finding": "The 1.5-equiv aryl-iodide experiments producing isolable monoarylated intermediates in about 25-30% relative crude yield begin here and continue on page 4; evidence is merged into the 9a/9c records rather than duplicated.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page3:image", "doc_5db5615b0ea4506c:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_5db5615b0ea4506c:generic_hydrogermylation",
+        "doc_5db5615b0ea4506c:table1_3o",
+        "doc_5db5615b0ea4506c:table2_6a",
+        "doc_5db5615b0ea4506c:table2_6b",
+        "doc_5db5615b0ea4506c:table2_6c",
+        "doc_5db5615b0ea4506c:table2_6d",
+        "doc_5db5615b0ea4506c:table2_6e",
+        "doc_5db5615b0ea4506c:table2_6f",
+        "doc_5db5615b0ea4506c:table2_6g",
+        "doc_5db5615b0ea4506c:table2_6h",
+        "doc_5db5615b0ea4506c:table2_6i",
+        "doc_5db5615b0ea4506c:table2_6j",
+        "doc_5db5615b0ea4506c:table2_6k",
+        "doc_5db5615b0ea4506c:mechanism_scheme2_digermylation",
+        "doc_5db5615b0ea4506c:mechanism_scheme2_hydrogermylation",
+        "doc_5db5615b0ea4506c:mechanism_scheme2_4j",
+        "doc_5db5615b0ea4506c:mechanism_scheme2_4k",
+        "doc_5db5615b0ea4506c:scheme3_8a",
+        "doc_5db5615b0ea4506c:scheme3_8b",
+        "doc_5db5615b0ea4506c:scheme3_8c",
+        "doc_5db5615b0ea4506c:scheme3_8d",
+        "doc_5db5615b0ea4506c:monoarylation_9a",
+        "doc_5db5615b0ea4506c:monoarylation_9c",
+        "doc_5db5615b0ea4506c:second_coupling_9c_to_8c"
+      ],
+      "unresolved": [
+        "Table 2 does not state whether yields are isolated, NMR, assay, or another basis.",
+        "Selectivity measurement methods are not reported for Table 2 ratios.",
+        "4f/6f and the dense 4j/6j/6j'/6k/6k' drawings remain without asserted complete SMILES.",
+        "Scheme 3 does not report time, temperature, scale, workup, purification, yield basis, or ratio method.",
+        "The combined catalyst notation does not state a separately apportioned AgBF4 loading."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top-left continuation describing 9a and 9c",
+          "finding": "9a is assigned E by NOESY/HMBC; 9c is isolated as a single E isomer. These statements complete the monoarylation records begun on page 3.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page4:image", "doc_5db5615b0ea4506c:page4:text"]
+        },
+        {
+          "region": "Scheme 4",
+          "finding": "The branching Pd diarylation mechanism is an author proposal and is retained as one proposed_mechanism record, not as observed elementary experiments.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page4:image", "doc_5db5615b0ea4506c:page4:text"]
+        },
+        {
+          "region": "prose below Scheme 4",
+          "finding": "Isolated 9c is treated with Pd2dba3/AgBF4 and 1.5 equiv p-fluoroiodobenzene, yielding the same 8c-gem/8c-cis/8c-trans ratio as Scheme 3; this is a separate mechanistic-study experiment.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page4:image", "doc_5db5615b0ea4506c:page4:text", "doc_5db5615b0ea4506c:page3:image"]
+        },
+        {
+          "region": "Associated Content and beginning of references",
+          "finding": "The SI notice announces spectra, but no SI file was supplied or explicitly associated. Author information and references are context, not experiments.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page4:image", "doc_5db5615b0ea4506c:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_5db5615b0ea4506c:monoarylation_9a",
+        "doc_5db5615b0ea4506c:monoarylation_9c",
+        "doc_5db5615b0ea4506c:second_coupling_9c_to_8c",
+        "doc_5db5615b0ea4506c:mechanism_scheme4_diarylation"
+      ],
+      "unresolved": [
+        "Isolated yields for 9a and 9c are not reported; 25-30% is explicitly retained as relative crude yield.",
+        "The second 9c coupling does not report total yield, time, temperature, scale, solvent, workup, purification, or ratio method.",
+        "SI content is unavailable and remains unassociated."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 5-20",
+          "finding": "Bibliography only; cited papers were not treated as current-paper experiments.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page5:image", "doc_5db5615b0ea4506c:page5:text"]
+        },
+        {
+          "region": "footnote 21",
+          "finding": "A source-reported MM2 comparison states 9a-E is about 6 kcal/mol more stable than 9a-Z; this is linked as computational/stereo context for 9a, not a synthesis experiment.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page5:image", "doc_5db5615b0ea4506c:page5:text"]
+        },
+        {
+          "region": "footnote/reference 22 and page footer",
+          "finding": "Reference/context only; no additional experiment was identified.",
+          "evidence_ids": ["doc_5db5615b0ea4506c:page5:image", "doc_5db5615b0ea4506c:page5:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_5db5615b0ea4506c:monoarylation_9a"
+      ],
+      "unresolved": [
+        "The MM2 calculation protocol and full computational details are not supplied on this page.",
+        "No synthetic experiment is depicted on page 5."
+      ]
+    }
+  ]
+}

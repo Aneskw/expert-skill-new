@@ -1,0 +1,254 @@
+{
+  "document_id": "doc_175faee9a12c1b16",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and graphical summary",
+          "finding": "Article metadata and a duplicate high-level current-work summary; the graphical summary is not counted as a separate experiment.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page1:image",
+            "doc_175faee9a12c1b16:page1:text"
+          ]
+        },
+        {
+          "region": "Figure 1 and introduction",
+          "finding": "Natural-product structures and cited background only; no current-paper preparative arrow or experimental table row.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page1:image",
+            "doc_175faee9a12c1b16:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The graphical summary does not provide per-example identities, conditions, or measurement methods and is retained as context only."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1 A-B",
+          "finding": "Two cited previous-work reaction families, classified as literature examples rather than experiments newly performed in this paper.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 1 C-D and explanatory legend",
+          "finding": "Two current-work generic arrows for malonate-tethered and N-allenyltryptamine families, with distinct ligands and temperatures.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page2:image"
+          ]
+        },
+        {
+          "region": "prose below Scheme 1",
+          "finding": "Independent initial 1a optimization result (70%, 82:18 er, 2:1 dr, 24 h) and a separate lower-temperature 3a result (30 °C, 70%, 95:5 er, 13:1 dr).",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page2:image",
+            "doc_175faee9a12c1b16:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 2 scope and footnote",
+          "finding": "Nine independent scope experiments 1a-i to 2a-i; isolated yields, product-specific er/dr, methods, and the four-component dr for 2i were transcribed separately.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 2 ORTEP and stereochemical discussion",
+          "finding": "2a is assigned (S,S) by X-ray; other 2-series products are assigned by analogy. This is stereochemical evidence, not a separate synthetic experiment.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page2:image",
+            "doc_175faee9a12c1b16:page2:text"
+          ]
+        },
+        {
+          "region": "mechanistic prose at lower right",
+          "finding": "Author-proposed Rh(III)-hydride, allene hydrometalation, and indole-C3 attack sequence; linked to the proposed-mechanism record, not treated as proof of elementary steps.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_175faee9a12c1b16:scheme1A_previous_work",
+        "doc_175faee9a12c1b16:scheme1B_previous_work",
+        "doc_175faee9a12c1b16:scheme1C_generic_malonate",
+        "doc_175faee9a12c1b16:scheme1D_generic_tryptamine",
+        "doc_175faee9a12c1b16:optimization_initial_1a",
+        "doc_175faee9a12c1b16:scheme2_2a",
+        "doc_175faee9a12c1b16:scheme2_2b",
+        "doc_175faee9a12c1b16:scheme2_2c",
+        "doc_175faee9a12c1b16:scheme2_2d",
+        "doc_175faee9a12c1b16:scheme2_2e",
+        "doc_175faee9a12c1b16:scheme2_2f",
+        "doc_175faee9a12c1b16:scheme2_2g",
+        "doc_175faee9a12c1b16:scheme2_2h",
+        "doc_175faee9a12c1b16:scheme2_2i",
+        "doc_175faee9a12c1b16:optimization_3a_30C",
+        "doc_175faee9a12c1b16:proposed_mechanism"
+      ],
+      "unresolved": [
+        "The SI ligand-optimization table is unavailable; the statement that both (R)-Segphos and (R)-BINAP gave excellent selectivity cannot be expanded into missing rows.",
+        "Per-scope reaction scales, workups, purifications, and compound-level procedures are not reported on this page.",
+        "The initial 1a optimization yield measurement basis and er/dr methods are not stated.",
+        "Minor-diastereomer configurations, including the four entries in the 2i 10:1:0:0 ratio, are not assigned."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 scope and footnote",
+          "finding": "Six independent 3a-f to 4a-f scope experiments, each with isolated yield, chiral-HPLC er, crude-1H-NMR dr, and analogy-based absolute stereochemical assignment.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 3 ORTEP structures",
+          "finding": "Centrosymmetric racemic crystal structures for 4b and 4c support relative configuration; they were not counted as new reactions or used to relabel the enantioenriched scope samples.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page3:image",
+            "doc_175faee9a12c1b16:page3:text"
+          ]
+        },
+        {
+          "region": "Figure 2",
+          "finding": "Proposed chairlike versus envelope transition states; mechanistic rationale only.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page3:image",
+            "doc_175faee9a12c1b16:page3:text"
+          ]
+        },
+        {
+          "region": "Table 1 rows 1-10 and footnotes",
+          "finding": "Ten independent robustness/control experiments. Entry 7 additionally records 70% unreacted alkyne by crude 1H NMR; entry 9 is the non-flame-dried-flask control with no additive.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page3:image",
+            "doc_175faee9a12c1b16:page3:text"
+          ]
+        },
+        {
+          "region": "Scheme 4 discussion in lower-right prose",
+          "finding": "Narrative preview of scale-up, reduction, oxidation, deprotection, failed migration, and retained optical purity; the actual arrows/conditions are on page 4 and are not duplicated here.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_175faee9a12c1b16:scheme3_4a",
+        "doc_175faee9a12c1b16:scheme3_4b",
+        "doc_175faee9a12c1b16:scheme3_4c",
+        "doc_175faee9a12c1b16:scheme3_4d",
+        "doc_175faee9a12c1b16:scheme3_4e",
+        "doc_175faee9a12c1b16:scheme3_4f",
+        "doc_175faee9a12c1b16:table1_entry1",
+        "doc_175faee9a12c1b16:table1_entry2",
+        "doc_175faee9a12c1b16:table1_entry3",
+        "doc_175faee9a12c1b16:table1_entry4",
+        "doc_175faee9a12c1b16:table1_entry5",
+        "doc_175faee9a12c1b16:table1_entry6",
+        "doc_175faee9a12c1b16:table1_entry7",
+        "doc_175faee9a12c1b16:table1_entry8",
+        "doc_175faee9a12c1b16:table1_entry9",
+        "doc_175faee9a12c1b16:table1_entry10",
+        "doc_175faee9a12c1b16:proposed_mechanism"
+      ],
+      "unresolved": [
+        "The exact substitution positions of source-labelled 3d-3f/4d-4f are retained by label and drawing rather than guessed from the dense figure.",
+        "Table 1 does not report workup/purification or additive fate except for the entry-7 alkyne recovery.",
+        "The proposed transition states are not experimental structures or complete atom mappings."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 4 gram-scale vertical arrow",
+          "finding": "One independent 1 g scale 1b to 2b experiment with isolated yield, er, and dr.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 4 arrows a-d",
+          "finding": "Five independent derivatization experiments: 2b to 5; 2b to 6a; 2e to 6b; 2b to 7; and 2b to 8. All explicit reagents/loadings and product-specific yield/er/dr values were structured.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page4:image",
+            "doc_175faee9a12c1b16:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 4 arrows e-f",
+          "finding": "Two distinct no-product acid-migration controls. Entry e records 96% isolated recovery of 2b; entry f reports no recovery value.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page4:image",
+            "doc_175faee9a12c1b16:page4:text"
+          ]
+        },
+        {
+          "region": "Scheme 4 footnote z",
+          "finding": "Isolated-yield basis, isolated-product 1H-NMR dr, chiral-HPLC er, all reagent quantities, and the derivative-2a er note were mapped to the corresponding records.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page4:image",
+            "doc_175faee9a12c1b16:page4:text"
+          ]
+        },
+        {
+          "region": "Associated Content and accession notices",
+          "finding": "SI and crystallographic-data availability statements only; no SI file was supplied or associated, and accession notices are not synthetic experiments.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page4:image",
+            "doc_175faee9a12c1b16:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_175faee9a12c1b16:scheme4_gram_scale_2b",
+        "doc_175faee9a12c1b16:scheme4_a",
+        "doc_175faee9a12c1b16:scheme4_b_6a",
+        "doc_175faee9a12c1b16:scheme4_b_6b",
+        "doc_175faee9a12c1b16:scheme4_c",
+        "doc_175faee9a12c1b16:scheme4_d",
+        "doc_175faee9a12c1b16:scheme4_e",
+        "doc_175faee9a12c1b16:scheme4_f"
+      ],
+      "unresolved": [
+        "Scheme 4a reports an overall 0 °C-to-room-temperature 16 h program but does not allocate addition, ramp, or hold durations.",
+        "Scheme 4e reports room temperature to 60 °C over 4 h but does not allocate ramp or hold durations.",
+        "The analytical conversion of 8 to derivative 2a used for er measurement has no preparative conditions and is not fabricated as a separate reaction.",
+        "Scheme 4f reports no product but no recovery/conversion/detection-limit value.",
+        "Scale-up-specific solvent volume, workup, and purification are absent without the SI."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 8-19",
+          "finding": "Bibliography only. Cited reaction titles were not converted into experiments of the current paper.",
+          "evidence_ids": [
+            "doc_175faee9a12c1b16:page5:image",
+            "doc_175faee9a12c1b16:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No current-paper experimental arrow, table row, or procedure is present on this page."
+      ]
+    }
+  ]
+}

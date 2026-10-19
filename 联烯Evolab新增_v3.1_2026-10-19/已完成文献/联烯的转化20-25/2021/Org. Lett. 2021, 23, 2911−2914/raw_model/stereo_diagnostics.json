@@ -1,0 +1,34 @@
+{
+  "tool": "reaction_tools.py standard stereo",
+  "source_verified": false,
+  "checks": [
+    {
+      "molecule_id": "doc_0e80a55b596be81e:mol:11",
+      "input_smiles": "CC(=O)C(C)C",
+      "canonical_isomeric_smiles": "CC(=O)C(C)C",
+      "stereo_graph_key": "d77e5e25d7f4c1b8cb200e94d22f9b4cb0d700bb466813f91eebef03999dfd2f",
+      "atom_centers": [],
+      "potential_stereo": []
+    },
+    {
+      "molecule_id": "doc_0e80a55b596be81e:mol:DIAD",
+      "input_smiles": "CC(C)OC(=O)N=NC(=O)OC(C)C",
+      "canonical_isomeric_smiles": "CC(C)OC(=O)N=NC(=O)OC(C)C",
+      "stereo_graph_key": "5f5306bd3bc70cabbb7701f7c7902759bc77f63cbd35af31d1535fb216118f0c",
+      "atom_centers": [],
+      "potential_stereo": [
+        {
+          "type": "Bond_Double",
+          "centered_on": 6,
+          "specified": "Unspecified",
+          "descriptor": "NoValue"
+        }
+      ],
+      "decision": "Geometry remains unspecified and representation_status=partial; no E/Z assignment was invented."
+    }
+  ],
+  "limitations": [
+    "Graph diagnostics do not verify the source drawing.",
+    "Complex allenes and fused products were not forced into unsafe SMILES; their axial/relative stereochemistry is retained textually with not_encoded status."
+  ]
+}

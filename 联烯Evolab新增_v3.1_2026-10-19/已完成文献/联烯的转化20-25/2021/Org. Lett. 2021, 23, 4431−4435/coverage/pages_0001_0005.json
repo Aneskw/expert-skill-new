@@ -1,0 +1,205 @@
+{
+  "document_id": "doc_a43f9491a3cfbff6",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, authors, citation, and graphical abstract",
+          "finding": "Title/metadata were recovered. The graphical abstract summarizes the present carboboronation and subsequent chlorination; it duplicates reactions detailed on pages 2-3 and is retained as source_context rather than counted as another experiment.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page1:image", "doc_a43f9491a3cfbff6:page1:text"]
+        },
+        {
+          "region": "abstract and introduction columns",
+          "finding": "Background and literature discussion only; no separable present-paper experimental row or arrow beyond the graphical summary.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page1:image", "doc_a43f9491a3cfbff6:page1:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The graphical abstract uses IPrNHC·HCl while detailed tables/prose often shorten the ligand name to IPrNHC; the exact ligand form is retained by source region rather than harmonized."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1(1) Hoveyda's work",
+          "finding": "One generic cited-work literature example; it is not a present-paper experiment.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page2:image"]
+        },
+        {
+          "region": "Scheme 1(2) Procter's work",
+          "finding": "One generic cited-work literature example; it is not a present-paper experiment.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page2:image"]
+        },
+        {
+          "region": "Scheme 1(3) this work and lower allylcopper sequence",
+          "finding": "One current-work generic carboboronation scheme plus one author-proposed pathway; the pathway is not represented as mechanistic proof.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page2:image", "doc_a43f9491a3cfbff6:page2:text"]
+        },
+        {
+          "region": "Table 1 rows 1-18 and footnotes a-f",
+          "finding": "All 18 optimization rows were transcribed independently, including row-specific copper/ligand/base/solvent/temperature, row 18 ligand loading, total isolated yield, and >20:1 dr by 1H NMR.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page2:image", "doc_a43f9491a3cfbff6:page2:text"]
+        },
+        {
+          "region": "prose below Table 1",
+          "finding": "The text explains conversion of borylated products 4 to chlorinated products 5, NMR characterization difficulty, and qualitative complete diastereoselectivity; it supplies context for page-3 scope records rather than duplicate experiments.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page2:image", "doc_a43f9491a3cfbff6:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_a43f9491a3cfbff6:scheme1_hoveyda_literature",
+        "doc_a43f9491a3cfbff6:scheme1_procter_literature",
+        "doc_a43f9491a3cfbff6:general_carboboronation",
+        "doc_a43f9491a3cfbff6:scheme1_proposed_pathway",
+        "doc_a43f9491a3cfbff6:table1_entry_01",
+        "doc_a43f9491a3cfbff6:table1_entry_02",
+        "doc_a43f9491a3cfbff6:table1_entry_03",
+        "doc_a43f9491a3cfbff6:table1_entry_04",
+        "doc_a43f9491a3cfbff6:table1_entry_05",
+        "doc_a43f9491a3cfbff6:table1_entry_06",
+        "doc_a43f9491a3cfbff6:table1_entry_07",
+        "doc_a43f9491a3cfbff6:table1_entry_08",
+        "doc_a43f9491a3cfbff6:table1_entry_09",
+        "doc_a43f9491a3cfbff6:table1_entry_10",
+        "doc_a43f9491a3cfbff6:table1_entry_11",
+        "doc_a43f9491a3cfbff6:table1_entry_12",
+        "doc_a43f9491a3cfbff6:table1_entry_13",
+        "doc_a43f9491a3cfbff6:table1_entry_14",
+        "doc_a43f9491a3cfbff6:table1_entry_15",
+        "doc_a43f9491a3cfbff6:table1_entry_16",
+        "doc_a43f9491a3cfbff6:table1_entry_17",
+        "doc_a43f9491a3cfbff6:table1_entry_18"
+      ],
+      "unresolved": [
+        "Workup, purification, and compound characterization procedures are in unprovided SI.",
+        "Dense azirine/product drawings are retained without atom-complete stereochemical SMILES or atom mapping.",
+        "The lower Scheme 1 pathway is generic and is not supported by a discrete mechanistic experiment on the supplied pages."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 scheme, rows 1-13, and footnotes",
+          "finding": "All 13 allene-scope rows were transcribed independently with first-step isolated yields of 4, two-step total isolated yields of 5, shared quantities, and a separate chlorination stage.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page3:image", "doc_a43f9491a3cfbff6:page3:text"]
+        },
+        {
+          "region": "prose immediately below Table 3 naming 2n, 2o, and 2p",
+          "finding": "Three distinct attempted scope experiments gave no detected desired product; no product structures or intended bond labels were invented.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page3:image", "doc_a43f9491a3cfbff6:page3:text"]
+        },
+        {
+          "region": "Table 3 scheme, rows 1-11, footnotes, and adjacent prose",
+          "finding": "Ten successful 2H-azirine scope rows and one failed/decomposition row were transcribed independently. Entry 11 retains no desired product plus rapid substrate decomposition.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page3:image", "doc_a43f9491a3cfbff6:page3:text"]
+        },
+        {
+          "region": "Scheme 2(1), two arrows",
+          "finding": "The scale-up carboboronation and subsequent chlorination are separate records. Product masses are retained; the 58% chlorinated-product yield remains explicitly a two-step overall yield.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page3:image", "doc_a43f9491a3cfbff6:page3:text"]
+        },
+        {
+          "region": "Scheme 2(2), protection arrow and branches (a)/(b)",
+          "finding": "Benzoyl protection, Pd-catalyzed cross-coupling, and oxidative conversion are separate arrow records; the 70% and 74% values remain two-step overall yields from 4aa.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page3:image", "doc_a43f9491a3cfbff6:page3:text"]
+        },
+        {
+          "region": "asymmetric-version sentence and conclusion",
+          "finding": "The asymmetric screen is only summarized as poor yield and moderate enantioselectivity, with details referred to unavailable SI; it is retained as unresolved source_context, not fabricated into separable experiments.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page3:image", "doc_a43f9491a3cfbff6:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_a43f9491a3cfbff6:general_chlorination",
+        "doc_a43f9491a3cfbff6:table2_entry_01",
+        "doc_a43f9491a3cfbff6:table2_entry_02",
+        "doc_a43f9491a3cfbff6:table2_entry_03",
+        "doc_a43f9491a3cfbff6:table2_entry_04",
+        "doc_a43f9491a3cfbff6:table2_entry_05",
+        "doc_a43f9491a3cfbff6:table2_entry_06",
+        "doc_a43f9491a3cfbff6:table2_entry_07",
+        "doc_a43f9491a3cfbff6:table2_entry_08",
+        "doc_a43f9491a3cfbff6:table2_entry_09",
+        "doc_a43f9491a3cfbff6:table2_entry_10",
+        "doc_a43f9491a3cfbff6:table2_entry_11",
+        "doc_a43f9491a3cfbff6:table2_entry_12",
+        "doc_a43f9491a3cfbff6:table2_entry_13",
+        "doc_a43f9491a3cfbff6:allene_2n_no_reaction",
+        "doc_a43f9491a3cfbff6:allene_2o_no_reaction",
+        "doc_a43f9491a3cfbff6:allene_2p_no_reaction",
+        "doc_a43f9491a3cfbff6:table3_entry_01",
+        "doc_a43f9491a3cfbff6:table3_entry_02",
+        "doc_a43f9491a3cfbff6:table3_entry_03",
+        "doc_a43f9491a3cfbff6:table3_entry_04",
+        "doc_a43f9491a3cfbff6:table3_entry_05",
+        "doc_a43f9491a3cfbff6:table3_entry_06",
+        "doc_a43f9491a3cfbff6:table3_entry_07",
+        "doc_a43f9491a3cfbff6:table3_entry_08",
+        "doc_a43f9491a3cfbff6:table3_entry_09",
+        "doc_a43f9491a3cfbff6:table3_entry_10",
+        "doc_a43f9491a3cfbff6:table3_entry_11",
+        "doc_a43f9491a3cfbff6:scheme2_scaleup_carboboronation",
+        "doc_a43f9491a3cfbff6:scheme2_scaleup_chlorination",
+        "doc_a43f9491a3cfbff6:scheme2_protection",
+        "doc_a43f9491a3cfbff6:scheme2_cross_coupling",
+        "doc_a43f9491a3cfbff6:scheme2_oxidation"
+      ],
+      "unresolved": [
+        "No SI was supplied, so compound-level procedures, characterization, and asymmetric-screen rows remain unavailable.",
+        "Chlorination charges, solvent ratios/volumes, times, atmospheres, workups, and purifications are unreported in the supplied main text.",
+        "The exact structures of text-only unsuccessful allenes 2n-2p are not shown on this page.",
+        "Scheme 2 yields do not state a measurement basis; they remain missing rather than inferred as isolated.",
+        "Absolute product configurations and atom-complete mappings are unresolved."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Associated Content / Supporting Information notice",
+          "finding": "The page states that experimental procedures, characterization, NMR, and X-ray data are available as SI, but no SI PDF was supplied or explicitly associated in this session.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page4:image", "doc_a43f9491a3cfbff6:page4:text"]
+        },
+        {
+          "region": "CCDC 2058388 and author information",
+          "finding": "Crystallographic accession and metadata only; no new synthetic experiment arrow or table.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page4:image", "doc_a43f9491a3cfbff6:page4:text"]
+        },
+        {
+          "region": "references column",
+          "finding": "Bibliographic references only; not counted as present-paper experiments.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page4:image", "doc_a43f9491a3cfbff6:page4:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["SI availability in the article does not establish an associated SI input for this extraction run."]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 8-15",
+          "finding": "Bibliography only; no present-paper reaction arrow, table, mass spectrum, molecular-weight table, or fragment-abundance experiment.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page5:image", "doc_a43f9491a3cfbff6:page5:text"]
+        },
+        {
+          "region": "reference notes 14-15",
+          "finding": "These notes direct readers to SI for 4aa NMR and asymmetric screening. Since SI is not supplied, no additional experimental facts are imported.",
+          "evidence_ids": ["doc_a43f9491a3cfbff6:page5:image", "doc_a43f9491a3cfbff6:page5:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["Asymmetric-screen conditions and product-4aa NMR details remain unavailable without explicitly associated SI."]
+    }
+  ]
+}

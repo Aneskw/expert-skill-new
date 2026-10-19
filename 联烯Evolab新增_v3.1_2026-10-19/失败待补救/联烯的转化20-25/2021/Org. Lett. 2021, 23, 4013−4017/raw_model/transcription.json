@@ -1,0 +1,43 @@
+{
+  "document_id": "doc_b735f32f7353f027",
+  "title": "Aromaticity-Driven Access to Cycloalkyl-Fused Naphthalenes",
+  "doi": "10.1021/acs.orglett.1c01220",
+  "page_scope": [1, 2, 3, 4, 5],
+  "scheme1": {
+    "insertion": {"reactants": ["1a", "2a"], "product": "3a", "CsF_equiv": 2.5, "solvent": "THF", "concentration_M": 0.1, "temperature_C": 60, "time_h": 6, "yield_percent": 75},
+    "annulation": {"reactant": "3a", "product": "4a", "BF3_Et2O_equiv": 1.5, "solvent": "DCE", "temperature_C": 80, "time_h": 2, "yield_percent": 85, "not_observed": ["4aa (Scheme 1 hypothetical)", "4ab (Scheme 1 hypothetical)"]}
+  },
+  "scheme2": {
+    "conditions": {"substrate_mmol": 0.1, "BF3_Et2O_mmol": 0.15, "solvent": "DCE", "concentration_M": 0.2, "temperature_C": 80, "time_h": 2, "atmosphere": "N2", "yield_basis": "isolated"},
+    "entries": [["4a", 85], ["4b", 76], ["4c", 91], ["4d", 83], ["4e", 91], ["4f", 85], ["4g", 82], ["4h", 85], ["4i", 90], ["4j", 73], ["4k", 65], ["4l", 91], ["4m", 74], ["4n", 10]],
+    "scale_up_4a": {"substrate_mass_mg": 364, "yield_percent": 80}
+  },
+  "scheme3": {
+    "substrate": "5l",
+    "BF3_Et2O_equiv": 1.5,
+    "solvent": "DCE",
+    "experiments": [
+      {"temperature_C": 80, "time_h": 6, "products": ["4l", "4l_prime"], "product_ratio": "4l:4l_prime = 1.3:1", "overall_yield_percent": 52, "mixture": "inseparable mixture"},
+      {"temperature": "room temperature", "time_h": 12, "products": ["4l"], "yield_percent": 53}
+    ]
+  },
+  "scheme4": {
+    "conditions": {"substrate_mmol": 0.2, "BF3_Et2O_mmol": 0.3, "solvent": "DCE", "concentration_M": 0.2, "temperature": "room temperature", "time_h": 12, "atmosphere": "N2", "yield_basis": "isolated"},
+    "entries": [["4h", 59], ["4l", 53], ["4o", 58], ["4p", 51], ["4q", 59]],
+    "duplicate_note": "The 5l to 4l, 53% room-temperature entry repeats the second Scheme 3 experiment and is one record with both Scheme 3 and Scheme 4 evidence."
+  },
+  "scheme5": {
+    "conditions": {"substrate_mmol": 0.2, "BF3_Et2O_mmol": 0.3, "solvent": "DCE", "concentration_M": 0.2, "temperature_C": 80, "time_h": 12, "atmosphere": "N2", "yield_basis": "isolated for numeric yields"},
+    "entries": [["4a", "Trace"], ["4b", "Trace"], ["4h", 47], ["4p", 43]]
+  },
+  "scheme6": {
+    "conditions": {"aryne_precursor_mmol": 0.12, "beta_ketoester_mmol": 0.1, "CsF_mmol": 0.9, "THF_concentration_M": 0.2, "stage1_temperature_C": 60, "stage1_time_h": 6, "atmosphere": "N2", "Amberlite_IR120_H_mg": 150, "BF3_Et2O_mmol": 0.45, "DCE_concentration_M": 0.2, "stage2_temperature_C": 80, "stage2_time_h": 2, "yield_basis": "isolated"},
+    "entries": [["4a", 54], ["4r", 52], ["4s", 53], ["4t", 51], ["4u", 66], ["4v", 52], ["4w", 55], ["4x", 49], ["4h", 51], ["4p", 50], ["4q", 53], ["4o", 48], ["4y", 47], ["4z", 57], ["4aa", 42], ["4zb", 52], ["4zc", 50]]
+  },
+  "scheme7": {
+    "kind": "author-proposed plausible reaction pathway",
+    "observed_experiment": false,
+    "intermediates": ["A", "B", "benzopyrylium intermediate C", "bridged intermediate D", "D_prime", "E"]
+  },
+  "pages4_5": "References only; no present-paper experimental arrows, tables, spectra, molecular-weight tables, or mass-fragment abundance tables."
+}

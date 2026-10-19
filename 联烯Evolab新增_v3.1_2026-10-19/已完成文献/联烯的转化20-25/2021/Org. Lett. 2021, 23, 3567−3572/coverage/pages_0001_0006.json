@@ -1,0 +1,289 @@
+{
+  "document_id": "doc_a92a074d2b5271ac",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and graphical abstract",
+          "finding": "Current-work generic aminoarylation family; graphical summary is not a separate experiment.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page1:text",
+            "doc_a92a074d2b5271ac:page1:image"
+          ]
+        },
+        {
+          "region": "Figure 1",
+          "finding": "Bioactive chiral N-substituted 2-pyridones are background examples, not current-paper experiments.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page1:text",
+            "doc_a92a074d2b5271ac:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1a and 1b",
+          "finding": "Cited prior-work [3,3]-rearrangement and allylic substitution; retained as source_context, not current experiments.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page1:text",
+            "doc_a92a074d2b5271ac:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1c",
+          "finding": "This-work generic transformation plus author-proposed allylpalladium/hydrogen-bonded mechanism; recorded separately as generic_scheme and proposed_mechanism.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page1:text",
+            "doc_a92a074d2b5271ac:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a92a074d2b5271ac:scheme_general_aminoarylation",
+        "doc_a92a074d2b5271ac:proposed_mechanism"
+      ],
+      "unresolved": [
+        "Generic R/Ar/n structures are not complete atom-mapped molecules.",
+        "The proposed intermediates were not isolated and are not treated as experiments."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 reaction header and ligand structures L1-L8",
+          "finding": "Common optimization substrates/products and catalyst system; all explicit footnote quantities were structured.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page2:text",
+            "doc_a92a074d2b5271ac:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1 entries 1-18",
+          "finding": "Eighteen independent optimization experiments; entries 4, 7, and 8 report NR and have no invented product.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page2:text",
+            "doc_a92a074d2b5271ac:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1 footnotes a-d",
+          "finding": "Isolated yield, chiral-HPLC er, crude-1H-NMR b/l methods and standard charges/temperature/time were mapped to each applicable row.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page2:text",
+            "doc_a92a074d2b5271ac:page2:image"
+          ]
+        },
+        {
+          "region": "scope discussion in lower text",
+          "finding": "Narrative cross-reference to Figures 2 and 3; no extra experiment was created from prose repetitions.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page2:text",
+            "doc_a92a074d2b5271ac:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a92a074d2b5271ac:table1_entry_01",
+        "doc_a92a074d2b5271ac:table1_entry_02",
+        "doc_a92a074d2b5271ac:table1_entry_03",
+        "doc_a92a074d2b5271ac:table1_entry_04",
+        "doc_a92a074d2b5271ac:table1_entry_05",
+        "doc_a92a074d2b5271ac:table1_entry_06",
+        "doc_a92a074d2b5271ac:table1_entry_07",
+        "doc_a92a074d2b5271ac:table1_entry_08",
+        "doc_a92a074d2b5271ac:table1_entry_09",
+        "doc_a92a074d2b5271ac:table1_entry_10",
+        "doc_a92a074d2b5271ac:table1_entry_11",
+        "doc_a92a074d2b5271ac:table1_entry_12",
+        "doc_a92a074d2b5271ac:table1_entry_13",
+        "doc_a92a074d2b5271ac:table1_entry_14",
+        "doc_a92a074d2b5271ac:table1_entry_15",
+        "doc_a92a074d2b5271ac:table1_entry_16",
+        "doc_a92a074d2b5271ac:table1_entry_17",
+        "doc_a92a074d2b5271ac:table1_entry_18"
+      ],
+      "unresolved": [
+        "NR analytical method and material balance are not reported.",
+        "SI-only workup, purification, and detailed characterization are unavailable."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 2 header, products 4aa-4la, and caption",
+          "finding": "Twelve scope outcomes; 4aa exactly repeats Table 1 entry 9 and was merged as the same experiment, while 4ba-4la are eleven new records.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page3:text",
+            "doc_a92a074d2b5271ac:page3:image"
+          ]
+        },
+        {
+          "region": "Figure 3 header, products 4ab-4kf, and caption",
+          "finding": "Twelve independent substrate-scope experiments; condition A/B, isolated yields, er, and b/l methods were retained.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page3:text",
+            "doc_a92a074d2b5271ac:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 2 general arrow",
+          "finding": "Generic allene-variant aminoarylation scheme, separate from concrete rows.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page3:text",
+            "doc_a92a074d2b5271ac:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 2 rows 1b-1e and products 6a-6e",
+          "finding": "Eight concrete experiments: five successes and three NR controls (1c, 1d, 1e).",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page3:text",
+            "doc_a92a074d2b5271ac:page3:image"
+          ]
+        },
+        {
+          "region": "mechanistic prose below Figures/Scheme",
+          "finding": "Hydroxyl directing and hydrogen-bond explanations are author interpretation; not separate experiments.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page3:text",
+            "doc_a92a074d2b5271ac:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a92a074d2b5271ac:scheme_general_aminoarylation",
+        "doc_a92a074d2b5271ac:scheme2_allene_variants",
+        "doc_a92a074d2b5271ac:table1_entry_09",
+        "doc_a92a074d2b5271ac:figure2_4ba",
+        "doc_a92a074d2b5271ac:figure2_4ca",
+        "doc_a92a074d2b5271ac:figure2_4da",
+        "doc_a92a074d2b5271ac:figure2_4ea",
+        "doc_a92a074d2b5271ac:figure2_4fa",
+        "doc_a92a074d2b5271ac:figure2_4ga",
+        "doc_a92a074d2b5271ac:figure2_4ha",
+        "doc_a92a074d2b5271ac:figure2_4ia",
+        "doc_a92a074d2b5271ac:figure2_4ja",
+        "doc_a92a074d2b5271ac:figure2_4ka",
+        "doc_a92a074d2b5271ac:figure2_4la",
+        "doc_a92a074d2b5271ac:figure3_4ab",
+        "doc_a92a074d2b5271ac:figure3_4ac",
+        "doc_a92a074d2b5271ac:figure3_4ad",
+        "doc_a92a074d2b5271ac:figure3_4ae",
+        "doc_a92a074d2b5271ac:figure3_4af",
+        "doc_a92a074d2b5271ac:figure3_4ag",
+        "doc_a92a074d2b5271ac:figure3_4ah",
+        "doc_a92a074d2b5271ac:figure3_4ai",
+        "doc_a92a074d2b5271ac:figure3_4fb",
+        "doc_a92a074d2b5271ac:figure3_4ff",
+        "doc_a92a074d2b5271ac:figure3_4kb",
+        "doc_a92a074d2b5271ac:figure3_4kf",
+        "doc_a92a074d2b5271ac:scheme2_6a",
+        "doc_a92a074d2b5271ac:scheme2_6b",
+        "doc_a92a074d2b5271ac:scheme2_6c",
+        "doc_a92a074d2b5271ac:scheme2_6d",
+        "doc_a92a074d2b5271ac:scheme2_6e",
+        "doc_a92a074d2b5271ac:scheme2_1c_NR",
+        "doc_a92a074d2b5271ac:scheme2_1d_NR",
+        "doc_a92a074d2b5271ac:scheme2_1e_NR"
+      ],
+      "unresolved": [
+        "Scheme 2 does not state measurement methods for yield, er, or b/l.",
+        "Many compact scope structures and absolute descriptors require expert review/SI; unsafe complete SMILES were not forced."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3a",
+          "finding": "One 7 mmol scale-up experiment with substrate charges, 71%/1.2 g product, 96:4 er, and 79:21 b/l.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page4:text",
+            "doc_a92a074d2b5271ac:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 3b",
+          "finding": "One selective Pd/C-H2 hydrogenation experiment to 7; 95% and only-diastereomer result.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page4:text",
+            "doc_a92a074d2b5271ac:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 3c first arrow",
+          "finding": "One BF3 etherate/THF Prins-type cyclization to pyridinium salt 9; 75% with complete diastereoselectivity.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page4:text",
+            "doc_a92a074d2b5271ac:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 3c second arrow",
+          "finding": "One aqueous-K2CO3 hydrolysis to 10; 85%, 96:4 er, only diastereomer.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page4:text",
+            "doc_a92a074d2b5271ac:page4:image"
+          ]
+        },
+        {
+          "region": "Associated Content and Accession Codes",
+          "finding": "SI and CCDC records are announced, but no SI/CIF was explicitly supplied; no association was inferred.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page4:text",
+            "doc_a92a074d2b5271ac:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_a92a074d2b5271ac:scheme3a_scale_up",
+        "doc_a92a074d2b5271ac:scheme3b_hydrogenation",
+        "doc_a92a074d2b5271ac:scheme3c_prins_cyclization",
+        "doc_a92a074d2b5271ac:scheme3c_hydrolysis"
+      ],
+      "unresolved": [
+        "Scheme 3a says 'As Table 2' while prose says 'standard conditions'; the mismatch is retained as a conflict.",
+        "Scheme 3 omits most quantities, times, temperatures, workup/purification, and measurement methods.",
+        "Structures 9 and 10 and the hydrolysis bond changes are not safely resolved from the compact main-text scheme."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Notes, Acknowledgments, and References 1-13",
+          "finding": "No current-paper reaction experiment, table, scheme, mass spectrum, or characterization dataset; bibliography only after front matter.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page5:text",
+            "doc_a92a074d2b5271ac:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "References 13-20",
+          "finding": "Bibliography continuation only; cited reactions are not current-paper experiments.",
+          "evidence_ids": [
+            "doc_a92a074d2b5271ac:page6:text",
+            "doc_a92a074d2b5271ac:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

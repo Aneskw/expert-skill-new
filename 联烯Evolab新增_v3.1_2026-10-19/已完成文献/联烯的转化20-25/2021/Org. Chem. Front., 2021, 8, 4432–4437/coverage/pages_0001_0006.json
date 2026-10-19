@@ -1,0 +1,198 @@
+{
+  "document_id": "doc_885b8c2ada399389",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, DOI, author block, and ESI notice",
+          "finding": "Current article metadata and overview; the page states that ESI exists, but no SI file was supplied or explicitly associated.",
+          "evidence_ids": ["doc_885b8c2ada399389:page1:image", "doc_885b8c2ada399389:page1:text"]
+        },
+        {
+          "region": "Scheme 1a-b",
+          "finding": "Cited Pd(II) and Au(III) prior work; retained as literature context and not imported as experiments of this paper.",
+          "evidence_ids": ["doc_885b8c2ada399389:page1:image"]
+        },
+        {
+          "region": "Scheme 1c",
+          "finding": "Generic current-work Rh(III)-catalyzed oxidative homo-coupling/cyclization, recorded as one generic scheme with variable R and E-selective product.",
+          "evidence_ids": ["doc_885b8c2ada399389:page1:image"]
+        },
+        {
+          "region": "Results and discussion, initial optimization prose",
+          "finding": "Narrative corroborates Table 1 entries 1, 2, and 8 and Table 2 entries 1-8; precise row values and footnotes are taken from page 2.",
+          "evidence_ids": ["doc_885b8c2ada399389:page1:image", "doc_885b8c2ada399389:page1:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_885b8c2ada399389:scheme1c_generic",
+        "doc_885b8c2ada399389:table1_entry01",
+        "doc_885b8c2ada399389:table1_entry02",
+        "doc_885b8c2ada399389:table1_entry08",
+        "doc_885b8c2ada399389:table2_entry01",
+        "doc_885b8c2ada399389:table2_entry02",
+        "doc_885b8c2ada399389:table2_entry03",
+        "doc_885b8c2ada399389:table2_entry04",
+        "doc_885b8c2ada399389:table2_entry05",
+        "doc_885b8c2ada399389:table2_entry06",
+        "doc_885b8c2ada399389:table2_entry07",
+        "doc_885b8c2ada399389:table2_entry08"
+      ],
+      "unresolved": [
+        "No SI procedure or characterization may be inferred from the ESI availability notice.",
+        "A1, B1, and D1 are only expected/not-detected products in the optimization discussion and were not promoted to observed synthesis records."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1, entries 1-8 and footnotes",
+          "finding": "Eight independent solvent-screen experiments, including entry 1 without Cu(OAc)2·H2O, NMR yield/recovery basis, trace recovery, and decomposition context.",
+          "evidence_ids": ["doc_885b8c2ada399389:page2:image", "doc_885b8c2ada399389:page2:text"]
+        },
+        {
+          "region": "Table 2, entries 1-17 and footnotes",
+          "finding": "Seventeen independent O2 optimization experiments; entries 12-13 change Cu loading, entries 14-17 are 1 mmol concentration/scale variants, and parenthesized values are separate isolated yields.",
+          "evidence_ids": ["doc_885b8c2ada399389:page2:image", "doc_885b8c2ada399389:page2:text"]
+        },
+        {
+          "region": "Table 3, entries 1-22 and footnotes",
+          "finding": "Twenty-two scope rows inspected. Entry 1 repeats Table 2 entry 16 and is represented once. Entries 6 and 14 are scale-ups; entry 6 reports 2 mol% (E)-8f and entry 8 reports piperonyl aldehyde plus an unidentified 8.1 mg byproduct mixture.",
+          "evidence_ids": ["doc_885b8c2ada399389:page2:image", "doc_885b8c2ada399389:page2:text"]
+        },
+        {
+          "region": "scope discussion prose",
+          "finding": "Text corroborates Table 3 yields and substituent classes; it does not add separate experiments beyond the table rows.",
+          "evidence_ids": ["doc_885b8c2ada399389:page2:image", "doc_885b8c2ada399389:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_885b8c2ada399389:table1_entry01", "doc_885b8c2ada399389:table1_entry02", "doc_885b8c2ada399389:table1_entry03", "doc_885b8c2ada399389:table1_entry04", "doc_885b8c2ada399389:table1_entry05", "doc_885b8c2ada399389:table1_entry06", "doc_885b8c2ada399389:table1_entry07", "doc_885b8c2ada399389:table1_entry08",
+        "doc_885b8c2ada399389:table2_entry01", "doc_885b8c2ada399389:table2_entry02", "doc_885b8c2ada399389:table2_entry03", "doc_885b8c2ada399389:table2_entry04", "doc_885b8c2ada399389:table2_entry05", "doc_885b8c2ada399389:table2_entry06", "doc_885b8c2ada399389:table2_entry07", "doc_885b8c2ada399389:table2_entry08", "doc_885b8c2ada399389:table2_entry09", "doc_885b8c2ada399389:table2_entry10", "doc_885b8c2ada399389:table2_entry11", "doc_885b8c2ada399389:table2_entry12", "doc_885b8c2ada399389:table2_entry13", "doc_885b8c2ada399389:table2_entry14", "doc_885b8c2ada399389:table2_entry15", "doc_885b8c2ada399389:table2_entry16", "doc_885b8c2ada399389:table2_entry17",
+        "doc_885b8c2ada399389:table3_entry02", "doc_885b8c2ada399389:table3_entry03", "doc_885b8c2ada399389:table3_entry04", "doc_885b8c2ada399389:table3_entry05", "doc_885b8c2ada399389:table3_entry06", "doc_885b8c2ada399389:table3_entry07", "doc_885b8c2ada399389:table3_entry08", "doc_885b8c2ada399389:table3_entry09", "doc_885b8c2ada399389:table3_entry10", "doc_885b8c2ada399389:table3_entry11", "doc_885b8c2ada399389:table3_entry12", "doc_885b8c2ada399389:table3_entry13", "doc_885b8c2ada399389:table3_entry14", "doc_885b8c2ada399389:table3_entry15", "doc_885b8c2ada399389:table3_entry16", "doc_885b8c2ada399389:table3_entry17", "doc_885b8c2ada399389:table3_entry18", "doc_885b8c2ada399389:table3_entry19", "doc_885b8c2ada399389:table3_entry20", "doc_885b8c2ada399389:table3_entry21", "doc_885b8c2ada399389:table3_entry22"
+      ],
+      "unresolved": [
+        "Exact SMILES/atom maps for the complex graphical substrates and products require expert encoding.",
+        "The composition of the 8.1 mg byproduct mixture in Table 3 entry 8 is unreported.",
+        "Scaled absolute solvent/catalyst amounts for Table 3 entries 6 and 14 are not expanded beyond the printed scale and standard relative conditions."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 4, entries 1-6 and footnotes",
+          "finding": "Six optically active substrate experiments, each with distinct S/R molecular identity, isolated yield, starting-material ee, product ee, E product geometry, time, and standard conditions.",
+          "evidence_ids": ["doc_885b8c2ada399389:page3:image", "doc_885b8c2ada399389:page3:text"]
+        },
+        {
+          "region": "equation (1)",
+          "finding": "One cross-coupling experiment of 1x and 1e with (E)-2xe (49%) and competing (E)-2e (17%) as separate targeted outcomes.",
+          "evidence_ids": ["doc_885b8c2ada399389:page3:image", "doc_885b8c2ada399389:page3:text"]
+        },
+        {
+          "region": "Fig. 1",
+          "finding": "ORTEP/X-ray characterization of (E)-2k, CCDC 1877067; retained as characterization context rather than a new synthesis.",
+          "evidence_ids": ["doc_885b8c2ada399389:page3:image"]
+        },
+        {
+          "region": "Scheme 2 gram-scale arrow",
+          "finding": "A distinct 10 mmol (S)-1f experiment gives (S,E)-2f (50%, >99% ee, 1.124 g) and (E)-8f (1%).",
+          "evidence_ids": ["doc_885b8c2ada399389:page3:image", "doc_885b8c2ada399389:page3:text"]
+        },
+        {
+          "region": "Scheme 2 transformations (i)-(iv) and caption",
+          "finding": "Four independent derivatizations under nitrogen: Petasis methylenation, Sonogashira coupling, mono-Suzuki coupling with 5f/6f = 12/1, and double Suzuki coupling; all printed reagent loadings, solvents, temperatures, and times are structured.",
+          "evidence_ids": ["doc_885b8c2ada399389:page3:image", "doc_885b8c2ada399389:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_885b8c2ada399389:table4_entry01", "doc_885b8c2ada399389:table4_entry02", "doc_885b8c2ada399389:table4_entry03", "doc_885b8c2ada399389:table4_entry04", "doc_885b8c2ada399389:table4_entry05", "doc_885b8c2ada399389:table4_entry06",
+        "doc_885b8c2ada399389:eq1_cross_coupling",
+        "doc_885b8c2ada399389:scheme2_scaleup_SE2f",
+        "doc_885b8c2ada399389:scheme2_deriv_i", "doc_885b8c2ada399389:scheme2_deriv_ii", "doc_885b8c2ada399389:scheme2_deriv_iii", "doc_885b8c2ada399389:scheme2_deriv_iv"
+      ],
+      "unresolved": [
+        "The main text does not report the analytical method for Table 4 ee values.",
+        "Equation (1) and Scheme 2 do not explicitly identify every yield as isolated or analytical; missing bases remain unreported.",
+        "The gram-scale standard-conditions arrow does not print a reaction time.",
+        "Exact isomeric SMILES for the depicted stereocenters were not guessed from the raster; printed S/R and E assignments remain explicit with representation_status=not_encoded."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 equation (1)",
+          "finding": "Mechanistic control with 1w: intended (E)-2w is 0%, while 7w is isolated in 14% yield.",
+          "evidence_ids": ["doc_885b8c2ada399389:page4:image", "doc_885b8c2ada399389:page3:text"]
+        },
+        {
+          "region": "Scheme 3 equations (2)-(3)",
+          "finding": "Two no-product controls: 1e + 8e gives (E)-2e at 0% with no recovery of inputs; 9a gives (E)-2a at 0% with 87% recovery of 9a.",
+          "evidence_ids": ["doc_885b8c2ada399389:page4:image", "doc_885b8c2ada399389:page3:text"]
+        },
+        {
+          "region": "Scheme 3 equations (4)-(5)",
+          "finding": "Two deuterium-labeling experiments: [Dᵃ]-1a gives (E)-2a in 44% without D incorporation; [Dᵇ]-1m gives [D]-(E)-2m in 61% with 99% D at the newly formed labeled group.",
+          "evidence_ids": ["doc_885b8c2ada399389:page4:image", "doc_885b8c2ada399389:page4:text"]
+        },
+        {
+          "region": "Scheme 4 and adjacent mechanistic prose",
+          "finding": "Author-proposed oxyrhodation/insertion/1,4-Rh migration/beta-H elimination catalytic cycle, represented once as proposed_mechanism rather than experimentally isolated intermediates.",
+          "evidence_ids": ["doc_885b8c2ada399389:page4:image", "doc_885b8c2ada399389:page4:text"]
+        },
+        {
+          "region": "conclusions, conflicts, acknowledgements, and start of references",
+          "finding": "Narrative context and bibliography; no additional experimental arrow or table.",
+          "evidence_ids": ["doc_885b8c2ada399389:page4:image", "doc_885b8c2ada399389:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_885b8c2ada399389:scheme3_eq1_1w", "doc_885b8c2ada399389:scheme3_eq2_allenyl_ketone", "doc_885b8c2ada399389:scheme3_eq3_alcohol9a", "doc_885b8c2ada399389:scheme3_eq4_Da1a", "doc_885b8c2ada399389:scheme3_eq5_Db1m", "doc_885b8c2ada399389:scheme4_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Yield/recovery and deuterium-incorporation analytical methods are not printed for several Scheme 3 values.",
+        "Proposed intermediates IN-1, IN-2/IN-2′, and IN-3 are not treated as isolated or directly observed molecules.",
+        "A complete atom-mapped isotope/bond-change account cannot be established from the main text alone."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 2-9",
+          "finding": "Bibliography only. Reaction names in cited titles describe prior literature and were not imported as current-paper experiments.",
+          "evidence_ids": ["doc_885b8c2ada399389:page5:image", "doc_885b8c2ada399389:page5:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No current-paper experiment is present on this page."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 10-12",
+          "finding": "Bibliography only. Cited methylenation and 1,4-rhodium-migration papers are source context, not experiments performed in this article.",
+          "evidence_ids": ["doc_885b8c2ada399389:page6:image", "doc_885b8c2ada399389:page6:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No current-paper experiment is present on this page."
+      ]
+    }
+  ]
+}

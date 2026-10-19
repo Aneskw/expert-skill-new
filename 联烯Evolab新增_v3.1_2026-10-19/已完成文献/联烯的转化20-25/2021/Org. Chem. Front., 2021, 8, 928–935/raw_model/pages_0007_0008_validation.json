@@ -1,0 +1,40 @@
+{
+  "document_id": "doc_755164270d1e5816",
+  "pages": [
+    7,
+    8
+  ],
+  "standard_bundle_validation": {
+    "valid": true,
+    "errors": [],
+    "chemical_accuracy_verified": false
+  },
+  "strict_dataset_validation": {
+    "valid": true,
+    "errors": [],
+    "standard_v3_present": true,
+    "chemical_accuracy_verified": false
+  },
+  "merge": {
+    "merged_reactions": 66,
+    "molecules": 128,
+    "new_reactions_pages_7_8": 0,
+    "new_molecules_pages_7_8": 0,
+    "new_source_context_pages_7_8": 2
+  },
+  "audit": {
+    "warning_records": 49,
+    "warning_types": {
+      "measurement_basis: missing or unassigned method for yield; do not assume isolated yield": 49
+    },
+    "reaction_identity": 0,
+    "outcome_target": 0,
+    "structure_gap": 0,
+    "source_reviewed_records": 0
+  },
+  "notes": [
+    "Pages 7-8 are bibliography-only and generated no current-paper reaction or molecule records.",
+    "All formal records remain needs_review; successful validation does not establish chemical correctness.",
+    "The 49 measurement-basis warnings predate this bibliography-only pass and remain unresolved because the inspected source pages do not supply those methods."
+  ]
+}
