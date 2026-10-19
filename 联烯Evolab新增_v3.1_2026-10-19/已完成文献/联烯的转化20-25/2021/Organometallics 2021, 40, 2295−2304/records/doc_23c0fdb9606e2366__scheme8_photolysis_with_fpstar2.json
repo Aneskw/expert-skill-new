@@ -1,0 +1,986 @@
+{
+  "reaction_id": "doc_23c0fdb9606e2366:scheme8_photolysis_with_fpstar2",
+  "document_id": "doc_23c0fdb9606e2366",
+  "record_type": "specific_experiment",
+  "experiment_categories": {
+    "raw_value": [
+      "mechanistic_study"
+    ],
+    "normalized_value": [
+      "mechanistic_study"
+    ],
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_23c0fdb9606e2366:page5:text"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "location": {
+    "raw_value": {
+      "page": 5,
+      "scheme": "8",
+      "arrow": "middle"
+    },
+    "normalized_value": {
+      "page": 5,
+      "scheme": "8",
+      "arrow": "middle"
+    },
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_23c0fdb9606e2366:page5:text"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "general_scheme_ids": [],
+  "reaction_name": {
+    "raw_value": "irradiation of 1a in the presence of Fp*2",
+    "normalized_value": "irradiation of 1a in the presence of Fp*2",
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_23c0fdb9606e2366:page5:text"
+    ],
+    "data_status": "pending_review",
+    "verification": "unreviewed",
+    "derivation": null,
+    "alternatives": []
+  },
+  "transformation_type": {
+    "raw_value": null,
+    "normalized_value": "photochemical formation of eta3 and propargyliron products",
+    "acquisition_method": "inference",
+    "evidence_ids": [
+      "doc_23c0fdb9606e2366:page5:text"
+    ],
+    "data_status": "pending_review",
+    "verification": "inferred",
+    "derivation": "Concise transformation description inferred from the source arrow and prose.",
+    "alternatives": []
+  },
+  "participants": [
+    {
+      "participant_id": "p_1a",
+      "molecule_id": "m_1a",
+      "role": "reactant",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": "0.03 mmol",
+          "normalized_value": {
+            "number": 0.03,
+            "unit": "mmol"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "p_fpstar2",
+      "molecule_id": "m_fpstar2",
+      "role": "additive",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": "1 mol%",
+          "normalized_value": {
+            "number": 1,
+            "unit": "mol%"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": "m_1a",
+        "normalized_value": "m_1a",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "p_c6d6",
+      "molecule_id": "m_c6d6",
+      "role": "solvent",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": "0.5 mL",
+          "normalized_value": {
+            "number": 0.5,
+            "unit": "mL"
+          },
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "pending_review",
+          "verification": "unreviewed",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "p_1app",
+      "molecule_id": "m_1app",
+      "role": "product",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": "major product",
+        "normalized_value": "major product",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    },
+    {
+      "participant_id": "p_1ap",
+      "molecule_id": "m_1ap",
+      "role": "product",
+      "stage": "reaction",
+      "product_role": {
+        "raw_value": "minor product",
+        "normalized_value": "minor product",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "charges": {
+        "mass": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "amount": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "volume": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "equivalents": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        },
+        "mol_percent": {
+          "raw_value": null,
+          "normalized_value": null,
+          "acquisition_method": "original_extraction",
+          "evidence_ids": [
+            "doc_23c0fdb9606e2366:page5:text"
+          ],
+          "data_status": "unreported",
+          "verification": "missing",
+          "derivation": null,
+          "alternatives": []
+        }
+      },
+      "equivalence_reference": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "reaction_scale": {
+    "raw_value": null,
+    "normalized_value": null,
+    "acquisition_method": "original_extraction",
+    "evidence_ids": [
+      "doc_23c0fdb9606e2366:page5:text"
+    ],
+    "data_status": "unreported",
+    "verification": "missing",
+    "derivation": null,
+    "alternatives": []
+  },
+  "solvent_conditions": {
+    "composition": {
+      "raw_value": "C6D6 (0.5 mL)",
+      "normalized_value": [
+        "C6D6"
+      ],
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "mixture_ratio": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "total_volume": {
+      "raw_value": "0.5 mL",
+      "normalized_value": {
+        "number": 0.5,
+        "unit": "mL"
+      },
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "concentration": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "concentration_basis": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "steps": [
+    {
+      "step_id": "irradiation",
+      "stage": "reaction",
+      "participant_ids": [
+        "p_1a",
+        "p_fpstar2",
+        "p_c6d6",
+        "p_1app",
+        "p_1ap"
+      ],
+      "operation": {
+        "raw_value": null,
+        "normalized_value": "irradiated with visible light",
+        "acquisition_method": "inference",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "pending_review",
+        "verification": "inferred",
+        "derivation": "Normalized operation reconstructed from the cited source region; exact procedure prose is retained separately when supplied.",
+        "alternatives": []
+      },
+      "temperature": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "time": {
+        "raw_value": "15 min",
+        "normalized_value": {
+          "number": 15,
+          "unit": "min"
+        },
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "atmosphere": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "pressure": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "special_conditions": {
+    "light_source": {
+      "raw_value": "85 W CFL",
+      "normalized_value": "85 W CFL",
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "wavelength": {
+      "raw_value": "visible",
+      "normalized_value": "visible",
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "power": {
+      "raw_value": "85 W",
+      "normalized_value": {
+        "number": 85,
+        "unit": "W"
+      },
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "pending_review",
+      "verification": "unreviewed",
+      "derivation": null,
+      "alternatives": []
+    },
+    "current": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "voltage": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "electrodes": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "flow_parameters": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "reactor": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "procedure": {
+    "original_text": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "general_procedure_reference": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "modifications": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "addition_order": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "pretreatment": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    }
+  },
+  "outcomes": [
+    {
+      "outcome_id": "ratio",
+      "kind": "selectivity",
+      "target_molecule_ids": [
+        "m_1app",
+        "m_1ap"
+      ],
+      "product_role": {
+        "raw_value": "product ratio",
+        "normalized_value": "product ratio",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "value": {
+        "raw_value": "4.8:1",
+        "normalized_value": "4.8:1",
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      },
+      "yield_type": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "measurement_basis": {
+        "raw_value": null,
+        "normalized_value": null,
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "unreported",
+        "verification": "missing",
+        "derivation": null,
+        "alternatives": []
+      },
+      "scope": {
+        "raw_value": {
+          "metric": "product ratio",
+          "order": [
+            "1a''",
+            "1a'"
+          ]
+        },
+        "normalized_value": {
+          "metric": "product ratio",
+          "order": [
+            "1a''",
+            "1a'"
+          ]
+        },
+        "acquisition_method": "original_extraction",
+        "evidence_ids": [
+          "doc_23c0fdb9606e2366:page5:text"
+        ],
+        "data_status": "pending_review",
+        "verification": "unreviewed",
+        "derivation": null,
+        "alternatives": []
+      }
+    }
+  ],
+  "classification": {
+    "standard_id": "bond-formation-20261016",
+    "mapped_reaction_smiles": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "bond_changes": [],
+    "labels": {
+      "raw_value": null,
+      "normalized_value": null,
+      "acquisition_method": "original_extraction",
+      "evidence_ids": [],
+      "data_status": "unreported",
+      "verification": "missing",
+      "derivation": null,
+      "alternatives": []
+    },
+    "coverage": {
+      "raw_value": null,
+      "normalized_value": "unresolved",
+      "acquisition_method": "inference",
+      "evidence_ids": [
+        "doc_23c0fdb9606e2366:page5:text"
+      ],
+      "data_status": "pending_review",
+      "verification": "inferred",
+      "derivation": "Source drawing uses generic or coordination-rich structures that were not atom-mapped.",
+      "alternatives": []
+    },
+    "limitations": [
+      "No complete atom mapping was asserted for the dense organometallic transformation.",
+      "Hydrogen and coproduct sources may be unresolved; classification is partial unless marked not applicable."
+    ],
+    "model_votes": []
+  },
+  "notes": [],
+  "evidence_ids": [
+    "doc_23c0fdb9606e2366:page5:text"
+  ],
+  "review": {
+    "status": "needs_review",
+    "method": "model",
+    "reviewer": null,
+    "checked_fields": [],
+    "unresolved": [
+      "The ratio measurement method and combined yield are not reported in Scheme 8; exact metal coordination prevents reliable bond mapping."
+    ]
+  },
+  "completeness": "partial"
+}

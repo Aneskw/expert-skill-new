@@ -1,0 +1,150 @@
+{
+  "document_id": "doc_5dd58f28f6bfaa1f",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and graphical abstract",
+          "finding": "Article identity and a duplicate graphical summary of the current generic transformation; the graphical abstract was not counted as another experiment.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page1:image", "doc_5dd58f28f6bfaa1f:page1:text"]
+        },
+        {
+          "region": "Scheme 1A",
+          "finding": "One cited Ishar prior-work reaction arrow, PhH/reflux, 60% yield; classified as literature_example.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page1:image"]
+        },
+        {
+          "region": "Scheme 1B",
+          "finding": "Two cited Anderson prior-work arrows distinguished by toluene versus i-PrOAc and different major products; stored as two literature_example records.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page1:image"]
+        },
+        {
+          "region": "Scheme 1C and adjacent prose",
+          "finding": "One current-work generic Ni(II)-catalyzed nitrone/allenoate cascade; no experiment-specific quantities or yield assigned here.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page1:image", "doc_5dd58f28f6bfaa1f:page1:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_5dd58f28f6bfaa1f:scheme1A_prior_ishar",
+        "doc_5dd58f28f6bfaa1f:scheme1B_prior_toluene",
+        "doc_5dd58f28f6bfaa1f:scheme1B_prior_iproac",
+        "doc_5dd58f28f6bfaa1f:scheme1C_current_generic"
+      ],
+      "unresolved": [
+        "Prior-work family structures and omitted conditions were not reconstructed from the cited literature.",
+        "The generic current-work arrow does not define all R-group identities or atom-complete bond changes."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 reaction drawing, ligand structures, rows 1-15, and footnotes a-e",
+          "finding": "Fifteen independent optimization experiments. Shared charges, solvent volume, rt, 16-24 h, isolated-yield basis, Z/E ratios, MgSO4 and NaOH footnote additions were structured. Entries 5, 6 and 15 retain <5% alongside prose no-product wording and receive no formed-bond label.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page2:image", "doc_5dd58f28f6bfaa1f:page2:text"]
+        },
+        {
+          "region": "Table 1 discussion",
+          "finding": "Entry 9 has a preserved conflict: Table 1 reports Z/E 20:1, whereas prose says Z isomer only and attributes assignment to 2D NOESY.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page2:image", "doc_5dd58f28f6bfaa1f:page2:text"]
+        },
+        {
+          "region": "Scheme 2 reaction arrow, 24 products 3aa-3xa, structures, yields, and footnotes",
+          "finding": "Twenty-four substrate-scope experiments plus a separate 1a 1.0 g/3.0 mmol scale-up of 3aa. All scheme yields retain isolated basis; 3sa rr 1.5/1 and 3va qualitative single-isomer/high-regioselectivity are product-targeted selectivity outcomes.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page2:image", "doc_5dd58f28f6bfaa1f:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_5dd58f28f6bfaa1f:table1_entry01", "doc_5dd58f28f6bfaa1f:table1_entry02", "doc_5dd58f28f6bfaa1f:table1_entry03", "doc_5dd58f28f6bfaa1f:table1_entry04", "doc_5dd58f28f6bfaa1f:table1_entry05", "doc_5dd58f28f6bfaa1f:table1_entry06", "doc_5dd58f28f6bfaa1f:table1_entry07", "doc_5dd58f28f6bfaa1f:table1_entry08", "doc_5dd58f28f6bfaa1f:table1_entry09", "doc_5dd58f28f6bfaa1f:table1_entry10", "doc_5dd58f28f6bfaa1f:table1_entry11", "doc_5dd58f28f6bfaa1f:table1_entry12", "doc_5dd58f28f6bfaa1f:table1_entry13", "doc_5dd58f28f6bfaa1f:table1_entry14", "doc_5dd58f28f6bfaa1f:table1_entry15",
+        "doc_5dd58f28f6bfaa1f:scheme2_scope_3aa", "doc_5dd58f28f6bfaa1f:scheme2_scope_3ba", "doc_5dd58f28f6bfaa1f:scheme2_scope_3ca", "doc_5dd58f28f6bfaa1f:scheme2_scope_3da", "doc_5dd58f28f6bfaa1f:scheme2_scope_3ea", "doc_5dd58f28f6bfaa1f:scheme2_scope_3fa", "doc_5dd58f28f6bfaa1f:scheme2_scope_3ga", "doc_5dd58f28f6bfaa1f:scheme2_scope_3ha", "doc_5dd58f28f6bfaa1f:scheme2_scope_3ia", "doc_5dd58f28f6bfaa1f:scheme2_scope_3ja", "doc_5dd58f28f6bfaa1f:scheme2_scope_3ka", "doc_5dd58f28f6bfaa1f:scheme2_scope_3la", "doc_5dd58f28f6bfaa1f:scheme2_scope_3ma", "doc_5dd58f28f6bfaa1f:scheme2_scope_3na", "doc_5dd58f28f6bfaa1f:scheme2_scope_3oa", "doc_5dd58f28f6bfaa1f:scheme2_scope_3pa", "doc_5dd58f28f6bfaa1f:scheme2_scope_3qa", "doc_5dd58f28f6bfaa1f:scheme2_scope_3ra", "doc_5dd58f28f6bfaa1f:scheme2_scope_3sa", "doc_5dd58f28f6bfaa1f:scheme2_scope_3ta", "doc_5dd58f28f6bfaa1f:scheme2_scope_3ua", "doc_5dd58f28f6bfaa1f:scheme2_scope_3va", "doc_5dd58f28f6bfaa1f:scheme2_scope_3wa", "doc_5dd58f28f6bfaa1f:scheme2_scope_3xa", "doc_5dd58f28f6bfaa1f:scheme2_scaleup_3aa"
+      ],
+      "unresolved": [
+        "No explicitly associated SI is available for product-specific procedures, workups, purification, spectra, or exact individual times within the printed 16-72 h range.",
+        "The scale-up footnote does not clarify whether 2a, MgSO4, DCM and duration were rescaled.",
+        "Dense scope structures remain source-labelled identities rather than fully checked SMILES."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "continuation of Scheme 2 discussion",
+          "finding": "Cross-page prose confirms 3ja/3ka, 3sa, 3va, 3wa and 3xa. The printed Scheme 2 yield of 3xa is 60%, while prose states 63%; both values are retained as a conflict.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page2:image", "doc_5dd58f28f6bfaa1f:page3:text"]
+        },
+        {
+          "region": "Scheme 3 arrow, products 3ab-3an, structures, and footnotes",
+          "finding": "Thirteen independent allenoate-scope experiments with isolated yields; 3ag is at 60 °C and 3an has product-targeted dr = 1/1.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page3:image", "doc_5dd58f28f6bfaa1f:page3:text"]
+        },
+        {
+          "region": "Scheme 4 arrow, products 5aa-5ag, structures, and footnotes",
+          "finding": "Nine independent N-vinyl-nitrone scope experiments with isolated yields; 5ag is at 60 °C.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page3:image", "doc_5dd58f28f6bfaa1f:page3:text"]
+        },
+        {
+          "region": "mechanistic discussion and Scheme 5",
+          "finding": "One partially described real 18O-labeling study is stored as mechanistic_study; Scheme 5 is a proposed_mechanism. The calculated/found HRMS trace for proposed E is retained in source_context rather than treated as synthesis.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page3:image", "doc_5dd58f28f6bfaa1f:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_5dd58f28f6bfaa1f:scheme2_scope_3ja", "doc_5dd58f28f6bfaa1f:scheme2_scope_3ka", "doc_5dd58f28f6bfaa1f:scheme2_scope_3sa", "doc_5dd58f28f6bfaa1f:scheme2_scope_3va", "doc_5dd58f28f6bfaa1f:scheme2_scope_3wa", "doc_5dd58f28f6bfaa1f:scheme2_scope_3xa",
+        "doc_5dd58f28f6bfaa1f:scheme3_scope_3ab", "doc_5dd58f28f6bfaa1f:scheme3_scope_3ac", "doc_5dd58f28f6bfaa1f:scheme3_scope_3ad", "doc_5dd58f28f6bfaa1f:scheme3_scope_3ae", "doc_5dd58f28f6bfaa1f:scheme3_scope_3af", "doc_5dd58f28f6bfaa1f:scheme3_scope_3ag", "doc_5dd58f28f6bfaa1f:scheme3_scope_3ah", "doc_5dd58f28f6bfaa1f:scheme3_scope_3ai", "doc_5dd58f28f6bfaa1f:scheme3_scope_3aj", "doc_5dd58f28f6bfaa1f:scheme3_scope_3ak", "doc_5dd58f28f6bfaa1f:scheme3_scope_3al", "doc_5dd58f28f6bfaa1f:scheme3_scope_3am", "doc_5dd58f28f6bfaa1f:scheme3_scope_3an",
+        "doc_5dd58f28f6bfaa1f:scheme4_scope_5aa", "doc_5dd58f28f6bfaa1f:scheme4_scope_5ba", "doc_5dd58f28f6bfaa1f:scheme4_scope_5ca", "doc_5dd58f28f6bfaa1f:scheme4_scope_5da", "doc_5dd58f28f6bfaa1f:scheme4_scope_5ea", "doc_5dd58f28f6bfaa1f:scheme4_scope_5fa", "doc_5dd58f28f6bfaa1f:scheme4_scope_5ab", "doc_5dd58f28f6bfaa1f:scheme4_scope_5af", "doc_5dd58f28f6bfaa1f:scheme4_scope_5ag",
+        "doc_5dd58f28f6bfaa1f:mechanistic_o18_label", "doc_5dd58f28f6bfaa1f:scheme5_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 2/prose yield conflict for 3xa remains 60% versus 63%.",
+        "The 18O source, enrichment, incorporation value and full conditions are only said to be in SI and remain unavailable.",
+        "Scheme 5 intermediates and elementary steps are proposed, not independently source-verified structures."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "continuation of proposed mechanism and summary",
+          "finding": "Continuation of the Scheme 5 author proposal, including the directed final 1,4-addition and high Z-selectivity explanation; no new synthetic experiment arrow appears.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page4:image", "doc_5dd58f28f6bfaa1f:page4:text"]
+        },
+        {
+          "region": "Associated Content / Supporting Information notice",
+          "finding": "The page advertises SI containing procedures, mechanistic studies and spectra; this is retained as source_context and is not treated as an associated SI file.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page4:image", "doc_5dd58f28f6bfaa1f:page4:text"]
+        },
+        {
+          "region": "author information, acknowledgments, and references 1-7",
+          "finding": "Metadata and cited literature only; no additional current-paper experiment was created.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page4:image", "doc_5dd58f28f6bfaa1f:page4:text"]
+        }
+      ],
+      "record_ids": ["doc_5dd58f28f6bfaa1f:mechanistic_o18_label", "doc_5dd58f28f6bfaa1f:scheme5_proposed_mechanism"],
+      "unresolved": [
+        "SI association remains unestablished despite the availability notice.",
+        "The final mechanistic stereochemical rationale is an author proposal and is not converted into experimental proof."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 7-19",
+          "finding": "References only. The cited papers and SI cross-references were not imported as current-paper experiments, and no standalone reaction arrow/table appears on this page.",
+          "evidence_ids": ["doc_5dd58f28f6bfaa1f:page5:image", "doc_5dd58f28f6bfaa1f:page5:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Referenced external papers and the paper's SI were not supplied; their experimental details were not inferred."
+      ]
+    }
+  ]
+}

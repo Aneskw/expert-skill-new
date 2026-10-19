@@ -1,0 +1,198 @@
+{
+  "document_id": "doc_9e243efd40e4dfd8",
+  "chemical_accuracy_verified": false,
+  "table1": [
+    {
+      "entry": 1,
+      "catalyst_molecule_id": "m_pph3",
+      "solvent_molecule_id": "m_dcm",
+      "time_h": 24,
+      "result": "NR"
+    },
+    {
+      "entry": 2,
+      "catalyst_molecule_id": "m_mepph2",
+      "solvent_molecule_id": "m_dcm",
+      "time_h": 24,
+      "result": "messy"
+    },
+    {
+      "entry": 3,
+      "catalyst_molecule_id": "m_dabco",
+      "solvent_molecule_id": "m_dcm",
+      "time_h": 24,
+      "result": "NR"
+    },
+    {
+      "entry": 4,
+      "catalyst_molecule_id": "m_dmap",
+      "solvent_molecule_id": "m_dcm",
+      "time_h": 24,
+      "result": 23
+    },
+    {
+      "entry": 5,
+      "catalyst_molecule_id": "m_k2co3",
+      "solvent_molecule_id": "m_dcm",
+      "time_h": 30,
+      "result": 81
+    },
+    {
+      "entry": 6,
+      "catalyst_molecule_id": "m_na2co3",
+      "solvent_molecule_id": "m_dcm",
+      "time_h": 24,
+      "result": "NR"
+    },
+    {
+      "entry": 7,
+      "catalyst_molecule_id": "m_cs2co3",
+      "solvent_molecule_id": "m_dcm",
+      "time_h": 4,
+      "result": 52
+    },
+    {
+      "entry": 8,
+      "catalyst_molecule_id": "m_k2co3",
+      "solvent_molecule_id": "m_thf",
+      "time_h": 9,
+      "result": 91
+    },
+    {
+      "entry": 9,
+      "catalyst_molecule_id": "m_k2co3",
+      "solvent_molecule_id": "m_tol",
+      "time_h": 30,
+      "result": 89
+    },
+    {
+      "entry": 10,
+      "catalyst_molecule_id": "m_k2co3",
+      "solvent_molecule_id": "m_mecn",
+      "time_h": 9,
+      "result": 49
+    },
+    {
+      "entry": 11,
+      "catalyst_molecule_id": "m_k2co3",
+      "solvent_molecule_id": "m_mtbe",
+      "time_h": 12,
+      "result": 91
+    }
+  ],
+  "scheme2": [
+    {
+      "reaction_id": "doc_9e243efd40e4dfd8:scheme2_air_3days",
+      "products": {
+        "3a": "32%",
+        "4a": "60%"
+      }
+    },
+    {
+      "reaction_id": "doc_9e243efd40e4dfd8:table2_scope_4a",
+      "product": "4a",
+      "yield": "87%",
+      "duplicate_locations": [
+        "Scheme 2",
+        "Table 2"
+      ]
+    }
+  ],
+  "table2_yields": {
+    "4a": 87,
+    "4b": 73,
+    "4c": 77,
+    "4d": 74,
+    "4e": 80,
+    "4f": 73,
+    "4g": 84,
+    "4h": 79,
+    "4i": 67,
+    "4j": 84,
+    "4k": 63,
+    "4l": 66,
+    "4m": 76,
+    "4n": 97,
+    "4o": 46,
+    "4p": 93,
+    "4q": 48,
+    "4r": 68,
+    "4s": 66,
+    "4t": 58,
+    "4u": 79,
+    "4v": 95,
+    "4w": 76,
+    "4x": 79,
+    "4y": 76,
+    "4z": 58,
+    "4aa": 73,
+    "4ab": 97,
+    "4ac": 84,
+    "4ad": 62,
+    "4ae": 80,
+    "4af": 80
+  },
+  "table2_negative": {
+    "substrate": "Ar = tert-butyl",
+    "result": "not detected"
+  },
+  "table2_shared_selectivity": {
+    "value": ">20:1 dr",
+    "method": "1H NMR",
+    "applies_to": [
+      "4a",
+      "4b",
+      "4c",
+      "4d",
+      "4e",
+      "4f",
+      "4g",
+      "4h",
+      "4i",
+      "4j",
+      "4k",
+      "4l",
+      "4m",
+      "4n",
+      "4o",
+      "4p",
+      "4q",
+      "4r",
+      "4s",
+      "4t",
+      "4u",
+      "4v",
+      "4w",
+      "4x",
+      "4y",
+      "4z",
+      "4aa",
+      "4ab",
+      "4ac",
+      "4ad",
+      "4ae",
+      "4af"
+    ]
+  },
+  "scheme3": [
+    {
+      "reaction_id": "doc_9e243efd40e4dfd8:scheme3_scaleup_4a",
+      "product": "4a",
+      "amount": "796 mg",
+      "yield": "86%"
+    },
+    {
+      "reaction_id": "doc_9e243efd40e4dfd8:scheme3_reduction_to_5",
+      "product": "5",
+      "yield": "56%",
+      "dr": ">20:1"
+    }
+  ],
+  "scheme1_decisions": {
+    "prior_work_records": 3,
+    "current_generic_records": 1,
+    "graphical_abstract_is_duplicate": true
+  },
+  "scheme4_decision": "one proposed-mechanism record; not a performed mechanistic experiment",
+  "page4_decision": "references only; no current-paper experiment created"
+}

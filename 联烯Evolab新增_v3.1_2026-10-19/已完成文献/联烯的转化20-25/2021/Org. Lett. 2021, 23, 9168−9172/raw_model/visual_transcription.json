@@ -1,0 +1,226 @@
+{
+  "document_id": "doc_19e82cae555b0ca9",
+  "pages_viewed": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "table1": [
+    {
+      "entry": 1,
+      "temperature_C": 80,
+      "catalyst_mode": "pd",
+      "additive": "m_phenylisobutyric",
+      "additive_mol_percent": 100,
+      "isolated_yield_percent": 85,
+      "dr_anti_syn": "1:1"
+    },
+    {
+      "entry": 2,
+      "temperature_C": 80,
+      "catalyst_mode": "pd",
+      "additive": "m_benzoic",
+      "additive_mol_percent": 50,
+      "isolated_yield_percent": 99,
+      "dr_anti_syn": "20:1"
+    },
+    {
+      "entry": 3,
+      "temperature_C": 80,
+      "catalyst_mode": "rh",
+      "additive": "m_ppts",
+      "additive_mol_percent": 30,
+      "isolated_yield_percent": 22,
+      "dr_anti_syn": "1:2"
+    },
+    {
+      "entry": 4,
+      "temperature_C": 80,
+      "catalyst_mode": "rh",
+      "additive": "m_benzoic",
+      "additive_mol_percent": 50,
+      "isolated_yield_percent": 83,
+      "dr_anti_syn": "1:3"
+    },
+    {
+      "entry": 5,
+      "temperature_C": 80,
+      "catalyst_mode": "rh",
+      "additive": "m_pentafluoro",
+      "additive_mol_percent": 20,
+      "isolated_yield_percent": 99,
+      "dr_anti_syn": "1:5"
+    },
+    {
+      "entry": 6,
+      "temperature_C": 50,
+      "catalyst_mode": "rh",
+      "additive": "m_pentafluoro",
+      "additive_mol_percent": 20,
+      "isolated_yield_percent": 59,
+      "dr_anti_syn": "1:8"
+    },
+    {
+      "entry": 7,
+      "temperature_C": 50,
+      "catalyst_mode": "rh_hi",
+      "additive": "m_pentafluoro",
+      "additive_mol_percent": 20,
+      "isolated_yield_percent": 95,
+      "dr_anti_syn": "1:10"
+    }
+  ],
+  "scheme1_pd_scope": {
+    "b": [
+      65,
+      "12:1"
+    ],
+    "c": [
+      79,
+      ">20:1"
+    ],
+    "d": [
+      82,
+      ">20:1"
+    ],
+    "e": [
+      90,
+      ">20:1"
+    ],
+    "f": [
+      99,
+      ">20:1"
+    ],
+    "g": [
+      97,
+      "20:1"
+    ],
+    "h": [
+      83,
+      "20:1"
+    ],
+    "i": [
+      90,
+      "20:1"
+    ],
+    "j": [
+      78,
+      ">20:1"
+    ],
+    "k": [
+      86,
+      ">20:1"
+    ],
+    "l": [
+      81,
+      "10:1"
+    ],
+    "m": [
+      84,
+      "20:1"
+    ],
+    "n": [
+      91,
+      "13:1"
+    ],
+    "o": [
+      81,
+      ">20:1"
+    ]
+  },
+  "scheme2_rh_scope": {
+    "b": [
+      68,
+      "9:1"
+    ],
+    "c": [
+      78,
+      "10:1"
+    ],
+    "d": [
+      81,
+      "7:1"
+    ],
+    "e": [
+      79,
+      "6:1"
+    ],
+    "f": [
+      81,
+      "7:1"
+    ],
+    "g": [
+      84,
+      "7:1"
+    ],
+    "h": [
+      91,
+      "7:1"
+    ],
+    "i": [
+      98,
+      "6:1"
+    ],
+    "j": [
+      56,
+      "9:1"
+    ],
+    "k": [
+      87,
+      "6:1"
+    ],
+    "l": [
+      81,
+      "6:1"
+    ],
+    "m": [
+      70,
+      "5:1"
+    ],
+    "n": [
+      55,
+      "2:1"
+    ],
+    "o": [
+      79,
+      "3:1"
+    ]
+  },
+  "scheme3": {
+    "a": {
+      "product": "4",
+      "yield": "97%"
+    },
+    "a,b": {
+      "product": "5",
+      "yield": "72% over two steps"
+    },
+    "c": {
+      "product": "9",
+      "yield": "68%"
+    },
+    "d": {
+      "product": "6",
+      "yield": "86%"
+    },
+    "e": {
+      "product": "7",
+      "yield": "77%"
+    },
+    "f": {
+      "product": "8",
+      "yield": "76%, 97lin:3br"
+    }
+  },
+  "source_conflicts": [
+    {
+      "field": "Scheme 3 starting material",
+      "scheme": "2a",
+      "preceding_prose": "3a"
+    }
+  ],
+  "record_count": 49,
+  "molecule_count": 87
+}

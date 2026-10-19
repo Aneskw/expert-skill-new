@@ -1,0 +1,257 @@
+{
+  "document_id": "doc_1d619ea14ae771a9",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and graphical abstract",
+          "finding": "Current article title/DOI and the two current-work [3+3]/[3+2] method families; the graphical abstract repeats the same generic branches and is not counted as additional experiments.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page1:image", "doc_1d619ea14ae771a9:page1:text"]
+        },
+        {
+          "region": "Scheme 1a",
+          "finding": "Two generic [4+1] branches explicitly labelled previous work (ref 10); stored as literature examples, not current-paper experiments.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page1:image", "doc_1d619ea14ae771a9:page1:text"]
+        },
+        {
+          "region": "Scheme 1b-c",
+          "finding": "Two generic current-work annulation branches; stored as generic schemes and linked from individual experiments.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page1:image", "doc_1d619ea14ae771a9:page1:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_1d619ea14ae771a9:literature_scheme1a_top",
+        "doc_1d619ea14ae771a9:literature_scheme1a_bottom",
+        "doc_1d619ea14ae771a9:generic_3plus3",
+        "doc_1d619ea14ae771a9:generic_3plus2"
+      ],
+      "unresolved": [
+        "Previous-work R/Ar structures are generic; complete structures and bond mappings are not expanded.",
+        "Graphical-abstract structures are treated as duplicate depictions of Scheme 1 rather than independent experiments."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1, entries 1-12 and footnotes",
+          "finding": "Twelve optimization experiments were transcribed row by row, including two complex-mixture rows, numeric/trace side-product outcomes, common charges, rt, times, solvent volumes, and isolated-yield basis.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page2:image", "doc_1d619ea14ae771a9:page2:text"]
+        },
+        {
+          "region": "Table 1 entry 11 and adjacent solvent-screening prose",
+          "finding": "Source conflict retained: the table cell visually reads toluene, while adjacent prose enumerates benzene among the screened solvents; neither was selected.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page2:image", "doc_1d619ea14ae771a9:page2:text"]
+        },
+        {
+          "region": "Scheme 2 and footnote",
+          "finding": "All 25 products 3a-y and isolated yields were inventoried. 3a (99%) is the same EtOH/rt/12 h experiment as Table 1 entry 12 and was merged; 3b-y are separate scope experiments.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page2:image", "doc_1d619ea14ae771a9:page2:text"]
+        },
+        {
+          "region": "prose around Table 1/Scheme 2 and ORTEP of 3a",
+          "finding": "Prose confirms products 3a/3a-prime, isolated behavior, catalyst/solvent discussion, and X-ray support for 3a; the ORTEP is identity context, not an additional synthesis experiment.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page2:image", "doc_1d619ea14ae771a9:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_1d619ea14ae771a9:generic_3plus3",
+        "doc_1d619ea14ae771a9:table1_entry_01",
+        "doc_1d619ea14ae771a9:table1_entry_02",
+        "doc_1d619ea14ae771a9:table1_entry_03",
+        "doc_1d619ea14ae771a9:table1_entry_04",
+        "doc_1d619ea14ae771a9:table1_entry_05",
+        "doc_1d619ea14ae771a9:table1_entry_06",
+        "doc_1d619ea14ae771a9:table1_entry_07",
+        "doc_1d619ea14ae771a9:table1_entry_08",
+        "doc_1d619ea14ae771a9:table1_entry_09",
+        "doc_1d619ea14ae771a9:table1_entry_10",
+        "doc_1d619ea14ae771a9:table1_entry_11",
+        "doc_1d619ea14ae771a9:table1_entry_12",
+        "doc_1d619ea14ae771a9:scheme2_3b",
+        "doc_1d619ea14ae771a9:scheme2_3c",
+        "doc_1d619ea14ae771a9:scheme2_3d",
+        "doc_1d619ea14ae771a9:scheme2_3e",
+        "doc_1d619ea14ae771a9:scheme2_3f",
+        "doc_1d619ea14ae771a9:scheme2_3g",
+        "doc_1d619ea14ae771a9:scheme2_3h",
+        "doc_1d619ea14ae771a9:scheme2_3i",
+        "doc_1d619ea14ae771a9:scheme2_3j",
+        "doc_1d619ea14ae771a9:scheme2_3k",
+        "doc_1d619ea14ae771a9:scheme2_3l",
+        "doc_1d619ea14ae771a9:scheme2_3m",
+        "doc_1d619ea14ae771a9:scheme2_3n",
+        "doc_1d619ea14ae771a9:scheme2_3o",
+        "doc_1d619ea14ae771a9:scheme2_3p",
+        "doc_1d619ea14ae771a9:scheme2_3q",
+        "doc_1d619ea14ae771a9:scheme2_3r",
+        "doc_1d619ea14ae771a9:scheme2_3s",
+        "doc_1d619ea14ae771a9:scheme2_3t",
+        "doc_1d619ea14ae771a9:scheme2_3u",
+        "doc_1d619ea14ae771a9:scheme2_3v",
+        "doc_1d619ea14ae771a9:scheme2_3w",
+        "doc_1d619ea14ae771a9:scheme2_3x",
+        "doc_1d619ea14ae771a9:scheme2_3y"
+      ],
+      "unresolved": [
+        "No SI was supplied, so detailed procedures, addition order, atmosphere, workup, purification, and characterization details remain unreported.",
+        "Scheme 2 labels the substrate family generically as 2; individual thioamide identities were derived from the displayed product substituent and prose and remain needs_review.",
+        "Dense product SMILES and any unprinted stereochemical assignments remain unresolved."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "continuation of Scheme 2 discussion",
+          "finding": "Prose confirms the later Scheme 2 entries 3m-y and their substituent/yield assignments; these are linked to the same records as the page-2 figure.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page3:image", "doc_1d619ea14ae771a9:page3:text"]
+        },
+        {
+          "region": "Scheme 3 and footnotes",
+          "finding": "Twenty standard scope experiments 5a-t were transcribed, plus the parenthetical 72% result with 1.0 mmol of 4 as a separate scale-up experiment. Common doses, rt/12 h, isolated-yield basis based on 4, and 4-nitrophenol byproduct were retained.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page3:image", "doc_1d619ea14ae771a9:page3:text"]
+        },
+        {
+          "region": "ORTEP of 5a",
+          "finding": "Crystallographic identity context for 5a (CCDC 2061465), not a separate synthesis experiment.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page3:image", "doc_1d619ea14ae771a9:page3:text"]
+        },
+        {
+          "region": "Scheme 4a-b",
+          "finding": "Two distinct one-pot sequential derivatizations were transcribed with stage-specific reagents, doses, temperatures, times, and yields (7: 46%; 8: 72%).",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page3:image", "doc_1d619ea14ae771a9:page3:text"]
+        },
+        {
+          "region": "beginning of Scheme 5 discussion",
+          "finding": "Author-proposed [3+3] mechanism begins here and continues on page 4; stored as one proposed-mechanism record, not an experiment.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page3:image", "doc_1d619ea14ae771a9:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_1d619ea14ae771a9:scheme2_3m",
+        "doc_1d619ea14ae771a9:scheme2_3n",
+        "doc_1d619ea14ae771a9:scheme2_3o",
+        "doc_1d619ea14ae771a9:scheme2_3p",
+        "doc_1d619ea14ae771a9:scheme2_3q",
+        "doc_1d619ea14ae771a9:scheme2_3r",
+        "doc_1d619ea14ae771a9:scheme2_3s",
+        "doc_1d619ea14ae771a9:scheme2_3t",
+        "doc_1d619ea14ae771a9:scheme2_3u",
+        "doc_1d619ea14ae771a9:scheme2_3v",
+        "doc_1d619ea14ae771a9:scheme2_3w",
+        "doc_1d619ea14ae771a9:scheme2_3x",
+        "doc_1d619ea14ae771a9:scheme2_3y",
+        "doc_1d619ea14ae771a9:generic_3plus2",
+        "doc_1d619ea14ae771a9:scheme3_5a",
+        "doc_1d619ea14ae771a9:scheme3_5b",
+        "doc_1d619ea14ae771a9:scheme3_5c",
+        "doc_1d619ea14ae771a9:scheme3_5d",
+        "doc_1d619ea14ae771a9:scheme3_5e",
+        "doc_1d619ea14ae771a9:scheme3_5f",
+        "doc_1d619ea14ae771a9:scheme3_5g",
+        "doc_1d619ea14ae771a9:scheme3_5h",
+        "doc_1d619ea14ae771a9:scheme3_5i",
+        "doc_1d619ea14ae771a9:scheme3_5j",
+        "doc_1d619ea14ae771a9:scheme3_5k",
+        "doc_1d619ea14ae771a9:scheme3_5l",
+        "doc_1d619ea14ae771a9:scheme3_5m",
+        "doc_1d619ea14ae771a9:scheme3_5n",
+        "doc_1d619ea14ae771a9:scheme3_5o",
+        "doc_1d619ea14ae771a9:scheme3_5p",
+        "doc_1d619ea14ae771a9:scheme3_5q",
+        "doc_1d619ea14ae771a9:scheme3_5r",
+        "doc_1d619ea14ae771a9:scheme3_5s",
+        "doc_1d619ea14ae771a9:scheme3_5t",
+        "doc_1d619ea14ae771a9:scheme3_5a_scaleup",
+        "doc_1d619ea14ae771a9:scheme4a_product7",
+        "doc_1d619ea14ae771a9:scheme4b_product8",
+        "doc_1d619ea14ae771a9:scheme5_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Table S1 and SI were referenced but not supplied; optimization rows for the [3+2] reaction were not reconstructed.",
+        "Scheme 3 products show an alkenyl geometry in the drawing but no E/Z descriptor or ratio; geometry remains unspecified/not encoded.",
+        "Scheme 4 stage-2 temperatures and yield measurement bases are not printed; both remain unreported.",
+        "The 1.0 mmol scale-up footnote does not reprint all absolute charges; only explicitly shown scale/loading facts were retained."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 5 proposed pathway I-V",
+          "finding": "Author-proposed [3+3] phosphonium-ketene pathway with N addition, 1,5-H transfer, favored 6-endo-trig cyclization, and a not-observed 5-exo-trig branch; stored as a proposed mechanism.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page4:image", "doc_1d619ea14ae771a9:page4:text"]
+        },
+        {
+          "region": "Scheme 5 deuterium-labelling panel",
+          "finding": "Two real mechanistic experiments: thiobenzamide-only H/D exchange giving 10% D incorporation, and annulation in CD3OD giving 3a-D in 92% yield with 66% methyl D incorporation.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page4:image", "doc_1d619ea14ae771a9:page4:text"]
+        },
+        {
+          "region": "Scheme 6 proposed pathway VI-XI",
+          "finding": "Author-proposed [3+2] pathway with favored 5-exo-trig cyclization, disfavored/not-observed 6-endo-trig branch, 1,2-H transfer, and catalyst elimination; stored as proposed mechanism.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page4:image", "doc_1d619ea14ae771a9:page4:text"]
+        },
+        {
+          "region": "DFT discussion and summary",
+          "finding": "Computed proton-transfer barriers and water-assisted interpretation are retained in source_context, not converted into synthesis experiments; SI details are unavailable.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page4:image", "doc_1d619ea14ae771a9:page4:text"]
+        },
+        {
+          "region": "Associated Content/CCDC notice",
+          "finding": "The main paper advertises SI and CCDC records, but no SI PDF was explicitly supplied or associated; no SI facts were imported.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page4:image", "doc_1d619ea14ae771a9:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_1d619ea14ae771a9:scheme5_deuterium_control",
+        "doc_1d619ea14ae771a9:scheme5_deuterium_product",
+        "doc_1d619ea14ae771a9:scheme5_proposed_mechanism",
+        "doc_1d619ea14ae771a9:scheme6_proposed_mechanism"
+      ],
+      "unresolved": [
+        "D-incorporation and 92% yield measurement methods are not printed in the main article.",
+        "Exact isotopologue distributions for 2a-D and 3a-D are not reported and were not forced into unique SMILES.",
+        "DFT computational details and Table S1 entry 12 are in unavailable SI.",
+        "Proposed intermediates are not treated as isolated products or experimentally verified elementary steps."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "author information, acknowledgments, and references 1-18",
+          "finding": "No current-paper reaction arrow, table row, procedure, product outcome, independent spectrum, or synthesis experiment appears on this page; citations were not reconstructed as experiments.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page5:image", "doc_1d619ea14ae771a9:page5:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Bibliographic citations may describe external chemistry, but they are not source records for experiments in this paper."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 18-27 and CCDC note",
+          "finding": "No current-paper synthesis experiment occurs. CCDC 2061479 (3a) and 2061465 (5a) are retained as identity context only; bibliography entries were not converted into reaction records.",
+          "evidence_ids": ["doc_1d619ea14ae771a9:page6:image", "doc_1d619ea14ae771a9:page6:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Crystallographic files themselves were not supplied; only the main-text CCDC identifiers are available."
+      ]
+    }
+  ]
+}

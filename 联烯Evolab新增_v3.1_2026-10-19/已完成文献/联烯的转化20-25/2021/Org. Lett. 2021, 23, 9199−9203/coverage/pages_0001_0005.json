@@ -1,0 +1,172 @@
+{
+  "document_id": "doc_ef92440ef1f0a757",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and graphical abstract",
+          "finding": "Current-paper generic copper/enamine-catalyzed intermolecular alpha-addition; no individual experimental charge or yield is assigned from this overview.",
+          "evidence_ids": ["doc_ef92440ef1f0a757:page1:image", "doc_ef92440ef1f0a757:page1:text"]
+        },
+        {
+          "region": "Scheme 1a-c",
+          "finding": "Three contextual prior-work arrows (Carreira, Breit, and the authors' prior Cu work), each classified as a literature example rather than a current-paper experiment.",
+          "evidence_ids": ["doc_ef92440ef1f0a757:page1:image", "doc_ef92440ef1f0a757:page1:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_ef92440ef1f0a757:generic_alpha_addition",
+        "doc_ef92440ef1f0a757:lit_scheme1_carreira",
+        "doc_ef92440ef1f0a757:lit_scheme1_breit",
+        "doc_ef92440ef1f0a757:lit_scheme1_our_previous"
+      ],
+      "unresolved": [
+        "The graphical abstract uses generic [N]/Ar notation and does not support unique concrete molecule identities or a complete atom map."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2a-c and lower current-work row",
+          "finding": "Three cited Au/Pd prior-work examples plus one current generic transformation; prior-work arrows were not treated as experiments from this paper.",
+          "evidence_ids": ["doc_ef92440ef1f0a757:page2:image", "doc_ef92440ef1f0a757:page2:text"]
+        },
+        {
+          "region": "Table 1 header, catalyst/ligand/additive structures, entries 1-20, and footnotes a-e",
+          "finding": "Twenty independent optimization experiments transcribed row-by-row. Common charges, 18 h, default 60 °C, 70 °C exceptions, NMR-yield basis, isolated-yield parentheses, and chiral-HPLC er basis were preserved. Entries 8 and 14 retain er as not determined.",
+          "evidence_ids": ["doc_ef92440ef1f0a757:page2:image", "doc_ef92440ef1f0a757:page2:text"]
+        },
+        {
+          "region": "optimization discussion below Table 1",
+          "finding": "Narrative cross-check of entries 1-20. The prose gives 95:5 er for entry 18 while the table gives 5:95; this is retained as an unresolved source-order conflict and linked to the repeated 3aa scope result.",
+          "evidence_ids": ["doc_ef92440ef1f0a757:page2:image", "doc_ef92440ef1f0a757:page2:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_ef92440ef1f0a757:generic_alpha_addition",
+        "doc_ef92440ef1f0a757:lit_scheme2_lopez",
+        "doc_ef92440ef1f0a757:lit_scheme2_gonzalez",
+        "doc_ef92440ef1f0a757:lit_scheme2_luo",
+        "doc_ef92440ef1f0a757:table1_entry01",
+        "doc_ef92440ef1f0a757:table1_entry02",
+        "doc_ef92440ef1f0a757:table1_entry03",
+        "doc_ef92440ef1f0a757:table1_entry04",
+        "doc_ef92440ef1f0a757:table1_entry05",
+        "doc_ef92440ef1f0a757:table1_entry06",
+        "doc_ef92440ef1f0a757:table1_entry07",
+        "doc_ef92440ef1f0a757:table1_entry08",
+        "doc_ef92440ef1f0a757:table1_entry09",
+        "doc_ef92440ef1f0a757:table1_entry10",
+        "doc_ef92440ef1f0a757:table1_entry11",
+        "doc_ef92440ef1f0a757:table1_entry12",
+        "doc_ef92440ef1f0a757:table1_entry13",
+        "doc_ef92440ef1f0a757:table1_entry14",
+        "doc_ef92440ef1f0a757:table1_entry15",
+        "doc_ef92440ef1f0a757:table1_entry16",
+        "doc_ef92440ef1f0a757:table1_entry17",
+        "doc_ef92440ef1f0a757:table1_entry18",
+        "doc_ef92440ef1f0a757:table1_entry19",
+        "doc_ef92440ef1f0a757:table1_entry20"
+      ],
+      "unresolved": [
+        "Complete structures/isomeric SMILES for several chiral organocatalysts and dense ligands are not asserted from the small source drawings.",
+        "The enantiomer ordering behind the 5:95 versus 95:5 entry-18 discrepancy is unresolved."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 general arrow, 13 scope products, and isolated-yield footnote",
+          "finding": "Thirteen displayed outcomes inspected. 3aa is the same experiment as Table 1 entry 18 and is not duplicated; the other 12 are independent scope records. Product-specific isolated yields and er values are linked to their products. The unidentified 3ca side product is retained without invented identity or amount.",
+          "evidence_ids": ["doc_ef92440ef1f0a757:page3:image", "doc_ef92440ef1f0a757:page3:text"]
+        },
+        {
+          "region": "Scheme 4 scale-up box",
+          "finding": "One 2.5 mmol scale-up experiment: 3aa, 630 mg (98%), 95:5 er under the displayed catalytic conditions.",
+          "evidence_ids": ["doc_ef92440ef1f0a757:page3:image", "doc_ef92440ef1f0a757:page3:text"]
+        },
+        {
+          "region": "Scheme 4 postfunctionalization arrows a and b",
+          "finding": "Two separate derivatization experiments: reductive amination to 4aa and Henry reaction to 5aa. All arrow doses were structured; the 0 °C-to-rt operation retains an unresolved split of the combined 15 h.",
+          "evidence_ids": ["doc_ef92440ef1f0a757:page3:image", "doc_ef92440ef1f0a757:page3:text"]
+        },
+        {
+          "region": "Scheme 5 and adjacent stereochemical discussion",
+          "finding": "Author-proposed Si-face/backside-attack stereochemical model, stored as proposed mechanism rather than an observed experiment. Page text reports S configuration for 3fa by X-ray and refers to the observed absolute configuration of 3aa.",
+          "evidence_ids": ["doc_ef92440ef1f0a757:page3:image", "doc_ef92440ef1f0a757:page3:text"]
+        },
+        {
+          "region": "negative scope statements in prose",
+          "finding": "Terminal C-allenes gave degradation; phenylacetaldehyde and di(alkyl)aldehydes did not react. These are retained in source_context because complete substrate-pair identities and measurement bases are not given.",
+          "evidence_ids": ["doc_ef92440ef1f0a757:page3:image", "doc_ef92440ef1f0a757:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_ef92440ef1f0a757:generic_alpha_addition",
+        "doc_ef92440ef1f0a757:table1_entry18",
+        "doc_ef92440ef1f0a757:scheme3_3ba",
+        "doc_ef92440ef1f0a757:scheme3_3ca",
+        "doc_ef92440ef1f0a757:scheme3_3fa",
+        "doc_ef92440ef1f0a757:scheme3_3ga",
+        "doc_ef92440ef1f0a757:scheme3_3da",
+        "doc_ef92440ef1f0a757:scheme3_3ea",
+        "doc_ef92440ef1f0a757:scheme3_3ab",
+        "doc_ef92440ef1f0a757:scheme3_3bb",
+        "doc_ef92440ef1f0a757:scheme3_3cb",
+        "doc_ef92440ef1f0a757:scheme3_3ac",
+        "doc_ef92440ef1f0a757:scheme3_3bc",
+        "doc_ef92440ef1f0a757:scheme3_3ad",
+        "doc_ef92440ef1f0a757:scheme4_scaleup_3aa",
+        "doc_ef92440ef1f0a757:scheme4a_reductive_amination",
+        "doc_ef92440ef1f0a757:scheme4b_henry",
+        "doc_ef92440ef1f0a757:scheme5_proposed_model"
+      ],
+      "unresolved": [
+        "Exact isomeric SMILES for dense scope products other than 3aa were not asserted.",
+        "Measurement bases for Scheme 4 yields/product masses and the 5aa dr are absent from the supplied main-text pages.",
+        "Identity and amount of the 3ca side product are unreported.",
+        "Negative-scope statements do not define enough individual experimental combinations for separate specific records."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "conclusion and Supporting Information notice",
+          "finding": "No new reaction arrow, optimization row, or scope outcome. The page advertises SI procedures/spectra and a FAIR-data ZIP, but no SI file was supplied or associated in this session.",
+          "evidence_ids": ["doc_ef92440ef1f0a757:page4:image", "doc_ef92440ef1f0a757:page4:text"]
+        },
+        {
+          "region": "CCDC accession, author information, acknowledgments, and beginning of references",
+          "finding": "Characterization/metadata and bibliography only; CCDC 2120196 is not converted into an additional synthesis experiment.",
+          "evidence_ids": ["doc_ef92440ef1f0a757:page4:image", "doc_ef92440ef1f0a757:page4:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The advertised SI and primary NMR files were not provided, so procedural workup, purification, spectra, and chromatographic details remain unavailable."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 3-15",
+          "finding": "Bibliography only. No current-paper reaction arrow, experimental table, spectrum, mass-fragment table, or new procedure is present; citations were not converted into current experiments.",
+          "evidence_ids": ["doc_ef92440ef1f0a757:page5:image", "doc_ef92440ef1f0a757:page5:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

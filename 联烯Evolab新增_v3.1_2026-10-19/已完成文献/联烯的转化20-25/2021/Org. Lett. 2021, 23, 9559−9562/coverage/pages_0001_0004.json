@@ -1,0 +1,179 @@
+{
+  "document_id": "doc_041e35a0008dd7ec",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and graphical abstract at page top",
+          "finding": "The title and DOI identify the current article. The graphical abstract is a retrosynthetic/summary depiction connecting ansalactam A, fragment 7, formamide 10, and allene 23; it is not counted as an additional experiment.",
+          "evidence_ids": [
+            "doc_041e35a0008dd7ec:page1:image",
+            "doc_041e35a0008dd7ec:page1:text"
+          ]
+        },
+        {
+          "region": "Figure 1 and introductory text",
+          "finding": "Figure 1 shows structures of ansalactams A-D and the prose introduces the synthetic problem; no current-paper reaction conditions or independent experimental arrows occur here.",
+          "evidence_ids": [
+            "doc_041e35a0008dd7ec:page1:image",
+            "doc_041e35a0008dd7ec:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The graphical abstract contains dense stereostructures but is only a summary/retrosynthetic depiction; its structures are not treated as additional experimental records."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 2a-b, upper-left",
+          "finding": "Figure 2a is Trauner's cited biomimetic radical-cyclization logic and Figure 2b is the authors' retrosynthetic proposal. These conceptual/cited arrows are not counted as current experimental syntheses.",
+          "evidence_ids": [
+            "doc_041e35a0008dd7ec:page2:image",
+            "doc_041e35a0008dd7ec:page2:text"
+          ]
+        },
+        {
+          "region": "Scheme 1, left column",
+          "finding": "Six current synthesis sequences were transcribed independently: 12→13 (99%, two operations), 13→14 (84%), 14→15 (99%, two operations), 15→11 (80%), 11→16 (60%, three operations), and 16→10 (75%). Explicit arrow reagents and aqueous carriers were structured; temperatures, times, charges, workup, purification, and yield bases remain unreported.",
+          "evidence_ids": [
+            "doc_041e35a0008dd7ec:page2:image",
+            "doc_041e35a0008dd7ec:page2:text"
+          ]
+        },
+        {
+          "region": "right-column discussion of Scheme 2",
+          "finding": "The prose supports the 10→17→18 and 10+9→19→20 sequences shown on page 3, including 18 as a single isolated diastereomer with X-ray assignment, the 28% overall yield to 20 over two steps, one isolated regioisomer with uncertain overall selectivity, and X-ray-supported rearrangement of 20.",
+          "evidence_ids": [
+            "doc_041e35a0008dd7ec:page2:image",
+            "doc_041e35a0008dd7ec:page2:text",
+            "doc_041e35a0008dd7ec:page3:image"
+          ]
+        },
+        {
+          "region": "right-column mechanistic discussion",
+          "finding": "Actual mechanistic observations (isolation/X-ray confirmation of 21 and its competence in the [3+2] reaction) were separated from the proposed 22/21 pathway. Neutral/basic no-reaction controls and failed functionalization of 18 lack discrete conditions and remain source context rather than fabricated experiments.",
+          "evidence_ids": [
+            "doc_041e35a0008dd7ec:page2:image",
+            "doc_041e35a0008dd7ec:page2:text",
+            "doc_041e35a0008dd7ec:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_041e35a0008dd7ec:scheme1_12_to_13",
+        "doc_041e35a0008dd7ec:scheme1_13_to_14",
+        "doc_041e35a0008dd7ec:scheme1_14_to_15",
+        "doc_041e35a0008dd7ec:scheme1_15_to_11",
+        "doc_041e35a0008dd7ec:scheme1_11_to_16",
+        "doc_041e35a0008dd7ec:scheme1_16_to_10",
+        "doc_041e35a0008dd7ec:scheme2_10_to_17",
+        "doc_041e35a0008dd7ec:scheme2_17_to_18",
+        "doc_041e35a0008dd7ec:scheme2_10_9_to_19",
+        "doc_041e35a0008dd7ec:scheme2_19_to_20",
+        "doc_041e35a0008dd7ec:mechanistic_isolation_21",
+        "doc_041e35a0008dd7ec:mechanistic_21_to_17",
+        "doc_041e35a0008dd7ec:figure3_proposed_pathway"
+      ],
+      "unresolved": [
+        "No SI was supplied, so the main-paper summaries do not establish complete experimental procedures or measurement bases.",
+        "Individual conditions for failed functionalization of 18 and neutral/basic controls are not specified.",
+        "The operative intermediate (protonated isocyanide 22 versus protonated oxazole 21) remains explicitly unresolved by the authors."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2, page top",
+          "finding": "Four independent experimental arrows were recorded: formal [3+2] reactions 10+methyl acrylate→17 (65%) and 10+9→19 (49%), followed by mCPBA oxidations 17→18 (90%, single diastereomer) and 19→20 (57%). The prose-supported 28% two-step yield to 20 is retained separately from the 57% second-arrow yield.",
+          "evidence_ids": [
+            "doc_041e35a0008dd7ec:page3:image",
+            "doc_041e35a0008dd7ec:page2:text"
+          ]
+        },
+        {
+          "region": "Figure 3a-b, middle-left",
+          "finding": "Figure 3a is an initially envisioned reactivity model. Figure 3b combines the proposed 22/21 pathway with the actual isolation of 21 and its demonstrated reaction competence; conceptual and experimental content were stored separately.",
+          "evidence_ids": [
+            "doc_041e35a0008dd7ec:page3:image",
+            "doc_041e35a0008dd7ec:page2:text",
+            "doc_041e35a0008dd7ec:page3:text"
+          ]
+        },
+        {
+          "region": "Figure 4a optimization table, middle-right",
+          "finding": "All six table entries were made independent optimization records. Each retains the common Tf2O (1.1 equiv)/CH2Cl2/0 °C/45 min preactivation and its own wet Et3N loading, allene 23 loading, subsequent solvent, rt duration, concentration, and 24 result. Footnotes establish wet Et3N in every row and isolated E/Z-isomer yield after column chromatography. Entry 2 preserves CH2Cl2 for preactivation and toluene for the later stage rather than collapsing them.",
+          "evidence_ids": [
+            "doc_041e35a0008dd7ec:page3:image",
+            "doc_041e35a0008dd7ec:page3:text"
+          ]
+        },
+        {
+          "region": "Figure 4b and accompanying prose, lower-right",
+          "finding": "The two arrows 24→25 (H2, Pd/C, EtOH) and 25→7 (Pinnick oxidation) form one explicitly reported two-step sequence. The 63% value is scoped from 24 to 7 over two steps, not assigned to the second arrow alone; 7 is reported as a single isolated diastereomer.",
+          "evidence_ids": [
+            "doc_041e35a0008dd7ec:page3:image",
+            "doc_041e35a0008dd7ec:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_041e35a0008dd7ec:scheme2_10_to_17",
+        "doc_041e35a0008dd7ec:scheme2_17_to_18",
+        "doc_041e35a0008dd7ec:scheme2_10_9_to_19",
+        "doc_041e35a0008dd7ec:scheme2_19_to_20",
+        "doc_041e35a0008dd7ec:mechanistic_isolation_21",
+        "doc_041e35a0008dd7ec:mechanistic_21_to_17",
+        "doc_041e35a0008dd7ec:figure3_proposed_pathway",
+        "doc_041e35a0008dd7ec:figure4_opt_entry_1",
+        "doc_041e35a0008dd7ec:figure4_opt_entry_2",
+        "doc_041e35a0008dd7ec:figure4_opt_entry_3",
+        "doc_041e35a0008dd7ec:figure4_opt_entry_4",
+        "doc_041e35a0008dd7ec:figure4_opt_entry_5",
+        "doc_041e35a0008dd7ec:figure4_opt_entry_6",
+        "doc_041e35a0008dd7ec:figure4b_24_to_7"
+      ],
+      "unresolved": [
+        "Exact E/Z and diastereomer ratios for 24 are not reported.",
+        "The concentration basis and reaction scale for Figure 4a are not stated in the main paper.",
+        "Figure 4b does not provide times, temperatures, pressure, quantities, Pinnick reagent composition, workup/purification, or yield/selectivity measurement bases.",
+        "Dense structures 17-25 and 7 are not assigned speculative machine SMILES where exact stereochemical encoding was unsafe."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Associated Content and Accession Codes, upper-left",
+          "finding": "The page advertises an SI PDF and lists CCDC 2120591-2120594, but no SI file was supplied or explicitly associated with this session; the notice is metadata, not extracted experimental detail.",
+          "evidence_ids": [
+            "doc_041e35a0008dd7ec:page4:image",
+            "doc_041e35a0008dd7ec:page4:text"
+          ]
+        },
+        {
+          "region": "Author information, acknowledgments, and references",
+          "finding": "No current-paper synthesis arrow, optimization row, no-reaction table, or independent spectrum/fragment peak table is present. Cited publications are bibliography only and were not imported as this paper's experiments.",
+          "evidence_ids": [
+            "doc_041e35a0008dd7ec:page4:image",
+            "doc_041e35a0008dd7ec:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Experimental procedures, characterizations, X-ray details, and NMR spectra are said to exist in SI, but that SI is unavailable in the provided inputs."
+      ]
+    }
+  ]
+}

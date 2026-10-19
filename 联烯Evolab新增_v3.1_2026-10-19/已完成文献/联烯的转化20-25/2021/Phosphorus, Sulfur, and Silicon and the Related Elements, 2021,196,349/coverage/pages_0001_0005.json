@@ -1,0 +1,150 @@
+{
+  "document_id": "doc_a2cb06c9c35e36e6",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "publisher cover/front matter",
+          "finding": "Article title, authors, DOI, publication metadata, and supplementary-material link; no reaction experiment.",
+          "evidence_ids": ["doc_a2cb06c9c35e36e6:page1:image", "doc_a2cb06c9c35e36e6:page1:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["The linked supplementary material was not supplied or explicitly associated and was not used."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "graphical abstract",
+          "finding": "Generic current-work hydrosilylation arrow consolidated into one generic-scheme record.",
+          "evidence_ids": ["doc_a2cb06c9c35e36e6:page2:image", "doc_a2cb06c9c35e36e6:page2:text"]
+        },
+        {
+          "region": "main-text introduction and screening discussion",
+          "finding": "Cited prior work and narrative lead-in to Table 1; no additional discrete current-paper experiment on this page.",
+          "evidence_ids": ["doc_a2cb06c9c35e36e6:page2:image", "doc_a2cb06c9c35e36e6:page2:text"]
+        }
+      ],
+      "record_ids": ["doc_a2cb06c9c35e36e6:generic_branched_hydrosilylation"],
+      "unresolved": ["Graphical-abstract R groups are generic; no concrete molecular identity or product-specific yield is assigned here."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1a-b",
+          "finding": "Prior-work generic transformations/ligands, classified as literature context rather than current-paper experiments.",
+          "evidence_ids": ["doc_a2cb06c9c35e36e6:page3:image", "doc_a2cb06c9c35e36e6:page2:text"]
+        },
+        {
+          "region": "Scheme 1c and Scheme 2 header arrow",
+          "finding": "Duplicate generic current-work transformation mapped to the existing generic-scheme record.",
+          "evidence_ids": ["doc_a2cb06c9c35e36e6:page3:image", "doc_a2cb06c9c35e36e6:page3:text"]
+        },
+        {
+          "region": "Table 1 entries 1-10 and footnotes a-d",
+          "finding": "Ten optimization experiments transcribed row by row with row-specific catalyst, ligand, yield/trace, rr/dash, and entry-7 loading exception.",
+          "evidence_ids": ["doc_a2cb06c9c35e36e6:page3:image", "doc_a2cb06c9c35e36e6:page3:text"]
+        },
+        {
+          "region": "Scheme 2 products 2a-2m and caption",
+          "finding": "Thirteen substrate-scope experiments transcribed individually with isolated yield and shared rr statement.",
+          "evidence_ids": ["doc_a2cb06c9c35e36e6:page3:image", "doc_a2cb06c9c35e36e6:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_a2cb06c9c35e36e6:generic_branched_hydrosilylation",
+        "doc_a2cb06c9c35e36e6:table1_entry_01",
+        "doc_a2cb06c9c35e36e6:table1_entry_02",
+        "doc_a2cb06c9c35e36e6:table1_entry_03",
+        "doc_a2cb06c9c35e36e6:table1_entry_04",
+        "doc_a2cb06c9c35e36e6:table1_entry_05",
+        "doc_a2cb06c9c35e36e6:table1_entry_06",
+        "doc_a2cb06c9c35e36e6:table1_entry_07",
+        "doc_a2cb06c9c35e36e6:table1_entry_08",
+        "doc_a2cb06c9c35e36e6:table1_entry_09",
+        "doc_a2cb06c9c35e36e6:table1_entry_10",
+        "doc_a2cb06c9c35e36e6:scheme2_2a",
+        "doc_a2cb06c9c35e36e6:scheme2_2b",
+        "doc_a2cb06c9c35e36e6:scheme2_2c",
+        "doc_a2cb06c9c35e36e6:scheme2_2d",
+        "doc_a2cb06c9c35e36e6:scheme2_2e",
+        "doc_a2cb06c9c35e36e6:scheme2_2f",
+        "doc_a2cb06c9c35e36e6:scheme2_2g",
+        "doc_a2cb06c9c35e36e6:scheme2_2h",
+        "doc_a2cb06c9c35e36e6:scheme2_2i",
+        "doc_a2cb06c9c35e36e6:scheme2_2j",
+        "doc_a2cb06c9c35e36e6:scheme2_2k",
+        "doc_a2cb06c9c35e36e6:scheme2_2l",
+        "doc_a2cb06c9c35e36e6:scheme2_2m"
+      ],
+      "unresolved": [
+        "Structures and quantities of the combined 'other isomers' are not enumerated.",
+        "Candidate chain lengths/connectivities were visually transcribed and remain machine candidates pending expert structure review.",
+        "Table dashes are retained as source markers and not converted to zero selectivity."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 and mechanistic prose",
+          "finding": "One proposed catalytic cycle; no kinetic, isotope, trapping, or intermediate-observation experiment is reported.",
+          "evidence_ids": ["doc_a2cb06c9c35e36e6:page4:image", "doc_a2cb06c9c35e36e6:page4:text"]
+        },
+        {
+          "region": "scope discussion",
+          "finding": "Qualitative discussion mapped to the existing Scheme 2 records; no extra arrows or numeric experiments.",
+          "evidence_ids": ["doc_a2cb06c9c35e36e6:page4:image", "doc_a2cb06c9c35e36e6:page4:text"]
+        },
+        {
+          "region": "footnote 1 general procedure",
+          "finding": "Procedure merged into all thirteen Scheme 2 records, including split THF charges, addition order, workup, and purification.",
+          "evidence_ids": ["doc_a2cb06c9c35e36e6:page4:image", "doc_a2cb06c9c35e36e6:page4:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_a2cb06c9c35e36e6:scheme2_2a",
+        "doc_a2cb06c9c35e36e6:scheme2_2b",
+        "doc_a2cb06c9c35e36e6:scheme2_2c",
+        "doc_a2cb06c9c35e36e6:scheme2_2d",
+        "doc_a2cb06c9c35e36e6:scheme2_2e",
+        "doc_a2cb06c9c35e36e6:scheme2_2f",
+        "doc_a2cb06c9c35e36e6:scheme2_2g",
+        "doc_a2cb06c9c35e36e6:scheme2_2h",
+        "doc_a2cb06c9c35e36e6:scheme2_2i",
+        "doc_a2cb06c9c35e36e6:scheme2_2j",
+        "doc_a2cb06c9c35e36e6:scheme2_2k",
+        "doc_a2cb06c9c35e36e6:scheme2_2l",
+        "doc_a2cb06c9c35e36e6:scheme2_2m",
+        "doc_a2cb06c9c35e36e6:scheme3_proposed_mechanism"
+      ],
+      "unresolved": [
+        "Scheme 2 says Pd(acac)2 2 mol%, while footnote 1 prints 2 mmol%; both are preserved without choosing.",
+        "Product-specific times within 0.5-3 h, isolated masses, and eluent ratio are not reported.",
+        "Exact structures and atom mapping of proposed Pd intermediates are unresolved.",
+        "The advertised SI/NMR spectra were not supplied or associated."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references [8]-[9]",
+          "finding": "References only; no current-paper synthetic experiment, no-reaction control, scheme arrow, table row, or independent characterization dataset.",
+          "evidence_ids": ["doc_a2cb06c9c35e36e6:page5:image", "doc_a2cb06c9c35e36e6:page5:text"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}
