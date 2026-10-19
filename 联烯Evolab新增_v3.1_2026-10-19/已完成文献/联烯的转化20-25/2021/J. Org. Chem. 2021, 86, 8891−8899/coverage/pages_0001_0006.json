@@ -1,0 +1,171 @@
+{
+  "document_id": "doc_71ecfcbf02cd66de",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, graphical abstract, introduction and opening Results paragraph",
+          "finding": "Article identity and the present-work generic visible-light amidyl-radical cyclization/TEMPO-trapping transformation; background prose and citations are not specific experiments.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page1:text", "doc_71ecfcbf02cd66de:page1:image"]
+        }
+      ],
+      "record_ids": ["doc_71ecfcbf02cd66de:general_allene_trifunctionalization"],
+      "unresolved": ["Graphical-abstract structures are retained without complete source-verified SMILES or atom mapping."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1 A-B",
+          "finding": "Three prior-work reaction examples (Montgomery 2016, Zhai 2018, Schomaker 2014), classified as literature examples rather than experiments of this paper.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page2:text", "doc_71ecfcbf02cd66de:page2:image"]
+        },
+        {
+          "region": "Scheme 1C",
+          "finding": "Present-work generic allene trifunctionalization scheme; duplicate concept of the page-1 graphical abstract.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page2:text", "doc_71ecfcbf02cd66de:page2:image"]
+        },
+        {
+          "region": "Table 1 and footnotes",
+          "finding": "Twelve independent optimization entries plus a separately stated dark control. Numeric cells were retained as 1H-NMR yields/recovery; blank cells were not converted to zero; all footnote changes were represented in participants/conditions.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page2:text", "doc_71ecfcbf02cd66de:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_71ecfcbf02cd66de:lit_montgomery_2016",
+        "doc_71ecfcbf02cd66de:lit_zhai_2018",
+        "doc_71ecfcbf02cd66de:lit_schomaker_2014",
+        "doc_71ecfcbf02cd66de:general_allene_trifunctionalization",
+        "doc_71ecfcbf02cd66de:table1_entry_01",
+        "doc_71ecfcbf02cd66de:table1_entry_02",
+        "doc_71ecfcbf02cd66de:table1_entry_03",
+        "doc_71ecfcbf02cd66de:table1_entry_04",
+        "doc_71ecfcbf02cd66de:table1_entry_05",
+        "doc_71ecfcbf02cd66de:table1_entry_06",
+        "doc_71ecfcbf02cd66de:table1_entry_07",
+        "doc_71ecfcbf02cd66de:table1_entry_08",
+        "doc_71ecfcbf02cd66de:table1_entry_09",
+        "doc_71ecfcbf02cd66de:table1_entry_10",
+        "doc_71ecfcbf02cd66de:table1_entry_11",
+        "doc_71ecfcbf02cd66de:table1_entry_12",
+        "doc_71ecfcbf02cd66de:table1_dark_control"
+      ],
+      "unresolved": ["The dark-control duration and analytical method are not printed.", "Table-1 dr footnote does not assign a distinct ratio to each individual row."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 including four TEMPO-derivative structures and footnotes",
+          "finding": "Four independent TEMPO-derivative optimization experiments with product-specific yields and dr; the approximately 15% inseparable impurity for entry 3 was retained.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page3:text", "doc_71ecfcbf02cd66de:page3:image"]
+        },
+        {
+          "region": "Table 3 and adjacent scope discussion",
+          "finding": "Thirteen experiment identities including separate small-scale and 1.13 mmol 1a experiments; scope products, byproducts, yields and reported dr/Z:E values were target-linked.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page3:text", "doc_71ecfcbf02cd66de:page3:image"]
+        },
+        {
+          "region": "mechanistic discussion leading into Scheme 2",
+          "finding": "Author-proposed EDA/amidyl-radical mechanism and NOE/geometry discussion, linked to one proposed-mechanism record rather than isolated intermediate experiments.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page3:text", "doc_71ecfcbf02cd66de:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_71ecfcbf02cd66de:table2_entry_1", "doc_71ecfcbf02cd66de:table2_entry_2", "doc_71ecfcbf02cd66de:table2_entry_3", "doc_71ecfcbf02cd66de:table2_entry_4",
+        "doc_71ecfcbf02cd66de:scope_1a_small", "doc_71ecfcbf02cd66de:scope_1a_scaleup", "doc_71ecfcbf02cd66de:scope_1b", "doc_71ecfcbf02cd66de:scope_1c", "doc_71ecfcbf02cd66de:scope_1d", "doc_71ecfcbf02cd66de:scope_1e", "doc_71ecfcbf02cd66de:scope_1f", "doc_71ecfcbf02cd66de:scope_1g", "doc_71ecfcbf02cd66de:scope_1h", "doc_71ecfcbf02cd66de:scope_1i", "doc_71ecfcbf02cd66de:scope_1j", "doc_71ecfcbf02cd66de:scope_1k", "doc_71ecfcbf02cd66de:scope_1l",
+        "doc_71ecfcbf02cd66de:scheme2_proposed_mechanism"
+      ],
+      "unresolved": ["Most page-3 scope yields do not state isolated/NMR basis directly; missing bases remain explicit.", "The 1i product label/2i-3i nomenclature is internally difficult to reconcile from the figure and prose, so the source label is retained without a corrected structure.", "Absolute configurations of all reported dr mixtures are unassigned."]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2 A-C",
+          "finding": "Proposed EDA complex, amidyl radical, cyclization, trapping and alternative pathways; classified as a proposed mechanism, not performed intermediate preparations.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page4:text", "doc_71ecfcbf02cd66de:page4:image"]
+        },
+        {
+          "region": "mechanistic-control prose",
+          "finding": "Two actual controls: 3a treated with MeO-TEMPO gave no 3ab, and re-exposure of 3a to reaction conditions gave no 5a.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page4:text", "doc_71ecfcbf02cd66de:page4:image"]
+        },
+        {
+          "region": "Scheme 3, conclusions and General section",
+          "finding": "Reactivity summary and general laboratory/analytical context; no additional row-level synthesis was fabricated.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page4:text", "doc_71ecfcbf02cd66de:page4:image"]
+        }
+      ],
+      "record_ids": ["doc_71ecfcbf02cd66de:scheme2_proposed_mechanism", "doc_71ecfcbf02cd66de:control_3a_meotempo_crossover", "doc_71ecfcbf02cd66de:control_3a_reexposure"],
+      "unresolved": ["Control quantities, times, temperatures and analytical methods are not printed on page 4.", "Thermal/photodegradation experiments are only summarized with details deferred to unavailable SI and were retained as context, not invented records."]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "general analytical and reagent-information paragraphs",
+          "finding": "Analytical and reagent provenance context; independent NMR/HRMS method text was not treated as synthesis.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page5:text", "doc_71ecfcbf02cd66de:page5:image"]
+        },
+        {
+          "region": "three hydroxamic-acid/carbamate general procedures",
+          "finding": "Separate generic procedures for oxalyl-chloride hydroxamic-acid formation, CDI hydroxamic-acid formation, and N-methyl hydroxycarbamate formation, with ordered addition/hold steps.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page5:text", "doc_71ecfcbf02cd66de:page5:image"]
+        },
+        {
+          "region": "C-1b, C-1d, C-1k, C-1l and C-1m preparations",
+          "finding": "Five source-reported precursor preparations with printed charges, product amounts and two-step isolated yields; spectroscopy blocks remain characterization context.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page5:text", "doc_71ecfcbf02cd66de:page5:image"]
+        },
+        {
+          "region": "general N-methylaryloxy amide procedure",
+          "finding": "O-arylation general procedure begins on page 5 and continues into page 6; separate low-temperature hold, NaH hold, three-portion addition and warm/overnight stage retained.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page5:text", "doc_71ecfcbf02cd66de:page5:image"]
+        }
+      ],
+      "record_ids": ["doc_71ecfcbf02cd66de:general_hydroxamic_acid_oxalyl_chloride", "doc_71ecfcbf02cd66de:general_hydroxamic_acid_cdi", "doc_71ecfcbf02cd66de:general_nmethylaryloxy_carbamate", "doc_71ecfcbf02cd66de:general_aryloxy_amide", "doc_71ecfcbf02cd66de:prep_c1b", "doc_71ecfcbf02cd66de:prep_c1d", "doc_71ecfcbf02cd66de:prep_c1k", "doc_71ecfcbf02cd66de:prep_c1l", "doc_71ecfcbf02cd66de:prep_c1m"],
+      "unresolved": ["Several printed mass/mmol pairs are stoichiometrically implausible; values are preserved without silent correction.", "The exact identities of generic corresponding acids/alcohol D-1 are not fully specified in the text block."]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "1b, 1d, 1k, 1l and 1m precursor preparations",
+          "finding": "Five concrete O-arylation preparations with source charges, isolated amounts and yields; printed unit anomalies were retained and flagged.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page6:text", "doc_71ecfcbf02cd66de:page6:image"]
+        },
+        {
+          "region": "General Procedure for the Visible-Light-Mediated Amidation of Allenes and Optimization Studies",
+          "finding": "Generic photochemical procedure with 1:3:2 substrate/TEMPO/K2CO3, 0.025 M dry MeCN, N2 purge, 440 nm lamp, approximately 3 cm distance, usually 4-5 h, crude-NMR analysis and chromatography.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page6:text", "doc_71ecfcbf02cd66de:page6:image"]
+        },
+        {
+          "region": "specific 3a small-scale and 1.130 mmol scale-up preparations",
+          "finding": "Two distinct 1a experiments, including product masses, isolated yields, dr and scale-up coproduct 2a.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page6:text", "doc_71ecfcbf02cd66de:page6:image"]
+        },
+        {
+          "region": "specific 3b/5b and 3c preparations",
+          "finding": "Product-specific isolated masses/yields and dr were merged into the corresponding Table-3 experiment identities; 2b-H co-elution caveat retained.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page6:text", "doc_71ecfcbf02cd66de:page6:image"]
+        },
+        {
+          "region": "NMR/HRMS blocks",
+          "finding": "Characterization data associated with the relevant molecules/experiments but not converted into separate synthesis or mass-spectrum records.",
+          "evidence_ids": ["doc_71ecfcbf02cd66de:page6:text", "doc_71ecfcbf02cd66de:page6:image"]
+        }
+      ],
+      "record_ids": ["doc_71ecfcbf02cd66de:general_aryloxy_amide", "doc_71ecfcbf02cd66de:prep_1b", "doc_71ecfcbf02cd66de:prep_1d", "doc_71ecfcbf02cd66de:prep_1k", "doc_71ecfcbf02cd66de:prep_1l", "doc_71ecfcbf02cd66de:prep_1m", "doc_71ecfcbf02cd66de:general_visible_light_amidation", "doc_71ecfcbf02cd66de:scope_1a_small", "doc_71ecfcbf02cd66de:scope_1a_scaleup", "doc_71ecfcbf02cd66de:scope_1b", "doc_71ecfcbf02cd66de:scope_1c"],
+      "unresolved": ["The exact room/ambient reaction temperature is not specified in the general procedure.", "Printed 1k and 1m precursor amount units are implausible but were not author-corrected.", "Absolute configurations of 3a-3c diastereomers and the dr analytical method are unreported."]
+    }
+  ]
+}

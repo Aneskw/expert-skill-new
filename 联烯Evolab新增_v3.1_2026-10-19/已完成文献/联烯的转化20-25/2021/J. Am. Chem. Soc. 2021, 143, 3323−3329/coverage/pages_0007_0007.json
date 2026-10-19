@@ -1,0 +1,45 @@
+{
+  "document_id": "doc_83f760dc954f4ef1",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "single-column references 65-78",
+          "finding": "Cited literature only; no current-paper reaction arrow, scope/optimization row, or standalone characterization table was present, so these references were not recast as experiments.",
+          "evidence_ids": [
+            "doc_83f760dc954f4ef1:page7:text",
+            "doc_83f760dc954f4ef1:page7:image"
+          ]
+        },
+        {
+          "region": "footnote 79 between references 78 and 80",
+          "finding": "Distinct current-paper substrate-scope experiment: using (Z)-2e gave the same major diastereomer as the E-enriched 2e experiment in 73% yield, 83% ee, >20:1 rr, and 1.7:1 dr. It was recorded separately rather than merged with Table 3 product 3v under different nucleophile geometry.",
+          "evidence_ids": [
+            "doc_83f760dc954f4ef1:page7:text",
+            "doc_83f760dc954f4ef1:page7:image"
+          ]
+        },
+        {
+          "region": "references 80-82, header, and footer",
+          "finding": "References and bibliographic matter only; no additional current-paper synthesis, mechanistic experiment, mass-spectrum peak table, molecular-weight table, or fragment-abundance table was identified.",
+          "evidence_ids": [
+            "doc_83f760dc954f4ef1:page7:text",
+            "doc_83f760dc954f4ef1:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_83f760dc954f4ef1:footnote79_z_2e_3v"
+      ],
+      "unresolved": [
+        "Footnote 79 does not separately state reaction time, temperature, scale, catalyst/ligand/additive loadings, solvent, atmosphere, workup, purification, or addition order.",
+        "Yield type/measurement basis and analytical methods for ee, rr, and dr are not reported in footnote 79.",
+        "The major product is linked to the same diastereomer as the E-enriched 2e experiment, but full absolute stereocenter descriptors and the minor diastereomer configuration are not printed on page 7.",
+        "The complete (Z)-2e connectivity/isomeric SMILES is not encoded; only its source-stated Z geometry is retained."
+      ]
+    }
+  ]
+}

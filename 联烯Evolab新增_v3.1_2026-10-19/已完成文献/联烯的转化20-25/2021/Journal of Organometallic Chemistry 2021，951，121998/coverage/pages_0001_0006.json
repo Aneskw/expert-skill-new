@@ -1,0 +1,257 @@
+{
+  "document_id": "doc_e6209d110a05e1c9",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, bibliographic header, abstract",
+          "finding": "Article title/DOI and a summary of the Ru-catalyzed tail-to-tail allene dimerization are present; the abstract is not a discrete experiment and was not counted as one.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page1:image"]
+        },
+        {
+          "region": "Introduction, both text columns",
+          "finding": "Background and cited prior work only; Scheme 1 is referenced but appears on page 2. Bibliographic examples were not converted into current-paper experiments.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page1:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The abstract does not provide experiment-specific substrate identities, duration, workup, or yield values."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1A, Previous work",
+          "finding": "One generic prior-work Cu-catalyzed [2,3]-sigmatropic rearrangement arrow; retained as a literature_example, not a current-paper experiment.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page2:image"]
+        },
+        {
+          "region": "Scheme 1B, Previous work",
+          "finding": "Two prior-work arrows (Cu hydroamination and Co Pauson-Khand); each retained as a separate literature_example.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page2:image"]
+        },
+        {
+          "region": "Scheme 1C, This work",
+          "finding": "Generic current-work Ru-catalyzed dimerization; stored as a generic_scheme and linked from specific optimization/scope experiments.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page2:image"]
+        },
+        {
+          "region": "Table 1, entries 1-7 and footnotes a-c",
+          "finding": "Seven independent optimization experiments extracted, including the catalyst-free 0% control. 19F NMR yield basis is preserved; entry 6 also has a separate 71% isolated yield.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page2:image"]
+        },
+        {
+          "region": "Results/discussion below and right of Table 1",
+          "finding": "Text corroborates entry 1 and entry 6 duration (2 h), catalyst choice, monitoring, stereoisomer mixtures, and unsuccessful 2e-g cases; it does not assign a duration to every other optimization row.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_e6209d110a05e1c9:scheme1A_prior_sigmatropic",
+        "doc_e6209d110a05e1c9:scheme1B_prior_hydroamination",
+        "doc_e6209d110a05e1c9:scheme1B_prior_pauson_khand",
+        "doc_e6209d110a05e1c9:scheme1C_general_dimerization",
+        "doc_e6209d110a05e1c9:table1_entry_1",
+        "doc_e6209d110a05e1c9:table1_entry_2",
+        "doc_e6209d110a05e1c9:table1_entry_3",
+        "doc_e6209d110a05e1c9:table1_entry_4",
+        "doc_e6209d110a05e1c9:table1_entry_5",
+        "doc_e6209d110a05e1c9:table1_entry_6",
+        "doc_e6209d110a05e1c9:table1_entry_7",
+        "doc_e6209d110a05e1c9:scheme3_failed_dimerization_2e",
+        "doc_e6209d110a05e1c9:scheme3_failed_dimerization_2f",
+        "doc_e6209d110a05e1c9:scheme3_failed_dimerization_2g"
+      ],
+      "unresolved": [
+        "Optimization entries 2-5 and 7 do not state individual reaction times; no time was borrowed from another row.",
+        "The table gives a single mol% value for the two-component [Cp*Ru(C10H8)]PF6/[Et3NBn]Cl system; per-component loading interpretation remains machine-level and needs review."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2, general arrow and products 3a-3d",
+          "finding": "Four distinct substrate-scope dimerizations extracted with yields and Z/E ratios: 3a 71% (1:1), 3b 85% (1:1), 3c 55% (2:3), and 3d 86% (1:1).",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page3:image"]
+        },
+        {
+          "region": "Fig. 1 and caption",
+          "finding": "2D 1H NOESY characterization of cis/trans 3d; preserved in source_context and not counted as a synthesis experiment.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page3:image"]
+        },
+        {
+          "region": "text below Fig. 1 and Conclusion",
+          "finding": "Discussion of CuAAC blocking strategy and general conclusions; no additional distinct experiment beyond Schemes 2-4.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_e6209d110a05e1c9:scheme1C_general_dimerization",
+        "doc_e6209d110a05e1c9:scheme2_2a_to_3a",
+        "doc_e6209d110a05e1c9:scheme2_2b_to_3b",
+        "doc_e6209d110a05e1c9:scheme2_2c_to_3c",
+        "doc_e6209d110a05e1c9:scheme2_2d_to_3d"
+      ],
+      "unresolved": [
+        "Scheme 2 product drawings and ratios do not uniquely enumerate every E/Z/diastereomer identity; mixture registry entries are retained instead of inventing separate absolute configurations."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Fig. 2 and caption",
+          "finding": "X-ray characterization of (S,R)-E-3a, (S,R)-E-3b, and 3c; separate stereoisomer identities for the explicitly named E structures were retained, while the figure itself is not a synthetic experiment.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page4:image"]
+        },
+        {
+          "region": "Scheme 3 upper crossed-out dimerization arrow",
+          "finding": "Attempted Ru dimerization of each of 2e, 2f, and 2g gave complicated unidentified product mixtures and 0% expected dimer; three actual substrate cases retained without fabricated product structures or bond classes.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page4:image"]
+        },
+        {
+          "region": "Scheme 3 Cu(I) azide-alkyne arrow and products 4a-4f",
+          "finding": "Six CuAAC substrate-scope products and yields identified; conditions/workup are supplied by the page-5 general procedure.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page4:image"]
+        },
+        {
+          "region": "Section 4.1 General information",
+          "finding": "Analytical and chromatography methods only; retained as source_context, not experiments.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page4:image"]
+        },
+        {
+          "region": "Section 4.2 General procedure for [2,3]-sigmatropic rearrangement",
+          "finding": "General reaction, evaporation, and chromatography procedure extracted and inherited by preparations 2a-2g; printed mass/mmol inconsistencies preserved.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_e6209d110a05e1c9:scheme3_failed_dimerization_2e",
+        "doc_e6209d110a05e1c9:scheme3_failed_dimerization_2f",
+        "doc_e6209d110a05e1c9:scheme3_failed_dimerization_2g",
+        "doc_e6209d110a05e1c9:scheme3_click_2e_to_4a",
+        "doc_e6209d110a05e1c9:scheme3_click_2e_to_4b",
+        "doc_e6209d110a05e1c9:scheme3_click_2f_to_4c",
+        "doc_e6209d110a05e1c9:scheme3_click_2f_to_4d",
+        "doc_e6209d110a05e1c9:scheme3_click_2g_to_4e",
+        "doc_e6209d110a05e1c9:scheme3_click_2g_to_4f",
+        "doc_e6209d110a05e1c9:preparation_2a",
+        "doc_e6209d110a05e1c9:preparation_2b",
+        "doc_e6209d110a05e1c9:preparation_2c",
+        "doc_e6209d110a05e1c9:preparation_2d",
+        "doc_e6209d110a05e1c9:preparation_2e",
+        "doc_e6209d110a05e1c9:preparation_2f",
+        "doc_e6209d110a05e1c9:preparation_2g"
+      ],
+      "unresolved": [
+        "The failed 2e-g mixtures are unidentified; reaction times, individual temperatures, yields of mixture components, and measurement methods remain unreported.",
+        "Section 4.2 prints 210.0 mg/11.3 mmol amine and 94 mg/11.3 mmol diazocompound with 0.056 mmol catalyst; no suspected decimal error was corrected."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 4, products 5a-5f",
+          "finding": "Six distinct triazoloallene dimerization scope entries extracted with scheme yields and Z/E ratios. The 5b scheme yield (76%) conflicts with page-7 experimental extracted text (73%); both are retained without choosing.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page5:image"]
+        },
+        {
+          "region": "Section 4.2 continuation and Section 4.3",
+          "finding": "Chromatography continuation plus characterization/preparation statements for 2a-2g; 2b (42%) and 2c (75%) have explicit product-specific yields, while 2a/2d-2g do not on pages 1-6.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page5:image"]
+        },
+        {
+          "region": "Section 4.4 general procedure for triazole-containing allenes",
+          "finding": "Sequential addition, tBuOH/H2O 1:1, room-temperature 7 h reaction, extraction/washes/drying, and chromatography were structured for all six CuAAC scope records.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page5:image"]
+        },
+        {
+          "region": "Section 4.5 beginning, compound 4a",
+          "finding": "4a isolated yield and characterization supplement its Scheme 3 synthesis; spectral peaks are source_context, not a second synthesis.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page5:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_e6209d110a05e1c9:scheme1C_general_dimerization",
+        "doc_e6209d110a05e1c9:scheme4_4a_to_5a",
+        "doc_e6209d110a05e1c9:scheme4_4b_to_5b",
+        "doc_e6209d110a05e1c9:scheme4_4c_to_5c",
+        "doc_e6209d110a05e1c9:scheme4_4d_to_5d",
+        "doc_e6209d110a05e1c9:scheme4_4e_to_5e",
+        "doc_e6209d110a05e1c9:scheme4_4f_to_5f",
+        "doc_e6209d110a05e1c9:scheme3_click_2e_to_4a",
+        "doc_e6209d110a05e1c9:scheme3_click_2e_to_4b",
+        "doc_e6209d110a05e1c9:scheme3_click_2f_to_4c",
+        "doc_e6209d110a05e1c9:scheme3_click_2f_to_4d",
+        "doc_e6209d110a05e1c9:scheme3_click_2g_to_4e",
+        "doc_e6209d110a05e1c9:scheme3_click_2g_to_4f",
+        "doc_e6209d110a05e1c9:preparation_2a",
+        "doc_e6209d110a05e1c9:preparation_2b",
+        "doc_e6209d110a05e1c9:preparation_2c",
+        "doc_e6209d110a05e1c9:preparation_2d",
+        "doc_e6209d110a05e1c9:preparation_2e",
+        "doc_e6209d110a05e1c9:preparation_2f",
+        "doc_e6209d110a05e1c9:preparation_2g"
+      ],
+      "unresolved": [
+        "Scheme 4 does not state a yield measurement basis; the basis remains null rather than being guessed as isolated or NMR.",
+        "The CuSO4·5H2O solution volume is not reported despite its 0.5 M concentration and 0.03 mmol amount.",
+        "Exact structures of the substituted amine/diazocompound instances for preparations 2a-2g are not individually specified in the covered general procedure."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Section 4.5 continuation, compounds 4a-4f",
+          "finding": "Product-specific isolated yields and characterization for 4a-4f supplement the six Scheme 3 CuAAC records; spectra and elemental analyses remain source_context.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page6:image"]
+        },
+        {
+          "region": "Section 4.6 general procedure for allenes dimerization",
+          "finding": "Printed allene/catalyst charges, anhydrous toluene 5 mL, heating range 90-120 °C, 2 h, TLC completion, evaporation, and chromatography were captured. Scheme-specific 100 °C remains distinct from the general range.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page6:image"]
+        },
+        {
+          "region": "Section 4.7 characterization of 3a-3d",
+          "finding": "Overall yields, chromatography eluents, Z/E and diastereomer information supplement Scheme 2 records. Diastereomer/isomer subfractions are not added as independent syntheses.",
+          "evidence_ids": ["doc_e6209d110a05e1c9:page6:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_e6209d110a05e1c9:scheme2_2a_to_3a",
+        "doc_e6209d110a05e1c9:scheme2_2b_to_3b",
+        "doc_e6209d110a05e1c9:scheme2_2c_to_3c",
+        "doc_e6209d110a05e1c9:scheme2_2d_to_3d",
+        "doc_e6209d110a05e1c9:scheme3_click_2e_to_4a",
+        "doc_e6209d110a05e1c9:scheme3_click_2e_to_4b",
+        "doc_e6209d110a05e1c9:scheme3_click_2f_to_4c",
+        "doc_e6209d110a05e1c9:scheme3_click_2f_to_4d",
+        "doc_e6209d110a05e1c9:scheme3_click_2g_to_4e",
+        "doc_e6209d110a05e1c9:scheme3_click_2g_to_4f",
+        "doc_e6209d110a05e1c9:scheme4_4a_to_5a",
+        "doc_e6209d110a05e1c9:scheme4_4b_to_5b",
+        "doc_e6209d110a05e1c9:scheme4_4c_to_5c",
+        "doc_e6209d110a05e1c9:scheme4_4d_to_5d",
+        "doc_e6209d110a05e1c9:scheme4_4e_to_5e",
+        "doc_e6209d110a05e1c9:scheme4_4f_to_5f"
+      ],
+      "unresolved": [
+        "The general procedure prints 0.25 g/11.2 mmol allene and 28.5 mg/12.7 mg, 0.056 mmol catalyst system; mass/amount/loading consistency is unresolved and no correction was made.",
+        "Page 6 ends mid-characterization of 3d; the continuation was not claimed as part of this visual-coverage segment."
+      ]
+    }
+  ]
+}

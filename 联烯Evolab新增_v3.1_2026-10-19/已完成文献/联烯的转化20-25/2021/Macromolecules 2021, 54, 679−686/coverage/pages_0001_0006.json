@@ -1,0 +1,223 @@
+{
+  "document_id": "doc_0112e35a7f38a0ec",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, graphical abstract",
+          "finding": "Title and abstract identify current work; graphical abstract is the generic current-paper 2,3-selective polymerization, not a quantified experiment.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page1:image",
+            "doc_0112e35a7f38a0ec:page1:text"
+          ]
+        },
+        {
+          "region": "introduction columns",
+          "finding": "Background and cited prior work only; no additional present-paper experiment was created.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page1:image",
+            "doc_0112e35a7f38a0ec:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_0112e35a7f38a0ec:scheme1_generic_polymerization"
+      ],
+      "unresolved": [
+        "Graphical-abstract polymer chain length and exact structure are generic."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1 top",
+          "finding": "Generic 2,3-selective living/controlled polymerization, monomers 1a-1c, and ligand structures R/S-2a, R/S-2b, R-2c, S-2d, S-2e, S-2f.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page2:image"
+          ]
+        },
+        {
+          "region": "Results and Discussion prose",
+          "finding": "In-situ catalyst preparation in toluene at room temperature, 1:1 ligand/Ni, direct catalyst use, and Table 1 workup by methanol precipitation/filtration.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page2:text",
+            "doc_0112e35a7f38a0ec:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1",
+          "finding": "Six independent optimization rows; run 1 is merged with identical Table 2 run 7.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page2:image",
+            "doc_0112e35a7f38a0ec:page2:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_0112e35a7f38a0ec:scheme1_generic_polymerization",
+        "doc_0112e35a7f38a0ec:polymerization_R2a_1a_feed100_table1run1_table2run7",
+        "doc_0112e35a7f38a0ec:table1_run02",
+        "doc_0112e35a7f38a0ec:table1_run03",
+        "doc_0112e35a7f38a0ec:table1_run04",
+        "doc_0112e35a7f38a0ec:table1_run05",
+        "doc_0112e35a7f38a0ec:table1_run06"
+      ],
+      "unresolved": [
+        "Ligand drawings are retained by source labels; stereochemically complete SMILES were not assigned.",
+        "SI synthesis details were not supplied."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1",
+          "finding": "SEC traces and Mn/dispersity trend characterize Table 2 runs 1-8; not standalone syntheses.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page3:image",
+            "doc_0112e35a7f38a0ec:page3:text"
+          ]
+        },
+        {
+          "region": "Figure 2 and kinetic prose",
+          "finding": "Independent time-dependent SEC/kinetic tracking experiment at 0.2 M, feed ratio 50, 25 °C; recorded as mechanistic_study.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page3:image",
+            "doc_0112e35a7f38a0ec:page3:text"
+          ]
+        },
+        {
+          "region": "Table 2",
+          "finding": "Fourteen polymerization rows inspected; row 7 duplicates Table 1 run 1. Rows 1-4 retain the conflict between table yield and prose >85%.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page3:image",
+            "doc_0112e35a7f38a0ec:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_0112e35a7f38a0ec:polymerization_R2a_1a_feed100_table1run1_table2run7",
+        "doc_0112e35a7f38a0ec:table2_run01",
+        "doc_0112e35a7f38a0ec:table2_run02",
+        "doc_0112e35a7f38a0ec:table2_run03",
+        "doc_0112e35a7f38a0ec:table2_run04",
+        "doc_0112e35a7f38a0ec:table2_run05",
+        "doc_0112e35a7f38a0ec:table2_run06",
+        "doc_0112e35a7f38a0ec:table2_run08",
+        "doc_0112e35a7f38a0ec:table2_run09",
+        "doc_0112e35a7f38a0ec:table2_run10",
+        "doc_0112e35a7f38a0ec:table2_run11",
+        "doc_0112e35a7f38a0ec:table2_run12",
+        "doc_0112e35a7f38a0ec:table2_run13",
+        "doc_0112e35a7f38a0ec:table2_run14",
+        "doc_0112e35a7f38a0ec:kinetic_SEC_tracking_1a_R2a_feed50"
+      ],
+      "unresolved": [
+        "Reaction times and absolute charges for Table 2 are unreported.",
+        "The prose/table yield conflict for runs 1-4 is unresolved."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 3",
+          "finding": "Continuation of the SEC/kinetic experiment; >90% consumption within 8 h and first-order rate constant are linked to the kinetic record.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page4:image",
+            "doc_0112e35a7f38a0ec:page4:text"
+          ]
+        },
+        {
+          "region": "Figure 4 and lower prose",
+          "finding": "1H/13C NMR characterization of 1a and R-poly-1a100 supports 2,3-polymerization; no new synthesis record.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page4:image",
+            "doc_0112e35a7f38a0ec:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_0112e35a7f38a0ec:polymerization_R2a_1a_feed100_table1run1_table2run7",
+        "doc_0112e35a7f38a0ec:kinetic_SEC_tracking_1a_R2a_feed50"
+      ],
+      "unresolved": [
+        "The pendant double-bond syn/anti configuration continues onto page 5 and is explicitly undetermined."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper prose and Figure 5",
+          "finding": "NMR/IR chain-end discussion plus CD/UV-vis/optical-rotation characterization; S-poly-1a100 is Table 2 run 9, not a duplicate experiment.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page5:image",
+            "doc_0112e35a7f38a0ec:page5:text"
+          ]
+        },
+        {
+          "region": "lower chiroptical discussion",
+          "finding": "R-poly-1a100 is predominantly left-handed; S-poly-1a100 has opposite handedness. 1b/1c products show predominant one-handed helices but exact hand is not assigned here.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_0112e35a7f38a0ec:polymerization_R2a_1a_feed100_table1run1_table2run7",
+        "doc_0112e35a7f38a0ec:table2_run09",
+        "doc_0112e35a7f38a0ec:table2_run11",
+        "doc_0112e35a7f38a0ec:table2_run12",
+        "doc_0112e35a7f38a0ec:table2_run13",
+        "doc_0112e35a7f38a0ec:table2_run14"
+      ],
+      "unresolved": [
+        "Pendant alkene syn/anti configuration could not be determined.",
+        "The exact helix-sense excess is only reported for R-poly-1a100 (ca. 10% relative comparison), not every Table 2 product."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 6",
+          "finding": "AFM and molecular simulation characterize R/S-poly-1a100 helices; these are not synthesis arrows.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page6:image",
+            "doc_0112e35a7f38a0ec:page6:text"
+          ]
+        },
+        {
+          "region": "body text and conclusion start",
+          "finding": "Solvent/temperature CD response, AFM dimensions, simulation, and liquid-crystal behavior are source context; no additional chemical experiment record was created.",
+          "evidence_ids": [
+            "doc_0112e35a7f38a0ec:page6:text",
+            "doc_0112e35a7f38a0ec:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_0112e35a7f38a0ec:polymerization_R2a_1a_feed100_table1run1_table2run7",
+        "doc_0112e35a7f38a0ec:table2_run09",
+        "doc_0112e35a7f38a0ec:table2_run11",
+        "doc_0112e35a7f38a0ec:table2_run12",
+        "doc_0112e35a7f38a0ec:table2_run13",
+        "doc_0112e35a7f38a0ec:table2_run14"
+      ],
+      "unresolved": [
+        "The precise helix-revision mechanism is stated to be unclear.",
+        "Supporting figures S26-S31 were not supplied and were not treated as reviewed."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "document_id": "doc_484c4de81c12e684",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, citation, abstract, and keywords",
+          "finding": "Bibliographic title/DOI and a current-work overview are present; the abstract gives only aggregate maxima and is not a standalone experiment.",
+          "evidence_ids": ["doc_484c4de81c12e684:page1:text", "doc_484c4de81c12e684:page1:image"]
+        },
+        {
+          "region": "Introduction, lower-right column",
+          "finding": "Cited prior Shi work is described as a DABCO-catalyzed [4+2] reaction (79–95%, 12 examples), followed by an author-proposed zwitterionic mechanism. These are retained as literature_example and proposed_mechanism, not current-paper experiments.",
+          "evidence_ids": ["doc_484c4de81c12e684:page1:text", "doc_484c4de81c12e684:page1:image"]
+        },
+        {
+          "region": "remaining Introduction citations",
+          "finding": "Other cited NHC, phosphine, and dienamine methods are narrative prior art without page-1 experimental details sufficient for independent records.",
+          "evidence_ids": ["doc_484c4de81c12e684:page1:text", "doc_484c4de81c12e684:page1:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_484c4de81c12e684:literature_shi_2012_scheme",
+        "doc_484c4de81c12e684:proposed_mechanism_figure1a"
+      ],
+      "unresolved": [
+        "Individual experiments behind the cited 12-example prior-work range are not enumerated in this paper.",
+        "The proposed mechanism is not treated as experimental mechanistic proof."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1a previous work reaction arrow",
+          "finding": "A literature example shows generic substrate 1 plus ethyl allenoate 2a, DABCO (20 mol%), CH2Cl2, rt, giving E-only products 3 in 79–95% across 12 examples.",
+          "evidence_ids": ["doc_484c4de81c12e684:page2:text", "doc_484c4de81c12e684:page2:image"]
+        },
+        {
+          "region": "Figure 1a possible mechanism arrows",
+          "finding": "Three proposed arrow-pushing stages (zwitterion I, Z intermediate II, cyclization/catalyst regeneration) are inventoried as a proposed mechanism.",
+          "evidence_ids": ["doc_484c4de81c12e684:page2:text", "doc_484c4de81c12e684:page2:image"]
+        },
+        {
+          "region": "Figure 1b this-work reaction arrow",
+          "finding": "The current generic asymmetric [4+2] scheme uses 4l (10 mol%) in EtOAc at 0 °C and reports 16 examples, 80–97% yield, up to 90% ee; it is linked to the page-6 general procedure rather than counted as another concrete experiment.",
+          "evidence_ids": ["doc_484c4de81c12e684:page2:text", "doc_484c4de81c12e684:page2:image"]
+        },
+        {
+          "region": "Results and Discussion prose below Figure 1",
+          "finding": "Narrative duplicates optimization experiments for catalysts 4a–4m (Table 1 entries 1–13); evidence is associated with those existing row records rather than duplicated.",
+          "evidence_ids": ["doc_484c4de81c12e684:page2:text", "doc_484c4de81c12e684:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_484c4de81c12e684:scheme_current_general",
+        "doc_484c4de81c12e684:literature_shi_2012_scheme",
+        "doc_484c4de81c12e684:proposed_mechanism_figure1a",
+        "doc_484c4de81c12e684:table1_entry01",
+        "doc_484c4de81c12e684:table1_entry02",
+        "doc_484c4de81c12e684:table1_entry03",
+        "doc_484c4de81c12e684:table1_entry04",
+        "doc_484c4de81c12e684:table1_entry05",
+        "doc_484c4de81c12e684:table1_entry06",
+        "doc_484c4de81c12e684:table1_entry07",
+        "doc_484c4de81c12e684:table1_entry08",
+        "doc_484c4de81c12e684:table1_entry09",
+        "doc_484c4de81c12e684:table1_entry10",
+        "doc_484c4de81c12e684:table1_entry11",
+        "doc_484c4de81c12e684:table1_entry12",
+        "doc_484c4de81c12e684:table1_entry13"
+      ],
+      "unresolved": [
+        "The overview's aggregate range does not assign a value to every concrete product.",
+        "Full atom mapping for the generic scheme and proposed mechanism remains unresolved."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 reaction header and catalyst drawings",
+          "finding": "Model reaction 1a + 2b -> 3a and catalyst identities 4a–4m are visible; catalyst loading is 10 mol%. Chiral catalyst drawings are retained without invented stereochemical SMILES.",
+          "evidence_ids": ["doc_484c4de81c12e684:page3:text", "doc_484c4de81c12e684:page3:image"]
+        },
+        {
+          "region": "Table 1 entries 1–22",
+          "finding": "All 22 rows were transcribed as separate optimization experiments with catalyst, solvent, temperature, time, yield/trace, and ee/dash as printed.",
+          "evidence_ids": ["doc_484c4de81c12e684:page3:text", "doc_484c4de81c12e684:page3:image"]
+        },
+        {
+          "region": "prose below Table 1",
+          "finding": "Entry 18 prose says 80% ee while its table cell is 79% ee; both values are stored as a conflict. Entry 22 narrative repeats 93% yield and 79% ee.",
+          "evidence_ids": ["doc_484c4de81c12e684:page3:text", "doc_484c4de81c12e684:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_484c4de81c12e684:table1_entry01", "doc_484c4de81c12e684:table1_entry02",
+        "doc_484c4de81c12e684:table1_entry03", "doc_484c4de81c12e684:table1_entry04",
+        "doc_484c4de81c12e684:table1_entry05", "doc_484c4de81c12e684:table1_entry06",
+        "doc_484c4de81c12e684:table1_entry07", "doc_484c4de81c12e684:table1_entry08",
+        "doc_484c4de81c12e684:table1_entry09", "doc_484c4de81c12e684:table1_entry10",
+        "doc_484c4de81c12e684:table1_entry11", "doc_484c4de81c12e684:table1_entry12",
+        "doc_484c4de81c12e684:table1_entry13", "doc_484c4de81c12e684:table1_entry14",
+        "doc_484c4de81c12e684:table1_entry15", "doc_484c4de81c12e684:table1_entry16",
+        "doc_484c4de81c12e684:table1_entry17", "doc_484c4de81c12e684:table1_entry18",
+        "doc_484c4de81c12e684:table1_entry19", "doc_484c4de81c12e684:table1_entry20",
+        "doc_484c4de81c12e684:table1_entry21", "doc_484c4de81c12e684:table1_entry22"
+      ],
+      "unresolved": [
+        "Optimization-row substrate/allenoate charges and solvent volumes are not printed, except where entry 22 is explicitly linked to the repeated standard-condition scope example.",
+        "Entry 18 ee remains an unresolved 79%/80% source conflict.",
+        "Trace rows do not report a quantitative detection limit."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "substrate-scope discussion",
+          "finding": "Narrative trends and product labels 3b–3p are associated with Figure 2 records; no new rows are created from prose alone.",
+          "evidence_ids": ["doc_484c4de81c12e684:page4:text", "doc_484c4de81c12e684:page4:image"]
+        },
+        {
+          "region": "Z/E configuration discussion",
+          "finding": "Two routes to compound 5 are described for assigning products 3 as E by NMR comparison. Absolute configuration determination by recrystallization/X-ray was unsuccessful.",
+          "evidence_ids": ["doc_484c4de81c12e684:page4:text", "doc_484c4de81c12e684:page4:image"]
+        },
+        {
+          "region": "gram-scale discussion",
+          "finding": "A 2.5 mmol 1f scale-up with 1.5 equiv 2b and 2.5 mol% 4l gives 3f in 91% yield (1.215 g), 93% ee; the full arrow is on page 6.",
+          "evidence_ids": ["doc_484c4de81c12e684:page4:text", "doc_484c4de81c12e684:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_484c4de81c12e684:scope_3b", "doc_484c4de81c12e684:scope_3c", "doc_484c4de81c12e684:scope_3d",
+        "doc_484c4de81c12e684:scope_3e", "doc_484c4de81c12e684:scope_3f", "doc_484c4de81c12e684:scope_3g",
+        "doc_484c4de81c12e684:scope_3h", "doc_484c4de81c12e684:scope_3i", "doc_484c4de81c12e684:scope_3j",
+        "doc_484c4de81c12e684:scope_3k", "doc_484c4de81c12e684:scope_3l", "doc_484c4de81c12e684:scope_3m",
+        "doc_484c4de81c12e684:scope_3n", "doc_484c4de81c12e684:scope_3o", "doc_484c4de81c12e684:scope_3p",
+        "doc_484c4de81c12e684:figure3_direct_to_5", "doc_484c4de81c12e684:figure3_three_step_to_5",
+        "doc_484c4de81c12e684:figure4_gram_scale_3f"
+      ],
+      "unresolved": [
+        "The page-4 aggregate 80–88% ee statement for 3b–e conflicts with Figure 2 values for 3b (76%) and 3c (79%).",
+        "The page-4 para/meta product-label sentence appears inconsistent with Figure 2 structures and is not silently corrected.",
+        "Absolute configurations remain unassigned."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 2 header reaction arrow",
+          "finding": "Scope standard conditions are 1 (0.2 mmol), 2b (1.5 equiv), 4l (10 mol%), EtOAc (0.2 M), 0 °C, producing E-assigned products 3.",
+          "evidence_ids": ["doc_484c4de81c12e684:page5:text", "doc_484c4de81c12e684:page5:image"]
+        },
+        {
+          "region": "Figure 2 products 3a–3p",
+          "finding": "All 16 product panels were read for time, yield, and ee. The 3a panel is merged with Table 1 entry 22; its 80% ee conflicts with Table 1's 79% ee. Products 3b–3p are 15 separate scope records.",
+          "evidence_ids": ["doc_484c4de81c12e684:page5:text", "doc_484c4de81c12e684:page5:image"]
+        },
+        {
+          "region": "Figure 3 upper reaction arrow",
+          "finding": "1m + 2a (1.5 equiv), standard conditions, EtOAc, 0 °C -> 5 (86%, 45% ee) is a distinct configuration-study experiment.",
+          "evidence_ids": ["doc_484c4de81c12e684:page5:text", "doc_484c4de81c12e684:page5:image"]
+        },
+        {
+          "region": "Figure 3 lower multistep arrow",
+          "finding": "A standard-condition annulation followed by Pd/C-H2 and DCC/DMAP/EtOH-CH2Cl2 gives 5 in 48% total yield and 79% ee; it is retained as a three-step total result, not a final-step yield.",
+          "evidence_ids": ["doc_484c4de81c12e684:page5:text", "doc_484c4de81c12e684:page5:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_484c4de81c12e684:scheme_current_general", "doc_484c4de81c12e684:table1_entry22",
+        "doc_484c4de81c12e684:scope_3b", "doc_484c4de81c12e684:scope_3c", "doc_484c4de81c12e684:scope_3d",
+        "doc_484c4de81c12e684:scope_3e", "doc_484c4de81c12e684:scope_3f", "doc_484c4de81c12e684:scope_3g",
+        "doc_484c4de81c12e684:scope_3h", "doc_484c4de81c12e684:scope_3i", "doc_484c4de81c12e684:scope_3j",
+        "doc_484c4de81c12e684:scope_3k", "doc_484c4de81c12e684:scope_3l", "doc_484c4de81c12e684:scope_3m",
+        "doc_484c4de81c12e684:scope_3n", "doc_484c4de81c12e684:scope_3o", "doc_484c4de81c12e684:scope_3p",
+        "doc_484c4de81c12e684:figure3_direct_to_5", "doc_484c4de81c12e684:figure3_three_step_to_5"
+      ],
+      "unresolved": [
+        "The Figure 2 product drawings were not converted to concrete SMILES because stereochemical/positional transcription was not sufficiently certain.",
+        "Figure 3 does not print reaction times or the post-annulation reagent quantities.",
+        "The lower-route starting-label/prose ambiguity (1m versus the phrase 'from 3m and 2b') is retained."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 4 reaction arrow",
+          "finding": "Gram-scale 1f/2b experiment: 1f 2.5 mmol, 2b 3.75 mmol, 4l 2.5 mol%, EtOAc 0.4 M, 0 °C, 10 h -> 3f, 91% (1.215 g), 93% ee.",
+          "evidence_ids": ["doc_484c4de81c12e684:page6:text", "doc_484c4de81c12e684:page6:image"]
+        },
+        {
+          "region": "section 3.1 General Information",
+          "finding": "TLC monitoring, flash chromatography, pure-isolated-substance yield basis, and chiral-HPLC method are retained as global method/source context; spectroscopy is characterization, not separate synthesis.",
+          "evidence_ids": ["doc_484c4de81c12e684:page6:text", "doc_484c4de81c12e684:page6:image"]
+        },
+        {
+          "region": "section 3.2 General procedure",
+          "finding": "Sequential addition, 0 °C/15 min pre-stir, 2b charge, TLC-to-completion, rotary evaporation, and PE/EtOAc 20:1–15:1 column purification are structured in operation order and inherited only by standard-condition scope records.",
+          "evidence_ids": ["doc_484c4de81c12e684:page6:text", "doc_484c4de81c12e684:page6:image"]
+        },
+        {
+          "region": "compound 3a and 3b characterization blocks",
+          "finding": "Names, E descriptors, and the compound-specific 3a chiral-HPLC method support molecule identity/measurement context; NMR, rotation, melting point, and HRMS are characterization and were not made into reactions.",
+          "evidence_ids": ["doc_484c4de81c12e684:page6:text", "doc_484c4de81c12e684:page6:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_484c4de81c12e684:scheme_current_general", "doc_484c4de81c12e684:table1_entry22",
+        "doc_484c4de81c12e684:scope_3b", "doc_484c4de81c12e684:scope_3c", "doc_484c4de81c12e684:scope_3d",
+        "doc_484c4de81c12e684:scope_3e", "doc_484c4de81c12e684:scope_3f", "doc_484c4de81c12e684:scope_3g",
+        "doc_484c4de81c12e684:scope_3h", "doc_484c4de81c12e684:scope_3i", "doc_484c4de81c12e684:scope_3j",
+        "doc_484c4de81c12e684:scope_3k", "doc_484c4de81c12e684:scope_3l", "doc_484c4de81c12e684:scope_3m",
+        "doc_484c4de81c12e684:scope_3n", "doc_484c4de81c12e684:scope_3o", "doc_484c4de81c12e684:scope_3p",
+        "doc_484c4de81c12e684:figure4_gram_scale_3f"
+      ],
+      "unresolved": [
+        "The scaled Figure 4 catalyst amount and EtOAc volume are not printed, only mol% and concentration.",
+        "The supplied main paper references online SI, but no SI was explicitly provided or associated.",
+        "Characterization continues beyond page 6; those pages are outside this session's claimed coverage."
+      ]
+    }
+  ]
+}

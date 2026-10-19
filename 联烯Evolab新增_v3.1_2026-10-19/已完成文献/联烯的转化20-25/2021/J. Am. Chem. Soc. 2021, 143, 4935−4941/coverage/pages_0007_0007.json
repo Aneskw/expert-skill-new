@@ -1,0 +1,41 @@
+{
+  "document_id": "doc_2c8b9ffd03c82435",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column, references 91-100 and 102-109",
+          "finding": "Bibliography entries only; cited literature was not imported as experiments of this paper. No reaction arrow, experimental table row, or standalone characterization peak table is present.",
+          "evidence_ids": [
+            "doc_2c8b9ffd03c82435:page7:image"
+          ]
+        },
+        {
+          "region": "left column, footnote 101 between references 100 and 102",
+          "finding": "Current-paper procedural clarification for product 3l: the corresponding ester was first isolated before hydrolysis to carboxylic acid 3l to facilitate purification. Linked to the existing Table 2 3l record rather than counted as a new experiment.",
+          "evidence_ids": [
+            "doc_2c8b9ffd03c82435:page7:image",
+            "doc_2c8b9ffd03c82435:page7:text"
+          ]
+        },
+        {
+          "region": "right column, references 110-112 and page footer",
+          "finding": "Bibliography continuation and article footer only; no new current-paper experiment or analytical result.",
+          "evidence_ids": [
+            "doc_2c8b9ffd03c82435:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2c8b9ffd03c82435:table2_3l"
+      ],
+      "unresolved": [
+        "Footnote 101 does not provide the ester intermediate structure, isolation/purification method, amount, yield, time, or temperature.",
+        "No Supporting Information was explicitly supplied or associated, so the missing 3l procedural details remain unavailable."
+      ]
+    }
+  ]
+}

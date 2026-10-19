@@ -1,0 +1,311 @@
+{
+  "document_id": "doc_c32350973ac9b683",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top title, citation, and graphical abstract",
+          "finding": "Article metadata and the 1.0 g/91%/single-isomer scale-up graphic; linked to the same scale-up later shown in Scheme 6.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page1:text",
+            "doc_c32350973ac9b683:page1:image"
+          ]
+        },
+        {
+          "region": "abstract and introduction columns",
+          "finding": "Motivation/background only; no additional row-level experiment.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page1:text",
+            "doc_c32350973ac9b683:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c32350973ac9b683:scheme6_gram_scale_18c"
+      ],
+      "unresolved": [
+        "The graphical abstract does not state the analytical method for 'single isomer'."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1",
+          "finding": "Selected biologically active structures; nonreaction context, not synthesis experiments.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page2:text",
+            "doc_c32350973ac9b683:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 1A and 1B",
+          "finding": "Eight conceptual/prior-art transformation arrows inventoried as literature_example records, not current-paper experiments.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page2:text",
+            "doc_c32350973ac9b683:page2:image"
+          ]
+        },
+        {
+          "region": "right-column discussion",
+          "finding": "Prior asymmetric imine allylation literature context; no fully specified additional experiment.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page2:text",
+            "doc_c32350973ac9b683:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c32350973ac9b683:scheme1a_direct_diamination",
+        "doc_c32350973ac9b683:scheme1a_aminohydroxylation",
+        "doc_c32350973ac9b683:scheme1a_amine_substitution",
+        "doc_c32350973ac9b683:scheme1a_aziridination",
+        "doc_c32350973ac9b683:scheme1a_aziridine_opening",
+        "doc_c32350973ac9b683:scheme1b_aza_pinacol",
+        "doc_c32350973ac9b683:scheme1b_nitro_mannich",
+        "doc_c32350973ac9b683:scheme1b_glycine_mannich"
+      ],
+      "unresolved": [
+        "Scheme 1 uses generic R groups and supplies no row-level conditions or yields; structures remain generic/unencoded."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2A–D",
+          "finding": "Classical/prior/proposed strategies separated from the present-work generic coupling scheme.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page3:text",
+            "doc_c32350973ac9b683:page3:image"
+          ]
+        },
+        {
+          "region": "Table 1 entries 1–13 and footnotes",
+          "finding": "Thirteen independent ligand/solvent/additive optimization experiments extracted with product yields and unreacted-imine percentages.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page3:text",
+            "doc_c32350973ac9b683:page3:image"
+          ]
+        },
+        {
+          "region": "Scheme 3 (lower page)",
+          "finding": "Author-proposed catalytic cycle retained as proposed_mechanism, not isolated intermediate experiments.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page3:text",
+            "doc_c32350973ac9b683:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c32350973ac9b683:scheme2a_classical_imine_allylation",
+        "doc_c32350973ac9b683:scheme2b_proposed_aminoallylation",
+        "doc_c32350973ac9b683:scheme2c_prior_carbonyl_reductive_coupling",
+        "doc_c32350973ac9b683:scheme2d_current_generic_reductive_coupling",
+        "doc_c32350973ac9b683:scheme3_proposed_catalytic_cycle",
+        "doc_c32350973ac9b683:table1_entry_01",
+        "doc_c32350973ac9b683:table1_entry_02",
+        "doc_c32350973ac9b683:table1_entry_03",
+        "doc_c32350973ac9b683:table1_entry_04",
+        "doc_c32350973ac9b683:table1_entry_05",
+        "doc_c32350973ac9b683:table1_entry_06",
+        "doc_c32350973ac9b683:table1_entry_07",
+        "doc_c32350973ac9b683:table1_entry_08",
+        "doc_c32350973ac9b683:table1_entry_09",
+        "doc_c32350973ac9b683:table1_entry_10",
+        "doc_c32350973ac9b683:table1_entry_11",
+        "doc_c32350973ac9b683:table1_entry_12",
+        "doc_c32350973ac9b683:table1_entry_13"
+      ],
+      "unresolved": [
+        "Table 1 prints the silane identity but not a silane dose in its footnote; no dose was inferred.",
+        "Structures 9a/15a/18a/19a are complex drawings and remain without source-verified SMILES."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper mechanistic discussion",
+          "finding": "Continuation of Scheme 3 rationale and Table 1 interpretation; evidence merged into existing records.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page4:text",
+            "doc_c32350973ac9b683:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 4 substrate scope and footnotes",
+          "finding": "Twenty-one product-specific scope experiments (18a–18u) extracted separately, including heated rows and inseparable product mixtures.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page4:text",
+            "doc_c32350973ac9b683:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c32350973ac9b683:scheme3_proposed_catalytic_cycle",
+        "doc_c32350973ac9b683:table1_entry_01",
+        "doc_c32350973ac9b683:table1_entry_02",
+        "doc_c32350973ac9b683:table1_entry_03",
+        "doc_c32350973ac9b683:table1_entry_04",
+        "doc_c32350973ac9b683:table1_entry_05",
+        "doc_c32350973ac9b683:table1_entry_06",
+        "doc_c32350973ac9b683:table1_entry_07",
+        "doc_c32350973ac9b683:table1_entry_08",
+        "doc_c32350973ac9b683:table1_entry_09",
+        "doc_c32350973ac9b683:table1_entry_10",
+        "doc_c32350973ac9b683:table1_entry_11",
+        "doc_c32350973ac9b683:table1_entry_12",
+        "doc_c32350973ac9b683:table1_entry_13",
+        "doc_c32350973ac9b683:scheme4_scope_18a",
+        "doc_c32350973ac9b683:scheme4_scope_18b",
+        "doc_c32350973ac9b683:scheme4_scope_18c",
+        "doc_c32350973ac9b683:scheme4_scope_18d",
+        "doc_c32350973ac9b683:scheme4_scope_18e",
+        "doc_c32350973ac9b683:scheme4_scope_18f",
+        "doc_c32350973ac9b683:scheme4_scope_18g",
+        "doc_c32350973ac9b683:scheme4_scope_18h",
+        "doc_c32350973ac9b683:scheme4_scope_18i",
+        "doc_c32350973ac9b683:scheme4_scope_18j",
+        "doc_c32350973ac9b683:scheme4_scope_18k",
+        "doc_c32350973ac9b683:scheme4_scope_18l",
+        "doc_c32350973ac9b683:scheme4_scope_18m",
+        "doc_c32350973ac9b683:scheme4_scope_18n",
+        "doc_c32350973ac9b683:scheme4_scope_18o",
+        "doc_c32350973ac9b683:scheme4_scope_18p",
+        "doc_c32350973ac9b683:scheme4_scope_18q",
+        "doc_c32350973ac9b683:scheme4_scope_18r",
+        "doc_c32350973ac9b683:scheme4_scope_18s",
+        "doc_c32350973ac9b683:scheme4_scope_18t",
+        "doc_c32350973ac9b683:scheme4_scope_18u"
+      ],
+      "unresolved": [
+        "Full product graphs and minor-product ratio measurement methods are not supplied in machine-readable form; SMILES/methods remain unresolved rather than guessed."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 4 discussion",
+          "finding": "Scope interpretation and explicit failed aliphatic aldimine statement; negative experiment retained without a fabricated product.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page5:text",
+            "doc_c32350973ac9b683:page5:image"
+          ]
+        },
+        {
+          "region": "Table 2 entries 1–5 and footnote",
+          "finding": "Five N-substituent optimization rows extracted; table-specific 106 mg 15a charge preserved.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page5:text",
+            "doc_c32350973ac9b683:page5:image"
+          ]
+        },
+        {
+          "region": "Table 3 scope and footnotes",
+          "finding": "Twelve urea-forming scope rows extracted with isolated yields, >98:2 dr, heated cases, and inseparable product ratios.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page5:text",
+            "doc_c32350973ac9b683:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c32350973ac9b683:scheme4_scope_18a",
+        "doc_c32350973ac9b683:scheme4_scope_18b",
+        "doc_c32350973ac9b683:scheme4_scope_18c",
+        "doc_c32350973ac9b683:scheme4_scope_18d",
+        "doc_c32350973ac9b683:scheme4_scope_18e",
+        "doc_c32350973ac9b683:scheme4_scope_18f",
+        "doc_c32350973ac9b683:scheme4_scope_18g",
+        "doc_c32350973ac9b683:scheme4_scope_18h",
+        "doc_c32350973ac9b683:scheme4_scope_18i",
+        "doc_c32350973ac9b683:scheme4_scope_18j",
+        "doc_c32350973ac9b683:scheme4_scope_18k",
+        "doc_c32350973ac9b683:scheme4_scope_18l",
+        "doc_c32350973ac9b683:scheme4_scope_18m",
+        "doc_c32350973ac9b683:scheme4_scope_18n",
+        "doc_c32350973ac9b683:scheme4_scope_18o",
+        "doc_c32350973ac9b683:scheme4_scope_18p",
+        "doc_c32350973ac9b683:scheme4_scope_18q",
+        "doc_c32350973ac9b683:scheme4_scope_18r",
+        "doc_c32350973ac9b683:scheme4_scope_18s",
+        "doc_c32350973ac9b683:scheme4_scope_18t",
+        "doc_c32350973ac9b683:scheme4_scope_18u",
+        "doc_c32350973ac9b683:scheme4_aliphatic_aldimine_no_product",
+        "doc_c32350973ac9b683:table2_entry_1_9pa",
+        "doc_c32350973ac9b683:table2_entry_2_9pb",
+        "doc_c32350973ac9b683:table2_entry_3_9pc",
+        "doc_c32350973ac9b683:table2_entry_4_9pd",
+        "doc_c32350973ac9b683:table2_entry_5_9pe",
+        "doc_c32350973ac9b683:table3_scope_19a",
+        "doc_c32350973ac9b683:table3_scope_19b",
+        "doc_c32350973ac9b683:table3_scope_19de",
+        "doc_c32350973ac9b683:table3_scope_19ee",
+        "doc_c32350973ac9b683:table3_scope_19j",
+        "doc_c32350973ac9b683:table3_scope_19k",
+        "doc_c32350973ac9b683:table3_scope_19l",
+        "doc_c32350973ac9b683:table3_scope_19m",
+        "doc_c32350973ac9b683:table3_scope_19n",
+        "doc_c32350973ac9b683:table3_scope_19s",
+        "doc_c32350973ac9b683:table3_scope_19t",
+        "doc_c32350973ac9b683:table3_scope_19pe"
+      ],
+      "unresolved": [
+        "The failed aliphatic substrate statement reports no analytical method or detection limit.",
+        "Table 2's 106 mg/0.480 mmol charge differs from the 96.6 mg/0.480 mmol charge in Scheme 4/Table 3; both source values are retained without correction."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 5",
+          "finding": "18c hydrochloride/X-ray assignment and 18a→19a (94%) derivatization extracted as distinct experiments.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page6:text",
+            "doc_c32350973ac9b683:page6:image"
+          ]
+        },
+        {
+          "region": "Scheme 6",
+          "finding": "Three-step 19a→25 overall conversion, duplicate-linked gram-scale coupling, N-allylation to 26, and metathesis to 27 extracted separately.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page6:text",
+            "doc_c32350973ac9b683:page6:image"
+          ]
+        },
+        {
+          "region": "Scheme 6 prospective right-hand route",
+          "finding": "27→28/CP-99,994/CP-122,721 is presented as synthetic application/route context, not a performed experiment here.",
+          "evidence_ids": [
+            "doc_c32350973ac9b683:page6:text",
+            "doc_c32350973ac9b683:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_c32350973ac9b683:scheme5_18c_hydrochloride",
+        "doc_c32350973ac9b683:scheme5_18a_to_19a",
+        "doc_c32350973ac9b683:scheme6_gram_scale_18c",
+        "doc_c32350973ac9b683:scheme6_19a_to_25",
+        "doc_c32350973ac9b683:scheme6_18c_to_26",
+        "doc_c32350973ac9b683:scheme6_26_to_27"
+      ],
+      "unresolved": [
+        "18c·HCl formation lacks quantities, time, temperature, and yield.",
+        "The gram-scale dr method is not explicitly stated in the Scheme 6/graphical-abstract evidence.",
+        "Later-page procedural text was used only as contextual evidence; no semantic coverage beyond page 6 is claimed."
+      ]
+    }
+  ]
+}

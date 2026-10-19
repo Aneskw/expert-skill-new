@@ -1,0 +1,284 @@
+{
+  "document_id": "doc_333593389c9636f2",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and introductory prose",
+          "finding": "Article metadata and background; no current-paper concrete experiment in this region.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page1:text",
+            "doc_333593389c9636f2:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1A",
+          "finding": "Bioactive oxadiazine context only; retained as non-synthetic source_context.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page1:text",
+            "doc_333593389c9636f2:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1B",
+          "finding": "Cited prior DMAP-catalyzed racemic annulation; classified as literature_example.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page1:text",
+            "doc_333593389c9636f2:page1:image"
+          ]
+        },
+        {
+          "region": "Scheme 1C",
+          "finding": "This-work generic asymmetric annulation; classified as generic_scheme, not a concrete experiment.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page1:text",
+            "doc_333593389c9636f2:page1:image"
+          ]
+        },
+        {
+          "region": "ESI footnote",
+          "finding": "The paper says ESI is available, but no SI file was supplied; association remains unestablished.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page1:text",
+            "doc_333593389c9636f2:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_333593389c9636f2:literature:scheme1B",
+        "doc_333593389c9636f2:generic:scheme1C"
+      ],
+      "unresolved": [
+        "Generic R-group drawings and cited-work experimental details are not concrete structures/procedures.",
+        "ESI is mentioned but was not supplied."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 reaction drawing and catalysts C1-C6",
+          "finding": "Model substrates/products and catalyst structures inventoried; catalyst absolute descriptors are not written.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page2:text",
+            "doc_333593389c9636f2:page2:image"
+          ]
+        },
+        {
+          "region": "Table 1 entries 1-25 and footnotes a-h",
+          "finding": "Twenty-five distinct optimization experiments extracted row-by-row, including trace and all loading/ratio/volume exceptions.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page2:text",
+            "doc_333593389c9636f2:page2:image"
+          ]
+        },
+        {
+          "region": "optimal-conditions prose",
+          "finding": "Same experiment as Table 1 entry 24; reactant amounts conflict with table footnotes and were retained as alternatives.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page2:text",
+            "doc_333593389c9636f2:page2:image"
+          ]
+        },
+        {
+          "region": "Table 2 discussion continuation",
+          "finding": "Narrative mentions scope products but the definitive rows are on page 3.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page2:text",
+            "doc_333593389c9636f2:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_333593389c9636f2:optimization:table1_entry01",
+        "doc_333593389c9636f2:optimization:table1_entry02",
+        "doc_333593389c9636f2:optimization:table1_entry03",
+        "doc_333593389c9636f2:optimization:table1_entry04",
+        "doc_333593389c9636f2:optimization:table1_entry05",
+        "doc_333593389c9636f2:optimization:table1_entry06",
+        "doc_333593389c9636f2:optimization:table1_entry07",
+        "doc_333593389c9636f2:optimization:table1_entry08",
+        "doc_333593389c9636f2:optimization:table1_entry09",
+        "doc_333593389c9636f2:optimization:table1_entry10",
+        "doc_333593389c9636f2:optimization:table1_entry11",
+        "doc_333593389c9636f2:optimization:table1_entry12",
+        "doc_333593389c9636f2:optimization:table1_entry13",
+        "doc_333593389c9636f2:optimization:table1_entry14",
+        "doc_333593389c9636f2:optimization:table1_entry15",
+        "doc_333593389c9636f2:optimization:table1_entry16",
+        "doc_333593389c9636f2:optimization:table1_entry17",
+        "doc_333593389c9636f2:optimization:table1_entry18",
+        "doc_333593389c9636f2:optimization:table1_entry19",
+        "doc_333593389c9636f2:optimization:table1_entry20",
+        "doc_333593389c9636f2:optimization:table1_entry21",
+        "doc_333593389c9636f2:optimization:table1_entry22",
+        "doc_333593389c9636f2:optimization:table1_entry23",
+        "doc_333593389c9636f2:optimization:table1_entry24",
+        "doc_333593389c9636f2:optimization:table1_entry25"
+      ],
+      "unresolved": [
+        "Table 1 entry 24 and optimal-conditions prose reverse the 1a/2aa amounts.",
+        "Catalyst C1-C6 full stereochemical identities are not assigned by textual descriptors."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 entries 1-31 and footnotes",
+          "finding": "Entry 1 duplicates Table 1 entry 24 and was merged; entries 2-31 are separate substrate-scope records.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page3:text",
+            "doc_333593389c9636f2:page3:image"
+          ]
+        },
+        {
+          "region": "Table 3 entries 1-5 and footnotes",
+          "finding": "Five allenoate-scope experiments extracted row-by-row.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page3:text",
+            "doc_333593389c9636f2:page3:image"
+          ]
+        },
+        {
+          "region": "crystallization paragraph",
+          "finding": "Racemic crystals of 3aac/3aak and 99% ee mother liquor for 3aac retained as stereochemical source_context, not synthesis rows.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page3:text",
+            "doc_333593389c9636f2:page3:image"
+          ]
+        },
+        {
+          "region": "scale-up and transformation prose",
+          "finding": "Scale-up and four Scheme 2 transformations identified; figure conditions are on page 4.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page3:text",
+            "doc_333593389c9636f2:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_333593389c9636f2:optimization:table1_entry24",
+        "doc_333593389c9636f2:scope:table2_entry02",
+        "doc_333593389c9636f2:scope:table2_entry03",
+        "doc_333593389c9636f2:scope:table2_entry04",
+        "doc_333593389c9636f2:scope:table2_entry05",
+        "doc_333593389c9636f2:scope:table2_entry06",
+        "doc_333593389c9636f2:scope:table2_entry07",
+        "doc_333593389c9636f2:scope:table2_entry08",
+        "doc_333593389c9636f2:scope:table2_entry09",
+        "doc_333593389c9636f2:scope:table2_entry10",
+        "doc_333593389c9636f2:scope:table2_entry11",
+        "doc_333593389c9636f2:scope:table2_entry12",
+        "doc_333593389c9636f2:scope:table2_entry13",
+        "doc_333593389c9636f2:scope:table2_entry14",
+        "doc_333593389c9636f2:scope:table2_entry15",
+        "doc_333593389c9636f2:scope:table2_entry16",
+        "doc_333593389c9636f2:scope:table2_entry17",
+        "doc_333593389c9636f2:scope:table2_entry18",
+        "doc_333593389c9636f2:scope:table2_entry19",
+        "doc_333593389c9636f2:scope:table2_entry20",
+        "doc_333593389c9636f2:scope:table2_entry21",
+        "doc_333593389c9636f2:scope:table2_entry22",
+        "doc_333593389c9636f2:scope:table2_entry23",
+        "doc_333593389c9636f2:scope:table2_entry24",
+        "doc_333593389c9636f2:scope:table2_entry25",
+        "doc_333593389c9636f2:scope:table2_entry26",
+        "doc_333593389c9636f2:scope:table2_entry27",
+        "doc_333593389c9636f2:scope:table2_entry28",
+        "doc_333593389c9636f2:scope:table2_entry29",
+        "doc_333593389c9636f2:scope:table2_entry30",
+        "doc_333593389c9636f2:scope:table2_entry31",
+        "doc_333593389c9636f2:scope:table3_entry01",
+        "doc_333593389c9636f2:scope:table3_entry02",
+        "doc_333593389c9636f2:scope:table3_entry03",
+        "doc_333593389c9636f2:scope:table3_entry04",
+        "doc_333593389c9636f2:scope:table3_entry05",
+        "doc_333593389c9636f2:scale_up:scheme2A",
+        "doc_333593389c9636f2:derivatization:bromination",
+        "doc_333593389c9636f2:derivatization:ester_reduction",
+        "doc_333593389c9636f2:derivatization:esterification_acid1",
+        "doc_333593389c9636f2:derivatization:esterification_acid2",
+        "doc_333593389c9636f2:mechanism:scheme3"
+      ],
+      "unresolved": [
+        "Scope-product absolute configurations are unassigned despite ee values.",
+        "Crystallization observations do not establish the major reaction-product absolute configuration."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2A",
+          "finding": "One scale-up annulation (1a + 2tj to 3atj) extracted with charges, solvent volume, temperature, time, mass, yield, and ee.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page4:text",
+            "doc_333593389c9636f2:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 2B",
+          "finding": "Four separate derivatization arrows extracted: bromination, ester reduction, and two esterifications.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page4:text",
+            "doc_333593389c9636f2:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 3 and mechanism prose",
+          "finding": "Author-proposed catalytic cycle classified as proposed_mechanism; intermediates not treated as isolated experiments.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page4:text",
+            "doc_333593389c9636f2:page4:image"
+          ]
+        },
+        {
+          "region": "conclusion, acknowledgements, references 1-5",
+          "finding": "No additional current-paper synthetic experiment.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page4:text",
+            "doc_333593389c9636f2:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_333593389c9636f2:scale_up:scheme2A",
+        "doc_333593389c9636f2:derivatization:bromination",
+        "doc_333593389c9636f2:derivatization:ester_reduction",
+        "doc_333593389c9636f2:derivatization:esterification_acid1",
+        "doc_333593389c9636f2:derivatization:esterification_acid2",
+        "doc_333593389c9636f2:mechanism:scheme3"
+      ],
+      "unresolved": [
+        "Scheme 2B omits reagent quantities and reaction times; esterification temperatures are not shown.",
+        "Scheme 2 outcomes do not state measurement bases.",
+        "Scheme 3 is proposed rather than experimentally verified."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 6-14",
+          "finding": "Bibliography only; no current-paper experiment, table, or reaction arrow.",
+          "evidence_ids": [
+            "doc_333593389c9636f2:page5:text",
+            "doc_333593389c9636f2:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No reaction content; cited papers were not imported as source documents."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "literature_example": 3,
+    "general_scheme": 1,
+    "optimization_entry": 16,
+    "substrate_scope_entry": 28,
+    "reported_experiment": 10,
+    "mechanism": 1
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_1d33e0721b132f96"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_1d33e0721b132f96:scheme5_d",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_1d33e0721b132f96:page2:text",
+        "doc_1d33e0721b132f96:page2:image",
+        "doc_1d33e0721b132f96:page3:text",
+        "doc_1d33e0721b132f96:page3:image",
+        "doc_1d33e0721b132f96:page6:text",
+        "doc_1d33e0721b132f96:page6:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    }
+  ]
+}

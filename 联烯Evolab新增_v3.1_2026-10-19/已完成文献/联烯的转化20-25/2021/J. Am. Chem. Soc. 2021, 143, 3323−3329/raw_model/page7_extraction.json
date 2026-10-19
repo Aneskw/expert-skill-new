@@ -1,0 +1,56 @@
+{
+  "document_id": "doc_83f760dc954f4ef1",
+  "page": 7,
+  "image_reviewed": "runs/current/assets/doc_83f760dc954f4ef1/page7.jpg",
+  "chemical_accuracy_verified": false,
+  "regions": [
+    {
+      "region": "references 65-78",
+      "decision": "cited literature only; not current-paper experiments",
+      "evidence_ids": [
+        "doc_83f760dc954f4ef1:page7:text",
+        "doc_83f760dc954f4ef1:page7:image"
+      ]
+    },
+    {
+      "region": "footnote 79",
+      "raw_text": "When the (Z)-isomer of silyl ketene acetal was used, the same diastereomer was obtained as a major product in 73% yield with 83% ee, >20:1 rr, and 1.7:1 dr.",
+      "decision": "distinct current-paper substrate-scope experiment; do not merge with the E-enriched 2e Table 3 row",
+      "reaction_id": "doc_83f760dc954f4ef1:footnote79_z_2e_3v",
+      "evidence_ids": [
+        "doc_83f760dc954f4ef1:page7:text",
+        "doc_83f760dc954f4ef1:page7:image"
+      ]
+    },
+    {
+      "region": "references 80-82 and footer",
+      "decision": "cited literature and bibliographic footer only; no additional current-paper experiment or characterization table",
+      "evidence_ids": [
+        "doc_83f760dc954f4ef1:page7:text",
+        "doc_83f760dc954f4ef1:page7:image"
+      ]
+    }
+  ],
+  "molecule_decisions": {
+    "doc_83f760dc954f4ef1:mol_2e_z": {
+      "label": "(Z)-2e",
+      "chirality_status": "unresolved",
+      "geometry_status": "specified",
+      "representation_status": "not_encoded",
+      "smiles": null,
+      "reason": "The Z geometry is explicit, but the complete structure is not redrawn on page 7 and the dense page-4 structure was not converted into an unsafe isomeric SMILES."
+    },
+    "doc_83f760dc954f4ef1:mol_3v": {
+      "chirality_status": "partially_specified",
+      "geometry_status": "not_applicable",
+      "representation_status": "not_encoded",
+      "smiles": null,
+      "reason": "Footnote 79 identifies the same major diastereomer as the linked Table 3 experiment but does not print complete absolute descriptors or the minor-diastereomer identity."
+    }
+  },
+  "limitations": [
+    "Footnote 79 supplies outcomes but no standalone conditions or analytical methods.",
+    "No SI file is associated; missing details were not inferred from likely experimental practice.",
+    "No standard stereo computation was run for (Z)-2e or 3v because no complete candidate SMILES was asserted."
+  ]
+}

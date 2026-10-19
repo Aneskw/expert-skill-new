@@ -1,0 +1,197 @@
+{
+  "document_id": "doc_d12c5bb9ecbba832",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, DOI and article metadata",
+          "finding": "The article title, DOI 10.1039/d1nj01458g, and the stated stereoretentive substitution objective were read from the original page image.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page1:text", "doc_d12c5bb9ecbba832:page1:image"]
+        },
+        {
+          "region": "Scheme 1 at lower right",
+          "finding": "Two arrows summarize cited prior work: generic allene-carbamate aziridination (Ref. 4) and subsequent S_NV ring-opening. They are literature_example records, not current-paper experiments.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page1:text", "doc_d12c5bb9ecbba832:page1:image"]
+        },
+        {
+          "region": "introduction and start of results/discussion",
+          "finding": "The prose motivates stereochemical probing and proposed retentive/invertive paths; no additional concrete current experiment is specified on this page.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page1:text", "doc_d12c5bb9ecbba832:page1:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_d12c5bb9ecbba832:scheme1_prior_aziridination",
+        "doc_d12c5bb9ecbba832:scheme1_prior_snv"
+      ],
+      "unresolved": [
+        "Scheme 1 delegates conditions to prior publications; the individual prior examples and yields cannot be reconstructed from this PDF."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2 at upper left",
+          "finding": "The S_NVπ retention and S_NVσ inversion paths are proposed schematic mechanisms with generic Nu− and hypothetical products 5/6, not isolated experiments.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page2:text", "doc_d12c5bb9ecbba832:page2:image"]
+        },
+        {
+          "region": "Fig. 1 at upper right and adjacent stereochemical discussion",
+          "finding": "NMR shifts, NOE correlations and 3JHH support the source assignment of 4; these data are stereochemical characterization context, not an additional synthesis.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page2:text", "doc_d12c5bb9ecbba832:page2:image"]
+        },
+        {
+          "region": "Scheme 3 across bottom",
+          "finding": "Five transformations were inventoried: 7→8; 8→hydroxycarbamate→9; 8→10; 9→4; and the unresolved Rh(II)-catalyst family 10→4. The 10→4 catalyst/yield pairs are not individually recoverable.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page2:text", "doc_d12c5bb9ecbba832:page2:image"]
+        },
+        {
+          "region": "results prose in both columns",
+          "finding": "The page reports 11 (77%), 12 (31%) and 13 (23%), cis-to-D relationships for 11/12, and the proposed origin of 13; these mentions were merged into the corresponding detailed experiments on pages 4–5.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page2:text", "doc_d12c5bb9ecbba832:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_d12c5bb9ecbba832:scheme2_retention_path",
+        "doc_d12c5bb9ecbba832:scheme2_inversion_path",
+        "doc_d12c5bb9ecbba832:exp_7_to_8",
+        "doc_d12c5bb9ecbba832:exp_8_to_hydroxycarbamate",
+        "doc_d12c5bb9ecbba832:exp_hydroxycarbamate_to_9",
+        "doc_d12c5bb9ecbba832:scheme3_8_to_10",
+        "doc_d12c5bb9ecbba832:exp_9_to_4",
+        "doc_d12c5bb9ecbba832:scheme3_10_to_4_rh_screen",
+        "doc_d12c5bb9ecbba832:exp_4_to_11",
+        "doc_d12c5bb9ecbba832:exp_4_to_12_13"
+      ],
+      "unresolved": [
+        "Scheme-only 8→10 lacks charges, workup, purification and yield measurement basis.",
+        "The 10→4 screen reports 4–17% across Rh2(OAc)4/Rh2(esp)2/Rh2(TPA)4 without catalyst-to-yield mapping."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 4 at upper left",
+          "finding": "Two current experiments are shown: 4→11 with Me2CuLi (77%) and 4→12 plus 13 with vinyl-MgBr/CuI (31% and 23%). Scheme temperatures were retained alongside conflicting prose temperatures.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page3:text", "doc_d12c5bb9ecbba832:page3:image"]
+        },
+        {
+          "region": "Fig. 2 at middle left",
+          "finding": "Diagnostic NOE correlations for 11 and 12 support the relative stereochemical assignments; they are source_context and selectivity evidence, not separate reactions.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page3:text", "doc_d12c5bb9ecbba832:page3:image"]
+        },
+        {
+          "region": "Scheme 5 at lower left",
+          "finding": "Formal Cu insertion through 14 and ligand coupling to 15 is a proposed mechanism with generic R/M, recorded separately from the experiments.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page3:text", "doc_d12c5bb9ecbba832:page3:image"]
+        },
+        {
+          "region": "general information and start of compound 7 procedure in right column",
+          "finding": "General argon/solvent conventions were captured as inherited conditions; the concrete deuteration procedure begins here and continues on page 4.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page3:text", "doc_d12c5bb9ecbba832:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_d12c5bb9ecbba832:exp_4_to_11",
+        "doc_d12c5bb9ecbba832:exp_4_to_12_13",
+        "doc_d12c5bb9ecbba832:scheme5_cu_insertion_coupling",
+        "doc_d12c5bb9ecbba832:exp_deuteration_to_7"
+      ],
+      "unresolved": [
+        "Scheme 4 and prose disagree on both reaction temperature programs; both source statements remain as conflict alternatives."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top left continuation of compound 7",
+          "finding": "The deuteration isolation, 1.50 g/73% product and 94% deuterium incorporation were linked to the page-3 operation; spectroscopy remains characterization context.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page4:text", "doc_d12c5bb9ecbba832:page4:image"]
+        },
+        {
+          "region": "left column procedures for 8 and hydroxycarbamate",
+          "finding": "DIBAL reduction/workup/flash details for 7→8 and the two-stage CDI/NH2OH·HCl operation for 8→hydroxycarbamate were extracted with all stated quantities and outcomes, including 73% BRSM and 18% recovered 8.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page4:text", "doc_d12c5bb9ecbba832:page4:image"]
+        },
+        {
+          "region": "cross-column hydroxycarbamate→9 procedure",
+          "finding": "The p-TsCl/Et3N operation, 0 °C-to-RT scheme program, workup, chromatography, 893 mg and 85% isolated outcome were captured as a distinct experiment.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page4:text", "doc_d12c5bb9ecbba832:page4:image"]
+        },
+        {
+          "region": "right column procedures for 4 and 11",
+          "finding": "The 9→4 aziridination and 4→11 cuprate substitution were extracted; the printed 15.4 μmol Rh2(OAc)4 value was read from the image rather than the erroneous text-extraction unit.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page4:text", "doc_d12c5bb9ecbba832:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_d12c5bb9ecbba832:exp_deuteration_to_7",
+        "doc_d12c5bb9ecbba832:exp_7_to_8",
+        "doc_d12c5bb9ecbba832:exp_8_to_hydroxycarbamate",
+        "doc_d12c5bb9ecbba832:exp_hydroxycarbamate_to_9",
+        "doc_d12c5bb9ecbba832:exp_9_to_4",
+        "doc_d12c5bb9ecbba832:exp_4_to_11"
+      ],
+      "unresolved": [
+        "Absolute configurations and allene/relative stereochemistry cannot be fully encoded in the candidate SMILES.",
+        "Several addition durations, reaction concentrations and unspecified workup quantities remain unreported."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top left continuation of compound 11 characterization",
+          "finding": "NMR and HRMS complete the characterization of 11; no additional synthesis record was created.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page5:text", "doc_d12c5bb9ecbba832:page5:image"]
+        },
+        {
+          "region": "left column procedure and characterization for 12 and 13",
+          "finding": "One shared vinylmagnesium bromide/CuI experiment affords isolated 12 (7.0 mg, 31%) and 13 (6.0 mg, 23%); both outcomes target their own molecule IDs and all reagent/workup quantities are structured.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page5:text", "doc_d12c5bb9ecbba832:page5:image"]
+        },
+        {
+          "region": "right column references",
+          "finding": "References 1–17 contain no current-paper experimental arrows or table rows.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page5:text", "doc_d12c5bb9ecbba832:page5:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_d12c5bb9ecbba832:exp_4_to_11",
+        "doc_d12c5bb9ecbba832:exp_4_to_12_13"
+      ],
+      "unresolved": [
+        "The author-proposed carbonyl-addition/1,4-vinylation route to 13 is not sufficiently atom-mapped for a complete bond-change assignment."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references and footnotes 18–23",
+          "finding": "This page contains references, DFT/PM3 methodological context, and a cited comparison NMR note; it contains no current-paper synthesis experiment.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page6:text", "doc_d12c5bb9ecbba832:page6:image"]
+        },
+        {
+          "region": "small structure 16 under footnote 20",
+          "finding": "Structure 16 is explicitly a comparison compound from Alper and Prickett (1977), so it is retained as reference context and not entered as a product of this paper.",
+          "evidence_ids": ["doc_d12c5bb9ecbba832:page6:text", "doc_d12c5bb9ecbba832:page6:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The cited source for comparison compound 16 was not supplied and was not inferred or associated as SI."
+      ]
+    }
+  ]
+}

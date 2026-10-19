@@ -1,0 +1,296 @@
+{
+  "document_id": "doc_fb3fead4a044bff7",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "full page: title, abstract, affiliations",
+          "finding": "Bibliographic/abstract content only; no concrete experiment or reaction arrow.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page1:image",
+            "doc_fb3fead4a044bff7:page1:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Abstract-level claims are not converted into concrete experiments."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper two-column prose",
+          "finding": "Optimization narrative and current-work motivation; numeric experiments are linked to their Fig. 2/Table 1 records rather than duplicated.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page2:image",
+            "doc_fb3fead4a044bff7:page2:text"
+          ]
+        },
+        {
+          "region": "Fig. 1a",
+          "finding": "Bioactive pyrazolone background structures; non-synthetic source context.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page2:image"
+          ]
+        },
+        {
+          "region": "Fig. 1b",
+          "finding": "Two cited prior-work spirocyclization routes, recorded as literature examples, not current-paper experiments.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page2:image",
+            "doc_fb3fead4a044bff7:page2:text"
+          ]
+        },
+        {
+          "region": "Fig. 1c",
+          "finding": "Generic asymmetric C-allenylation scheme for the present study.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_fb3fead4a044bff7:fig1b_literature_pd",
+        "doc_fb3fead4a044bff7:fig1b_literature_phosphine",
+        "doc_fb3fead4a044bff7:fig1c_generic_allenylation"
+      ],
+      "unresolved": [
+        "Literature-example exact structures and conditions are only partially visible; no SI association is inferred."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Fig. 2 upper/middle ligand structures and results",
+          "finding": "Eleven separate L1-L11 optimization experiments, including zero-yield and competing N-allenylation results.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page3:image",
+            "doc_fb3fead4a044bff7:page3:text"
+          ]
+        },
+        {
+          "region": "Fig. 2 lower table entries 1-11",
+          "finding": "Eleven separate solvent/temperature/concentration optimization experiments.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page3:image",
+            "doc_fb3fead4a044bff7:page3:text"
+          ]
+        },
+        {
+          "region": "Fig. 2 caption/footnotes",
+          "finding": "General loadings, times, NMR yield/recovery basis, and chiral-HPLC ee basis mapped to the corresponding rows.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page3:image",
+            "doc_fb3fead4a044bff7:page3:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_fb3fead4a044bff7:fig2_ligand_l1",
+        "doc_fb3fead4a044bff7:fig2_ligand_l2",
+        "doc_fb3fead4a044bff7:fig2_ligand_l3",
+        "doc_fb3fead4a044bff7:fig2_ligand_l4",
+        "doc_fb3fead4a044bff7:fig2_ligand_l5",
+        "doc_fb3fead4a044bff7:fig2_ligand_l6",
+        "doc_fb3fead4a044bff7:fig2_ligand_l7",
+        "doc_fb3fead4a044bff7:fig2_ligand_l8",
+        "doc_fb3fead4a044bff7:fig2_ligand_l9",
+        "doc_fb3fead4a044bff7:fig2_ligand_l10",
+        "doc_fb3fead4a044bff7:fig2_ligand_l11",
+        "doc_fb3fead4a044bff7:fig2_entry_01",
+        "doc_fb3fead4a044bff7:fig2_entry_02",
+        "doc_fb3fead4a044bff7:fig2_entry_03",
+        "doc_fb3fead4a044bff7:fig2_entry_04",
+        "doc_fb3fead4a044bff7:fig2_entry_05",
+        "doc_fb3fead4a044bff7:fig2_entry_06",
+        "doc_fb3fead4a044bff7:fig2_entry_07",
+        "doc_fb3fead4a044bff7:fig2_entry_08",
+        "doc_fb3fead4a044bff7:fig2_entry_09",
+        "doc_fb3fead4a044bff7:fig2_entry_10",
+        "doc_fb3fead4a044bff7:fig2_entry_11"
+      ],
+      "unresolved": [
+        "Full structures of chiral ligands and product atom mapping remain unencoded."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Fig. 3a",
+          "finding": "Ligand-design concept only; stored as source context.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page4:image",
+            "doc_fb3fead4a044bff7:page4:text"
+          ]
+        },
+        {
+          "region": "Fig. 3b",
+          "finding": "Seven source-visible ligand/precursor synthesis instances across the n=2/n=3 and C1 routes; yields and times are unreported.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page4:image",
+            "doc_fb3fead4a044bff7:page4:text"
+          ]
+        },
+        {
+          "region": "lower-page scope prose",
+          "finding": "Narrative cross-reference for Table 2 products and stereochemical assignments; merged as evidence with page-6 scope records.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page4:image",
+            "doc_fb3fead4a044bff7:page4:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_fb3fead4a044bff7:fig3_nhs_ester_c2",
+        "doc_fb3fead4a044bff7:fig3_nhs_ester_c3",
+        "doc_fb3fead4a044bff7:fig3_dach_c2",
+        "doc_fb3fead4a044bff7:fig3_dach_c3",
+        "doc_fb3fead4a044bff7:fig3_dadpe_c2",
+        "doc_fb3fead4a044bff7:fig3_dppaa_c1",
+        "doc_fb3fead4a044bff7:fig3_dach_c1"
+      ],
+      "unresolved": [
+        "Ligand-synthesis yields, times, workup, purification, and several precursor structures are not reported on this page."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1",
+          "finding": "Fifteen independent optimization entries with product yield, ee, N-allenylation, and starting-material recovery retained separately.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page5:image",
+            "doc_fb3fead4a044bff7:page5:text"
+          ]
+        },
+        {
+          "region": "left-column synthetic applications",
+          "finding": "Three prose-reported derivatizations (5am, 6da, 7da) recorded; detailed later-figure/SI conditions remain unresolved.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page5:image",
+            "doc_fb3fead4a044bff7:page5:text"
+          ]
+        },
+        {
+          "region": "left-column complex preparation/control discussion",
+          "finding": "Two Pd-complex preparations and two no-reaction complex-III controls recorded as mechanistic-study experiments.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page5:image",
+            "doc_fb3fead4a044bff7:page5:text"
+          ]
+        },
+        {
+          "region": "right-column DFT discussion",
+          "finding": "Computational/mechanistic context, not a synthetic experiment.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page5:image",
+            "doc_fb3fead4a044bff7:page5:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_fb3fead4a044bff7:table1_entry_01",
+        "doc_fb3fead4a044bff7:table1_entry_02",
+        "doc_fb3fead4a044bff7:table1_entry_03",
+        "doc_fb3fead4a044bff7:table1_entry_04",
+        "doc_fb3fead4a044bff7:table1_entry_05",
+        "doc_fb3fead4a044bff7:table1_entry_06",
+        "doc_fb3fead4a044bff7:table1_entry_07",
+        "doc_fb3fead4a044bff7:table1_entry_08",
+        "doc_fb3fead4a044bff7:table1_entry_09",
+        "doc_fb3fead4a044bff7:table1_entry_10",
+        "doc_fb3fead4a044bff7:table1_entry_11",
+        "doc_fb3fead4a044bff7:table1_entry_12",
+        "doc_fb3fead4a044bff7:table1_entry_13",
+        "doc_fb3fead4a044bff7:table1_entry_14",
+        "doc_fb3fead4a044bff7:table1_entry_15",
+        "doc_fb3fead4a044bff7:prose_3am_to_5am",
+        "doc_fb3fead4a044bff7:prose_3da_to_6da",
+        "doc_fb3fead4a044bff7:prose_3da_to_7da",
+        "doc_fb3fead4a044bff7:prose_complex_III_prep",
+        "doc_fb3fead4a044bff7:prose_complex_IV_prep",
+        "doc_fb3fead4a044bff7:prose_complex_III_control_standard",
+        "doc_fb3fead4a044bff7:prose_complex_III_control_acoh"
+      ],
+      "unresolved": [
+        "Table solvent parenthetical values use header '(v)' without an explicit unit; entries 14-15 ligand loading is not stated by the footnote ranges.",
+        "Derivatization and complex-preparation details deferred to later figures/SI remain missing."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 entries 1-28",
+          "finding": "Twenty-eight independent substrate-scope experiments, including opposite enantiomer 3am as a distinct molecule and footnote-specific condition changes.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page6:image",
+            "doc_fb3fead4a044bff7:page6:text"
+          ]
+        },
+        {
+          "region": "Table 2 footnotes",
+          "finding": "General conditions, chiral-HPLC ee method, time/load/temperature exceptions, and entry-23 recovery mapped to records.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page6:image",
+            "doc_fb3fead4a044bff7:page6:text"
+          ]
+        },
+        {
+          "region": "lower-page DFT/NCI prose",
+          "finding": "Computational transition-state analysis only; no new preparative reaction.",
+          "evidence_ids": [
+            "doc_fb3fead4a044bff7:page6:image",
+            "doc_fb3fead4a044bff7:page6:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_fb3fead4a044bff7:table2_entry_01",
+        "doc_fb3fead4a044bff7:table2_entry_02",
+        "doc_fb3fead4a044bff7:table2_entry_03",
+        "doc_fb3fead4a044bff7:table2_entry_04",
+        "doc_fb3fead4a044bff7:table2_entry_05",
+        "doc_fb3fead4a044bff7:table2_entry_06",
+        "doc_fb3fead4a044bff7:table2_entry_07",
+        "doc_fb3fead4a044bff7:table2_entry_08",
+        "doc_fb3fead4a044bff7:table2_entry_09",
+        "doc_fb3fead4a044bff7:table2_entry_10",
+        "doc_fb3fead4a044bff7:table2_entry_11",
+        "doc_fb3fead4a044bff7:table2_entry_12",
+        "doc_fb3fead4a044bff7:table2_entry_13",
+        "doc_fb3fead4a044bff7:table2_entry_14",
+        "doc_fb3fead4a044bff7:table2_entry_15",
+        "doc_fb3fead4a044bff7:table2_entry_16",
+        "doc_fb3fead4a044bff7:table2_entry_17",
+        "doc_fb3fead4a044bff7:table2_entry_18",
+        "doc_fb3fead4a044bff7:table2_entry_19",
+        "doc_fb3fead4a044bff7:table2_entry_20",
+        "doc_fb3fead4a044bff7:table2_entry_21",
+        "doc_fb3fead4a044bff7:table2_entry_22",
+        "doc_fb3fead4a044bff7:table2_entry_23",
+        "doc_fb3fead4a044bff7:table2_entry_24",
+        "doc_fb3fead4a044bff7:table2_entry_25",
+        "doc_fb3fead4a044bff7:table2_entry_26",
+        "doc_fb3fead4a044bff7:table2_entry_27",
+        "doc_fb3fead4a044bff7:table2_entry_28"
+      ],
+      "unresolved": [
+        "Scope yield measurement basis is not stated on page 6; complete product graphs/SMILES and atom mapping remain unresolved."
+      ]
+    }
+  ]
+}

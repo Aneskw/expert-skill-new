@@ -1,0 +1,136 @@
+{
+  "document_id": "doc_484c4de81c12e684",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "compound characterization blocks 3c-3f",
+          "finding": "The page contains names with explicit (E) descriptors, melting points, NMR, optical rotations, compound-specific chiral-HPLC conditions, and HRMS for 3c-3f. These are characterization observations supporting the existing scope records, not new synthesis experiments.",
+          "evidence_ids": ["doc_484c4de81c12e684:page7:text", "doc_484c4de81c12e684:page7:image"]
+        },
+        {
+          "region": "compound 3g characterization, lower page",
+          "finding": "The 3g name and most characterization appear here; its HPLC method continues on page 8. No reaction arrow, optimization row, footnote, or separate preparation is present.",
+          "evidence_ids": ["doc_484c4de81c12e684:page7:text", "doc_484c4de81c12e684:page7:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_484c4de81c12e684:scope_3c",
+        "doc_484c4de81c12e684:scope_3d",
+        "doc_484c4de81c12e684:scope_3e",
+        "doc_484c4de81c12e684:scope_3f",
+        "doc_484c4de81c12e684:scope_3g"
+      ],
+      "unresolved": [
+        "The characterization blocks do not assign the absolute configurations of the major/minor HPLC peaks.",
+        "NMR/HRMS peak lists were retained as source context rather than converted into synthetic records."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top continuation of 3g and characterization blocks 3h-3k",
+          "finding": "The page completes the 3g HPLC/HRMS block and gives characterization for 3h-3k. Compound-specific HPLC columns, mobile phase, flow rate, and major/minor retention times were associated with the existing ee outcomes.",
+          "evidence_ids": ["doc_484c4de81c12e684:page8:text", "doc_484c4de81c12e684:page8:image"]
+        },
+        {
+          "region": "compound 3l characterization, lower page",
+          "finding": "The 3l name and most characterization are present; HPLC/HRMS continues on page 9. The page contains no new reaction arrow, table row, footnote reagent, or independent synthesis.",
+          "evidence_ids": ["doc_484c4de81c12e684:page8:text", "doc_484c4de81c12e684:page8:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_484c4de81c12e684:scope_3g",
+        "doc_484c4de81c12e684:scope_3h",
+        "doc_484c4de81c12e684:scope_3i",
+        "doc_484c4de81c12e684:scope_3j",
+        "doc_484c4de81c12e684:scope_3k",
+        "doc_484c4de81c12e684:scope_3l"
+      ],
+      "unresolved": [
+        "The HPLC peaks are reported only as major/minor; absolute configurations remain unassigned.",
+        "The unusual retention-time ordering printed for 3i (major 17.1 min, minor 14.2 min) is preserved without correction."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top continuation of 3l and characterization blocks 3m-3p",
+          "finding": "The page completes 3l and gives names, analytical characterization, and compound-specific chiral-HPLC methods for 3m-3p. These support existing scope records and do not constitute additional preparations.",
+          "evidence_ids": ["doc_484c4de81c12e684:page9:text", "doc_484c4de81c12e684:page9:image"]
+        },
+        {
+          "region": "section 3.3, first paragraph at bottom",
+          "finding": "The existing Figure 3 three-step route is specified as starting from a standard-condition reaction mixture made with 1m (1 mmol) and 2b (1.25 mmol), followed by addition of 10 wt% Pd/C and an H2-balloon hold at room temperature for 48 h, Celite filtration, and EtOAc elution. This was merged into the existing route record rather than duplicated.",
+          "evidence_ids": ["doc_484c4de81c12e684:page9:text", "doc_484c4de81c12e684:page9:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_484c4de81c12e684:scope_3l",
+        "doc_484c4de81c12e684:scope_3m",
+        "doc_484c4de81c12e684:scope_3n",
+        "doc_484c4de81c12e684:scope_3o",
+        "doc_484c4de81c12e684:scope_3p",
+        "doc_484c4de81c12e684:figure3_three_step_to_5"
+      ],
+      "unresolved": [
+        "Figure 3 invokes standard conditions with 2b at 1.5 equiv, while the explicit 1m/2b charges on this page imply 1.25 equiv; both values remain as a conflict.",
+        "Pd/C (wt. 10%) identifies catalyst grade/composition, but its charged amount is not reported.",
+        "The annulation time before Pd/C addition is not reported for this experiment."
+      ]
+    },
+    {
+      "page": 10,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "section 3.3 continuation, top of page",
+          "finding": "The sequence continues with concentration, silica-gel chromatography (PE/EtOAc 5:1-2:1) to a free-acid intermediate, dissolution in CH2Cl2 (5 mL), cooling to 0 °C, addition of DCC (2.0 equiv), DMAP (2.0 equiv), and EtOH (2 mL), movement to room temperature with an overnight hold, TLC monitoring, evaporation, and final chromatography (PE/EtOAc 15:1-9:1) to 5. Ordered steps and all printed quantities were added to the existing three-step record.",
+          "evidence_ids": ["doc_484c4de81c12e684:page10:text", "doc_484c4de81c12e684:page10:image"]
+        },
+        {
+          "region": "compound 5 characterization block",
+          "finding": "The page gives the full (E)-name, NMR, optical rotation, and OD-3 chiral-HPLC method for 5. This supports both existing routes to 5 but is not a third synthesis experiment.",
+          "evidence_ids": ["doc_484c4de81c12e684:page10:text", "doc_484c4de81c12e684:page10:image"]
+        },
+        {
+          "region": "Supplementary Materials statement and reference list start",
+          "finding": "The paper states that spectra/HPLC data are available online, but no SI file was explicitly supplied or associated in the workspace. The remaining entries are administrative text and bibliography, not synthetic experiments.",
+          "evidence_ids": ["doc_484c4de81c12e684:page10:text", "doc_484c4de81c12e684:page10:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_484c4de81c12e684:figure3_direct_to_5",
+        "doc_484c4de81c12e684:figure3_three_step_to_5"
+      ],
+      "unresolved": [
+        "The free-acid intermediate amount, yield, full identity, and stereochemical assignment are not reported.",
+        "The 48% value shown in Figure 3 remains a three-step total yield from 1m to 5, not the final esterification-step yield.",
+        "The major/minor HPLC peaks for 5 have no absolute-configuration assignment.",
+        "Online SI availability is not treated as an established SI association."
+      ]
+    },
+    {
+      "page": 11,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "reference list entries 10-21",
+          "finding": "The entire page is bibliography. Several titles describe allene/cycloaddition chemistry, but they are cited literature rather than current-paper experiments and provide no independent procedures, result rows, or reaction arrows on this page.",
+          "evidence_ids": ["doc_484c4de81c12e684:page11:text", "doc_484c4de81c12e684:page11:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Individual experiments in the cited papers cannot be reconstructed from bibliography entries alone and were not imported as current-paper records."
+      ]
+    }
+  ]
+}

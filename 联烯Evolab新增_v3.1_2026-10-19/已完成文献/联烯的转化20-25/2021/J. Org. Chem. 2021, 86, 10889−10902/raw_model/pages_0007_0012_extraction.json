@@ -1,0 +1,91 @@
+{
+  "document_id": "doc_036d1c8f4ae80aff",
+  "pages": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "visual_inspection": "Each supplied full-page JPEG was viewed at original detail.",
+  "new_specific_record_ids": [
+    "doc_036d1c8f4ae80aff:prep_S10h",
+    "doc_036d1c8f4ae80aff:prep_S10i",
+    "doc_036d1c8f4ae80aff:prep_S10j",
+    "doc_036d1c8f4ae80aff:prep_S10n",
+    "doc_036d1c8f4ae80aff:prep_S11d",
+    "doc_036d1c8f4ae80aff:prep_S11e",
+    "doc_036d1c8f4ae80aff:prep_S11f",
+    "doc_036d1c8f4ae80aff:prep_S11h",
+    "doc_036d1c8f4ae80aff:prep_S11i",
+    "doc_036d1c8f4ae80aff:prep_S11j",
+    "doc_036d1c8f4ae80aff:prep_S11n",
+    "doc_036d1c8f4ae80aff:prep_3a",
+    "doc_036d1c8f4ae80aff:prep_S12d",
+    "doc_036d1c8f4ae80aff:prep_S12f",
+    "doc_036d1c8f4ae80aff:prep_S12h",
+    "doc_036d1c8f4ae80aff:prep_S12i",
+    "doc_036d1c8f4ae80aff:prep_S12j",
+    "doc_036d1c8f4ae80aff:prep_S12n",
+    "doc_036d1c8f4ae80aff:prep_3d",
+    "doc_036d1c8f4ae80aff:prep_3e",
+    "doc_036d1c8f4ae80aff:prep_3f",
+    "doc_036d1c8f4ae80aff:prep_3h",
+    "doc_036d1c8f4ae80aff:prep_3i",
+    "doc_036d1c8f4ae80aff:prep_3j",
+    "doc_036d1c8f4ae80aff:prep_3n",
+    "doc_036d1c8f4ae80aff:prep_S14g",
+    "doc_036d1c8f4ae80aff:prep_S14k",
+    "doc_036d1c8f4ae80aff:prep_S14l",
+    "doc_036d1c8f4ae80aff:prep_S14m",
+    "doc_036d1c8f4ae80aff:prep_S15g",
+    "doc_036d1c8f4ae80aff:prep_S15k",
+    "doc_036d1c8f4ae80aff:prep_S15l",
+    "doc_036d1c8f4ae80aff:prep_S15m",
+    "doc_036d1c8f4ae80aff:prep_3g",
+    "doc_036d1c8f4ae80aff:prep_3k",
+    "doc_036d1c8f4ae80aff:prep_3l",
+    "doc_036d1c8f4ae80aff:prep_3m"
+  ],
+  "patched_existing_record_ids": [
+    "doc_036d1c8f4ae80aff:scheme3_3a_2a",
+    "doc_036d1c8f4ae80aff:table2_entry_5",
+    "doc_036d1c8f4ae80aff:scheme3_3f_2f",
+    "doc_036d1c8f4ae80aff:scheme3_3g_2g",
+    "doc_036d1c8f4ae80aff:scheme3_3h_2h",
+    "doc_036d1c8f4ae80aff:scheme3_3i_2i",
+    "doc_036d1c8f4ae80aff:scheme3_3j_2j",
+    "doc_036d1c8f4ae80aff:scheme3_3k_2k",
+    "doc_036d1c8f4ae80aff:scheme3_3l_2l",
+    "doc_036d1c8f4ae80aff:scheme3_3m_2m",
+    "doc_036d1c8f4ae80aff:scheme3_3n_2n",
+    "doc_036d1c8f4ae80aff:scheme4_2e_to_4",
+    "doc_036d1c8f4ae80aff:scheme4_2e_to_5",
+    "doc_036d1c8f4ae80aff:scheme4_4_to_6",
+    "doc_036d1c8f4ae80aff:scheme4_6_to_7"
+  ],
+  "generic_record_ids": [
+    "doc_036d1c8f4ae80aff:gp_homologation_alkynes_to_allenes",
+    "doc_036d1c8f4ae80aff:gp_S13_N_alkylation",
+    "doc_036d1c8f4ae80aff:gp_asymmetric_allene_cyclization"
+  ],
+  "non_experiment_regions": [
+    "spectral peak lists pages 7-11",
+    "SI availability notice page 11",
+    "authors/acknowledgments/references page 12"
+  ],
+  "source_conflicts": [
+    "CAN is printed as 0.5 mmol and 2.5 equiv for 0.25 mmol 2e (arithmetic gives 2.0 equiv).",
+    "Scheme 4 states Et3N 2 equiv for 4->6, while the detailed procedure states 4 equiv.",
+    "Scheme 4 depicts 6->7, while the detailed RCM prose says a solution of 5 was used.",
+    {
+      "field": "scheme4_2e_to_5.reaction_hold.time",
+      "values": [
+        "16 h (Scheme 4, page 4)",
+        "15 h (detailed procedure, page 11)"
+      ],
+      "decision": "retained as conflict; no source value selected"
+    }
+  ]
+}

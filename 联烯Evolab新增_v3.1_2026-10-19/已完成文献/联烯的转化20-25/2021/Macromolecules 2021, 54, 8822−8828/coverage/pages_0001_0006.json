@@ -1,0 +1,177 @@
+{
+  "document_id": "doc_56ca04973542741c",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and graphical abstract",
+          "finding": "Current-paper overview of allenyl-BPin polymerization, block copolymerization, and Pd cross-coupling. The polymerization arrow is linked to the generic current-work record; the other overview drawings repeat detailed experiments on later pages.",
+          "evidence_ids": ["doc_56ca04973542741c:page1:text", "doc_56ca04973542741c:page1:image"]
+        },
+        {
+          "region": "Introduction, both columns",
+          "finding": "Background and cited prior work only; no quantified current-paper experiment was created.",
+          "evidence_ids": ["doc_56ca04973542741c:page1:text", "doc_56ca04973542741c:page1:image"]
+        }
+      ],
+      "record_ids": ["doc_56ca04973542741c:scheme:vinyl_addition"],
+      "unresolved": ["The graphical abstract is schematic and does not supply full experimental charges or polymer stereogeometry."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 1 Prior Work panels A-C",
+          "finding": "Cited literature examples, not experiments of this article; no current-paper reaction records created from these arrows.",
+          "evidence_ids": ["doc_56ca04973542741c:page2:text", "doc_56ca04973542741c:page2:image"]
+        },
+        {
+          "region": "Figure 1 This Work panel and Results prose",
+          "finding": "Generic 2,3-vinyl-addition polymerization and the narrative for Table 1 entry 1, including 99% monomer consumption, alumina filtration, concentration to dryness, 92% isolated polymer, and NMR/GPC characterization.",
+          "evidence_ids": ["doc_56ca04973542741c:page2:text", "doc_56ca04973542741c:page2:image"]
+        },
+        {
+          "region": "Table 1, reaction scheme, eight rows, and footnotes a-e",
+          "finding": "Eight distinct optimization/scale-up experiments were recorded. Each row preserves catalyst, solvent, yield, target Mn, measured Mn, dispersity, and the applicable charge/condition footnotes.",
+          "evidence_ids": ["doc_56ca04973542741c:page2:text", "doc_56ca04973542741c:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_56ca04973542741c:scheme:vinyl_addition",
+        "doc_56ca04973542741c:table1:entry1",
+        "doc_56ca04973542741c:table1:entry2",
+        "doc_56ca04973542741c:table1:entry3",
+        "doc_56ca04973542741c:table1:entry4",
+        "doc_56ca04973542741c:table1:entry5",
+        "doc_56ca04973542741c:table1:entry6",
+        "doc_56ca04973542741c:table1:entry7",
+        "doc_56ca04973542741c:table1:entry8"
+      ],
+      "unresolved": [
+        "Entry 8 footnote changes the monomer scale to 2.0 g/12.05 mmol but does not explicitly print the scaled catalyst amount.",
+        "Several table-row yield measurement bases are not explicitly stated in the supplied main text."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 2 and left-column NMR/thermal discussion",
+          "finding": "Characterization of polymer 2, not a separate synthesis. NMR supports 2,3 insertion and boronate retention; minor signals are tentatively assigned to Z insertion without a quantified E/Z ratio. Thermal data are retained as source context.",
+          "evidence_ids": ["doc_56ca04973542741c:page3:text", "doc_56ca04973542741c:page3:image"]
+        },
+        {
+          "region": "right-column catalyst and solvent optimization discussion",
+          "finding": "Discussion maps to existing Table 1 rows. A source conflict is preserved: entry 2 is 56% in Table 1 but 52% in prose. No duplicate experiments were created.",
+          "evidence_ids": ["doc_56ca04973542741c:page3:text", "doc_56ca04973542741c:page3:image"]
+        },
+        {
+          "region": "high-Mn concentration comparison and Living Character heading",
+          "finding": "Two distinct target-Mn 100,000 experiments at 0.5 M and 0.1 M were recorded; the Mn-versus-conversion study begins here and continues on page 4.",
+          "evidence_ids": ["doc_56ca04973542741c:page3:text", "doc_56ca04973542741c:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_56ca04973542741c:table1:entry2",
+        "doc_56ca04973542741c:table1:entry3",
+        "doc_56ca04973542741c:table1:entry4",
+        "doc_56ca04973542741c:table1:entry5",
+        "doc_56ca04973542741c:table1:entry6",
+        "doc_56ca04973542741c:table1:entry7",
+        "doc_56ca04973542741c:high_mn_0p5M",
+        "doc_56ca04973542741c:high_mn_0p1M",
+        "doc_56ca04973542741c:mechanistic:mn_conversion"
+      ],
+      "unresolved": [
+        "The quantitative E/Z composition of polymer 2 is not reported.",
+        "The SI-only details for the high-Mn examples are unavailable.",
+        "Table 1 entry 2 yield conflict remains unresolved by design."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 3A and continuing prose",
+          "finding": "A real Mn/dispersity-versus-conversion experiment categorized as a mechanistic study. Individual plotted point values and conversion method are not fully tabulated.",
+          "evidence_ids": ["doc_56ca04973542741c:page4:text", "doc_56ca04973542741c:page4:image"]
+        },
+        {
+          "region": "Figure 3B and chain-extension prose",
+          "finding": "One three-stage chain-extension experiment, with three GPC Mn/dispersity pairs, plus a separate low-Mn sample preparation for end-group analysis.",
+          "evidence_ids": ["doc_56ca04973542741c:page4:text", "doc_56ca04973542741c:page4:image"]
+        },
+        {
+          "region": "Figure 4A-C and block-copolymer prose",
+          "finding": "Two current-paper reaction arrows: sequential copolymerization of 1 with 1,2-nonadiene to 6 and with β-pinadiene to 7. Figure 4 GPC traces are characterization outcomes of those same experiments.",
+          "evidence_ids": ["doc_56ca04973542741c:page4:text", "doc_56ca04973542741c:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_56ca04973542741c:mechanistic:mn_conversion",
+        "doc_56ca04973542741c:mechanistic:chain_extension",
+        "doc_56ca04973542741c:sample:low_mn_end_group",
+        "doc_56ca04973542741c:block:6",
+        "doc_56ca04973542741c:block:7"
+      ],
+      "unresolved": [
+        "The kinetic and chain-extension charge sizes, complete conditions, and conversion method are not reported in the supplied main text.",
+        "β-Pinadiene absolute/relative ring stereochemistry is not explicitly marked in the supplied drawing and remains unresolved."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2, two rows and footnotes a-e",
+          "finding": "Table 2 supplies masses, first/final Mn and dispersities, theoretical feed incorporation, and actual 1H-NMR incorporation for the same two Figure 4 block-copolymer experiments; evidence was merged rather than duplicated.",
+          "evidence_ids": ["doc_56ca04973542741c:page5:text", "doc_56ca04973542741c:page5:image"]
+        },
+        {
+          "region": "left-column block-copolymer discussion and supernatant/reverse-order probes",
+          "finding": "Two methanol-supernatant recovery probes and two reverse-order addition experiments were recorded as mechanistic studies. Homopolymer 2 detection and the shared >74% recovered-polymer statement are preserved without inventing case-specific values.",
+          "evidence_ids": ["doc_56ca04973542741c:page5:text", "doc_56ca04973542741c:page5:image"]
+        },
+        {
+          "region": "Figure 5 reaction arrow and GPC plot",
+          "finding": "Pd(PPh3)4/K2CO3-mediated Suzuki–Miyaura modification of polymer 2 with PhBr to polymer 8 was recorded with all printed reagent loadings, THF/H2O, N2, 80 °C, 20 h, 96% conversion, 93% yield, and GPC outcomes.",
+          "evidence_ids": ["doc_56ca04973542741c:page5:text", "doc_56ca04973542741c:page5:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_56ca04973542741c:block:6",
+        "doc_56ca04973542741c:block:7",
+        "doc_56ca04973542741c:mechanistic:recovery_probe_6",
+        "doc_56ca04973542741c:mechanistic:recovery_probe_7",
+        "doc_56ca04973542741c:mechanistic:reverse_nonadiene_first",
+        "doc_56ca04973542741c:mechanistic:reverse_beta_pinadiene_first",
+        "doc_56ca04973542741c:derivatization:8"
+      ],
+      "unresolved": [
+        "The recovery-probe and reverse-order quantitative details are referred to unavailable SI.",
+        "The main text does not explicitly state measurement methods for Figure 5's 96% conversion or 93% yield.",
+        "THF/H2O ratio, total solvent volume, and polymer 2 charge for Figure 5 are unreported."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "conclusion continuation, Associated Content, author information, acknowledgments, and references 1-32",
+          "finding": "No new current-paper experimental arrow, table row, or procedure. The page explicitly states that SI exists online, but no SI file was supplied or associated; references are prior literature and were not imported as this paper's experiments.",
+          "evidence_ids": ["doc_56ca04973542741c:page6:text", "doc_56ca04973542741c:page6:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["Supporting Information exists according to the article but remains unavailable and unassociated in this workspace."]
+    }
+  ]
+}

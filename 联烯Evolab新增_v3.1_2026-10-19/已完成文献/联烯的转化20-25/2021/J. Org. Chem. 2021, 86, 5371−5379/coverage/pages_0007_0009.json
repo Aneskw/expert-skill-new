@@ -1,0 +1,116 @@
+{
+  "document_id": "doc_2c129c777a77980b",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "双栏全部产品表征区（3fa、3ga、3gi、3ha、3ia、3ib、3ie、3ii、3ja、3ik、3im、3in）",
+          "finding": "12个既有Scheme 2合成实验的产物名称、分离质量和收率；NMR/HRMS/IR/Rf为表征，不另建反应。",
+          "evidence_ids": [
+            "doc_2c129c777a77980b:page7:text",
+            "doc_2c129c777a77980b:page7:image"
+          ]
+        },
+        {
+          "region": "3ja与3in表征块",
+          "finding": "分数积分与第3页E/Z或Z/E混合物标注一致；比例测定方法未报告，未拆成无依据的单一异构体记录。",
+          "evidence_ids": [
+            "doc_2c129c777a77980b:page3:text",
+            "doc_2c129c777a77980b:page3:image",
+            "doc_2c129c777a77980b:page7:text",
+            "doc_2c129c777a77980b:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2c129c777a77980b:scheme2_scope_3fa",
+        "doc_2c129c777a77980b:scheme2_scope_3ga",
+        "doc_2c129c777a77980b:scheme2_scope_3gi",
+        "doc_2c129c777a77980b:scheme2_scope_3ha",
+        "doc_2c129c777a77980b:scheme2_scope_3ia",
+        "doc_2c129c777a77980b:scheme2_scope_3ib",
+        "doc_2c129c777a77980b:scheme2_scope_3ie",
+        "doc_2c129c777a77980b:scheme2_scope_3ii",
+        "doc_2c129c777a77980b:scheme2_scope_3ja",
+        "doc_2c129c777a77980b:scheme2_scope_3ik",
+        "doc_2c129c777a77980b:scheme2_scope_3im",
+        "doc_2c129c777a77980b:scheme2_scope_3in"
+      ],
+      "unresolved": [
+        "3ik印刷名称与Scheme 2/NMR/HRMS所示含二甲基酰胺结构不一致，未擅自改名或补结构。",
+        "12个复杂产物的完整SMILES尚待专家结构复核；来源E/Z信息已文字保留。"
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "左上3′表征块",
+          "finding": "仅为副产物3′的表征，未说明独立制备条件；不新增合成实验。",
+          "evidence_ids": [
+            "doc_2c129c777a77980b:page8:text",
+            "doc_2c129c777a77980b:page8:image"
+          ]
+        },
+        {
+          "region": "左栏Transformation of [3]Dendralene 3aa with m-CPBA",
+          "finding": "完整衍生化实验：低温加料、0 °C保持、升至室温过夜、后处理、柱层析及4的32.9 mg/50%结果。",
+          "evidence_ids": [
+            "doc_2c129c777a77980b:page3:text",
+            "doc_2c129c777a77980b:page3:image",
+            "doc_2c129c777a77980b:page8:text",
+            "doc_2c129c777a77980b:page8:image"
+          ]
+        },
+        {
+          "region": "左下Deuterium-Labeling Experiment及3aa-d6表征块",
+          "finding": "含AcOH的详述实验与不含/含AcOH两个产率结果；按eq 3与eq 4保留为两个机理研究记录，并记录条件冲突。",
+          "evidence_ids": [
+            "doc_2c129c777a77980b:page3:text",
+            "doc_2c129c777a77980b:page3:image",
+            "doc_2c129c777a77980b:page8:text",
+            "doc_2c129c777a77980b:page8:image"
+          ]
+        },
+        {
+          "region": "Associated Content",
+          "finding": "仅提示SI可获得；当前来源映射未建立SI关联，因此不导入SI事实。",
+          "evidence_ids": [
+            "doc_2c129c777a77980b:page8:text",
+            "doc_2c129c777a77980b:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_2c129c777a77980b:eq2_epoxidation_3aa_to_4",
+        "doc_2c129c777a77980b:eq3_deuterium_no_acoh",
+        "doc_2c129c777a77980b:eq4_deuterium_with_acoh"
+      ],
+      "unresolved": [
+        "eq 4的Pd载量在第3页标准条件与第8页具体用量之间冲突。",
+        "第8页DMBQ的0.22 mmol、1.1 equiv与1a-d6 0.3 mmol不自洽。",
+        "无AcOH实验的完整操作未单独叙述；氘保留的测定方法未报告。"
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "整页References (6)–(26)",
+          "finding": "仅为引用文献列表，无本篇新增实验箭头、表格行或操作步骤。",
+          "evidence_ids": [
+            "doc_2c129c777a77980b:page9:text",
+            "doc_2c129c777a77980b:page9:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

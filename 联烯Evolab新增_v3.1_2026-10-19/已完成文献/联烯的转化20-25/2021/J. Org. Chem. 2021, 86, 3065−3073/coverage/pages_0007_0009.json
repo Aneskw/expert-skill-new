@@ -1,0 +1,94 @@
+{
+  "document_id": "doc_64f4a881f331038c",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation of the 4p paragraph",
+          "finding": "Completes 4p NMR/HRMS and reports 97% ee with the Chiralpak OJ-H method; linked to existing Table 4 entry 4, not a new synthesis.",
+          "evidence_ids": [
+            "doc_64f4a881f331038c:page7:text",
+            "doc_64f4a881f331038c:page7:image"
+          ]
+        },
+        {
+          "region": "left column, characterization paragraphs for 4q-4u",
+          "finding": "Physical form, isolated mass/yield, spectra, optical rotation and 97% ee/HPLC methods for 4q-4u. The five product masses are added to existing Table 4 entries 5-9; spectra remain source_context.",
+          "evidence_ids": [
+            "doc_64f4a881f331038c:page7:text",
+            "doc_64f4a881f331038c:page7:image"
+          ]
+        },
+        {
+          "region": "bottom-left heading and upper-right continuation, A 5 mmol Scale Reaction",
+          "finding": "One new scale-up experiment: 1a (1.01 g, 5.0 mmol) and 2a (865 mg, 6.0 mmol) in MeOH (25 mL), followed by wet-silica hydrolysis/workup and chromatography, giving 4a (1.27 g, 87%).",
+          "evidence_ids": [
+            "doc_64f4a881f331038c:page7:text",
+            "doc_64f4a881f331038c:page7:image"
+          ]
+        },
+        {
+          "region": "right column, Associated Content through Acknowledgments",
+          "finding": "Supporting-information availability, CCDC accession, author metadata and acknowledgments; no supplied SI experiment is associated and no additional synthesis record is created.",
+          "evidence_ids": [
+            "doc_64f4a881f331038c:page7:text",
+            "doc_64f4a881f331038c:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_64f4a881f331038c:table4_allenone_scope_entry_04",
+        "doc_64f4a881f331038c:table4_allenone_scope_entry_05",
+        "doc_64f4a881f331038c:table4_allenone_scope_entry_06",
+        "doc_64f4a881f331038c:table4_allenone_scope_entry_07",
+        "doc_64f4a881f331038c:table4_allenone_scope_entry_08",
+        "doc_64f4a881f331038c:table4_allenone_scope_entry_09",
+        "doc_64f4a881f331038c:scale_up_5_mmol_1a_2a_to_4a"
+      ],
+      "unresolved": [
+        "The 4p characterization paragraph begins on page 6; page 7 only supplies its continuation, and this coverage file does not claim page 6 was re-covered.",
+        "No scale-specific ee/er/dr/E/Z measurement is reported for the 5 mmol batch.",
+        "The article mentions SI, but no SI file was supplied or explicitly associated in this session."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "full page, References 1-9",
+          "finding": "Bibliography only. The cited reviews and prior reaction papers are literature references, not current-paper experiments, schemes, tables or reaction arrows.",
+          "evidence_ids": [
+            "doc_64f4a881f331038c:page8:text",
+            "doc_64f4a881f331038c:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Individual cited-paper experiments were not extracted because the cited papers themselves were not supplied as source documents for this bounded task."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column, continuation of References 9-19; remaining page blank",
+          "finding": "Bibliography only. No current-paper synthesis experiment, no-reaction control, mechanism diagram, table or reaction arrow is present.",
+          "evidence_ids": [
+            "doc_64f4a881f331038c:page9:text",
+            "doc_64f4a881f331038c:page9:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Individual cited-paper experiments were not extracted because the cited papers themselves were not supplied as source documents for this bounded task."
+      ]
+    }
+  ]
+}

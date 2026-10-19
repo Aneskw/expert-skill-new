@@ -1,0 +1,373 @@
+{
+  "document_id": "doc_ce3af83f9dcdab7f",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, citation, authors, DOI and abstract",
+          "finding": "bibliographic/abstract context; no concrete synthetic experiment",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page1:text",
+            "doc_ce3af83f9dcdab7f:page1:image"
+          ]
+        },
+        {
+          "region": "Figure 1",
+          "finding": "active sulfoximine/tryptamine examples and target scaffold A; non-synthetic context",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page1:text",
+            "doc_ce3af83f9dcdab7f:page1:image"
+          ]
+        },
+        {
+          "region": "ESI footnote",
+          "finding": "ESI availability is stated, but no SI was supplied or explicitly associated",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page1:text",
+            "doc_ce3af83f9dcdab7f:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "No supplementary-information file is associated; experimental details absent from the supplied main text remain missing."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1",
+          "finding": "cited prior-work ketenimination; recorded as literature_example, not this-paper synthesis",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page2:text",
+            "doc_ce3af83f9dcdab7f:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 2 eqn (1), intermediates A–F",
+          "finding": "author-proposed mechanism; not isolated experiments",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page2:text",
+            "doc_ce3af83f9dcdab7f:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 2 eqn (2)",
+          "finding": "generic four-component current-paper scheme",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page2:text",
+            "doc_ce3af83f9dcdab7f:page2:image"
+          ]
+        },
+        {
+          "region": "optimization prose at lower right",
+          "finding": "discussion corresponding to Table 1 entries 1–3; merged as supporting evidence, not duplicate experiments",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page2:text",
+            "doc_ce3af83f9dcdab7f:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ce3af83f9dcdab7f:scheme1_prior_work",
+        "doc_ce3af83f9dcdab7f:scheme2_proposed_mechanism",
+        "doc_ce3af83f9dcdab7f:scheme2_generic",
+        "doc_ce3af83f9dcdab7f:table1_entry_01",
+        "doc_ce3af83f9dcdab7f:table1_entry_02",
+        "doc_ce3af83f9dcdab7f:table1_entry_03"
+      ],
+      "unresolved": [
+        "Generic R groups and proposed intermediates are not assigned concrete structures or complete atom maps."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 reaction drawing and common conditions",
+          "finding": "three-stage one-pot protocol; drawing and footnote durations conflict and are retained as alternatives",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page3:text",
+            "doc_ce3af83f9dcdab7f:page3:image"
+          ]
+        },
+        {
+          "region": "Table 1 entries 1–25",
+          "finding": "25 distinct optimization experiments, including zero/trace outcomes and entry-25 Mn(CO)5Br replacement",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page3:text",
+            "doc_ce3af83f9dcdab7f:page3:image"
+          ]
+        },
+        {
+          "region": "Table 1 footnotes b/c",
+          "finding": "entry-24 retained-solvent exception and entry-25 carbonyl-source exception structured separately",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page3:text",
+            "doc_ce3af83f9dcdab7f:page3:image"
+          ]
+        },
+        {
+          "region": "optimization prose",
+          "finding": "same Table 1 experiments; isolated basis attached only where the prose explicitly says isolated",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page3:text",
+            "doc_ce3af83f9dcdab7f:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ce3af83f9dcdab7f:table1_entry_01",
+        "doc_ce3af83f9dcdab7f:table1_entry_02",
+        "doc_ce3af83f9dcdab7f:table1_entry_03",
+        "doc_ce3af83f9dcdab7f:table1_entry_04",
+        "doc_ce3af83f9dcdab7f:table1_entry_05",
+        "doc_ce3af83f9dcdab7f:table1_entry_06",
+        "doc_ce3af83f9dcdab7f:table1_entry_07",
+        "doc_ce3af83f9dcdab7f:table1_entry_08",
+        "doc_ce3af83f9dcdab7f:table1_entry_09",
+        "doc_ce3af83f9dcdab7f:table1_entry_10",
+        "doc_ce3af83f9dcdab7f:table1_entry_11",
+        "doc_ce3af83f9dcdab7f:table1_entry_12",
+        "doc_ce3af83f9dcdab7f:table1_entry_13",
+        "doc_ce3af83f9dcdab7f:table1_entry_14",
+        "doc_ce3af83f9dcdab7f:table1_entry_15",
+        "doc_ce3af83f9dcdab7f:table1_entry_16",
+        "doc_ce3af83f9dcdab7f:table1_entry_17",
+        "doc_ce3af83f9dcdab7f:table1_entry_18",
+        "doc_ce3af83f9dcdab7f:table1_entry_19",
+        "doc_ce3af83f9dcdab7f:table1_entry_20",
+        "doc_ce3af83f9dcdab7f:table1_entry_21",
+        "doc_ce3af83f9dcdab7f:table1_entry_22",
+        "doc_ce3af83f9dcdab7f:table1_entry_23",
+        "doc_ce3af83f9dcdab7f:table1_entry_24",
+        "doc_ce3af83f9dcdab7f:table1_entry_25"
+      ],
+      "unresolved": [
+        "Most Table 1 rows do not state a yield measurement basis; null/missing is retained.",
+        "Entry 24 table ratio THF:toluene 1:2 conflicts with footnote volumes of 1.0 mL plus 1.0 mL."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 products 4a–4z",
+          "finding": "26 scope products; 4a is merged with Table 1 entry 12, and 4b–4z are separate scope records",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page4:text",
+            "doc_ce3af83f9dcdab7f:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 3 drawing/caption",
+          "finding": "common conditions and yields; 1 h drawing versus 2 h caption conflict retained; caption cross-reference to Table 1 entry 8 conflicts with listed DBU conditions",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page4:text",
+            "doc_ce3af83f9dcdab7f:page4:image"
+          ]
+        },
+        {
+          "region": "prose above Scheme 4",
+          "finding": "actual failed direct Ac-protected four-component trial; recorded as no-reaction control without invented product",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page4:text",
+            "doc_ce3af83f9dcdab7f:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 4",
+          "finding": "distinct propargyl amide 5 + 3a + CO experiment giving 6a in 42%",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page4:text",
+            "doc_ce3af83f9dcdab7f:page4:image"
+          ]
+        },
+        {
+          "region": "right-column prose discussing Schemes 5 and 6",
+          "finding": "supporting text for the page-5 scope, gram-scale and reduction records; not duplicate experiments",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page4:text",
+            "doc_ce3af83f9dcdab7f:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ce3af83f9dcdab7f:table1_entry_12",
+        "doc_ce3af83f9dcdab7f:scheme3_4b",
+        "doc_ce3af83f9dcdab7f:scheme3_4c",
+        "doc_ce3af83f9dcdab7f:scheme3_4d",
+        "doc_ce3af83f9dcdab7f:scheme3_4e",
+        "doc_ce3af83f9dcdab7f:scheme3_4f",
+        "doc_ce3af83f9dcdab7f:scheme3_4g",
+        "doc_ce3af83f9dcdab7f:scheme3_4h",
+        "doc_ce3af83f9dcdab7f:scheme3_4i",
+        "doc_ce3af83f9dcdab7f:scheme3_4j",
+        "doc_ce3af83f9dcdab7f:scheme3_4k",
+        "doc_ce3af83f9dcdab7f:scheme3_4l",
+        "doc_ce3af83f9dcdab7f:scheme3_4m",
+        "doc_ce3af83f9dcdab7f:scheme3_4n",
+        "doc_ce3af83f9dcdab7f:scheme3_4o",
+        "doc_ce3af83f9dcdab7f:scheme3_4p",
+        "doc_ce3af83f9dcdab7f:scheme3_4q",
+        "doc_ce3af83f9dcdab7f:scheme3_4r",
+        "doc_ce3af83f9dcdab7f:scheme3_4s",
+        "doc_ce3af83f9dcdab7f:scheme3_4t",
+        "doc_ce3af83f9dcdab7f:scheme3_4u",
+        "doc_ce3af83f9dcdab7f:scheme3_4v",
+        "doc_ce3af83f9dcdab7f:scheme3_4w",
+        "doc_ce3af83f9dcdab7f:scheme3_4x",
+        "doc_ce3af83f9dcdab7f:scheme3_4y",
+        "doc_ce3af83f9dcdab7f:scheme3_4z",
+        "doc_ce3af83f9dcdab7f:ac_protected_direct_no_reaction",
+        "doc_ce3af83f9dcdab7f:scheme4_5_to_6a",
+        "doc_ce3af83f9dcdab7f:scheme5_6a",
+        "doc_ce3af83f9dcdab7f:scheme5_6b",
+        "doc_ce3af83f9dcdab7f:scheme5_6c",
+        "doc_ce3af83f9dcdab7f:scheme5_6d",
+        "doc_ce3af83f9dcdab7f:scheme5_6e",
+        "doc_ce3af83f9dcdab7f:scheme5_6f_h",
+        "doc_ce3af83f9dcdab7f:scheme5_6f_me",
+        "doc_ce3af83f9dcdab7f:scheme5_6f_bn",
+        "doc_ce3af83f9dcdab7f:scheme6_gram_scale_4a",
+        "doc_ce3af83f9dcdab7f:scheme6_reduction_4a_to_8"
+      ],
+      "unresolved": [
+        "Many Scheme 3 structures remain label/substituent-defined because full connectivity and sulfur configuration cannot be safely encoded from the available drawing scale.",
+        "Scheme 4 yield basis is not stated."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 5",
+          "finding": "five successful scope arrows (6a–6e) plus three R=H/Me/Bn trace variants, each a separate experiment",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page5:text",
+            "doc_ce3af83f9dcdab7f:page5:image"
+          ]
+        },
+        {
+          "region": "Scheme 5 arrow and caption",
+          "finding": "PPh3 10 mol% in the arrow versus 20 mol% in the caption; both retained",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page5:text",
+            "doc_ce3af83f9dcdab7f:page5:image"
+          ]
+        },
+        {
+          "region": "Scheme 6 eqn (1) and (2)",
+          "finding": "gram-scale 7a→4a and reduction 4a→8 recorded as two distinct experiments",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page5:text",
+            "doc_ce3af83f9dcdab7f:page5:image"
+          ]
+        },
+        {
+          "region": "General procedure for 4a",
+          "finding": "same experiment as Table 1 entry 12/Scheme 3 product 4a; operation order, workup, product mass and source conflicts merged into that record",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page5:text",
+            "doc_ce3af83f9dcdab7f:page5:image"
+          ]
+        },
+        {
+          "region": "4a NMR/IR/HRMS block",
+          "finding": "characterization context for 4a, not a separate synthesis",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page5:text",
+            "doc_ce3af83f9dcdab7f:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ce3af83f9dcdab7f:table1_entry_12",
+        "doc_ce3af83f9dcdab7f:scheme3_4b",
+        "doc_ce3af83f9dcdab7f:scheme3_4c",
+        "doc_ce3af83f9dcdab7f:scheme3_4d",
+        "doc_ce3af83f9dcdab7f:scheme3_4e",
+        "doc_ce3af83f9dcdab7f:scheme3_4f",
+        "doc_ce3af83f9dcdab7f:scheme3_4g",
+        "doc_ce3af83f9dcdab7f:scheme3_4h",
+        "doc_ce3af83f9dcdab7f:scheme3_4i",
+        "doc_ce3af83f9dcdab7f:scheme3_4j",
+        "doc_ce3af83f9dcdab7f:scheme3_4k",
+        "doc_ce3af83f9dcdab7f:scheme3_4l",
+        "doc_ce3af83f9dcdab7f:scheme3_4m",
+        "doc_ce3af83f9dcdab7f:scheme3_4n",
+        "doc_ce3af83f9dcdab7f:scheme3_4o",
+        "doc_ce3af83f9dcdab7f:scheme3_4p",
+        "doc_ce3af83f9dcdab7f:scheme3_4q",
+        "doc_ce3af83f9dcdab7f:scheme3_4r",
+        "doc_ce3af83f9dcdab7f:scheme3_4s",
+        "doc_ce3af83f9dcdab7f:scheme3_4t",
+        "doc_ce3af83f9dcdab7f:scheme3_4u",
+        "doc_ce3af83f9dcdab7f:scheme3_4v",
+        "doc_ce3af83f9dcdab7f:scheme3_4w",
+        "doc_ce3af83f9dcdab7f:scheme3_4x",
+        "doc_ce3af83f9dcdab7f:scheme3_4y",
+        "doc_ce3af83f9dcdab7f:scheme5_6a",
+        "doc_ce3af83f9dcdab7f:scheme5_6b",
+        "doc_ce3af83f9dcdab7f:scheme5_6c",
+        "doc_ce3af83f9dcdab7f:scheme5_6d",
+        "doc_ce3af83f9dcdab7f:scheme5_6e",
+        "doc_ce3af83f9dcdab7f:scheme5_6f_h",
+        "doc_ce3af83f9dcdab7f:scheme5_6f_me",
+        "doc_ce3af83f9dcdab7f:scheme5_6f_bn",
+        "doc_ce3af83f9dcdab7f:scheme6_gram_scale_4a",
+        "doc_ce3af83f9dcdab7f:scheme6_reduction_4a_to_8"
+      ],
+      "unresolved": [
+        "Table/Scheme versus experimental-procedure conflicts remain for 2a amount, THF volume and step I/II durations.",
+        "Scheme 5 and Scheme 6 yields do not state a measurement basis.",
+        "Page-9/10 extracted text was used as necessary context for Scheme 6 conflicts/procedure, but those pages are not claimed as visually covered."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "characterization blocks for 4b–4j",
+          "finding": "product names, masses, yields, melting points, NMR/IR/HRMS; masses/yields linked to Scheme 3 records and spectra retained as source_context",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page6:text",
+            "doc_ce3af83f9dcdab7f:page6:image"
+          ]
+        },
+        {
+          "region": "full page",
+          "finding": "no new reaction arrow, optimization row, or standalone synthesis beyond the corresponding Scheme 3 products",
+          "evidence_ids": [
+            "doc_ce3af83f9dcdab7f:page6:text",
+            "doc_ce3af83f9dcdab7f:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_ce3af83f9dcdab7f:scheme3_4b",
+        "doc_ce3af83f9dcdab7f:scheme3_4c",
+        "doc_ce3af83f9dcdab7f:scheme3_4d",
+        "doc_ce3af83f9dcdab7f:scheme3_4e",
+        "doc_ce3af83f9dcdab7f:scheme3_4f",
+        "doc_ce3af83f9dcdab7f:scheme3_4g",
+        "doc_ce3af83f9dcdab7f:scheme3_4h",
+        "doc_ce3af83f9dcdab7f:scheme3_4i",
+        "doc_ce3af83f9dcdab7f:scheme3_4j"
+      ],
+      "unresolved": [
+        "Spectral peak lists are not exhaustively normalized into reaction outcomes.",
+        "Sulfoximine absolute configuration is not assigned; no racemic state is inferred."
+      ]
+    }
+  ]
+}

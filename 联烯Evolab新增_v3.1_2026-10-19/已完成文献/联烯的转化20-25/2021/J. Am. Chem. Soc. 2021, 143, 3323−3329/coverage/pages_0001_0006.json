@@ -1,0 +1,190 @@
+{
+  "document_id": "doc_83f760dc954f4ef1",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, authors, abstract and bibliographic header",
+          "finding": "True article title and DOI identified; abstract summarizes the current enantioconvergent allenylic alkylation but is not counted as a separate experiment.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page1:text", "doc_83f760dc954f4ef1:page1:image"]
+        },
+        {
+          "region": "introduction and right-column mechanistic rationale",
+          "finding": "Prior literature is prose context; the η2-coordination/SN1-type carbocation description is retained as a proposed mechanism, not a demonstrated preparative experiment.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page1:text", "doc_83f760dc954f4ef1:page1:image"]
+        },
+        {
+          "region": "bottom-right model-reaction paragraph",
+          "finding": "Standard conditions and the model-product 3a isolated yield/ee/rr are reported; this is the same experiment as Table 1 entry 1 and was merged into that record with both pages cited.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page1:text", "doc_83f760dc954f4ef1:page1:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_83f760dc954f4ef1:scheme1C_proposed_intermediate",
+        "doc_83f760dc954f4ef1:table1_entry_01"
+      ],
+      "unresolved": [
+        "No SI was supplied, so detailed model-reaction operations, workup, purification, and absolute-configuration assignment method remain unavailable.",
+        "The page-1 product connectivity candidate does not encode the printed (R) stereocenter and remains partial."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1A",
+          "finding": "Conceptual comparison of quaternary-carbon motifs; not an experimental reaction record.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page2:text", "doc_83f760dc954f4ef1:page2:image"]
+        },
+        {
+          "region": "Scheme 1B",
+          "finding": "Two explicitly cited previous-work reaction examples were classified as literature_example and not attributed to the current paper.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page2:text", "doc_83f760dc954f4ef1:page2:image"]
+        },
+        {
+          "region": "Scheme 1C",
+          "finding": "One generic current-paper transformation and one author-proposed catalyst-bound carbocation model were separated.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page2:text", "doc_83f760dc954f4ef1:page2:image"]
+        },
+        {
+          "region": "Table 1, entries 1-14 and footnotes",
+          "finding": "All 14 optimization rows were transcribed as independent experiments; NMR and parenthesized isolated yields remain separate outcomes; no-reaction rows 6 and 8 have no expected bond label.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page2:text", "doc_83f760dc954f4ef1:page2:image"]
+        },
+        {
+          "region": "lower-page discussion and 1 g scale paragraph",
+          "finding": "Control interpretations and the independent 1 g scale 3a experiment were associated with their records; the scale-up was not merged with the 0.4 mmol optimization entry.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page2:text", "doc_83f760dc954f4ef1:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_83f760dc954f4ef1:scheme1B_stoltz_prior",
+        "doc_83f760dc954f4ef1:scheme1B_jorgensen_prior",
+        "doc_83f760dc954f4ef1:scheme1C_generic",
+        "doc_83f760dc954f4ef1:scheme1C_proposed_intermediate",
+        "doc_83f760dc954f4ef1:table1_entry_01",
+        "doc_83f760dc954f4ef1:table1_entry_02",
+        "doc_83f760dc954f4ef1:table1_entry_03",
+        "doc_83f760dc954f4ef1:table1_entry_04",
+        "doc_83f760dc954f4ef1:table1_entry_05",
+        "doc_83f760dc954f4ef1:table1_entry_06",
+        "doc_83f760dc954f4ef1:table1_entry_07",
+        "doc_83f760dc954f4ef1:table1_entry_08",
+        "doc_83f760dc954f4ef1:table1_entry_09",
+        "doc_83f760dc954f4ef1:table1_entry_10",
+        "doc_83f760dc954f4ef1:table1_entry_11",
+        "doc_83f760dc954f4ef1:table1_entry_12",
+        "doc_83f760dc954f4ef1:table1_entry_13",
+        "doc_83f760dc954f4ef1:table1_entry_14",
+        "doc_83f760dc954f4ef1:table2_3a"
+      ],
+      "unresolved": [
+        "Table 1 entry 12 prints a 1:1 [Ir]:L1 ratio but no standalone ligand mol%; it remains unreported rather than calculated.",
+        "Entry 6 says only starting material was recovered but gives no recovery percentage or measurement method.",
+        "Scheme 1B literature examples lack current-paper procedures/outcomes and remain partial."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 header, reaction scheme, products 3a-3t and footnotes a-f",
+          "finding": "All 20 scope panels were independently transcribed, including reaction times, footnote-specific 2b/La/loading/temperature changes, and the 0% desired-product panel 3r.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page3:text", "doc_83f760dc954f4ef1:page3:image"]
+        },
+        {
+          "region": "left-column electrophile-scope discussion",
+          "finding": "Prose outcomes were cross-checked against Table 2; the statement that 3t has configuration opposite 3a was retained without inventing an R/S descriptor.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page3:text", "doc_83f760dc954f4ef1:page3:image"]
+        },
+        {
+          "region": "right-column nucleophile-scope discussion",
+          "finding": "The tert-butyl-derived nucleophile is a real negative scope experiment without an identified product; prose outcomes for 3u-3w were linked to their Table 3 records.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page3:text", "doc_83f760dc954f4ef1:page3:image"]
+        },
+        {
+          "region": "right-column Scheme 2 discussion continuing to page 4",
+          "finding": "Hydrosilylation, arylamination, acid conversion, Curtius/carbamate formation, and lactonization were recognized as five distinct derivatization experiments and linked to page 4 arrows.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page3:text", "doc_83f760dc954f4ef1:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_83f760dc954f4ef1:table2_3a", "doc_83f760dc954f4ef1:table2_3b", "doc_83f760dc954f4ef1:table2_3c", "doc_83f760dc954f4ef1:table2_3d", "doc_83f760dc954f4ef1:table2_3e",
+        "doc_83f760dc954f4ef1:table2_3f", "doc_83f760dc954f4ef1:table2_3g", "doc_83f760dc954f4ef1:table2_3h", "doc_83f760dc954f4ef1:table2_3i", "doc_83f760dc954f4ef1:table2_3j",
+        "doc_83f760dc954f4ef1:table2_3k", "doc_83f760dc954f4ef1:table2_3l", "doc_83f760dc954f4ef1:table2_3m", "doc_83f760dc954f4ef1:table2_3n", "doc_83f760dc954f4ef1:table2_3o",
+        "doc_83f760dc954f4ef1:table2_3p", "doc_83f760dc954f4ef1:table2_3q", "doc_83f760dc954f4ef1:table2_3r", "doc_83f760dc954f4ef1:table2_3s", "doc_83f760dc954f4ef1:table2_3t",
+        "doc_83f760dc954f4ef1:table3_tbutyl_negative",
+        "doc_83f760dc954f4ef1:table3_3u", "doc_83f760dc954f4ef1:table3_3v", "doc_83f760dc954f4ef1:table3_3w",
+        "doc_83f760dc954f4ef1:scheme2_hydrosilylation_5", "doc_83f760dc954f4ef1:scheme2_arylamination_6", "doc_83f760dc954f4ef1:scheme2_acid_7", "doc_83f760dc954f4ef1:scheme2_curtius_8", "doc_83f760dc954f4ef1:scheme2_lactonization_9"
+      ],
+      "unresolved": [
+        "Individual ee platform (HPLC, SFC, or GC) is not assigned to each Table 2 panel.",
+        "Dense Table 2 structures and most printed stereobonds remain label-based with representation_status not_encoded; they were not converted into unsafe complete SMILES.",
+        "The tert-butyl negative result does not separately report exact conditions, time, or detection method.",
+        "Extracted page-7 text mentions a separate Z-2e experiment, but page 7 is outside this session's 1-6 visual scope and was not imported or claimed as covered."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 3, products 3u-3z, nucleophile structures 2d-2i and footnotes",
+          "finding": "All six scope panels were transcribed with isolated yields, ee, rr, times, the 3v dr, and footnote-specific nucleophiles/La loading.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page4:text", "doc_83f760dc954f4ef1:page4:image"]
+        },
+        {
+          "region": "Scheme 2 and footnotes a-d",
+          "finding": "Five reaction arrows were recorded separately. The 3a-to-7 sequence preserves -78 °C start/warming, 0 °C holds, times, all reagent equivalents, and the unreported acid yield. Curtius and lactonization records retain unreported yield bases.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page4:text", "doc_83f760dc954f4ef1:page4:image"]
+        },
+        {
+          "region": "conclusion and Associated Content",
+          "finding": "The SI notice is retained only as source context; no SI file was inferred or associated.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page4:text", "doc_83f760dc954f4ef1:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_83f760dc954f4ef1:table3_3u", "doc_83f760dc954f4ef1:table3_3v", "doc_83f760dc954f4ef1:table3_3w", "doc_83f760dc954f4ef1:table3_3x", "doc_83f760dc954f4ef1:table3_3y", "doc_83f760dc954f4ef1:table3_3z",
+        "doc_83f760dc954f4ef1:scheme2_hydrosilylation_5", "doc_83f760dc954f4ef1:scheme2_arylamination_6", "doc_83f760dc954f4ef1:scheme2_acid_7", "doc_83f760dc954f4ef1:scheme2_curtius_8", "doc_83f760dc954f4ef1:scheme2_lactonization_9"
+      ],
+      "unresolved": [
+        "The 3v dr measurement method and full major/minor stereoisomer ordering are not printed on pages 1-6.",
+        "Scheme 2 yield measurement bases and several selectivity methods are not reported in the main article.",
+        "Reaction times for hydrosilylation, arylamination, Curtius rearrangement, and lactonization are unavailable without SI.",
+        "Products 8 and 9 remain structure-unencoded because dense stereochemical drawings were not converted to unsafe complete SMILES."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "authors, notes, acknowledgments, references 1-30",
+          "finding": "No current-paper reaction arrow, optimization/scope row, experimental procedure, or independent characterization table was identified; cited papers were not imported as current results.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page5:text", "doc_83f760dc954f4ef1:page5:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "references 31-64",
+          "finding": "References only. No current-paper reaction arrow, experiment, or standalone mass-spectrum/fragment table was identified; cited reactions were not recast as this paper's experiments.",
+          "evidence_ids": ["doc_83f760dc954f4ef1:page6:text", "doc_83f760dc954f4ef1:page6:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

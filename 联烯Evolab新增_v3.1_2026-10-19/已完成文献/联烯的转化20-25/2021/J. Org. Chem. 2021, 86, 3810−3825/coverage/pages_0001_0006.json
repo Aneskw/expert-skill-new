@@ -1,0 +1,288 @@
+{
+  "document_id": "doc_0341d857f4f70e0f",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and graphical abstract",
+          "finding": "Title metadata recovered; graphical abstract is a duplicate generic summary of the authors' route, not a specific experiment.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page1:text",
+            "doc_0341d857f4f70e0f:page1:image"
+          ]
+        },
+        {
+          "region": "Figure 1 and introduction",
+          "finding": "Biologically active example structures and background only; no reaction record created.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page1:text",
+            "doc_0341d857f4f70e0f:page1:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_0341d857f4f70e0f:scheme1_present_work"
+      ],
+      "unresolved": [
+        "Small structures in Figure 1 were not registered because they are contextual examples, not experimental participants on pages 1–6."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1a–e",
+          "finding": "Five prior-work arrows classified as literature examples; not counted as experiments of this paper.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page2:text",
+            "doc_0341d857f4f70e0f:page2:image"
+          ]
+        },
+        {
+          "region": "Scheme 1f and surrounding text",
+          "finding": "Present-work route captured as a generic scheme, without assigning scope yields.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page2:text",
+            "doc_0341d857f4f70e0f:page2:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_0341d857f4f70e0f:scheme1_literature_a",
+        "doc_0341d857f4f70e0f:scheme1_literature_b",
+        "doc_0341d857f4f70e0f:scheme1_literature_c",
+        "doc_0341d857f4f70e0f:scheme1_literature_d",
+        "doc_0341d857f4f70e0f:scheme1_literature_e",
+        "doc_0341d857f4f70e0f:scheme1_present_work"
+      ],
+      "unresolved": [
+        "Graphical structures are generic and conditions for cited work are intentionally not reconstructed from external references."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 rows 1–14 and footnote",
+          "finding": "Fourteen independent optimization experiments captured with catalysts, ligands, bases, solvents, temperature, time, and isolated yields.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page3:text",
+            "doc_0341d857f4f70e0f:page3:image"
+          ]
+        },
+        {
+          "region": "results/discussion around Table 1",
+          "finding": "Qualitative discussion cross-checked; unspecified 'results not shown' trials retained as source context only.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page3:text",
+            "doc_0341d857f4f70e0f:page3:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_0341d857f4f70e0f:table1_entry_01",
+        "doc_0341d857f4f70e0f:table1_entry_02",
+        "doc_0341d857f4f70e0f:table1_entry_03",
+        "doc_0341d857f4f70e0f:table1_entry_04",
+        "doc_0341d857f4f70e0f:table1_entry_05",
+        "doc_0341d857f4f70e0f:table1_entry_06",
+        "doc_0341d857f4f70e0f:table1_entry_07",
+        "doc_0341d857f4f70e0f:table1_entry_08",
+        "doc_0341d857f4f70e0f:table1_entry_09",
+        "doc_0341d857f4f70e0f:table1_entry_10",
+        "doc_0341d857f4f70e0f:table1_entry_11",
+        "doc_0341d857f4f70e0f:table1_entry_12",
+        "doc_0341d857f4f70e0f:table1_entry_13",
+        "doc_0341d857f4f70e0f:table1_entry_14"
+      ],
+      "unresolved": [
+        "Structures of complex 6a/1aa remain machine-unverified; unspecified trials cannot be enumerated."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 substrate scope and footnotes",
+          "finding": "Twenty-two independent scope experiments captured; four dr >99:1 results target their products and cis C1/C4 relationship retained.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page4:text",
+            "doc_0341d857f4f70e0f:page4:image"
+          ]
+        },
+        {
+          "region": "Scheme 2",
+          "finding": "Acid-catalyzed 6a to 1a experiment captured with 43% isolated yield.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page4:text",
+            "doc_0341d857f4f70e0f:page4:image"
+          ]
+        },
+        {
+          "region": "opening Table 3 discussion",
+          "finding": "Narrative leading to Table 3 checked; the table itself is recorded from page 5.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page4:text",
+            "doc_0341d857f4f70e0f:page4:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_0341d857f4f70e0f:table2_1aa",
+        "doc_0341d857f4f70e0f:table2_1ba",
+        "doc_0341d857f4f70e0f:table2_1bb",
+        "doc_0341d857f4f70e0f:table2_1ac",
+        "doc_0341d857f4f70e0f:table2_1ad",
+        "doc_0341d857f4f70e0f:table2_1ab",
+        "doc_0341d857f4f70e0f:table2_1ae",
+        "doc_0341d857f4f70e0f:table2_1af",
+        "doc_0341d857f4f70e0f:table2_1ag",
+        "doc_0341d857f4f70e0f:table2_1ah",
+        "doc_0341d857f4f70e0f:table2_1ca",
+        "doc_0341d857f4f70e0f:table2_1ch",
+        "doc_0341d857f4f70e0f:table2_1db",
+        "doc_0341d857f4f70e0f:table2_1de",
+        "doc_0341d857f4f70e0f:table2_1ia",
+        "doc_0341d857f4f70e0f:table2_1eb",
+        "doc_0341d857f4f70e0f:table2_1fb",
+        "doc_0341d857f4f70e0f:table2_1gb",
+        "doc_0341d857f4f70e0f:table2_1ga",
+        "doc_0341d857f4f70e0f:table2_1ha",
+        "doc_0341d857f4f70e0f:table2_1hb",
+        "doc_0341d857f4f70e0f:table2_1hh",
+        "doc_0341d857f4f70e0f:scheme2_6a_to_1a"
+      ],
+      "unresolved": [
+        "Absolute configurations and dr measurement method for Table 2 are unreported on pages 1–6; cited SI was not provided.",
+        "Exact identities for the qualitative aryl-bromide and indole-N-sulfonyl no-reaction statements are insufficient."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 3 rows 1–13 and footnotes",
+          "finding": "Thirteen independent optimization experiments captured, including zero yields, entry-4 blank 2a cell, atmosphere exceptions, and the shared 10–34% recovery range.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page5:text",
+            "doc_0341d857f4f70e0f:page5:image"
+          ]
+        },
+        {
+          "region": "Table 4 eight entries",
+          "finding": "Eight DDQ scope experiments captured with time and isolated yields.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page5:text",
+            "doc_0341d857f4f70e0f:page5:image"
+          ]
+        },
+        {
+          "region": "spiroindolenine discussion",
+          "finding": "Narrative checked; specific Scheme 3 arrows are recorded from page 6.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page5:text",
+            "doc_0341d857f4f70e0f:page5:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_0341d857f4f70e0f:table3_entry_01",
+        "doc_0341d857f4f70e0f:table3_entry_02",
+        "doc_0341d857f4f70e0f:table3_entry_03",
+        "doc_0341d857f4f70e0f:table3_entry_04",
+        "doc_0341d857f4f70e0f:table3_entry_05",
+        "doc_0341d857f4f70e0f:table3_entry_06",
+        "doc_0341d857f4f70e0f:table3_entry_07",
+        "doc_0341d857f4f70e0f:table3_entry_08",
+        "doc_0341d857f4f70e0f:table3_entry_09",
+        "doc_0341d857f4f70e0f:table3_entry_10",
+        "doc_0341d857f4f70e0f:table3_entry_11",
+        "doc_0341d857f4f70e0f:table3_entry_12",
+        "doc_0341d857f4f70e0f:table3_entry_13",
+        "doc_0341d857f4f70e0f:table4_2a",
+        "doc_0341d857f4f70e0f:table4_2b",
+        "doc_0341d857f4f70e0f:table4_2c",
+        "doc_0341d857f4f70e0f:table4_2d",
+        "doc_0341d857f4f70e0f:table4_2e",
+        "doc_0341d857f4f70e0f:table4_2f",
+        "doc_0341d857f4f70e0f:table4_2g",
+        "doc_0341d857f4f70e0f:table4_2h"
+      ],
+      "unresolved": [
+        "The 10–34% recovered 1aa range is not attributable to individual entries 10–13.",
+        "Complex product structures remain machine-unverified."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 four arrows",
+          "finding": "Four aza-spiroindolenine scope experiments captured with times, yields, and product-targeted dr values measured by 1H NMR.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page6:text",
+            "doc_0341d857f4f70e0f:page6:image"
+          ]
+        },
+        {
+          "region": "Figure 2 NOESY",
+          "finding": "Stereochemical evidence retained as source context and linked to molecule 9b; it is not a synthetic experiment.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page6:text",
+            "doc_0341d857f4f70e0f:page6:image"
+          ]
+        },
+        {
+          "region": "Scheme 4 two arrows",
+          "finding": "Two acid-mediated conversions to THBCs captured.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page6:text",
+            "doc_0341d857f4f70e0f:page6:image"
+          ]
+        },
+        {
+          "region": "Scheme 5 arrows",
+          "finding": "Four experiments of this paper captured; the arrow from 11b to eudistomins is separately classified as a literature example.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page6:text",
+            "doc_0341d857f4f70e0f:page6:image"
+          ]
+        },
+        {
+          "region": "mechanism lead-in text",
+          "finding": "Mechanistic discussion begins, but the mechanism scheme/continuation lies beyond page 6 and is not claimed covered.",
+          "evidence_ids": [
+            "doc_0341d857f4f70e0f:page6:text",
+            "doc_0341d857f4f70e0f:page6:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_0341d857f4f70e0f:scheme3_9a",
+        "doc_0341d857f4f70e0f:scheme3_9b",
+        "doc_0341d857f4f70e0f:scheme3_9i",
+        "doc_0341d857f4f70e0f:scheme3_9g",
+        "doc_0341d857f4f70e0f:scheme4_1ha",
+        "doc_0341d857f4f70e0f:scheme4_1hb",
+        "doc_0341d857f4f70e0f:scheme5_2e_to_10a",
+        "doc_0341d857f4f70e0f:scheme5_2f_to_10b",
+        "doc_0341d857f4f70e0f:scheme5_10a_to_11a",
+        "doc_0341d857f4f70e0f:scheme5_10b_to_11b",
+        "doc_0341d857f4f70e0f:scheme5_ref20a_formal_total_synthesis"
+      ],
+      "unresolved": [
+        "Scheme 3 yield measurement basis is not stated on page 6.",
+        "NOESY details cited in SI are unavailable.",
+        "Mechanistic Scheme 6 is outside this batch's declared page coverage."
+      ]
+    }
+  ]
+}

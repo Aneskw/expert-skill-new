@@ -1,0 +1,104 @@
+# doc_252796c15b38495a:mechanism_propargyl_deprotonation_attempt
+
+记录类型：specific_experiment；复核状态：needs_review；完整性：partial
+
+分类：；覆盖：unresolved
+
+- `reaction_id`：doc_252796c15b38495a:mechanism_propargyl_deprotonation_attempt
+- `document_id`：doc_252796c15b38495a
+- `record_type`：specific_experiment
+- `experiment_categories`：{"raw_value": ["mechanistic_study", "control"], "normalized_value": ["mechanistic_study", "control"], "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "pending_review", "verification": "unreviewed", "derivation": null, "alternatives": []}
+- `location`：{"raw_value": "PDF page 4, left-column prose below Scheme 2", "normalized_value": {"page": 4, "region": "left-column prose below Scheme 2"}, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "pending_review", "verification": "unreviewed", "derivation": null, "alternatives": []}
+- `reaction_name`：{"raw_value": "Attempted deprotonation/isolation of a propargyliron complex", "normalized_value": "Attempted deprotonation/isolation of a propargyliron complex", "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "pending_review", "verification": "unreviewed", "derivation": null, "alternatives": []}
+- `transformation_type`：{"raw_value": null, "normalized_value": "attempted organoiron deprotonation", "acquisition_method": "inference", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "pending_review", "verification": "inferred", "derivation": "Concise transformation class inferred from the displayed reaction.", "alternatives": []}
+- `participants[0].participant_id`：p_complex
+- `participants[0].molecule_id`：m_1n_complex
+- `participants[0].role`：reactant
+- `participants[0].stage`：reaction
+- `participants[0].product_role`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `participants[0].charges.mass`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `participants[0].charges.amount`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `participants[0].charges.volume`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `participants[0].charges.equivalents`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `participants[0].charges.mol_percent`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `participants[0].equivalence_reference`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `reaction_scale`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `solvent_conditions.composition`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `solvent_conditions.mixture_ratio`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `solvent_conditions.total_volume`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `solvent_conditions.concentration`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `solvent_conditions.concentration_basis`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `steps[0].step_id`：attempt
+- `steps[0].stage`：reaction
+- `steps[0].participant_ids[0]`：p_complex
+- `steps[0].operation`：{"raw_value": "attempted deprotonation of [1n·Fp*]+BF4−", "normalized_value": "attempted deprotonation of [1n·Fp*]+BF4−", "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "pending_review", "verification": "unreviewed", "derivation": null, "alternatives": []}
+- `steps[0].temperature`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `steps[0].time`：{"raw_value": "over several hours", "normalized_value": "several hours", "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "pending_review", "verification": "unreviewed", "derivation": null, "alternatives": []}
+- `steps[0].atmosphere`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `steps[0].pressure`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `special_conditions.light_source`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `special_conditions.wavelength`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `special_conditions.power`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `special_conditions.current`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `special_conditions.voltage`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `special_conditions.electrodes`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `special_conditions.flow_parameters`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `special_conditions.reactor`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `procedure.original_text`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `procedure.general_procedure_reference`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `procedure.modifications`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `procedure.addition_order`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `procedure.pretreatment`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `outcomes[0].outcome_id`：complex_mixture
+- `outcomes[0].kind`：decomposition
+- `outcomes[0].product_role`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `outcomes[0].value`：{"raw_value": "slow formation of a complex mixture of iron-containing species", "normalized_value": "complex mixture", "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "pending_review", "verification": "unreviewed", "derivation": null, "alternatives": []}
+- `outcomes[0].yield_type`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `outcomes[0].measurement_basis`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `outcomes[0].scope`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `classification.standard_id`：bond-formation-20261016
+- `classification.mapped_reaction_smiles`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": [], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `classification.labels`：{"raw_value": null, "normalized_value": [], "acquisition_method": "inference", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "pending_review", "verification": "inferred", "derivation": "No bond-formation labels asserted.", "alternatives": []}
+- `classification.coverage`：{"raw_value": null, "normalized_value": "unresolved", "acquisition_method": "inference", "evidence_ids": ["doc_252796c15b38495a:page4:text"], "data_status": "pending_review", "verification": "inferred", "derivation": "No definite net bond-formation classification can be assigned to this conceptual or unresolved observation.", "alternatives": []}
+- `classification.limitations[0]`：Partial source-derived net-change description; no complete atom mapping or three-model vote was fabricated.
+- `notes[0]`：{"raw_value": "Footnote 23 contrasts literature Fp-allene/Et3N deprotonation with the difficult Fp* deprotonation and attributes the latter to low concentration of the stereoelectronically competent syn isomer (C).", "normalized_value": {"literature_contrast": "Fp-allene rapidly deprotonates with Et3N", "current_author_interpretation": "difficult Fp* deprotonation is consistent with low syn-isomer concentration"}, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page7:image", "doc_252796c15b38495a:page7:text"], "data_status": "pending_review", "verification": "unreviewed", "derivation": null, "alternatives": []}
+- `evidence_ids[0]`：doc_252796c15b38495a:page4:text
+- `evidence_ids[1]`：doc_252796c15b38495a:page7:image
+- `evidence_ids[2]`：doc_252796c15b38495a:page7:text
+- `review.status`：needs_review
+- `review.method`：model
+- `review.unresolved[0]`：The base, temperature and exact time for the current failed isolation attempt are not stated in the supplied prose.
+- `review.unresolved[1]`：No definitive product identity or bond classification is possible.
+- `completeness`：partial
+
+## 分子 m_1n_complex
+
+- `m_1n_complex.molecule_id`：m_1n_complex
+- `m_1n_complex.identity_status`：source_identified
+- `m_1n_complex.occurrences[0].document_id`：doc_252796c15b38495a
+- `m_1n_complex.occurrences[0].compound_label`：{"raw_value": "[1n·Fp*]+BF4−", "normalized_value": "[1n·Fp*]+BF4−", "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "pending_review", "verification": "unreviewed", "derivation": null, "alternatives": []}
+- `m_1n_complex.occurrences[0].evidence_ids[0]`：doc_252796c15b38495a:page4:image
+- `m_1n_complex.names.original`：{"raw_value": "cationic Fp*–allene complex", "normalized_value": "cationic Fp*–allene complex", "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "pending_review", "verification": "unreviewed", "derivation": null, "alternatives": []}
+- `m_1n_complex.names.english`：{"raw_value": "cationic Fp*–allene complex", "normalized_value": "cationic Fp*–allene complex", "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "pending_review", "verification": "unreviewed", "derivation": null, "alternatives": []}
+- `m_1n_complex.names.abbreviations`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `m_1n_complex.names.aliases`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `m_1n_complex.cas_numbers`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": [], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `m_1n_complex.representation_type`：unresolved
+- `m_1n_complex.smiles`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `m_1n_complex.stereochemistry.atom_centers`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `m_1n_complex.stereochemistry.double_bonds`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `m_1n_complex.stereochemistry.axial`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `m_1n_complex.stereochemistry.mixture`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `m_1n_complex.stereochemistry.assignment`：{"raw_value": "single major anti regio- and stereoisomer (>20:1 r.r. and d.r.); anti confirmed by X-ray", "normalized_value": {"relative_configuration": "anti", "rr": ">20:1", "dr": ">20:1", "assignment_method": ["1H NMR", "X-ray crystallography"]}, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image", "doc_252796c15b38495a:page4:text"], "data_status": "pending_review", "verification": "unreviewed", "derivation": null, "alternatives": []}
+- `m_1n_complex.stereochemistry.chirality_status`：{"raw_value": null, "normalized_value": "specified", "acquisition_method": "inference", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "pending_review", "verification": "inferred", "derivation": "Status assigned from the displayed bonds/stereochemical marks; absence of a mark is retained as unspecified or unresolved, never racemic.", "alternatives": []}
+- `m_1n_complex.stereochemistry.geometry_status`：{"raw_value": null, "normalized_value": "not_applicable", "acquisition_method": "inference", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "pending_review", "verification": "inferred", "derivation": "Status assigned from the displayed alkene/allene geometry and any explicit E/Z labels.", "alternatives": []}
+- `m_1n_complex.stereochemistry.representation_status`：{"raw_value": null, "normalized_value": "not_encoded", "acquisition_method": "inference", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "pending_review", "verification": "inferred", "derivation": "Compares source-visible stereochemistry with the candidate representation; unresolved drawings are not claimed to be encoded.", "alternatives": []}
+- `m_1n_complex.stereochemistry.isomeric_smiles`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `m_1n_complex.stereochemistry.identity_key`：{"raw_value": null, "normalized_value": null, "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "unreported", "verification": "missing", "derivation": null, "alternatives": []}
+- `m_1n_complex.identity_note`：{"raw_value": "The source assigns the isolated allene complex as the anti regio-/stereoisomer by NMR and X-ray; organometallic stereochemistry is retained textually.", "normalized_value": "The source assigns the isolated allene complex as the anti regio-/stereoisomer by NMR and X-ray; organometallic stereochemistry is retained textually.", "acquisition_method": "original_extraction", "evidence_ids": ["doc_252796c15b38495a:page4:image"], "data_status": "pending_review", "verification": "unreviewed", "derivation": null, "alternatives": []}
+
+## 原文定位
+
+- doc_252796c15b38495a:page4:text：PDF 第 4 页
+- doc_252796c15b38495a:page7:image：PDF 第 7 页；[原图](../assets/doc_252796c15b38495a/page7.jpg)
+- doc_252796c15b38495a:page7:text：PDF 第 7 页

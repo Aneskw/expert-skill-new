@@ -1,0 +1,97 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "literature_example": 2,
+    "general_scheme": 1,
+    "mechanism": 1,
+    "optimization_entry": 14,
+    "substrate_scope_entry": 28,
+    "reported_experiment": 5
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_83f760dc954f4ef1"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_83f760dc954f4ef1:table1_entry_06",
+      "record_kind": "optimization_entry",
+      "evidence_ids": [
+        "doc_83f760dc954f4ef1:page2:text",
+        "doc_83f760dc954f4ef1:page2:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for recovery; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_83f760dc954f4ef1:scheme2_hydrosilylation_5",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_83f760dc954f4ef1:page3:text",
+        "doc_83f760dc954f4ef1:page3:image",
+        "doc_83f760dc954f4ef1:page4:text",
+        "doc_83f760dc954f4ef1:page4:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_83f760dc954f4ef1:scheme2_arylamination_6",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_83f760dc954f4ef1:page3:text",
+        "doc_83f760dc954f4ef1:page3:image",
+        "doc_83f760dc954f4ef1:page4:text",
+        "doc_83f760dc954f4ef1:page4:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_83f760dc954f4ef1:scheme2_curtius_8",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_83f760dc954f4ef1:page3:text",
+        "doc_83f760dc954f4ef1:page3:image",
+        "doc_83f760dc954f4ef1:page4:text",
+        "doc_83f760dc954f4ef1:page4:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_83f760dc954f4ef1:scheme2_lactonization_9",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_83f760dc954f4ef1:page3:text",
+        "doc_83f760dc954f4ef1:page3:image",
+        "doc_83f760dc954f4ef1:page4:text",
+        "doc_83f760dc954f4ef1:page4:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_83f760dc954f4ef1:footnote79_z_2e_3v",
+      "record_kind": "substrate_scope_entry",
+      "evidence_ids": [
+        "doc_83f760dc954f4ef1:page4:text",
+        "doc_83f760dc954f4ef1:page4:image",
+        "doc_83f760dc954f4ef1:page7:text",
+        "doc_83f760dc954f4ef1:page7:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    }
+  ]
+}

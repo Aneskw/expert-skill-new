@@ -1,0 +1,40 @@
+{
+  "document_id": "doc_975f54c401a61631",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation above REFERENCES",
+          "finding": "Closing acknowledgments and funding statement only; no chemical experiment, reaction condition, result, or molecular structure.",
+          "evidence_ids": [
+            "doc_975f54c401a61631:page7:text",
+            "doc_975f54c401a61631:page7:image"
+          ]
+        },
+        {
+          "region": "left column, REFERENCES 1-18",
+          "finding": "Bibliographic citations only. References 12-17 concern prior allene/sulfone chemistry cited in the article, but this page supplies no reaction arrow or experiment-specific conditions and is not counted as a new literature-example experiment.",
+          "evidence_ids": [
+            "doc_975f54c401a61631:page7:text",
+            "doc_975f54c401a61631:page7:image"
+          ]
+        },
+        {
+          "region": "right column, REFERENCES 19-27",
+          "finding": "Bibliographic citations only; no figure, table, reaction arrow, footnote, synthesis procedure, control experiment, or characterization peak table is present.",
+          "evidence_ids": [
+            "doc_975f54c401a61631:page7:text",
+            "doc_975f54c401a61631:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Bibliography entries alone do not report enough source detail to create new reaction records; no reaction identity, quantities, outcomes, or structures were inferred from citation titles."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "document_id": "doc_85bd2ca086151f67",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation of Associated Content",
+          "finding": "The page finishes the list of Supporting Information contents (SEC, NMR, and FT-IR spectra). It provides no new main-text reaction conditions and does not establish an SI file association in this workspace.",
+          "evidence_ids": [
+            "doc_85bd2ca086151f67:page7:image"
+          ]
+        },
+        {
+          "region": "left column author information, notes, and acknowledgments",
+          "finding": "Administrative article metadata and acknowledgments only; no synthesis, control, mechanistic experiment, table, scheme, arrow, or characterization result is reported here.",
+          "evidence_ids": [
+            "doc_85bd2ca086151f67:page7:image"
+          ]
+        },
+        {
+          "region": "reference list 1–31 across the lower-left and right column",
+          "finding": "Bibliographic citations to prior allene chemistry and polymerization literature. They are source context, not present-paper experiments, and there are no reaction arrows or experimental table rows on this page.",
+          "evidence_ids": [
+            "doc_85bd2ca086151f67:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The page names spectra available in Supporting Information, but the SI PDF was not supplied; no SI figures or experimental details were imported."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "two-column reference list 32–75",
+          "finding": "The entire page is a bibliography of cited literature. No current-paper scheme, reaction arrow, procedure, optimization row, footnote experiment, or independent characterization dataset appears on the page.",
+          "evidence_ids": [
+            "doc_85bd2ca086151f67:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Bibliographic titles alone are insufficient to create present-paper experimental records; cited publications were not treated as supplied source documents."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "left column references 75–97, especially footnote 85",
+          "finding": "Most entries are bibliography. Footnote 85 is a present-paper neat-monomer experiment: approximately 12.3 mmol (1.5 mL) of 1 plus 0.01 mmol (8.8 mg) G3 for 24 h, followed by aliquot dilution with CDCl3 and 1H NMR; approximately 3% conversion and a heterogeneous brown-liquid/gray-solid residue are reported. It is distinct from Table 1 entry 20 because the catalyst ratio and time differ.",
+          "evidence_ids": [
+            "doc_85bd2ca086151f67:page9:image"
+          ]
+        },
+        {
+          "region": "lower-left footnote 93 and adjacent references",
+          "finding": "Footnote 93 reports styrenyl end-group signals in the 1H NMR spectrum of isolated poly(1) and points to Figure S7. This is characterization of an existing polymer sample, not a separate synthesis record.",
+          "evidence_ids": [
+            "doc_85bd2ca086151f67:page9:image"
+          ]
+        },
+        {
+          "region": "upper-right footnotes 98–99",
+          "finding": "Footnote 98 says the previously described NMR experiments gave similar results in THF-d8. Two partial mechanistic-study records preserve the distinct 1H and 13C experiments and inherit only their explicitly referenced page-5 conditions; exact THF-d8 peaks and fractions are not copied from CDCl3. Footnote 99 is only a pointer to the full 1H NMR spectrum (Figure S10).",
+          "evidence_ids": [
+            "doc_85bd2ca086151f67:page5:image",
+            "doc_85bd2ca086151f67:page9:image"
+          ]
+        },
+        {
+          "region": "lower-right footnote 112",
+          "finding": "Present-paper competition/control experiment: an equimolar mixture of 1 and COD with [COD]0 = [1]0 = 2.0 M, 1 mol% G3, THF, 25 °C gave poly(1) as the exclusive product. Time, yield, conversion, and measurement basis are not stated.",
+          "evidence_ids": [
+            "doc_85bd2ca086151f67:page9:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_85bd2ca086151f67:footnote85_neat_1_G3_24h",
+        "doc_85bd2ca086151f67:mechanistic_1H_NMR_1_to_G3_THF_d8",
+        "doc_85bd2ca086151f67:mechanistic_13C_NMR_5eq_1_to_G3_THF_d8",
+        "doc_85bd2ca086151f67:footnote112_competition_1_COD"
+      ],
+      "unresolved": [
+        "Footnote 85 does not report reaction temperature, atmosphere, pressure, yield, workup, polymer molecular weight, NMR internal standard, or detection limit.",
+        "Footnote 98 reports only 'similar results'; exact THF-d8 spectral values are unavailable because Figure S9 was not supplied.",
+        "Footnote 112 does not report reaction time, product yield, monomer conversion, workup, analytical basis for exclusivity, or the denominator for 1 mol% G3.",
+        "Figures S5, S7, S9, and S10 are referenced but unavailable; no SI association was inferred."
+      ]
+    }
+  ]
+}

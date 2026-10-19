@@ -1,0 +1,220 @@
+{
+  "document_id": "doc_85bd2ca086151f67",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, and graphical abstract in the upper half",
+          "finding": "Article metadata and a graphical overview of cyclic-allene ROMP, CTA end-group control, and Ru-vinylidene interpretation; the graphic summarizes later experiments and is not counted as an additional experiment.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page1:image"]
+        },
+        {
+          "region": "two-column introduction in the lower half",
+          "finding": "Background and cited prior work only, including allene addition polymerization, Ochiai, Kijima, Brantley, and Neary/Moore; no present-paper quantified experiment is reported on this page.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page1:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The graphical abstract is a high-level duplicate of later source regions; no unique conditions or outcome are assigned to it."
+      ]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 1 at the top",
+          "finding": "One generic allene-addition polymerization, three clearly cited literature examples (Ochiai 1999, Kijima 2002, Brantley 2020), and a Neary & Moore/this-work cyclic-allene ROMP overview. Prior-work arrows are classified in source_context and are not promoted to present-paper experiments.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page2:image"]
+        },
+        {
+          "region": "Figure 1 in the middle",
+          "finding": "1H NMR comparison of monomer 1, poly(1), and a cited addition polymer. This is characterization, not a separate synthesis record.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page2:image"]
+        },
+        {
+          "region": "Results and Discussion paragraph at lower right",
+          "finding": "Start of the initial 1/G3/THF experiment; it continues on page 3 and is merged with Table 1 entry 1 rather than duplicated.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page2:image", "doc_85bd2ca086151f67:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_85bd2ca086151f67:scheme1_general_allene_addition_polymerization",
+        "doc_85bd2ca086151f67:scheme1_ochiai_1999_literature",
+        "doc_85bd2ca086151f67:scheme1_kijima_2002_literature",
+        "doc_85bd2ca086151f67:scheme1_brantley_2020_romp_literature",
+        "doc_85bd2ca086151f67:scheme1_brantley_2020_dichlorocyclopropanation_literature",
+        "doc_85bd2ca086151f67:scheme1_brantley_2020_skattebol_literature",
+        "doc_85bd2ca086151f67:scheme1_current_work_romp_1",
+        "doc_85bd2ca086151f67:table1_entry_01"
+      ],
+      "unresolved": [
+        "Scheme 1 literature examples do not supply enough present-paper experimental detail to construct current-work records and remain source context."
+      ]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1, entries 1–20 and footnotes a–g",
+          "finding": "Twenty independent optimization experiments were transcribed row-by-row. Footnote f supplies a distinct 1.5 M gelation observation, while footnotes e and g modify specific rows. Entry 1 is the same experiment as the cross-page prose.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page3:image"]
+        },
+        {
+          "region": "left-column continuation of initial experiment and poly(1) characterization",
+          "finding": "Quench/precipitation operation and polymer characterization. The prose 35% yield conflicts with Table 1 entry 1 yield 33%; both are retained. NMR/IR peaks remain characterization context.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page3:image"]
+        },
+        {
+          "region": "right-column optimization discussion",
+          "finding": "Narrative interpretation of solvent, catalyst, and temperature effects. It supports the table rows but is not duplicated as additional experiments.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_85bd2ca086151f67:table1_entry_01",
+        "doc_85bd2ca086151f67:table1_entry_02",
+        "doc_85bd2ca086151f67:table1_entry_03",
+        "doc_85bd2ca086151f67:table1_entry_04",
+        "doc_85bd2ca086151f67:table1_entry_05",
+        "doc_85bd2ca086151f67:table1_entry_06",
+        "doc_85bd2ca086151f67:table1_entry_07",
+        "doc_85bd2ca086151f67:table1_entry_08",
+        "doc_85bd2ca086151f67:table1_entry_09",
+        "doc_85bd2ca086151f67:table1_entry_10",
+        "doc_85bd2ca086151f67:table1_entry_11",
+        "doc_85bd2ca086151f67:table1_entry_12",
+        "doc_85bd2ca086151f67:table1_entry_13",
+        "doc_85bd2ca086151f67:table1_entry_14",
+        "doc_85bd2ca086151f67:table1_entry_15",
+        "doc_85bd2ca086151f67:table1_entry_16",
+        "doc_85bd2ca086151f67:table1_entry_17",
+        "doc_85bd2ca086151f67:table1_entry_18",
+        "doc_85bd2ca086151f67:table1_entry_19",
+        "doc_85bd2ca086151f67:table1_entry_20",
+        "doc_85bd2ca086151f67:table1_footnote_f_1p5M_gelation"
+      ],
+      "unresolved": [
+        "Table 1 does not explicitly assign a yield measurement basis for each row.",
+        "Entry 20 has an unresolved solvent conflict: THF in the table cell versus neat in footnote g and prose.",
+        "Absolute charges, atmosphere, pressure, and most workups are absent from the supplied main-text page."
+      ]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2 across the top",
+          "finding": "Generic CTA-assisted ROMP defining R = iPr (2), CH2Ph (3), and CH2OH (4); represented separately from quantified experiments.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page4:image"]
+        },
+        {
+          "region": "Figure 2 and adjacent CTA-2 procedure",
+          "finding": "Figure 2 is 1H NMR characterization of the CTA-2 10:1, 2 mol% G3 experiment. The described experiment matches Table 2 entry 4 and is merged with it. SEC Mn is 5.0 kDa in prose versus 4.7 kDa in the table; both values are retained as a conflict.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page4:image"]
+        },
+        {
+          "region": "Table 2, entries 1–7 and footnotes a–c",
+          "finding": "Seven independent CTA-2 optimization experiments were transcribed row-by-row with feed ratios, Mn, dispersity, and yield.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page4:image"]
+        },
+        {
+          "region": "lower-right CTA-3/CTA-4 paragraph",
+          "finding": "Two additional specific examples use CTA 3 or 4 at 10:1 monomer/CTA and distinct G3 loadings; molecular-weight results continue on page 5.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page4:image", "doc_85bd2ca086151f67:page5:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_85bd2ca086151f67:scheme2_generic_cta_romp",
+        "doc_85bd2ca086151f67:table2_entry_01",
+        "doc_85bd2ca086151f67:table2_entry_02",
+        "doc_85bd2ca086151f67:table2_entry_03",
+        "doc_85bd2ca086151f67:table2_entry_04",
+        "doc_85bd2ca086151f67:table2_entry_05",
+        "doc_85bd2ca086151f67:table2_entry_06",
+        "doc_85bd2ca086151f67:table2_entry_07",
+        "doc_85bd2ca086151f67:scheme2_cta3_example",
+        "doc_85bd2ca086151f67:scheme2_cta4_example"
+      ],
+      "unresolved": [
+        "Table 2 does not explicitly state a yield measurement basis.",
+        "Footnote c reports gelation at 2.0 M but does not unambiguously define separate quantified prior runs for entries 6 and 7.",
+        "Complete finite structures of CTA 3 and CTA 4 are retained unresolved rather than inferred from the abbreviated R-group drawing."
+      ]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 3 at the top",
+          "finding": "Two proposed mechanistic pathways (Ru vinylidene and Ru alkylidene). This is recorded as proposed_mechanism, not as a directly observed synthetic experiment.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page5:image"]
+        },
+        {
+          "region": "Figure 4 and lower-left mechanistic paragraph",
+          "finding": "Specific 1H NMR experiment: 1 at 20 mM plus equimolar G3 in CDCl3, 60 °C, 5 min; terminal cis/trans styrenyl fractions and an assigned Ru-vinylidene signal are recorded.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page5:image"]
+        },
+        {
+          "region": "lower-right 13C NMR paragraph",
+          "finding": "Specific 13C NMR experiment: G3 at 360 mM plus five equivalents of 1 in CDCl3 at 60 °C; 350 ppm signal and quantitative initiation/conversion are recorded without inventing an unreported reaction time or separate conversion method.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page5:image"]
+        },
+        {
+          "region": "first line continuation from page 4",
+          "finding": "CTA-3 and CTA-4 NMR/SEC Mn pairs complete the two specific Scheme 2 examples.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page5:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_85bd2ca086151f67:scheme2_cta3_example",
+        "doc_85bd2ca086151f67:scheme2_cta4_example",
+        "doc_85bd2ca086151f67:figure3_proposed_mechanism",
+        "doc_85bd2ca086151f67:mechanistic_1H_NMR_1_to_G3",
+        "doc_85bd2ca086151f67:mechanistic_13C_NMR_5eq_1_to_G3"
+      ],
+      "unresolved": [
+        "The organoruthenium intermediates lack a complete finite molecular representation and atom mapping.",
+        "The 13C NMR experiment does not report reaction time or separately identify the measurement basis for quantitative initiation/conversion.",
+        "The proposed elementary steps are not promoted to experimentally verified bond changes."
+      ]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Figure 5 and left-column hydrosilylation paragraph",
+          "finding": "Specific post-polymerization hydrosilylation of poly(1) with dimethyl(phenyl)silane and Karstedt's catalyst. A/B/C repeat-unit selectivities, time, temperature, loadings, workup, and SEC comparison are recorded; no product yield is reported.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page6:image"]
+        },
+        {
+          "region": "Scheme 3 and following paragraph",
+          "finding": "Specific ROMP of compound 5 with G3, including 1.0 M THF, 4 mol% G3, 60 °C, 20 h, 70% yield, SEC Mn/Đ, and predominantly cis backbone alkene assignment.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page6:image"]
+        },
+        {
+          "region": "right-column conclusions and Associated Content notice",
+          "finding": "Conclusions summarize earlier experiments. The page explicitly says SI is available online, but no SI file was supplied in this workspace, so no SI is associated or used.",
+          "evidence_ids": ["doc_85bd2ca086151f67:page6:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_85bd2ca086151f67:figure5_poly1_hydrosilylation",
+        "doc_85bd2ca086151f67:scheme3_romp_5"
+      ],
+      "unresolved": [
+        "Hydrosilylated poly(1) is a repeat-unit isomer mixture without a finite isomeric polymer SMILES or isolated yield.",
+        "Poly(5) has only a qualitative predominantly-cis assignment; exact cis/trans ratio and allene axial configurations are not reported.",
+        "No SI content was imported because SI was not explicitly provided."
+      ]
+    }
+  ]
+}

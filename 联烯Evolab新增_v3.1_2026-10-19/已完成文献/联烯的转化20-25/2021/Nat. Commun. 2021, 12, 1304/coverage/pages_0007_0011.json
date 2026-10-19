@@ -1,0 +1,172 @@
+{
+  "document_id": "doc_e609a006933c0fd9",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Fig. 5 top-left: two concrete precursor drawings, standard conditions, sp3 C-H olefination arrow to 3qa",
+          "finding": "One source-specific olefination record was created for 3qa. The figure prints no yield or absolute charges; catalyst/ligand/base, DMF, N2, 100 °C and 4 h are explicitly marked as inherited from the established standard scope conditions and remain pending review.",
+          "evidence_ids": [
+            "doc_e609a006933c0fd9:page7:image"
+          ]
+        },
+        {
+          "region": "Fig. 5 top and product grid: Hydrolysis/Amidation, 6-8 steps, 3qa to 6a-6h",
+          "finding": "Created one generic multistep scheme and eight separate product-sequence records. Values 13%, 3%, 6%, 11%, 4%, 3%, 17% and 9% are retained as overall 6- or 8-step yields from 3qa, never as final-step yields. The caption refers to SI pages 7-14, but no SI file is associated.",
+          "evidence_ids": [
+            "doc_e609a006933c0fd9:page7:image",
+            "doc_e609a006933c0fd9:page7:text"
+          ]
+        },
+        {
+          "region": "Methods, General information",
+          "finding": "NMR and high-resolution mass-spectrometry instrumentation and general materials statements are characterization/method context, not independent synthesis experiments.",
+          "evidence_ids": [
+            "doc_e609a006933c0fd9:page7:image",
+            "doc_e609a006933c0fd9:page7:text"
+          ]
+        },
+        {
+          "region": "Methods, General procedure for unactivated Csp3-H olefination",
+          "finding": "The named 0.1 mmol p-methyl aryl bromide/0.2 mmol enynone procedure was merged into the existing 3ba scope record rather than duplicated. It now includes 5 mol% [PdCl(allyl)]2, 30 mol% tBuXphos, 3.0 equiv NaOAc, 1.0 mL DMF, N2, 100 °C, 4 h, saturated aqueous NaCl quench, ethyl acetate extraction, Na2SO4 drying for 30 min, concentration, and silica chromatography with petroleum ether/ethyl acetate.",
+          "evidence_ids": [
+            "doc_e609a006933c0fd9:page7:image",
+            "doc_e609a006933c0fd9:page7:text"
+          ]
+        },
+        {
+          "region": "Cell culture, cell viability, cytokine production and Western blot methods",
+          "finding": "Biological assay methods are retained as source_context and are not converted into chemical reaction records.",
+          "evidence_ids": [
+            "doc_e609a006933c0fd9:page7:image",
+            "doc_e609a006933c0fd9:page7:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_e609a006933c0fd9:fig2_3ba",
+        "doc_e609a006933c0fd9:fig5_3qa",
+        "doc_e609a006933c0fd9:fig5_generic_macrolactam_assembly",
+        "doc_e609a006933c0fd9:fig5_6a_overall",
+        "doc_e609a006933c0fd9:fig5_6b_overall",
+        "doc_e609a006933c0fd9:fig5_6c_overall",
+        "doc_e609a006933c0fd9:fig5_6d_overall",
+        "doc_e609a006933c0fd9:fig5_6e_overall",
+        "doc_e609a006933c0fd9:fig5_6f_overall",
+        "doc_e609a006933c0fd9:fig5_6g_overall",
+        "doc_e609a006933c0fd9:fig5_6h_overall"
+      ],
+      "unresolved": [
+        "The explicitly referenced SI pages 7-14 were not supplied or associated; all individual 6-8-step reagents, charges, temperatures, times, workups, purification details and step yields remain unavailable.",
+        "Fig. 5 does not report whether the overall percentages are isolated, NMR, or another yield basis.",
+        "Complete precursor/product SMILES and full stereochemical assignments for 3qa and 6a-6h were not safely encoded from the main-text drawing.",
+        "The page-7 general procedure does not print product label 3ba; its cross-page association is based on the explicit p-methyl substrate and matching 0.1 mmol standard conditions and remains pending expert confirmation."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Fig. 6a dose-response plots and Fig. 6b Western blots",
+          "finding": "Biological assay results for 6g, LPS and dexamethasone are non-synthetic context. IC50 values 0.45, 1.59 and 0.59 μM are retained in source_context; no chemical synthesis record was fabricated.",
+          "evidence_ids": [
+            "doc_e609a006933c0fd9:page8:image",
+            "doc_e609a006933c0fd9:page8:text"
+          ]
+        },
+        {
+          "region": "Fig. 7: plausible mechanisms A and B",
+          "finding": "Created one proposed_mechanism record covering both author-proposed cycles. It is not marked as a preparative or mechanistic-control experiment; the caption states that DFT favors path B.",
+          "evidence_ids": [
+            "doc_e609a006933c0fd9:page8:image",
+            "doc_e609a006933c0fd9:page8:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_e609a006933c0fd9:fig7_fig8_proposed_mechanism"
+      ],
+      "unresolved": [
+        "No independent kinetic, isotope-labeling or other mechanistic experiment is displayed on this page.",
+        "Generic ligand L and the full structures/stereochemistry of every organopalladium intermediate are not encoded."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Fig. 8a-c: calculated energy profiles and model structures",
+          "finding": "DFT energy profiles for oxidative addition/CMD, paths A/B and catalyst regeneration support the authors' proposed mechanism. They are linked to the proposed-mechanism record and retained as computational context, not as a synthetic experiment.",
+          "evidence_ids": [
+            "doc_e609a006933c0fd9:page9:image",
+            "doc_e609a006933c0fd9:page9:text"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_e609a006933c0fd9:fig7_fig8_proposed_mechanism"
+      ],
+      "unresolved": [
+        "The shorthand model-product label 3a is associated with m_3aa from substrates 1a and 2a only as a pending-review inference.",
+        "Calculated structures and energy values do not establish experimentally isolated intermediates."
+      ]
+    },
+    {
+      "page": 10,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Reporting summary and Data availability",
+          "finding": "CCDC deposition numbers 1978472 and 1978479 for 3ac and 5ab are retained as structure-assignment context. The statement that other data are available in SI/Supplementary Data does not establish an SI association in this workspace.",
+          "evidence_ids": [
+            "doc_e609a006933c0fd9:page10:image",
+            "doc_e609a006933c0fd9:page10:text"
+          ]
+        },
+        {
+          "region": "References 1-50",
+          "finding": "Cited literature and review articles are reference material, not experiments conducted in the current paper; no reaction records were created from the citations.",
+          "evidence_ids": [
+            "doc_e609a006933c0fd9:page10:image",
+            "doc_e609a006933c0fd9:page10:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "Supplementary Information and Supplementary Data are mentioned but were not explicitly provided or associated."
+      ]
+    },
+    {
+      "page": 11,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "References 51-67",
+          "finding": "Cited prior work is not imported as current-paper experimental evidence.",
+          "evidence_ids": [
+            "doc_e609a006933c0fd9:page11:image",
+            "doc_e609a006933c0fd9:page11:text"
+          ]
+        },
+        {
+          "region": "Acknowledgements, author contributions, competing interests, additional information and licence",
+          "finding": "Administrative metadata and the online-SI link contain no additional reaction arrow, optimization row or preparative experiment on this page.",
+          "evidence_ids": [
+            "doc_e609a006933c0fd9:page11:image",
+            "doc_e609a006933c0fd9:page11:text"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The online supplementary-material link is not treated as a supplied or associated SI file."
+      ]
+    }
+  ]
+}

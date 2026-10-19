@@ -1,0 +1,113 @@
+{
+  "chemical_accuracy_verified": false,
+  "datasets": [
+    {
+      "tool_version": "3.1",
+      "chemical_accuracy_verified": false,
+      "record_kind_counts": {
+        "literature_example": 3,
+        "general_scheme": 1,
+        "optimization_entry": 7,
+        "substrate_scope_entry": 19,
+        "reported_experiment": 7
+      },
+      "source_reviewed_records": 0,
+      "documents_without_linked_si": [
+        "doc_e6209d110a05e1c9"
+      ],
+      "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+      "warnings": [
+        {
+          "record_id": "doc_e6209d110a05e1c9:scheme4_4a_to_5a",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_e6209d110a05e1c9:page5:image",
+            "doc_e6209d110a05e1c9:page6:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_e6209d110a05e1c9:scheme4_4b_to_5b",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_e6209d110a05e1c9:page5:image",
+            "doc_e6209d110a05e1c9:page6:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_e6209d110a05e1c9:scheme4_4c_to_5c",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_e6209d110a05e1c9:page5:image",
+            "doc_e6209d110a05e1c9:page6:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_e6209d110a05e1c9:scheme4_4d_to_5d",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_e6209d110a05e1c9:page5:image",
+            "doc_e6209d110a05e1c9:page6:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_e6209d110a05e1c9:scheme4_4e_to_5e",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_e6209d110a05e1c9:page5:image",
+            "doc_e6209d110a05e1c9:page6:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_e6209d110a05e1c9:scheme4_4f_to_5f",
+          "record_kind": "substrate_scope_entry",
+          "evidence_ids": [
+            "doc_e6209d110a05e1c9:page5:image",
+            "doc_e6209d110a05e1c9:page6:image"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        }
+      ],
+      "dataset": "/EvoLab/student-workspaces/xllin/evolab-state/workspaces/allene-stereo-v31-200-20261017/runs/current/dataset.json",
+      "dataset_sha256": "d3c87b4f7adf4759ac6660a3331aab911026a8005421e9d84c44a068231f83ec",
+      "extraction_version": "3.1"
+    }
+  ],
+  "duplicates": [],
+  "errors": [],
+  "summary": {
+    "dataset_versions": {
+      "3.1": 1
+    },
+    "record_kind_counts": {
+      "literature_example": 3,
+      "general_scheme": 1,
+      "optimization_entry": 7,
+      "substrate_scope_entry": 19,
+      "reported_experiment": 7
+    },
+    "flagged_records_by_issue": {
+      "structure_gap": 6
+    },
+    "datasets_scanned": 1,
+    "records_scanned": 37,
+    "source_reviewed_records": 0,
+    "excluded_directory_names": []
+  }
+}

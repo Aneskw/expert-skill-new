@@ -1,0 +1,89 @@
+{
+  "chemical_accuracy_verified": false,
+  "datasets": [
+    {
+      "tool_version": "3.1",
+      "chemical_accuracy_verified": false,
+      "record_kind_counts": {
+        "literature_example": 6,
+        "general_scheme": 2,
+        "optimization_entry": 17,
+        "substrate_scope_entry": 28,
+        "reported_experiment": 7,
+        "mechanism": 1
+      },
+      "source_reviewed_records": 0,
+      "documents_without_linked_si": [
+        "doc_b27cb890048f595e"
+      ],
+      "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+      "warnings": [
+        {
+          "record_id": "doc_b27cb890048f595e:scheme4_4b_to_5",
+          "record_kind": "reported_experiment",
+          "evidence_ids": [
+            "doc_b27cb890048f595e:page4:text",
+            "doc_b27cb890048f595e:page4:image",
+            "doc_b27cb890048f595e:page7:text",
+            "doc_b27cb890048f595e:page8:text"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_b27cb890048f595e:scheme4_5_to_6",
+          "record_kind": "reported_experiment",
+          "evidence_ids": [
+            "doc_b27cb890048f595e:page4:text",
+            "doc_b27cb890048f595e:page4:image",
+            "doc_b27cb890048f595e:page7:text",
+            "doc_b27cb890048f595e:page8:text"
+          ],
+          "warnings": [
+            "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+          ]
+        },
+        {
+          "record_id": "doc_b27cb890048f595e:scheme6_intermediate_f_to_2a",
+          "record_kind": "reported_experiment",
+          "evidence_ids": [
+            "doc_b27cb890048f595e:page4:text",
+            "doc_b27cb890048f595e:page4:image",
+            "doc_b27cb890048f595e:page5:text",
+            "doc_b27cb890048f595e:page5:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+          ]
+        }
+      ],
+      "dataset": "/EvoLab/student-workspaces/xllin/evolab-state/workspaces/allene-stereo-v31-200-20261017/runs/current/dataset.json",
+      "dataset_sha256": "dc4545786f89971a929355ffc7ca61643e716df82c82494de0a89f80c69a2998",
+      "extraction_version": "3.1"
+    }
+  ],
+  "duplicates": [],
+  "errors": [],
+  "summary": {
+    "dataset_versions": {
+      "3.1": 1
+    },
+    "record_kind_counts": {
+      "literature_example": 6,
+      "general_scheme": 2,
+      "optimization_entry": 17,
+      "substrate_scope_entry": 28,
+      "reported_experiment": 7,
+      "mechanism": 1
+    },
+    "flagged_records_by_issue": {
+      "structure_gap": 2,
+      "measurement_basis": 1
+    },
+    "datasets_scanned": 1,
+    "records_scanned": 61,
+    "source_reviewed_records": 0,
+    "excluded_directory_names": []
+  }
+}

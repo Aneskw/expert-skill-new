@@ -1,0 +1,64 @@
+{
+  "chemical_accuracy_verified": false,
+  "datasets": [
+    {
+      "tool_version": "3.1",
+      "chemical_accuracy_verified": false,
+      "record_kind_counts": {
+        "literature_example": 3,
+        "general_scheme": 1,
+        "optimization_entry": 16,
+        "substrate_scope_entry": 28,
+        "reported_experiment": 9,
+        "mechanism": 1
+      },
+      "source_reviewed_records": 0,
+      "documents_without_linked_si": [
+        "doc_1d33e0721b132f96"
+      ],
+      "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+      "warnings": [
+        {
+          "record_id": "doc_1d33e0721b132f96:scheme5_d",
+          "record_kind": "reported_experiment",
+          "evidence_ids": [
+            "doc_1d33e0721b132f96:page2:text",
+            "doc_1d33e0721b132f96:page2:image",
+            "doc_1d33e0721b132f96:page3:text",
+            "doc_1d33e0721b132f96:page3:image",
+            "doc_1d33e0721b132f96:page6:text",
+            "doc_1d33e0721b132f96:page6:image"
+          ],
+          "warnings": [
+            "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+          ]
+        }
+      ],
+      "dataset": "/EvoLab/student-workspaces/xllin/evolab-state/workspaces/allene-stereo-v31-200-20261017/runs/current/dataset.json",
+      "dataset_sha256": "1bc2d4879b23cb272d408def261ad6232cdbed1626e9961bdba877f70cba1dbf",
+      "extraction_version": "3.1"
+    }
+  ],
+  "duplicates": [],
+  "errors": [],
+  "summary": {
+    "dataset_versions": {
+      "3.1": 1
+    },
+    "record_kind_counts": {
+      "literature_example": 3,
+      "general_scheme": 1,
+      "optimization_entry": 16,
+      "substrate_scope_entry": 28,
+      "reported_experiment": 9,
+      "mechanism": 1
+    },
+    "flagged_records_by_issue": {
+      "measurement_basis": 1
+    },
+    "datasets_scanned": 1,
+    "records_scanned": 58,
+    "source_reviewed_records": 0,
+    "excluded_directory_names": []
+  }
+}

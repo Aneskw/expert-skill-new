@@ -1,0 +1,87 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "literature_example": 1,
+    "general_scheme": 4,
+    "mechanism": 2,
+    "optimization_entry": 10,
+    "substrate_scope_entry": 57,
+    "reported_experiment": 7
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_d6517b57d3476a7a"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_d6517b57d3476a7a:scheme2_step1_deprotection",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_d6517b57d3476a7a:page3:image",
+        "doc_d6517b57d3476a7a:page3:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_d6517b57d3476a7a:scheme2_step2_citreodiol",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_d6517b57d3476a7a:page3:image",
+        "doc_d6517b57d3476a7a:page3:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield",
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    },
+    {
+      "record_id": "doc_d6517b57d3476a7a:scheme3_labeling_i",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_d6517b57d3476a7a:page4:image",
+        "doc_d6517b57d3476a7a:page4:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_d6517b57d3476a7a:scheme3_labeling_ii",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_d6517b57d3476a7a:page4:image",
+        "doc_d6517b57d3476a7a:page4:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_d6517b57d3476a7a:eq1_1b_3a_to_benzyl_4a",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_d6517b57d3476a7a:page4:image",
+        "doc_d6517b57d3476a7a:page4:text"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    },
+    {
+      "record_id": "doc_d6517b57d3476a7a:ethyl_allene_incomplete_ethylation",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_d6517b57d3476a7a:page4:image",
+        "doc_d6517b57d3476a7a:page4:text"
+      ],
+      "warnings": [
+        "structure_gap: all reactant/product SMILES missing; inspect drawings and explain ambiguity without inventing structures"
+      ]
+    }
+  ]
+}

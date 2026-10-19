@@ -1,0 +1,215 @@
+{
+  "document_id": "doc_e609a006933c0fd9",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "整页：题名、作者、DOI与摘要",
+          "finding": "文献元数据和工作概述；没有具体反应箭头、优化行或可独立计数的合成实验。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page1:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["摘要所称高立体选择性未给出逐实验数值或测定方法。"]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Fig. 1a：marine furanocembranoids",
+          "finding": "天然产物背景结构，不是本篇具体合成实验。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page2:image"]
+        },
+        {
+          "region": "Fig. 1b：modularization strategy",
+          "finding": "逆合成/模块化设计通式；无具体底物编号、条件或单步收率，保存在source_context。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page2:image"]
+        },
+        {
+          "region": "Fig. 1c：design、features、state of the art",
+          "finding": "两类拟议Pd-carbene偶联设计及Ref. 27-31、42、32既往工作；引用工作未冒充本篇实验。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page2:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["Fig. 1b/c为R基团通式且没有可复现实验细节；未建立具体实验记录。"]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "左栏：反应设计与既往工作讨论",
+          "finding": "背景和机理动机；不是独立实验。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page3:image"]
+        },
+        {
+          "region": "右栏：Reaction optimization叙述",
+          "finding": "Table 1标准条件、对照结果和3aa高立体选择性叙述；与第4页14条优化记录关联，不重复计数。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page3:image", "doc_e609a006933c0fd9:page3:text"]
+        },
+        {
+          "region": "右栏：Substrate scope叙述",
+          "finding": "Fig. 2/3范围概述；5ab相对构型由X-ray归属，furanyl/thienyl产物仅给定性excellent stereoselectivity。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page3:image", "doc_e609a006933c0fd9:page3:text"]
+        }
+      ],
+      "record_ids": [
+        "doc_e609a006933c0fd9:table1_entry_01",
+        "doc_e609a006933c0fd9:table1_entry_02",
+        "doc_e609a006933c0fd9:table1_entry_03",
+        "doc_e609a006933c0fd9:table1_entry_04",
+        "doc_e609a006933c0fd9:table1_entry_05",
+        "doc_e609a006933c0fd9:table1_entry_06",
+        "doc_e609a006933c0fd9:table1_entry_07",
+        "doc_e609a006933c0fd9:table1_entry_08",
+        "doc_e609a006933c0fd9:table1_entry_09",
+        "doc_e609a006933c0fd9:table1_entry_10",
+        "doc_e609a006933c0fd9:table1_entry_11",
+        "doc_e609a006933c0fd9:table1_entry_12",
+        "doc_e609a006933c0fd9:table1_entry_13",
+        "doc_e609a006933c0fd9:table1_entry_14",
+        "doc_e609a006933c0fd9:fig3_5ab",
+        "doc_e609a006933c0fd9:fig3_5af",
+        "doc_e609a006933c0fd9:fig3_5ag"
+      ],
+      "unresolved": ["正文未给逐产物立体选择性比值、异构体顺序或测定方法。", "5ab仅有相对构型信息；本页未给完整可编码绝对构型。"]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1整表、反应式与脚注",
+          "finding": "14条独立优化实验；entry 1同时保留NMR 76%和括号内分离76%，entry 4/5/13为trace，entry 8/14为无反应/未检出。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page4:image"]
+        },
+        {
+          "region": "Table 1脚注a",
+          "finding": "原文印刷1a 0.05 mmol、2a 0.01 mmol，同时给2a 2.0 equiv；数量冲突逐记录保留且未纠正。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page4:image"]
+        },
+        {
+          "region": "正文左栏上部：复杂药物衍生物结果",
+          "finding": "3ka、3la、5lc的文字结果与第6页Fig. 4记录合并证据，不重复创建。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page4:image", "doc_e609a006933c0fd9:page4:text"]
+        },
+        {
+          "region": "正文其余：宏内酰胺生物活性与DFT讨论",
+          "finding": "生物学和理论机理上下文；本页无新增合成箭头，保存在source_context。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_e609a006933c0fd9:table1_entry_01",
+        "doc_e609a006933c0fd9:table1_entry_02",
+        "doc_e609a006933c0fd9:table1_entry_03",
+        "doc_e609a006933c0fd9:table1_entry_04",
+        "doc_e609a006933c0fd9:table1_entry_05",
+        "doc_e609a006933c0fd9:table1_entry_06",
+        "doc_e609a006933c0fd9:table1_entry_07",
+        "doc_e609a006933c0fd9:table1_entry_08",
+        "doc_e609a006933c0fd9:table1_entry_09",
+        "doc_e609a006933c0fd9:table1_entry_10",
+        "doc_e609a006933c0fd9:table1_entry_11",
+        "doc_e609a006933c0fd9:table1_entry_12",
+        "doc_e609a006933c0fd9:table1_entry_13",
+        "doc_e609a006933c0fd9:table1_entry_14",
+        "doc_e609a006933c0fd9:fig4_3ka",
+        "doc_e609a006933c0fd9:fig4_3la",
+        "doc_e609a006933c0fd9:fig4_5lc"
+      ],
+      "unresolved": ["Table 1的2a绝对量与当量冲突。", "trace和无反应结果除表格统一NMR脚注外未给检出限。"]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Fig. 2通式、条件、14个产物/NR位点及脚注",
+          "finding": "14个标准范围位点；3ba另有2.0 mmol、83%放大实验，故建立15条具体实验。3ia为NR且未虚构产物参与物。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page5:image"]
+        },
+        {
+          "region": "Fig. 3通式、条件、11个产物及X-ray模型",
+          "finding": "11条allene底物范围实验；5ab相对构型/X-ray信息另存，所有图示收率为分离收率。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page5:image"]
+        },
+        {
+          "region": "页底DFT叙述",
+          "finding": "理论能垒讨论，不是机理研究实验。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page5:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_e609a006933c0fd9:fig2_generic_enynone_scope",
+        "doc_e609a006933c0fd9:fig3_generic_allene_scope",
+        "doc_e609a006933c0fd9:fig2_3aa",
+        "doc_e609a006933c0fd9:fig2_3ba",
+        "doc_e609a006933c0fd9:fig2_3ba_scaleup_2mmol",
+        "doc_e609a006933c0fd9:fig2_3ca",
+        "doc_e609a006933c0fd9:fig2_3da",
+        "doc_e609a006933c0fd9:fig2_3ea",
+        "doc_e609a006933c0fd9:fig2_3fa",
+        "doc_e609a006933c0fd9:fig2_3ga",
+        "doc_e609a006933c0fd9:fig2_3ha",
+        "doc_e609a006933c0fd9:fig2_3ia",
+        "doc_e609a006933c0fd9:fig2_3ja",
+        "doc_e609a006933c0fd9:fig2_3ab",
+        "doc_e609a006933c0fd9:fig2_3ac",
+        "doc_e609a006933c0fd9:fig2_3ad",
+        "doc_e609a006933c0fd9:fig2_3ae",
+        "doc_e609a006933c0fd9:fig3_5aa",
+        "doc_e609a006933c0fd9:fig3_5ab",
+        "doc_e609a006933c0fd9:fig3_5ac",
+        "doc_e609a006933c0fd9:fig3_5ad",
+        "doc_e609a006933c0fd9:fig3_5ae",
+        "doc_e609a006933c0fd9:fig3_5af",
+        "doc_e609a006933c0fd9:fig3_5ag",
+        "doc_e609a006933c0fd9:fig3_5ah",
+        "doc_e609a006933c0fd9:fig3_5cc",
+        "doc_e609a006933c0fd9:fig3_5ec",
+        "doc_e609a006933c0fd9:fig3_5jc"
+      ],
+      "unresolved": ["除1a、2a及常见试剂外，复杂底物/产物完整SMILES未可靠转录。", "3ba放大实验只明确2.0 mmol尺度和83%收率；放大后的溶剂体积、2a绝对量未报告。"]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Fig. 4双通式、条件与9个药物衍生范围产物",
+          "finding": "9条独立复杂底物实验，分别保留孤立收率和图示立体特征；未把药物来源说明当作外部数据库性质。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page6:image"]
+        },
+        {
+          "region": "Fig. 4脚注",
+          "finding": "1k-1p 0.1 mmol、2a或4c 0.2 mmol、Pd二聚体5 mol%、tBuXPhos 30 mol%、NaOAc 3.0 equiv、DMF 1 mL、N2、100 °C、4 h；收率为分离收率。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page6:image"]
+        },
+        {
+          "region": "页下DFT与Z选择性讨论",
+          "finding": "作者理论解释3a的Z选择性；不是独立实验，未虚构E/Z数值。",
+          "evidence_ids": ["doc_e609a006933c0fd9:page6:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_e609a006933c0fd9:fig4_generic_complex_scope",
+        "doc_e609a006933c0fd9:fig4_3ka",
+        "doc_e609a006933c0fd9:fig4_3la",
+        "doc_e609a006933c0fd9:fig4_3ma",
+        "doc_e609a006933c0fd9:fig4_3na",
+        "doc_e609a006933c0fd9:fig4_3oa",
+        "doc_e609a006933c0fd9:fig4_3pa",
+        "doc_e609a006933c0fd9:fig4_5kc",
+        "doc_e609a006933c0fd9:fig4_5oc",
+        "doc_e609a006933c0fd9:fig4_5lc"
+      ],
+      "unresolved": ["复杂药物衍生物的全部中心构型和完整异构SMILES未编码。", "3a的Z选择性没有数值E/Z比例或实验测定方法。"]
+    }
+  ]
+}

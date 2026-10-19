@@ -1,0 +1,30 @@
+{
+  "tool_version": "3.1",
+  "chemical_accuracy_verified": false,
+  "record_kind_counts": {
+    "literature_example": 5,
+    "general_scheme": 1,
+    "optimization_entry": 14,
+    "substrate_scope_entry": 22,
+    "reported_experiment": 6,
+    "mechanism": 1
+  },
+  "source_reviewed_records": 0,
+  "documents_without_linked_si": [
+    "doc_975f54c401a61631"
+  ],
+  "limitations": "Advisory structural checks only. Missing SI, structures or methods may reflect the source. No warning does not establish correctness, recall or suitability for expert rules.",
+  "warnings": [
+    {
+      "record_id": "doc_975f54c401a61631:control_h2o_standard",
+      "record_kind": "reported_experiment",
+      "evidence_ids": [
+        "doc_975f54c401a61631:page3:text",
+        "doc_975f54c401a61631:page3:image"
+      ],
+      "warnings": [
+        "measurement_basis: missing or unassigned method for yield; do not assume isolated yield"
+      ]
+    }
+  ]
+}

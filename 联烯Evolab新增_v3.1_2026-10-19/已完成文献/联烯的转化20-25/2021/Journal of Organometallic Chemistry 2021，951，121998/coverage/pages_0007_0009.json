@@ -1,0 +1,94 @@
+{
+  "document_id": "doc_e6209d110a05e1c9",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 7,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "upper-left continuation of Section 4.7, compound 3d",
+          "finding": "The page continues the existing 2d-to-3d experiment and reports a separately chromatographed 'Diastereomer B, Z-isomer' fraction in 21% yield, followed by NMR and elemental-analysis data. It was merged into the existing reaction rather than counted as a new reaction.",
+          "evidence_ids": [
+            "doc_e6209d110a05e1c9:page7:image"
+          ]
+        },
+        {
+          "region": "Section 4.7 compound entries 5a-5f, both columns",
+          "finding": "Six existing Scheme 4 dimerization records were supplemented with compound-specific yields, petroleum ether/ethyl acetate chromatography ratios, Z/E ratios, and the A/B 1:1 diastereomer ratios stated for 5a and 5b. The page-7 5b values (73%, Z/E approximately 1:1) conflict with Scheme 4 (76%, Z/E 3:1), so both source values remain unresolved alternatives.",
+          "evidence_ids": [
+            "doc_e6209d110a05e1c9:page7:image"
+          ]
+        },
+        {
+          "region": "NMR and elemental-analysis paragraphs for 3d and 5a-5f",
+          "finding": "These are characterization data, not separate synthesis experiments. They are retained in source_context; mass-spectral peak tables are not present on this page.",
+          "evidence_ids": [
+            "doc_e6209d110a05e1c9:page7:image"
+          ]
+        },
+        {
+          "region": "lower-right Section 4.8 and end matter",
+          "finding": "X-ray instrumentation/refinement details for 3a-3c and CCDC identifiers are characterization context. The Declaration of Competing Interest and beginning of Acknowledgments contain no reaction experiment.",
+          "evidence_ids": [
+            "doc_e6209d110a05e1c9:page7:image"
+          ]
+        }
+      ],
+      "record_ids": [
+        "doc_e6209d110a05e1c9:scheme2_2d_to_3d",
+        "doc_e6209d110a05e1c9:scheme4_4a_to_5a",
+        "doc_e6209d110a05e1c9:scheme4_4b_to_5b",
+        "doc_e6209d110a05e1c9:scheme4_4c_to_5c",
+        "doc_e6209d110a05e1c9:scheme4_4d_to_5d",
+        "doc_e6209d110a05e1c9:scheme4_4e_to_5e",
+        "doc_e6209d110a05e1c9:scheme4_4f_to_5f"
+      ],
+      "unresolved": [
+        "The absolute configuration represented by the arbitrary label 'Diastereomer B' for 3d is not reported; the Z assignment cannot be tied to atom indices without inventing a unique graph.",
+        "The source does not explicitly assign a measurement method to each page-7 Z/E or A/B ratio.",
+        "5b remains a source conflict: Scheme 4 reports 76% and Z/E 3:1, whereas Section 4.7 reports 73% and Z/E approximately 1:1.",
+        "Products 5a-5f are reported stereoisomer mixtures, so unique product isomeric SMILES remain intentionally blank."
+      ]
+    },
+    {
+      "page": 8,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top continuation of Acknowledgments and Supplementary materials notice",
+          "finding": "The authors acknowledge facilities and state that supplementary material is available online. No SI file was supplied or explicitly associated in this workspace, so the notice was retained as context and did not create an SI document link.",
+          "evidence_ids": [
+            "doc_e6209d110a05e1c9:page8:image"
+          ]
+        },
+        {
+          "region": "References [1]-[15], both columns",
+          "finding": "Bibliographic references only. They are not current-paper reaction experiments and were not converted into records.",
+          "evidence_ids": [
+            "doc_e6209d110a05e1c9:page8:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": [
+        "The page asserts online supplementary material but no supplement was provided for source association or inspection."
+      ]
+    },
+    {
+      "page": 9,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "References [15]-[21] and remaining blank page area",
+          "finding": "Reference-list continuation only; no table, reaction arrow, current-paper experiment, mechanism, or characterization dataset appears on the inspected image.",
+          "evidence_ids": [
+            "doc_e6209d110a05e1c9:page9:image"
+          ]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": []
+    }
+  ]
+}

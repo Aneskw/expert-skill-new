@@ -1,0 +1,40 @@
+{
+  "source_verified": false,
+  "1a": {
+    "smiles": "CC(O)(C=C=C)c1ccc2ccccc2c1",
+    "canonical_isomeric_smiles": "C=C=CC(C)(O)c1ccc2ccccc2c1",
+    "stereo_graph_key": "ea6bc1443deb5e53b587ea2992adaf6430031047c58853a9f5c0af67b56e746e",
+    "atom_centers": [{"atom_index": 1, "CIP": "?"}],
+    "decision": "The source explicitly labels (±)-1a; an unassigned graph is not treated as achiral. Registry chirality_status is racemic and representation_status is partial."
+  },
+  "2a": {
+    "smiles": "CC(C)=C(OCC)O[Si](C)(C)C(C)(C)C",
+    "canonical_isomeric_smiles": "CCOC(O[Si](C)(C)C(C)(C)C)=C(C)C",
+    "stereo_graph_key": "a35270d3a32ff06573f095a5fe178b5d7e3f9c3b1170405095533de62d883510",
+    "potential_stereo": []
+  },
+  "2b": {
+    "smiles": "CC(C)=C(OCC)O[Si](C)(C)C",
+    "canonical_isomeric_smiles": "CCOC(O[Si](C)(C)C)=C(C)C",
+    "stereo_graph_key": "ceeb91e78a94303762b7bdab6ce059bbbb17a1b6e7c51b542dcc7af71519ba2d",
+    "potential_stereo": []
+  },
+  "2c": {
+    "smiles": "CC(C)=C(OCC)O[Si](CC)(CC)CC",
+    "canonical_isomeric_smiles": "CCOC(O[Si](CC)(CC)CC)=C(C)C",
+    "stereo_graph_key": "de4ff165095c5860d06d39ba59637d3034daa8978aef1e8c73a62ba74e501081",
+    "potential_stereo": []
+  },
+  "3a": {
+    "smiles": "CCOC(=O)C(C)(C)C(C)(C=C=C)c1ccc2ccccc2c1",
+    "canonical_isomeric_smiles": "C=C=CC(C)(c1ccc2ccccc2c1)C(C)(C)C(=O)OCC",
+    "stereo_graph_key": "4f72ba084fd80b404243400e63b367f3e616b68e098f5e8801c5d7047cd40d45",
+    "atom_centers": [{"atom_index": 8, "CIP": "?"}],
+    "decision": "The source states (R)-3a, but the candidate SMILES does not encode the absolute tetrahedral configuration; chirality_status is specified and representation_status is partial."
+  },
+  "limitations": [
+    "Graph diagnostics cannot infer unreported configuration, ee, dr, or racemic composition.",
+    "RDKit axial/allene diagnostics are limited; source text and drawings control the registry status.",
+    "Parsing a candidate SMILES does not verify its source transcription."
+  ]
+}
