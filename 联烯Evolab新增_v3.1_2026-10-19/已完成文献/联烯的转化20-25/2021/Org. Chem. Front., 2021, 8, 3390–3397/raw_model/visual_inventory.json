@@ -1,0 +1,62 @@
+{
+  "document_id": "doc_d31888e9faa3be67",
+  "inspected_page_range": [1, 6],
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "visual_findings": [
+        "Title, authors, DOI, abstract and ESI-availability footnote.",
+        "Scheme 1 equations (1)-(3) are cited prior literature examples.",
+        "Scheme 1 blue equation (4) is a conceptual three-branch map: [2+2], allenic-C-H ene and allylic-C-H ene."
+      ]
+    },
+    {
+      "page": 2,
+      "visual_findings": [
+        "Scheme 2 contains three arrows: 1a to 2a (73%), 1b decomposition/2b 0%, and 1c to 2c (58%), each with toluene, 90 °C, 8 h.",
+        "Prose identifies 2a as Alder-ene and 2c as the exclusive [2+2] cycloadduct; it states decomposition for 1b.",
+        "Prose enumerates Table 1 and Table 2 outcomes but their row structures and footnotes occur on later pages."
+      ]
+    },
+    {
+      "page": 3,
+      "visual_findings": [
+        "Table 1 has nine numbered rows with yields 63, 0, 0, 64, 60, 55, 62, 34 and 58 percent.",
+        "Header conditions are toluene, 90 °C, 6-8 h; footnote a says isolated yield.",
+        "Rows 2 and 3 carry both b and c: thermal decomposition and an additional decomposition experiment in toluene at 55 °C with 5 mol% AgSbF6."
+      ]
+    },
+    {
+      "page": 4,
+      "visual_findings": [
+        "Table 2 has eight numbered rows; rows 1-2 are decomposition and each also has the footnote-c AgSbF6/55 °C experiment; rows 3-6 use 90 °C, 6-7 h; rows 7-8 use 150 °C, 12 h.",
+        "Table 3 has ten numbered rows under toluene, 150 °C, 12 h: six isolated-yield [2+2] products and four decomposition rows.",
+        "Table 3 row 10 prints expected-product label 8gc, while the prose refers collectively to expected 8ga-8gd."
+      ]
+    },
+    {
+      "page": 5,
+      "visual_findings": [
+        "Scheme 3 contains five generic trend arrows, equations (5)-(9), not concrete experiments.",
+        "Conclusion summarizes selectivity; right column begins acknowledgements and references."
+      ]
+    },
+    {
+      "page": 6,
+      "visual_findings": [
+        "Both columns are bibliography continuation only; no current-paper experiment, table, footnote condition or characterization dataset appears."
+      ]
+    }
+  ],
+  "record_inventory": {
+    "specific_experiments": 34,
+    "generic_schemes": 6,
+    "molecules": 65
+  },
+  "limitations": [
+    "Complex graphical structures were retained by paper-local label and source evidence rather than converted to uncertified SMILES.",
+    "No SI file was supplied or explicitly associated.",
+    "Inspection of pages 1-6 is an attempted extraction, not a claim of complete chemical correctness."
+  ]
+}

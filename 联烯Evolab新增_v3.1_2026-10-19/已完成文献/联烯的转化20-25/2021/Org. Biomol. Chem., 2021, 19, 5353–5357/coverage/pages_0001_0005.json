@@ -1,0 +1,127 @@
+{
+  "document_id": "doc_3d06842c48e86b8b",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract, bibliographic header and ESI notice",
+          "finding": "The paper title, authors and DOI were recorded. The page states that ESI exists, but no SI file is explicitly supplied or associated in this workspace.",
+          "evidence_ids": ["doc_3d06842c48e86b8b:page1:text", "doc_3d06842c48e86b8b:page1:image"]
+        },
+        {
+          "region": "Scheme 1 and introduction",
+          "finding": "Scheme 1 is a prior-work/conceptual comparison, not a concrete current-paper experiment. Introductory transformations and citations were retained as source context rather than reaction records.",
+          "evidence_ids": ["doc_3d06842c48e86b8b:page1:text", "doc_3d06842c48e86b8b:page1:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["The cited ESI was not provided; no experimental procedure or characterization data from it was inferred."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2 at top left",
+          "finding": "Generic design sequence for aryne addition, ylide formation, [2,3]-rearrangement and optional base isomerization; stored as a generic scheme, not a specific experiment.",
+          "evidence_ids": ["doc_3d06842c48e86b8b:page2:text", "doc_3d06842c48e86b8b:page2:image"]
+        },
+        {
+          "region": "Table 1, entries 1-15 and footnotes",
+          "finding": "All 15 optimization rows were independently recorded, including fluoride source, crown ether presence, solvent, combined isolated yield, 3a:3a′ ratio, 3a′ Z/E information, TBAF carrier/concentration, and the 20 h exception.",
+          "evidence_ids": ["doc_3d06842c48e86b8b:page2:text", "doc_3d06842c48e86b8b:page2:image"]
+        },
+        {
+          "region": "results prose around Table 1 and Table 2 discussion",
+          "finding": "Prose links TBAF entry 6 to 53:47 Z/E 3a′, KF/18-crown-6 entries to 3a enrichment, and entry 15 to greater isomerization; Table 2 discussion was used as context for page-3 rows without inventing additional experiments.",
+          "evidence_ids": ["doc_3d06842c48e86b8b:page2:text", "doc_3d06842c48e86b8b:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_3d06842c48e86b8b:scheme2_generic",
+        "doc_3d06842c48e86b8b:table1_entry_01",
+        "doc_3d06842c48e86b8b:table1_entry_02",
+        "doc_3d06842c48e86b8b:table1_entry_03",
+        "doc_3d06842c48e86b8b:table1_entry_04",
+        "doc_3d06842c48e86b8b:table1_entry_05",
+        "doc_3d06842c48e86b8b:table1_entry_06",
+        "doc_3d06842c48e86b8b:table1_entry_07",
+        "doc_3d06842c48e86b8b:table1_entry_08",
+        "doc_3d06842c48e86b8b:table1_entry_09",
+        "doc_3d06842c48e86b8b:table1_entry_10",
+        "doc_3d06842c48e86b8b:table1_entry_11",
+        "doc_3d06842c48e86b8b:table1_entry_12",
+        "doc_3d06842c48e86b8b:table1_entry_13",
+        "doc_3d06842c48e86b8b:table1_entry_14",
+        "doc_3d06842c48e86b8b:table1_entry_15"
+      ],
+      "unresolved": ["Detailed addition order, workup and purification are deferred to unavailable ESI.", "The volume of THF carrier in the 1.0 M TBAF solution is not separately reported."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2, entries 1-17 and footnotes",
+          "finding": "Seventeen standard-scale substrate-scope experiments were recorded row by row. The parenthetical 78%/6 mmol result for entry 1 was recorded as a separate scale-up experiment. Z/E and ee outcomes retain their stated order and methods.",
+          "evidence_ids": ["doc_3d06842c48e86b8b:page3:text", "doc_3d06842c48e86b8b:page3:image"]
+        },
+        {
+          "region": "Scheme 3(a-c)",
+          "finding": "Three competing-migration experiments were independently recorded with product pairs, combined yields and ordered product ratios. The main text does not state the yield/ratio measurement bases.",
+          "evidence_ids": ["doc_3d06842c48e86b8b:page3:text", "doc_3d06842c48e86b8b:page3:image"]
+        },
+        {
+          "region": "Table 3, entries 1-6 and footnotes",
+          "finding": "All six aryne-scope rows were recorded independently; entry 2 has two regioisomer products and an NMR ratio; entry 6 is a 0% desired-product experiment whose complex-mixture statement continues on page 4.",
+          "evidence_ids": ["doc_3d06842c48e86b8b:page3:text", "doc_3d06842c48e86b8b:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_3d06842c48e86b8b:table2_entry_01", "doc_3d06842c48e86b8b:table2_entry_02", "doc_3d06842c48e86b8b:table2_entry_03", "doc_3d06842c48e86b8b:table2_entry_04", "doc_3d06842c48e86b8b:table2_entry_05", "doc_3d06842c48e86b8b:table2_entry_06", "doc_3d06842c48e86b8b:table2_entry_07", "doc_3d06842c48e86b8b:table2_entry_08", "doc_3d06842c48e86b8b:table2_entry_09", "doc_3d06842c48e86b8b:table2_entry_10", "doc_3d06842c48e86b8b:table2_entry_11", "doc_3d06842c48e86b8b:table2_entry_12", "doc_3d06842c48e86b8b:table2_entry_13", "doc_3d06842c48e86b8b:table2_entry_14", "doc_3d06842c48e86b8b:table2_entry_15", "doc_3d06842c48e86b8b:table2_entry_16", "doc_3d06842c48e86b8b:table2_entry_17", "doc_3d06842c48e86b8b:table2_entry_01_scaleup",
+        "doc_3d06842c48e86b8b:scheme3_a", "doc_3d06842c48e86b8b:scheme3_b", "doc_3d06842c48e86b8b:scheme3_c",
+        "doc_3d06842c48e86b8b:table3_entry_01", "doc_3d06842c48e86b8b:table3_entry_02", "doc_3d06842c48e86b8b:table3_entry_03", "doc_3d06842c48e86b8b:table3_entry_04", "doc_3d06842c48e86b8b:table3_entry_05", "doc_3d06842c48e86b8b:table3_entry_06"
+      ],
+      "unresolved": ["Most substituted structures remain source-labeled templates pending expert structure verification.", "Scheme 3 does not specify measurement bases.", "Scaled reagent and solvent quantities for the 6 mmol experiment are not printed and were not calculated."]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "top-left continuation of Table 3 discussion",
+          "finding": "Completes Table 3 entry 6: 2,3-pyridyne gave a complex mixture and desired rearrangement product was not isolated. This evidence was merged into the existing entry-6 record.",
+          "evidence_ids": ["doc_3d06842c48e86b8b:page4:text", "doc_3d06842c48e86b8b:page4:image"]
+        },
+        {
+          "region": "conclusions, declarations, acknowledgements and references",
+          "finding": "No additional current-paper reaction experiment is reported; cited literature was not imported as this paper's experiments.",
+          "evidence_ids": ["doc_3d06842c48e86b8b:page4:text", "doc_3d06842c48e86b8b:page4:image"]
+        }
+      ],
+      "record_ids": ["doc_3d06842c48e86b8b:table3_entry_06"],
+      "unresolved": ["Composition of the complex mixture is not reported."]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "reference list",
+          "finding": "References are prior literature and were not counted as current-paper experiments.",
+          "evidence_ids": ["doc_3d06842c48e86b8b:page5:text", "doc_3d06842c48e86b8b:page5:image"]
+        },
+        {
+          "region": "footnote 13",
+          "finding": "Reports 2-(methyl(phenyl)amino)acetamide in 30% yield from 1e via formal substitution; merged as a byproduct outcome into Table 2 entry 5 rather than duplicated as a new experiment.",
+          "evidence_ids": ["doc_3d06842c48e86b8b:page5:text", "doc_3d06842c48e86b8b:page5:image"]
+        }
+      ],
+      "record_ids": ["doc_3d06842c48e86b8b:table2_entry_05"],
+      "unresolved": ["Footnote 13 does not specify the 30% yield measurement basis or experimental procedure."]
+    }
+  ]
+}

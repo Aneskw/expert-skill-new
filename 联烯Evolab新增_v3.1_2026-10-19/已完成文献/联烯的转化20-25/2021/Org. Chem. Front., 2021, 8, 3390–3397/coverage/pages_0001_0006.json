@@ -1,0 +1,187 @@
+{
+  "document_id": "doc_d31888e9faa3be67",
+  "semantic_accuracy_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "title, abstract and bibliographic block",
+          "finding": "Current paper title, authors, DOI and selectivity summary; no concrete experiment in this region.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page1:text", "doc_d31888e9faa3be67:page1:image"]
+        },
+        {
+          "region": "Scheme 1, equations (1)-(3)",
+          "finding": "Cited prior-work reaction summaries; preserved as literature context, not imported as current-paper experiments.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page1:text", "doc_d31888e9faa3be67:page1:image"]
+        },
+        {
+          "region": "Scheme 1 blue box, equation (4)",
+          "finding": "Generic competing-mode map for [2+2], allenic-C-H Alder-ene and allylic-C-H Alder-ene outcomes.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page1:text", "doc_d31888e9faa3be67:page1:image"]
+        },
+        {
+          "region": "ESI footnote",
+          "finding": "The article says ESI is available, but no SI file was supplied; no SI association was inferred.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page1:text", "doc_d31888e9faa3be67:page1:image"]
+        }
+      ],
+      "record_ids": ["doc_d31888e9faa3be67:scheme1_eq4_competing_modes"],
+      "unresolved": ["Equation (4) is a generic branch map and has no single complete bond inventory.", "SI procedures and characterization are unavailable in this session."]
+    },
+    {
+      "page": 2,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 2, arrows 1-3",
+          "finding": "Three condition-distinct concrete experiments: 1a to 2a, 1b decomposition, and 1c to 2c under toluene/90 °C/8 h.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page2:text", "doc_d31888e9faa3be67:page2:image"]
+        },
+        {
+          "region": "left-column continuation below Scheme 2",
+          "finding": "Prose confirms 73% 2a, decomposition of 1b, and exclusive 58% [2+2] product 2c.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page2:text", "doc_d31888e9faa3be67:page2:image"]
+        },
+        {
+          "region": "right-column Table 1/Table 2 discussion",
+          "finding": "Cross-page prose links the later table rows to Alder-ene, [2+2], Diels-Alder or decomposition outcomes; evidence was merged into the corresponding table records rather than duplicated.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page2:text", "doc_d31888e9faa3be67:page2:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_d31888e9faa3be67:scheme2_1a_to_2a",
+        "doc_d31888e9faa3be67:scheme2_1b_decomposition",
+        "doc_d31888e9faa3be67:scheme2_1c_to_2c"
+      ],
+      "unresolved": ["Scheme 2 does not state the yield measurement basis.", "Charges, scale, solvent volume, atmosphere, workup and purification are not reported in the supplied main text.", "Complex structures remain graphical/unencoded and all stereochemical descriptors remain unspecified rather than assumed achiral or racemic."]
+    },
+    {
+      "page": 3,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 1 header and reaction arrow",
+          "finding": "General conditions: toluene, 90 °C, 6-8 h; table concerns ynamide-tethered tetraynes with different allene moieties.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page3:text", "doc_d31888e9faa3be67:page3:image"]
+        },
+        {
+          "region": "Table 1 entries 1-9",
+          "finding": "Nine thermal experiments transcribed independently, including two decomposition rows without fabricated product participants.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page3:text", "doc_d31888e9faa3be67:page3:image", "doc_d31888e9faa3be67:page2:text"]
+        },
+        {
+          "region": "Table 1 footnotes a-c",
+          "finding": "Footnote a establishes isolated yields; footnote c creates separate 55 °C/5 mol% AgSbF6 decomposition records for entries 2 and 3.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page3:text", "doc_d31888e9faa3be67:page3:image"]
+        },
+        {
+          "region": "prose below Table 1",
+          "finding": "Discussion of 5g/5h continues into Table 2 context and was associated with page-4 records, not counted as new page-3 experiments.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page3:text", "doc_d31888e9faa3be67:page3:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_d31888e9faa3be67:table1_entry1_thermal",
+        "doc_d31888e9faa3be67:table1_entry2_thermal",
+        "doc_d31888e9faa3be67:table1_entry2_AgSbF6",
+        "doc_d31888e9faa3be67:table1_entry3_thermal",
+        "doc_d31888e9faa3be67:table1_entry3_AgSbF6",
+        "doc_d31888e9faa3be67:table1_entry4_thermal",
+        "doc_d31888e9faa3be67:table1_entry5_thermal",
+        "doc_d31888e9faa3be67:table1_entry6_thermal",
+        "doc_d31888e9faa3be67:table1_entry7_thermal",
+        "doc_d31888e9faa3be67:table1_entry8_thermal",
+        "doc_d31888e9faa3be67:table1_entry9_thermal"
+      ],
+      "unresolved": ["The AgSbF6 footnote does not report reaction time.", "No exact atom mapping or complete HDDA bond-change accounting is claimed.", "Graphical structures remain pending expert encoding."]
+    },
+    {
+      "page": 4,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Table 2 header, entries 1-8 and footnotes",
+          "finding": "Eight main rows plus two additional footnote-c AgSbF6/55 °C decomposition experiments; entries 7-8 use footnote-d 150 °C/12 h conditions.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page4:text", "doc_d31888e9faa3be67:page4:image", "doc_d31888e9faa3be67:page2:text", "doc_d31888e9faa3be67:page3:text"]
+        },
+        {
+          "region": "Table 3 header, entries 1-10 and footnotes",
+          "finding": "Six isolated-yield [2+2] cycloadditions and four decomposition experiments under toluene/150 °C/12 h.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page4:text", "doc_d31888e9faa3be67:page4:image"]
+        },
+        {
+          "region": "Table 3 row 10 and following prose",
+          "finding": "Printed expected-product label 8gc conflicts with the prose range 8ga-8gd; because the row decomposes, no observed product participant was created and the discrepancy is retained.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page4:text", "doc_d31888e9faa3be67:page4:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_d31888e9faa3be67:table2_entry1_thermal",
+        "doc_d31888e9faa3be67:table2_entry1_AgSbF6",
+        "doc_d31888e9faa3be67:table2_entry2_thermal",
+        "doc_d31888e9faa3be67:table2_entry2_AgSbF6",
+        "doc_d31888e9faa3be67:table2_entry3_thermal",
+        "doc_d31888e9faa3be67:table2_entry4_thermal",
+        "doc_d31888e9faa3be67:table2_entry5_thermal",
+        "doc_d31888e9faa3be67:table2_entry6_thermal",
+        "doc_d31888e9faa3be67:table2_entry7_thermal",
+        "doc_d31888e9faa3be67:table2_entry8_thermal",
+        "doc_d31888e9faa3be67:table3_entry1",
+        "doc_d31888e9faa3be67:table3_entry2",
+        "doc_d31888e9faa3be67:table3_entry3",
+        "doc_d31888e9faa3be67:table3_entry4",
+        "doc_d31888e9faa3be67:table3_entry5",
+        "doc_d31888e9faa3be67:table3_entry6",
+        "doc_d31888e9faa3be67:table3_entry7",
+        "doc_d31888e9faa3be67:table3_entry8",
+        "doc_d31888e9faa3be67:table3_entry9",
+        "doc_d31888e9faa3be67:table3_entry10"
+      ],
+      "unresolved": ["Table 2 AgSbF6 footnote does not report reaction time.", "Table 3 row-10 intended-product label discrepancy remains unresolved.", "Complex structures and complete atom mapping remain pending expert review."]
+    },
+    {
+      "page": 5,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "Scheme 3 equations (5)-(9)",
+          "finding": "Five generic selectivity trends; stored as separate generic_scheme records, not as concrete experiments or mechanisms.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page5:text", "doc_d31888e9faa3be67:page5:image"]
+        },
+        {
+          "region": "summary and conclusions",
+          "finding": "Narrative synthesis of Scheme 2 and Tables 1-3; no additional independent experiment.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page5:text", "doc_d31888e9faa3be67:page5:image"]
+        },
+        {
+          "region": "conflicts, acknowledgements and references 1-5",
+          "finding": "Non-experimental back matter and citations only.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page5:text", "doc_d31888e9faa3be67:page5:image"]
+        }
+      ],
+      "record_ids": [
+        "doc_d31888e9faa3be67:scheme3_eq5",
+        "doc_d31888e9faa3be67:scheme3_eq6",
+        "doc_d31888e9faa3be67:scheme3_eq7",
+        "doc_d31888e9faa3be67:scheme3_eq8",
+        "doc_d31888e9faa3be67:scheme3_eq9"
+      ],
+      "unresolved": ["R-group templates do not define concrete molecules or unique atom mappings.", "Partial bond labels summarize only the named trapping mode, not every HDDA/aromatization bond-order change."]
+    },
+    {
+      "page": 6,
+      "state": "attempted",
+      "regions": [
+        {
+          "region": "both columns, references 6-11 and HDDA subreferences",
+          "finding": "Bibliography continuation only; cited papers were not imported as experiments from this article.",
+          "evidence_ids": ["doc_d31888e9faa3be67:page6:text", "doc_d31888e9faa3be67:page6:image"]
+        }
+      ],
+      "record_ids": [],
+      "unresolved": ["No current-paper reaction record belongs to this bibliography-only page."]
+    }
+  ]
+}
