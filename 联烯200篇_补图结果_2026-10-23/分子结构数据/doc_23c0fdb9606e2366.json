@@ -1,0 +1,792 @@
+{
+  "document_id": "doc_23c0fdb9606e2366",
+  "source_sha256": "23c0fdb9606e2366fd7c4e5fd49a4e131888cfc957a4e84c7e34368398412a71",
+  "source_relative_paths": [
+    "联烯的转化20-25/2021/Organometallics 2021, 40, 2295−2304.pdf"
+  ],
+  "original_archive": "联烯Evolab新增_v3.1_2026-10-19/已完成文献/联烯的转化20-25/2021/Organometallics 2021, 40, 2295−2304",
+  "original_records_sha256": "c1ad1b73cd5b4e468c2773c35f45181771b9b6bb98ce9c12dbc883c6b581c401",
+  "note": "候选结构与绘图结果；未改变原归档记录。drawable仅表示可绘制，不表示已化学核验。",
+  "molecules": [
+    {
+      "molecule_id": "m_1",
+      "label": "1",
+      "original_smiles": "CC#Cc1ccccc1",
+      "candidate_smiles": "CC#Cc1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_2",
+      "label": "2",
+      "original_smiles": "CCOC(=O)C(=O)C(F)(F)F",
+      "candidate_smiles": "CCOC(=O)C(=O)C(F)(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_1a",
+      "label": "1a",
+      "original_smiles": null,
+      "candidate_smiles": "C=C=[C-](c1ccccc1)->[Fe+2]1234(<-[C-]#[O+])(<-[C-]#[O+])<-[c]5(C)[c]->1(C)[c]->2(C)[c-]->3(C)[c]->45C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C=C=[C-](c1ccccc1)->[Fe+2]1234(<-[C-]#[O+])(<-[C-]#[O+])<-[c]5(C)[c]->1(C)[c]->2(C)[c-]->3(C)[c]->45C",
+        "source_page": 3,
+        "source_region": "Scheme 3上路线中直接画出的Fp*取代末端allenyliron，并由Scheme 7/8复核",
+        "source_label": "1a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "not_applicable",
+        "stereochemistry_text": null,
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "23c0fdb9606e2366fd7c4e5fd49a4e131888cfc957a4e84c7e34368398412a71"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_1ap",
+      "label": "1a'",
+      "original_smiles": null,
+      "candidate_smiles": "C[c]12->[Fe+2]345(<-[C-]#[O+])(<-[C-]#[O+])(<-[CH2-]C#Cc6ccccc6)<-[c]1(C)[c]->3(C)[c-]->4(C)[c]->52C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C[c]12->[Fe+2]345(<-[C-]#[O+])(<-[C-]#[O+])(<-[CH2-]C#Cc6ccccc6)<-[c]1(C)[c]->3(C)[c-]->4(C)[c]->52C",
+        "source_page": 5,
+        "source_region": "Scheme 7、Table 1及Scheme 8中1a异构化所得η1-propargyliron",
+        "source_label": "1a'",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "not_applicable",
+        "stereochemistry_text": null,
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "23c0fdb9606e2366fd7c4e5fd49a4e131888cfc957a4e84c7e34368398412a71"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_1app",
+      "label": "1a''",
+      "original_smiles": null,
+      "candidate_smiles": "C[c]12->[Fe+2]34567(<-[C-]#[O+])(<-[CH2]=[C]->3=[C-]->4c3ccccc3)<-[c]1(C)[c]->5(C)[c-]->6(C)[c]->72C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C[c]12->[Fe+2]34567(<-[C-]#[O+])(<-[CH2]=[C]->3=[C-]->4c3ccccc3)<-[c]1(C)[c]->5(C)[c-]->6(C)[c]->72C",
+        "source_page": 5,
+        "source_region": "Scheme 8中1a可见光脱羰基定量形成的Cp*Fe(CO)(η3-1-phenylallen-1-yl)",
+        "source_label": "1a''",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "not_applicable",
+        "stereochemistry_text": null,
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "23c0fdb9606e2366fd7c4e5fd49a4e131888cfc957a4e84c7e34368398412a71"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_3",
+      "label": "3",
+      "original_smiles": null,
+      "candidate_smiles": "CCOC(=O)C1(C(F)(F)F)C[C-](->[Fe+2]2345(<-[C-]#[O+])(<-[C-]#[O+])<-[c]6(C)[c]->2(C)[c]->3(C)[c-]->4(C)[c]->56C)=C(c2ccccc2)O1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CCOC(=O)C1(C(F)(F)F)C[C-](->[Fe+2]2345(<-[C-]#[O+])(<-[C-]#[O+])<-[c]6(C)[c]->2(C)[c]->3(C)[c-]->4(C)[c]->56C)=C(c2ccccc2)O1",
+        "source_page": 3,
+        "source_region": "Scheme 3中1a/1与ethyl trifluoropyruvate 2所得vinyliron dihydrofuran及Figure 1 X-ray",
+        "source_label": "3",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "环上带CF3和CO2Et的季碳为立体中心；主文结构图和Figure 1未给绝对构型，故仅编码连接与配位。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "23c0fdb9606e2366fd7c4e5fd49a4e131888cfc957a4e84c7e34368398412a71"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_3a",
+      "label": "3a",
+      "original_smiles": "CCOC(=O)C1(C(F)(F)F)CC(Br)=C(c2ccccc2)O1",
+      "candidate_smiles": "CCOC(=O)C1(C(F)(F)F)CC(Br)=C(c2ccccc2)O1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_3b",
+      "label": "3b",
+      "original_smiles": "CCOC(=O)C1(C(F)(F)F)CC(C(=O)OCC)=C(c2ccccc2)O1",
+      "candidate_smiles": "CCOC(=O)C1(C(F)(F)F)CC(C(=O)OCC)=C(c2ccccc2)O1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_3c",
+      "label": "3c",
+      "original_smiles": "CCOC(=O)C1(C(F)(F)F)CC(I)=C(c2ccccc2)O1",
+      "candidate_smiles": "CCOC(=O)C1(C(F)(F)F)CC(I)=C(c2ccccc2)O1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_3d",
+      "label": "3d",
+      "original_smiles": "CCOC(=O)C(O)(C(F)(F)F)CCC(=O)c1ccccc1",
+      "candidate_smiles": "CCOC(=O)C(O)(C(F)(F)F)CCC(=O)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_4",
+      "label": "4",
+      "original_smiles": "CCC#Cc1ccccc1",
+      "candidate_smiles": "CCC#Cc1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_5",
+      "label": "5",
+      "original_smiles": "Cc1ccc(S(=O)(=O)N=C=O)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)N=C=O)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_6",
+      "label": "6",
+      "original_smiles": null,
+      "candidate_smiles": "CC1=[C-](->[Fe+2]2345(<-[C-]#[O+])(<-[C-]#[O+])<-[c]6(C)[c]->2(C)[c]->3(C)[c-]->4(C)[c]->56C)C(=O)N(S(=O)(=O)c2ccc(C)cc2)C1c1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC1=[C-](->[Fe+2]2345(<-[C-]#[O+])(<-[C-]#[O+])<-[c]6(C)[c]->2(C)[c]->3(C)[c-]->4(C)[c]->56C)C(=O)N(S(=O)(=O)c2ccc(C)cc2)C1c1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 4中4/5或7a/5所得1,5-dihydropyrrolone vinyliron及Figure 2 X-ray",
+        "source_label": "6",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "苯基所在环碳为立体中心；正文只报告晶体学确认连接和Fe–C键长，未给绝对构型。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "23c0fdb9606e2366fd7c4e5fd49a4e131888cfc957a4e84c7e34368398412a71"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_6p",
+      "label": "6'",
+      "original_smiles": null,
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)N2C(=O)C(C)[C-](->[Fe+2]3456(<-[C-]#[O+])(<-[C-]#[O+])<-[c]7(C)[c]->3(C)[c]->4(C)[c-]->5(C)[c]->67C)=C2c2ccccc2)cc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "Cc1ccc(S(=O)(=O)N2C(=O)C(C)[C-](->[Fe+2]3456(<-[C-]#[O+])(<-[C-]#[O+])<-[c]7(C)[c]->3(C)[c]->4(C)[c-]->5(C)[c]->67C)=C2c2ccccc2)cc1",
+        "source_page": 3,
+        "source_region": "Scheme 4中7a与tosyl isocyanate 5在24 °C、1 h所得初始互变异构体",
+        "source_label": "6'",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "带甲基的饱和环碳为立体中心；原图未给绝对构型，故仅编码连接与配位。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "23c0fdb9606e2366fd7c4e5fd49a4e131888cfc957a4e84c7e34368398412a71"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_7a",
+      "label": "7a",
+      "original_smiles": null,
+      "candidate_smiles": "CC=C=[C-](c1ccccc1)->[Fe+2]1234(<-[C-]#[O+])(<-[C-]#[O+])<-[c]5(C)[c]->1(C)[c]->2(C)[c-]->3(C)[c]->45C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC=C=[C-](c1ccccc1)->[Fe+2]1234(<-[C-]#[O+])(<-[C-]#[O+])<-[c]5(C)[c]->1(C)[c]->2(C)[c-]->3(C)[c]->45C",
+        "source_page": 3,
+        "source_region": "Scheme 4中由1-phenyl-1-butyne得到、与5反应的Fp*型η1-allenyliron",
+        "source_label": "7a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图以楔线/虚线画出互相正交的取代基，但未给轴手性描述符或绝对构型；SMILES保留确证连接与金属配位，不指定联烯轴构型。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "23c0fdb9606e2366fd7c4e5fd49a4e131888cfc957a4e84c7e34368398412a71"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_7b",
+      "label": "7b",
+      "original_smiles": null,
+      "candidate_smiles": "CC=C=[C-](c1ccccc1)->[Fe+2]1234(<-[C-]#[O+])(<-[C-]#[O+])<-[cH]5[cH]->1[cH]->2[cH-]->3[cH]->45",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC=C=[C-](c1ccccc1)->[Fe+2]1234(<-[C-]#[O+])(<-[C-]#[O+])<-[cH]5[cH]->1[cH]->2[cH-]->3[cH]->45",
+        "source_page": 4,
+        "source_region": "Scheme 5与Scheme 6中由1-phenyl-1-butyne得到的Fp型η1-allenyliron",
+        "source_label": "7b",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图以楔线/虚线画出互相正交的取代基，但未给轴手性描述符或绝对构型；SMILES保留确证连接与金属配位，不指定联烯轴构型。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "23c0fdb9606e2366fd7c4e5fd49a4e131888cfc957a4e84c7e34368398412a71"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_11",
+      "label": "11",
+      "original_smiles": null,
+      "candidate_smiles": "CC=C=[C-](CC)->[Fe+2]1234(<-[C-]#[O+])(<-[C-]#[O+])<-[cH]5[cH]->1[cH]->2[cH-]->3[cH]->45",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC=C=[C-](CC)->[Fe+2]1234(<-[C-]#[O+])(<-[C-]#[O+])<-[cH]5[cH]->1[cH]->2[cH-]->3[cH]->45",
+        "source_page": 4,
+        "source_region": "Scheme 5中由3-hexyne得到并与9c反应的二烷基取代η1-allenyliron",
+        "source_label": "11",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图以楔线/虚线画出互相正交的取代基，但未给轴手性描述符或绝对构型；SMILES保留确证连接与金属配位，不指定联烯轴构型。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "23c0fdb9606e2366fd7c4e5fd49a4e131888cfc957a4e84c7e34368398412a71"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_6a",
+      "label": "6a",
+      "original_smiles": "Cc1ccc(S(=O)(=O)N2C(=O)C(I)=C(C)C2c2ccccc2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)N2C(=O)C(I)=C(C)C2c2ccccc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_9a",
+      "label": "9a",
+      "original_smiles": "N#[N+]c1ccccc1.[B-](F)(F)(F)F",
+      "candidate_smiles": "N#[N+]c1ccccc1.[B-](F)(F)(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_9b",
+      "label": "9b",
+      "original_smiles": "COc1ccc([N+]#N)cc1.[B-](F)(F)(F)F",
+      "candidate_smiles": "COc1ccc([N+]#N)cc1.[B-](F)(F)(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_9c",
+      "label": "9c",
+      "original_smiles": "O=[N+]([O-])c1ccc([N+]#N)cc1.[B-](F)(F)(F)F",
+      "candidate_smiles": "O=[N+]([O-])c1ccc([N+]#N)cc1.[B-](F)(F)(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_9d",
+      "label": "9d",
+      "original_smiles": "COC(=O)c1ccc([N+]#N)cc1.[B-](F)(F)(F)F",
+      "candidate_smiles": "COC(=O)c1ccc([N+]#N)cc1.[B-](F)(F)(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_10a",
+      "label": "10a",
+      "original_smiles": "Cc1cc(-c2ccccc2)nn1-c1ccccc1",
+      "candidate_smiles": "Cc1cc(-c2ccccc2)nn1-c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_10b",
+      "label": "10b",
+      "original_smiles": "COc1ccc(-n2nc(-c3ccccc3)cc2C)cc1",
+      "candidate_smiles": "COc1ccc(-n2nc(-c3ccccc3)cc2C)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_10c",
+      "label": "10c",
+      "original_smiles": "Cc1cc(-c2ccccc2)nn1-c1ccc([N+](=O)[O-])cc1",
+      "candidate_smiles": "Cc1cc(-c2ccccc2)nn1-c1ccc([N+](=O)[O-])cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_10cp",
+      "label": "10c'",
+      "original_smiles": "Cc1nn(-c2ccc([N+](=O)[O-])cc2)cc1-c1ccccc1",
+      "candidate_smiles": "Cc1nn(-c2ccc([N+](=O)[O-])cc2)cc1-c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_10d",
+      "label": "10d",
+      "original_smiles": "COC(=O)c1ccc(-n2nc(-c3ccccc3)cc2C)cc1",
+      "candidate_smiles": "COC(=O)c1ccc(-n2nc(-c3ccccc3)cc2C)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_12",
+      "label": "12",
+      "original_smiles": "CCc1cc(C)n(-c2ccc([N+](=O)[O-])cc2)n1",
+      "candidate_smiles": "CCc1cc(C)n(-c2ccc([N+](=O)[O-])cc2)n1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_13",
+      "label": "13",
+      "original_smiles": "CC(C)OC(=O)N=NC(=O)OC(C)C",
+      "candidate_smiles": "CC(C)OC(=O)N=NC(=O)OC(C)C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_14",
+      "label": "14",
+      "original_smiles": "CC(C)OC(=O)n1nc(-c2ccccc2)cc1C",
+      "candidate_smiles": "CC(C)OC(=O)n1nc(-c2ccccc2)cc1C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_fpthf",
+      "label": "[Fp*(thf)]+BF4-",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_fpstar_i",
+      "label": "Fp*I",
+      "original_smiles": null,
+      "candidate_smiles": "C[c]12->[Fe+2]345(<-[I-])(<-[C-]#[O+])(<-[C-]#[O+])<-[c]1(C)[c]->3(C)[c-]->4(C)[c]->52C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C[c]12->[Fe+2]345(<-[I-])(<-[C-]#[O+])(<-[C-]#[O+])<-[c]1(C)[c]->3(C)[c-]->4(C)[c]->52C",
+        "source_page": 3,
+        "source_region": "Scheme 4底部6碘解反应中直接画出的回收pentamethylcyclopentadienyliron dicarbonyl iodide",
+        "source_label": "Fp*I",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "not_applicable",
+        "stereochemistry_text": null,
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "23c0fdb9606e2366fd7c4e5fd49a4e131888cfc957a4e84c7e34368398412a71"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_fpstar2",
+      "label": "Fp*2",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_agbf4",
+      "label": "AgBF4",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_bf3",
+      "label": "BF3·Et2O",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_tmph",
+      "label": "TMPH",
+      "original_smiles": "CC1(C)CCCC(C)(C)N1",
+      "candidate_smiles": "CC1(C)CCCC(C)(C)N1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_dce",
+      "label": "DCE",
+      "original_smiles": "ClCCCl",
+      "candidate_smiles": "ClCCCl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_ch2cl2",
+      "label": "CH2Cl2",
+      "original_smiles": "ClCCl",
+      "candidate_smiles": "ClCCl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_chcl3",
+      "label": "CHCl3",
+      "original_smiles": "ClC(Cl)Cl",
+      "candidate_smiles": "ClC(Cl)Cl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_nbs",
+      "label": "NBS",
+      "original_smiles": "O=C1CCC(=O)N1Br",
+      "candidate_smiles": "O=C1CCC(=O)N1Br",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_can",
+      "label": "CAN",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_k2co3",
+      "label": "K2CO3",
+      "original_smiles": "O=C([O-])[O-].[K+].[K+]",
+      "candidate_smiles": "O=C([O-])[O-].[K+].[K+]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_etoh",
+      "label": "EtOH",
+      "original_smiles": "CCO",
+      "candidate_smiles": "CCO",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_i2",
+      "label": "I2",
+      "original_smiles": "II",
+      "candidate_smiles": "II",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_tfa",
+      "label": "TFA",
+      "original_smiles": "O=C(O)C(F)(F)F",
+      "candidate_smiles": "O=C(O)C(F)(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_water",
+      "label": "water",
+      "original_smiles": "O",
+      "candidate_smiles": "O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_et3n",
+      "label": "Et3N",
+      "original_smiles": "CCN(CC)CC",
+      "candidate_smiles": "CCN(CC)CC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_et3nhbf4",
+      "label": "[Et3NH]+[BF4]-",
+      "original_smiles": "CC[NH+](CC)CC.[B-](F)(F)(F)F",
+      "candidate_smiles": "CC[NH+](CC)CC.[B-](F)(F)(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_c6d6",
+      "label": "C6D6",
+      "original_smiles": "[2H]c1c([2H])c([2H])c([2H])c([2H])c1[2H]",
+      "candidate_smiles": "[2H]c1c([2H])c([2H])c([2H])c([2H])c1[2H]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_o2",
+      "label": "O2",
+      "original_smiles": "[O][O]",
+      "candidate_smiles": "[O][O]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_bpo",
+      "label": "BzOOBz",
+      "original_smiles": "O=C(OOC(=O)c1ccccc1)c1ccccc1",
+      "candidate_smiles": "O=C(OOC(=O)c1ccccc1)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_tempo",
+      "label": "TEMPO",
+      "original_smiles": "CC1(C)CCCC(C)(C)N1[O]",
+      "candidate_smiles": "CC1(C)CCCC(C)(C)N1[O]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_dha",
+      "label": "DHA",
+      "original_smiles": "c1ccc2c(c1)Cc1ccccc1C2",
+      "candidate_smiles": "c1ccc2c(c1)Cc1ccccc1C2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_co",
+      "label": "CO",
+      "original_smiles": "[C-]#[O+]",
+      "candidate_smiles": "[C-]#[O+]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_silica",
+      "label": "silica gel",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_alumina",
+      "label": "neutral aluminum oxide",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_hexanes",
+      "label": "hexanes",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_etoac",
+      "label": "EtOAc",
+      "original_smiles": "CCOC(C)=O",
+      "candidate_smiles": "CCOC(C)=O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_onepot6_substrate_conflict",
+      "label": "m_onepot6_substrate_conflict",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_br2",
+      "label": "Br2",
+      "original_smiles": "BrBr",
+      "candidate_smiles": "BrBr",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_basic_alumina",
+      "label": "basic aluminum oxide",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_p7_alt6a_start_literal",
+      "label": "6a (printed starting-material label)",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_generic_allenyliron_pyrazole_gp",
+      "label": "allenyliron complex",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_generic_diazonium_pyrazole_gp",
+      "label": "diazonium tetrafluoroborate",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_benzaldehyde_tosylimine",
+      "label": "benzaldehyde tosylimine",
+      "original_smiles": "Cc1ccc(S(=O)(=O)N=Cc2ccccc2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)N=Cc2ccccc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_eq1_dihydropyrrole",
+      "label": "N-tosyl-4,5-diphenyl-1H-2,5-dihydropyrrole",
+      "original_smiles": "Cc1ccc(S(=O)(=O)N2CC=C(c3ccccc3)C2c2ccccc2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)N2CC=C(c3ccccc3)C2c2ccccc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    }
+  ]
+}

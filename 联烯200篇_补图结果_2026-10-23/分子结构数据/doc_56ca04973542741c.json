@@ -1,0 +1,234 @@
+{
+  "document_id": "doc_56ca04973542741c",
+  "source_sha256": "56ca04973542741c46c83ba1539ba8c307d12d714a8709ac4ec6c746f7d118ee",
+  "source_relative_paths": [
+    "联烯的转化20-25/2021/Macromolecules 2021, 54, 8822−8828.pdf"
+  ],
+  "original_archive": "联烯Evolab新增_v3.1_2026-10-19/已完成文献/联烯的转化20-25/2021/Macromolecules 2021, 54, 8822−8828",
+  "original_records_sha256": "21a372fe032c0058326ba1b55f57320465154d93302246c9130dcaa7c1b09330",
+  "note": "候选结构与绘图结果；未改变原归档记录。drawable仅表示可绘制，不表示已化学核验。",
+  "molecules": [
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:1",
+      "label": "1",
+      "original_smiles": "C=C=CB1OC(C)(C)C(C)(C)O1",
+      "candidate_smiles": "C=C=CB1OC(C)(C)C(C)(C)O1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:2",
+      "label": "2",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:3",
+      "label": "3",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:4",
+      "label": "4",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:5",
+      "label": "5",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:toluene",
+      "label": "toluene",
+      "original_smiles": "Cc1ccccc1",
+      "candidate_smiles": "Cc1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:thf",
+      "label": "THF",
+      "original_smiles": "C1CCOC1",
+      "candidate_smiles": "C1CCOC1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:ether",
+      "label": "Et2O",
+      "original_smiles": "CCOCC",
+      "candidate_smiles": "CCOCC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:cdcl3",
+      "label": "CDCl3",
+      "original_smiles": "[2H]C(Cl)(Cl)Cl",
+      "candidate_smiles": "[2H]C(Cl)(Cl)Cl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:dcm",
+      "label": "DCM",
+      "original_smiles": "ClCCl",
+      "candidate_smiles": "ClCCl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:meoh",
+      "label": "MeOH",
+      "original_smiles": "CO",
+      "candidate_smiles": "CO",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:alumina",
+      "label": "basic alumina",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:nonadiene",
+      "label": "1,2-nonadiene",
+      "original_smiles": "C=C=CCCCCCC",
+      "candidate_smiles": "C=C=CCCCCCC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:beta_pinadiene",
+      "label": "β-pinadiene",
+      "original_smiles": null,
+      "candidate_smiles": "C=C=C1CCC2CC1C2(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C=C=C1CCC2CC1C2(C)C",
+        "source_page": 4,
+        "source_region": "Figure 4A第二条共聚路线左侧直接画出的萜烯联烯单体",
+        "source_label": "β-pinadiene",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "Figure 4A未用楔线、虚线或名称指派两个桥头中心的绝对/相对构型；末端为CH2的联烯不构成可指派轴手性，仅编码图示连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "56ca04973542741c46c83ba1539ba8c307d12d714a8709ac4ec6c746f7d118ee"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:6",
+      "label": "6",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:7",
+      "label": "7",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:phbr",
+      "label": "Ph-Br",
+      "original_smiles": "Brc1ccccc1",
+      "candidate_smiles": "Brc1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:pdpph3",
+      "label": "Pd(PPh3)4",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:k2co3",
+      "label": "K2CO3",
+      "original_smiles": "[K+].[K+].[O-]C([O-])=O",
+      "candidate_smiles": "[K+].[K+].[O-]C([O-])=O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:water",
+      "label": "H2O",
+      "original_smiles": "O",
+      "candidate_smiles": "O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_56ca04973542741c:mol:8",
+      "label": "8",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    }
+  ]
+}

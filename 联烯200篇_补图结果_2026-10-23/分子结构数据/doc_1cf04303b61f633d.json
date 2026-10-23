@@ -1,0 +1,797 @@
+{
+  "document_id": "doc_1cf04303b61f633d",
+  "source_sha256": "1cf04303b61f633dffa3c2492742203d608497bce1b92accb81c3a5883d55cd6",
+  "source_relative_paths": [
+    "联烯的转化20-25/2021/Eur. J. Org. Chem. 2021, 4054.pdf"
+  ],
+  "original_archive": "联烯Evolab成果_v3.1_114篇_2026-10-18/联烯相关文献/联烯的转化20-25/2021/Eur. J. Org. Chem. 2021, 4054",
+  "original_records_sha256": "0e8d4923b01be8f55b4583a107a14f020f99460a1944c574e4bb7752d31b2bd7",
+  "note": "候选结构与绘图结果；未改变原归档记录。drawable仅表示可绘制，不表示已化学核验。",
+  "molecules": [
+    {
+      "molecule_id": "m_1a",
+      "label": "1a",
+      "original_smiles": "CC(CCc1ccccc1)=C=C(F)F",
+      "candidate_smiles": "CC(CCc1ccccc1)=C=C(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_1b",
+      "label": "1b",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=O)Oc1ccc(CCC(C)=C=C(F)F)cc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=O)Oc1ccc(CCC(C)=C=C(F)F)cc1",
+        "source_page": 3,
+        "source_region": "Table 2 substrate b",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_1c",
+      "label": "1c",
+      "original_smiles": null,
+      "candidate_smiles": "COc1ccc(CCC(C)=C=C(F)F)cc1OC",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "COc1ccc(CCC(C)=C=C(F)F)cc1OC",
+        "source_page": 3,
+        "source_region": "Table 2 substrate c",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_1d",
+      "label": "1d",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=C=C(F)F)C(Cc1ccccc1)c1cn(Cc2ccccc2)c2ccccc12",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=C=C(F)F)C(Cc1ccccc1)c1cn(Cc2ccccc2)c2ccccc12",
+        "source_page": 3,
+        "source_region": "Table 2产物4d结构、表头通式及1d/4d编号对应关系",
+        "source_label": "1d",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "底物侧链次甲基碳为潜在手性中心；原图未给楔线、绝对构型或组成，故保持未指定。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "1cf04303b61f633dffa3c2492742203d608497bce1b92accb81c3a5883d55cd6"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_1e",
+      "label": "1e",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=C=C(F)F)COc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=C=C(F)F)COc1ccccc1",
+        "source_page": 3,
+        "source_region": "Table 2 substrate e",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_1f",
+      "label": "1f",
+      "original_smiles": null,
+      "candidate_smiles": "CCCCCCCCCCCCCC(C)=C=C(F)F",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CCCCCCCCCCCCCC(C)=C=C(F)F",
+        "source_page": 3,
+        "source_region": "Table 2 substrate f",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_1g",
+      "label": "1g",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=C=C(F)F)C12CC3CC(CC(C3)C1)C2",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=C=C(F)F)C12CC3CC(CC(C3)C1)C2",
+        "source_page": 3,
+        "source_region": "Table 2产物4g结构、表头通式及1g/4g编号对应关系",
+        "source_label": "1g",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "not_applicable",
+        "stereochemistry_text": null,
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "1cf04303b61f633dffa3c2492742203d608497bce1b92accb81c3a5883d55cd6"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_1h",
+      "label": "1h",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=O)OCCCCCCCCC=C=C(F)F",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=O)OCCCCCCCCC=C=C(F)F",
+        "source_page": 3,
+        "source_region": "Table 2 substrate h",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_1i",
+      "label": "1i",
+      "original_smiles": null,
+      "candidate_smiles": "CC(CC=C=C(F)F)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(CC=C=C(F)F)c1ccccc1",
+        "source_page": 3,
+        "source_region": "Table 2 substrate i",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_1j",
+      "label": "1j",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C=C=C(F)F)Cc1ccc(C(C)(C)C)cc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C=C=C(F)F)Cc1ccc(C(C)(C)C)cc1",
+        "source_page": 3,
+        "source_region": "Table 2 substrate j",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_2a",
+      "label": "2a",
+      "original_smiles": "CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C",
+      "candidate_smiles": "CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_3",
+      "label": "3",
+      "original_smiles": "C[Si](C)(c1ccccc1)B1OC(C)(C)C(C)(C)O1",
+      "candidate_smiles": "C[Si](C)(c1ccccc1)B1OC(C)(C)C(C)(C)O1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_CuI",
+      "label": "CuI",
+      "original_smiles": "[Cu]I",
+      "candidate_smiles": "[Cu]I",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_KOtBu",
+      "label": "KOtBu",
+      "original_smiles": "CC(C)(C)[O-].[K+]",
+      "candidate_smiles": "CC(C)(C)[O-].[K+]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_tBuOH",
+      "label": "tBuOH",
+      "original_smiles": "CC(C)(C)O",
+      "candidate_smiles": "CC(C)(C)O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_THF",
+      "label": "THF",
+      "original_smiles": "C1CCOC1",
+      "candidate_smiles": "C1CCOC1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_PPh3",
+      "label": "PPh3",
+      "original_smiles": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+      "candidate_smiles": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_NaH",
+      "label": "NaH",
+      "original_smiles": "[Na+].[H-]",
+      "candidate_smiles": "[Na+].[H-]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_DMSO",
+      "label": "DMSO",
+      "original_smiles": "CS(C)=O",
+      "candidate_smiles": "CS(C)=O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_ClCH2Br",
+      "label": "ClCH2Br",
+      "original_smiles": "ClCBr",
+      "candidate_smiles": "ClCBr",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_benzaldehyde",
+      "label": "PhCHO",
+      "original_smiles": "O=Cc1ccccc1",
+      "candidate_smiles": "O=Cc1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_TFAA",
+      "label": "TFAA",
+      "original_smiles": "O=C(OC(=O)C(F)(F)F)C(F)(F)F",
+      "candidate_smiles": "O=C(OC(=O)C(F)(F)F)C(F)(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_NaOH",
+      "label": "NaOH(aq.)",
+      "original_smiles": "[Na+].[OH-]",
+      "candidate_smiles": "[Na+].[OH-]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_H2O2",
+      "label": "H2O2",
+      "original_smiles": "OO",
+      "candidate_smiles": "OO",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_L1",
+      "label": "L1",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_L2",
+      "label": "L2",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_L3",
+      "label": "L3",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_BpinBdan",
+      "label": "Bpin-Bdan",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_diboron_2",
+      "label": "Table 3 diboron reagent 2 (middle)",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_diboron_3",
+      "label": "Table 3 diboron reagent 2 (right)",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_nBuLi",
+      "label": "nBuLi",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_4a",
+      "label": "4a",
+      "original_smiles": "CC(CCc1ccccc1)(B1OC(C)(C)C(C)(C)O1)C=C(F)F",
+      "candidate_smiles": "CC(CCc1ccccc1)(B1OC(C)(C)C(C)(C)O1)C=C(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_5a",
+      "label": "5a",
+      "original_smiles": "CC(CCc1ccccc1)([Si](C)(C)c1ccccc1)C=C(F)F",
+      "candidate_smiles": "CC(CCc1ccccc1)([Si](C)(C)c1ccccc1)C=C(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_4b",
+      "label": "4b",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=O)Oc1ccc(CCC(C)(C=C(F)F)B2OC(C)(C)C(C)(C)O2)cc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=O)Oc1ccc(CCC(C)(C=C(F)F)B2OC(C)(C)C(C)(C)O2)cc1",
+        "source_page": 3,
+        "source_region": "Table 2 product 4b",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_4c",
+      "label": "4c",
+      "original_smiles": null,
+      "candidate_smiles": "COc1ccc(CCC(C)(C=C(F)F)B2OC(C)(C)C(C)(C)O2)cc1OC",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "COc1ccc(CCC(C)(C=C(F)F)B2OC(C)(C)C(C)(C)O2)cc1OC",
+        "source_page": 3,
+        "source_region": "Table 2 product 4c",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_4d",
+      "label": "4d",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C=C(F)F)(B1OC(C)(C)C(C)(C)O1)C(Cc1ccccc1)c1cn(Cc2ccccc2)c2ccccc12",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C=C(F)F)(B1OC(C)(C)C(C)(C)O1)C(Cc1ccccc1)c1cn(Cc2ccccc2)c2ccccc12",
+        "source_page": 3,
+        "source_region": "Table 2底物范围中吲哚取代产物4d",
+        "source_label": "4d",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原文报告dr = 93:7，但未给各非对映体绝对构型；补录共用连接骨架，两个潜在中心均不指定。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "1cf04303b61f633dffa3c2492742203d608497bce1b92accb81c3a5883d55cd6"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_4e",
+      "label": "4e",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C=C(F)F)(COc1ccccc1)B1OC(C)(C)C(C)(C)O1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C=C(F)F)(COc1ccccc1)B1OC(C)(C)C(C)(C)O1",
+        "source_page": 3,
+        "source_region": "Table 2 product 4e",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_4f",
+      "label": "4f",
+      "original_smiles": null,
+      "candidate_smiles": "CCCCCCCCCCCCCC(C)(C=C(F)F)B1OC(C)(C)C(C)(C)O1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CCCCCCCCCCCCCC(C)(C=C(F)F)B1OC(C)(C)C(C)(C)O1",
+        "source_page": 3,
+        "source_region": "Table 2 product 4f",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_4g",
+      "label": "4g",
+      "original_smiles": null,
+      "candidate_smiles": "CC1(C)OB(C(C)(C=C(F)F)C23CC4CC(CC(C4)C2)C3)OC1(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC1(C)OB(C(C)(C=C(F)F)C23CC4CC(CC(C4)C2)C3)OC1(C)C",
+        "source_page": 3,
+        "source_region": "Table 2底物范围中金刚烷取代产物4g",
+        "source_label": "4g",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "新生成的季碳连接Me、Bpin、CH=CF2和1-金刚烷基，原文未指定其构型。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "1cf04303b61f633dffa3c2492742203d608497bce1b92accb81c3a5883d55cd6"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_4i",
+      "label": "4i",
+      "original_smiles": null,
+      "candidate_smiles": "CC(CC(C=C(F)F)B1OC(C)(C)C(C)(C)O1)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(CC(C=C(F)F)B1OC(C)(C)C(C)(C)O1)c1ccccc1",
+        "source_page": 3,
+        "source_region": "Table 2 product 4i",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_4j",
+      "label": "4j",
+      "original_smiles": null,
+      "candidate_smiles": "CC(Cc1ccc(C(C)(C)C)cc1)C(C=C(F)F)B1OC(C)(C)C(C)(C)O1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(Cc1ccc(C(C)(C)C)cc1)C(C=C(F)F)B1OC(C)(C)C(C)(C)O1",
+        "source_page": 3,
+        "source_region": "Table 2 product 4j",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_6",
+      "label": "6",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C=C(F)F)(CCc1ccccc1)B1Nc2cccc3cccc(c23)N1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C=C(F)F)(CCc1ccccc1)B1Nc2cccc3cccc(c23)N1",
+        "source_page": 3,
+        "source_region": "Table 2底部以Bpin-Bdan制得的产物6",
+        "source_label": "6",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "新生成的季碳连接Me、Bdan、CH=CF2和苯乙基，原文未指定其构型；Bdan按1,8-二氨基萘硼基展开。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "1cf04303b61f633dffa3c2492742203d608497bce1b92accb81c3a5883d55cd6"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_5b",
+      "label": "5b",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=O)Oc1ccc(CCC(C)(C=C(F)F)[Si](C)(C)c2ccccc2)cc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=O)Oc1ccc(CCC(C)(C=C(F)F)[Si](C)(C)c2ccccc2)cc1",
+        "source_page": 3,
+        "source_region": "Table 2 product 5b",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_5c",
+      "label": "5c",
+      "original_smiles": null,
+      "candidate_smiles": "COc1ccc(CCC(C)(C=C(F)F)[Si](C)(C)c2ccccc2)cc1OC",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "COc1ccc(CCC(C)(C=C(F)F)[Si](C)(C)c2ccccc2)cc1OC",
+        "source_page": 3,
+        "source_region": "Table 2 product 5c",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_5e",
+      "label": "5e",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C=C(F)F)(COc1ccccc1)[Si](C)(C)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C=C(F)F)(COc1ccccc1)[Si](C)(C)c1ccccc1",
+        "source_page": 3,
+        "source_region": "Table 2 product 5e",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_5f",
+      "label": "5f",
+      "original_smiles": null,
+      "candidate_smiles": "CCCCCCCCCCCCCC(C)(C=C(F)F)[Si](C)(C)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CCCCCCCCCCCCCC(C)(C=C(F)F)[Si](C)(C)c1ccccc1",
+        "source_page": 3,
+        "source_region": "Table 2 product 5f",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_5h",
+      "label": "5h",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=O)OCCCCCCCCC(C=C(F)F)[Si](C)(C)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=O)OCCCCCCCCC(C=C(F)F)[Si](C)(C)c1ccccc1",
+        "source_page": 3,
+        "source_region": "Table 2 product 5h",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_5i",
+      "label": "5i",
+      "original_smiles": null,
+      "candidate_smiles": "CC(CC(C=C(F)F)[Si](C)(C)c1ccccc1)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(CC(C=C(F)F)[Si](C)(C)c1ccccc1)c1ccccc1",
+        "source_page": 3,
+        "source_region": "Table 2 product 5i",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_5j",
+      "label": "5j",
+      "original_smiles": null,
+      "candidate_smiles": "CC(Cc1ccc(C(C)(C)C)cc1)C(C=C(F)F)[Si](C)(C)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(Cc1ccc(C(C)(C)C)cc1)C(C=C(F)F)[Si](C)(C)c1ccccc1",
+        "source_page": 3,
+        "source_region": "Table 2 product 5j",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_8",
+      "label": "8",
+      "original_smiles": null,
+      "candidate_smiles": "CC(O)(C=C(F)F)CCc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(O)(C=C(F)F)CCc1ccccc1",
+        "source_page": 3,
+        "source_region": "Table 3 product 8",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_9",
+      "label": "9",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C=C(F)F)(CCc1ccccc1)CB1OC(C)(C)C(C)(C)O1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C=C(F)F)(CCc1ccccc1)CB1OC(C)(C)C(C)(C)O1",
+        "source_page": 3,
+        "source_region": "Scheme 2 product 9",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_10",
+      "label": "10",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C=C(F)F)(CCc1ccccc1)B1COC(C)(C)C(C)(C)O1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C=C(F)F)(CCc1ccccc1)B1COC(C)(C)C(C)(C)O1",
+        "source_page": 3,
+        "source_region": "Scheme 2式(3)中氧迁移生成的扩环硼酸酯10",
+        "source_label": "10",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图明确B-CH2-O-C-C-O六元扩环硼酸酯连接；与硼相连的季碳构型未指定。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "1cf04303b61f633dffa3c2492742203d608497bce1b92accb81c3a5883d55cd6"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_11",
+      "label": "11",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CCc1ccccc1)C(F)F",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CCc1ccccc1)C(F)F",
+        "source_page": 3,
+        "source_region": "Scheme 2 product 11",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_12",
+      "label": "12",
+      "original_smiles": null,
+      "candidate_smiles": "CC(CC=CC(F)(F)C(O)c1ccccc1)c1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(CC=CC(F)(F)C(O)c1ccccc1)c1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 2式(5)中4i与苯甲醛反应产物12",
+        "source_label": "12",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原文报告E/Z > 95:5、dr = 60:40并以波浪键表示混合物；仅编码共用连接骨架，不指定双键几何或两个手性中心。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "1cf04303b61f633dffa3c2492742203d608497bce1b92accb81c3a5883d55cd6"
+      },
+      "used_in_specific_experiments": true
+    }
+  ]
+}

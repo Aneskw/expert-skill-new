@@ -1,0 +1,528 @@
+{
+  "document_id": "doc_041e35a0008dd7ec",
+  "source_sha256": "041e35a0008dd7ec3a3545d09ecda5f8f82e7759749473cea6256464a11b03cb",
+  "source_relative_paths": [
+    "联烯的转化20-25/2021/Org. Lett. 2021, 23, 9559−9562.pdf"
+  ],
+  "original_archive": "联烯Evolab新增_v3.1_2026-10-19/已完成文献/联烯的转化20-25/2021/Org. Lett. 2021, 23, 9559−9562",
+  "original_records_sha256": "665fb9fa94f816251b260411cc646a4c3eddd0f9ba59280e3aec6a77ddd28eaf",
+  "note": "候选结构与绘图结果；未改变原归档记录。drawable仅表示可绘制，不表示已化学核验。",
+  "molecules": [
+    {
+      "molecule_id": "m12",
+      "label": "12",
+      "original_smiles": "COC(=O)c1cc(C)c(OC)cc1",
+      "candidate_smiles": "COC(=O)c1cc(C)c(OC)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m13",
+      "label": "13",
+      "original_smiles": "ClCc1cc(C)c(OC)cc1",
+      "candidate_smiles": "ClCc1cc(C)c(OC)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m14",
+      "label": "14",
+      "original_smiles": "CCOC(=O)C=Cc1cc(C)c(OC)cc1",
+      "candidate_smiles": "CCOC(=O)C=Cc1cc(C)c(OC)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m15",
+      "label": "15",
+      "original_smiles": "O=C(O)CCc1cc(C)c(OC)cc1",
+      "candidate_smiles": "O=C(O)CCc1cc(C)c(OC)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m11",
+      "label": "11",
+      "original_smiles": "COc1cc2CCC(=O)c2cc1C",
+      "candidate_smiles": "COc1cc2CCC(=O)c2cc1C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m16",
+      "label": "16",
+      "original_smiles": "COc1cc2CCC([NH3+])C(=O)c2cc1C.[Cl-]",
+      "candidate_smiles": "COc1cc2CCC([NH3+])C(=O)c2cc1C.[Cl-]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m10",
+      "label": "10",
+      "original_smiles": "COc1cc2CCC(NC=O)C(=O)c2cc1C",
+      "candidate_smiles": "COc1cc2CCC(NC=O)C(=O)c2cc1C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m9",
+      "label": "9",
+      "original_smiles": "COC(=O)C=CCC(C)C",
+      "candidate_smiles": "COC(=O)C=CCC(C)C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m17",
+      "label": "17",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C1CC=NC12CCc1cc(OC)c(C)cc1C2=O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C1CC=NC12CCc1cc(OC)c(C)cc1C2=O",
+        "source_page": 3,
+        "source_region": "Scheme 2上路线及Figure 3b中完整画出的甲基丙烯酸酯[3+2]产物",
+        "source_label": "17",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图用楔线/虚线给出螺中心与酯基中心的相对关系，但正文未给R/S；SMILES保留确证连接骨架，不任意选择单一对映体。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "041e35a0008dd7ec3a3545d09ecda5f8f82e7759749473cea6256464a11b03cb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m18",
+      "label": "18",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C1CC(=O)NC12CCc1cc(OC)c(C)cc1C2=O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C1CC(=O)NC12CCc1cc(OC)c(C)cc1C2=O",
+        "source_page": 3,
+        "source_region": "Scheme 2上路线的mCPBA氧化产物及右侧X-ray模型",
+        "source_label": "18",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原文报告18为单一非对映体，并称绝对立体化学由X-ray分析确定；图中未列R/S，故SMILES仅编码连接，避免把晶体视角强行映射为@/@@。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "041e35a0008dd7ec3a3545d09ecda5f8f82e7759749473cea6256464a11b03cb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m19",
+      "label": "19",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C1C(CC(C)C)=CNC12CCc1cc(OC)c(C)cc1C2=O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C1C(CC(C)C)=CNC12CCc1cc(OC)c(C)cc1C2=O",
+        "source_page": 3,
+        "source_region": "Scheme 2下路线中enoate 9所得、直接画出的NH–CH=C(iBu)螺环产物",
+        "source_label": "19",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图明确画出NH–CH=C(iBu)的烯胺式连接，并以楔线/虚线给出相对关系；正文未给绝对构型，SMILES只编码连接。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "041e35a0008dd7ec3a3545d09ecda5f8f82e7759749473cea6256464a11b03cb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m20",
+      "label": "20",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C1=C2CCc3cc(OC)c(C)cc3C(=O)N2C(O)C1CC(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C1=C2CCc3cc(OC)c(C)cc3C(=O)N2C(O)C1CC(C)C",
+        "source_page": 3,
+        "source_region": "Scheme 2下路线的环扩张产物及右侧X-ray模型",
+        "source_label": "20",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "正文称骨架重排并由X-ray进一步证实；图示OH为实楔、异丁基为虚楔，但未列绝对R/S，故仅编码确证的七元内酰胺/五元含氮环连接。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "041e35a0008dd7ec3a3545d09ecda5f8f82e7759749473cea6256464a11b03cb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m21",
+      "label": "21",
+      "original_smiles": null,
+      "candidate_smiles": "COc1cc2c(cc1C)-c1ocnc1CC2",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COc1cc2c(cc1C)-c1ocnc1CC2",
+        "source_page": 3,
+        "source_region": "Figure 3b中由10单独活化后分离并经X-ray确认的稠合噁唑",
+        "source_label": "21",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "not_applicable",
+        "stereochemistry_text": null,
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "041e35a0008dd7ec3a3545d09ecda5f8f82e7759749473cea6256464a11b03cb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m22",
+      "label": "22",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m23",
+      "label": "23",
+      "original_smiles": "COC(=O)C=C=CCC(C)C",
+      "candidate_smiles": "COC(=O)C=C=CCC(C)C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m24",
+      "label": "24",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C1C(=CC(C)C)C=NC12CCc1cc(OC)c(C)cc1C2=O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C1C(=CC(C)C)C=NC12CCc1cc(OC)c(C)cc1C2=O",
+        "source_page": 3,
+        "source_region": "Figure 4a反应式、优化表脚注及Figure 4b左侧扩展亚胺",
+        "source_label": "24",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原文报告24为E/Z烯烃异构体混合物，比例未报告，且仅分离到一个非对映体；SMILES补录两种E/Z共有连接骨架，不指定双键几何或绝对构型。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "041e35a0008dd7ec3a3545d09ecda5f8f82e7759749473cea6256464a11b03cb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m25",
+      "label": "25",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C1C(CC(C)C)C=NC12CCc1cc(OC)c(C)cc1C2=O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C1C(CC(C)C)C=NC12CCc1cc(OC)c(C)cc1C2=O",
+        "source_page": 3,
+        "source_region": "Figure 4b中24经Pd/C氢化所得异丁基取代亚胺",
+        "source_label": "25",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "Figure 4b以楔线/虚线画出三个中心的相对关系，但正文未给绝对R/S；SMILES仅编码确证连接。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "041e35a0008dd7ec3a3545d09ecda5f8f82e7759749473cea6256464a11b03cb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m7",
+      "label": "7",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C1C(CC(C)C)C(=O)NC12CCc1cc(OC)c(C)cc1C2=O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C1C(CC(C)C)C(=O)NC12CCc1cc(OC)c(C)cc1C2=O",
+        "source_page": 3,
+        "source_region": "Figure 4b中25经Pinnick氧化所得北部片段及X-ray模型",
+        "source_label": "7",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原文报告7以单一非对映体获得并展示X-ray模型；图中给出相对楔线/虚线但未列绝对R/S，故SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "041e35a0008dd7ec3a3545d09ecda5f8f82e7759749473cea6256464a11b03cb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_LiAlH4",
+      "label": "LiAlH4",
+      "original_smiles": "[Li+].[AlH4-]",
+      "candidate_smiles": "[Li+].[AlH4-]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_PPh3",
+      "label": "PPh3",
+      "original_smiles": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+      "candidate_smiles": "P(c1ccccc1)(c1ccccc1)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_CCl4",
+      "label": "CCl4",
+      "original_smiles": "ClC(Cl)(Cl)Cl",
+      "candidate_smiles": "ClC(Cl)(Cl)Cl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_ethyl_acrylate",
+      "label": "ethyl acrylate",
+      "original_smiles": "CCOC(=O)C=C",
+      "candidate_smiles": "CCOC(=O)C=C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_PdOAc2",
+      "label": "Pd(OAc)2",
+      "original_smiles": "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+      "candidate_smiles": "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_H2",
+      "label": "H2",
+      "original_smiles": "[H][H]",
+      "candidate_smiles": "[H][H]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_NaOH",
+      "label": "NaOH",
+      "original_smiles": "[Na+].[OH-]",
+      "candidate_smiles": "[Na+].[OH-]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_oxalyl_chloride",
+      "label": "(COCl)2",
+      "original_smiles": "O=C(Cl)C(=O)Cl",
+      "candidate_smiles": "O=C(Cl)C(=O)Cl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_TiCl4",
+      "label": "TiCl4",
+      "original_smiles": "Cl[Ti](Cl)(Cl)Cl",
+      "candidate_smiles": "Cl[Ti](Cl)(Cl)Cl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_PTAB",
+      "label": "PTAB",
+      "original_smiles": "C[N+](C)(C)c1ccccc1.[Br-].BrBr",
+      "candidate_smiles": "C[N+](C)(C)c1ccccc1.[Br-].BrBr",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_NaN3",
+      "label": "NaN3",
+      "original_smiles": "[Na+].[N-]=[N+]=[N-]",
+      "candidate_smiles": "[Na+].[N-]=[N+]=[N-]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_HCl",
+      "label": "HCl",
+      "original_smiles": "Cl",
+      "candidate_smiles": "Cl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_NaHCO3",
+      "label": "NaHCO3",
+      "original_smiles": "[Na+].O=C([O-])O",
+      "candidate_smiles": "[Na+].O=C([O-])O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_formic_acetic_anhydride",
+      "label": "formic acetic anhydride",
+      "original_smiles": "CC(=O)OC=O",
+      "candidate_smiles": "CC(=O)OC=O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_Tf2O",
+      "label": "Tf2O",
+      "original_smiles": "O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F",
+      "candidate_smiles": "O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_methyl_acrylate",
+      "label": "methyl acrylate",
+      "original_smiles": "COC(=O)C=C",
+      "candidate_smiles": "COC(=O)C=C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_mCPBA",
+      "label": "mCPBA",
+      "original_smiles": "O=C(O)c1cccc(Cl)c1OO",
+      "candidate_smiles": "O=C(O)c1cccc(Cl)c1OO",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_DCM",
+      "label": "CH2Cl2",
+      "original_smiles": "ClCCl",
+      "candidate_smiles": "ClCCl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_toluene",
+      "label": "toluene",
+      "original_smiles": "Cc1ccccc1",
+      "candidate_smiles": "Cc1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_EtOH",
+      "label": "EtOH",
+      "original_smiles": "CCO",
+      "candidate_smiles": "CCO",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_water",
+      "label": "water",
+      "original_smiles": "O",
+      "candidate_smiles": "O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_PdC",
+      "label": "Pd/C",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_wet_Et3N",
+      "label": "wet Et3N",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_Pinnick",
+      "label": "Pinnick oxidation conditions",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    }
+  ]
+}

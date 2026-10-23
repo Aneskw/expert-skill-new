@@ -1,0 +1,592 @@
+{
+  "document_id": "doc_275edf2145e01c65",
+  "source_sha256": "275edf2145e01c65058efa0d92a56c56cf286facf3cd4547ed886b7396cd131a",
+  "source_relative_paths": [
+    "联烯的转化20-25/2021/Org. Lett. 2021, 23, 3584−3587.pdf"
+  ],
+  "original_archive": "联烯Evolab新增_v3.1_2026-10-19/已完成文献/联烯的转化20-25/2021/Org. Lett. 2021, 23, 3584−3587",
+  "original_records_sha256": "b77d9f97a23ed306cb708593a7fa970ca36956bee512a9325fd183e33eac9c39",
+  "note": "候选结构与绘图结果；未改变原归档记录。drawable仅表示可绘制，不表示已化学核验。",
+  "molecules": [
+    {
+      "molecule_id": "m1",
+      "label": "1",
+      "original_smiles": "CCC=CCOC=C=C",
+      "candidate_smiles": "CCC=CCOC=C=C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m2",
+      "label": "2",
+      "original_smiles": "OCC(Br)=C",
+      "candidate_smiles": "OCC(Br)=C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m3",
+      "label": "3",
+      "original_smiles": null,
+      "candidate_smiles": "C=CC(OCC=CCC)OCC(=C)Br",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C=CC(OCC=CCC)OCC(=C)Br",
+        "source_page": 2,
+        "source_region": "Table 1反应通式中1与2偶联所得、并继续RCM生成4的缩醛加合物",
+        "source_label": "3",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "缩醛碳到右侧烷氧基的键画为虚线，但原文未给绝对构型；非末端烯键几何未用E/Z指派，仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "275edf2145e01c65058efa0d92a56c56cf286facf3cd4547ed886b7396cd131a"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m4",
+      "label": "4",
+      "original_smiles": "C=C(Br)OC1OCC=C1",
+      "candidate_smiles": "C=C(Br)OC1OCC=C1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m5",
+      "label": "5",
+      "original_smiles": null,
+      "candidate_smiles": "C=C(Br)COC1OCC(OC(=O)c2ccccc2)C1OC(=O)c1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C=C(Br)COC1OCC(OC(=O)c2ccccc2)C1OC(=O)c1ccccc1",
+        "source_page": 2,
+        "source_region": "Table 1中环状缩醛4经OsO4二羟化并苯甲酰化所得双苯甲酸酯",
+        "source_label": "5",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图将缩醛碳的外侧烷氧基画为虚线、两个相邻OBz均画为实楔，明确相对构型但未给R/S；SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "275edf2145e01c65058efa0d92a56c56cf286facf3cd4547ed886b7396cd131a"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m6",
+      "label": "6",
+      "original_smiles": "C=C1CC2OCC(O2)C1",
+      "candidate_smiles": "C=C1CC2OCC(O2)C1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m7",
+      "label": "7",
+      "original_smiles": "O=C1CC2OCC(O2)C1",
+      "candidate_smiles": "O=C1CC2OCC(O2)C1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m8",
+      "label": "8",
+      "original_smiles": "OC1CC2OCC(O2)C1",
+      "candidate_smiles": "OC1CC2OCC(O2)C1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m9",
+      "label": "9",
+      "original_smiles": "O=C(OC1CC2OCC(O2)C1)c1ccccc1",
+      "candidate_smiles": "O=C(OC1CC2OCC(O2)C1)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m10",
+      "label": "10",
+      "original_smiles": "CCC=CCCOC=C=C",
+      "candidate_smiles": "CCC=CCCOC=C=C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m11",
+      "label": "11",
+      "original_smiles": null,
+      "candidate_smiles": "C=CC(OCCC=CCC)OCC(=C)Br",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C=CC(OCCC=CCC)OCC(=C)Br",
+        "source_page": 2,
+        "source_region": "Scheme 3中10与2偶联所得、并继续RCM生成12的缩醛中间体",
+        "source_label": "11",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "缩醛碳到右侧烷氧基的键画为虚线，但原文未给绝对构型；两处非末端烯键几何亦未用E/Z指派，仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "275edf2145e01c65058efa0d92a56c56cf286facf3cd4547ed886b7396cd131a"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m12",
+      "label": "12",
+      "original_smiles": "C=C(Br)OC1OCCC=C1",
+      "candidate_smiles": "C=C(Br)OC1OCCC=C1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m13",
+      "label": "13",
+      "original_smiles": "C=C1CC2OCCC(O2)C1",
+      "candidate_smiles": "C=C1CC2OCCC(O2)C1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m14",
+      "label": "14",
+      "original_smiles": "O=C1CC2OCCC(O2)C1",
+      "candidate_smiles": "O=C1CC2OCCC(O2)C1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m15",
+      "label": "15",
+      "original_smiles": "OC1CC2OCCC(O2)C1",
+      "candidate_smiles": "OC1CC2OCCC(O2)C1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m16",
+      "label": "16",
+      "original_smiles": "O=C(OC1CC2OCCC(O2)C1)c1ccccc1",
+      "candidate_smiles": "O=C(OC1CC2OCCC(O2)C1)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m17",
+      "label": "17",
+      "original_smiles": "OCCC(Br)=C",
+      "candidate_smiles": "OCCC(Br)=C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m18",
+      "label": "18",
+      "original_smiles": null,
+      "candidate_smiles": "C=CC(OCC=CCC)OCCC(=C)Br",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C=CC(OCC=CCC)OCCC(=C)Br",
+        "source_page": 3,
+        "source_region": "Scheme 4中1与高烯丙醇17偶联所得、并继续RCM生成19的缩醛中间体",
+        "source_label": "18",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "缩醛碳到右侧烷氧基的键画为虚线，但原文未给绝对构型；非末端烯键几何未用E/Z指派，仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "275edf2145e01c65058efa0d92a56c56cf286facf3cd4547ed886b7396cd131a"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m19",
+      "label": "19",
+      "original_smiles": "C=C(Br)COC1OCC=C1",
+      "candidate_smiles": "C=C(Br)COC1OCC=C1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m20",
+      "label": "20",
+      "original_smiles": null,
+      "candidate_smiles": "C=C1CCOC2OC=CC12",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C=C1CCOC2OC=CC12",
+        "source_page": 3,
+        "source_region": "Scheme 4中19经Pd2(dba)3/dppp环化所得5,6-稠合二烯",
+        "source_label": "20",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "图中两个稠合桥头氢分别以实楔表示、桥头含氧键以虚线表示相对构型，但未给绝对构型；SMILES保留确证的5,6-稠合连接与环内/环外双键，不指派手性。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "275edf2145e01c65058efa0d92a56c56cf286facf3cd4547ed886b7396cd131a"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m21",
+      "label": "21",
+      "original_smiles": "C=C1CCC2OCC(O2)C1",
+      "candidate_smiles": "C=C1CCC2OCC(O2)C1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m22",
+      "label": "22",
+      "original_smiles": "OC1CCC2OCC(O2)C1",
+      "candidate_smiles": "OC1CCC2OCC(O2)C1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m23",
+      "label": "23",
+      "original_smiles": "O=C(OC1CCC2OCC(O2)C1)c1ccccc1",
+      "candidate_smiles": "O=C(OC1CCC2OCC(O2)C1)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_pd2dba3",
+      "label": "Pd2(dba)3",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_l1",
+      "label": "L1",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_l2",
+      "label": "L2",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_et3n",
+      "label": "Et3N",
+      "original_smiles": "CCN(CC)CC",
+      "candidate_smiles": "CCN(CC)CC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_toluene",
+      "label": "toluene",
+      "original_smiles": "Cc1ccccc1",
+      "candidate_smiles": "Cc1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_ch2cl2",
+      "label": "CH2Cl2",
+      "original_smiles": "ClCCl",
+      "candidate_smiles": "ClCCl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_grubbs1",
+      "label": "Grubbs 1st",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_oso4",
+      "label": "OsO4",
+      "original_smiles": "O=[Os](=O)(=O)=O",
+      "candidate_smiles": "O=[Os](=O)(=O)=O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_bzcl",
+      "label": "BzCl",
+      "original_smiles": "O=C(Cl)c1ccccc1",
+      "candidate_smiles": "O=C(Cl)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_pyridine",
+      "label": "pyridine",
+      "original_smiles": "n1ccccc1",
+      "candidate_smiles": "n1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_bu3snh",
+      "label": "Bu3SnH",
+      "original_smiles": "[H][Sn](CCCC)(CCCC)CCCC",
+      "candidate_smiles": "[H][Sn](CCCC)(CCCC)CCCC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_o2",
+      "label": "O2",
+      "original_smiles": "O=O",
+      "candidate_smiles": "O=O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_bet3",
+      "label": "BEt3",
+      "original_smiles": "CCB(CC)CC",
+      "candidate_smiles": "CCB(CC)CC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_o3",
+      "label": "O3",
+      "original_smiles": "[O-][O+]=O",
+      "candidate_smiles": "[O-][O+]=O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_dms",
+      "label": "(CH3)2S",
+      "original_smiles": "CSC",
+      "candidate_smiles": "CSC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_nabh4",
+      "label": "NaBH4",
+      "original_smiles": "[BH4-].[Na+]",
+      "candidate_smiles": "[BH4-].[Na+]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_etoh",
+      "label": "EtOH",
+      "original_smiles": "CCO",
+      "candidate_smiles": "CCO",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_dppp",
+      "label": "dppp",
+      "original_smiles": "c1ccc(P(CCCP(c2ccccc2)c2ccccc2)c2ccccc2)cc1",
+      "candidate_smiles": "c1ccc(P(CCCP(c2ccccc2)c2ccccc2)c2ccccc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_dmf",
+      "label": "DMF",
+      "original_smiles": "CN(C)C=O",
+      "candidate_smiles": "CN(C)C=O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_pdc",
+      "label": "Pd/C",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_h2",
+      "label": "H2",
+      "original_smiles": "[H][H]",
+      "candidate_smiles": "[H][H]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_bipy",
+      "label": "2,2'-bipyridyl",
+      "original_smiles": "n1ccccc1-c1ccccn1",
+      "candidate_smiles": "n1ccccc1-c1ccccn1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_meoh",
+      "label": "MeOH",
+      "original_smiles": "CO",
+      "candidate_smiles": "CO",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_grubbs2",
+      "label": "Grubbs second",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_hg2",
+      "label": "Hoveyda Grubbs second",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_dehal19",
+      "label": "dehalogenated product from 19",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_g_allene",
+      "label": "generic ene-alkoxyallene",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_g_alcohol",
+      "label": "generic bromo-olefinic alcohol",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_g_product",
+      "label": "generic fused bicyclic alcohol",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    }
+  ]
+}

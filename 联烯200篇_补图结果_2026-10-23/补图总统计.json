@@ -1,0 +1,24 @@
+{
+  "batch_papers": 200,
+  "original_extraction_completed": 191,
+  "original_extraction_failed": 9,
+  "papers_with_records": 193,
+  "papers_without_records": 7,
+  "core_structures": 12158,
+  "drawable_before": 2983,
+  "drawable_after": 11792,
+  "missing": 366,
+  "added": 8809,
+  "reason_counts": {
+    "缺少或未关联补充材料": 17,
+    "通式或类别未展开": 41,
+    "聚合物、材料或配位实体不适合单一分子图": 83,
+    "身份、编号或图文关联冲突": 45,
+    "命名或中间体证据需进一步核对（含规则过严）": 46,
+    "同位素分布需标注图": 12,
+    "混合物或未鉴定产物": 46,
+    "现有来源不足以唯一定位结构": 67,
+    "结构转写尚未完成": 9
+  },
+  "counting": "每篇具体实验中不同反应物/产物的注册ID；跨论文分别计数，排除仅比例用的minor_geometric_isomer。无记录的7篇不进入结构分母。"
+}

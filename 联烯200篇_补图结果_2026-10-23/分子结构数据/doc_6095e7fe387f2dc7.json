@@ -1,0 +1,744 @@
+{
+  "document_id": "doc_6095e7fe387f2dc7",
+  "source_sha256": "6095e7fe387f2dc7a28410be5c183a37834d8890b6db2b2e8eee4ca0e0431af9",
+  "source_relative_paths": [
+    "联烯的转化20-25/2021/Eur. J. Org. Chem. 2021, 1538.pdf"
+  ],
+  "original_archive": "联烯Evolab成果_v3.1_114篇_2026-10-18/联烯相关文献/联烯的转化20-25/2021/Eur. J. Org. Chem. 2021, 1538",
+  "original_records_sha256": "d34972d77a1e480592137cdf7c77526580cd624463d0850ab320de9f854328c3",
+  "note": "候选结构与绘图结果；未改变原归档记录。drawable仅表示可绘制，不表示已化学核验。",
+  "molecules": [
+    {
+      "molecule_id": "mol_1",
+      "label": "1",
+      "original_smiles": "C=C=CN(CC=CCOC(C)=O)S(=O)(=O)c1ccc(C)cc1",
+      "candidate_smiles": "C=C=CN(CC=CCOC(C)=O)S(=O)(=O)c1ccc(C)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2a",
+      "label": "2a",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccccc2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccccc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3a",
+      "label": "3a",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c1ccccc1",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3aprime",
+      "label": "3a'",
+      "original_smiles": null,
+      "candidate_smiles": "C=CCC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C=CCC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1C",
+        "source_page": 2,
+        "source_region": "Table 1表头所绘副产物3a′；第1页优化实验正文及第3页Scheme 2中间体1-IV交叉核对",
+        "source_label": "3a′",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "Table 1画出甲基、烯丙基取代的N-Ts-2,3-二氢吡咯共同连接骨架；烯丙基所在环碳为潜在手性中心，但原图未给楔线、R/S、外消旋或比例，故保持未指定。五元环内双键不另编码E/Z，末端烯烃无E/Z。正文明确该副产物身份仅由GC-MS数据推测。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "6095e7fe387f2dc7a28410be5c183a37834d8890b6db2b2e8eee4ca0e0431af9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2b",
+      "label": "2b",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(C)cc2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(C)cc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3b",
+      "label": "3b",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(C)cc2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(C)cc2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2c",
+      "label": "2c",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(C(C)(C)C)cc2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(C(C)(C)C)cc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3c",
+      "label": "3c",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(C(C)(C)C)cc2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(C(C)(C)C)cc2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2d",
+      "label": "2d",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(CC)cc2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(CC)cc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3d",
+      "label": "3d",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(CC)cc2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(CC)cc2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2e",
+      "label": "2e",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(C(C)C)cc2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(C(C)C)cc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3e",
+      "label": "3e",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(C(C)C)cc2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(C(C)C)cc2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2f",
+      "label": "2f",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(F)cc2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(F)cc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3f",
+      "label": "3f",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(F)cc2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(F)cc2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2g",
+      "label": "2g",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(Cl)cc2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(Cl)cc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3g",
+      "label": "3g",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(Cl)cc2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(Cl)cc2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2h",
+      "label": "2h",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(C(F)(F)F)cc2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(C(F)(F)F)cc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3h",
+      "label": "3h",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(C(F)(F)F)cc2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(C(F)(F)F)cc2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2i",
+      "label": "2i",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccco2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccco2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3i",
+      "label": "3i",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccco2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccco2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2k",
+      "label": "2k",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2cccc(C)c2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2cccc(C)c2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3k",
+      "label": "3k",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2cccc(C)c2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2cccc(C)c2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2l",
+      "label": "2l",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccccc2C)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccccc2C)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3l",
+      "label": "3l",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccccc2C",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccccc2C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2m",
+      "label": "2m",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2cccc(OC)c2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2cccc(OC)c2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3m",
+      "label": "3m",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2cccc(OC)c2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2cccc(OC)c2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2n",
+      "label": "2n",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccccc2OC)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccccc2OC)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3n",
+      "label": "3n",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccccc2OC",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccccc2OC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2o",
+      "label": "2o",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2cccc(Cl)c2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2cccc(Cl)c2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3o",
+      "label": "3o",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2cccc(Cl)c2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2cccc(Cl)c2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2p",
+      "label": "2p",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccccc2Cl)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccccc2Cl)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3p",
+      "label": "3p",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccccc2Cl",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccccc2Cl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2q",
+      "label": "2q",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(-c3ccccc3)cc2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2ccc(-c3ccccc3)cc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3q",
+      "label": "3q",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(-c3ccccc3)cc2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2ccc(-c3ccccc3)cc2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2r",
+      "label": "2r",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2cc(C)cc(C)c2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2cc(C)cc(C)c2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3r",
+      "label": "3r",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2cc(C)cc(C)c2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2cc(C)cc(C)c2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2s",
+      "label": "2s",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2cc(OC)cc(OC)c2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2cc(OC)cc(OC)c2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3s",
+      "label": "3s",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2cc(OC)cc(OC)c2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2cc(OC)cc(OC)c2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2t",
+      "label": "2t",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2cc(F)cc(F)c2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=Cc2cc(F)cc(F)c2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3t",
+      "label": "3t",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2cc(F)cc(F)c2",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1/C=C/c2cc(F)cc(F)c2",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_2j",
+      "label": "2j",
+      "original_smiles": "Cc1ccc(S(=O)(=O)NN=C(c2ccccc2)c2ccccc2)cc1",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)NN=C(c2ccccc2)c2ccccc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_3j",
+      "label": "3j",
+      "original_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1C=C(c1ccccc1)c1ccccc1",
+      "candidate_smiles": "C=CC1CN(S(=O)(=O)c2ccc(C)cc2)C=C1C=C(c1ccccc1)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_tbuoli",
+      "label": "tBuOLi",
+      "original_smiles": "[Li+].[O-]C(C)(C)C",
+      "candidate_smiles": "[Li+].[O-]C(C)(C)C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_ch3oli",
+      "label": "CH3OLi",
+      "original_smiles": "[Li+].[O-]C",
+      "candidate_smiles": "[Li+].[O-]C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_toluene",
+      "label": "toluene",
+      "original_smiles": "Cc1ccccc1",
+      "candidate_smiles": "Cc1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_iproh",
+      "label": "iPrOH",
+      "original_smiles": "CC(O)C",
+      "candidate_smiles": "CC(O)C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_2methf",
+      "label": "2-MeTHF",
+      "original_smiles": "CC1CCCO1",
+      "candidate_smiles": "CC1CCCO1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_dioxane",
+      "label": "dioxane",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pdcl2_pph3_2",
+      "label": "PdCl2(PPh3)2",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pdcl2_dppf",
+      "label": "PdCl2(dppf)",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pd2dba3_l1",
+      "label": "Pd2(dba)3/L1",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pdoac2_l2",
+      "label": "Pd(OAc)2/L2",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pdoac2_l3",
+      "label": "Pd(OAc)2/L3",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pdoac2_l4",
+      "label": "Pd(OAc)2/L4",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pdoac2_l5",
+      "label": "Pd(OAc)2/L5",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pdoac2_l6",
+      "label": "Pd(OAc)2/L6",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pdoac2_l7",
+      "label": "Pd(OAc)2/L7",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pdoac2_dppm",
+      "label": "Pd(OAc)2/dppm",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pdoac2_dppe",
+      "label": "Pd(OAc)2/dppe",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pdoac2_dppp",
+      "label": "Pd(OAc)2/dppp",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pdoac2_dppf",
+      "label": "Pd(OAc)2/dppf",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_pdoac2_dppb",
+      "label": "Pd(OAc)2/dppb",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_generic_A",
+      "label": "A",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_generic_I",
+      "label": "I",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_generic_II",
+      "label": "II",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_generic_III",
+      "label": "III",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_generic_suzuki_partner",
+      "label": "Suzuki coupling partner",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_generic_alkyne_partner",
+      "label": "Sonogashira coupling partner",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_generic_carbene_partner",
+      "label": "carbene precursor R/R'",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_generic_hydrazone_2",
+      "label": "2",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_generic_product_3",
+      "label": "3",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_generic_pd0",
+      "label": "Pd(0)/PdLn",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    }
+  ]
+}

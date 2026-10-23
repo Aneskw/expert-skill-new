@@ -1,0 +1,4196 @@
+{
+  "document_id": "doc_9508ed0ca7d13d60",
+  "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef",
+  "source_relative_paths": [
+    "联烯的转化20-25/2021/J. Am. Chem. Soc. 2021, 143, 10374−10381.pdf"
+  ],
+  "original_archive": "联烯Evolab成果_v3.1_114篇_2026-10-18/联烯相关文献/联烯的转化20-25/2021/J. Am. Chem. Soc. 2021, 143, 10374−10381",
+  "original_records_sha256": "3d7ae549722b84606c826ca324d07e8091bb6675585b861224f0ad7c5a25747d",
+  "note": "候选结构与绘图结果；未改变原归档记录。drawable仅表示可绘制，不表示已化学核验。",
+  "molecules": [
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:2a",
+      "label": "2a",
+      "original_smiles": "C=C=CC(=O)c1ccccc1",
+      "candidate_smiles": "C=C=CC(=O)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:1a",
+      "label": "1a",
+      "original_smiles": "O=C(O)c1ccccc1",
+      "candidate_smiles": "O=C(O)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:phenethylamine",
+      "label": "phenethylamine",
+      "original_smiles": "NCCc1ccccc1",
+      "candidate_smiles": "NCCc1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:3a",
+      "label": "3a",
+      "original_smiles": "CC(OC(=O)c1ccccc1)=CC(=O)c1ccccc1",
+      "candidate_smiles": "CC(OC(=O)c1ccccc1)=CC(=O)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:4a",
+      "label": "4a",
+      "original_smiles": "O=C(NCCc1ccccc1)c1ccccc1",
+      "candidate_smiles": "O=C(NCCc1ccccc1)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:5",
+      "label": "5",
+      "original_smiles": "CC(=O)CC(=O)c1ccccc1",
+      "candidate_smiles": "CC(=O)CC(=O)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:5prime",
+      "label": "5prime",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C=C(O)c1ccccc1)=NCCc1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C=C(O)c1ccccc1)=NCCc1ccccc1",
+        "source_page": 2,
+        "source_region": "Scheme 2，eq 3，5与2-苯乙胺缩合所得5′",
+        "source_label": "5′",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图画出烯醇-亚胺连接形式；两处C=C/C=N几何均未标注，结果仅为trace。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:DCE",
+      "label": "DCE",
+      "original_smiles": "ClCCCl",
+      "candidate_smiles": "ClCCCl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:DMF",
+      "label": "DMF",
+      "original_smiles": "CN(C)C=O",
+      "candidate_smiles": "CN(C)C=O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:HOBt",
+      "label": "HOBt",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:TFA",
+      "label": "TFA",
+      "original_smiles": "O=C(O)C(F)(F)F",
+      "candidate_smiles": "O=C(O)C(F)(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:DCM",
+      "label": "DCM",
+      "original_smiles": "ClCCl",
+      "candidate_smiles": "ClCCl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:THF",
+      "label": "THF",
+      "original_smiles": "C1CCOC1",
+      "candidate_smiles": "C1CCOC1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:KI",
+      "label": "KI",
+      "original_smiles": "[K+].[I-]",
+      "candidate_smiles": "[K+].[I-]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:morpholine",
+      "label": "morpholine",
+      "original_smiles": "C1COCCN1",
+      "candidate_smiles": "C1COCCN1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:TIS",
+      "label": "TIS",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:piperidine",
+      "label": "piperidine",
+      "original_smiles": "N1CCCCC1",
+      "candidate_smiles": "N1CCCCC1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:generic_acid",
+      "label": "generic_acid",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:generic_amine",
+      "label": "generic_amine",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:generic_active_ester",
+      "label": "generic_active_ester",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:generic_amide",
+      "label": "generic_amide",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:acid_for_3b",
+      "label": "acid_for_3b",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(O)c1ccco1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(O)c1ccco1",
+        "source_page": 3,
+        "source_region": "Scheme 3 acid for 3b",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:3b",
+      "label": "3b",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)c1ccco1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)c1ccco1",
+        "source_page": 3,
+        "source_region": "Scheme 3 intermediate 3b",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:4b",
+      "label": "4b",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(NCCc1ccccc1)c1ccco1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(NCCc1ccccc1)c1ccco1",
+        "source_page": 3,
+        "source_region": "Scheme 3 product 4b",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:acid_for_3c",
+      "label": "acid_for_3c",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(O)c1cc2ccccc2s1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(O)c1cc2ccccc2s1",
+        "source_page": 3,
+        "source_region": "Scheme 3 acid for 3c",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:3c",
+      "label": "3c",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)c1cc2ccccc2s1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)c1cc2ccccc2s1",
+        "source_page": 3,
+        "source_region": "Scheme 3 intermediate 3c",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:4c",
+      "label": "4c",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(NCCc1ccccc1)c1cc2ccccc2s1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(NCCc1ccccc1)c1cc2ccccc2s1",
+        "source_page": 3,
+        "source_region": "Scheme 3 product 4c",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:acid_for_3d",
+      "label": "acid_for_3d",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(O)C=Cc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(O)C=Cc1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 3 acid for 3d",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:3d",
+      "label": "3d",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C=Cc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C=Cc1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 3 intermediate 3d",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:4d",
+      "label": "4d",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(C=Cc1ccccc1)NCCc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(C=Cc1ccccc1)NCCc1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 3 product 4d",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:acid_for_3e",
+      "label": "acid_for_3e",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(O)C#Cc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(O)C#Cc1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 3 acid for 3e",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:3e",
+      "label": "3e",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C#Cc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C#Cc1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 3 intermediate 3e",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_4e",
+      "label": "amine_for_4e",
+      "original_smiles": null,
+      "candidate_smiles": "C1CCNC1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "C1CCNC1",
+        "source_page": 3,
+        "source_region": "Scheme 3 corresponding amine/product",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:4e",
+      "label": "4e",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(C#Cc1ccccc1)N1CCCC1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(C#Cc1ccccc1)N1CCCC1",
+        "source_page": 3,
+        "source_region": "Scheme 3 product 4e",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:acid_for_3f",
+      "label": "acid_for_3f",
+      "original_smiles": null,
+      "candidate_smiles": "C#CC(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "C#CC(=O)O",
+        "source_page": 3,
+        "source_region": "Scheme 3 acid for 3f",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:3f",
+      "label": "3f",
+      "original_smiles": null,
+      "candidate_smiles": "C#CC(=O)OC(C)=CC(=O)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "C#CC(=O)OC(C)=CC(=O)c1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 3 intermediate 3f",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:4f",
+      "label": "4f",
+      "original_smiles": null,
+      "candidate_smiles": "C#CC(=O)NCCc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "C#CC(=O)NCCc1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 3 product 4f",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:acid_for_3j",
+      "label": "acid_for_3j",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(O)C12CC3CC(CC(C3)C1)C2",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(O)C12CC3CC(CC(C3)C1)C2",
+        "source_page": 3,
+        "source_region": "Scheme 3 acid for 3j",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:3j",
+      "label": "3j",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C12CC3CC(CC(C3)C1)C2",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C12CC3CC(CC(C3)C1)C2",
+        "source_page": 3,
+        "source_region": "Scheme 3 intermediate 3j",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_4g",
+      "label": "amine_for_4g",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)N",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)N",
+        "source_page": 3,
+        "source_region": "Scheme 3 corresponding amine/product",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:4g",
+      "label": "4g",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)NC(=O)C12CC3CC(CC(C3)C1)C2",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)NC(=O)C12CC3CC(CC(C3)C1)C2",
+        "source_page": 3,
+        "source_region": "Scheme 3 product 4g",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:acid_for_3h",
+      "label": "acid_for_3h",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(O)Cc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(O)Cc1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 3 acid for 3h",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:3h",
+      "label": "3h",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)Cc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)Cc1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 3 intermediate 3h",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_4h",
+      "label": "amine_for_4h",
+      "original_smiles": null,
+      "candidate_smiles": "Nc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "Nc1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 3 corresponding amine/product",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:4h",
+      "label": "4h",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(Cc1ccccc1)Nc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(Cc1ccccc1)Nc1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 3 product 4h",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_4i",
+      "label": "amine_for_4i",
+      "original_smiles": null,
+      "candidate_smiles": "CNc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CNc1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 3 corresponding amine/product",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:4i",
+      "label": "4i",
+      "original_smiles": null,
+      "candidate_smiles": "CN(C(=O)C#Cc1ccccc1)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CN(C(=O)C#Cc1ccccc1)c1ccccc1",
+        "source_page": 3,
+        "source_region": "Scheme 3 corresponding amine/product",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9a",
+      "label": "aa_for_9a",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9a",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9a",
+      "label": "9a",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9a",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9b",
+      "label": "aa_for_9b",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9b",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9b",
+      "label": "9b",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(C)C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(C)C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9b",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9c",
+      "label": "aa_for_9c",
+      "original_smiles": null,
+      "candidate_smiles": "CCC(C)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CCC(C)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9c",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9c",
+      "label": "9c",
+      "original_smiles": null,
+      "candidate_smiles": "CCC(C)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)=CC(=O)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CCC(C)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)=CC(=O)c1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9c",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9d",
+      "label": "aa_for_9d",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(NC(Cc1ccccc1)C(=O)O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(NC(Cc1ccccc1)C(=O)O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9d",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9d",
+      "label": "9d",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9d",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9e",
+      "label": "aa_for_9e",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCc1ccccc1)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(NC(=O)OCc1ccccc1)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9e",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9e",
+      "label": "9e",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(C)NC(=O)OCc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(C)NC(=O)OCc1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9e",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9f",
+      "label": "aa_for_9f",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(O)C1CCCN1C(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(O)C1CCCN1C(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9f",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9f",
+      "label": "9f",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C1CCCN1C(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C1CCCN1C(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9f",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9g",
+      "label": "aa_for_9g",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9g",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9g",
+      "label": "9g",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9g",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9h",
+      "label": "aa_for_9h",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9h",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9h",
+      "label": "9h",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(C)(C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(C)(C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9h",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9i",
+      "label": "aa_for_9i",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(C(=O)O)N(C)C(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(C(=O)O)N(C)C(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9i",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9i",
+      "label": "9i",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(C)C)N(C)C(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(C)C)N(C)C(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9i",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9j",
+      "label": "aa_for_9j",
+      "original_smiles": null,
+      "candidate_smiles": "CC(O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9j",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9j",
+      "label": "9j",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(C)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(C)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9j",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9k",
+      "label": "aa_for_9k",
+      "original_smiles": null,
+      "candidate_smiles": "CC(O)C(NC(=O)OCc1ccccc1)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(O)C(NC(=O)OCc1ccccc1)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9k",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9k",
+      "label": "9k",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(NC(=O)OCc1ccccc1)C(C)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(NC(=O)OCc1ccccc1)C(C)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9k",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9l",
+      "label": "aa_for_9l",
+      "original_smiles": null,
+      "candidate_smiles": "CC(O)C(NC(=O)OC(C)(C)C)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(O)C(NC(=O)OC(C)(C)C)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9l",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9l",
+      "label": "9l",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(NC(=O)OC(C)(C)C)C(C)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(NC(=O)OC(C)(C)C)C(C)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9l",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9m",
+      "label": "aa_for_9m",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9m",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9m",
+      "label": "9m",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(COC(C)(C)C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(COC(C)(C)C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9m",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9n",
+      "label": "aa_for_9n",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(NC(CO)C(=O)O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(NC(CO)C(=O)O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9n",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9n",
+      "label": "9n",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CO)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CO)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9n",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9o",
+      "label": "aa_for_9o",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(NC(C(=O)O)c1ccccc1)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(NC(C(=O)O)c1ccccc1)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9o",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9o",
+      "label": "9o",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)c1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9o",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9p",
+      "label": "aa_for_9p",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)n1cnc(CC(NC(=O)OCC2c3ccccc3-c3ccccc32)C(=O)O)c1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)n1cnc(CC(NC(=O)OCC2c3ccccc3-c3ccccc32)C(=O)O)c1",
+        "source_page": 4,
+        "source_region": "Scheme 4，9p条目左侧氨基酸羧酸前体",
+        "source_label": "9p",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9p",
+      "label": "9p",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1cn(C(=O)OC(C)(C)C)cn1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1cn(C(=O)OC(C)(C)C)cn1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4，α-羰基烯酯9p结构",
+        "source_label": "9p",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9q",
+      "label": "aa_for_9q",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)NCCCCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)NCCCCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9q",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9q",
+      "label": "9q",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CCCCNC(=O)OC(C)(C)C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CCCCNC(=O)OC(C)(C)C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9q",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9r",
+      "label": "aa_for_9r",
+      "original_smiles": null,
+      "candidate_smiles": "CSCCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CSCCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9r",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9r",
+      "label": "9r",
+      "original_smiles": null,
+      "candidate_smiles": "CSCCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)=CC(=O)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CSCCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)=CC(=O)c1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9r",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9s",
+      "label": "aa_for_9s",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)CCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)CCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9s",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9s",
+      "label": "9s",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CCC(=O)OC(C)(C)C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CCC(=O)OC(C)(C)C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9s",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9t",
+      "label": "aa_for_9t",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)CC(NC(=O)OC(C)(C)C)C(=O)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)CC(NC(=O)OC(C)(C)C)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9t",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9t",
+      "label": "9t",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9t",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9u",
+      "label": "aa_for_9u",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)NC(CCCNC(=NC(=O)OCc1ccccc1)NC(=O)OCc1ccccc1)C(=O)O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)NC(CCCNC(=NC(=O)OCc1ccccc1)NC(=O)OCc1ccccc1)C(=O)O",
+        "source_page": 4,
+        "source_region": "Scheme 4，9u条目左侧氨基酸羧酸前体",
+        "source_label": "9u",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9u",
+      "label": "9u",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CCCNC(=NC(=O)OCc1ccccc1)NC(=O)OCc1ccccc1)NC(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CCCNC(=NC(=O)OCc1ccccc1)NC(=O)OCc1ccccc1)NC(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4，α-羰基烯酯9u结构",
+        "source_label": "9u",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9v",
+      "label": "aa_for_9v",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(NC(CSC(c1ccccc1)(c1ccccc1)c1ccccc1)C(=O)O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "O=C(NC(CSC(c1ccccc1)(c1ccccc1)c1ccccc1)C(=O)O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4，9v条目左侧氨基酸羧酸前体",
+        "source_label": "9v",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9v",
+      "label": "9v",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CSC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CSC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4，α-羰基烯酯9v结构",
+        "source_label": "9v",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9w",
+      "label": "aa_for_9w",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(NC(Cc1c[nH]c2ccccc12)C(=O)O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "O=C(NC(Cc1c[nH]c2ccccc12)C(=O)O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9w",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9w",
+      "label": "9w",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9w",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9x",
+      "label": "aa_for_9x",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)Oc1ccc(CC(NC(=O)OCC2c3ccccc3-c3ccccc32)C(=O)O)cc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)Oc1ccc(CC(NC(=O)OCC2c3ccccc3-c3ccccc32)C(=O)O)cc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino acid for 9x",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9x",
+      "label": "9x",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1ccc(OC(C)(C)C)cc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1ccc(OC(C)(C)C)cc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 activation intermediate 9x",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9y",
+      "label": "aa_for_9y",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(CCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O)NC(c1ccccc1)(c1ccccc1)c1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "O=C(CCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O)NC(c1ccccc1)(c1ccccc1)c1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4，9y条目左侧氨基酸羧酸前体",
+        "source_label": "9y",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9y",
+      "label": "9y",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CCC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CCC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4，α-羰基烯酯9y结构",
+        "source_label": "9y",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_for_9z",
+      "label": "aa_for_9z",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O)NC(c1ccccc1)(c1ccccc1)c1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "O=C(CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O)NC(c1ccccc1)(c1ccccc1)c1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4，9z条目左侧氨基酸羧酸前体",
+        "source_label": "9z",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:9z",
+      "label": "9z",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4，α-羰基烯酯9z结构",
+        "source_label": "9z",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10a",
+      "label": "amine_for_10a",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(N)Cc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(N)Cc1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10a",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10a",
+      "label": "10a",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(Cc1ccccc1)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(Cc1ccccc1)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10a",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10b",
+      "label": "amine_for_10b",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10b",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10b",
+      "label": "10b",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(CC(C)C)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(CC(C)C)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10b",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10c",
+      "label": "amine_for_10c",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10c",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10c",
+      "label": "10c",
+      "original_smiles": null,
+      "candidate_smiles": "CCC(C)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(CC(C)C)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CCC(C)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(CC(C)C)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10c",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10d",
+      "label": "amine_for_10d",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10d",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10d",
+      "label": "10d",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)C(Cc1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)C(Cc1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10d",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10e",
+      "label": "amine_for_10e",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C1CCCN1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C1CCCN1",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10e",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10e",
+      "label": "10e",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCc1ccccc1)C(=O)N1CCCC1C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(NC(=O)OCc1ccccc1)C(=O)N1CCCC1C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10e",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10f",
+      "label": "amine_for_10f",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)CCN",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)CCN",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10f",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10f",
+      "label": "10f",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)CCNC(=O)C1CCCN1C(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)CCNC(=O)C1CCCN1C(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10f",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10g",
+      "label": "amine_for_10g",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C1CCCN1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C1CCCN1",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10g",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10g",
+      "label": "10g",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C1CCCN1C(=O)C1CCCN1C(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C1CCCN1C(=O)C1CCCN1C(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10g",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10h",
+      "label": "amine_for_10h",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10h",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10h",
+      "label": "10h",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(C)C)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(C)C)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10h",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10i",
+      "label": "amine_for_10i",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)C(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10i",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10i",
+      "label": "10i",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(C(=O)OC(C)(C)C)C(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(C(=O)OC(C)(C)C)C(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10i",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10j",
+      "label": "amine_for_10j",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(C)(C)N",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(C)(C)N",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10j",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10j",
+      "label": "10j",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(C)(C)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(C)(C)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10j",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10k",
+      "label": "amine_for_10k",
+      "original_smiles": null,
+      "candidate_smiles": "CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10k",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10k",
+      "label": "10k",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)C(C)(C)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(NC(=O)C(C)(C)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10k",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10l",
+      "label": "amine_for_10l",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(C)(C)N",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(C)(C)N",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10l",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10l",
+      "label": "10l",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(C)(C)NC(=O)C(C)(C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(C)(C)NC(=O)C(C)(C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10l",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10m",
+      "label": "amine_for_10m",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10m",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10m",
+      "label": "10m",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)C(CC(C)C)N(C)C(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)C(CC(C)C)N(C)C(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10m",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10n",
+      "label": "amine_for_10n",
+      "original_smiles": null,
+      "candidate_smiles": "CNC(CC(C)C)C(=O)OCc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CNC(CC(C)C)C(=O)OCc1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10n",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10n",
+      "label": "10n",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)N(C)C(CC(C)C)C(=O)OCc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)N(C)C(CC(C)C)C(=O)OCc1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10n",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10o",
+      "label": "amine_for_10o",
+      "original_smiles": null,
+      "candidate_smiles": "CNC(CC(C)C)C(=O)OCc1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CNC(CC(C)C)C(=O)OCc1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10o",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10o",
+      "label": "10o",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(C(=O)N(C)C(CC(C)C)C(=O)OCc1ccccc1)N(C)C(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(C(=O)N(C)C(CC(C)C)C(=O)OCc1ccccc1)N(C)C(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10o",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10p",
+      "label": "amine_for_10p",
+      "original_smiles": null,
+      "candidate_smiles": "CC(O)C(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(O)C(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10p",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10p",
+      "label": "10p",
+      "original_smiles": null,
+      "candidate_smiles": "CC(O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(C(=O)OC(C)(C)C)C(C)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(C(=O)OC(C)(C)C)C(C)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10p",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10q",
+      "label": "amine_for_10q",
+      "original_smiles": null,
+      "candidate_smiles": "CC(O)C(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(O)C(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10q",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10q",
+      "label": "10q",
+      "original_smiles": null,
+      "candidate_smiles": "CC(O)C(NC(=O)OCc1ccccc1)C(=O)NC(C(=O)OC(C)(C)C)C(C)O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(O)C(NC(=O)OCc1ccccc1)C(=O)NC(C(=O)OC(C)(C)C)C(C)O",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10q",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10r",
+      "label": "amine_for_10r",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(N)CO",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(N)CO",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10r",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10r",
+      "label": "10r",
+      "original_smiles": null,
+      "candidate_smiles": "CC(O)C(NC(=O)OC(C)(C)C)C(=O)NC(CO)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(O)C(NC(=O)OC(C)(C)C)C(=O)NC(CO)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10r",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10s",
+      "label": "amine_for_10s",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10s",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10s",
+      "label": "10s",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)C(COC(C)(C)C)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)C(COC(C)(C)C)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10s",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10t",
+      "label": "amine_for_10t",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(N)Cc1ccc(OC(C)(C)C)cc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(N)Cc1ccc(OC(C)(C)C)cc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10t",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10t",
+      "label": "10t",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(Cc1ccc(OC(C)(C)C)cc1)NC(=O)C(CO)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(Cc1ccc(OC(C)(C)C)cc1)NC(=O)C(CO)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10t",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10u",
+      "label": "amine_for_10u",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10u",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10u",
+      "label": "10u",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)c1ccccc1)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)C(NC(=O)OCC1c2ccccc2-c2ccccc21)c1ccccc1)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10u",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10v",
+      "label": "amine_for_10v",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(N)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(N)c1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10v",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10v",
+      "label": "10v",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(C(=O)OC(C)(C)C)c1ccccc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(C(=O)OC(C)(C)C)c1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10v",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10w",
+      "label": "amine_for_10w",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(N)Cc1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(N)Cc1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4，10w条目右侧胺偶联片段",
+        "source_label": "10w",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10w",
+      "label": "10w",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(Cc1ccccc1)NC(=O)C(Cc1cn(C(=O)OC(C)(C)C)cn1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(Cc1ccccc1)NC(=O)C(Cc1cn(C(=O)OC(C)(C)C)cn1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4，二肽产物10w结构",
+        "source_label": "10w",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10x",
+      "label": "amine_for_10x",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)n1cnc(CC(N)C(=O)OCc2ccccc2)c1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)n1cnc(CC(N)C(=O)OCc2ccccc2)c1",
+        "source_page": 4,
+        "source_region": "Scheme 4，10x条目右侧胺偶联片段",
+        "source_label": "10x",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10x",
+      "label": "10x",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(Cc1cn(C(=O)OC(C)(C)C)cn1)C(=O)OCc1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(Cc1cn(C(=O)OC(C)(C)C)cn1)C(=O)OCc1ccccc1",
+        "source_page": 4,
+        "source_region": "Scheme 4，二肽产物10x结构",
+        "source_label": "10x",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10y",
+      "label": "amine_for_10y",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)NCCCCC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)NCCCCC(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10y",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10y",
+      "label": "10y",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)NCCCCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(CCCCNC(=O)OC(C)(C)C)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)NCCCCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(CCCCNC(=O)OC(C)(C)C)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10y",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10z",
+      "label": "amine_for_10z",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10z",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10z",
+      "label": "10z",
+      "original_smiles": null,
+      "candidate_smiles": "CSCCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(CC(C)C)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CSCCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(CC(C)C)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10z",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10aa",
+      "label": "amine_for_10aa",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(N)Cc1ccc(OC(C)(C)C)cc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(N)Cc1ccc(OC(C)(C)C)cc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10aa",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10aa",
+      "label": "10aa",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)CCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(Cc1ccc(OC(C)(C)C)cc1)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)CCC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(Cc1ccc(OC(C)(C)C)cc1)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10aa",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10ab",
+      "label": "amine_for_10ab",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(N)CO",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(N)CO",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10ab",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10ab",
+      "label": "10ab",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)CC(NC(=O)OC(C)(C)C)C(=O)NC(CO)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)CC(NC(=O)OC(C)(C)C)C(=O)NC(CO)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10ab",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10ac",
+      "label": "amine_for_10ac",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4，10ac条目右侧胺偶联片段",
+        "source_label": "10ac",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10ac",
+      "label": "10ac",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)C(CCCNC(=NC(=O)OCc1ccccc1)NC(=O)OCc1ccccc1)NC(=O)OC(C)(C)C)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)C(CCCNC(=NC(=O)OCc1ccccc1)NC(=O)OCc1ccccc1)NC(=O)OC(C)(C)C)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4，二肽产物10ac结构",
+        "source_label": "10ac",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10ad",
+      "label": "amine_for_10ad",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OCC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)(C)OCC(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4，10ad条目右侧胺偶联片段",
+        "source_label": "10ad",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10ad",
+      "label": "10ad",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OCC(NC(=O)C(CSC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)(C)OCC(NC(=O)C(CSC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4，二肽产物10ad结构",
+        "source_label": "10ad",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10ae",
+      "label": "amine_for_10ae",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(N)CO",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(N)CO",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10ae",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10ae",
+      "label": "10ae",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(CO)NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(CO)NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10ae",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10af",
+      "label": "amine_for_10af",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(N)Cc1ccc(OC(C)(C)C)cc1",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(N)Cc1ccc(OC(C)(C)C)cc1",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10af",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10af",
+      "label": "10af",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(Cc1ccc(OC(C)(C)C)cc1)NC(=O)C(Cc1ccc(OC(C)(C)C)cc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(Cc1ccc(OC(C)(C)C)cc1)NC(=O)C(Cc1ccc(OC(C)(C)C)cc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10af",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10ag",
+      "label": "amine_for_10ag",
+      "original_smiles": null,
+      "candidate_smiles": "CC(O)C(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(O)C(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4，10ag条目右侧胺偶联片段",
+        "source_label": "10ag",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10ag",
+      "label": "10ag",
+      "original_smiles": null,
+      "candidate_smiles": "CC(O)C(NC(=O)C(CCC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(O)C(NC(=O)C(CCC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4，二肽产物10ag结构",
+        "source_label": "10ag",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10ah",
+      "label": "amine_for_10ah",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)C(N)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4，10ah条目右侧胺偶联片段",
+        "source_label": "10ah",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10ah",
+      "label": "10ah",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(NC(=O)C(CC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)C(NC(=O)C(CC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4，二肽产物10ah结构",
+        "source_label": "10ah",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10ai",
+      "label": "amine_for_10ai",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(N)CC(N)=O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(N)CC(N)=O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10ai",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10ai",
+      "label": "10ai",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(CC(N)=O)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(CC(N)=O)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10ai",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:amine_for_10aj",
+      "label": "amine_for_10aj",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(N)CCC(N)=O",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(N)CCC(N)=O",
+        "source_page": 4,
+        "source_region": "Scheme 4 amino ester for 10aj",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:10aj",
+      "label": "10aj",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(CCC(N)=O)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": null,
+      "repair": {
+        "smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(CCC(N)=O)C(=O)OC(C)(C)C",
+        "source_page": 4,
+        "source_region": "Scheme 4 product 10aj",
+        "method": "assistant_visual_connectivity",
+        "display_note": "结构骨架；构型与异构体比例见文字",
+        "original_smiles": null
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_acid_for_13a",
+      "label": "peptide_acid_for_13a",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)OCc1ccccc1)C(=O)NC(COC(C)(C)C)C(=O)O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)OCc1ccccc1)C(=O)NC(COC(C)(C)C)C(=O)O",
+        "source_page": 5,
+        "source_region": "Scheme 5，13a/14a条目的肽酸11片段",
+        "source_label": "13a/14a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:13a",
+      "label": "13a",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(COC(C)(C)C)NC(=O)C(CC(C)C)NC(=O)OCc1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(COC(C)(C)C)NC(=O)C(CC(C)C)NC(=O)OCc1ccccc1",
+        "source_page": 5,
+        "source_region": "Scheme 5，肽α-羰基烯酯13a",
+        "source_label": "13a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_amine_for_14a",
+      "label": "peptide_amine_for_14a",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(N)Cc1ccc(OC(C)(C)C)cc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(N)Cc1ccc(OC(C)(C)C)cc1",
+        "source_page": 5,
+        "source_region": "Scheme 5，14a条目的胺/肽片段12",
+        "source_label": "14a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:14a",
+      "label": "14a",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)OCc1ccccc1)C(=O)NC(COC(C)(C)C)C(=O)NC(Cc1ccc(OC(C)(C)C)cc1)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)OCc1ccccc1)C(=O)NC(COC(C)(C)C)C(=O)NC(Cc1ccc(OC(C)(C)C)cc1)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，片段缩合产物14a",
+        "source_label": "14a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_acid_for_13b",
+      "label": "peptide_acid_for_13b",
+      "original_smiles": null,
+      "candidate_smiles": "CSCCC(NC(=O)OCc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CSCCC(NC(=O)OCc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)O",
+        "source_page": 5,
+        "source_region": "Scheme 5，13b/14b条目的肽酸11片段",
+        "source_label": "13b/14b",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:13b",
+      "label": "13b",
+      "original_smiles": null,
+      "candidate_smiles": "CSCCC(NC(=O)OCc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)OC(C)=CC(=O)c1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CSCCC(NC(=O)OCc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)OC(C)=CC(=O)c1ccccc1",
+        "source_page": 5,
+        "source_region": "Scheme 5，肽α-羰基烯酯13b",
+        "source_label": "13b",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_amine_for_14b",
+      "label": "peptide_amine_for_14b",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)C(N)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，14b条目的胺/肽片段12",
+        "source_label": "14b",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:14b",
+      "label": "14b",
+      "original_smiles": null,
+      "candidate_smiles": "CSCCC(NC(=O)OCc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)NC(C(=O)OC(C)(C)C)C(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CSCCC(NC(=O)OCc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)NC(C(=O)OC(C)(C)C)C(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，片段缩合产物14b",
+        "source_label": "14b",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_acid_for_13c",
+      "label": "peptide_acid_for_13c",
+      "original_smiles": null,
+      "candidate_smiles": "O=C(NC(CSC(c1ccccc1)(c1ccccc1)c1ccccc1)C(=O)N1CCCC1C(=O)O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "O=C(NC(CSC(c1ccccc1)(c1ccccc1)c1ccccc1)C(=O)N1CCCC1C(=O)O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 5,
+        "source_region": "Scheme 5，13c/14c条目的肽酸11片段",
+        "source_label": "13c/14c",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:13c",
+      "label": "13c",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C1CCCN1C(=O)C(CSC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C1CCCN1C(=O)C(CSC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 5,
+        "source_region": "Scheme 5，肽α-羰基烯酯13c",
+        "source_label": "13c",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_amine_for_14c",
+      "label": "peptide_amine_for_14c",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，14c条目的胺/肽片段12",
+        "source_label": "14c",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:14c",
+      "label": "14c",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)C1CCCN1C(=O)C(CSC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)C1CCCN1C(=O)C(CSC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，片段缩合产物14c",
+        "source_label": "14c",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_acid_for_13d",
+      "label": "peptide_acid_for_13d",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCc1ccccc1)C(=O)NC(CC(=O)OC(C)(C)C)C(=O)O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(NC(=O)OCc1ccccc1)C(=O)NC(CC(=O)OC(C)(C)C)C(=O)O",
+        "source_page": 5,
+        "source_region": "Scheme 5，13d/14d条目的肽酸11片段",
+        "source_label": "13d/14d",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:13d",
+      "label": "13d",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(=O)OC(C)(C)C)NC(=O)C(C)NC(=O)OCc1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(=O)OC(C)(C)C)NC(=O)C(C)NC(=O)OCc1ccccc1",
+        "source_page": 5,
+        "source_region": "Scheme 5，肽α-羰基烯酯13d",
+        "source_label": "13d",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_amine_for_14d",
+      "label": "peptide_amine_for_14d",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，14d条目的胺/肽片段12",
+        "source_label": "14d",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:14d",
+      "label": "14d",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)C(CC(=O)OC(C)(C)C)NC(=O)C(C)NC(=O)OCc1ccccc1)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)C(CC(=O)OC(C)(C)C)NC(=O)C(C)NC(=O)OCc1ccccc1)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，片段缩合产物14d",
+        "source_label": "14d",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_acid_for_13e",
+      "label": "peptide_acid_for_13e",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(Cc1ccccc1)C(=O)O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(Cc1ccccc1)C(=O)O",
+        "source_page": 5,
+        "source_region": "Scheme 5，13e/14e条目的肽酸11片段",
+        "source_label": "13e/14e",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:13e",
+      "label": "13e",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1ccccc1)NC(=O)C(C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1ccccc1)NC(=O)C(C)NC(=O)OCC1c2ccccc2-c2ccccc21",
+        "source_page": 5,
+        "source_region": "Scheme 5，肽α-羰基烯酯13e",
+        "source_label": "13e",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_amine_for_14e",
+      "label": "peptide_amine_for_14e",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(N)C(=O)NC(COC(C)(C)C)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)C(N)C(=O)NC(COC(C)(C)C)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，14e条目的胺/肽片段12",
+        "source_label": "14e",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:14e",
+      "label": "14e",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(Cc1ccccc1)C(=O)NC(C(=O)NC(COC(C)(C)C)C(=O)OC(C)(C)C)C(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)NC(Cc1ccccc1)C(=O)NC(C(=O)NC(COC(C)(C)C)C(=O)OC(C)(C)C)C(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，片段缩合产物14e",
+        "source_label": "14e",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_acid_for_13f",
+      "label": "peptide_acid_for_13f",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(NC(=O)OCc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)C(NC(=O)OCc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)O",
+        "source_page": 5,
+        "source_region": "Scheme 5，13f/14f条目的肽酸11片段",
+        "source_label": "13f/14f",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:13f",
+      "label": "13f",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1ccccc1)NC(=O)C(NC(=O)OCc1ccccc1)C(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1ccccc1)NC(=O)C(NC(=O)OCc1ccccc1)C(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，肽α-羰基烯酯13f",
+        "source_label": "13f",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_amine_for_14f",
+      "label": "peptide_amine_for_14f",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(NC(=O)C(Cc1ccc(OC(C)(C)C)cc1)NC(=O)CN)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)C(NC(=O)C(Cc1ccc(OC(C)(C)C)cc1)NC(=O)CN)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，14f条目的胺/肽片段12",
+        "source_label": "14f",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:14f",
+      "label": "14f",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(NC(=O)OCc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)NCC(=O)NC(Cc1ccc(OC(C)(C)C)cc1)C(=O)NC(C(=O)OC(C)(C)C)C(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)C(NC(=O)OCc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)NCC(=O)NC(Cc1ccc(OC(C)(C)C)cc1)C(=O)NC(C(=O)OC(C)(C)C)C(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，片段缩合产物14f",
+        "source_label": "14f",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_acid_for_13g",
+      "label": "peptide_acid_for_13g",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCc1ccccc1)C(=O)NC(COC(C)(C)C)C(=O)NC(Cc1ccccc1)C(=O)O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(NC(=O)OCc1ccccc1)C(=O)NC(COC(C)(C)C)C(=O)NC(Cc1ccccc1)C(=O)O",
+        "source_page": 5,
+        "source_region": "Scheme 5，13g/14g条目的肽酸11片段",
+        "source_label": "13g/14g",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:13g",
+      "label": "13g",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1ccccc1)NC(=O)C(COC(C)(C)C)NC(=O)C(C)NC(=O)OCc1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1ccccc1)NC(=O)C(COC(C)(C)C)NC(=O)C(C)NC(=O)OCc1ccccc1",
+        "source_page": 5,
+        "source_region": "Scheme 5，肽α-羰基烯酯13g",
+        "source_label": "13g",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_amine_for_14g",
+      "label": "peptide_amine_for_14g",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)C(N)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，14g条目的胺/肽片段12",
+        "source_label": "14g",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:14g",
+      "label": "14g",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCc1ccccc1)C(=O)NC(COC(C)(C)C)C(=O)NC(Cc1ccccc1)C(=O)NC(C(=O)OC(C)(C)C)C(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(NC(=O)OCc1ccccc1)C(=O)NC(COC(C)(C)C)C(=O)NC(Cc1ccccc1)C(=O)NC(C(=O)OC(C)(C)C)C(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，片段缩合产物14g",
+        "source_label": "14g",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_acid_for_13h",
+      "label": "peptide_acid_for_13h",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCc1ccccc1)C(=O)NC(CC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)C(=O)NC(C(=O)O)C(C)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(NC(=O)OCc1ccccc1)C(=O)NC(CC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)C(=O)NC(C(=O)O)C(C)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，13h/14h条目的肽酸11片段",
+        "source_label": "13h/14h",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:13h",
+      "label": "13h",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(NC(=O)C(CC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)C(C)NC(=O)OCc1ccccc1)C(C)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(NC(=O)C(CC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)C(C)NC(=O)OCc1ccccc1)C(C)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，肽α-羰基烯酯13h",
+        "source_label": "13h",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_amine_for_14h",
+      "label": "peptide_amine_for_14h",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，14h条目的胺/肽片段12",
+        "source_label": "14h",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:14h",
+      "label": "14h",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)C(NC(=O)C(CC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)C(C)NC(=O)OCc1ccccc1)C(C)OC(C)(C)C)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)C(NC(=O)C(CC(=O)NC(c1ccccc1)(c1ccccc1)c1ccccc1)NC(=O)C(C)NC(=O)OCc1ccccc1)C(C)OC(C)(C)C)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，片段缩合产物14h",
+        "source_label": "14h",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_acid_for_13i",
+      "label": "peptide_acid_for_13i",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCc1ccccc1)C(=O)NC(CCC(=O)OC(C)(C)C)C(=O)NC(CC(=O)OC(C)(C)C)C(=O)O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(NC(=O)OCc1ccccc1)C(=O)NC(CCC(=O)OC(C)(C)C)C(=O)NC(CC(=O)OC(C)(C)C)C(=O)O",
+        "source_page": 5,
+        "source_region": "Scheme 5，13i/14i条目的肽酸11片段",
+        "source_label": "13i/14i",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:13i",
+      "label": "13i",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(=O)OC(C)(C)C)NC(=O)C(CCC(=O)OC(C)(C)C)NC(=O)C(C)NC(=O)OCc1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(=O)OC(C)(C)C)NC(=O)C(CCC(=O)OC(C)(C)C)NC(=O)C(C)NC(=O)OCc1ccccc1",
+        "source_page": 5,
+        "source_region": "Scheme 5，肽α-羰基烯酯13i",
+        "source_label": "13i",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_amine_for_14i",
+      "label": "peptide_amine_for_14i",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)C(N)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，14i条目的胺/肽片段12",
+        "source_label": "14i",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:14i",
+      "label": "14i",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)OCc1ccccc1)C(=O)NC(CCC(=O)OC(C)(C)C)C(=O)NC(CC(=O)OC(C)(C)C)C(=O)NC(C(=O)OC(C)(C)C)C(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(NC(=O)OCc1ccccc1)C(=O)NC(CCC(=O)OC(C)(C)C)C(=O)NC(CC(=O)OC(C)(C)C)C(=O)NC(C(=O)OC(C)(C)C)C(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，片段缩合产物14i",
+        "source_label": "14i",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_acid_for_13j",
+      "label": "peptide_acid_for_13j",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)OCc1ccccc1)C(=O)NC(CCC(=O)OC(C)(C)C)C(=O)O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(NC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)OCc1ccccc1)C(=O)NC(CCC(=O)OC(C)(C)C)C(=O)O",
+        "source_page": 5,
+        "source_region": "Scheme 5，13j/14j条目的肽酸11片段",
+        "source_label": "13j/14j",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:13j",
+      "label": "13j",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CCC(=O)OC(C)(C)C)NC(=O)C(C)NC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)OCc1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CCC(=O)OC(C)(C)C)NC(=O)C(C)NC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)OCc1ccccc1",
+        "source_page": 5,
+        "source_region": "Scheme 5，肽α-羰基烯酯13j",
+        "source_label": "13j",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_amine_for_14j",
+      "label": "peptide_amine_for_14j",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(NC(=O)C(N)Cc1ccccc1)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)C(NC(=O)C(N)Cc1ccccc1)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，14j条目的胺/肽片段12",
+        "source_label": "14j",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:14j",
+      "label": "14j",
+      "original_smiles": null,
+      "candidate_smiles": "CC(NC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)OCc1ccccc1)C(=O)NC(CCC(=O)OC(C)(C)C)C(=O)NC(Cc1ccccc1)C(=O)NC(C(=O)OC(C)(C)C)C(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(NC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)OCc1ccccc1)C(=O)NC(CCC(=O)OC(C)(C)C)C(=O)NC(Cc1ccccc1)C(=O)NC(C(=O)OC(C)(C)C)C(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，片段缩合产物14j",
+        "source_label": "14j",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_acid_for_13k",
+      "label": "peptide_acid_for_13k",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OCC(NC(=O)C(Cc1ccccc1)NC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)OCc1ccccc1)C(=O)O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)(C)OCC(NC(=O)C(Cc1ccccc1)NC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)OCc1ccccc1)C(=O)O",
+        "source_page": 5,
+        "source_region": "Scheme 5，13k/14k条目的肽酸11片段",
+        "source_label": "13k/14k",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:13k",
+      "label": "13k",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(COC(C)(C)C)NC(=O)C(Cc1ccccc1)NC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)OCc1ccccc1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(COC(C)(C)C)NC(=O)C(Cc1ccccc1)NC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)OCc1ccccc1",
+        "source_page": 5,
+        "source_region": "Scheme 5，肽α-羰基烯酯13k",
+        "source_label": "13k",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:peptide_amine_for_14k",
+      "label": "peptide_amine_for_14k",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(NC(=O)C(N)COC(C)(C)C)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)C(NC(=O)C(N)COC(C)(C)C)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，14k条目的胺/肽片段12",
+        "source_label": "14k",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:14k",
+      "label": "14k",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)C(NC(=O)C(COC(C)(C)C)NC(=O)C(COC(C)(C)C)NC(=O)C(Cc1ccccc1)NC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)OCc1ccccc1)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)C(NC(=O)C(COC(C)(C)C)NC(=O)C(COC(C)(C)C)NC(=O)C(Cc1ccccc1)NC(=O)CNC(=O)C(Cc1ccccc1)NC(=O)OCc1ccccc1)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 5，片段缩合产物14k",
+        "source_label": "14k",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:chloroacetic_acid",
+      "label": "chloroacetic_acid",
+      "original_smiles": "O=C(O)CCl",
+      "candidate_smiles": "O=C(O)CCl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:15",
+      "label": "15",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)CCl",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)CCl",
+        "source_page": 5,
+        "source_region": "Scheme 6，氯乙酸活化产物15",
+        "source_label": "15",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出α-羰基烯酯连接骨架但未标烯键E/Z。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:Phe_OtBu",
+      "label": "Phe_OtBu",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:16",
+      "label": "16",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)(C)OC(=O)C(CCc1ccccc1)NC(=O)CCl",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)(C)OC(=O)C(CCc1ccccc1)NC(=O)CCl",
+        "source_page": 5,
+        "source_region": "Scheme 6，15与高苯丙氨酸叔丁酯反应所得16",
+        "source_label": "16",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:17",
+      "label": "17",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CCc1ccccc1)NC(=O)CCl",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CCc1ccccc1)NC(=O)CCl",
+        "source_page": 5,
+        "source_region": "Scheme 6，16脱叔丁酯并活化所得17",
+        "source_label": "17",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:Leu_OtBu",
+      "label": "Leu_OtBu",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 6，17→18箭头上方亮氨酸叔丁酯",
+        "source_label": "18 precursor",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:18",
+      "label": "18",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)C(CCc1ccccc1)NC(=O)CCl)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)C(CCc1ccccc1)NC(=O)CCl)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 6，二肽18",
+        "source_label": "18",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:19",
+      "label": "19",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(C)C)NC(=O)C(CCc1ccccc1)NC(=O)CCl",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(CC(C)C)NC(=O)C(CCc1ccccc1)NC(=O)CCl",
+        "source_page": 5,
+        "source_region": "Scheme 6，18脱叔丁酯并活化所得19",
+        "source_label": "19",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:20",
+      "label": "20",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)C(CCc1ccccc1)NC(=O)CCl)C(=O)NC(Cc1ccccc1)C(=O)OC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)C(CCc1ccccc1)NC(=O)CCl)C(=O)NC(Cc1ccccc1)C(=O)OC(C)(C)C",
+        "source_page": 5,
+        "source_region": "Scheme 6，三肽20",
+        "source_label": "20",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:21",
+      "label": "21",
+      "original_smiles": null,
+      "candidate_smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1ccccc1)NC(=O)C(CC(C)C)NC(=O)C(CCc1ccccc1)NC(=O)CCl",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(=CC(=O)c1ccccc1)OC(=O)C(Cc1ccccc1)NC(=O)C(CC(C)C)NC(=O)C(CCc1ccccc1)NC(=O)CCl",
+        "source_page": 5,
+        "source_region": "Scheme 6，20脱叔丁酯并活化所得21",
+        "source_label": "21",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出氨基酸楔线/虚线；活性烯酯双键未标E/Z。本SMILES仅编码连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:warhead_amine",
+      "label": "warhead_amine",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(N)C(=O)C1(C)CO1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(N)C(=O)C1(C)CO1",
+        "source_page": 5,
+        "source_region": "Scheme 6，21→22箭头上方亮氨酸环氧酮胺",
+        "source_label": "22 precursor",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:22",
+      "label": "22",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)C(CCc1ccccc1)NC(=O)CCl)C(=O)NC(Cc1ccccc1)C(=O)NC(CC(C)C)C(=O)C1(C)CO1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)C(CCc1ccccc1)NC(=O)CCl)C(=O)NC(Cc1ccccc1)C(=O)NC(CC(C)C)C(=O)C1(C)CO1",
+        "source_page": 5,
+        "source_region": "Scheme 6，氯乙酰四肽环氧酮22",
+        "source_label": "22",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:23",
+      "label": "23",
+      "original_smiles": null,
+      "candidate_smiles": "CC(C)CC(NC(=O)C(CCc1ccccc1)NC(=O)CN1CCOCC1)C(=O)NC(Cc1ccccc1)C(=O)NC(CC(C)C)C(=O)C1(C)CO1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CC(C)CC(NC(=O)C(CCc1ccccc1)NC(=O)CN1CCOCC1)C(=O)NC(Cc1ccccc1)C(=O)NC(CC(C)C)C(=O)C1(C)CO1",
+        "source_page": 5,
+        "source_region": "Scheme 6，Carfilzomib 23",
+        "source_label": "23",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出楔线/虚线立体关系但未印绝对构型；本SMILES仅编码确证连接骨架，未推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:Fmoc_Gly_CTC_resin",
+      "label": "Fmoc_Gly_CTC_resin",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:aa_vinyl_ester_building_blocks",
+      "label": "aa_vinyl_ester_building_blocks",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:ACP_65_74",
+      "label": "ACP_65_74",
+      "original_smiles": null,
+      "candidate_smiles": "CCC(C)C(NC(=O)C(C)NC(=O)C(C)NC(=O)C(CCC(N)=O)NC(=O)C(N)C(C)C)C(=O)NC(CC(=O)O)C(=O)NC(Cc1ccc(O)cc1)C(=O)NC(C(=O)NC(CC(N)=O)C(=O)NCC(=O)O)C(C)CC",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CCC(C)C(NC(=O)C(C)NC(=O)C(C)NC(=O)C(CCC(N)=O)NC(=O)C(N)C(C)C)C(=O)NC(CC(=O)O)C(=O)NC(Cc1ccc(O)cc1)C(=O)NC(C(=O)NC(CC(N)=O)C(=O)NCC(=O)O)C(C)CC",
+        "source_page": 6,
+        "source_region": "Scheme 7，H-Val-Gln-Ala-Ala-Ile-Asp-Tyr-Ile-Asn-Gly-OH",
+        "source_label": "ACP (65-74)",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图给出各蛋白源氨基酸楔线并列明十肽序列；本SMILES保留序列与侧链连接但不推断R/S。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "9508ed0ca7d13d60ef68a4d929659ba66e77572bc00cf2128394be7e702d75ef"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:PyBOP",
+      "label": "PyBOP",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:HBTU",
+      "label": "HBTU",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "doc_9508ed0ca7d13d60:mol:pentafluorophenyl_ester_building_blocks",
+      "label": "pentafluorophenyl_ester_building_blocks",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    }
+  ]
+}
