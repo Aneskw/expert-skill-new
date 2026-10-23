@@ -1,0 +1,879 @@
+{
+  "document_id": "doc_60acc8016b4c0614",
+  "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9",
+  "source_relative_paths": [
+    "联烯的转化20-25/2021/J. Org. Chem. 2021, 86, 15597−15605.pdf"
+  ],
+  "original_archive": "200篇文献/联烯的转化20-25/2021/J. Org. Chem. 2021, 86, 15597−15605",
+  "original_records_sha256": "a52175760cc1308ff6c126475bba8c15c81bd3c433139260bf18db178ebd2a5b",
+  "note": "候选结构与绘图结果；未改变原归档记录。drawable仅表示可绘制，不表示已化学核验。",
+  "molecules": [
+    {
+      "molecule_id": "m1",
+      "label": "1",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)[C@@]12C=C(OC)[C@@]3(Cl)[C@@](O)(C1=O)C(C1=C[C@H](O)[C@@H]4O[C@]4(CC=C(C)C)[C@@H]1OC(=O)c1c(O)cc(C)cc1O)=C[C@@]3(C)C2",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)[C@@]12C=C(OC)[C@@]3(Cl)[C@@](O)(C1=O)C(C1=C[C@H](O)[C@@H]4O[C@]4(CC=C(C)C)[C@@H]1OC(=O)c1c(O)cc(C)cc1O)=C[C@@]3(C)C2",
+        "source_page": 1,
+        "source_region": "Figure 1的chloropupukeananin 1；第6页Scheme 3终产物复核",
+        "source_label": "1",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "encoded",
+        "stereochemistry_text": "Figure 1与Scheme 3画出完整稠合骨架及楔/虚线；八个四面体手性中心已编码。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m2",
+      "label": "2",
+      "original_smiles": null,
+      "candidate_smiles": "C=C(C)C=C=C1C[C@H](O)[C@@H]2O[C@]2(CC=C(C)C)[C@@H]1O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C=C(C)C=C=C1C[C@H](O)[C@@H]2O[C@]2(CC=C(C)C)[C@@H]1O",
+        "source_page": 1,
+        "source_region": "Figure 1的(+)-iso-A82775C 2；第4页Table 2脱保护产物复核",
+        "source_label": "2",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "四个环上碳中心按Figure 1楔线编码；侧链联烯轴向关系虽由图中楔/虚线表示，但普通RDKit SMILES未可靠保留该轴手性，故整体标为connectivity_only。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m3",
+      "label": "3",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m4",
+      "label": "4",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C1=CC(OC)=C(Cl)C(=O)[C@]12OC(=O)c1c(O)cc(C)cc1O2",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C1=CC(OC)=C(Cl)C(=O)[C@]12OC(=O)c1c(O)cc(C)cc1O2",
+        "source_page": 1,
+        "source_region": "Figure 1的(−)-(R)-maldoxin 4；Figure 3中心结构复核",
+        "source_label": "4",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "encoded",
+        "stereochemistry_text": "原文明示(−)-(R)-maldoxin，Figure 1画出缩酮中心楔/虚线；该唯一四面体中心编码为R。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m5",
+      "label": "5",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m6",
+      "label": "6",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)[C@@]12C=C(OC)[C@@](Cl)(C(=O)[C@]13OC(=O)c1c(O)cc(C)cc1O3)[C@](C)(C=C=C1C[C@H](O)[C@@H]3O[C@]3(CC=C(C)C)[C@@H]1O)C2",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)[C@@]12C=C(OC)[C@@](Cl)(C(=O)[C@]13OC(=O)c1c(O)cc(C)cc1O3)[C@](C)(C=C=C1C[C@H](O)[C@@H]3O[C@]3(CC=C(C)C)[C@@H]1O)C2",
+        "source_page": 5,
+        "source_region": "Table 3的chloropestolide B 6；Figure 3确认Si-anti",
+        "source_label": "6",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "八个四面体中心按Table 3楔/虚线编码；产物属于Si-anti。联烯轴向构型未由普通RDKit SMILES可靠保留，故整体标为connectivity_only。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m7",
+      "label": "7",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C12C=C(OC)C(Cl)(C(=O)C13OC(=O)c1c(O)cc(C)cc1O3)C(C)(C=C=C1CC(O)C3OC3(CC=C(C)C)C1O)C2",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C12C=C(OC)C(Cl)(C(=O)C13OC(=O)c1c(O)cc(C)cc1O3)C(C)(C=C=C1CC(O)C3OC3(CC=C(C)C)C1O)C2",
+        "source_page": 5,
+        "source_region": "Table 3的chloropestolide C 7；Figure 3确认Si-syn",
+        "source_label": "7",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图明确为Si-syn环加成物并画出楔/虚线；完整连接骨架已转写，但其桥环相对构型和联烯轴手性未可靠编码。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m8",
+      "label": "8",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m9",
+      "label": "9",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m10",
+      "label": "10",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m11",
+      "label": "11",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)[C@]12C=C(OC)[C@@]3(Cl)[C@](O)(C(C4=C[C@H](O)[C@@H]5O[C@]5(CC=C(C)C)[C@@H]4O)=C[C@@]3(C)C1)[C@]21OC(=O)c2c(O)cc(C)cc2O1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)[C@]12C=C(OC)[C@@]3(Cl)[C@](O)(C(C4=C[C@H](O)[C@@H]5O[C@]5(CC=C(C)C)[C@@H]4O)=C[C@@]3(C)C1)[C@]21OC(=O)c2c(O)cc(C)cc2O1",
+        "source_page": 5,
+        "source_region": "Table 3的carbonyl-ene产物chloropupukeanolide D 11；Figure 2复核",
+        "source_label": "11",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "encoded",
+        "stereochemistry_text": "Table 3完整画出九个四面体手性中心；楔/虚线关系均编码。第9页脚注说明实际11为左旋体。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m12",
+      "label": "12",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m13",
+      "label": "13",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C12C=C(OC)C(Cl)(C(=O)C13OC(=O)c1c(O)cc(C)cc1O3)C(C)(C#Cc1cc(O)ccc1O)C2",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C12C=C(OC)C(Cl)(C(=O)C13OC(=O)c1c(O)cc(C)cc1O3)C(C)(C#Cc1cc(O)ccc1O)C2",
+        "source_page": 2,
+        "source_region": "Figure 2黄色框chloropestolide H 13；Figure 3/Table 1确认Re-syn",
+        "source_label": "13",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图明确为Re-syn环加成物；共同连接骨架已转写，但复杂桥环的全部楔/虚线未可靠编码。第6页实验说明13与16作为不可分混合物取得，不影响13的图示连接结构。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m14",
+      "label": "14",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C12C=C(OC)C(Cl)(C(=O)C13OC(=O)c1c(O)cc(C)cc1O3)C(C)(C#Cc1cc(O)ccc1O)C2",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C12C=C(OC)C(Cl)(C(=O)C13OC(=O)c1c(O)cc(C)cc1O3)C(C)(C#Cc1cc(O)ccc1O)C2",
+        "source_page": 2,
+        "source_region": "Figure 2黄色框chloropestolide I 14；Figure 3/Table 1确认Si-syn",
+        "source_label": "14",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图明确为Si-syn环加成物；共同连接骨架已转写，但复杂桥环的全部楔/虚线未可靠编码。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m15",
+      "label": "15",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C12C=C(OC)C(Cl)(C(=O)C13OC(=O)c1c(O)cc(C)cc1O3)C(C)(C#Cc1cc(O)ccc1O)C2",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C12C=C(OC)C(Cl)(C(=O)C13OC(=O)c1c(O)cc(C)cc1O3)C(C)(C#Cc1cc(O)ccc1O)C2",
+        "source_page": 2,
+        "source_region": "Figure 2黄色框chloropestolide J 15；Figure 3/Table 1确认Si-anti",
+        "source_label": "15",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图明确为Si-anti环加成物；共同连接骨架已转写，但复杂桥环的全部楔/虚线未可靠编码。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m16",
+      "label": "16",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C12C=C(OC)C(Cl)(C(=O)C13OC(=O)c1c(O)cc(C)cc1O3)C(C)(C#Cc1cc(O)ccc1O)C2",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C12C=C(OC)C(Cl)(C(=O)C13OC(=O)c1c(O)cc(C)cc1O3)C(C)(C#Cc1cc(O)ccc1O)C2",
+        "source_page": 2,
+        "source_region": "Figure 2黄色框chloropestolide K 16；Figure 3/Table 1确认Re-anti",
+        "source_label": "16",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图明确为Re-anti环加成物；共同连接骨架已转写，但复杂桥环的全部楔/虚线未可靠编码。第6页实验说明16与13作为不可分混合物取得。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m17",
+      "label": "17",
+      "original_smiles": null,
+      "candidate_smiles": "C=C(C)C#Cc1cc(O)ccc1O",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C=C(C)C#Cc1cc(O)ccc1O",
+        "source_page": 2,
+        "source_region": "Figure 2右上及Table 1反应物siccayne 17",
+        "source_label": "17",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "not_applicable",
+        "stereochemistry_text": "图示为末端异丙烯基、炔键及二羟基苯环；无中心手性或可定义E/Z。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m18",
+      "label": "18",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m19",
+      "label": "19",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m20",
+      "label": "20",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m21",
+      "label": "21",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m22",
+      "label": "22",
+      "original_smiles": null,
+      "candidate_smiles": "C#CC1(Cl)C[C@H](O[Si](CC)(CC)CC)[C@@H]2O[C@]2(CC=C(C)C)[C@@H]1O[Si](CC)(CC)CC",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C#CC1(Cl)C[C@H](O[Si](CC)(CC)CC)[C@@H]2O[C@]2(CC=C(C)C)[C@@H]1O[Si](CC)(CC)CC",
+        "source_page": 4,
+        "source_region": "Table 2左侧propargylic chloride 22",
+        "source_label": "22",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "Table 2明确画出双OTES保护、环氧桥、prenyl链及同碳Cl/C≡CH；保留与2相同的四个环上碳中心，Cl/C≡CH季碳的楔/虚线未可靠编码。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m23",
+      "label": "23",
+      "original_smiles": null,
+      "candidate_smiles": "C=C(C)C=C=C1C[C@H](O[Si](CC)(CC)CC)[C@@H]2O[C@]2(CC=C(C)C)[C@@H]1O[Si](CC)(CC)CC",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "C=C(C)C=C=C1C[C@H](O[Si](CC)(CC)CC)[C@@H]2O[C@]2(CC=C(C)C)[C@@H]1O[Si](CC)(CC)CC",
+        "source_page": 4,
+        "source_region": "Table 2中间protected allene 23；右侧脱保护生成(+)-2",
+        "source_label": "23",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "由Table 2的23局部结构与同箭头终产物2核对完整左侧桥环；四个环上碳中心已编码，图示联烯轴向关系未可靠写入普通SMILES。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "60acc8016b4c061413321def74470b2a617aa4a4830b8588806bc99d83394be9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m24",
+      "label": "24",
+      "original_smiles": "COc1cc(C=O)c(OC)cc1Cl",
+      "candidate_smiles": "COc1cc(C=O)c(OC)cc1Cl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m25",
+      "label": "25",
+      "original_smiles": "COC(=O)c1cc(OC)c(Cl)cc1OC",
+      "candidate_smiles": "COC(=O)c1cc(OC)c(Cl)cc1OC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m26",
+      "label": "26",
+      "original_smiles": "COC(=O)c1cc(OC)c(Cl)c(O)c1OC",
+      "candidate_smiles": "COC(=O)c1cc(OC)c(Cl)c(O)c1OC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m27",
+      "label": "27",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m28",
+      "label": "28",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mix_chlorohydrins",
+      "label": "chlorohydrins",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "isopropenyl_mgbr",
+      "label": "isopropenylmagnesium bromide",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "cucn",
+      "label": "copper(I) cyanide",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "zncl2",
+      "label": "zinc chloride",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "incl3",
+      "label": "indium(III) chloride",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "pdpph3",
+      "label": "tetrakis(triphenylphosphine)palladium(0)",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "tbaf",
+      "label": "tetrabutylammonium fluoride",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "pida",
+      "label": "(diacetoxyiodo)benzene (PIDA)",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "tfa",
+      "label": "trifluoroacetic acid (TFA)",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "acoh",
+      "label": "acetic acid",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "k2co3",
+      "label": "potassium carbonate",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "h2so4",
+      "label": "sulfuric acid",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "kotbu",
+      "label": "potassium tert-butoxide",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "thf",
+      "label": "tetrahydrofuran",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "etoac",
+      "label": "ethyl acetate",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "h2o",
+      "label": "water",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "hfip",
+      "label": "hexafluoroisopropanol",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "benzene",
+      "label": "benzene",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "ch2cl2",
+      "label": "dichloromethane",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mecn",
+      "label": "acetonitrile",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "acetone",
+      "label": "acetone",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "meoh",
+      "label": "methanol",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "et2o",
+      "label": "diethyl ether",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "etoh",
+      "label": "ethanol",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "iproh",
+      "label": "2-propanol",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "dce",
+      "label": "1,2-dichloroethane",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "dmf",
+      "label": "N,N-dimethylformamide",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "nh4cl",
+      "label": "ammonium chloride",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "nhexane",
+      "label": "n-hexane",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mgso4",
+      "label": "magnesium sulfate",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "brine",
+      "label": "brine",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "silica",
+      "label": "silica gel",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "organoindium_reagent",
+      "label": "freshly prepared organoindium reagent solution",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m24_start",
+      "label": "2-chloro-1,4-dimethoxybenzene",
+      "original_smiles": "COc1ccc(OC)c(Cl)c1",
+      "candidate_smiles": "COc1ccc(OC)c(Cl)c1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m24_acid",
+      "label": "4-chloro-2,5-dimethoxybenzoic acid",
+      "original_smiles": "COc1cc(C(=O)O)c(OC)cc1Cl",
+      "candidate_smiles": "COc1cc(C(=O)O)c(OC)cc1Cl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "hmta",
+      "label": "hexamethylenetetramine",
+      "original_smiles": "C1N2CN3CN1CN(C2)C3",
+      "candidate_smiles": "C1N2CN3CN1CN(C2)C3",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "tbuoh",
+      "label": "t-BuOH",
+      "original_smiles": "CC(C)(C)O",
+      "candidate_smiles": "CC(C)(C)O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "2m2b",
+      "label": "2-methyl-2-butene",
+      "original_smiles": "CC=C(C)C",
+      "candidate_smiles": "CC=C(C)C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "nah2po4_2h2o",
+      "label": "NaH2PO4·2H2O",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "naclo2",
+      "label": "NaClO2",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "naoh",
+      "label": "NaOH aqueous solution",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "nahco3",
+      "label": "NaHCO3",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "hcl_aq",
+      "label": "1 M aqueous HCl",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    }
+  ],
+  "previous_archive": "联烯Evolab新增_v3.1_2026-10-19/已完成文献/联烯的转化20-25/2021/J. Org. Chem. 2021, 86, 15597−15605"
+}

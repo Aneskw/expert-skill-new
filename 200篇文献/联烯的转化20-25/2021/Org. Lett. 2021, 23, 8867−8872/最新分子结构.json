@@ -1,0 +1,563 @@
+{
+  "document_id": "doc_89290e15b92920b2",
+  "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb",
+  "source_relative_paths": [
+    "联烯的转化20-25/2021/Org. Lett. 2021, 23, 8867−8872.pdf"
+  ],
+  "original_archive": "200篇文献/联烯的转化20-25/2021/Org. Lett. 2021, 23, 8867−8872",
+  "original_records_sha256": "69babbeb0fdb87366dd92e4411099c05166a8eaf69915f6c0370383ede628869",
+  "note": "候选结构与绘图结果；未改变原归档记录。drawable仅表示可绘制，不表示已化学核验。",
+  "molecules": [
+    {
+      "molecule_id": "mol_c60",
+      "label": "C60",
+      "original_smiles": null,
+      "candidate_smiles": "c12c3c4c5c1c1c6c7c2c2c8c3c3c9c4c4c%10c5c5c1c1c6c6c%11c7c2c2c7c8c3c3c8c9c4c4c9c%10c5c5c1c1c6c6c%11c2c2c7c3c3c8c4c4c9c5c1c1c6c2c3c41",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "c12c3c4c5c1c1c6c7c2c2c8c3c3c9c4c4c%10c5c5c1c1c6c6c%11c7c2c2c7c8c3c3c8c9c4c4c9c%10c5c5c1c1c6c6c%11c2c2c7c3c3c8c4c4c9c5c1c1c6c2c3c41",
+        "source_page": 2,
+        "source_region": "Scheme 1b反应物及全文各反应式所示[60]fullerene笼",
+        "source_label": "C60",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "not_applicable",
+        "stereochemistry_text": null,
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_tbunc",
+      "label": "tBuNC",
+      "original_smiles": "[C-]#[N+]C(C)(C)C",
+      "candidate_smiles": "[C-]#[N+]C(C)(C)C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_cync",
+      "label": "CyNC",
+      "original_smiles": "[C-]#[N+]C1CCCCC1",
+      "candidate_smiles": "[C-]#[N+]C1CCCCC1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_dmad",
+      "label": "DMAD",
+      "original_smiles": "COC(=O)C#CC(=O)OC",
+      "candidate_smiles": "COC(=O)C#CC(=O)OC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_odcb",
+      "label": "oDCB",
+      "original_smiles": "Clc1ccccc1Cl",
+      "candidate_smiles": "Clc1ccccc1Cl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_toluene",
+      "label": "toluene",
+      "original_smiles": "Cc1ccccc1",
+      "candidate_smiles": "Cc1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_tsoh_h2o",
+      "label": "TsOH·H2O",
+      "original_smiles": "Cc1ccc(S(=O)(=O)O)cc1.O",
+      "candidate_smiles": "Cc1ccc(S(=O)(=O)O)cc1.O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_chcl3",
+      "label": "CHCl3",
+      "original_smiles": "ClC(Cl)Cl",
+      "candidate_smiles": "ClC(Cl)Cl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_water",
+      "label": "H2O",
+      "original_smiles": "O",
+      "candidate_smiles": "O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_air",
+      "label": "air",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "mol_4a",
+      "label": "4a",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C1=C(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C73C1=NC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C1=C(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C73C1=NC(C)(C)C",
+        "source_page": 2,
+        "source_region": "Scheme 1b直接结构及Figure 1左侧单晶结构",
+        "source_label": "4a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "单晶确认五元环位于[6,6]键并显示叔丁基与富勒烯笼为反式；未将该相对关系强行映射为绝对立体SMILES。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_4b",
+      "label": "4b",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C1=C(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C73C1=NC1CCCCC1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C1=C(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C73C1=NC1CCCCC1",
+        "source_page": 2,
+        "source_region": "Scheme 1b中环己基异氰化物所得[3+2]产物及相邻正文",
+        "source_label": "4b",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原文报告立体异构体混合物，次组13C峰强度约为主组的1/5，并仅假设主产物为反式；补录两者共有连接骨架。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_5a",
+      "label": "5a",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C(=C=NC(C)(C)C)C1(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C713",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C(=C=NC(C)(C)C)C1(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C713",
+        "source_page": 2,
+        "source_region": "Scheme 1b直接结构及Figure 1右侧单晶结构",
+        "source_label": "5a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "单晶确认闭笼酮亚胺甲桥[60]富勒烯连接；原文未另行指派可编码的绝对或轴构型。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_5b",
+      "label": "5b",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C(=C=NC1CCCCC1)C1(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C713",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C(=C=NC1CCCCC1)C1(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C713",
+        "source_page": 2,
+        "source_region": "Scheme 1b中环己基酮亚胺甲桥产物",
+        "source_label": "5b",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "正文依据与5a的NMR、极性等高度相似性确认相同闭笼连接；未指派绝对或轴构型。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_6a",
+      "label": "6a",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C(C(=O)NC(C)(C)C)C1(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C731",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C(C(=O)NC(C)(C)C)C1(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C731",
+        "source_page": 2,
+        "source_region": "Scheme 1b中5a酸水合所得叔丁基酰胺",
+        "source_label": "6a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "图示连接由5a水合确定；酰胺相邻甲次碳的绝对构型未报告。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_6b",
+      "label": "6b",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C(C(=O)NC1CCCCC1)C1(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C731",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C(C(=O)NC1CCCCC1)C1(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C731",
+        "source_page": 2,
+        "source_region": "Scheme 1b中5b酸水合所得环己基酰胺",
+        "source_label": "6b",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "图示连接由5b水合确定；酰胺相邻甲次碳的绝对构型未报告。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_7a",
+      "label": "7a",
+      "original_smiles": "COC(=O)C#Cc1ccc([N+](=O)[O-])cc1",
+      "candidate_smiles": "COC(=O)C#Cc1ccc([N+](=O)[O-])cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_7b",
+      "label": "7b",
+      "original_smiles": "COC(=O)C#C/C=C/C(=O)OC",
+      "candidate_smiles": "COC(=O)C#C/C=C/C(=O)OC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_7c",
+      "label": "7c",
+      "original_smiles": "C#CC(=O)OC",
+      "candidate_smiles": "C#CC(=O)OC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_7d",
+      "label": "7d",
+      "original_smiles": "CC#CC(=O)OC",
+      "candidate_smiles": "CC#CC(=O)OC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_7e",
+      "label": "7e",
+      "original_smiles": "COC(=O)C#CC(F)(F)F",
+      "candidate_smiles": "COC(=O)C#CC(F)(F)F",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_7f",
+      "label": "7f",
+      "original_smiles": "COC(=O)C#Cc1ccccc1",
+      "candidate_smiles": "COC(=O)C#Cc1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_7g",
+      "label": "7g",
+      "original_smiles": "C#CC(=O)OCCCCCC",
+      "candidate_smiles": "C#CC(=O)OCCCCCC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_7h",
+      "label": "7h",
+      "original_smiles": "C#CC(C)=O",
+      "candidate_smiles": "C#CC(C)=O",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_7i",
+      "label": "7i",
+      "original_smiles": "COC(=O)C#CC#CC(=O)OC",
+      "candidate_smiles": "COC(=O)C#CC#CC(=O)OC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_7j",
+      "label": "7j",
+      "original_smiles": "O=[N+]([O-])c1ccc(C#Cc2ccc([N+](=O)[O-])cc2)cc1",
+      "candidate_smiles": "O=[N+]([O-])c1ccc(C#Cc2ccc([N+](=O)[O-])cc2)cc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_8a",
+      "label": "8a",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C1=C(c2ccc([N+](=O)[O-])cc2)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C73C1=NC(C)(C)C",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C1=C(c2ccc([N+](=O)[O-])cc2)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C73C1=NC(C)(C)C",
+        "source_page": 3,
+        "source_region": "Scheme 2中7a所得、直接画出的[3+2]亚胺环产物",
+        "source_label": "8a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "主文未指派该不对称五元环产物的绝对构型或亚胺几何，SMILES仅编码图示连接。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_9a",
+      "label": "9a",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C(=C=NC(C)(C)C)C1(c2ccc([N+](=O)[O-])cc2)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C713",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C(=C=NC(C)(C)C)C1(c2ccc([N+](=O)[O-])cc2)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C713",
+        "source_page": 3,
+        "source_region": "Scheme 2中7a所得对硝基苯基酮亚胺甲桥产物",
+        "source_label": "9a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "HMBC确认芳基位于新形成的甲桥碳一侧；主文未指派绝对或轴构型。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_9b",
+      "label": "9b",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C=CC1(C(=C=NC(C)(C)C)C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C713",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C=CC1(C(=C=NC(C)(C)C)C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C713",
+        "source_page": 3,
+        "source_region": "Scheme 2中7b所得产物及右下单晶结构",
+        "source_label": "9b",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "单晶确认闭笼甲桥骨架，正文明确共轭C=C保留；主文未明确给出该双键E/Z标签，故不编码几何。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_10a",
+      "label": "10a",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C(C(=O)NC(C)(C)C)C1(c2ccc([N+](=O)[O-])cc2)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C731",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C(C(=O)NC(C)(C)C)C1(c2ccc([N+](=O)[O-])cc2)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C731",
+        "source_page": 3,
+        "source_region": "Scheme 2中9a经TsOH水合所得甲桥酰胺",
+        "source_label": "10a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "酰胺、甲酯与对硝基苯基位置由图示确定；原文未指派新生甲次碳的绝对构型，SMILES仅编码连接。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_10b",
+      "label": "10b",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C=CC1(C(C(=O)NC(C)(C)C)C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C731",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C=CC1(C(C(=O)NC(C)(C)C)C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C731",
+        "source_page": 3,
+        "source_region": "Scheme 2中9b经TsOH水合所得保留烯键的甲桥酰胺",
+        "source_label": "10b",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "正文明确C=C在9b及10b中保留，但主文未明确指派E/Z；酰胺相邻甲次碳构型亦未指派，故仅编码共有连接。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_11a",
+      "label": "11a",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C(C#N)C1(c2ccc([N+](=O)[O-])cc2)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C731",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C(C#N)C1(c2ccc([N+](=O)[O-])cc2)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C731",
+        "source_page": 3,
+        "source_region": "Scheme 2中9a酸处理生成、直接画出的含氰基副产物",
+        "source_label": "11a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "图示明确甲桥碳连对硝基苯基、邻碳连氰基和甲酯；该邻碳绝对构型未指派。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_7i_trace_product",
+      "label": "7i_trace_product",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_12a",
+      "label": "12a",
+      "original_smiles": "COC(=O)C=C=CC(=O)OC",
+      "candidate_smiles": "COC(=O)C=C=CC(=O)OC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_12b",
+      "label": "12b",
+      "original_smiles": "C=C=CC(=O)OCC",
+      "candidate_smiles": "C=C=CC(=O)OCC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_13a",
+      "label": "13a",
+      "original_smiles": null,
+      "candidate_smiles": "COC(=O)C1C(C(=O)NC(C)(C)C)C(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C713",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "COC(=O)C1C(C(=O)NC(C)(C)C)C(C(=O)OC)C23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C713",
+        "source_page": 4,
+        "source_region": "Scheme 4中12a四组分反应产物及其NMR相对构型图",
+        "source_label": "13a",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原文由耦合常数和HMBC确定Ha与Hb反式、Hb与Hc顺式；未给绝对构型，SMILES保留连接并在文字中保存相对关系。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "mol_13b",
+      "label": "13b",
+      "original_smiles": null,
+      "candidate_smiles": "CCOC(=O)C1C(C(=O)NC(C)(C)C)CC23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C713",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "CCOC(=O)C1C(C(=O)NC(C)(C)C)CC23c4c5c6c7c8c9c(c%10c%11c2c2c4c4c%12c5c5c6c6c8c8c%13c9c9c%10c%10c%11c%11c2c2c4c4c%12c%12c5c5c6c8c6c8c%13c9c9c%10c%10c%11c2c2c4c4c%12c5c6c5c8c9c%10c2c45)C713",
+        "source_page": 4,
+        "source_region": "Scheme 4中12b四组分反应产物及其NMR相对构型图",
+        "source_label": "13b",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原文确定Hh/He、Hd/He及Hd/Hh为顺式，Hd/Hg为反式；未给绝对构型，SMILES仅编码连接。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "89290e15b92920b2daf5e57736b456b2b1458085488aad10ddd83c6042a7efeb"
+      },
+      "used_in_specific_experiments": true
+    }
+  ],
+  "previous_archive": "联烯Evolab新增_v3.1_2026-10-19/已完成文献/联烯的转化20-25/2021/Org. Lett. 2021, 23, 8867−8872"
+}

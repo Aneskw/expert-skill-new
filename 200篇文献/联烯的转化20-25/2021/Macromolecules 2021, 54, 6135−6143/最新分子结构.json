@@ -1,0 +1,325 @@
+{
+  "document_id": "doc_85bd2ca086151f67",
+  "source_sha256": "85bd2ca086151f6778be73483b0d629e0557f3b55b7d1471b366b918e1f1aca9",
+  "source_relative_paths": [
+    "联烯的转化20-25/2021/Macromolecules 2021, 54, 6135−6143.pdf"
+  ],
+  "original_archive": "200篇文献/联烯的转化20-25/2021/Macromolecules 2021, 54, 6135−6143",
+  "original_records_sha256": "e912b234bda7dcc3bd1dff5d01282de1419939b0defc5da75450333dba17db58",
+  "note": "候选结构与绘图结果；未改变原归档记录。drawable仅表示可绘制，不表示已化学核验。",
+  "molecules": [
+    {
+      "molecule_id": "m_1_cyclononadiene",
+      "label": "1",
+      "original_smiles": "C1=C=CCCCCCC1",
+      "candidate_smiles": "C1=C=CCCCCCC1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_poly1",
+      "label": "poly(1)",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_G3",
+      "label": "G3",
+      "original_smiles": null,
+      "candidate_smiles": "Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)[C]2=[Ru]([Cl])([Cl])(=[CH]c2ccccc2)(<-[n]2cccc(Br)c2)<-[n]2cccc(Br)c2)c(C)c1",
+      "drawable": true,
+      "status": "needs_review",
+      "repair": {
+        "smiles": "Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)[C]2=[Ru]([Cl])([Cl])(=[CH]c2ccccc2)(<-[n]2cccc(Br)c2)<-[n]2cccc(Br)c2)c(C)c1",
+        "source_page": 5,
+        "source_region": "Figure 3中央，完整标注为G3的第三代Grubbs催化剂",
+        "source_label": "G3",
+        "method": "evolab_visual_reextraction",
+        "status": "needs_review",
+        "stereo_status": "connectivity_only",
+        "stereochemistry_text": "原图明确H₂IMes、两个Cl、Ru=CHPh及两个3-溴吡啶的配位连接；SMILES保留两个N→Ru配位键，但不主张原文未指定的三维配位构型。",
+        "display_note": "Evolab原文结构重提取；待复核",
+        "original_smiles": null,
+        "source_sha256": "85bd2ca086151f6778be73483b0d629e0557f3b55b7d1471b366b918e1f1aca9"
+      },
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_G2",
+      "label": "G2",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_HG2",
+      "label": "HG2",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_G1",
+      "label": "G1",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_Mo",
+      "label": "Mo",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_THF",
+      "label": "THF",
+      "original_smiles": "C1CCOC1",
+      "candidate_smiles": "C1CCOC1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_toluene",
+      "label": "toluene",
+      "original_smiles": "Cc1ccccc1",
+      "candidate_smiles": "Cc1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_DCM",
+      "label": "CH2Cl2",
+      "original_smiles": "ClCCl",
+      "candidate_smiles": "ClCCl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_hexane",
+      "label": "n-hexane",
+      "original_smiles": "CCCCCC",
+      "candidate_smiles": "CCCCCC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_chlorobenzene",
+      "label": "chlorobenzene",
+      "original_smiles": "Clc1ccccc1",
+      "candidate_smiles": "Clc1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_dioxane",
+      "label": "1,4-dioxane",
+      "original_smiles": "O1CCOCC1",
+      "candidate_smiles": "O1CCOCC1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_methanol",
+      "label": "methanol",
+      "original_smiles": "CO",
+      "candidate_smiles": "CO",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_EVE",
+      "label": "ethyl vinyl ether",
+      "original_smiles": "C=COCC",
+      "candidate_smiles": "C=COCC",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_CTA2",
+      "label": "2",
+      "original_smiles": "CC(C)CC=C=CCC(C)C",
+      "candidate_smiles": "CC(C)CC=C=CCC(C)C",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_CTA3",
+      "label": "3",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_CTA4",
+      "label": "4",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_poly1_CTA2",
+      "label": "poly(1), CTA 2 end groups",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_poly1_CTA3",
+      "label": "poly(1), CTA 3 end groups",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_poly1_CTA4",
+      "label": "poly(1), CTA 4 end groups",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_CDCl3",
+      "label": "CDCl3",
+      "original_smiles": "[2H]C(Cl)(Cl)Cl",
+      "candidate_smiles": "[2H]C(Cl)(Cl)Cl",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_Ru_vinylidene",
+      "label": "Ru vinylidene",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_dimethylphenylsilane",
+      "label": "dimethyl(phenyl)silane",
+      "original_smiles": "C[SiH](C)c1ccccc1",
+      "candidate_smiles": "C[SiH](C)c1ccccc1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_Karstedt",
+      "label": "Karstedt's catalyst",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_poly1_Si_mix",
+      "label": "poly(1)-Si",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_5_cyclononatriene",
+      "label": "5",
+      "original_smiles": "C1=C=CCCC=CCC1",
+      "candidate_smiles": "C1=C=CCCC=CCC1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_poly5",
+      "label": "poly(5)",
+      "original_smiles": null,
+      "candidate_smiles": null,
+      "drawable": false,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    },
+    {
+      "molecule_id": "m_THF_d8",
+      "label": "THF-d8",
+      "original_smiles": "[2H]C1([2H])C([2H])([2H])C([2H])([2H])OC1([2H])[2H]",
+      "candidate_smiles": "[2H]C1([2H])C([2H])([2H])C([2H])([2H])OC1([2H])[2H]",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": false
+    },
+    {
+      "molecule_id": "m_COD",
+      "label": "COD",
+      "original_smiles": "C1=CCCC=CCC1",
+      "candidate_smiles": "C1=CCCC=CCC1",
+      "drawable": true,
+      "status": "original_candidate",
+      "repair": null,
+      "used_in_specific_experiments": true
+    }
+  ],
+  "previous_archive": "联烯Evolab新增_v3.1_2026-10-19/已完成文献/联烯的转化20-25/2021/Macromolecules 2021, 54, 6135−6143"
+}
